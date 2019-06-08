@@ -1,0 +1,137 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2019-06-07T23:27:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/596362294",
+        "amenity": "vending_machine",
+        "operator": "Norwich City Council",
+        "vending": "parking_tickets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2895191,
+          52.6292951
+        ]
+      },
+      "id": "node/596362294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1314069654",
+        "amenity": "vending_machine",
+        "vending": "parking_tickets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2990689,
+          52.6305978
+        ]
+      },
+      "id": "node/1314069654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1314077011",
+        "amenity": "vending_machine",
+        "vending": "parking_tickets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2903127,
+          52.6308376
+        ]
+      },
+      "id": "node/1314077011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1314085368",
+        "amenity": "vending_machine",
+        "vending": "parking_tickets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2972499,
+          52.6309853
+        ]
+      },
+      "id": "node/1314085368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1314094026",
+        "amenity": "vending_machine",
+        "vending": "parking_tickets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.288723,
+          52.6293613
+        ]
+      },
+      "id": "node/1314094026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1314143052",
+        "amenity": "vending_machine",
+        "vending": "parking_tickets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2885091,
+          52.6313502
+        ]
+      },
+      "id": "node/1314143052"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1323563588",
+        "amenity": "vending_machine",
+        "vending": "parking_tickets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2977558,
+          52.6322254
+        ]
+      },
+      "id": "node/1323563588"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5068906167",
+        "amenity": "vending_machine",
+        "vending": "parking_tickets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2963854,
+          52.630809
+        ]
+      },
+      "id": "node/5068906167"
+    }
+  ]
+}
