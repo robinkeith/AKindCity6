@@ -1,0 +1,21 @@
+<div id="accessibility-cloud-results"></div>
+<script type="text/javascript">
+  window.onAccessibilityCloudLoaded = function (AccessibilityCloud) {
+    var element = document.querySelector('#accessibility-cloud-results');
+    AccessibilityCloud.render(element, {
+      token: '8ba04f4de90656b380d326768509a71e',
+        locale: 'de_DE',
+        requestParameters: {
+          latitude: 52.628533, // <-- Replace these coordinates with your own
+          longitude: 1.291904,
+          accuracy: 1000, // <-- Search radius, in meters
+          limit: 20, // <-- Maximal number of returned results
+          locale:"en",
+          // The following line displays only places accessible by wheelchair. Remove it to return all places.
+          filter: 'at-least-partially-accessible-by-wheelchair',
+        },
+    });
+  };
+</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sozialhelden/accessibility-cloud-js@3.2.1/build/example/accessibility.cloud-3.2.1-2350f78a.css">
+<script type="text/javascript" async defer src="https://cdn.jsdelivr.net/gh/sozialhelden/accessibility-cloud-js@3.2.1/build/example/accessibility.cloud-3.2.1-21a6710d.min.js"></script>

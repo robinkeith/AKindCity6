@@ -24,6 +24,14 @@ Find out more information on tags: [OSM Wiki](https://wiki.openstreetmap.org/wik
 node["amenity"="toilets"]({{bbox}});
 way["amenity"="toilets"]({{bbox}});
 relation["amenity"="toilets"]({{bbox}});
+
+node["toilets"]({{bbox}});
+way["toilets"]({{bbox}});
+relation["toilets"]({{bbox}});
+
+node["toilets:wheelchair"]({{bbox}});
+way["toilets:wheelchair"]({{bbox}});
+relation["toilets:wheelchair"]({{bbox}});
 `````
 
 

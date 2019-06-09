@@ -1,9 +1,12 @@
 import './node_modules/leaflet/dist/leaflet.css';
 import 'leaflet';
+//import L from 'leaflet'
+
+
 import './index.css';
 import 'leaflet-ajax';
 //import vectorTileLayer from 'leaflet-vector-tile-layer';
-import 'leaflet.vectorgrid';
+//import 'leaflet.vectorgrid';
 import 'leaflet-extra-markers';
 import './node_modules/leaflet-extra-markers/dist/css/leaflet.extra-markers.min.css'
 //import 'leaflet.pancontrol';
@@ -12,9 +15,9 @@ import './node_modules/leaflet-extra-markers/dist/css/leaflet.extra-markers.min.
 delete L.Icon.Default.prototype._getIconUrl;
 
 L.Icon.Default.mergeOptions({
-  iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
-  iconUrl: require('leaflet/dist/images/marker-icon.png'),
-  shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
+  iconRetinaUrl: require('./node_modules/leaflet/dist/images/marker-icon-2x.png'),
+  iconUrl: require('./node_modules/leaflet/dist/images/marker-icon.png'),
+  shadowUrl: require('./node_modules/leaflet/dist/images/marker-shadow.png'),
 });
 
 
@@ -85,7 +88,7 @@ const defaultBaseLayer=
     icon: 'fa-accessible-icon',
     markerColor: 'red', 
     shape: 'square',
-    prefix: 'fa'
+    prefix: 'fab'
   });
 
 
