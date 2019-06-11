@@ -6,3 +6,8 @@ html, body {
 
 body { padding: 0; margin: 0; } 
 .map-container { height: 100%; width: 100vw; }
+
+.leaflet-routing-add-waypoint {
+    display: none;
+
+}

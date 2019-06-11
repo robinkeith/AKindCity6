@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="1000pt"
+   height="1000pt"
+   viewBox="0 0 1000 1000"
+   preserveAspectRatio="xMidYMid meet"
+   id="svg833"
+   sodipodi:docname="kindcity-norwich.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <defs
+     id="defs837" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1013"
+     id="namedview835"
+     showgrid="false"
+     inkscape:zoom="0.49277344"
+     inkscape:cx="697.73603"
+     inkscape:cy="690.98692"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g831" />
+  <metadata
+     id="metadata827">
+Created by potrace 1.15, written by Peter Selinger 2001-2017
+<rdf:RDF>
+  <cc:Work
+     rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type
+       rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:title></dc:title>
+  </cc:Work>
+</rdf:RDF>
+</metadata>
+  <g
+     transform="matrix(0.1,0,0,-0.1,0,1000)"
+     id="g831"
+     style="fill:#673ab7;stroke:#000000;stroke-opacity:1">
+    <path
+       d="M 2185.5224,9709.5405 C 1545.7345,9663.1135 1095.6106,9513.5155 768.72442,9238.6383 325.59261,8864.2747 161.27556,8285.7797 271.40292,7486.9408 424.35775,6383.0102 1133.1938,4860.5 2323.6188,3080.7988 2917.9572,2190.5799 3675.7388,1192.7682 4360.102,398.35091 c 63.804,-74.43056 100.5131,-111.27737 113.6236,-112.75124 14.8584,-2.21081 34.961,16.94953 104.0092,95.80171 213.2627,243.92591 548.889,613.13096 766.5218,842.31812 473.7227,498.9058 791.8686,819.4731 1736.6919,1750.2236 850.4285,837.8966 1144.9756,1140.0404 1477.9801,1511.4563 298.9167,333.0951 474.5969,554.1761 674.7491,849.6875 78.6622,115.699 194.0336,324.252 249.9718,453.9527 94.3942,216.6593 127.6074,361.0988 136.3485,591.0229 26.22,640.3976 -242.9798,1233.6313 -744.6716,1641.894 -356.6032,290.3529 -790.1207,468.6914 -1292.6863,531.331 -119.7417,15.4757 -465.8565,13.2649 -581.2281,-2.9477 -360.9731,-51.5856 -662.5125,-160.6521 -955.3116,-346.3601 -117.1196,-73.6936 -298.9173,-218.87 -388.9421,-310.2501 l -57.6858,-57.481 -24.4727,24.3189 c -13.1104,14.0018 -135.4742,139.2809 -270.9484,279.2988 -351.359,363.3096 -444.8799,453.9528 -648.5282,633.7653 -634.5438,558.5976 -1229.7562,843.7919 -1932.4741,925.5919 -117.9937,13.2648 -413.4148,19.1603 -537.5267,10.317 z"
+       id="path829"
+       style="fill:#45b43d;fill-opacity:1;stroke:#022b21;stroke-width:227.49728394;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

@@ -8,7 +8,18 @@ import 'leaflet-ajax';
 //import vectorTileLayer from 'leaflet-vector-tile-layer';
 //import 'leaflet.vectorgrid';
 import 'leaflet-extra-markers';
-import './node_modules/leaflet-extra-markers/dist/css/leaflet.extra-markers.min.css'
+import './node_modules/leaflet-extra-markers/dist/css/leaflet.extra-markers.min.css';
+import 'leaflet-easybutton';
+import './node_modules/leaflet-easybutton/src/easy-button.css';
+import 'leaflet.locatecontrol';
+import './node_modules/leaflet.locatecontrol/dist/L.Control.Locate.min.css';
+import 'leaflet-fullscreen';
+import './node_modules/leaflet-fullscreen/dist/Leaflet.fullscreen.css';
+//import 'Leaflet.Deflate';
+import 'leaflet-control-geocoder';
+import 'leaflet-routing-machine';
+import './node_modules/leaflet-routing-machine/dist/leaflet-routing-machine.css';
+
 //import 'leaflet.pancontrol';
 //import './data/safeplaces.geojson';
 //import L from 'leaflet';
@@ -20,6 +31,7 @@ L.Icon.Default.mergeOptions({
   shadowUrl: require('./node_modules/leaflet/dist/images/marker-shadow.png'),
 });
 
+const mapbox_api_key='pk.eyJ1Ijoicm9iaW5rZWl0aCIsImEiOiJjanZrdnV1cDUwdGRuNGJtbHViNmQ4ZHh6In0.eZvncacC218djhVbySv5CQ';
 
 let map = L.map('map', 
     {
@@ -29,7 +41,7 @@ let map = L.map('map',
         minZoom	:13,
         maxZoom:20,
         maxBounds:[[52.584648,1.183911],[52.68566,1.518445]],
-        //,scrollWheelZoom:,
+        fullscreenControl: true,
 
     });
 
@@ -145,6 +157,7 @@ const parkingLayer = new L.GeoJSON.AJAX("data/parking.geojson",{
         return L.marker(latlng, {icon:parkingMarker});
     },
 });
+//const parkingLayerGroup=L.deflate({minSize: 10}).addLayer([parkingMetersLayer, parkingSpacesLayer,parkingLayer]);
 const parkingLayerGroup= L.layerGroup([parkingMetersLayer, parkingSpacesLayer,parkingLayer])
 
 const wheelchairLayer = new L.GeoJSON.AJAX("data/wheelchair.geojson",{
@@ -153,6 +166,9 @@ const wheelchairLayer = new L.GeoJSON.AJAX("data/wheelchair.geojson",{
         return L.marker(latlng, {icon:chairMarker});
     },
 });
+
+
+//var deflate_features = L.deflate({minSize: 20});
 
 const toiletLayer = new L.GeoJSON.AJAX("data/toilets.geojson",{
     onEachFeature: onEachFeature,
@@ -165,8 +181,41 @@ const toiletLayer = new L.GeoJSON.AJAX("data/toilets.geojson",{
         return L.marker(latlng, {icon: toiletMarker,});
     },
 }).addTo(map);
+//deflate_features.addTo(map);
 
+//L.easyBar([
+    L.easyButton( 'fa-user-cog', function(){
+        alert("This is where you'll be able to choose settings to suit your needs.","It's All About Me");
+    },"Personalise the map for me",{position: 'bottomright'}).addTo(map);
 
+    L.easyButton( 'fa-info', function(){
+        alert("The map helps everybody enjoy our Kind City. The map is brought to you by the Clare School, in association with ???? The map is built with open source libraries including ...","Norwich Access Map");
+    },'About the map',{position: 'bottomright'}).addTo(map);
+//],
+/*    {
+        position:"topright",
+    });
+*/
+var lc = L.control.locate({
+    position: 'topleft',
+    strings: {
+        title: "Show where I am"
+    },
+    flyTo:true,
+    returnToPrevBounds:true,
+}).addTo(map);
+
+L.Routing.control({
+    /*waypoints: [
+        L.latLng(57.74, 11.94),
+        L.latLng(57.6792, 11.949)
+    ],*/
+    routeWhileDragging: false,
+    geocoder: L.Control.Geocoder.nominatim(),
+    //router:// L.Routing.mapbox(mapbox_api_key,{ profile: 'mapbox/walking' }),
+    collapsed:false,
+    position:'bottomleft',
+}).addTo(map);
 
 //const tileLayer = vectorTileLayer(url, options);
 //var url = 'https://d2munx5tg0hw47.cloudfront.net/tiles/{z}/{x}/{y}.mapbox';
@@ -175,6 +224,7 @@ const toiletLayer = new L.GeoJSON.AJAX("data/toilets.geojson",{
 const emptyLayer =  L.tileLayer('');
 
 L.control.layers({
+    
     "Roads": defaultBaseLayer,
     }, 
     {
@@ -186,7 +236,10 @@ L.control.layers({
         "Accessible":wheelchairLayer,
         "Help!": safePlacesLayer,
     },
-    {collapsed:false,}).addTo(map);
+    {
+        collapsed:false,
+        position:'topright',
+    }).addTo(map);
 
 // L.control.pan().addTo(map);
 //L.geoJSON(geojsonFeature).addTo(map);
