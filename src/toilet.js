@@ -71,7 +71,7 @@ export const toiletLayer = new L.GeoJSON.AJAX("data/toilets.geojson",{
   },
   onEachFeature: function(feature,layer){
     layer.bindPopup(function(feature){
-      return popupFromTags(feature.feature.tags);
+      return popupFromFeatureInfo(feature.feature.tags);
     },{
       autoPan:true,
       'className' : 'popupCustom',
@@ -107,7 +107,7 @@ class FeatureInfo{
     
     let ret= 
       (value)?
-        ( ((labelName)?`<strong>${labelName}:</strong>`:'') + value+ ((post)?post:'')):
+        ( ((labelName)?`<strong>${labelName}:</strong>&nbsp;`:'') + value+ ((post)?post:'')):
         '';
     
     return ret;
@@ -141,7 +141,11 @@ class FeatureInfo{
     return `<a href=''>Report Problem</a>`;
   }
   get availability(){
-    return this.label('Opening Times','opening_hours','<div class="pop-caption">>>CURRENT STATUS<<</div>');
+    return this.label('Opening Times','opening_hours','<div class="pop-caption">>>CURRENT STATUS<<</div>') +
+    this.label('Access','access', '&nbsp;') +
+    this.label('RADAR key','centralkey', '&nbsp;') +
+    this.label('Fee','fee', this.tags["fee:charge"]);
+    
   }
   get facilities(){
     return (
@@ -153,17 +157,22 @@ class FeatureInfo{
     //return ret;
   }
 
+  get rawData(){
+    return JSON.stringify(this.tags);
+  }
+
 }
 
-function popupFromTags(tags){
+function popupFromFeatureInfo(featureInfo){
 
+  console.log(JSON.stringify(featureInfo.tags));
   return `
   <div class="container">
-    <div class="pop-caption">${tags.caption}</div>
-    <div class="pop-location">${tags.location}</div>
-    <div class="pop-facilities">${tags.facilities}</div>
-    <div class="pop-availability">${tags.availability}</div>
-    <div class="pop-operator">${tags.operator}</div>
-    <div class="pop-report">${tags.report}</div>
+    <div class="pop-caption">${featureInfo.caption}</div>
+    <div class="pop-location">${featureInfo.location}</div>
+    <div class="pop-facilities">${featureInfo.facilities}</div>
+    <div class="pop-availability">${featureInfo.availability}</div>
+    <div class="pop-operator">${featureInfo.operator}</div>
+    <div class="pop-report">${featureInfo.report}</div>
   </div>`
 }

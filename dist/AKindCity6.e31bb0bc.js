@@ -53578,7 +53578,7 @@ var toiletLayer = new L.GeoJSON.AJAX("data/toilets.geojson", {
   },
   onEachFeature: function onEachFeature(feature, layer) {
     layer.bindPopup(function (feature) {
-      return popupFromTags(feature.feature.tags);
+      return popupFromFeatureInfo(feature.feature.tags);
     }, {
       autoPan: true,
       'className': 'popupCustom'
@@ -53611,7 +53611,7 @@ function () {
         value = this.tags[valueName];
       } catch (error) {}
 
-      var ret = value ? (labelName ? "<strong>".concat(labelName, ":</strong>") : '') + value + (post ? post : '') : '';
+      var ret = value ? (labelName ? "<strong>".concat(labelName, ":</strong>&nbsp;") : '') + value + (post ? post : '') : '';
       return ret;
     }
   }, {
@@ -53657,20 +53657,26 @@ function () {
   }, {
     key: "availability",
     get: function get() {
-      return this.label('Opening Times', 'opening_hours', '<div class="pop-caption">>>CURRENT STATUS<<</div>');
+      return this.label('Opening Times', 'opening_hours', '<div class="pop-caption">>>CURRENT STATUS<<</div>') + this.label('Access', 'access', '&nbsp;') + this.label('RADAR key', 'centralkey', '&nbsp;') + this.label('Fee', 'fee', this.tags["fee:charge"]);
     }
   }, {
     key: "facilities",
     get: function get() {
       return this.label('Changing Table', 'changing_table', "</br>") + this.label('Unisex', 'unisex', "</br>") + this.label('Female', 'female', "</br>") + this.label('Male', 'male', "</br>") + this.label('Drinking Water', 'drinking_water'); //return ret;
     }
+  }, {
+    key: "rawData",
+    get: function get() {
+      return JSON.stringify(this.tags);
+    }
   }]);
 
   return FeatureInfo;
 }();
 
-function popupFromTags(tags) {
-  return "\n  <div class=\"container\">\n    <div class=\"pop-caption\">".concat(tags.caption, "</div>\n    <div class=\"pop-location\">").concat(tags.location, "</div>\n    <div class=\"pop-facilities\">").concat(tags.facilities, "</div>\n    <div class=\"pop-availability\">").concat(tags.availability, "</div>\n    <div class=\"pop-operator\">").concat(tags.operator, "</div>\n    <div class=\"pop-report\">").concat(tags.report, "</div>\n  </div>");
+function popupFromFeatureInfo(featureInfo) {
+  console.log(JSON.stringify(featureInfo.tags));
+  return "\n  <div class=\"container\">\n    <div class=\"pop-caption\">".concat(featureInfo.caption, "</div>\n    <div class=\"pop-location\">").concat(featureInfo.location, "</div>\n    <div class=\"pop-facilities\">").concat(featureInfo.facilities, "</div>\n    <div class=\"pop-availability\">").concat(featureInfo.availability, "</div>\n    <div class=\"pop-operator\">").concat(featureInfo.operator, "</div>\n    <div class=\"pop-report\">").concat(featureInfo.report, "</div>\n  </div>");
 }
 },{"leaflet":"node_modules/leaflet/dist/leaflet-src.js","@turf/turf":"node_modules/@turf/turf/turf.min.js","@turf/helpers":"node_modules/@turf/helpers/index.js","util":"node_modules/util/util.js"}],"node_modules/leaflet.restoreview/leaflet.restoreview.js":[function(require,module,exports) {
 (function() {
@@ -53984,7 +53990,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "22567" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "25216" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
