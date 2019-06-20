@@ -53657,13 +53657,12 @@ function () {
   }, {
     key: "availability",
     get: function get() {
-      return this.label('Opening Times', 'opening_hours'); //this.tags.opening_hours?(`<strong>Opening Times:</strong> ${this.tags.opening_hours}<br/>
-      //  <span class="temp"> >>CURRENT STATUS<<<</span>`):''
+      return this.label('Opening Times', 'opening_hours', '<div class="pop-caption">>>CURRENT STATUS<<</div>');
     }
   }, {
     key: "facilities",
     get: function get() {
-      return '';
+      return this.label('Changing Table', 'changing_table', "</br>") + this.label('Unisex', 'unisex', "</br>") + this.label('Female', 'female', "</br>") + this.label('Male', 'male', "</br>") + this.label('Drinking Water', 'drinking_water'); //return ret;
     }
   }]);
 
@@ -53673,51 +53672,6 @@ function () {
 function popupFromTags(tags) {
   return "\n  <div class=\"container\">\n    <div class=\"pop-caption\">".concat(tags.caption, "</div>\n    <div class=\"pop-location\">").concat(tags.location, "</div>\n    <div class=\"pop-facilities\">").concat(tags.facilities, "</div>\n    <div class=\"pop-availability\">").concat(tags.availability, "</div>\n    <div class=\"pop-operator\">").concat(tags.operator, "</div>\n    <div class=\"pop-report\">").concat(tags.report, "</div>\n  </div>");
 }
-/*
-
-function popupFromTags(tags){
-  
-  console.log(tags);
-
-  let caption= tags.name || tags["addr:housename"] || tags["@id"];
-
-Location / description
-
-Features list (which tags)
-
-opening_hours + currently-open?
-
-Acesss
-Operated by
-contact
-
-
-
-      
-  let isStandalone = (tags.amenity==="toilets" || tags.amenity==="toilet");
-  return `
-  <header>${tags.name || tags["@id"]}</header>
-  `   +
-  (isStandalone?`
-  <div>${tags.description || `level ${tags.level} unisex ${tags.unisex} wheelchair ${tags.wheelchair}`}</div>
-  <div><strong>Opening Times:</strong> ${tags.opening_hours}<br/>
-  <span class="temp"> >>CURRENT STATUS<<<</span></div>
-  <br/>
-  
-  `:`
-  <div>Toilet Located inside ${tags.name}. ${tags["toilets:description"]}</div>
-  
-  <div><strong>${tags.amenity} Opening Times</strong> ${tags.opening_hours }<br/>
-  <span class="temp"> >>CURRENT STATUS<<<</span></div>
-  `)
-  +`
-  <footer>
-  <div><strong>Operated by:</strong>${tags.XXX}
-  <a href='#'>Report A Problem</a></div>
-  
-</footer>
-  `;
-}*/
 },{"leaflet":"node_modules/leaflet/dist/leaflet-src.js","@turf/turf":"node_modules/@turf/turf/turf.min.js","@turf/helpers":"node_modules/@turf/helpers/index.js","util":"node_modules/util/util.js"}],"node_modules/leaflet.restoreview/leaflet.restoreview.js":[function(require,module,exports) {
 (function() {
     var RestoreViewMixin = {
@@ -53985,14 +53939,14 @@ L.control.layers({
   "Roads": defaultBaseLayer,
   "Pedestrian": PedestrianBaseLayer
 }, {
-  "Get Here": parkingLayerGroup,
-  "Get Around": parkingLayerGroup,
-  "Toilets": _toilet.toiletLayer.addTo(map),
-  "Eat and Drink": emptyLayer,
-  "Shop": emptyLayer,
-  "Learn": emptyLayer,
-  "Enjoy": emptyLayer,
-  "<strong>Help!</strong>": safePlacesLayer,
+  '<i class="fas fa-parking"></i> Get Here': parkingLayerGroup,
+  '<i class="fas fa-info-circle"></i> Get Around': parkingLayerGroup,
+  '<i class="fas fa-toilet"></i> Toilets': _toilet.toiletLayer.addTo(map),
+  '<i class="fas fa-utensils"></i> Eat and Drink': emptyLayer,
+  '<i class="fas fa-shopping-cart"></i> Shop': emptyLayer,
+  '<i class="fas fa-hands-helping"></i> Learn': emptyLayer,
+  '<i class="fas fa-smile-beam"></i> Enjoy': emptyLayer,
+  '<i class="fas fa-exclamation"></i> <strong>Help!</strong>': safePlacesLayer,
   "<i>Contribute</i>": _contribute.contributeLayer
 }, {
   collapsed: false,
@@ -54030,7 +53984,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "3512" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "22567" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

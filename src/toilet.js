@@ -141,12 +141,16 @@ class FeatureInfo{
     return `<a href=''>Report Problem</a>`;
   }
   get availability(){
-    return this.label('Opening Times','opening_hours');
-    //this.tags.opening_hours?(`<strong>Opening Times:</strong> ${this.tags.opening_hours}<br/>
-    //  <span class="temp"> >>CURRENT STATUS<<<</span>`):''
+    return this.label('Opening Times','opening_hours','<div class="pop-caption">>>CURRENT STATUS<<</div>');
   }
   get facilities(){
-    return '';
+    return (
+    this.label('Changing Table','changing_table',"</br>") +
+    this.label('Unisex','unisex',"</br>") +
+    this.label('Female','female',"</br>") +
+    this.label('Male','male',"</br>") +
+    this.label('Drinking Water','drinking_water'));
+    //return ret;
   }
 
 }
@@ -163,49 +167,3 @@ function popupFromTags(tags){
     <div class="pop-report">${tags.report}</div>
   </div>`
 }
-
-/*
-
-function popupFromTags(tags){
-  
-  console.log(tags);
-
-  let caption= tags.name || tags["addr:housename"] || tags["@id"];
-
-Location / description
-
-Features list (which tags)
-
-opening_hours + currently-open?
-
-Acesss
-Operated by
-contact
-
-
-
-      
-  let isStandalone = (tags.amenity==="toilets" || tags.amenity==="toilet");
-  return `
-  <header>${tags.name || tags["@id"]}</header>
-  `   +
-  (isStandalone?`
-  <div>${tags.description || `level ${tags.level} unisex ${tags.unisex} wheelchair ${tags.wheelchair}`}</div>
-  <div><strong>Opening Times:</strong> ${tags.opening_hours}<br/>
-  <span class="temp"> >>CURRENT STATUS<<<</span></div>
-  <br/>
-  
-  `:`
-  <div>Toilet Located inside ${tags.name}. ${tags["toilets:description"]}</div>
-  
-  <div><strong>${tags.amenity} Opening Times</strong> ${tags.opening_hours }<br/>
-  <span class="temp"> >>CURRENT STATUS<<<</span></div>
-  `)
-  +`
-  <footer>
-  <div><strong>Operated by:</strong>${tags.XXX}
-  <a href='#'>Report A Problem</a></div>
-  
-</footer>
-  `;
-}*/
