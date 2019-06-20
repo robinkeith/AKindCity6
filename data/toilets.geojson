@@ -2,44 +2,8 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2019-06-09T20:09:02Z",
+  "timestamp": "2019-06-15T21:32:01Z",
   "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/32394249",
-        "amenity": "toilets",
-        "building": "yes"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              1.1707841,
-              52.6520384
-            ],
-            [
-              1.1707576,
-              52.6519497
-            ],
-            [
-              1.1708407,
-              52.6519405
-            ],
-            [
-              1.1708672,
-              52.6520293
-            ],
-            [
-              1.1707841,
-              52.6520384
-            ]
-          ]
-        ]
-      },
-      "id": "way/32394249"
-    },
     {
       "type": "Feature",
       "properties": {
@@ -213,69 +177,6 @@
         ]
       },
       "id": "way/114165003"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/114943356",
-        "addr:city": "Norwich",
-        "addr:country": "GB",
-        "addr:postcode": "NR4 7HG",
-        "addr:street": "Colman Road",
-        "amenity": "library",
-        "building": "yes",
-        "name": "Earlham Library",
-        "opening_hours": "Mo 13:00-17:00;Tu-We 10:00-17:00;Th 10:00-19:00;Fr-Sa 10:00-17:00",
-        "operator": "Norfolk County Council",
-        "parking": "surface",
-        "phone": "+44 1603 454338",
-        "source": "Bing",
-        "toilets": "yes",
-        "website": "https://www.norfolk.gov.uk/libraries-local-history-and-archives/libraries/your-local-library/locations-and-opening-times/earlham-library",
-        "wheelchair": "yes",
-        "wheelchair:description:en": "slope",
-        "wikidata": "Q55111095"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              1.2605498,
-              52.6257583
-            ],
-            [
-              1.2606665,
-              52.6257668
-            ],
-            [
-              1.2606463,
-              52.6258688
-            ],
-            [
-              1.2603656,
-              52.6258483
-            ],
-            [
-              1.2603715,
-              52.6258184
-            ],
-            [
-              1.2603994,
-              52.6256778
-            ],
-            [
-              1.2605634,
-              52.6256898
-            ],
-            [
-              1.2605498,
-              52.6257583
-            ]
-          ]
-        ]
-      },
-      "id": "way/114943356"
     },
     {
       "type": "Feature",
@@ -513,6 +414,62 @@
         ]
       },
       "id": "way/117048789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/117220825",
+        "addr:city": "Norwich",
+        "addr:country": "GB",
+        "addr:housename": "West Earlham Library",
+        "addr:housenumber": "17,18",
+        "addr:postcode": "NR5 8AD",
+        "addr:street": "Earlham West Centre",
+        "amenity": "library",
+        "building": "yes",
+        "name": "West Earlham Library",
+        "opening_hours": "Tu,Th 9:00-13:00,13:00-18:00;Sa 9:00-13:00",
+        "operator": "Norfolk County Council",
+        "parking": "yes",
+        "parking:disabled": "yes",
+        "phone": "+44 1603 451881",
+        "toilets:disabled": "yes",
+        "website": "https://www.norfolk.gov.uk/libraries-local-history-and-archives/libraries/your-local-library/locations-and-opening-times/earlham-library",
+        "wheelchair": "yes",
+        "wikidata": "Q55111152"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.2407194,
+              52.6316152
+            ],
+            [
+              1.240856,
+              52.6316044
+            ],
+            [
+              1.2408598,
+              52.6316221
+            ],
+            [
+              1.2408739,
+              52.6316879
+            ],
+            [
+              1.2407373,
+              52.6316987
+            ],
+            [
+              1.2407194,
+              52.6316152
+            ]
+          ]
+        ]
+      },
+      "id": "way/117220825"
     },
     {
       "type": "Feature",
@@ -795,88 +752,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/135185693",
-        "addr:city": "Norwich",
-        "addr:country": "GB",
-        "addr:housename": "Wroxham Library",
-        "addr:postcode": "NR12 8RX",
-        "addr:street": "Norwich Road",
-        "amenity": "library",
-        "building": "yes",
-        "capacity:disabled": "yes",
-        "name": "Wroxham Library",
-        "opening_hours": "Mo,Tu,We,Th,Sa 10:00-17:00;Fr 10:00-20:00",
-        "operator": "Norfolk County Council",
-        "parking": "surface",
-        "phone": "+44 1603 782560",
-        "source": "Bing",
-        "surface": "gravel",
-        "toilets": "yes",
-        "website": "https://www.norfolk.gov.uk/libraries-local-history-and-archives/libraries/your-local-library/locations-and-opening-times/wroxham-library",
-        "wheelchair": "yes",
-        "wheelchair:note": "slope,lift",
-        "wikidata": "Q55111155"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              1.4045854,
-              52.7106822
-            ],
-            [
-              1.4046367,
-              52.7107468
-            ],
-            [
-              1.4046169,
-              52.7107526
-            ],
-            [
-              1.4046573,
-              52.7108036
-            ],
-            [
-              1.404619,
-              52.7108148
-            ],
-            [
-              1.404606,
-              52.7108185
-            ],
-            [
-              1.4046262,
-              52.710844
-            ],
-            [
-              1.4045195,
-              52.7108751
-            ],
-            [
-              1.4043709,
-              52.710688
-            ],
-            [
-              1.4044491,
-              52.7106651
-            ],
-            [
-              1.4044857,
-              52.7107113
-            ],
-            [
-              1.4045854,
-              52.7106822
-            ]
-          ]
-        ]
-      },
-      "id": "way/135185693"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/138504756",
         "addr:city": "Norwich",
         "addr:country": "GB",
@@ -973,91 +848,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/154555153",
-        "addr:city": "Norwich",
-        "addr:country": "GB",
-        "addr:housename": "Wymondham Library",
-        "addr:postcode": "NR18 0QB",
-        "addr:street": "Back Lane",
-        "amenity": "library",
-        "building": "yes",
-        "name": "Wymondham Library",
-        "opening_hours": "Mo,Tu,Fr 9:00-17:00; We 9:00-13:00; Th 9:00-19:00; Sa 10:00-16:00",
-        "operator": "Norfolk County Council",
-        "parking": "yes",
-        "parking:disabled": "yes",
-        "phone": "+44 1953 603319",
-        "source": "Bing",
-        "toilets": "yes",
-        "toilets:disabled": "yes",
-        "website": "https://www.norfolk.gov.uk/libraries-local-history-and-archives/libraries/your-local-library/locations-and-opening-times/wymondham-library",
-        "wheelchair": "yes",
-        "wikidata": "Q55111156"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              1.1138774,
-              52.570976
-            ],
-            [
-              1.1135705,
-              52.5710326
-            ],
-            [
-              1.1135447,
-              52.5709871
-            ],
-            [
-              1.1134389,
-              52.571008
-            ],
-            [
-              1.1134173,
-              52.5709115
-            ],
-            [
-              1.1134558,
-              52.5708155
-            ],
-            [
-              1.1135778,
-              52.5707286
-            ],
-            [
-              1.1137723,
-              52.5708655
-            ],
-            [
-              1.1138305,
-              52.5709064
-            ],
-            [
-              1.1138795,
-              52.57091
-            ],
-            [
-              1.1139036,
-              52.5709312
-            ],
-            [
-              1.1139036,
-              52.5709507
-            ],
-            [
-              1.1138774,
-              52.570976
-            ]
-          ]
-        ]
-      },
-      "id": "way/154555153"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/156828005",
         "access": "yes",
         "addr:city": "Norwich",
@@ -1105,50 +895,6 @@
         ]
       },
       "id": "way/156828005"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/159037234",
-        "access": "yes",
-        "amenity": "toilets",
-        "fee": "no",
-        "female": "yes",
-        "toilets:disposal": "flush",
-        "toilets:position": "seated"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              1.511025,
-              52.7000044
-            ],
-            [
-              1.5109532,
-              52.7000743
-            ],
-            [
-              1.5109017,
-              52.7000549
-            ],
-            [
-              1.5109735,
-              52.699985
-            ],
-            [
-              1.5109996,
-              52.6999949
-            ],
-            [
-              1.511025,
-              52.7000044
-            ]
-          ]
-        ]
-      },
-      "id": "way/159037234"
     },
     {
       "type": "Feature",
@@ -1552,59 +1298,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/255576883",
-        "addr:city": "Norwich",
-        "addr:country": "GB",
-        "addr:housename": "Brundall Library",
-        "addr:housenumber": "90",
-        "addr:postcode": "NR13 5LH",
-        "addr:street": "The Street",
-        "amenity": "library",
-        "building": "yes",
-        "name": "Brundall Library",
-        "opening_hours": "Mo 10:00-13:00;Tu 14:00-19:00;Th 10:00-13:00;Fr 14:00-17:00;Sa 10:00-13:00",
-        "operator": "Norfolk County Council",
-        "phone": "+44 1603 714576",
-        "source": "bing",
-        "toilets": "yes",
-        "toilets_disabled": "yes",
-        "website": "https://www.norfolk.gov.uk/libraries-local-history-and-archives/libraries/your-local-library/locations-and-opening-times/brundall-library",
-        "wheelchair": "yes",
-        "wheelchair:note": "slope",
-        "wikidata": "Q55111087"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              1.4317079,
-              52.6250902
-            ],
-            [
-              1.4316712,
-              52.6250276
-            ],
-            [
-              1.4318399,
-              52.6249912
-            ],
-            [
-              1.4318766,
-              52.6250538
-            ],
-            [
-              1.4317079,
-              52.6250902
-            ]
-          ]
-        ]
-      },
-      "id": "way/255576883"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/258688296",
         "addr:city": "Norwich",
         "addr:country": "GB",
@@ -1675,103 +1368,44 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/258821781",
-        "addr:city": "Norwich",
-        "addr:country": "GB",
-        "addr:housename": "Poringland Library",
-        "addr:postcode": "NR14 7WB",
-        "addr:street": "Overtons Way",
-        "amenity": "library",
-        "building": "yes",
-        "name": "Poringland Library",
-        "opening_hours": "Mo 9:00-17:00;Tu,Fr 14:00-17:00;We 9:00-13:00;Th 14:00-19:30;Sa 9:30-13:00",
-        "operator": "Norfolk County Council",
-        "parking": "yes",
-        "parking:disabled": "yes",
-        "phone": "+44 1508 494891",
-        "toilets": "yes",
-        "toilets:disabled": "yes",
-        "website": "https://www.norfolk.gov.uk/libraries-local-history-and-archives/libraries/your-local-library/locations-and-opening-times/poringland-library",
-        "wheelchair": "yes",
-        "wikidata": "Q55111133"
+        "@id": "way/296344311",
+        "access": "public",
+        "amenity": "cafe",
+        "building": "Visitors Center",
+        "fee": "no",
+        "information": "office",
+        "toilets:position": "seated",
+        "tourism": "information",
+        "wheelchair": "yes"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              1.3433103,
-              52.570525
+              1.3293391,
+              52.6212151
             ],
             [
-              1.3431844,
-              52.5706587
+              1.3294153,
+              52.6209562
             ],
             [
-              1.3430628,
-              52.5706605
+              1.3295409,
+              52.6209678
             ],
             [
-              1.3429311,
-              52.5705259
+              1.329461,
+              52.621229
             ],
             [
-              1.3430583,
-              52.5705241
-            ],
-            [
-              1.343128,
-              52.5705232
-            ],
-            [
-              1.3433103,
-              52.570525
+              1.3293391,
+              52.6212151
             ]
           ]
         ]
       },
-      "id": "way/258821781"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/341321781",
-        "amenity": "toilets",
-        "building": "yes",
-        "source": "Bing"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              1.1117391,
-              52.5702856
-            ],
-            [
-              1.1116745,
-              52.5703088
-            ],
-            [
-              1.1115813,
-              52.5702128
-            ],
-            [
-              1.1116458,
-              52.5701896
-            ],
-            [
-              1.1117115,
-              52.5702573
-            ],
-            [
-              1.1117391,
-              52.5702856
-            ]
-          ]
-        ]
-      },
-      "id": "way/341321781"
+      "id": "way/296344311"
     },
     {
       "type": "Feature",
@@ -1850,50 +1484,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/519123019",
-        "access": "yes",
-        "amenity": "toilets",
-        "fee": "no",
-        "male": "yes",
-        "toilets:disposal": "flush",
-        "toilets:position": "seated;urinal"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              1.5110765,
-              52.7000239
-            ],
-            [
-              1.5110047,
-              52.7000937
-            ],
-            [
-              1.5109532,
-              52.7000743
-            ],
-            [
-              1.511025,
-              52.7000044
-            ],
-            [
-              1.51105,
-              52.7000139
-            ],
-            [
-              1.5110765,
-              52.7000239
-            ]
-          ]
-        ]
-      },
-      "id": "way/519123019"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/604403859",
         "amenity": "toilets",
         "building": "yes"
@@ -1966,42 +1556,6 @@
         ]
       },
       "id": "way/607025993"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/611313216",
-        "amenity": "toilets",
-        "building": "yes"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              1.3300272,
-              52.7039918
-            ],
-            [
-              1.3299536,
-              52.7039711
-            ],
-            [
-              1.3299705,
-              52.7039491
-            ],
-            [
-              1.330044,
-              52.7039698
-            ],
-            [
-              1.3300272,
-              52.7039918
-            ]
-          ]
-        ]
-      },
-      "id": "way/611313216"
     },
     {
       "type": "Feature",
@@ -2268,7 +1822,9 @@
         "@id": "node/1230743580",
         "amenity": "toilets",
         "layer": "-3",
-        "level": "2"
+        "level": "2",
+        "unisex": "yes",
+        "wheelchair": "no"
       },
       "geometry": {
         "type": "Point",
@@ -2405,21 +1961,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/1484862468",
-        "amenity": "toilets"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.4085168,
-          52.7132563
-        ]
-      },
-      "id": "node/1484862468"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/1541173567",
         "access": "yes",
         "amenity": "toilets",
@@ -2504,22 +2045,6 @@
         ]
       },
       "id": "node/3250724561"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/3602651997",
-        "access": "customers",
-        "amenity": "toilets"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.1041609,
-          52.5700397
-        ]
-      },
-      "id": "node/3602651997"
     },
     {
       "type": "Feature",
@@ -2697,6 +2222,30 @@
         ]
       },
       "id": "node/5694856554"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6543931838",
+        "access": "RADA",
+        "addr:city": "Norwich",
+        "addr:street": "Cattlemarket Street",
+        "amenity": "toilets",
+        "description": "Fully accessible toilet with hoist and adult size changing \"table\". Bench - Height Adjustable, Adult Sized, Wall Mounted Hoist - Ceiling , Loop , Mobile Peninsular Toilet Washbasin Height Adjustable , Emergency Alarm, Managed ",
+        "level": "2",
+        "name": "Changing Places at Castle Mall Shopping Centre,",
+        "unisex": "yes",
+        "wheelchair": "yes",
+        "wheelchair:description": "Near the Cattlemarket entrance, right next to our disabled parking on Level J of the car park. If you are accessing the centre from Castle Meadow or Cattlemarket Street you will not need to use stairs or lifts. Opening times are as per the centre opening"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2974323,
+          52.6272255
+        ]
+      },
+      "id": "node/6543931838"
     }
   ]
 }

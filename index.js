@@ -19,6 +19,11 @@ import './node_modules/leaflet-fullscreen/dist/Leaflet.fullscreen.css';
 import 'leaflet-control-geocoder';
 import 'leaflet-routing-machine';
 import './node_modules/leaflet-routing-machine/dist/leaflet-routing-machine.css';
+//import {OverPassLayer} from 'leaflet-overpass-layer';
+import './src/utils';
+import {contributeLayer} from './src/contribute';
+import {toiletLayer} from './src/toilet';
+import 'leaflet.restoreview';
 
 //import 'leaflet.pancontrol';
 //import './data/safeplaces.geojson';
@@ -36,24 +41,39 @@ const mapbox_api_key='pk.eyJ1Ijoicm9iaW5rZWl0aCIsImEiOiJjanZrdnV1cDUwdGRuNGJtbHV
 let map = L.map('map', 
     {
         boxZoom:false,
-        center:[52.628533,1.291904],
-        zoom:15,
-        minZoom	:13,
-        maxZoom:20,
+        //center:[52.628533,1.291904],
+        //zoom:15,
+        //minZoom	:13,
+        //maxZoom:20,
         maxBounds:[[52.584648,1.183911],[52.68566,1.518445]],
         fullscreenControl: true,
 
     });
+   
 
 const defaultBaseLayer=
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoicm9iaW5rZWl0aCIsImEiOiJjanY5MHJrd2swand1NDRucjk2MnR4ejJ1In0.8f5HJ5ZWoRPbUoWcVjaQpg', {
-    maxZoom: 20,
-    minZoom: 13,
+    //maxZoom: 20,
+    //minZoom: 13,
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
         '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
         'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
     id: 'mapbox.streets'
 }).addTo(map);
+
+//https://api.mapbox.com/styles/v1/robinkeith/cjvuhr3eg2i351coyuneypdsu/wmts?access_token=pk.eyJ1Ijoicm9iaW5rZWl0aCIsImEiOiJjanY5MHJrd2swand1NDRucjk2MnR4ejJ1In0.8f5HJ5ZWoRPbUoWcVjaQpg
+//https://api.mapbox.com/styles/v1/robinkeith/cjvuhr3eg2i351coyuneypdsu/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoicm9iaW5rZWl0aCIsImEiOiJjanY5MHJrd2swand1NDRucjk2MnR4ejJ1In0.8f5HJ5ZWoRPbUoWcVjaQpg
+
+//mapbox://styles/robinkeith/cjwxqu5ke4f451cp6uyqcuhcj
+const PedestrianBaseLayer =
+L.tileLayer('https://api.mapbox.com/styles/v1/robinkeith/cjwxqu5ke4f451cp6uyqcuhcj/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoicm9iaW5rZWl0aCIsImEiOiJjanY5MHJrd2swand1NDRucjk2MnR4ejJ1In0.8f5HJ5ZWoRPbUoWcVjaQpg', {
+    //maxZoom: 20,
+    //minZoom: 13,
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+        '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+        'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    id: 'mapbox.streets'
+})
 
  var foodMarker = L.ExtraMarkers.icon({
     icon: 'fa-utensils',
@@ -69,26 +89,7 @@ const defaultBaseLayer=
     prefix: 'fa'
   });
 
-  var toiletMarkerNo = L.ExtraMarkers.icon({
-    icon: 'fa-toilet',
-    markerColor: 'red', 
-    shape: 'square',
-    prefix: 'fa'
-  });
-  var toiletMarkerSome = L.ExtraMarkers.icon({
-    icon: 'fa-toilet',
-    markerColor: 'orange', 
-    shape: 'square',
-    prefix: 'fa'
-  });
-  var toiletMarkerYes = L.ExtraMarkers.icon({
-    icon: 'fa-toilet',
-    markerColor: 'green', 
-    shape: 'square',
-    prefix: 'fa'
-  });
-
-
+ 
   var helpMarker = L.ExtraMarkers.icon({
     icon: 'fa-exclamation',
     markerColor: 'red', 
@@ -168,22 +169,8 @@ const wheelchairLayer = new L.GeoJSON.AJAX("data/wheelchair.geojson",{
 });
 
 
-//var deflate_features = L.deflate({minSize: 20});
 
-const toiletLayer = new L.GeoJSON.AJAX("data/toilets.geojson",{
-    onEachFeature: onEachFeature,
-    pointToLayer: function (feature, latlng) {
-        let toiletMarker=toiletMarkerSome;
-        let properties=feature.properties;
-        if (properties.access==="yes" || properties.wheelchair==="yes") {
-            toiletMarker=toiletMarkerYes;
-        }
-        return L.marker(latlng, {icon: toiletMarker,});
-    },
-}).addTo(map);
-//deflate_features.addTo(map);
 
-//L.easyBar([
     L.easyButton( 'fa-user-cog', function(){
         alert("This is where you'll be able to choose settings to suit your needs.","It's All About Me");
     },"Personalise the map for me",{position: 'bottomright'}).addTo(map);
@@ -191,11 +178,7 @@ const toiletLayer = new L.GeoJSON.AJAX("data/toilets.geojson",{
     L.easyButton( 'fa-info', function(){
         alert("The map helps everybody enjoy our Kind City. The map is brought to you by the Clare School, in association with ???? The map is built with open source libraries including ...","Norwich Access Map");
     },'About the map',{position: 'bottomright'}).addTo(map);
-//],
-/*    {
-        position:"topright",
-    });
-*/
+
 var lc = L.control.locate({
     position: 'topleft',
     strings: {
@@ -206,14 +189,14 @@ var lc = L.control.locate({
 }).addTo(map);
 
 L.Routing.control({
-    /*waypoints: [
-        L.latLng(57.74, 11.94),
-        L.latLng(57.6792, 11.949)
-    ],*/
+    /*plan:new L.Routing.Plan([],{
+            addWaypoints:false,
+            draggableWaypoints:false,
+        })	,*/
     routeWhileDragging: false,
     geocoder: L.Control.Geocoder.nominatim(),
     //router:// L.Routing.mapbox(mapbox_api_key,{ profile: 'mapbox/walking' }),
-    collapsed:false,
+    collapsed:true,
     position:'bottomleft',
 }).addTo(map);
 
@@ -226,38 +209,25 @@ const emptyLayer =  L.tileLayer('');
 L.control.layers({
     
     "Roads": defaultBaseLayer,
+    "Pedestrian": PedestrianBaseLayer,
     }, 
     {
-        "Parking": parkingLayerGroup,
-        "Toilets":toiletLayer,
-        "Dementia Aware":emptyLayer,
-        "Resturants":emptyLayer,
-        "Reviews":emptyLayer,
-        "Accessible":wheelchairLayer,
-        "Help!": safePlacesLayer,
+        "Get Here": parkingLayerGroup,
+        "Get Around": parkingLayerGroup,
+        "Toilets":toiletLayer.addTo(map),
+        "Eat and Drink":emptyLayer,
+        "Shop":emptyLayer,
+        "Learn":emptyLayer,
+        "Enjoy":emptyLayer,
+        
+        "<strong>Help!</strong>": safePlacesLayer,
+        "<i>Contribute</i>":contributeLayer,
     },
     {
         collapsed:false,
         position:'topright',
     }).addTo(map);
 
-// L.control.pan().addTo(map);
-//L.geoJSON(geojsonFeature).addTo(map);
-/*
-function onLocationFound(e) {
-    var radius = e.accuracy / 2;
-
-    L.marker(e.latlng).addTo(map)
-        .bindPopup("You are within " + radius + " meters from this point").openPopup();
-
-    L.circle(e.latlng, radius).addTo(map);
-}
-
-function onLocationError(e) {
-    alert(e.message);
-}
-
-map.on('locationfound', onLocationFound);
-map.on('locationerror', onLocationError);
-
-//map.locate({setView: true, maxZoom: 16});*/
+    if (!map.restoreView()) {
+        map.setView([52.628533,1.291904], 15);
+    }

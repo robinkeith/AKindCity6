@@ -1,5 +1,20 @@
 # To Do List
 
+* solve data collection
+
+* ~~Rename as 'The Clare School Map'~~
+* Move layer control to bottom of map and restlye as horizontal
+* Add police stations to the Help! layer
+* Add 3 'changing places' to the toilets layer
+* Separate layers for restaurants, shops and ?? everything else
+* amenity=charging_station and wheelchair=yes
+* setfocus to map on startup, so keyboard works
+
+* printable map
+* offline map
+* build desktop PC for show
+* Create offline rolling demo
+
 * Change building outlines to markers -and/or use Leaflet.Deflate to replace outlines with markers. (https://github.com/oliverroick/Leaflet.Deflate)
 * About me dialog + button
 * Improve formatting of popups
@@ -16,7 +31,9 @@
 * Improve map colours - vector map, emphasise pedestrian areas vs road map (vector map: https://www.npmjs.com/package/mapbox.js)
 * Improve UI, introduce sidebar (https://www.npmjs.com/package/leaflet-sidebar-v2)
 * Offline map storage - https://www.npmjs.com/package/leaflet.offline also tile caching https://www.npmjs.com/package/@yaga/leaflet-cached-tile-layer 
-* favicon, home page meta data.
+* ~~favicon, home page meta data.~~
+* Script data extraction for OSM + setup to run overnight
+
 
 ## Data points/features we should be interested in 
 * mobility - Ramps, slopes, elevators, steps

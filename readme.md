@@ -13,4 +13,7 @@ For a local sever:
 To Deploy to Github.io:
 `````npm run deploy`````
 
+The demo page is: https://robinkeith.github.io/AKindCity6
+
+
 The build and deploy processes include copying all files in the **data** folder to the **dist** folder
