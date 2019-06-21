@@ -22,8 +22,12 @@
     //import {OverPassLayer} from 'leaflet-overpass-layer';
     import './src/utils';
     import {contributeLayer} from './src/contribute';
-    import {toiletLayer} from './src/toilet';
+    import {toiletLayerGroup} from './src/toilet';
+    import {parkingLayerGroup} from './src/parking';
     import 'leaflet.restoreview';
+   /* import './src/CSMapLayer';*/
+    //import  './src/FeatureInfo';
+    
 
     //import 'leaflet.pancontrol';
     //import './data/safeplaces.geojson';
@@ -140,26 +144,7 @@
         onEachFeature: onEachFeature,
     });
 
-    const parkingMetersLayer = new L.GeoJSON.AJAX("data/parkingMeters.geojson",{
-        onEachFeature: onEachFeature,
-        pointToLayer: function (feature, latlng) {
-            return L.marker(latlng, {icon:parkingMarker});
-        },
-        });
-    const parkingSpacesLayer = new L.GeoJSON.AJAX("data/parkingSpaces.geojson",{
-        onEachFeature: onEachFeature,
-        pointToLayer: function (feature, latlng) {
-            return L.marker(latlng, {icon:parkingMarker});
-        },
-    });
-    const parkingLayer = new L.GeoJSON.AJAX("data/parking.geojson",{
-        onEachFeature: onEachFeature,
-        pointToLayer: function (feature, latlng) {
-            return L.marker(latlng, {icon:parkingMarker});
-        },
-    });
-    //const parkingLayerGroup=L.deflate({minSize: 10}).addLayer([parkingMetersLayer, parkingSpacesLayer,parkingLayer]);
-    const parkingLayerGroup= L.layerGroup([parkingMetersLayer, parkingSpacesLayer,parkingLayer])
+  
 
     const wheelchairLayer = new L.GeoJSON.AJAX("data/wheelchair.geojson",{
         onEachFeature: onEachFeature,
@@ -187,18 +172,18 @@
         flyTo:true,
         returnToPrevBounds:true,
     }).addTo(map);
-
+/*
     L.Routing.control({
         /*plan:new L.Routing.Plan([],{
                 addWaypoints:false,
                 draggableWaypoints:false,
-            })	,*/
+            })	,* /
         routeWhileDragging: false,
         geocoder: L.Control.Geocoder.nominatim(),
         //router:// L.Routing.mapbox(mapbox_api_key,{ profile: 'mapbox/walking' }),
         collapsed:true,
         position:'bottomleft',
-    }).addTo(map);
+    }).addTo(map);*/
 
     //const tileLayer = vectorTileLayer(url, options);
     //var url = 'https://d2munx5tg0hw47.cloudfront.net/tiles/{z}/{x}/{y}.mapbox';
@@ -212,9 +197,9 @@
         "Pedestrian": PedestrianBaseLayer,
         }, 
         {
-            '<i class="fas fa-parking"></i> Get Here': parkingLayerGroup,
-            '<i class="fas fa-info-circle"></i> Get Around': parkingLayerGroup,
-            '<i class="fas fa-toilet"></i> Toilets':toiletLayer.addTo(map),
+            '<i class="fas fa-parking"></i> Get Here': parkingLayerGroup.addTo(map),
+            '<i class="fas fa-info-circle"></i> Get Around': emptyLayer,
+            '<i class="fas fa-toilet"></i> Toilets':toiletLayerGroup,
             '<i class="fas fa-utensils"></i> Eat and Drink':emptyLayer,
             '<i class="fas fa-shopping-cart"></i> Shop':emptyLayer,
             '<i class="fas fa-hands-helping"></i> Learn':emptyLayer,

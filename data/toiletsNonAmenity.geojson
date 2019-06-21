@@ -2,45 +2,8 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2019-06-15T21:32:01Z",
+  "timestamp": "2019-06-20T22:13:02Z",
   "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/55291587",
-        "amenity": "toilets",
-        "baby_changing": "yes",
-        "building": "office"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              1.2196536,
-              52.6028212
-            ],
-            [
-              1.219685,
-              52.6027764
-            ],
-            [
-              1.2198299,
-              52.6028138
-            ],
-            [
-              1.2197985,
-              52.6028586
-            ],
-            [
-              1.2196536,
-              52.6028212
-            ]
-          ]
-        ]
-      },
-      "id": "way/55291587"
-    },
     {
       "type": "Feature",
       "properties": {
@@ -144,49 +107,22 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/114165003",
-        "amenity": "toilets",
-        "building": "yes",
-        "source": "Bing"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              1.267177,
-              52.6461281
-            ],
-            [
-              1.2671897,
-              52.6459301
-            ],
-            [
-              1.2674047,
-              52.6459352
-            ],
-            [
-              1.267392,
-              52.6461332
-            ],
-            [
-              1.267177,
-              52.6461281
-            ]
-          ]
-        ]
-      },
-      "id": "way/114165003"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/116079139",
         "access": "yes",
+        "addr:housenumber": "2",
+        "addr:street": "Pudding Ln",
         "amenity": "toilets",
+        "building": "service",
+        "contact:phone": "Office hours: Monday to Friday, 9am to 5pm, 01603 894140 Outside office hours: 08458 500319",
+        "description": "Male and female toilets plus Accessible toilet (RADAR key)\nBaby changing facilities are inside the accessible toilet",
+        "diaper": "limited",
         "fee": "no",
-        "opening_hours": "closes at 5pm",
-        "operator": "Norwich City Council"
+        "name": "Norwich Market (Memorial Gardens)  Toilets",
+        "opening_hours": "Mo-Sa 07:30-16:30",
+        "operator": "Norwich City Council",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
+        "wheelchair": "limited"
       },
       "geometry": {
         "type": "Polygon",
@@ -216,63 +152,6 @@
         ]
       },
       "id": "way/116079139"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/116079140",
-        "amenity": "toilets",
-        "building": "amenity",
-        "operator": "Norwich City Council"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              1.2868999,
-              52.6268508
-            ],
-            [
-              1.2868099,
-              52.6269405
-            ],
-            [
-              1.2867789,
-              52.6269309
-            ],
-            [
-              1.2867556,
-              52.6269236
-            ],
-            [
-              1.286777,
-              52.6268979
-            ],
-            [
-              1.2867636,
-              52.6268768
-            ],
-            [
-              1.2867797,
-              52.626854
-            ],
-            [
-              1.2868325,
-              52.6268472
-            ],
-            [
-              1.2868468,
-              52.6268324
-            ],
-            [
-              1.2868999,
-              52.6268508
-            ]
-          ]
-        ]
-      },
-      "id": "way/116079140"
     },
     {
       "type": "Feature",
@@ -378,42 +257,6 @@
         ]
       },
       "id": "way/116394455"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/117048789",
-        "amenity": "toilets",
-        "building": "yes"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              1.2685267,
-              52.6261061
-            ],
-            [
-              1.2684688,
-              52.626107
-            ],
-            [
-              1.2684662,
-              52.6260445
-            ],
-            [
-              1.2685241,
-              52.6260436
-            ],
-            [
-              1.2685267,
-              52.6261061
-            ]
-          ]
-        ]
-      },
-      "id": "way/117048789"
     },
     {
       "type": "Feature",
@@ -848,57 +691,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/156828005",
-        "access": "yes",
-        "addr:city": "Norwich",
-        "addr:country": "GB",
-        "addr:housename": "Unit 3C",
-        "addr:housenumber": "3C",
-        "addr:postcode": "NR5 9HA",
-        "addr:street": "Bowthorpe Main Centre",
-        "amenity": "toilets",
-        "building": "unit",
-        "female": "yes",
-        "male": "yes",
-        "source": "Bing",
-        "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              1.2174794,
-              52.6376826
-            ],
-            [
-              1.2174786,
-              52.637695
-            ],
-            [
-              1.2174752,
-              52.6377569
-            ],
-            [
-              1.217338,
-              52.6377541
-            ],
-            [
-              1.2173422,
-              52.63768
-            ],
-            [
-              1.2174794,
-              52.6376826
-            ]
-          ]
-        ]
-      },
-      "id": "way/156828005"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/169959573",
         "addr:city": "Norwich",
         "addr:country": "GB",
@@ -1195,109 +987,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/186106534",
-        "amenity": "toilets"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              1.3418356,
-              52.6260519
-            ],
-            [
-              1.3418205,
-              52.6260194
-            ],
-            [
-              1.3418026,
-              52.6260224
-            ],
-            [
-              1.3417812,
-              52.6259766
-            ],
-            [
-              1.3418665,
-              52.625962
-            ],
-            [
-              1.3418814,
-              52.625994
-            ],
-            [
-              1.3418978,
-              52.6259912
-            ],
-            [
-              1.3419194,
-              52.6260375
-            ],
-            [
-              1.3418356,
-              52.6260519
-            ]
-          ]
-        ]
-      },
-      "id": "way/186106534"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/196001638",
-        "amenity": "toilets",
-        "fee": "no"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              1.2864545,
-              52.640127
-            ],
-            [
-              1.2864868,
-              52.6400939
-            ],
-            [
-              1.286462,
-              52.640085
-            ],
-            [
-              1.2864876,
-              52.6400588
-            ],
-            [
-              1.2865157,
-              52.6400689
-            ],
-            [
-              1.286521,
-              52.6400635
-            ],
-            [
-              1.2865695,
-              52.6400809
-            ],
-            [
-              1.2865062,
-              52.6401456
-            ],
-            [
-              1.2864545,
-              52.640127
-            ]
-          ]
-        ]
-      },
-      "id": "way/196001638"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/258688296",
         "addr:city": "Norwich",
         "addr:country": "GB",
@@ -1410,41 +1099,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/375126841",
-        "amenity": "toilets"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              1.4311187,
-              52.6877207
-            ],
-            [
-              1.4311158,
-              52.6876733
-            ],
-            [
-              1.4311528,
-              52.6876725
-            ],
-            [
-              1.4311557,
-              52.6877199
-            ],
-            [
-              1.4311187,
-              52.6877207
-            ]
-          ]
-        ]
-      },
-      "id": "way/375126841"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/387138871",
         "amenity": "toilets",
         "building": "yes",
@@ -1480,82 +1134,6 @@
         ]
       },
       "id": "way/387138871"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/604403859",
-        "amenity": "toilets",
-        "building": "yes"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              1.2830744,
-              52.6242805
-            ],
-            [
-              1.2831197,
-              52.6243325
-            ],
-            [
-              1.2830281,
-              52.6243619
-            ],
-            [
-              1.2829828,
-              52.6243099
-            ],
-            [
-              1.2830744,
-              52.6242805
-            ]
-          ]
-        ]
-      },
-      "id": "way/604403859"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/607025993",
-        "amenity": "toilets",
-        "building": "yes",
-        "female": "yes",
-        "male": "yes",
-        "material": "brick",
-        "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              1.4893125,
-              52.677157
-            ],
-            [
-              1.4891751,
-              52.6771613
-            ],
-            [
-              1.4891706,
-              52.6771082
-            ],
-            [
-              1.489308,
-              52.6771039
-            ],
-            [
-              1.4893125,
-              52.677157
-            ]
-          ]
-        ]
-      },
-      "id": "way/607025993"
     },
     {
       "type": "Feature",
@@ -1629,8 +1207,10 @@
         "addr:street": "Millennium Plain",
         "alt_name": "The Forum",
         "amenity": "library",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
         "name": "Norfolk and Norwich Millennium Library",
-        "opening_hours": "Mo-Fr 09:00-20:00;Sa 09:00-17:00",
+        "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-17:00",
         "operator": "Norfolk County Council",
         "parking": "yes",
         "parking:disabled": "yes",
@@ -1723,278 +1303,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/364431812",
-        "amenity": "toilets"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.1770828,
-          52.6497638
-        ]
-      },
-      "id": "node/364431812"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/364431875",
-        "amenity": "toilets"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.180087,
-          52.6495701
-        ]
-      },
-      "id": "node/364431875"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/472647140",
-        "amenity": "toilets"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.3020923,
-          52.6292283
-        ]
-      },
-      "id": "node/472647140"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/498703509",
-        "amenity": "toilets"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.1756825,
-          52.6464247
-        ]
-      },
-      "id": "node/498703509"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1180840444",
-        "amenity": "toilets",
-        "fee": "no",
-        "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.1845154,
-          52.6527017
-        ]
-      },
-      "id": "node/1180840444"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1230743522",
-        "access": "yes",
-        "amenity": "toilets",
-        "fee": "no",
-        "layer": "-2",
-        "level": "2.5"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.2957831,
-          52.6274202
-        ]
-      },
-      "id": "node/1230743522"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1230743580",
-        "amenity": "toilets",
-        "layer": "-3",
-        "level": "2",
-        "unisex": "yes",
-        "wheelchair": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.2973514,
-          52.6274401
-        ]
-      },
-      "id": "node/1230743580"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1230744001",
-        "amenity": "toilets",
-        "layer": "-1",
-        "level": "3"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.2958621,
-          52.6268804
-        ]
-      },
-      "id": "node/1230744001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1248122658",
-        "amenity": "toilets",
-        "fee": "no",
-        "level": "0",
-        "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.2899736,
-          52.6261526
-        ]
-      },
-      "id": "node/1248122658"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1248123374",
-        "amenity": "toilets",
-        "layer": "2",
-        "level": "2",
-        "operator": "Costa Coffee"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.2898198,
-          52.6261265
-        ]
-      },
-      "id": "node/1248123374"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1248123398",
-        "amenity": "toilets",
-        "layer": "2",
-        "level": "2",
-        "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.2911286,
-          52.6256819
-        ]
-      },
-      "id": "node/1248123398"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1248123681",
-        "amenity": "toilets",
-        "layer": "2",
-        "level": "2",
-        "operator": "House of Fraser"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.2893232,
-          52.6264278
-        ]
-      },
-      "id": "node/1248123681"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1335979674",
-        "access": "customers",
-        "amenity": "toilets"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.5016557,
-          52.6658571
-        ]
-      },
-      "id": "node/1335979674"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1365424951",
-        "amenity": "toilets",
-        "fee": "no",
-        "operator": "Tesco",
-        "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.2770067,
-          52.5951194
-        ]
-      },
-      "id": "node/1365424951"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1541173567",
-        "access": "yes",
-        "amenity": "toilets",
-        "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.3071658,
-          52.626855
-        ]
-      },
-      "id": "node/1541173567"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/2381422616",
-        "amenity": "toilets",
-        "note": "Baby changing facilities",
-        "opening_hours": "07:00-18:30"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.2929281,
-          52.6244206
-        ]
-      },
-      "id": "node/2381422616"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/2527310545",
         "access": "customers",
         "amenity": "toilets",
@@ -2010,21 +1318,6 @@
         ]
       },
       "id": "node/2527310545"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/3033452040",
-        "amenity": "toilets"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.1794497,
-          52.6470741
-        ]
-      },
-      "id": "node/3033452040"
     },
     {
       "type": "Feature",
@@ -2049,106 +1342,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/3709817678",
-        "access": "yes",
-        "amenity": "toilets",
-        "drinking_water": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.257524,
-          52.6204575
-        ]
-      },
-      "id": "node/3709817678"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/3823244185",
-        "amenity": "toilets"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.2774352,
-          52.6698739
-        ]
-      },
-      "id": "node/3823244185"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/3823244186",
-        "amenity": "toilets"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.277558,
-          52.66936
-        ]
-      },
-      "id": "node/3823244186"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/3823244187",
-        "amenity": "toilets"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.2775867,
-          52.6694047
-        ]
-      },
-      "id": "node/3823244187"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/3862586935",
-        "access": "customers",
-        "amenity": "toilets",
-        "diaper": "yes",
-        "fee": "no",
-        "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.3027088,
-          52.6280135
-        ]
-      },
-      "id": "node/3862586935"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/3862586936",
-        "access": "customers",
-        "amenity": "toilets",
-        "diaper": "yes",
-        "fee": "no",
-        "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.3026434,
-          52.6280287
-        ]
-      },
-      "id": "node/3862586936"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/4207863595",
         "access": "yes",
         "amenity": "toilets",
@@ -2164,24 +1357,6 @@
         ]
       },
       "id": "node/4207863595"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/5167531555",
-        "access": "yes",
-        "amenity": "toilets",
-        "fee": "no",
-        "note": "Access code can be obtained through various locations"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.3008996,
-          52.6312699
-        ]
-      },
-      "id": "node/5167531555"
     },
     {
       "type": "Feature",
@@ -2204,48 +1379,6 @@
         ]
       },
       "id": "node/5458528254"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/5694856554",
-        "access": "yes",
-        "amenity": "toilets",
-        "female": "yes",
-        "operator": "Norwich City Council"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.2991592,
-          52.6161306
-        ]
-      },
-      "id": "node/5694856554"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/6543931838",
-        "access": "RADA",
-        "addr:city": "Norwich",
-        "addr:street": "Cattlemarket Street",
-        "amenity": "toilets",
-        "description": "Fully accessible toilet with hoist and adult size changing \"table\". Bench - Height Adjustable, Adult Sized, Wall Mounted Hoist - Ceiling , Loop , Mobile Peninsular Toilet Washbasin Height Adjustable , Emergency Alarm, Managed ",
-        "level": "2",
-        "name": "Changing Places at Castle Mall Shopping Centre,",
-        "unisex": "yes",
-        "wheelchair": "yes",
-        "wheelchair:description": "Near the Cattlemarket entrance, right next to our disabled parking on Level J of the car park. If you are accessing the centre from Castle Meadow or Cattlemarket Street you will not need to use stairs or lifts. Opening times are as per the centre opening"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.2974323,
-          52.6272255
-        ]
-      },
-      "id": "node/6543931838"
     }
   ]
 }

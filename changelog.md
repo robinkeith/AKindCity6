@@ -17,4 +17,6 @@
 * Added the pedestrian area outside The Forum, and various other fixes to OSM
 
 ## 1.3
+* Improvements to toilet layer, start of common method for massarging OSM data into a more consistent form.
+* Impoved pop display for toilets layer.
 
