@@ -4,8 +4,8 @@ import * as turf from "@turf/turf";
 import FeatureInfo from './FeatureInfo';
 
 
-
-export function OSMtoTCSMdataMapper(data,featurePropsList){
+/**Middleware function called on the raw data before its added to a layer */
+function OSMtoTCSMdataMapper(data,featurePropsList){
     //replace any polygons with a point at centoid - with the same features
     let features =data.features;
     features.forEach( function(feature, index) {
@@ -26,17 +26,6 @@ export function OSMtoTCSMdataMapper(data,featurePropsList){
     return data;
 };
 
-
-export function featureToLayer(feature,layer){
-    layer.bindPopup(function(feature){
-        return popupFromFeatureInfo(feature.feature.info);
-    },{
-        autoPan:true,
-        'className' : 'popupCustom',
-    });
-};
-
-
 function popupFromFeatureInfo(featureInfo){
   
     console.log(JSON.stringify(featureInfo.tags));
@@ -51,16 +40,37 @@ function popupFromFeatureInfo(featureInfo){
     </div>`
   }
 
-export function CSMLayerFactory(dataFile,featureTags,icon){
-    return new L.GeoJSON.AJAX(dataFile,{
+  function geoJSONLayerFilter(isVisible){
+
+    return L.dynamicGeoJSON(null, { 
+        filter: function(feature, layer) {
+            return isVisible(feature.properties);
+        },
+    });
+        
+  };
+
+export function CSMLayerFactory(dataFile,featureTags,icon,filter){
+    let masterLayer= new L.GeoJSON.AJAX(dataFile,{
   
         middleware:function (data){ 
             return OSMtoTCSMdataMapper(data,featureTags); },
         
-        onEachFeature: featureToLayer,
+        onEachFeature: function(feature,layer){
+            layer.bindPopup(function(feature){
+                return popupFromFeatureInfo(feature.feature.info);
+            },{
+                autoPan:true,
+                'className' : 'popupCustom',
+            });
+        },
         
         pointToLayer: function (feature, latlng) {
             return L.marker(latlng, {icon:icon});
         },
+        filter:filter,
+
     });
+
+    return masterLayer; //geoJSONLayerFilter(masterLayer,userConfig.isVisible);
 }
