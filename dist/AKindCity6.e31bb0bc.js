@@ -54650,7 +54650,17 @@ function createLayers(map, userSettings) {
     position: 'topright'
   });
   layerControl.addTo(map);
-  layerControl.restoreSelectedLayers();
+  layerControl.restoreSelectedLayers(); //events responding to changes in the displayed layers, save the current selection
+
+  map.on('baselayerchange', function (e) {
+    layerControl.saveSelectedLayers();
+  });
+  map.on('overlayadd', function (e) {
+    layerControl.saveSelectedLayers();
+  });
+  map.on('overlayremove', function (e) {
+    layerControl.saveSelectedLayers();
+  });
   return layerControl;
 }
 /* Returns a object capable of taking a geoJSON layer and filtering it against settings
@@ -54856,7 +54866,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54124" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54592" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

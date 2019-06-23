@@ -125,6 +125,16 @@ export function createLayers(map,userSettings) {
 
     layerControl.addTo(map);
     layerControl.restoreSelectedLayers();
+    //events responding to changes in the displayed layers, save the current selection
+    map.on('baselayerchange', function (e) {
+        layerControl.saveSelectedLayers();
+    });
+    map.on('overlayadd', function (e) {
+        layerControl.saveSelectedLayers();
+    });
+    map.on('overlayremove', function (e) {
+        layerControl.saveSelectedLayers();
+    });
 
     return layerControl;
 }
