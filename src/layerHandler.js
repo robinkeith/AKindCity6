@@ -60,8 +60,9 @@ L.Control.Layers.include({
     },
     restoreSelectedLayers:function(){
 
+        let defaultLayer= "[\"Roads\"]";
         if (this._map) {
-            let activeLayers= JSON.parse( store.get(LAYERS_KEY,[]));
+            let activeLayers= JSON.parse( store.get(LAYERS_KEY,defaultLayer));
             this._layers.forEach( (layer) =>{
                 if (activeLayers.includes(layer.name)) {
                     this._map.addLayer(layer.layer);
