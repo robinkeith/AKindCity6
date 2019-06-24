@@ -1,5 +1,5 @@
 export var userSettings = {
-    name:"",
+    userName:"",
     simpleMode:false,
     pictureMode:false,
     mobility:"full", //["full","wheelchair","limited","power"],

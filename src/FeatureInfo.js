@@ -3,25 +3,31 @@ import opening_hours from 'opening_hours';
 //opening_hours.
 
 function getCurrentlyOpen(featureOpeningHours){
-  if (featureOpeningHours) {
-    let oh = opening_hours(featureOpeningHours);
-    if(oh){
-      var state      = oh.getState(); // we use current date
-      var unknown    = oh.getUnknown();
-      var comment    = oh.getComment();
-      var nextchange = oh.getNextChange();
+  try {
+    
+    if (featureOpeningHours) {
+      let oh = opening_hours(featureOpeningHours);
+      if(oh){
+        var state      = oh.getState(); // we use current date
+        var unknown    = oh.getUnknown();
+        var comment    = oh.getComment();
+        var nextchange = oh.getNextChange();
 
-      let currentStatus =  (getReadableState('Currently ', '', oh, true));
+        let currentStatus =  (getReadableState('Currently ', '', oh, true));
 
-      if (typeof nextchange === 'undefined')
-        console.log('And we will never ' + (state ? 'close' : 'open'));
-      else
-        currentStatus+=(' '
-              + (oh.getUnknown(nextchange) ? 'maybe ' : '')
-              + (state ? 'close' : 'open') + ' on ' + nextchange);
-      return currentStatus;
+        if (typeof nextchange === 'undefined')
+          console.log('And we will never ' + (state ? 'close' : 'open'));
+        else
+          currentStatus+=(' '
+                + (oh.getUnknown(nextchange) ? 'maybe ' : '')
+                + (state ? 'close' : 'open') + ' on ' + nextchange);
+        return currentStatus;
+      }
     }
+  } catch (error) {
+      console.log(error);
   }
+
 }
 
 export default class FeatureInfo{
@@ -81,12 +87,18 @@ export default class FeatureInfo{
       return `<a href=''>Report Problem</a>`;
     }
     get availability(){
+      let opening=this.label('Opening Times','opening_hours');
       let currentStatus = getCurrentlyOpen(this.tags.opening_hours);
+      if (currentStatus){
+        opening+=`<div class="pop-caption">${currentStatus}</div>`;
+      }
            
-      return this.label('Opening Times','opening_hours',(currentStatus)?`<div class="pop-caption">${currentStatus}</div>`:'</br>') +
+      return opening + 
+      //this.label('Opening Times','opening_hours',(currentStatus)?`<div class="pop-caption">${currentStatus}</div>`:'</br>') +
       this.label('Access','access', '&nbsp;') +
       this.label('RADAR key','centralkey', '&nbsp;') +
-      this.label('Fee','fee', this.tags["fee:charge"]);
+      this.label('Fee','fee', this.tags["fee:charge"]) +
+      ((this.tags.amenity!=='toilets')?this.label('Wheelchair Accessible Toilets','toilets:wheelchair'):'');
       
     }
 

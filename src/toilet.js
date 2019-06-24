@@ -28,8 +28,8 @@ export function toiletLayerGroup(userSettings){
       return (feature.properties["wheelchair"] && 
           (feature.properties["wheelchair"]==='yes'))
 
-  } else 
-  return true;// && feature.properties.wheelchair === "yes");
+    } else 
+    return true;// && feature.properties.wheelchair === "yes");
   }
 
   return new L.LayerGroup([

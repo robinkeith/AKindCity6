@@ -28,7 +28,12 @@ export function foodLayerGroup(userSettings){
     let featureTags='';
 
     let filter=function (feature) {
-        return (userSettings.mobility==='wheelchair' && feature.properties.wheelchair === "yes");
+        if (userSettings.mobility==='wheelchair') {
+            return (feature.properties["wheelchair"] && 
+                (feature.properties["wheelchair"]==='yes'))
+      
+          } else 
+          return true;
       }
 
 

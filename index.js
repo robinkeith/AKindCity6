@@ -107,7 +107,9 @@ import {createLayers} from './src/layerHandler';
     
 
 L.easyButton( 'fa-user-cog', function(){
-    alert("This is where you'll be able to choose settings to suit your needs.","It's All About Me");
+    //alert("This is where you'll be able to choose settings to suit your needs.","It's All About Me");
+    initUserSettingsForm();
+    $('#personalSettings').modal();
 },"Personalise the map for me",{position: 'bottomright'}).addTo(map);
 
 L.easyButton( 'fa-info', function(){
@@ -147,4 +149,31 @@ L.control.locate({
         map.setView([52.628533,1.291904], 15);
     }
 
-    
+
+
+//Set up userSetting form
+function initUserSettingsForm(){
+    $("#userName").val(userSettings.userName);
+    $('#switchSimple').prop("checked" ,userSettings.simpleMode);
+    $('#switchPics').prop("checked", userSettings.pictureMode);
+    $('#switchRADAR').prop("checked", userSettings.radarKey);
+    $('#switchDementia').prop("checked", userSettings.dementia);
+    $('#switchDog').prop("checked", userSettings.assistanceDog);
+    $('#switchHoist').prop("checked", userSettings.hoistRequired);
+    $('#switchDemo').prop("checked", userSettings.demoMode);
+}
+
+//userSettings form handling
+$('#settings-form').on('submit', function (event) {
+    userSettings.userName=$("#userName").val();
+    userSettings.simpleMode=$('#switchSimple').prop("checked" );
+    userSettings.pictureMode=$('#switchPics').prop("checked");
+    userSettings.radarKey=$('#switchRADAR').prop("checked");
+    userSettings.dementia=$('#switchDementia').prop("checked");
+    userSettings.assistanceDog=$('#switchDog').prop("checked");
+    userSettings.hoistRequired=$('#switchHoist').prop("checked");
+    userSettings.demoMode=$('#switchDemo').prop("checked");
+    //userSettings.mobility=
+
+    event.preventDefault();
+});

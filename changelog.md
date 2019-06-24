@@ -6,7 +6,7 @@
 * Impoved popup display for toilets amenity layer.
 * Personalisation iteration 1. layers can filter data based on wheelchair via icon bottom right
 * Added EAT layer
-* Active layers are remembered to localStorage
+* Active layers are saved to localStorage and recalled next session
 * Opening_hours parsing for current status in place but needs more work.
 
 

@@ -29,12 +29,13 @@ function OSMtoTCSMdataMapper(data,featurePropsList){
 function popupFromFeatureInfo(featureInfo){
   
     console.log(JSON.stringify(featureInfo.tags));
+    let availability=featureInfo.availability;
     return `
     <div class="container">
       <div class="pop-caption">${featureInfo.caption}</div>
       <div class="pop-location">${featureInfo.location}</div>
       <div class="pop-facilities">${featureInfo.facilities}</div>
-      <div class="pop-availability">${featureInfo.availability}</div>
+      <div class="pop-availability">${availability}</div>
       <div class="pop-operator">${featureInfo.operator}</div>
       <div class="pop-report">${featureInfo.report}</div>
     </div>`
