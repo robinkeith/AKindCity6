@@ -28,7 +28,7 @@ export function foodLayerGroup(userSettings){
     let featureTags='';
 
     let filter=function (feature) {
-        if (userSettings.mobility==='wheelchair') {
+        if (userSettings.wheelchair) {
             return (feature.properties["wheelchair"] && 
                 (feature.properties["wheelchair"]==='yes'))
       

@@ -41,7 +41,7 @@ export default class FeatureInfo{
     }
   
     //return a labelled value if the value is valid, nothing otherwise
-    label(labelName,valueName, post){
+    label(labelName,valueName, postValue,postLabel){
   
       let value='';
   
@@ -53,7 +53,7 @@ export default class FeatureInfo{
       
       let ret= 
         (value)?
-          ( ((labelName)?`<strong>${labelName}:</strong>&nbsp;`:'') + value+ ((post)?post:'')):
+          ( ((labelName)?`<strong>${labelName}:</strong>&nbsp;` + (postLabel||''):'') + value+ ((postValue)?postValue:'')):
           '';
       
       return ret;
@@ -81,16 +81,28 @@ export default class FeatureInfo{
       }
     }
     get operator(){
-      return this.label('Operated By','operator');
+      return this.label('Operated By','operator', undefined,'<br/>') || "<strong>Information supplied by:</strong>Open Street Map";
     }
     get report(){
-      return `<a href=''>Report Problem</a>`;
+      
+      let contact="";
+      
+      //if (supplier=osm)
+      let id=this.tags["@id"];
+      return `<a href='http://www.openstreetmap.org/edit?${id}' data-toggle='tooltip' title='Edit on OSM'>Update this information yourself</a>`
+      //return `<a href=''>Report Problem</a>`;
     }
     get availability(){
+
+      
       let opening=this.label('Opening Times','opening_hours');
-      let currentStatus = getCurrentlyOpen(this.tags.opening_hours);
-      if (currentStatus){
-        opening+=`<div class="pop-caption">${currentStatus}</div>`;
+      if(this.tags.opening_hours){
+        let currentStatus = getCurrentlyOpen(this.tags.opening_hours);
+        if (currentStatus){
+          opening+=`<div class="pop-caption">${currentStatus}</div>`;
+        } else {
+        opening+='<br/>';        
+        }
       }
            
       return opening + 
@@ -119,10 +131,10 @@ export default class FeatureInfo{
     }
   
   }
-  
+  /*
   function label(label,value, post){
     return ( value)?`<strong>{label}:</strong> {value}{post}`:'';
-  }  
+  } */ 
   
 
 

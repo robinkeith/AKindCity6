@@ -21,44 +21,60 @@ Find out more information on tags: [OSM Wiki](https://wiki.openstreetmap.org/wik
 
 Note. In the following queries, the filter **nwr** is used instead of joining seperate node, way and relation filters.
 The global bounding box is assumed, rather than using a bbox on each query clause.
-nwr[~"^toilets:.*$"~"."];
-
-### Parking
-`````
- node["amenity"="parking"]({{bbox}});
- way["amenity"="parking"]({{bbox}});
- relation["amenity"="parking"]({{bbox}});
-`````
-### Toilets
-Toilets can be recorded as seperate amenities:
-* amenity=toilets, amenity=toilet, amenity=toilet_private
-Or with a building in which case one or more toilet(.*) tags will be used.
 
 
+## GET HERE Layer
+### Parking Spaces (parkingSpaces.geojson)
 `````
-  //Toilets inside places
+ nwr[amenity=parking]
+`````
+### Parking Bays (parkingMeters.geojson)
+`````
+nwr[amenity=parking]
+`````
+## Taxis (taxis.geojson)
+````
+nwr[amenity=taxi]
+````
+
+## Public Transport (public.geojson)
+````
+nwr[railway=station];
+>>bus stations
+````
+## TOILETS Layer
+Toilets can be recorded as seperate amenities: 
+ amenity=toilets, amenity=toilet, amenity=toilet_private
+
+Or as tags of another feature, typically a building, in which case one or more toilet(.*) tags will be used.
+
+###  Toilets as amenities
+`````
   nwr[~"^toilet(s):.*$"~"."];
-  //Toilets as standalone amenities
+`````
+###  Toilets as tags of another feature
+`````
   nwr["amenity"~"toilet.*$"];
- 
-  //15/6/19 returns 232 nodes, 28 ways, 0 rels
-
 `````
+## EAT/DRINK Layer
 
-`````
-node["amenity"="toilets"]({{bbox}});
-way["amenity"="toilets"]({{bbox}});
-relation["amenity"="toilets"]({{bbox}});
+## SHOP Layer
+````
 
-node["toilets"]({{bbox}});
-way["toilets"]({{bbox}});
-relation["toilets"]({{bbox}});
+````
 
-node["toilets:wheelchair"]({{bbox}});
-way["toilets:wheelchair"]({{bbox}});
-relation["toilets:wheelchair"]({{bbox}});
-`````
 
+
+## HELP Layer
+````
+nwr[amentiy=police];
+>>walk-in centers
+>>pharmacists
+>> vets
+````
+
+
+---------------------------------
 
 `````
  // query part for: “wheelchair=*”

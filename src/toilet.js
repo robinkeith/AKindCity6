@@ -23,8 +23,7 @@ export function toiletLayerGroup(userSettings){
   let featureTags='changing_table,unisex,male,female,drinking_water';
 
   let filter=function (feature) {
-    //return (userSettings.mobility==='wheelchair' && feature.properties.wheelchair === "yes");
-    if (userSettings.mobility==='wheelchair') {
+    if (userSettings.wheelchair) {
       return (feature.properties["wheelchair"] && 
           (feature.properties["wheelchair"]==='yes'))
 

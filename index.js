@@ -1,3 +1,7 @@
+import $ from "jquery";
+import popper from "popper.js";
+import bootstrap from "bootstrap";
+
 import './node_modules/leaflet/dist/leaflet.css';
 import 'leaflet';
 import './index.css';
@@ -17,8 +21,9 @@ import './src/utils';
 import 'leaflet.restoreview';
 //import './src/dynamicLayers'; //dynamicLayers is the control
 //import './src/dynamicLayerGroup'; //dynamicLayerGroup is the data model.
-import {userSettings} from './src/userSettings';
+import {UserSettings,initUserSettingsForm,setupSettingsFormSubmit} from './src/userSettings';
 import {createLayers} from './src/layerHandler';
+import {defaults} from './src/defaults';
 
     delete L.Icon.Default.prototype._getIconUrl;
     L.Icon.Default.mergeOptions({
@@ -27,77 +32,31 @@ import {createLayers} from './src/layerHandler';
         shadowUrl: require('./node_modules/leaflet/dist/images/marker-shadow.png'),
     });
 
-
-    if (!userSettings.restore()){
-        //default settings are set in the userSettings object
-    }
+    
+    let userSettings= new UserSettings();
 
 
-    const mapbox_api_key='pk.eyJ1Ijoicm9iaW5rZWl0aCIsImEiOiJjanZrdnV1cDUwdGRuNGJtbHViNmQ4ZHh6In0.eZvncacC218djhVbySv5CQ';
 
     let map = L.map('map', {
         boxZoom:false,
-        maxBounds:[[52.584648,1.183911],[52.68566,1.518445]],
+        //maxBounds:[[52.584648,1.183911],[52.68566,1.518445]],
+        //lat = 52.628101, long= 1.299350
+        maxBounds:defaults.maxBounds,
         fullscreenControl: true,
+        maxZoom:defaults.maxZoom,
+        minZoom:defaults.minZoom,
     });
-    
-
-    var foodMarker = L.ExtraMarkers.icon({
-        icon: 'fa-utensils',
-        markerColor: 'red', 
-        shape: 'square',
-        prefix: 'fa'
-    });
-
-    
-    var helpMarker = L.ExtraMarkers.icon({
-        icon: 'fa-exclamation',
-        markerColor: 'red', 
-        shape: 'square',
-        prefix: 'fa'
-    });
-
-    var chairMarker = L.ExtraMarkers.icon({
-        icon: 'fa-accessible-icon',
-        markerColor: 'red', 
-        shape: 'square',
-        prefix: 'fab'
-    });
-
-
-    function onEachFeature(feature, layer) {
-        // does this feature have a property named popupContent?
-    // if (feature.properties && feature.properties.popupContent) {
-            layer.bindPopup(getFeatureDescription(feature));
-        /*} else {
-            console.log("no props");
-        }*/
+    let layerControl = createLayers(map,userSettings);
+    if (!map.restoreView()) {
+        map.setView(defaults.mapCentre, defaults.zoom);
     }
 
-    //The property @ID causes problems with ennumeating
-    function getFeatureDescription (feature){
-        var out = [];
-        Object.entries(feature.properties).forEach(entry => {
-            out.push( "<b>" + entry[0]+"</b>: "+entry[1]);
-        });
-        return out.join("<br />");
-    }
-
-  
-
-    const wheelchairLayer = new L.GeoJSON.AJAX("data/wheelchair.geojson",{
-        onEachFeature: onEachFeature,
-        pointToLayer: function (feature, latlng) {
-            return L.marker(latlng, {icon:chairMarker});
-        },
-    });
-
-
+    
 
     L.easyButton( 'fab fa-accessible-icon', function(){
-        layerControl.saveSelectedLayers();
+        //layerControl.saveSelectedLayers();
 
-        userSettings.mobility="wheelchair";
+        userSettings.wheelchair= !userSettings.wheelchair;
         //userSettings.parkingLayer.refresh();
         layerControl.refreshLayers(userSettings);
        /* .refilter(function(feature){
@@ -108,9 +67,12 @@ import {createLayers} from './src/layerHandler';
 
 L.easyButton( 'fa-user-cog', function(){
     //alert("This is where you'll be able to choose settings to suit your needs.","It's All About Me");
-    initUserSettingsForm();
+    userSettings.initUserSettingsForm();
+    
     $('#personalSettings').modal();
 },"Personalise the map for me",{position: 'bottomright'}).addTo(map);
+userSettings.setupSettingsFormSubmit();
+
 
 L.easyButton( 'fa-info', function(){
     alert("The map helps everybody enjoy our Kind City. The map is brought to you by the Clare School, in association with ???? The map is built with open source libraries including ...","Norwich Access Map");
@@ -141,39 +103,49 @@ L.control.locate({
     //var url = 'https://d2munx5tg0hw47.cloudfront.net/tiles/{z}/{x}/{y}.mapbox';
     //var mapillaryLayer = L.vectorGrid.protobuf(url).addTo(map);
 
-    
-    var layerControl = createLayers(map,userSettings);
+  
+  //  {"lat":52.628578970472866,"lng":1.2989358866616387,"zoom":15}
+
+ 
+
+ /*   var chairMarker = L.ExtraMarkers.icon({
+        icon: 'fa-accessible-icon',
+        markerColor: 'red', 
+        shape: 'square',
+        prefix: 'fab'
+    });
 
 
-    if (!map.restoreView()) {
-        map.setView([52.628533,1.291904], 15);
+    function onEachFeature(feature, layer) {
+        // does this feature have a property named popupContent?
+    // if (feature.properties && feature.properties.popupContent) {
+            layer.bindPopup(getFeatureDescription(feature));
+        /*} else {
+            console.log("no props");
+        }* /
     }
 
+    //The property @ID causes problems with ennumeating
+    function getFeatureDescription (feature){
+        var out = [];
+        Object.entries(feature.properties).forEach(entry => {
+            out.push( "<b>" + entry[0]+"</b>: "+entry[1]);
+        });
+        return out.join("<br />");
+    }
 
+  
 
-//Set up userSetting form
-function initUserSettingsForm(){
-    $("#userName").val(userSettings.userName);
-    $('#switchSimple').prop("checked" ,userSettings.simpleMode);
-    $('#switchPics').prop("checked", userSettings.pictureMode);
-    $('#switchRADAR').prop("checked", userSettings.radarKey);
-    $('#switchDementia').prop("checked", userSettings.dementia);
-    $('#switchDog').prop("checked", userSettings.assistanceDog);
-    $('#switchHoist').prop("checked", userSettings.hoistRequired);
-    $('#switchDemo').prop("checked", userSettings.demoMode);
-}
-
-//userSettings form handling
-$('#settings-form').on('submit', function (event) {
-    userSettings.userName=$("#userName").val();
-    userSettings.simpleMode=$('#switchSimple').prop("checked" );
-    userSettings.pictureMode=$('#switchPics').prop("checked");
-    userSettings.radarKey=$('#switchRADAR').prop("checked");
-    userSettings.dementia=$('#switchDementia').prop("checked");
-    userSettings.assistanceDog=$('#switchDog').prop("checked");
-    userSettings.hoistRequired=$('#switchHoist').prop("checked");
-    userSettings.demoMode=$('#switchDemo').prop("checked");
-    //userSettings.mobility=
-
-    event.preventDefault();
-});
+    const wheelchairLayer = new L.GeoJSON.AJAX("data/wheelchair.geojson",{
+        onEachFeature: onEachFeature,
+        pointToLayer: function (feature, latlng) {
+            return L.marker(latlng, {icon:chairMarker});
+        },
+    });
+*/
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip({
+        trigger : 'hover',
+        placement: 'right'
+    });
+})

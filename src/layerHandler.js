@@ -5,13 +5,9 @@ import {parkingLayerGroup} from './parking';
 import {foodLayerGroup} from './food';
 import {helpLayerGroup} from './help';
 import {userSettings} from './userSettings';
-import store from 'store2'
-
-/*L.Layer.include({
-    refresh: function (userSettings) {
-       this.refresh;
-    }
-});*/
+import {defaults} from './defaults';
+import store from 'store2';
+import 'leaflet-edgebuffer';
 
 const LAYERS_KEY="activeLayers"
 
@@ -60,9 +56,8 @@ L.Control.Layers.include({
     },
     restoreSelectedLayers:function(){
 
-        let defaultLayer= "[\"Roads\"]";
         if (this._map) {
-            let activeLayers= JSON.parse( store.get(LAYERS_KEY,defaultLayer));
+            let activeLayers= JSON.parse( store.get(LAYERS_KEY)) || defaults.activeLayers;
             this._layers.forEach( (layer) =>{
                 if (activeLayers.includes(layer.name)) {
                     this._map.addLayer(layer.layer);
@@ -75,22 +70,22 @@ L.Control.Layers.include({
 
 const defaultBaseLayer=
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoicm9iaW5rZWl0aCIsImEiOiJjanY5MHJrd2swand1NDRucjk2MnR4ejJ1In0.8f5HJ5ZWoRPbUoWcVjaQpg', {
-//maxZoom: 20,
-//minZoom: 13,
+maxZoom: defaults.maxZoom,
+minZoom: defaults.minZoom,
+bounds:defaults.maxBounds,
 attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
     '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
     'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
 id: 'mapbox.streets'
 });
 
-//https://api.mapbox.com/styles/v1/robinkeith/cjvuhr3eg2i351coyuneypdsu/wmts?access_token=pk.eyJ1Ijoicm9iaW5rZWl0aCIsImEiOiJjanY5MHJrd2swand1NDRucjk2MnR4ejJ1In0.8f5HJ5ZWoRPbUoWcVjaQpg
-//https://api.mapbox.com/styles/v1/robinkeith/cjvuhr3eg2i351coyuneypdsu/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoicm9iaW5rZWl0aCIsImEiOiJjanY5MHJrd2swand1NDRucjk2MnR4ejJ1In0.8f5HJ5ZWoRPbUoWcVjaQpg
+const mapbox_api_key='pk.eyJ1Ijoicm9iaW5rZWl0aCIsImEiOiJjanY5MHJrd2swand1NDRucjk2MnR4ejJ1In0.8f5HJ5ZWoRPbUoWcVjaQpg';
 
-//mapbox://styles/robinkeith/cjwxqu5ke4f451cp6uyqcuhcj
 const PedestrianBaseLayer =
-L.tileLayer('https://api.mapbox.com/styles/v1/robinkeith/cjwxqu5ke4f451cp6uyqcuhcj/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoicm9iaW5rZWl0aCIsImEiOiJjanY5MHJrd2swand1NDRucjk2MnR4ejJ1In0.8f5HJ5ZWoRPbUoWcVjaQpg', {
-//maxZoom: 20,
-//minZoom: 13,
+L.tileLayer('https://api.mapbox.com/styles/v1/robinkeith/cjwxqu5ke4f451cp6uyqcuhcj/tiles/256/{z}/{x}/{y}?access_token='+mapbox_api_key, {
+    maxZoom: defaults.maxZoom,
+    minZoom: defaults.minZoom,
+    bounds:defaults.maxBounds,
 attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
     '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
     'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -122,9 +117,16 @@ export function createLayers(map,userSettings) {
             collapsed:false,
             position:'topright',
     });
-
+    
     layerControl.addTo(map);
     layerControl.restoreSelectedLayers();
+    
+    //Add a mask layer to fade out areas outside the city
+    /*let masterLayer= new L.GeoJSON.AJAX('../data/cityBoundry.geojson',{
+        fillOpacity: 0.5,
+    }).addTo(map);*/
+
+    
     //events responding to changes in the displayed layers, save the current selection
     map.on('baselayerchange', function (e) {
         layerControl.saveSelectedLayers();

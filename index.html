@@ -16,7 +16,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>The Clare School Map</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"-->
+    
     <script src="https://kit.fontawesome.com/ecb5e2f378.js" integrity="sha384-7cupKsyf1krt0hPaFhz7o347RIzmECgbuiiOTe+NbIi9eA5z8RSNuYFdTDgRTZHH" crossorigin="anonymous"></script>
 </head>
 <body> 
@@ -53,26 +54,18 @@
             data-toggle="tooltip" title="Use photos of actual places rather than icons. Use pictures rather than words in the menu">I like pictures more than words</label>
         </div>
 
-        <div class="btn-group btn-group-toggle form-control" data-toggle="buttons">
-            <label class="btn" role="button">
-                <input type="checkbox" name="mobility[]" value="wheelchair">I use a wheelchair
-            </label>
-            <label class="btn" role="button">
-                <input type="checkbox" name="mobility[]" value="limited">I have limited mobility
-            </label>
-            <label class="btn" role="button">
-                <input type="checkbox" name="mobility[]" value="full">I have full mobility
-            </label>
+        <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="switchWheelchair">
+            <label class="custom-control-label" for="switchWheelchair" 
+            data-toggle="tooltip" title="Only shows services that we know are wheelchair friendly">I use a wheelchair</label>
         </div>
-        <!--div class="btn-group btn-group-sm" role="group" aria-label="About your mobility">
-            <button type="button" class="btn btn-primary" id="mobility" value="wheelchiar"
-                data-toggle="tooltip" title="Only show accessible disabled toilets. Highlights steps in red, avoids when route planning.">I’m a wheelchair user</button>
-            <button type="button" class="btn btn-primary"  id="mobility" value="limited" 
-                data-toggle="tooltip" title="Highlights steps and steep slopes in amber.">I have limited mobility</button>
-            <button type="button" class="btn btn-primary" id="mobility" value="full"
-                data-toggle="tooltip" >No mobility problems</button>
-        </div-->
 
+        <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="switchLimitedMobility">
+            <label class="custom-control-label" for="switchLimitedMobility" 
+            data-toggle="tooltip" title="">I have limited mobility</label>
+        </div>
+    
         
 
         <div class="custom-control custom-switch">
@@ -115,29 +108,12 @@
 </div>
 </div>
 </form>
-<script
+<!--script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script-->
 <script src="./index.js"></script>
-<script>
-    $(function () {
-        $('[data-toggle="tooltip"]').tooltip({
-            trigger : 'hover',
-            placement: 'right'
-        });
-    
-   
- 
-    })
-
-    </script>
-   
-    
-    
-
-
 </body>
 </html>

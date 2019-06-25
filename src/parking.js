@@ -21,16 +21,15 @@ export function parkingLayerGroup(userSettings){
 
     let filter=function (feature) {
 
-        if (userSettings.mobility==='wheelchair') {
+        if (userSettings.wheelchair) {
             return (feature.properties["capacity:disabled"] && 
                 (feature.properties["capacity:disabled"]>0 || feature.properties["capacity:disabled"]==='yes'))
 
         } else 
-        return true;// && feature.properties.wheelchair === "yes");
+        return true;
       }
 
     return new L.layerGroup([
-        CSMLayerFactory("data/parking.geojson",featureTags,parkingMarker,filter),
         CSMLayerFactory("data/parkingMeters.geojson",featureTags,parkingMarker,filter),                              
         CSMLayerFactory("data/parkingSpaces.geojson",featureTags,parkingMarker,filter),
         CSMLayerFactory("data/taxi.geojson",featureTags,taxiMarker,filter)

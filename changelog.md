@@ -1,5 +1,12 @@
 # Change Log
-
+## 1.4
+* Settings for wheelchair and limited mobility changed to switch buttons. Reworked filter functions to account
+* improved saving of personalisation settings to localstorage
+* collated defaults into one place
+* changed map bounds and max/min zoom to suite
+* added edge buffering for smoother map
+* improved peformance of layer loading to <1s
+* popup - defaults to supplied by OSM with link to edit the feature in OSM.
 
 ## 1.3
 * Improvements to toilet layer, start of common method for massarging OSM data into a more consistent form.
