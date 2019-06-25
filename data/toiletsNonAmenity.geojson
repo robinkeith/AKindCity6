@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2019-06-20T22:13:02Z",
+  "timestamp": "2019-06-25T03:27:02Z",
   "features": [
     {
       "type": "Feature",
@@ -700,6 +700,7 @@
         "amenity": "pub",
         "building": "house",
         "email": "ikwarren-angel@tiscali.co.uk",
+        "fhrs:id": "1857",
         "name": "The Angel Gardens",
         "opening_hours": "Mo-Fr 11:00-00:00; Sa 11:00-01:00; Su 12:00-23:30",
         "phone": "+44 1603 427490",
@@ -707,7 +708,7 @@
         "real_cider": "no",
         "toilets:wheelchair": "no",
         "website": "http://www.norwichinns.com/2-16",
-        "wheelchair:description": "There are steps to the toilet. but you can gain access to the pub by manual wheelchair. Not by electric wheelchair as doorway entrance is limited. The bar staff are really helpful. "
+        "wheelchair:description": "There are steps to the toilet. but you can gain access to the pub by manual wheelchair. Not by electric wheelchair as doorway entrance is limited. The bar staff are really helpful."
       },
       "geometry": {
         "type": "Polygon",
@@ -858,6 +859,7 @@
         "building": "shop",
         "cuisine": "burger",
         "fhrs:id": "17352",
+        "level": "1",
         "name": "Captain America's",
         "opening_hours": "Mo 11:30-16:00; Tu-Sa 11:30+; Su 12:00-16:00",
         "phone": "+44 1603 622551",
@@ -877,6 +879,30 @@
             [
               1.2933962,
               52.6291639
+            ],
+            [
+              1.293404,
+              52.6292098
+            ],
+            [
+              1.2934095,
+              52.6292549
+            ],
+            [
+              1.2934174,
+              52.6292965
+            ],
+            [
+              1.293328,
+              52.6293018
+            ],
+            [
+              1.2933214,
+              52.6292597
+            ],
+            [
+              1.2933147,
+              52.6292147
             ],
             [
               1.2933084,
@@ -1063,6 +1089,8 @@
         "building": "Visitors Center",
         "fee": "no",
         "information": "office",
+        "name": "Whitlingham Visitor Centre",
+        "operator": "Broads Authority",
         "toilets:position": "seated",
         "tourism": "information",
         "wheelchair": "yes"
@@ -1299,6 +1327,33 @@
         ]
       },
       "id": "node/355536540"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1541173567",
+        "access": "customers",
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "description": "The toilets are located on the Concourse, to the left of waiting room (platform 5b). Male toilets left, unisex disabled toilet middle, female toilets right. Doors open inwards",
+        "fee": "no",
+        "female": "yes",
+        "male": "yes",
+        "name": "Toilets at Norwich Station",
+        "opening_hours": "Station opening times",
+        "operator": "Abellio Greater Anglia",
+        "toilets:handwashing": "yes",
+        "wheelchair": "limited",
+        "wheelchair:description": "Unisex disabled toilet requires RADAR key. Manual doors, open inwards. Baby changing is not wheelchair accessible"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3071658,
+          52.626855
+        ]
+      },
+      "id": "node/1541173567"
     },
     {
       "type": "Feature",

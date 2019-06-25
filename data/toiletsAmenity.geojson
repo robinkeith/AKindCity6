@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2019-06-20T22:10:02Z",
+  "timestamp": "2019-06-25T03:28:02Z",
   "features": [
     {
       "type": "Feature",
@@ -875,9 +875,19 @@
       "type": "Feature",
       "properties": {
         "@id": "node/1541173567",
-        "access": "yes",
+        "access": "customers",
         "amenity": "toilets",
-        "wheelchair": "yes"
+        "changing_table": "yes",
+        "description": "The toilets are located on the Concourse, to the left of waiting room (platform 5b). Male toilets left, unisex disabled toilet middle, female toilets right. Doors open inwards",
+        "fee": "no",
+        "female": "yes",
+        "male": "yes",
+        "name": "Toilets at Norwich Station",
+        "opening_hours": "Station opening times",
+        "operator": "Abellio Greater Anglia",
+        "toilets:handwashing": "yes",
+        "wheelchair": "limited",
+        "wheelchair:description": "Unisex disabled toilet requires RADAR key. Manual doors, open inwards. Baby changing is not wheelchair accessible"
       },
       "geometry": {
         "type": "Point",

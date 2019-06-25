@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2019-06-21T22:08:02Z",
+  "timestamp": "2019-06-25T02:24:02Z",
   "features": [
     {
       "type": "Feature",
@@ -57,7 +57,17 @@
       "type": "Feature",
       "properties": {
         "@id": "way/27303611",
-        "amenity": "taxi"
+        "access": "yes",
+        "addr:city": "Norwich",
+        "addr:postcode": "NR2 1SN",
+        "addr:street": "Guildhall Hill",
+        "amenity": "taxi",
+        "capacity": "10",
+        "name": "Marketplace Taxi Rank (Gaol Hill)",
+        "opening_hours": "24/7",
+        "operator": "Norwich City Council",
+        "wheelchair": "yes",
+        "wheelchair:description": "Taxi rank situated on a slope"
       },
       "geometry": {
         "type": "Polygon",
@@ -70,6 +80,10 @@
             [
               1.2927997,
               52.6288982
+            ],
+            [
+              1.2928561,
+              52.6288953
             ],
             [
               1.2929061,
@@ -100,8 +114,16 @@
       "type": "Feature",
       "properties": {
         "@id": "way/108467051",
+        "addr:city": "Norwich",
+        "addr:street": "Station Approach",
         "amenity": "taxi",
-        "source": "survey"
+        "capacity": "5",
+        "description": "Taxi rank at front of station",
+        "name": "Norwich Railway Station Taxi Rank",
+        "opening_hours": "24/7",
+        "operator": "Norwich City Council",
+        "source": "survey",
+        "wheelchair": "yes"
       },
       "geometry": {
         "type": "Polygon",
@@ -255,17 +277,20 @@
       "type": "Feature",
       "properties": {
         "@id": "way/173295454",
+        "access": "no",
         "addr:city": "Norwich",
         "addr:country": "GB",
         "addr:postcode": "NR1 3EJ",
         "addr:street": "Ber Street",
         "amenity": "taxi",
         "building": "house",
+        "description": "Can no longer sit and wait inside.",
         "email": "info@kestral-taxis-norwich.co.uk",
         "name": "Kestral Taxis",
         "opening_hours": "24/7",
-        "phone": "+44 1603 666111; +44 1603 622677; +44 1603 621200",
-        "website": "http://kestral-taxis-norwich.co.uk/"
+        "phone": "+44 1603 666111;+44 1603 622677;+44 1603 621200",
+        "website": "http://kestral-taxis-norwich.co.uk/",
+        "wheelchair": "no"
       },
       "geometry": {
         "type": "Polygon",
@@ -568,13 +593,20 @@
       "type": "Feature",
       "properties": {
         "@id": "node/328762",
-        "amenity": "taxi"
+        "addr:city": "Norwich",
+        "addr:street": "Riverside",
+        "amenity": "taxi",
+        "capacity": "3",
+        "name": "Riverside Taxi Rank (Part Time)",
+        "opening_hours": "Part time",
+        "operator": "Norwich City Council",
+        "wheelchair": "yes"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           1.3051079,
-          52.626623
+          52.6266197
         ]
       },
       "id": "node/328762"
@@ -598,8 +630,15 @@
       "type": "Feature",
       "properties": {
         "@id": "node/772786068",
+        "addr:city": "Norwich",
+        "addr:street": "Queens Road",
         "amenity": "taxi",
-        "name": "Taxi rank"
+        "capacity": "3",
+        "description": "Through walkway to bus station",
+        "name": "Bus Station Taxi rank",
+        "opening_hours": "24/7",
+        "operator": "Norwich City Council",
+        "wheelchair": "yes"
       },
       "geometry": {
         "type": "Point",
@@ -639,7 +678,13 @@
       "type": "Feature",
       "properties": {
         "@id": "node/1236341553",
-        "amenity": "taxi"
+        "addr:city": "Norwich",
+        "addr:street": "Tombland",
+        "amenity": "taxi",
+        "capacity": "3",
+        "name": "Tombland Taxi Rank (Full time)",
+        "opening_hours": "24/7",
+        "operator": "Norwich City Council"
       },
       "geometry": {
         "type": "Point",
@@ -715,6 +760,113 @@
         ]
       },
       "id": "node/2772911954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6568899501",
+        "addr:city": "Norwich",
+        "addr:street": "Tombland",
+        "amenity": "taxi",
+        "capacity": "5",
+        "name": "Tombland (Part time)",
+        "opening_hours": "Part time",
+        "operator": "Norwich City Council"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2991859,
+          52.6307911
+        ]
+      },
+      "id": "node/6568899501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6568899502",
+        "addr:city": "Norwich",
+        "addr:street": "Bank Plain",
+        "amenity": "taxi",
+        "capacity": "5",
+        "name": "Bank Plain Taxi Rank (Part time)",
+        "opening_hours": "part time",
+        "operator": "Norwich City Council"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2971502,
+          52.6301383
+        ]
+      },
+      "id": "node/6568899502"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6568899503",
+        "addr:city": "Norwich",
+        "addr:street": "Prince of Wales Road",
+        "amenity": "taxi",
+        "capacity": "5",
+        "name": "Prince of Wales Road Taxi Rank (Part Time)",
+        "opening_hours": "Part time",
+        "operator": "Norwich City Council"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3036832,
+          52.628666
+        ]
+      },
+      "id": "node/6568899503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6568899504",
+        "addr:city": "Norwich",
+        "addr:street": "Castle Meadow",
+        "amenity": "taxi",
+        "capacity": "3",
+        "name": "Castle Meadow Taxi Rank",
+        "opening_hours": "24/7",
+        "operator": "Norwich City Council",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2951511,
+          52.6285178
+        ]
+      },
+      "id": "node/6568899504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6568899505",
+        "addr:city": "Norwich",
+        "addr:street": "Saint Stephens Street",
+        "amenity": "taxi",
+        "capacity": "3",
+        "name": "St Stephens Street Taxi Rank",
+        "opening_hours": "24/7",
+        "operator": "Norwich City Council",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2922061,
+          52.6251379
+        ]
+      },
+      "id": "node/6568899505"
     }
   ]
 }
