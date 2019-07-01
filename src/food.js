@@ -1,5 +1,5 @@
 import 'leaflet';
-import {CSMLayerFactory} from './utils';
+import {CSMLayerFactory} from './utils.js';
 
 var cafeMarker = L.ExtraMarkers.icon({
     icon: 'fa-mug-hot',

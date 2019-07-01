@@ -1,21 +1,19 @@
 import 'leaflet';
-import {CSMLayerFactory} from './utils';
-import './dynamicLayers';
-import './dynamicLayerGroup';
-import {userSettings} from './userSettings';
+import {CSMLayerFactory} from './utils.js';
+import {userSettings} from './userSettings.js';
 
 
 var toiletMarker = L.ExtraMarkers.icon({
   icon: 'fa-toilet',
   markerColor: 'yellow', 
   shape: 'square',
-  prefix: 'fa'
+  prefix: 'fas'
 });
 var toiletMarker2 = L.ExtraMarkers.icon({
   icon: 'fa-toilet',
   markerColor: 'yellow', 
   shape: 'square',
-  prefix: 'fa',
+  prefix: 'fas',
   iconColor:'black',
 });
 
@@ -37,12 +35,3 @@ export function toiletLayerGroup(userSettings){
     CSMLayerFactory("data/toiletsNonAmenity.geojson",featureTags,toiletMarker2,filter)
   ]);
 }
-
-
-/*
-export const toiletLayerGroup= L.dynamicLayerGroup([
-    ],{
-      dynamicFilter:function (feature) {
-        if (feature.properties.wheelchair === "yes") return true;
-      }
- });*/

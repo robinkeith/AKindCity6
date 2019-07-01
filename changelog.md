@@ -1,4 +1,17 @@
 # Change Log
+
+## 1.6
+
+
+## 1.5
+* Link to open street map editor fixed
+* Improved popup information
+* changed icon for parking meter
+* Added Clare School Logo
+* Formatted Layer selector
+* added feature search
+* groupped buttons into top left (on screen controls temp. removed)
+
 ## 1.4
 * Settings for wheelchair and limited mobility changed to switch buttons. Reworked filter functions to account
 * improved saving of personalisation settings to localstorage

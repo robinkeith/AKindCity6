@@ -1,8 +1,6 @@
-import $ from "jquery";
 import * as turf from "@turf/turf";
-//import * as turfHelper from "@turf/helpers";
-//import { isUndefined } from 'util';
-import FeatureInfo from './FeatureInfo';
+import FeatureInfo from './FeatureInfo.js';
+
 
 
 /**Middleware function called on the raw data before its added to a layer */
@@ -71,7 +69,7 @@ export function CSMLayerFactory(dataFile,featureTags,icon,filter){
             return L.marker(latlng, {icon:icon});
         },
         filter:filter,
-
+        makeBoundsAware: true,
     });
 
     return masterLayer; //geoJSONLayerFilter(masterLayer,userConfig.isVisible);

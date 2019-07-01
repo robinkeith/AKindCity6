@@ -1,5 +1,6 @@
 import $ from "jquery";
-import store from 'store2'
+import store from 'store2';
+window.$ = window.jQuery = $
 
 const SETTINGS_KEY="userSettings"
 

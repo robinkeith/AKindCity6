@@ -1,13 +1,16 @@
 //import {contributeLayer} from './contribute';
 import 'leaflet';
-import {toiletLayerGroup} from './toilet';
-import {parkingLayerGroup} from './parking';
-import {foodLayerGroup} from './food';
-import {helpLayerGroup} from './help';
-import {userSettings} from './userSettings';
-import {defaults} from './defaults';
 import store from 'store2';
 import 'leaflet-edgebuffer';
+import 'leaflet-providers';
+import 'leaflet-boundsawarelayergroup';
+
+import {toiletLayerGroup} from './toilet.js';
+import {parkingLayerGroup} from './parking.js';
+import {foodLayerGroup} from './food.js';
+import {helpLayerGroup} from './help.js';
+import {userSettings} from './userSettings.js';
+import {defaultSettings} from './defaultSettings.js';
 
 const LAYERS_KEY="activeLayers"
 
@@ -70,9 +73,9 @@ L.Control.Layers.include({
 
 const defaultBaseLayer=
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoicm9iaW5rZWl0aCIsImEiOiJjanY5MHJrd2swand1NDRucjk2MnR4ejJ1In0.8f5HJ5ZWoRPbUoWcVjaQpg', {
-maxZoom: defaults.maxZoom,
-minZoom: defaults.minZoom,
-bounds:defaults.maxBounds,
+maxZoom: defaultSettings.maxZoom,
+minZoom: defaultSettings.minZoom,
+bounds:defaultSettings.maxBounds,
 attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
     '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
     'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -83,9 +86,9 @@ const mapbox_api_key='pk.eyJ1Ijoicm9iaW5rZWl0aCIsImEiOiJjanY5MHJrd2swand1NDRucjk
 
 const PedestrianBaseLayer =
 L.tileLayer('https://api.mapbox.com/styles/v1/robinkeith/cjwxqu5ke4f451cp6uyqcuhcj/tiles/256/{z}/{x}/{y}?access_token='+mapbox_api_key, {
-    maxZoom: defaults.maxZoom,
-    minZoom: defaults.minZoom,
-    bounds:defaults.maxBounds,
+    maxZoom: defaultSettings.maxZoom,
+    minZoom: defaultSettings.minZoom,
+    bounds:defaultSettings.maxBounds,
 attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
     '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
     'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -93,13 +96,26 @@ id: 'mapbox.streets'
 })
 
 
+
+
+
 export function createLayers(map,userSettings) {
     const emptyLayer =  L.tileLayer('');
 
+    defaultBaseLayer.addTo(map);
+
     let layerControl= L.control.layers({
         
-        "Roads": defaultBaseLayer,
+        /*"Roads": defaultBaseLayer,
         "Pedestrian": PedestrianBaseLayer,
+        "High Contrast":L.tileLayer.provider('Stamen.Toner'),
+        "Alt Map 1":L.tileLayer.provider('Esri.WorldStreetMap'),
+        "Alt Map 2":L.tileLayer.provider('Esri.WorldTopoMap'),
+        "Alt Map 3":L.tileLayer.provider('Esri.WorldImagery'),
+        "Alt Map 4":L.tileLayer.provider('CartoDB.Voyager'),
+        "Alt Map 5":L.tileLayer.provider('OpenStreetMap.Mapnik'),
+        "Alt Map 6":L.tileLayer.provider('Thunderforest.Transport'),
+        "Alt Map 7":L.tileLayer.provider('Thunderforest.TransportDark'),*/
         }, 
         {
             '<i class="fas fa-parking"></i> Get Here': parkingLayerGroup(userSettings),
@@ -120,6 +136,8 @@ export function createLayers(map,userSettings) {
     
     layerControl.addTo(map);
     layerControl.restoreSelectedLayers();
+
+
     
     //Add a mask layer to fade out areas outside the city
     /*let masterLayer= new L.GeoJSON.AJAX('../data/cityBoundry.geojson',{
@@ -137,6 +155,7 @@ export function createLayers(map,userSettings) {
     map.on('overlayremove', function (e) {
         layerControl.saveSelectedLayers();
     });
+
 
     return layerControl;
 }

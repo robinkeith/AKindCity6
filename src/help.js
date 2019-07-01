@@ -1,5 +1,5 @@
 import 'leaflet';
-import {CSMLayerFactory} from './utils';
+import {CSMLayerFactory} from './utils.js';
 
 var safePlacesMarker = L.ExtraMarkers.icon({
     icon: 'fa-hand-holding-heart',
@@ -15,6 +15,6 @@ export function helpLayerGroup(userSettings){
     let filter=function (feature) {return true;  }
 
     return new L.layerGroup([
-        CSMLayerFactory("data/safePlaces.geojson",featureTags,safePlacesMarker,userSettings),
+        CSMLayerFactory("data/safePlaces.geojson",featureTags,safePlacesMarker,filter),
     ]);
 }

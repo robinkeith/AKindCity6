@@ -16,14 +16,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>The Clare School Map</title>
-    <!--link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"-->
     
-    <script src="https://kit.fontawesome.com/ecb5e2f378.js" integrity="sha384-7cupKsyf1krt0hPaFhz7o347RIzmECgbuiiOTe+NbIi9eA5z8RSNuYFdTDgRTZHH" crossorigin="anonymous"></script>
+    
 </head>
 <body> 
-    <div id='map' class='map-container'></div>
+    <div id='map' class='map-container'>
+        <div id="sidebar">
+            <h3></h3>
+            <hr>
+            <div id="mapinfo"></div>
+        </div>
+        <div id="globalsearch" style="position:absolute;left:10px;top:51px;height:38px;width:450px;z-index:1;"></div>
+    </div>
+    <div id="logoContainer">
+        <img src="resources\logo.svg" class="shadowfilter" />
+    </div>
+    <svg height="0" style="display:none;">
+        <filter id="outline">
+            <feMorphology in="SourceAlpha" result="DILATED" operator="dilate" radius="1"></feMorphology>
+            
+            <feFlood flood-color="#00000050" flood-opacity="1" result="PINK"></feFlood>
+            <feComposite in="PINK" in2="DILATED" operator="in" result="OUTLINE"></feComposite>
     
- 
+            <feMerge>
+                    <feMergeNode in="OUTLINE" />
+                    <feMergeNode in="SourceGraphic" />
+                </feMerge>
+            </filter>
+        <filter id="f1">
+            <feColorMatrix values="0.3333 0.3333 0.3333 0 0
+                                    0.3333 0.3333 0.3333 0 0
+                                    0.3333 0.3333 0.3333 0 0
+                                    0      0      0      1 0"/>
+        </filter>
+    </svg>
+    
+    <div class="modal" tabindex="-1" role="dialog" id="about" aria-labelledby="aboutLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="aboutLabel">About The Clare School Map</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                This is a prototype accessibility map for Norwich.<br/> 
+                It was created for the Create Norwich project by students from The Clare School. <br/>
+                It uses crowdsourced data from OpenStreetMap. That means not all the information is up to date or accurate, but you can help put that right.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+            </div>
+            </div>
+                
+
 <form id="settings-form">
     <div class="modal" tabindex="-1" role="dialog" id="personalSettings" aria-labelledby="personalSettingsLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -108,12 +157,7 @@
 </div>
 </div>
 </form>
-<!--script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script-->
-<script src="./index.js"></script>
+
+<script src="./src/index.js"></script>
 </body>
 </html>
