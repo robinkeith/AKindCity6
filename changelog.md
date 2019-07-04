@@ -1,13 +1,14 @@
 # Change Log
 
 ## 1.6
-* Import from OSM to raw geoJSON
-* upated favicon + app icons to new design
-* Tweaks to layout.
+* Scripted import from OSM (still on demand, but single button to refresh the data) 
+* Added Changing Places data and approved logo
+* updated favicon + app icons to new design
+* Tweaks to layout
 * fix: user settings not refreshed after saving.
 * Marker feature change to modal box and made larger
-* Layer buttons only shown if layer contains data
-* refactoring of code around popups and layer loading
+* Layer buttons only shown if layer contains data (the other layers will return shortly!)
+* refactoring of code around popups and layer loading - popup now take whole screen and much large text
 
 ## 1.5
 * Link to open street map editor fixed
