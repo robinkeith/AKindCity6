@@ -5,7 +5,7 @@ window.$ = window.jQuery = $
 const SETTINGS_KEY="userSettings"
 
 export class UserSettings{
-    constructor(){
+    constructor(layerControl){
         //object asign used to copy properties fom a default object, then overwrite with an object from local settings (if there is one)
         Object.assign(this, 
             
@@ -23,6 +23,7 @@ export class UserSettings{
             },
             JSON.parse( store.get(SETTINGS_KEY))
         );
+        this.layerControl=layerControl;
     }
 
     isVisible(properties){
@@ -65,6 +66,8 @@ export class UserSettings{
             userSettings.hoistRequired=$('#switchHoist').prop("checked");
             userSettings.demoMode=$('#switchDemo').prop("checked");
             userSettings.save();
+            layerControl.refreshLayers(userSettings);
+            
             $('#personalSettings').modal('hide');
             
         });

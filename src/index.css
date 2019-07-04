@@ -147,6 +147,9 @@ html, body, .map-container {
   height:90%;
 
 }
+.leaflet-control-layers-separator{
+  display: none;
+}
 
 .tooltip {
   pointer-events: none;

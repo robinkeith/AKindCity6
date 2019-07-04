@@ -22,6 +22,7 @@ function OSMtoTCSMdataMapper(data,featurePropsList){
         console.log(error);
         }
     });
+    //console.log(`returning ${data.features.length} features`)
     return data;
 };
 
@@ -51,23 +52,35 @@ function popupFromFeatureInfo(featureInfo){
   };
 
 export function CSMLayerFactory(dataFile,featureTags,icon,filter){
+    //console.log(`Loading layer ${dataFile}`)
 
     let chooseIcon = (icon instanceof Function)?icon: function (){return icon;};
+
+/* Open modal & center map on marker click 	*/
+
+    function markerOnClick(e) {
+        
+        let poi = e.target.feature.info;
+        popupFromFeatureInfo(poi);
+        $(".modal-content").html(popupFromFeatureInfo(poi));
+            //'This is marker ' + JSON.stringify(e.target.feature));
+        $('#infoWindow').modal('show');
+        //poi.
+        e.target._map.setView(e.target.getLatLng());
+        //e.preventDefault();
+    }
+
 
     let masterLayer= new L.GeoJSON.AJAX(dataFile,{
   
         middleware:function (data){ 
+            //console.log(`Loaded ${data.features.length} features`)
             return OSMtoTCSMdataMapper(data,featureTags); },
-        
         onEachFeature: function(feature,layer){
-            layer.bindPopup(function(feature){
-                return popupFromFeatureInfo(feature.feature.info);
-            },{
-                autoPan:true,
-                'className' : 'popupCustom',
-            });
+            layer.on('click', markerOnClick);/*bindPopup(function(feature){
+                return popupFromFeatureInfo(feature.feature.info);*/
         },
-        
+
         pointToLayer: function (feature, latlng) {
             return L.marker(latlng, {icon:chooseIcon(feature.info)});
         },

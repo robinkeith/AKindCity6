@@ -4,6 +4,10 @@
 * Import from OSM to raw geoJSON
 * upated favicon + app icons to new design
 * Tweaks to layout.
+* fix: user settings not refreshed after saving.
+* Marker feature change to modal box and made larger
+* Layer buttons only shown if layer contains data
+* refactoring of code around popups and layer loading
 
 ## 1.5
 * Link to open street map editor fixed

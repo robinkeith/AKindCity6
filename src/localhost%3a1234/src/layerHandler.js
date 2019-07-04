@@ -106,7 +106,7 @@ export function createLayers(map,userSettings) {
         {tooltip:'Cafes, restuants, and pubs',  icon:'fas fa-utensils'     ,title:'Eat and Drink', layer:foodLayerGroup(userSettings)},
         {tooltip:'Shops',                       icon:'fas fa-shopping-cart',title:'Shop'},
         {tooltip:'Learn',                       icon:'fas fa-hands-helping',title:'Learn'},
-        {tooltip:'Cinemas, entertainment',      icon:'fas fa-smile-beam'   ,title:'Enjoy'}        
+        {tooltip:'Cinemas, bowling, entertainment',           icon:'fas fa-smile-beam'   ,title:'Enjoy'}        
     ];
 
     
@@ -125,8 +125,6 @@ export function createLayers(map,userSettings) {
 
         if (overlay.layer) {
 
-            let pointsCount=Object.entries(overlay.layer._layers).reduce((acc,subLayer) => acc+ subLayer.length /*(subLayer._layers?subLayer._layers.length:0)*/ , 0);
-            //console.log(`Adding ${pointsCount} points`);
             layerControl.addOverlay(overlay.layer,
                 `<span data-toggle="tooltip" data-placement="top" title="${overlay.tooltip}" ><i class="${overlay.icon}"></i> ${overlay.title}</span>`
             )
