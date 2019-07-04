@@ -1,7 +1,9 @@
 # Change Log
 
 ## 1.6
-
+* Import from OSM to raw geoJSON
+* upated favicon + app icons to new design
+* Tweaks to layout.
 
 ## 1.5
 * Link to open street map editor fixed

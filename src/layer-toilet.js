@@ -20,17 +20,11 @@ var toiletMarker2 = L.ExtraMarkers.icon({
 
 var changingPlacesMarker = L.icon({
     iconUrl: changingPlacesLogo,// 'resources/Changing_Place_logo.svg',
-    //shadowUrl: 'leaf-shadow.png',
-
     iconSize:     [45, 45], // size of the icon
-    //shadowSize:   [50, 64], // size of the shadow
-    //iconAnchor:   [20 , 20], // point of the icon which will correspond to marker's location
-   // shadowAnchor: [4, 62],  // the same for the shadow
-    //popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
 });
 
 
-export function toiletLayerGroup(userSettings){
+export default function (userSettings){
   let featureTags='changing_table,unisex,male,female,drinking_water';
 
   let filter=function (feature) {

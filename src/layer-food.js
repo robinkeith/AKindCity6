@@ -24,7 +24,7 @@ var foodMarker = L.ExtraMarkers.icon({
 });
 
 
-export function foodLayerGroup(userSettings){
+export default function (userSettings){
     let featureTags='';
 
     let filter=function (feature) {

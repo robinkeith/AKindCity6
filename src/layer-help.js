@@ -22,7 +22,7 @@ var medMarker = L.ExtraMarkers.icon({
 });
 
 let featureTags='';
-export function helpLayerGroup(userSettings){
+export default function (userSettings){
     let featureTags='';
 
     let filter=function (feature) {return true;  }

@@ -7,10 +7,10 @@ import 'leaflet-boundsawarelayergroup';
 
 import getHereLayerGroup from './layer-getHere';
 import getAroundLayerGroup from './layer-getAround';
-import {toiletLayerGroup} from './toilet.js';
+import toiletLayerGroup from './layer-toilet';
+import foodLayerGroup from './layer-food';
+import helpLayerGroup from './layer-help';
 
-import {foodLayerGroup} from './food.js';
-import {helpLayerGroup} from './help.js';
 import {userSettings} from './userSettings.js';
 import {defaultSettings} from './defaultSettings.js';
 

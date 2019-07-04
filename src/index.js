@@ -95,4 +95,18 @@ $(function () {
   .each(function(index,el){ 
       $(this).parents("label").css("background-color",$(this).css("background-color"))})
 
+    
+    /* Open modal & center map on marker click 	*/
+    function markerOnClick(e) {
+        var id = this.options.id;
+        $(".modal-content").html('This is marker ' + id);
+        $('#infoWindow').modal('show');
+        map.setView(e.target.getLatLng());
+        e.preventDefault();
+    }
+    
+      /*Close modal on map click */
+    map.on('click', function(e) {
+        $('.modal').modal('hide');
+    });
 })
