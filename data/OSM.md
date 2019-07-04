@@ -30,7 +30,7 @@ The global bounding box is assumed, rather than using a bbox on each query claus
 `````
 ### Parking Bays (parkingMeters.geojson)
 `````
-nwr[amenity=parking]
+nwr[amenity=vending_machine]nwr[vending=parking_tickets]
 `````
 ## Taxis (taxis.geojson)
 ````

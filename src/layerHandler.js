@@ -5,8 +5,10 @@ import 'leaflet-edgebuffer';
 import 'leaflet-providers';
 import 'leaflet-boundsawarelayergroup';
 
+import getHereLayerGroup from './layer-getHere';
+import getAroundLayerGroup from './layer-getAround';
 import {toiletLayerGroup} from './toilet.js';
-import {parkingLayerGroup} from './parking.js';
+
 import {foodLayerGroup} from './food.js';
 import {helpLayerGroup} from './help.js';
 import {userSettings} from './userSettings.js';
@@ -60,7 +62,7 @@ L.Control.Layers.include({
     restoreSelectedLayers:function(){
 
         if (this._map) {
-            let activeLayers= JSON.parse( store.get(LAYERS_KEY)) || defaults.activeLayers;
+            let activeLayers= JSON.parse( store.get(LAYERS_KEY)) || defaultSettings.activeLayers;
             this._layers.forEach( (layer) =>{
                 if (activeLayers.includes(layer.name)) {
                     this._map.addLayer(layer.layer);
@@ -118,20 +120,20 @@ export function createLayers(map,userSettings) {
         "Alt Map 7":L.tileLayer.provider('Thunderforest.TransportDark'),*/
         }, 
         {
-            '<i class="fas fa-parking"></i> Get Here': parkingLayerGroup(userSettings),
-            '<i class="fas fa-info-circle"></i> Get Around': emptyLayer,
-            '<i class="fas fa-toilet"></i> Toilets':toiletLayerGroup(userSettings),
-            '<i class="fas fa-utensils"></i> Eat and Drink':foodLayerGroup(userSettings),
-            '<i class="fas fa-shopping-cart"></i> Shop':emptyLayer,
-            '<i class="fas fa-hands-helping"></i> Learn':emptyLayer,
-            '<i class="fas fa-smile-beam"></i> Enjoy':emptyLayer,
+            '<span data-toggle="tooltip" data-placement="top" title="Parking, taxis, bus and rail" ><i class="fas fa-parking"></i> Get Here</span>': getHereLayerGroup(userSettings),
+            '<span data-toggle="tooltip" data-placement="top" title="Ramps, stairs, lifts"><i class="fas fa-info-circle"></i> Get Around': getAroundLayerGroup(userSettings),
+            '<span data-toggle="tooltip" data-placement="top" title="Toilets and Changing Places"><i class="fas fa-toilet"></i> Toilets':toiletLayerGroup(userSettings),
+            '<span data-toggle="tooltip" data-placement="top" title="Cafes, restuants, and pubs"><i class="fas fa-utensils"></i> Eat and Drink':foodLayerGroup(userSettings),
+            '<span data-toggle="tooltip" data-placement="top" title="Shops"><i class="fas fa-shopping-cart"></i> Shop':emptyLayer,
+            '<span data-toggle="tooltip" data-placement="top" title="Learn"><i class="fas fa-hands-helping"></i> Learn':emptyLayer,
+            '<span data-toggle="tooltip" data-placement="top" title="Cinemas, bowling "><i class="fas fa-smile-beam"></i> Enjoy':emptyLayer,
             
-            '<i class="fas fa-exclamation"></i> <strong>Help!</strong>': helpLayerGroup(userSettings),
+            '<span data-toggle="tooltip" data-placement="top" title="Services to keep you safe."><i class="fas fa-exclamation"></i> <strong>Help</strong>': helpLayerGroup(userSettings),
             //"<i>Contribute</i>":contributeLayer,
         },
         {
             collapsed:false,
-            position:'topright',
+            position:'bottomright',
     });
     
     layerControl.addTo(map);

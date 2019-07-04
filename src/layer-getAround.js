@@ -3,27 +3,28 @@ import {CSMLayerFactory} from './utils.js';
 
 var parkingMarker = L.ExtraMarkers.icon({
     icon: 'fa-parking',
-    iconColor:'blue',
+    iconColor:'red',
     markerColor: 'white', 
     shape: 'square',
     prefix: 'fa'
 });
 var carparkMarker = L.ExtraMarkers.icon({
     icon: 'fa-parking',
-    markerColor: 'blue', 
+    markerColor: 'red', 
     shape: 'square',
     prefix: 'fa'
 });
 
-var taxiMarker = L.ExtraMarkers.icon({
+
+var taxiMarker2 = L.ExtraMarkers.icon({
     icon: 'fa-taxi',
-    markerColor: 'black', 
+    markerColor: 'red', 
     shape: 'square',
     prefix: 'fa',
 
 });
 
-export function parkingLayerGroup(userSettings){
+export default function (userSettings){
     let featureTags='';
 
     let filter=function (feature) {
@@ -39,8 +40,8 @@ export function parkingLayerGroup(userSettings){
       }
 
     return new L.layerGroup([
-        CSMLayerFactory("data/parkingMeters.geojson",featureTags,parkingMarker,filter),                              
-        CSMLayerFactory("data/parkingSpaces.geojson",featureTags,carparkMarker,filter),
-        CSMLayerFactory("data/taxi.geojson",featureTags,taxiMarker,filter)
+        /*CSMLayerFactory("data/parkingMeters-hand.geojson",featureTags,parkingMarker,filter),                              
+        CSMLayerFactory("data/parkingSpaces-hand.geojson",featureTags,carparkMarker,filter),
+        CSMLayerFactory("data/taxi-hand.geojson",featureTags,taxiMarker2,filter)*/
     ]);
 }

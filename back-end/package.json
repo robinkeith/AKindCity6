@@ -1,28 +1,18 @@
 {
-  "name": "akindcity6",
+  "name": "importer",
   "version": "1.0.0",
-  "description": "Accessibility Map for Norwich",
+  "description": "Accessibility Map for Norwich - data importer",
   "scripts": {
-    "start": "parcel data/**/* index.html --target browser",
-    "start-debug": "parcel data/**/* index.html --target browser --log-level 4",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy": "parcel build index.html data/**/* --target browser --public-url /AKindCity6/",
-    "deploy": "gh-pages -d dist",
-    "download-osm": "--node --experimental-modules ./src/downloader.mjs",
-    "down": "node ./back-end/main.js"
+    "start": "",
+    "start-debug": "",
+    "test": "",
+    "predeploy": "",
+    "deploy": "",
+    "down": "node ./main.js"
   },
-  "browser": "index.html",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/robinkeith/AKindCity6.git"
-  },
-  "homepage": "https://robinkeith.github.io/AKindCity6",
-  "author": "Robin Keith",
+  "main": "main.js",
+
   "license": "MIT",
-  "parcelCleanPaths": [
-    "dist",
-    ".cache"
-  ],
   "devDependencies": {
     "@mapbox/geojsonhint": "^3.0.0",
     "browserify": "^16.2.3",

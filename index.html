@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="apple-touch-icon" sizes="180x180" href="/resources/icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/resources/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/resources/icons/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/resources/icons/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/resources/icons/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="apple-mobile-web-app-title" content="The Clare School Map">
-    <meta name="application-name" content="The Clare School Map">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=kP366GqW98">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=kP366GqW98">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png?v=kP366GqW98">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=kP366GqW98">
+    <link rel="manifest" href="/site.webmanifest?v=kP366GqW98">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=kP366GqW98" color="#5bbad5">
+    <link rel="shortcut icon" href="/favicon.ico?v=kP366GqW98">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
@@ -29,20 +28,20 @@
         <div id="globalsearch" style="position:absolute;left:10px;top:51px;height:38px;width:450px;z-index:1;"></div>
     </div>
     <div id="logoContainer">
-        <img src="resources\logo.svg" class="shadowfilter" />
+        <img src="resources\logo.svg" class="shadowfilter logo" />
     </div>
     <svg height="0" style="display:none;">
         <filter id="outline">
-            <feMorphology in="SourceAlpha" result="DILATED" operator="dilate" radius="1"></feMorphology>
+            <feMorphology in="SourceAlpha" result="DILATED" operator="dilate" radius="4"></feMorphology>
             
-            <feFlood flood-color="#00000050" flood-opacity="1" result="PINK"></feFlood>
+            <feFlood flood-color="#32DFEC" flood-opacity="1" result="PINK"></feFlood>
             <feComposite in="PINK" in2="DILATED" operator="in" result="OUTLINE"></feComposite>
     
             <feMerge>
-                    <feMergeNode in="OUTLINE" />
-                    <feMergeNode in="SourceGraphic" />
-                </feMerge>
-            </filter>
+                <feMergeNode in="OUTLINE" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
         <filter id="f1">
             <feColorMatrix values="0.3333 0.3333 0.3333 0 0
                                     0.3333 0.3333 0.3333 0 0

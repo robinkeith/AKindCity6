@@ -2,28 +2,34 @@
 
 * solve data collection
 
+* Safe Places - add vulnerable option and password.
+* Sort out 'Supplied by' and kind places logos
+* ensure OSM values are escaped
 * ~~Rename as 'The Clare School Map'~~
-* Move layer control to bottom of map and restlye as horizontal
+* ~~Move layer control to bottom of map and restlye as horizontal~~
 * Add police stations to the Help! layer
-* Add 3 'changing places' to the toilets layer
+* Add 3 'changing places' to the toilets layer - sort out logo
 * Separate layers for restaurants, shops and ?? everything else
 * amenity=charging_station and wheelchair=yes
 * setfocus to map on startup, so keyboard works
+* fix search control npm libary so it doesn't add remove layers
+
 
 * printable map
 * offline map
 * build desktop PC for show
+* PAT test PC for show
 * Create offline rolling demo
 
 * Change building outlines to markers -and/or use Leaflet.Deflate to replace outlines with markers. (https://github.com/oliverroick/Leaflet.Deflate)
 * About me dialog + button
 * Improve formatting of popups
-* Add source and last updated to popups
+* ~~Add source and last updated to popups~~
 * Remove bus routes from accessibility data - possibly put in seperate layer
 * ~~Add 'you are here' control~~
 * Add tracking to URHere - edge case of off the map
 * ~~Add Full screen contol~~
-* Add search control
+* ~~Add search control~~
 * Add routing control
 * Add partner logos
 * Add wheelmap data layer - how to combine with existing layers?

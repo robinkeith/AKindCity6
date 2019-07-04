@@ -136,8 +136,20 @@ html, body, .map-container {
 	/* drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
 	drop-shadow:(12px 12px 7px rgba(0,0,0,0.5));
   filter: url(shadow.svg#drop-shadow);*/
-  /*filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));*/
-  filter: url(#outline) drop-shadow(12px 12px 7px rgba(0,0,0,0.5)); 
+  /*filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
+  url(#outline) 
+  */
+  filter: drop-shadow(5px 5px 7px rgba(0,0,0,0.5)); 
+
+}
+.logo{
+  width:90%;
+  height:90%;
+
+}
+
+.tooltip {
+  pointer-events: none;
 }
 /*
 

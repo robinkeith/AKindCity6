@@ -38,10 +38,10 @@ export function foodLayerGroup(userSettings){
 
 
     return new L.layerGroup([
-        CSMLayerFactory("data/bar.geojson",featureTags,glassMarker,filter),
-        CSMLayerFactory("data/cafe.geojson",featureTags,cafeMarker,filter),                              
-        CSMLayerFactory("data/fast_food.geojson",featureTags,foodMarker,filter),
-        CSMLayerFactory("data/pubs.geojson",featureTags,glassMarker,filter), 
-        CSMLayerFactory("data/resturants.geojson",featureTags,foodMarker,filter), 
+        CSMLayerFactory("data/food-bar.geojson",featureTags,glassMarker,filter),
+        CSMLayerFactory("data/food-cafe.geojson",featureTags,cafeMarker,filter),                              
+        CSMLayerFactory("data/food-fast_food.geojson",featureTags,foodMarker,filter),
+        CSMLayerFactory("data/food-pubs.geojson",featureTags,glassMarker,filter), 
+        CSMLayerFactory("data/food-resturants.geojson",featureTags,foodMarker,filter), 
     ]);
 }

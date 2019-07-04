@@ -85,9 +85,11 @@ $(function () {
     
   $('[data-toggle="tooltip"]').tooltip({
       trigger : 'hover',
-      placement: 'right'
+      //placement: 'right'
+      container: 'body'
   });
 
+  
   //tweak the buttons so the colour is applied to the parent
   $( ".leaflet-control-layers-overlays label i" )
   .each(function(index,el){ 

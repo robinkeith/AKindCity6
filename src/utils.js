@@ -51,6 +51,9 @@ function popupFromFeatureInfo(featureInfo){
   };
 
 export function CSMLayerFactory(dataFile,featureTags,icon,filter){
+
+    let chooseIcon = (icon instanceof Function)?icon: function (){return icon;};
+
     let masterLayer= new L.GeoJSON.AJAX(dataFile,{
   
         middleware:function (data){ 
@@ -66,7 +69,7 @@ export function CSMLayerFactory(dataFile,featureTags,icon,filter){
         },
         
         pointToLayer: function (feature, latlng) {
-            return L.marker(latlng, {icon:icon});
+            return L.marker(latlng, {icon:chooseIcon(feature.info)});
         },
         filter:filter,
         makeBoundsAware: true,

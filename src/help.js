@@ -3,9 +3,22 @@ import {CSMLayerFactory} from './utils.js';
 
 var safePlacesMarker = L.ExtraMarkers.icon({
     icon: 'fa-hand-holding-heart',
-    markerColor: 'red', 
+    markerColor: 'yellow', 
     shape: 'square',
     prefix: 'fa'
+});
+
+var policeMarker = L.ExtraMarkers.icon({
+    //icon: 'fa-hand-holding-heart',
+    markerColor: 'blue', 
+    //shape: 'square',
+    //prefix: 'fa'
+});
+var medMarker = L.ExtraMarkers.icon({
+    //icon: 'fa-hand-holding-heart',
+    markerColor: 'green', 
+    //shape: 'square',
+    //prefix: 'fa'
 });
 
 let featureTags='';
@@ -15,6 +28,7 @@ export function helpLayerGroup(userSettings){
     let filter=function (feature) {return true;  }
 
     return new L.layerGroup([
-        CSMLayerFactory("data/safePlaces.geojson",featureTags,safePlacesMarker,filter),
+        CSMLayerFactory("data/help-safePlaces.geojson",featureTags,safePlacesMarker,filter),
+        CSMLayerFactory("data/help-services.geojson",featureTags,policeMarker,filter),
     ]);
 }
