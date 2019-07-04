@@ -5,12 +5,17 @@
    "type": "Feature",
    "id": "node/566562251",
    "properties": {
-    "amenity": "vending_machine",
-    "operator": "Norwich City Council",
-    "payment:coins": "yes",
-    "ref": "GFR RD",
-    "vending": "parking_tickets",
-    "id": "node/566562251"
+    "type": "node",
+    "id": 566562251,
+    "tags": {
+     "amenity": "vending_machine",
+     "operator": "Norwich City Council",
+     "payment:coins": "yes",
+     "ref": "GFR RD",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -24,10 +29,15 @@
    "type": "Feature",
    "id": "node/596362294",
    "properties": {
-    "amenity": "vending_machine",
-    "operator": "Norwich City Council",
-    "vending": "parking_tickets",
-    "id": "node/596362294"
+    "type": "node",
+    "id": 596362294,
+    "tags": {
+     "amenity": "vending_machine",
+     "operator": "Norwich City Council",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -41,9 +51,14 @@
    "type": "Feature",
    "id": "node/608458948",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/608458948"
+    "type": "node",
+    "id": 608458948,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -57,9 +72,14 @@
    "type": "Feature",
    "id": "node/608458952",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/608458952"
+    "type": "node",
+    "id": 608458952,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -73,9 +93,14 @@
    "type": "Feature",
    "id": "node/608458979",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/608458979"
+    "type": "node",
+    "id": 608458979,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -89,12 +114,17 @@
    "type": "Feature",
    "id": "node/665125583",
    "properties": {
-    "amenity": "vending_machine",
-    "operator": "Norwich City Council",
-    "payment:coins": "yes",
-    "ref": "PWR 2",
-    "vending": "parking_tickets",
-    "id": "node/665125583"
+    "type": "node",
+    "id": 665125583,
+    "tags": {
+     "amenity": "vending_machine",
+     "operator": "Norwich City Council",
+     "payment:coins": "yes",
+     "ref": "PWR 2",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -108,12 +138,17 @@
    "type": "Feature",
    "id": "node/665125584",
    "properties": {
-    "amenity": "vending_machine",
-    "operator": "Norwich City Council",
-    "payment:coins": "yes",
-    "ref": "PWL1",
-    "vending": "parking_tickets",
-    "id": "node/665125584"
+    "type": "node",
+    "id": 665125584,
+    "tags": {
+     "amenity": "vending_machine",
+     "operator": "Norwich City Council",
+     "payment:coins": "yes",
+     "ref": "PWL1",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -127,10 +162,15 @@
    "type": "Feature",
    "id": "node/1137615582",
    "properties": {
-    "amenity": "vending_machine",
-    "operator": "Norwich City Council",
-    "vending": "parking_tickets",
-    "id": "node/1137615582"
+    "type": "node",
+    "id": 1137615582,
+    "tags": {
+     "amenity": "vending_machine",
+     "operator": "Norwich City Council",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -144,10 +184,15 @@
    "type": "Feature",
    "id": "node/1314007610",
    "properties": {
-    "amenity": "vending_machine",
-    "operator": "Norwich City Council",
-    "vending": "parking_tickets",
-    "id": "node/1314007610"
+    "type": "node",
+    "id": 1314007610,
+    "tags": {
+     "amenity": "vending_machine",
+     "operator": "Norwich City Council",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -161,10 +206,15 @@
    "type": "Feature",
    "id": "node/1314007612",
    "properties": {
-    "amenity": "vending_machine",
-    "operator": "Norwich City Council",
-    "vending": "parking_tickets",
-    "id": "node/1314007612"
+    "type": "node",
+    "id": 1314007612,
+    "tags": {
+     "amenity": "vending_machine",
+     "operator": "Norwich City Council",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -178,9 +228,14 @@
    "type": "Feature",
    "id": "node/1314069654",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/1314069654"
+    "type": "node",
+    "id": 1314069654,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -194,9 +249,14 @@
    "type": "Feature",
    "id": "node/1314077011",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/1314077011"
+    "type": "node",
+    "id": 1314077011,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -210,9 +270,14 @@
    "type": "Feature",
    "id": "node/1314077012",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/1314077012"
+    "type": "node",
+    "id": 1314077012,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -226,9 +291,14 @@
    "type": "Feature",
    "id": "node/1314085368",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/1314085368"
+    "type": "node",
+    "id": 1314085368,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -242,9 +312,14 @@
    "type": "Feature",
    "id": "node/1314094026",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/1314094026"
+    "type": "node",
+    "id": 1314094026,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -258,9 +333,14 @@
    "type": "Feature",
    "id": "node/1314131578",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/1314131578"
+    "type": "node",
+    "id": 1314131578,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -274,9 +354,14 @@
    "type": "Feature",
    "id": "node/1314131588",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/1314131588"
+    "type": "node",
+    "id": 1314131588,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -290,9 +375,14 @@
    "type": "Feature",
    "id": "node/1314131600",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/1314131600"
+    "type": "node",
+    "id": 1314131600,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -306,9 +396,14 @@
    "type": "Feature",
    "id": "node/1314131603",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/1314131603"
+    "type": "node",
+    "id": 1314131603,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -322,9 +417,14 @@
    "type": "Feature",
    "id": "node/1314131637",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/1314131637"
+    "type": "node",
+    "id": 1314131637,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -338,9 +438,14 @@
    "type": "Feature",
    "id": "node/1314131641",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/1314131641"
+    "type": "node",
+    "id": 1314131641,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -354,9 +459,14 @@
    "type": "Feature",
    "id": "node/1314143052",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/1314143052"
+    "type": "node",
+    "id": 1314143052,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -370,9 +480,14 @@
    "type": "Feature",
    "id": "node/1314898699",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/1314898699"
+    "type": "node",
+    "id": 1314898699,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -386,9 +501,14 @@
    "type": "Feature",
    "id": "node/1314910532",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/1314910532"
+    "type": "node",
+    "id": 1314910532,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -402,9 +522,14 @@
    "type": "Feature",
    "id": "node/1319011110",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/1319011110"
+    "type": "node",
+    "id": 1319011110,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -418,9 +543,14 @@
    "type": "Feature",
    "id": "node/1319011130",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/1319011130"
+    "type": "node",
+    "id": 1319011130,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -434,9 +564,14 @@
    "type": "Feature",
    "id": "node/1319011186",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/1319011186"
+    "type": "node",
+    "id": 1319011186,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -450,9 +585,14 @@
    "type": "Feature",
    "id": "node/1319903422",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/1319903422"
+    "type": "node",
+    "id": 1319903422,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -466,9 +606,14 @@
    "type": "Feature",
    "id": "node/1319903426",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/1319903426"
+    "type": "node",
+    "id": 1319903426,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -482,9 +627,14 @@
    "type": "Feature",
    "id": "node/1319903448",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/1319903448"
+    "type": "node",
+    "id": 1319903448,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -498,9 +648,14 @@
    "type": "Feature",
    "id": "node/1323453565",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/1323453565"
+    "type": "node",
+    "id": 1323453565,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -514,9 +669,14 @@
    "type": "Feature",
    "id": "node/1323453568",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/1323453568"
+    "type": "node",
+    "id": 1323453568,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -530,9 +690,14 @@
    "type": "Feature",
    "id": "node/1323453580",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/1323453580"
+    "type": "node",
+    "id": 1323453580,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -546,9 +711,14 @@
    "type": "Feature",
    "id": "node/1323563588",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/1323563588"
+    "type": "node",
+    "id": 1323563588,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -562,9 +732,14 @@
    "type": "Feature",
    "id": "node/1323637184",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/1323637184"
+    "type": "node",
+    "id": 1323637184,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -578,9 +753,14 @@
    "type": "Feature",
    "id": "node/1323637219",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/1323637219"
+    "type": "node",
+    "id": 1323637219,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -594,9 +774,14 @@
    "type": "Feature",
    "id": "node/1352541909",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/1352541909"
+    "type": "node",
+    "id": 1352541909,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -610,9 +795,14 @@
    "type": "Feature",
    "id": "node/2463314261",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/2463314261"
+    "type": "node",
+    "id": 2463314261,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -626,9 +816,14 @@
    "type": "Feature",
    "id": "node/2581113196",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/2581113196"
+    "type": "node",
+    "id": 2581113196,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -642,9 +837,14 @@
    "type": "Feature",
    "id": "node/2581113203",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/2581113203"
+    "type": "node",
+    "id": 2581113203,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -658,9 +858,14 @@
    "type": "Feature",
    "id": "node/2581113213",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/2581113213"
+    "type": "node",
+    "id": 2581113213,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -674,9 +879,14 @@
    "type": "Feature",
    "id": "node/2581113216",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/2581113216"
+    "type": "node",
+    "id": 2581113216,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -690,9 +900,14 @@
    "type": "Feature",
    "id": "node/2581113224",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/2581113224"
+    "type": "node",
+    "id": 2581113224,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -706,9 +921,14 @@
    "type": "Feature",
    "id": "node/2581113228",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/2581113228"
+    "type": "node",
+    "id": 2581113228,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -722,9 +942,14 @@
    "type": "Feature",
    "id": "node/2584241169",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/2584241169"
+    "type": "node",
+    "id": 2584241169,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -738,9 +963,14 @@
    "type": "Feature",
    "id": "node/3368004361",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/3368004361"
+    "type": "node",
+    "id": 3368004361,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -754,9 +984,14 @@
    "type": "Feature",
    "id": "node/3368004363",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/3368004363"
+    "type": "node",
+    "id": 3368004363,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -770,9 +1005,14 @@
    "type": "Feature",
    "id": "node/3368004368",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/3368004368"
+    "type": "node",
+    "id": 3368004368,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -786,9 +1026,14 @@
    "type": "Feature",
    "id": "node/3368004381",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/3368004381"
+    "type": "node",
+    "id": 3368004381,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -802,9 +1047,14 @@
    "type": "Feature",
    "id": "node/3465232095",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/3465232095"
+    "type": "node",
+    "id": 3465232095,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -818,9 +1068,14 @@
    "type": "Feature",
    "id": "node/4198478079",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/4198478079"
+    "type": "node",
+    "id": 4198478079,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -834,9 +1089,14 @@
    "type": "Feature",
    "id": "node/5068906167",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/5068906167"
+    "type": "node",
+    "id": 5068906167,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
@@ -850,9 +1110,14 @@
    "type": "Feature",
    "id": "node/5219678128",
    "properties": {
-    "amenity": "vending_machine",
-    "vending": "parking_tickets",
-    "id": "node/5219678128"
+    "type": "node",
+    "id": 5219678128,
+    "tags": {
+     "amenity": "vending_machine",
+     "vending": "parking_tickets"
+    },
+    "relations": [],
+    "meta": {}
    },
    "geometry": {
     "type": "Point",
