@@ -3,6 +3,8 @@
 ## 1.7
 * Added layers for 'shop' and 'enjoy'
 * Added get around layer (ramps, steps, crossings, lifts, escalators)
+* Added shop mobility to the 'around' layer
+* inceased size of top left icons
 
 
 ## 1.6
