@@ -61,7 +61,7 @@ var marker;
 const globalsearchToggleButton = new L.easyButton({
   states: [{
     stateName: 'show',
-    icon: 'fas fa-exchange-alt fa-lg',
+    icon: 'fas fa-exchange-alt fa-2x',
     title: 'Search Addresses',
     onClick: function(btn, map) {
       osmsearch.addTo(map);
@@ -69,7 +69,7 @@ const globalsearchToggleButton = new L.easyButton({
       }
     },{
     stateName: 'hide',
-  icon: 'fas fa-exchange-alt fa-border fa-lg',
+  icon: 'fas fa-exchange-alt fa-border fa-2x',
     title: 'Search Features',
     onClick: function(btn, map) {
       map.removeControl(osmsearch);
@@ -95,12 +95,12 @@ const gpsLocateButton = L.control.locate({
 const fullscreenButton = L.control.fullscreen();
 
 /*-----------------about us --------------------------*/
-const infoButton = L.easyButton( 'fa-info', function(){
+const infoButton = L.easyButton( 'fa-info fa-2x', function(){
   $('#about').modal();
 },'About the Map',{position: 'topleft'});
 
 /*-----Quick wheelchair view buttom - demo only -------------------------------------------*/
-const quickAccessButton =L.easyButton( 'fab fa-accessible-icon', function(){
+const quickAccessButton =L.easyButton( 'fab fa-accessible-icon fa-2x', function(){
     userSettings.wheelchair= !userSettings.wheelchair;
     layerControl.refreshLayers(userSettings);
   },"Only show accessible features",{position: 'topleft'});
@@ -109,7 +109,7 @@ const quickAccessButton =L.easyButton( 'fab fa-accessible-icon', function(){
 const printButton = L.easyPrint();
 
 /*-----Personalisation---Form---------------------*/
-const personaliseButton = L.easyButton( 'fa-user-cog', function(){
+const personaliseButton = L.easyButton( 'fa-user-cog fa-lg', function(){
   userSettings.initUserSettingsForm();
   $('#personalSettings').modal();
 },"Personalise the map for me",{position: 'topleft'});

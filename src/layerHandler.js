@@ -9,6 +9,8 @@ import getHereLayerGroup from './layer-getHere';
 import getAroundLayerGroup from './layer-getAround';
 import toiletLayerGroup from './layer-toilet';
 import foodLayerGroup from './layer-food';
+import shopLayerGroup from './layer-shop';
+import enjoyLayerGroup from './layer-enjoy';
 import helpLayerGroup from './layer-help';
 
 import {userSettings} from './userSettings.js';
@@ -103,10 +105,10 @@ export function createLayers(map,userSettings) {
         {tooltip:'Parking, taxis, bus and rail',icon:'fas fa-parking'      ,title:'Get Here',     layer:getHereLayerGroup(userSettings)},
         {tooltip:'Ramps, stairs, lifts',        icon:'fas fa-info-circle'  ,title:'Get Around',   layer: getAroundLayerGroup(userSettings)},
         {tooltip:'Toilets and Changing Places', icon:'fas fa-toilet'       ,title:'Toilets',      layer:toiletLayerGroup(userSettings)},
-        {tooltip:'Cafes, restuants, and pubs',  icon:'fas fa-utensils'     ,title:'Eat and Drink', layer:foodLayerGroup(userSettings)},
-        {tooltip:'Shops',                       icon:'fas fa-shopping-cart',title:'Shop'},
+        {tooltip:'Cafes, restuants, and pubs',  icon:'fas fa-utensils'     ,title:'Eat and Drink',layer:foodLayerGroup(userSettings)},
+        {tooltip:'Shops',                       icon:'fas fa-shopping-cart',title:'Shop',         layer:shopLayerGroup(userSettings)},
+        {tooltip:'Enjoy',                       icon:'far fa-laugh-beam',   title:'Enjoy',        layer:enjoyLayerGroup(userSettings)},
         {tooltip:'Learn',                       icon:'fas fa-hands-helping',title:'Learn'},
-        {tooltip:'Cinemas, entertainment',      icon:'fas fa-smile-beam'   ,title:'Enjoy'}        
     ];
 
     

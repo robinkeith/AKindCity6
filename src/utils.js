@@ -65,8 +65,8 @@ export function CSMLayerFactory(dataFile,featureTags,icon,filter){
         $(".modal-content").html(popupFromFeatureInfo(poi));
             //'This is marker ' + JSON.stringify(e.target.feature));
         $('#infoWindow').modal('show');
-        //poi.
-        e.target._map.setView(e.target.getLatLng());
+        let centre=(e.target.getLatLng)?e.target.getLatLng():e.target.getCenter();
+        e.target._map.setView(centre);
         //e.preventDefault();
     }
 

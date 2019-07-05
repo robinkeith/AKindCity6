@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.7
+* Added layers for 'shop' and 'enjoy'
+* Added get around layer (ramps, steps, crossings, lifts, escalators)
+
+
 ## 1.6
 * Scripted import from OSM (still on demand, but single button to refresh the data) 
 * Added Changing Places data and approved logo
