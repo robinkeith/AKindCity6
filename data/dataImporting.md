@@ -1,4 +1,13 @@
-# OpenStreetMap extacted data
+
+#Converting shape files
+Shape files are a bundle of files consisting of at least a .dbf file and various combintations of .cpg .prj .sbn .sbx .shp .shp.xml .shx
+
+Online tool for convertion: http://gipong.github.io/shp2geojson.js/
+Uses the default coordinate set ()
+
+
+
+# Extracting data from OpenStreetMap 
 
 Extact using [TurboOverpass](https://overpass-turbo.eu/ )
 
@@ -22,20 +31,8 @@ Find out more information on tags: [OSM Wiki](https://wiki.openstreetmap.org/wik
 Note. In the following queries, the filter **nwr** is used instead of joining seperate node, way and relation filters.
 The global bounding box is assumed, rather than using a bbox on each query clause.
 
+The queries used are listed in /back-end/norwich.js
 
-## GET HERE Layer
-### Parking Spaces (parkingSpaces.geojson)
-`````
- nwr[amenity=parking]
-`````
-### Parking Bays (parkingMeters.geojson)
-`````
-nwr[amenity=vending_machine]nwr[vending=parking_tickets]
-`````
-## Taxis (taxis.geojson)
-````
-nwr[amenity=taxi]
-````
 
 ## Public Transport (public.geojson)
 ````

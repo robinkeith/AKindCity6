@@ -13,21 +13,21 @@ html, body, .map-container {
     width: 100%;
     height: 100%;
     padding:1px 1px;
-    grid-template-areas: "pop-caption pop-caption"
-    "pop-location pop-location"
-    "pop-facilities pop-facilities"
-    "pop-availability pop-availability"
-    "pop-operator pop-operator"
-    "pop-report pop-report"
-    "pop-meta pop-meta";
+    grid-template-areas:
+      "pop-location pop-location"
+      "pop-facilities pop-facilities"
+      "pop-availability pop-availability"
+      "pop-operator pop-report"
+      "pop-meta pop-meta";
     grid-template-columns: 1fr 1fr;
     /*grid-template-rows: 2em 2em 2em 2em 3em;*/
     grid-auto-rows: minmax(min-content, max-content);
   }
   .container > div {
-    border: 1px solid #888;
-    /*background-color: lightgrey;
-    border-color: white;*/
+    /*border: 1px solid #888;*/
+    background-color: #f1f1f1;
+    margin:1px;
+    /*border-color: white;*/
   }
   
   .pop-caption {
@@ -51,13 +51,14 @@ html, body, .map-container {
   }
   .pop-report {
     grid-area: pop-report;
-    text-align: center;
+    text-overflow:clip;
+
   }
   .pop-meta {
     grid-area: pop-meta;
     text-align: center;
     font-size: smaller;
-  }
+  }/*
 .leaflet-popup-content-wrapper {
     border-radius: 0;
     padding:1px;
@@ -71,7 +72,7 @@ html, body, .map-container {
     color:black;
     font-size:120%;
     width:400px;
-}
+}*/
 
 .leaflet-control-layers-base{
   display: none;
@@ -81,7 +82,8 @@ html, body, .map-container {
   display: inline-block;
   font-size: 1.5em;
   padding:0 .5em;
-  margin-right: 0.5em;
+  margin-left: 0.1em;
+  margin-right: 0.1em;
   margin-bottom: 0rem;
   color:white;
   height:2em;
@@ -109,7 +111,7 @@ html, body, .map-container {
 .leaflet-control-layers-overlays label .fa-shopping-cart{background-color:cyan;}
 .leaflet-control-layers-overlays label .fa-hands-helping{background-color:olive;}
 .leaflet-control-layers-overlays label .fa-laugh-beam{background-color: teal;}
-.leaflet-control-layers-overlays label .fa-exclamation{background-color: #882255;}
+.leaflet-control-layers-overlays label .fa-life-ring{background-color: #882255;}
 
 .logoContainer{
   position: absolute;

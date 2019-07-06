@@ -12,6 +12,10 @@ import 'leaflet-search';
 import 'leaflet-sidebar-v2';
 import 'leaflet-easyprint-forked';
 import {defaultSettings} from './defaultSettings.js';
+import eliIcon from './../resources/icons/elephant.svg';
+import moment from 'moment';
+import 'leaflet-geometryutil';
+import html from 'html-escaper';
 
 export function setup(map, layerControl,userSettings){
 
@@ -99,6 +103,42 @@ const infoButton = L.easyButton( 'fa-info fa-2x', function(){
   $('#about').modal();
 },'About the Map',{position: 'topleft'});
 
+/* ------------ Remember button -----------------------------------------*/
+const rememberButton = L.easyButton( `<img src="${eliIcon}">`, function(){
+    
+  $('#remembered').html(
+    (userSettings.whereDidIPark)?
+      `<stromg>You asked me to remember:</stromg><br/>
+      ${html.escape(userSettings.whereDidIPark)}<br/>
+      <small>${html.escape(userSettings.memorySavedOn)}</small><hr/> `:'');
+
+  //setup the location drop down
+  $("whereAeYouSelect").hide();
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function(currentPosition){
+      
+      const currentLatLong= new L.LatLng(currentPosition.coords.latitude,currentPosition.coords.longitude);
+      /*const nearestPoints= L.GeometryUtil.nClosestLayers(map, layerControl._layers[1].layer, currentLatLong, 10) ;
+      if (nearestPoints && nearestPoints.length>0){
+        nearestPoints.forEach(function(point){
+          $("selWhereAmI").append(new Option('Foo', 'foo', true, true));
+        });
+        $("whereAeYouSelect").show();
+      }*/
+
+    });
+  };
+  $('#remember').modal();
+},'Remember where I am',{position: 'topleft'});
+//let userSettings=this;
+$('#memory-form').on('submit', function (event) {
+    event.preventDefault();
+    userSettings.whereDidIPark=$("selWhereAmI").text() + ' ' + $("#txtMemory").val();
+    userSettings.memorySavedOn = moment().format("[At] h:mm a [on] dddd, MMMM Do YYYY");
+    userSettings.save();
+    $('#remember').modal('hide');
+});
+
 /*-----Quick wheelchair view buttom - demo only -------------------------------------------*/
 const quickAccessButton =L.easyButton( 'fab fa-accessible-icon fa-2x', function(){
     userSettings.wheelchair= !userSettings.wheelchair;
@@ -163,11 +203,28 @@ const sidebarToggleControl = L.easyButton({
       .addControl(fullscreenButton)
       .addControl(infoButton)
       .addControl(quickAccessButton)
+      .addControl(rememberButton)
       //.addControl(printButton)
      // .addControl(globalsearchToggleButton)
 
       //quickAccessButton
   }
+
+  /*-----------------------------------------------------------------------------------------------*/
+
+/*
+    L.Routing.control({
+        /*plan:new L.Routing.Plan([],{
+                addWaypoints:false,
+                draggableWaypoints:false,
+            })	,* /
+        routeWhileDragging: false,
+        geocoder: L.Control.Geocoder.nominatim(),
+        //router:// L.Routing.mapbox(mapbox_api_key,{ profile: 'mapbox/walking' }),
+        collapsed:true,
+        position:'bottomleft',
+    }).addTo(map);*/
+/*--------------------Search Controls -------------------------------------------*/
 
 
 /*

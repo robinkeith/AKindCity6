@@ -25,10 +25,14 @@ let featureTags='';
 export default function (userSettings){
     let featureTags='';
 
-    let filter=function (feature) {return true;  }
+    let filterSafePlaces=function (feature) {
+        
+        return userSettings.vulnerable;
+    }
+
 
     return new L.layerGroup([
-        CSMLayerFactory("data/help-safePlaces.geojson",featureTags,safePlacesMarker,filter),
-        CSMLayerFactory("data/help-services.geojson",featureTags,policeMarker,filter),
+        CSMLayerFactory("data/help-safePlaces.geojson",featureTags,safePlacesMarker,filterSafePlaces),
+        CSMLayerFactory("data/help-services.geojson",featureTags,policeMarker),
     ]);
 }

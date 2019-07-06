@@ -19,17 +19,18 @@
     
 </head>
 <body> 
-    <div id='map' class='map-container'>
-        <div id="sidebar">
-            <h3></h3>
-            <hr>
-            <div id="mapinfo"></div>
-        </div>
-        <div id="globalsearch" style="position:absolute;left:10px;top:51px;height:38px;width:450px;z-index:1;"></div>
+<div id='map' class='map-container'>
+    <div id="sidebar">
+        <h3></h3>
+        <hr>
+        <div id="mapinfo"></div>
     </div>
-    <div id="logoContainer">
-        <img src="resources\logo.svg" class="shadowfilter logo" />
-    </div>
+    <div id="globalsearch" style="position:absolute;left:10px;top:51px;height:38px;width:450px;z-index:1;"></div>
+</div>
+
+<div id="logoContainer">
+    <img src="resources\logo.svg" class="shadowfilter logo" />
+
     <svg height="0" style="display:none;">
         <filter id="outline">
             <feMorphology in="SourceAlpha" result="DILATED" operator="dilate" radius="4"></feMorphology>
@@ -49,123 +50,198 @@
                                     0      0      0      1 0"/>
         </filter>
     </svg>
-    
-    <div class="modal" tabindex="-1" role="dialog" id="about" aria-labelledby="aboutLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
+</div>
+
+<!-- About form-->
+<div class="modal" tabindex="-1" role="dialog" id="about" aria-labelledby="aboutLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="aboutLabel">About The Clare School Map</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+                <h5 class="modal-title" id="aboutLabel">About The Clare School Map</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
             </div>
             <div class="modal-body">
                 This is a prototype accessibility map for Norwich.<br/> 
                 It was created for the Create Norwich project by students from The Clare School. <br/>
-                It uses crowdsourced data from OpenStreetMap. That means not all the information is up to date or accurate, but you can help put that right.
+                It uses crowdsourced data from OpenStreetMap. That means not all the information is up to date or accurate, but you can help put that right.<br/>
+            
+                <h6>Credits</h6>
+                By Traffic signs are Crown copyright. (ref <a rel="nofollow" class="external autonumber" href="http://www.dft.gov.uk/trafficsignsimages/tc.php">[1]</a>), <a href="http://NationalArchives.gov.uk/doc/open-government-licence/version/1/" title="Open Government License version 1.0">OGL v1.0</a><br/>
+                Parking Meter by artworkbean from <a href='https://www.thenounproject.com'>the Noun Project</a><br/>
+                Police Helmet by Peter Carleton from <a href='https://www.thenounproject.com'>the Noun Project</a><br/>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
             </div>
+        </div>
+    </div>
+</div>
+
+ <!-- Popup information -->
+ <div class="modal top fade" aria-labelledby="infoWindowLabel"  id="infoWindow" role="dialog" tabindex="-1">
+    <div class="modal-dialog mw-100 w-75" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                    <h5 class="modal-title" id="infoWindowLabel"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                        <div class="container">
+                            <div class="pop-location"></div>
+                            <div class="pop-facilities"></div>
+                            <div class="pop-availability"></div>
+                            <div class="pop-operator"></div>
+                            <div class="pop-report"></div>
+                        </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+        </div>
+    </div>
+</div>
+    
+
+<form id="memory-form">
+    <div class="modal" tabindex="-1" role="dialog" id="remember" aria-labelledby="remembeLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="remembeLabel">Remember</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="remembered"></div>
+
+                    <!-- div class="form-group invisible" id="whereAeYouSelect">
+                        <label for="selWhereAmI">Where are you?</label>
+                        <select class="form-control" id="selWhereAmI">
+                        
+                        </select>
+                    </div -->
+
+                    <div class="form-group">
+                        <label for="txtMemory">What would you like me to remember?</label>
+                        <input type="text" class="form-control" id="txtMemory" placeholder="Bus route, stop or Car park level, zone, space number" name="txtMemory" >
+                        <small id="txtMemoryHelp" class="form-text text-muted">This information will only be kept on this device</small>
+                    </div>
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Remember</button>
+                </div>
             </div>
-            </div>
-            </div>
-                
+        </div>
+    </div>
+</form>
 
 <form id="settings-form">
     <div class="modal" tabindex="-1" role="dialog" id="personalSettings" aria-labelledby="personalSettingsLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="personalSettingsLabel">All About Me</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
+                    <h5 class="modal-title" id="personalSettingsLabel">All About Me</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
                 <div class="modal-body">
     
-        <div class="form-group">
-            <label for="userName">My name is</label>
-            <input type="text" class="form-control" id="userName" placeholder="your name" name="userName" >
-            <small id="userNameHelp" class="form-text text-muted">Any personal information you tell us will stay on this device</small>
-        </div>
+                    <div class="form-group" name="fg-name" id="fg-name">
+                        <label for="userName">My name is</label>
+                        <input type="text" class="form-control" id="userName" placeholder="your name" name="userName" >
+                       
+                    </div>
 
-        <div class="custom-control custom-switch">
-            <input type="checkbox" class="custom-control-input" id="switchSimple" name="switchSimple">
-            <label class="custom-control-label" for="switchSimple"
-            data-toggle="tooltip" title="Reduce information on the map. No animation."">Keep things simple</label>
-        </div>
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="switchSimple" name="switchSimple">
+                        <label class="custom-control-label" for="switchSimple"
+                        data-toggle="tooltip" title="Reduce information on the map. No animation."">Keep things simple</label>
+                    </div>
 
-        <div class="custom-control custom-switch">
-            <input type="checkbox" class="custom-control-input" id="switchPics">
-            <label class="custom-control-label" for="switchPics" 
-            data-toggle="tooltip" title="Use photos of actual places rather than icons. Use pictures rather than words in the menu">I like pictures more than words</label>
-        </div>
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="switchPics">
+                        <label class="custom-control-label" for="switchPics" 
+                        data-toggle="tooltip" title="Use photos of actual places rather than icons. Use pictures rather than words in the menu">I like pictures more than words</label>
+                    </div>
 
-        <div class="custom-control custom-switch">
-            <input type="checkbox" class="custom-control-input" id="switchWheelchair">
-            <label class="custom-control-label" for="switchWheelchair" 
-            data-toggle="tooltip" title="Only shows services that we know are wheelchair friendly">I use a wheelchair</label>
-        </div>
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="switchWheelchair">
+                        <label class="custom-control-label" for="switchWheelchair" 
+                         data-toggle="tooltip" title="Only shows services that we know are wheelchair friendly">I use a wheelchair</label>
+                    </div>
 
-        <div class="custom-control custom-switch">
-            <input type="checkbox" class="custom-control-input" id="switchLimitedMobility">
-            <label class="custom-control-label" for="switchLimitedMobility" 
-            data-toggle="tooltip" title="">I have limited mobility</label>
-        </div>
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="switchLimitedMobility">
+                        <label class="custom-control-label" for="switchLimitedMobility" 
+                        data-toggle="tooltip" title="">I have limited mobility</label>
+                    </div>
+
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="switchBlueBadge">
+                        <label class="custom-control-label" for="switchBlueBadge" 
+                        data-toggle="tooltip" title="">I have a Blue Badge</label>
+                    </div>
+                
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="switchRADAR">
+                        <label class="custom-control-label" for="switchRADAR" 
+                        data-toggle="tooltip"  title="Includes RADAR accessible toilets">I have a RADAR key</label>
+                    </div>
+
+
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="switchDementia">
+                        <label class="custom-control-label" for="switchDementia"
+                        data-toggle="tooltip"  title="Highlight businesses and services that understand Dementia">I am living with Dementia</label>
+                    </div>
+
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="switchDog">
+                        <label class="custom-control-label" for="switchDog" 
+                        data-toggle="tooltip"  title="">I have an Assistance Dog</label>
+                    </div>
+
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="switchHoist">
+                        <label class="custom-control-label" for="switchHoist"
+                        data-toggle="tooltip"  title="">I need a hoist for changing</label>
+                    </div>
+
+                    <div class="custom-control custom-switch">
+                            <input type="checkbox" class="custom-control-input" id="switchVulnerable">
+                            <label class="custom-control-label" for="switchVulnerable"
+                                data-toggle="tooltip"  title="Shows help targeted towards vulnerable people">Sometimes I need a little more help</label>
+                            
+                            <input type="password" maxlength="4" autocomplete="off" class="form-control" id="keyVulnerable" placeholder="Enter your keyword" name="keyVulnerable" >
+                            
+                        </div>
     
-        
 
-        <div class="custom-control custom-switch">
-            <input type="checkbox" class="custom-control-input" id="switchRADAR">
-            <label class="custom-control-label" for="switchRADAR" 
-            data-toggle="tooltip"  title="Includes RADAR accessible toilets">I have a RADAR key</label>
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="switchDemo">
+                        <label class="custom-control-label" for="switchDemo"
+                            data-toggle="tooltip"  title="Activates demo mode">I’m demonstrating the map</label>
+                    </div>
+
+                    <small id="formHelp" class="form-text text-muted">Anything you tell us will stay on this device</small>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
         </div>
-
-
-        <div class="custom-control custom-switch">
-            <input type="checkbox" class="custom-control-input" id="switchDementia">
-            <label class="custom-control-label" for="switchDementia"
-            data-toggle="tooltip"  title="Highlight businesses and services that understand Dementia">I am living with Dementia</label>
-        </div>
-
-        <div class="custom-control custom-switch">
-            <input type="checkbox" class="custom-control-input" id="switchDog">
-            <label class="custom-control-label" for="switchDog" 
-            data-toggle="tooltip"  title="">I have an Assistance Dog</label>
-        </div>
-
-        <div class="custom-control custom-switch">
-            <input type="checkbox" class="custom-control-input" id="switchHoist">
-            <label class="custom-control-label" for="switchHoist"
-            data-toggle="tooltip"  title="">I need a hoist for changing</label>
-        </div>
-
-        <div class="custom-control custom-switch">
-            <input type="checkbox" class="custom-control-input" id="switchDemo">
-            <label class="custom-control-label" for="switchDemo"
-                data-toggle="tooltip"  title="Activates demo mode">I’m demonstrating the map</label>
-        </div>
-    
-</div>
-<div class="modal-footer">
-  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-  <button type="submit" class="btn btn-primary">Save changes</button>
-</div>
-</div>
-</div>
-</div>
+    </div>
 </form>
 
- <!-- Popup information -->
- <div aria-labelledby="infoWindowLabel" class="modal top fade" id="infoWindow" role="dialog" tabindex="-1">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content"></div>
-          <!-- modal-content -->
-        </div>
-        <!-- modal-dialog -->
-      </div>
-      <!-- modal -->
 
 <script src="./src/index.js"></script>
 </body>

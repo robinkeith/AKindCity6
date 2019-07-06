@@ -5,8 +5,8 @@ import 'leaflet-edgebuffer';
 import 'leaflet-providers';
 import 'leaflet-boundsawarelayergroup';
 
-import getHereLayerGroup from './layer-getHere';
-import getAroundLayerGroup from './layer-getAround';
+import hereLayerGroup from './layer-here';
+import aroundLayerGroup from './layer-around';
 import toiletLayerGroup from './layer-toilet';
 import foodLayerGroup from './layer-food';
 import shopLayerGroup from './layer-shop';
@@ -24,7 +24,18 @@ L.LayerGroup.include({
        Object.entries(this._layers).forEach(function (datalayer) {
             datalayer[1].refresh();
         });
+    },
+
+    getLayerByLabel: function (label) {
+
+        for (var i in this._layers) {
+            if (this._layers[i].id == id) {
+               return this._layers[i];
+            }
+        }
     }
+
+
 });
 
 
@@ -101,14 +112,15 @@ id: 'mapbox.streets'
 
 export function createLayers(map,userSettings) {
     //const emptyLayer =  L.tileLayer('');
-    let overlays=[
-        {tooltip:'Parking, taxis, bus and rail',icon:'fas fa-parking'      ,title:'Get Here',     layer:getHereLayerGroup(userSettings)},
-        {tooltip:'Ramps, stairs, lifts',        icon:'fas fa-info-circle'  ,title:'Get Around',   layer: getAroundLayerGroup(userSettings)},
+    const overlays=[
+        {tooltip:'Parking, taxis, bus and rail',icon:'fas fa-parking'      ,title:'Get Here',     layer:hereLayerGroup(userSettings)},
+        {tooltip:'Ramps, stairs, lifts',        icon:'fas fa-info-circle'  ,title:'Get Around',   layer:aroundLayerGroup(userSettings)},
         {tooltip:'Toilets and Changing Places', icon:'fas fa-toilet'       ,title:'Toilets',      layer:toiletLayerGroup(userSettings)},
         {tooltip:'Cafes, restuants, and pubs',  icon:'fas fa-utensils'     ,title:'Eat and Drink',layer:foodLayerGroup(userSettings)},
         {tooltip:'Shops',                       icon:'fas fa-shopping-cart',title:'Shop',         layer:shopLayerGroup(userSettings)},
         {tooltip:'Enjoy',                       icon:'far fa-laugh-beam',   title:'Enjoy',        layer:enjoyLayerGroup(userSettings)},
         {tooltip:'Learn',                       icon:'fas fa-hands-helping',title:'Learn'},
+        {tooltip:'Places that can help you',    icon:'fas fa-life-ring'    ,title:'Help',         layer:helpLayerGroup(userSettings)},
     ];
 
     
@@ -135,8 +147,10 @@ export function createLayers(map,userSettings) {
         }
     });
 
+    userSettings.layerControl=layerControl;
     layerControl.addTo(map);
     layerControl.restoreSelectedLayers();
+    
 
 
     

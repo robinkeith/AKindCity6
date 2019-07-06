@@ -286,6 +286,10 @@ background: transparent;
   overflow: hidden;
   direction: ltr;
 }
+.leaflet-control-layers-expanded{
+  padding: 2px 4px;
+}
+
 /*.leaflet-top.leaflet-right .leaflet-control-layers-toggle,
 .leaflet-top.leaflet-right .leaflet-touch .leaflet-control-layers-toggle {
   margin: 8px;

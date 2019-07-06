@@ -51,52 +51,32 @@ $(function () {
         zoomControl: false,
     });
 
-    let userSettings= new UserSettings(layerControl);
+    let userSettings= new UserSettings();
     //add the layers and restore the view
     let layerControl = createLayers(map,userSettings);
     if (!map.restoreView()) {
         map.setView(defaultSettings.mapCentre, defaultSettings.zoom);
     }
 
-/*-------------------Map Logo--------------------------------------------------------------------*/
-var mapControlsContainer = document.getElementsByClassName("leaflet-bottom leaflet-left")[0];
-var logoContainer = document.getElementById("logoContainer");
-mapControlsContainer.appendChild(logoContainer);
+    /*-------------------Map Logo--------------------------------------------------------------------*/
+    var mapControlsContainer = document.getElementsByClassName("leaflet-bottom leaflet-left")[0];
+    var logoContainer = document.getElementById("logoContainer");
+    mapControlsContainer.appendChild(logoContainer);
 
 
-setup(map,layerControl,userSettings);
+    setup(map,layerControl,userSettings);
 
-/*-----------------------------------------------------------------------------------------------*/
 
-/*
-    L.Routing.control({
-        /*plan:new L.Routing.Plan([],{
-                addWaypoints:false,
-                draggableWaypoints:false,
-            })	,* /
-        routeWhileDragging: false,
-        geocoder: L.Control.Geocoder.nominatim(),
-        //router:// L.Routing.mapbox(mapbox_api_key,{ profile: 'mapbox/walking' }),
-        collapsed:true,
-        position:'bottomleft',
-    }).addTo(map);*/
-/*--------------------Search Controls -------------------------------------------*/
-
-    
   $('[data-toggle="tooltip"]').tooltip({
       trigger : 'hover',
       //placement: 'right'
       container: 'body'
   });
 
-  
   //tweak the buttons so the colour is applied to the parent
   $( ".leaflet-control-layers-overlays label i" )
   .each(function(index,el){ 
       $(this).parents("label").css("background-color",$(this).css("background-color"))})
-
-    
-   
     
     //Close modal on map click 
     map.on('click', function(e) {

@@ -1,10 +1,18 @@
 # Change Log
 
+## 1.8
+* Added Elephant Juice! Press the elephant button to remember where you parked.
+* Blue badge parking info - imported but not on preview website due to licencing restrictions (being worked through with NCC)
+* Reorganised Parking icons to show parking meters and large car parks more clearly.
+* As requested by NCC, the SafePlaces data now requires a pass code - Tick the 'Sometimes I need a little more help' option in 'All About Me' and enter the pass code.
+
+
+
 ## 1.7
 * Added layers for 'shop' and 'enjoy'
 * Added get around layer (ramps, steps, crossings, lifts, escalators)
 * Added shop mobility to the 'around' layer
-* inceased size of top left icons
+* increased size of top left icons
 
 
 ## 1.6

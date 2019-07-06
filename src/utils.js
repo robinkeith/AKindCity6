@@ -9,7 +9,7 @@ function OSMtoTCSMdataMapper(data,featurePropsList){
     let features =data.features;
     features.forEach( function(feature, index) {
         try {
-            if (feature.geometry.type === 'Polygon') {
+            if (feature.geometry.type === 'Polygon' || feature.geometry.type === 'LineString') {
             let feature_centroid = turf.centroid(feature);
             feature.geometry= {type: "Point", coordinates: feature_centroid.geometry.coordinates};
             //swapout the Polygon for a point
@@ -25,7 +25,7 @@ function OSMtoTCSMdataMapper(data,featurePropsList){
     //console.log(`returning ${data.features.length} features`)
     return data;
 };
-
+/*
 function popupFromFeatureInfo(featureInfo){
   
     console.log(JSON.stringify(featureInfo.tags));
@@ -40,6 +40,22 @@ function popupFromFeatureInfo(featureInfo){
       <div class="pop-report">${featureInfo.report}</div>
     </div>`
   }
+*/
+/**Initialise the featureWindow with data for the chosen marker
+  * @param {featureInfo} as FeatureInfo
+  * 
+  */
+function setupInfoWindow(featureInfo){
+    $("#infoWindowLabel").text(featureInfo.caption);
+    $(".pop-location").html(featureInfo.location);
+    $(".pop-facilities").html(featureInfo.facilities);
+    $(".pop-availability").html(featureInfo.availability);
+    $(".pop-operator").html(featureInfo.operator);
+    $(".pop-report").html(featureInfo.report);
+    
+}
+
+
 
   function geoJSONLayerFilter(isVisible){
 
@@ -61,12 +77,13 @@ export function CSMLayerFactory(dataFile,featureTags,icon,filter){
     function markerOnClick(e) {
         
         let poi = e.target.feature.info;
-        popupFromFeatureInfo(poi);
-        $(".modal-content").html(popupFromFeatureInfo(poi));
+        //popupFromFeatureInfo(poi); 
+        setupInfoWindow(poi);
+        //$(".modal-content").html(popupFromFeatureInfo(poi));
             //'This is marker ' + JSON.stringify(e.target.feature));
         $('#infoWindow').modal('show');
         let centre=(e.target.getLatLng)?e.target.getLatLng():e.target.getCenter();
-        e.target._map.setView(centre);
+        //e.target._map.setView(centre);
         //e.preventDefault();
     }
 

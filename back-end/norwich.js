@@ -1,20 +1,16 @@
 
 module.exports = [
     //Get Here layer
-/*    {name: 'parkingSpaces', query:'nwr[amenity=parking];'},
+    {name: 'parkingSpaces', query:'nwr[amenity=parking];'},
     {name: 'parkingMeters', query:'nwr[amenity=vending_machine][vending=parking_tickets];'},
     {name: 'taxi', query:'nwr[amenity=taxi];'},
-*//*
-    //Get around layer - shop mobility, bus routes?
-   
-    //{name: '', query:'nwr[amenity=]'},
-    //{name: '', query:'nwr[amenity=]'},
-    amenity=charging station
-    amenity=dog bin
-    amenity=dog waste bin
-    amenity=luggage_locker
+    /*Add  
+        nwr[railway=station];
+        >>bus stations
     */
- /*  {name: 'around', query:`
+
+    //Get around layer - shop mobility, bus routes?
+   {name: 'around', query:`
         nwr[highway=lift];
         nwr[highway=steps];
         nwr[ highway=crossing][crossing!=uncontrolled];
@@ -25,32 +21,36 @@ module.exports = [
         nwr[ramp];
         nwr[conveying];
         nwr[tactile_paving];
-        `},*/
+        `},
     {name:'around-amenities', query:`nwr[shop=mobility];`},
 
-  /* 
+    /* The followinf might also be useful, but not currently used in area
+    amenity=charging station    amenity=dog bin
+    amenity=dog waste bin       amenity=luggage_locker
+    */
+
+   
     //toilets
+    //Toilets can be recorded as seperate amenities: 
     {name: 'toiletsAmenity', query:'nwr[amenity=toilets];'},
     {name: 'toiletsNonAmenity', query:'nwr[~"^toilet(s):.*$"~"."];'},
-  */  
- /*
+ 
     //Eat/drink
     {name: 'food-bar', query:'nwr[amenity=bar];'},
     {name: 'food-cafe', query:'nwr[amenity=cafe];'},
     {name: 'food-fast_food', query:'nwr[amenity="fast_food"];'},
     {name: 'food-pubs', query:'nwr[amenity=pub];'},
     {name: 'food-resturants', query:'nwr[amenity=restaurant];'},
-    amenity=food court
-    amenity=ice cream
-*/
-/* 
+    /*Possible additions:
+        amenity=food court      amenity=ice cream
+    */
+
     //shop
-    {name: 'shop', query:'nwr[shop];'},
-    //{name: '', query:'nwr[amenity=]'},
-  */  
+    {name: 'shop', query:'nwr[shop];nwr[amenity=marketplace'},
+
     //learn
-    //amenity=library
-/*    
+    {name: '', query:'nwr[amenity=library]'},
+
     //enjoy
     {name: 'enjoy', query:`
         nwr[amenity="arts centre"];
@@ -63,17 +63,16 @@ module.exports = [
         nwr[amenity="music venue"];
         nwr[amenity="nightclub"];
         nwr[amenity="park"];
-        nwr[leisure][access!=private];
-        nwr[sport];
-        `
+        nwr[leisure][access!=private][leisure!=fountain];
+        nwr[sport];`
     },
-*/
+
     //help
     //{name: 'helpSafePlaces', query:'nwr[amenity=]'},
-    //{name: 'help-services', query:'nwr[amenity=police];nwr[name~"Walk-in"];'},
-    //{name: 'helpInfo', query:'nwr[amenity=]'},
-    //{name: '', query:'nwr[amenity=]'},
-
+    {name: 'help-services', query:'nwr[amenity=police];nwr[name~"Walk-in"];'},
+    {name: 'help-info', query:'nwr[amenity=]'},
+    /* possible additiona:
     //amenity=emergency phone
     //amenity=pharmacy
+    */
 ];

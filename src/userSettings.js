@@ -1,3 +1,4 @@
+import html from 'html-escaper';
 import $ from "jquery";
 import store from 'store2';
 window.$ = window.jQuery = $
@@ -5,7 +6,7 @@ window.$ = window.jQuery = $
 const SETTINGS_KEY="userSettings"
 
 export class UserSettings{
-    constructor(layerControl){
+    constructor(){
         //object asign used to copy properties fom a default object, then overwrite with an object from local settings (if there is one)
         Object.assign(this, 
             
@@ -19,25 +20,38 @@ export class UserSettings{
                 dementia:false,
                 assistanceDog:false,
                 hoistRequired:false,
+                vulnerable:false,
                 demoMode:false,
+                _map:undefined,
             },
             JSON.parse( store.get(SETTINGS_KEY))
         );
-        this.layerControl=layerControl;
+
+    }
+
+    set layerControl(layerControl){
+        this._layerControl=layerControl;
     }
 
     isVisible(properties){
         return (this.wheelchair && properties.wheelchair==="yes");
     }
 
-    /*Save user settings to local storage */
+    /**
+     * Save user settings to local storage
+     */
     save(){
-        //TODO save userSettings
-        store.set(SETTINGS_KEY,JSON.stringify( this));
+        store.set(SETTINGS_KEY,JSON.stringify( this, function (key,value)
+        {
+            return (key.startsWith("_"))?undefined:value;
+        }));
     }
 
     initUserSettingsForm(){
-        $("#userName").val(this.userName);
+
+        $("#fg-name").toggle( !this.demoMode);
+
+        $("#userName").val(html.escape(this.userName));
         $('#switchSimple').prop("checked" ,this.simpleMode);
         $('#switchPics').prop("checked", this.pictureMode);
         $('#switchWheelchair').prop("checked", this.wheelchair);
@@ -46,6 +60,9 @@ export class UserSettings{
         $('#switchDementia').prop("checked", this.dementia);
         $('#switchDog').prop("checked", this.assistanceDog);
         $('#switchHoist').prop("checked", this.hoistRequired);
+        $('#switchVulnerable').prop("checked", this.vulnerable);
+        $('#keyVulnerable').toggle(!this.vulnerable);
+        
         $('#switchDemo').prop("checked", this.demoMode);
     }
 
@@ -64,9 +81,12 @@ export class UserSettings{
             userSettings.dementia=$('#switchDementia').prop("checked");
             userSettings.assistanceDog=$('#switchDog').prop("checked");
             userSettings.hoistRequired=$('#switchHoist').prop("checked");
+            userSettings.vulnerable = ($('#switchVulnerable').prop("checked") && $('#keyVulnerable').val()==='safe'); 
             userSettings.demoMode=$('#switchDemo').prop("checked");
             userSettings.save();
-            layerControl.refreshLayers(userSettings);
+            if (userSettings._layerControl) {
+                userSettings._layerControl.refreshLayers(userSettings);
+            }
             
             $('#personalSettings').modal('hide');
             

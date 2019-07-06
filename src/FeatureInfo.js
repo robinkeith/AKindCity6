@@ -8,7 +8,7 @@ let tagToIgnore=
   '@id,name,NAME,NameS,addr:housename,addr:street,addr:city,addr:country,level,description,wheelchair,wheelchair:description,operator,' +
   'opening_hours,access,centralkey,fee,fee:ChannelMergerNode,amenity,toilets:wheelchair,' +
   'OBJECTID,Opening,UPRN,lon,lat,Address,Y,X,altitudeMode,OBJECTI,key,addr:housenumber,addr:postcode' +
-  'website,email,phone,source:addr' +
+  'website,email,phone,source:addr, park_ride, type, Maintenance, Maxheight, Salting Ref, ' +
   ',building,toilets:disposal,addr:city,addr:country,kitchen_hours,fhrs:id,layer,dataSupplier,dataLastUpdated'.split(',');
   
 let dataImprover={
