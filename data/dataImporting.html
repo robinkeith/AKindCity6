@@ -1,0 +1,17 @@
+<p>#Converting shape files
+Shape files are a bundle of files consisting of at least a .dbf file and various combintations of .cpg .prj .sbn .sbx .shp .shp.xml .shx</p><p>Online tool for convertion: <a href="http://gipong.github.io/shp2geojson.js/">http://gipong.github.io/shp2geojson.js/</a>
+Uses the default coordinate set ()</p><h1 id="extracting-data-from-openstreetmap">Extracting data from OpenStreetMap</h1><p>Extact using <a href="https://overpass-turbo.eu/">TurboOverpass</a></p><p>Look up tags useage: <a href="https://taginfo.openstreetmap.org/tags">TagInfo</a></p><p>Find out more information on tags: <a href="https://wiki.openstreetmap.org/wiki/Category:Tag_descriptions">OSM Wiki</a></p><h1 id="extraction-queries-used">Extraction queries used</h1><p>## </p><ul>
+<li>Bounding Box covering Norwich City and suburbs. See it here: <a href="http://bboxfinder.com/#52.578228,1.171761,52.693864,1.525726">http://bboxfinder.com/#52.578228,1.171761,52.693864,1.525726</a></li>
+<li>Timeout of 25 seconds</li>
+<li>Output to Overpass json (NOT geoJson and needs to be converted)</li>
+</ul><pre><code>[bbox:1.171761,52.578228,1.525726,52.693864]
+//52.5986631853,1.2371951024,52.6793324876,1.373425588
+[out:json][timeout:25]</code></pre><p>Note. In the following queries, the filter <strong>nwr</strong> is used instead of joining seperate node, way and relation filters.
+The global bounding box is assumed, rather than using a bbox on each query clause.</p><p>The queries used are listed in /back-end/norwich.js</p><h2 id="public-transport-publicgeojson">Public Transport (public.geojson)</h2><pre><code>nwr[railway=station];
+&gt;&gt;bus stations</code></pre><h2 id="toilets-layer">TOILETS Layer</h2><p>Toilets can be recorded as seperate amenities: amenity=toilets, amenity=toilet, amenity=toilet_private</p><p>Or as tags of another feature, typically a building, in which case one or more toilet(.*) tags will be used.</p><h3 id="toilets-as-amenities">Toilets as amenities</h3><pre><code>  nwr[~&quot;^toilet(s):.*$&quot;~&quot;.&quot;];</code></pre><h3 id="toilets-as-tags-of-another-feature">Toilets as tags of another feature</h3><pre><code>  nwr[&quot;amenity&quot;~&quot;toilet.*$&quot;];</code></pre><h2 id="eatdrink-layer">EAT/DRINK Layer</h2><h2 id="shop-layer">SHOP Layer</h2><pre><code></code></pre><h2 id="help-layer">HELP Layer</h2><pre><code>nwr[amentiy=police];
+&gt;&gt;walk-in centers
+&gt;&gt;pharmacists
+&gt;&gt; vets</code></pre><hr><pre><code> // query part for: “wheelchair=*”
+  node[&quot;wheelchair&quot;]({{bbox}});
+  way[&quot;wheelchair&quot;]({{bbox}});
+  relation[&quot;wheelchair&quot;]({{bbox}});</code></pre>
