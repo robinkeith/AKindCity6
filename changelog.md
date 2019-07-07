@@ -5,7 +5,7 @@
 * Blue badge parking info - imported but not on preview website due to licencing restrictions (being worked through with NCC)
 * Reorganised Parking icons to show parking meters and large car parks more clearly.
 * As requested by NCC, the SafePlaces data now requires a pass code - Tick the 'Sometimes I need a little more help' option in 'All About Me' and enter the pass code.
-
+* Product tour - the first time the app is used you get a quick walk-through of how to use it. Repeat the tour from the 'Take the Tour' button on the Personalization forrm.
 
 
 ## 1.7

@@ -2,12 +2,12 @@
 
 * solve data collection
 
-* Safe Places - add vulnerable option and password.
+* ~~Safe Places - add vulnerable option and password.~~
 * Sort out 'Supplied by' and kind places logos
 * ensure OSM values are escaped
 * ~~Rename as 'The Clare School Map'~~
 * ~~Move layer control to bottom of map and restyle as horizontal~~
-* Add police stations to the Help! layer
+* ~~Add police stations to the Help! layer~~
 * Add 3 'changing places' to the toilets layer - sort out logo
 * Separate layers for restaurants, shops and ?? everything else
 * amenity=charging_station and wheelchair=yes
@@ -16,6 +16,7 @@
 * add aria-hidden="true" for the icons (that are just for imagery)
 * improve memory function - show drop down of points nearby
 * scale icons to match zoom level
+* 
 
 
 * printable map

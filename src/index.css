@@ -156,6 +156,12 @@ html, body, .map-container {
 .tooltip {
   pointer-events: none;
 }
+
+#Tour #Tour-box{
+  width:450px;
+}
+
+
 /*
 
     /*

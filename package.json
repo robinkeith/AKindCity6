@@ -6,7 +6,7 @@
     "start": "parcel data/**/* index.html --target browser",
     "start-debug": "parcel data/**/* index.html --target browser --log-level 4",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy": "parcel build index.html data/**/* --target browser --public-url /AKindCity6/  && rm dist/data/nolicence",
+    "predeploy": "parcel build index.html data/**/* --target browser --public-url /AKindCity6/  && rm dist/data/nolicence/*.*",
     "deploy": "gh-pages -d dist",
     "download-osm": "--node --experimental-modules ./src/downloader.mjs",
     "down": "node ./back-end/main.js"
@@ -28,6 +28,13 @@
     "browserify": "^16.2.3",
     "browserify-shim": "^3.8.14",
     "cssnano": "^4.1.10",
+    "eslint": "^6.0.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
     "geojsonio-cli": "^0.2.3",
     "gh-pages": "^2.0.1",
     "marked": "^0.6.2",
@@ -58,6 +65,7 @@
     "leaflet-extra-markers": "^1.1.0",
     "leaflet-fullscreen": "^1.0.2",
     "leaflet-geometryutil": "^0.9.1",
+    "leaflet-offline-2": "0.0.3",
     "leaflet-providers": "^1.8.0",
     "leaflet-routing-machine": "^3.2.12",
     "leaflet-search": "^2.9.8",
@@ -67,6 +75,7 @@
     "moment": "^2.24.0",
     "opening_hours": "^3.5.0",
     "popper.js": "^1.15.0",
-    "store2": "^2.7.1"
+    "store2": "^2.7.1",
+    "tour": "^2.0.3"
   }
 }
