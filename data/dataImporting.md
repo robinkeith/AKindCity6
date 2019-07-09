@@ -79,3 +79,52 @@ nwr[amentiy=police];
   way["wheelchair"]({{bbox}});
   relation["wheelchair"]({{bbox}});
   `````
+
+  ## Experiment
+  [bbox:52.6213114049,1.2994429312,52.6242253769,1.3039059933]// 2 parking meters
+//[bbox:52.578228,1.171761,52.693864,1.525726] // large area
+[out:json]
+[timeout:300];
+
+
+node[amenity=vending_machine][vending=parking_tickets]->.machines;
+foreach.machines->.machine(
+  
+  (
+  	make node test="spam";
+  	.machine;
+  );
+  out;  
+);
+
+
+## MapFeature specification
+MapFeature is the class used for rendering of features on the map
+
+Fields:
+* Name
+* Location
+* Directions
+* Description
+* Filters
+
+* Time 
+Which layer is the feature in?  
+Does the feature get displayed?
+
+What maker is used?
+
+what is displayed in the hover?
+
+What's displayed in the info box?
+static and dynamic elements
+
+Class MapFeature(){
+  layers[]
+  baseMarker - marker class which defines the marker shape/svg, marker colour, icon, icon colour.
+  markerModifier - name of function which can be used to modify the marker (e.g. )
+  visibilityFilter - name of the function to use when deciding if the marker should be displayed
+  allowPopup - true 
+
+  caption
+}

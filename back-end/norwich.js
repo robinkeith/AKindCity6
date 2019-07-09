@@ -1,5 +1,7 @@
 
 module.exports = [
+  // [bbox:1.171761,52.578228,1.525726,52.693864]
+
   // Get Here layer
   { name: 'here-parkingSpaces', query: 'nwr[amenity=parking];' },
   { name: 'here-parkingMeters', query: 'nwr[amenity=vending_machine][vending=parking_tickets];' },
@@ -31,8 +33,8 @@ module.exports = [
 
   // toilets
   // Toilets can be recorded as seperate amenities:
-  { name: 'toiletsAmenity', query: 'nwr[amenity=toilets];' },
-  { name: 'toiletsNonAmenity', query: 'nwr[~"^toilet(s):.*$"~"."];' },
+  { name: 'toilets-amenity', query: 'nwr[amenity=toilets];' },
+  { name: 'toilets-nonAmenity', query: 'nwr[~"^toilet(s):.*$"~"."];' },
 
   // Eat/drink
   { name: 'food-bar', query: 'nwr[amenity=bar];' },
