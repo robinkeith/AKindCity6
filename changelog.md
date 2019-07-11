@@ -1,6 +1,10 @@
 # Change Log
 
 ## 1.9
+* Improvements to 'get around' layer - colour coding added - red for obsticles (stairs), green for aids (lifts, ramps, tactile surfaces etc), amber for impediments (e.g. steep inclines)
+* Added feedback form - press the 'speech bubble icon' links to the online surveys
+* fixed a bug in permissions screen and loading one of the toilet layers
+* Data preprocessing colapses outlines to points automatically.
 
 ## 1.8
 * Added Elephant Juice! Press the elephant button to remember where you parked.

@@ -43,6 +43,31 @@ let blueBadgeMarker = L.icon({
   iconUrl: blueBadgeSign,
   iconSize: [40, 30] // size of the icon
 })
+/*
+
+Tagging
+Car Park
+An off-road area designated for parking cars, typically for a charge. Has a capacity, and often a number of spaces dedicated to disabled or other user groups. Can be run by a council or private company, or as an amenity for a shopping area.
+
+amenity=parking - a node or way (but not both) representing a whole car park.
+parking=type (type could be multi-storey, underground or surface (default). Could also be park_and_ride)
+ parking:lane=* - Parking along the side of streets
+fee=boolean (yes/no)
+
+access= yes; customers; permissive; private
+fee
+supervised
+capacity
+capacity:disabled=
+capacity:parent=
+capacity:charging=
+Maxstay
+
+amenity=parking_space - used to map a single space within an amenity=parking car park. - Not used by TCSM.
+
+amenity=pa
+
+*/
 
 export default function (userSettings) {
   let featureTags = ''
@@ -72,8 +97,8 @@ export default function (userSettings) {
     CSMLayerFactory('data/here-parkingMeters.geojson', featureTags, parkingMarker, filter),
     CSMLayerFactory('data/here-parkingSpaces.geojson', featureTags, chooseIcon, filter),
     CSMLayerFactory('data/here-taxi.geojson', featureTags, taxiMarker, filter),
-    CSMLayerFactory('data/nolicence/here-blueBadgeLines.geojson', featureTags, blueBadgeMarker),
-    CSMLayerFactory('data/nolicence/here-disabledParking.geojson', featureTags, disabledParkingSpacesMarker)
+    CSMLayerFactory('data/nolicence/here-blueBadgeLines.geojson', featureTags, blueBadgeMarker)
+    // CSMLayerFactory('data/nolicence/here-disabledParking.geojson', featureTags, disabledParkingSpacesMarker)
     // CSMLayerFactory("data/nolicence/Datasets.zip.geojson",featureTags,disabledParkingSpacesMarker),
 
   ])

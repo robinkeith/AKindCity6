@@ -15,8 +15,8 @@ module.exports = [
   { name: 'around', query: `
         nwr[highway=lift];
         nwr[highway=steps];
-        nwr[ highway=crossing][crossing!=uncontrolled];
-        nwr[ highway=traffic_signals];
+        nwr[highway=crossing][crossing!=uncontrolled];
+        nwr[highway=traffic_signals];
         nwr[highway=footway][incline];
         nwr[building][elevator=yes];
         nwr[wheelchair=designated];

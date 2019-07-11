@@ -49,7 +49,7 @@ export class UserSettings {
   initUserSettingsForm () {
     $('#fg-name').toggle(!this.demoMode)
 
-    $('#userName').val(html.escape(this.userName))
+    $('#userName').val(html.escape(this.userName || ''))
     $('#switchSimple').prop('checked', this.simpleMode)
     $('#switchPics').prop('checked', this.pictureMode)
     $('#switchWheelchair').prop('checked', this.wheelchair)

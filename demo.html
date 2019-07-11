@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="shortcut icon" type="image/x-icon" href="" />
+<link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
+<title>CodePen - Fly over 3D Tallinn w/ Mapbox GL</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='//api.tiles.mapbox.com/mapbox-gl-js/v0.27.0/mapbox-gl.css'>
+<style>
+      body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+#fly {
+  display: none;
+  float: left;
+  position: relative;
+  margin: .5em;
+  width: 20%;
+  height: 2.5em;
+  padding: .5em;
+  border: none;
+  border-radius: .25em;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  background: #f36;
+  box-shadow: 0 0 1em #666;
+}
+
+#log {
+  position: absolute;
+  margin: 2.5em .75em;
+  font-size: .75rem;
+  background: rgba(255, 255, 255, 0.5);
+  bottom: 0;
+  left: 0;
+  min-width: 16em;
+}
+
+#log p {
+  margin: .5em;
+  color: #666;
+  max-width: 16em;
+  overflow: hidden;
+  height: 1em;
+  white-space: nowrap;
+  min-width: 9em;
+}
+
+#log span {
+  color: #000;
+}
+
+    </style>
+<script>
+  window.console = window.console || function(t) {};
+</script>
+<script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+</head>
+<body translate="no">
+<div id="map"></div>
+<button id="fly">Fly</button>
+<div id="log">
+<p>Map center longitude: <span id="log-lng">[waiting]</span></p>
+<p>Map center latitude: <span id="log-lat">[waiting]</span></p>
+<p>Map zoom level: <span id="log-zoom">[waiting]</span></p>
+<p>Map pitch (tilt): <span id="log-pitch">[waiting]</span></p>
+<p>Map bearing (rotation): <span id="log-bearing">[waiting]</span></p>
+</div>
+<!--script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js"></script-->
+<script "demo.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='//api.tiles.mapbox.com/mapbox-gl-js/v0.27.0/mapbox-gl.js'></script>
+<script src='//api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-supported/v1.2.0/mapbox-gl-supported.js'></script>
+<script id="rendered-js">
+      // “Mapbox GL JS is a JavaScript library that uses WebGL to render interactive maps from vector tiles and Mapbox styles.” -- https://www.mapbox.com/mapbox-gl-js/api/
+mapboxgl.accessToken = 'pk.eyJ1IjoidXgiLCJhIjoiY2l2Zm5xZmE2MDAzOTJvcGZ4dngwbWw2aSJ9.XhTQ80_U9ZWsoqzqxHDEwQ';
+
+if (!mapboxgl.supported()) {// https://www.mapbox.com/mapbox-gl-js/plugins/#mapbox-gl-supported
+  alert('Your browser does not support Mapbox GL');
+} else {
+
+  var mbStyleStr8 = 'mapbox://styles/mapbox/streets-v8'; // Streets v8
+  var mbStyleStr9 = 'mapbox://styles/mapbox/streets-v9';
+  var mbStyleOutd = 'mapbox://styles/mapbox/outdoors-v9';
+  var mbStyleLight = 'mapbox://styles/mapbox/light-v9';
+  var mbStyleDark = 'mapbox://styles/mapbox/dark-v9';
+  var mbStyleBright = 'mapbox://styles/mapbox/bright-v9';
+
+  var lnglatTallinn = [24.753574, 59.436960]; // Tallinn
+  var lnglatTallinnTvtower = [24.8875, 59.471206]; // Tallinn TV Tower
+  var lnglatTallinnTownhall = [24.745319, 59.437372]; // Tallinn Town Hall
+  var lnglatTallinnTowers = [24.757888, 59.433184]; // Tallinn city
+  var lnglatTallinnSkype = [24.661038, 59.397467]; // near Skype office in Tallinn
+
+  var angleTallinnTownhall = {
+    center: lnglatTallinnTownhall,
+    zoom: 17.5, // 15 is the min. zoom level showing the whole 3D buildings layer
+    pitch: 60, // pitch (tilt) of the map, measured in degrees away from the plane of the screen (0-60)
+    bearing: -150 // bearing (rotation) of the map, measured in degrees counter-clockwise from north
+  };
+  var angleTallinnTowers = {
+    center: lnglatTallinnTowers,
+    zoom: 15.5,
+    pitch: 55,
+    bearing: -50 };
+
+  var angleTallinnTvtower = {
+    center: lnglatTallinnTvtower,
+    zoom: 16,
+    pitch: 30,
+    bearing: -220 };
+
+  var angleTallinnSkype = {
+    center: lnglatTallinnSkype,
+    zoom: 17,
+    pitch: 30,
+    bearing: -225 };
+
+
+  var map = new mapboxgl.Map({
+
+    container: 'map',
+    style: mbStyleStr9,
+
+    center: angleTallinnTownhall.center,
+    zoom: angleTallinnTownhall.zoom,
+    pitch: angleTallinnTownhall.pitch,
+    bearing: angleTallinnTownhall.bearing });
+
+
+
+  var currentLng, currentLat, currentZoom, currentPitch, currentBearing;
+
+  var logMapProps = function () {
+
+    var centerObj = map.getCenter();
+    currentLng = centerObj['lng'];
+    currentLat = centerObj['lat'];
+
+    currentZoom = map.getZoom();
+    currentPitch = map.getPitch();
+    currentBearing = map.getBearing();
+
+    $('#log-lng').html(parseFloat(currentLng.toFixed(6)));
+    $('#log-lat').html(parseFloat(currentLat.toFixed(6)));
+    $('#log-zoom').html(parseFloat(currentZoom.toFixed(6)));
+    $('#log-pitch').html(parseFloat(currentPitch.toFixed(6)));
+    $('#log-bearing').html(parseFloat(currentBearing.toFixed(6)));
+
+  };
+
+  var flyStart = angleTallinnTowers;
+
+  var $flyBtn = $('#fly');
+
+  map.on('load', function () {
+
+    map.addLayer({
+      'id': '3d-buildings',
+      'source': 'composite',
+      'source-layer': 'building', // building-height data from OpenStreetMap
+      'filter': ['==', 'extrude', 'true'],
+      'type': 'fill-extrusion',
+      //'minzoom': 15,
+      'paint': {
+        'fill-extrusion-color': '#aaa', // #aaa === 33% black
+        'fill-extrusion-height': {
+          'type': 'identity',
+          'property': 'height' },
+
+        'fill-extrusion-base': {
+          'type': 'identity',
+          'property': 'min_height' },
+
+        'fill-extrusion-opacity': 0.5 } });
+
+
+
+    logMapProps();
+
+    setTimeout(function () {
+
+      map.flyTo({ // https://www.mapbox.com/mapbox-gl-js/api/#Map#flyTo
+
+        center: flyStart.center,
+        zoom: flyStart.zoom,
+        pitch: flyStart.pitch,
+        bearing: flyStart.bearing,
+
+        speed: 0.65, // make the flying slow (default: 1.2)
+        curve: 0.95, // change the speed at which it zooms out (default: 1.42)
+
+        easing: function (t) {
+          return t;
+        } });
+
+
+
+      setTimeout(function () {$flyBtn.show();}, 4000);
+
+    }, 1500);
+
+  });
+
+  var isAtStart = true;
+  var nextIsSkype = true;
+  var flyTarget;
+
+  $flyBtn.on('click', function () {
+
+    // Switch b/w points A/B/C, and set the corresponding flags
+    isAtStart ? (
+    flyTarget = nextIsSkype ? angleTallinnSkype : angleTallinnTvtower,
+    nextIsSkype = !nextIsSkype,
+    isAtStart = !isAtStart) : (
+
+    flyTarget = flyStart,
+    isAtStart = !isAtStart);
+
+
+    map.flyTo({
+
+      center: flyTarget.center,
+      zoom: flyTarget.zoom,
+      pitch: flyTarget.pitch,
+      bearing: flyTarget.bearing,
+
+      speed: 0.35,
+      curve: 0.7,
+
+      easing: function (t) {
+        return t;
+      } });
+
+
+
+  });
+
+  map.on('move', function () {
+    logMapProps();
+  });
+
+}
+      //# sourceURL=pen.js
+    </script>
+</body>
+</html>
