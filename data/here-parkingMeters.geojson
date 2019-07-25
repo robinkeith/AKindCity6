@@ -10,7 +10,15 @@
     "payment:coins": "yes",
     "ref": "GFR RD",
     "vending": "parking_tickets",
-    "id": "node/566562251"
+    "id": "node/566562251",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -27,7 +35,15 @@
     "amenity": "vending_machine",
     "operator": "Norwich City Council",
     "vending": "parking_tickets",
-    "id": "node/596362294"
+    "id": "node/596362294",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -43,7 +59,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/608458948"
+    "id": "node/608458948",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -59,7 +83,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/608458952"
+    "id": "node/608458952",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -75,7 +107,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/608458979"
+    "id": "node/608458979",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -94,7 +134,15 @@
     "payment:coins": "yes",
     "ref": "PWR 2",
     "vending": "parking_tickets",
-    "id": "node/665125583"
+    "id": "node/665125583",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -113,7 +161,15 @@
     "payment:coins": "yes",
     "ref": "PWL1",
     "vending": "parking_tickets",
-    "id": "node/665125584"
+    "id": "node/665125584",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -130,7 +186,15 @@
     "amenity": "vending_machine",
     "operator": "Norwich City Council",
     "vending": "parking_tickets",
-    "id": "node/1137615582"
+    "id": "node/1137615582",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -147,7 +211,15 @@
     "amenity": "vending_machine",
     "operator": "Norwich City Council",
     "vending": "parking_tickets",
-    "id": "node/1314007610"
+    "id": "node/1314007610",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -164,7 +236,15 @@
     "amenity": "vending_machine",
     "operator": "Norwich City Council",
     "vending": "parking_tickets",
-    "id": "node/1314007612"
+    "id": "node/1314007612",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -180,7 +260,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/1314069654"
+    "id": "node/1314069654",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -196,7 +284,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/1314077011"
+    "id": "node/1314077011",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -212,7 +308,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/1314077012"
+    "id": "node/1314077012",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -228,7 +332,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/1314085368"
+    "id": "node/1314085368",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -244,7 +356,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/1314094026"
+    "id": "node/1314094026",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -260,7 +380,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/1314131578"
+    "id": "node/1314131578",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -276,7 +404,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/1314131588"
+    "id": "node/1314131588",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -292,7 +428,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/1314131600"
+    "id": "node/1314131600",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -308,7 +452,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/1314131603"
+    "id": "node/1314131603",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -324,7 +476,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/1314131637"
+    "id": "node/1314131637",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -340,7 +500,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/1314131641"
+    "id": "node/1314131641",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -356,7 +524,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/1314143052"
+    "id": "node/1314143052",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -372,7 +548,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/1314898699"
+    "id": "node/1314898699",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -388,7 +572,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/1314910532"
+    "id": "node/1314910532",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -404,7 +596,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/1319011110"
+    "id": "node/1319011110",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -420,7 +620,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/1319011130"
+    "id": "node/1319011130",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -436,7 +644,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/1319011186"
+    "id": "node/1319011186",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -452,7 +668,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/1319903422"
+    "id": "node/1319903422",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -468,7 +692,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/1319903426"
+    "id": "node/1319903426",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -484,7 +716,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/1319903448"
+    "id": "node/1319903448",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -500,7 +740,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/1323453565"
+    "id": "node/1323453565",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -516,7 +764,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/1323453568"
+    "id": "node/1323453568",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -532,7 +788,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/1323453580"
+    "id": "node/1323453580",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -548,7 +812,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/1323563588"
+    "id": "node/1323563588",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -564,7 +836,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/1323637184"
+    "id": "node/1323637184",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -580,7 +860,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/1323637219"
+    "id": "node/1323637219",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -596,7 +884,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/1352541909"
+    "id": "node/1352541909",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -612,7 +908,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/2463314261"
+    "id": "node/2463314261",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -628,7 +932,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/2581113196"
+    "id": "node/2581113196",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -644,7 +956,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/2581113203"
+    "id": "node/2581113203",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -660,7 +980,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/2581113213"
+    "id": "node/2581113213",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -676,7 +1004,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/2581113216"
+    "id": "node/2581113216",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -692,7 +1028,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/2581113224"
+    "id": "node/2581113224",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -708,7 +1052,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/2581113228"
+    "id": "node/2581113228",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -724,7 +1076,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/2584241169"
+    "id": "node/2584241169",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -740,7 +1100,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/3368004361"
+    "id": "node/3368004361",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -756,7 +1124,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/3368004363"
+    "id": "node/3368004363",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -772,7 +1148,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/3368004368"
+    "id": "node/3368004368",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -788,7 +1172,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/3368004381"
+    "id": "node/3368004381",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -804,7 +1196,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/3465232095"
+    "id": "node/3465232095",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -820,7 +1220,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/4198478079"
+    "id": "node/4198478079",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -836,7 +1244,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/5068906167"
+    "id": "node/5068906167",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -852,7 +1268,15 @@
    "properties": {
     "amenity": "vending_machine",
     "vending": "parking_tickets",
-    "id": "node/5219678128"
+    "id": "node/5219678128",
+    "mapFeature": {
+     "hoverCaption": "On-road Parking Bay",
+     "allowPopup": false,
+     "icon": "parkingMeter",
+     "layers": [
+      "here"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",

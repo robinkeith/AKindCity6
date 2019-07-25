@@ -15,6 +15,36 @@ Look up tags useage: [TagInfo](https://taginfo.openstreetmap.org/tags)
 
 Find out more information on tags: [OSM Wiki](https://wiki.openstreetmap.org/wiki/Category:Tag_descriptions)
 
+## Parent Referencing
+This query looks up the name of the road a crossing is on.
+`````
+[bbox:52.578228,1.171761,52.693864,1.525726]
+//[bbox:52.62,1.2,52.64,1.4]
+[out:json]
+//[out:csv(::id, ::lat, ::lon, road_name, road_speed)]
+[timeout:600];
+
+
+node["highway"="crossing"];
+//node(id:388706237,355519497,340919676);
+
+foreach {
+
+  way(bn)["name"]-> .ways;
+  //for .ways -> .way(t["name"]) {
+    convert result
+             ::id   = id(),
+             ::geom = center(geom()),
+             road_name    = ways.set(t["name"] ),
+             road_speed = ways.set(t["maxspeed"]),
+             ::     = ::;
+   // out;// geom;
+  //}
+  out geom;
+}
+`````
+
+
 # Extraction queries used
 
 ## 

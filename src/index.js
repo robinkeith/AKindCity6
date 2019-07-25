@@ -19,10 +19,13 @@ import { createLayers } from './layerHandler.js'
 import { defaultSettings } from './defaultSettings.js'
 import { setup } from './mapControls.js'
 import { takeTour } from './tourMap.js'
+// import registerServiceWorker from './register-service-worker'
 
 window.$ = window.jQuery = $
 window.bootstrap = bootstrap
 window.popper = popper
+
+// registerServiceWorker()
 
 /* ----- Hacky workaround to get leaflet icons to wotk with the build ---------------------------- */
 delete L.Icon.Default.prototype._getIconUrl

@@ -31,13 +31,15 @@ let taxiMarker = L.ExtraMarkers.icon({
   prefix: 'fas'
 })
 
-let disabledParkingSpacesMarker = L.ExtraMarkers.icon({
-  icon: 'fa-question',
-  markerColor: 'white',
-  iconColor: 'gray',
-  shape: 'square',
-  prefix: 'fas'
-})
+/**
+  let disabledParkingSpacesMarker = L.ExtraMarkers.icon({
+    icon: 'fa-question',
+    markerColor: 'white',
+    iconColor: 'gray',
+    shape: 'square',
+    prefix: 'fas'
+  })
+*/
 
 let blueBadgeMarker = L.icon({
   iconUrl: blueBadgeSign,

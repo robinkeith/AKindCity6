@@ -14,9 +14,18 @@
 * setfocus to map on startup, so keyboard works
 * fix search control npm libary so it doesn't add remove layers
 * add aria-hidden="true" for the icons (that are just for imagery)
-* improve memory function - show drop down of points nearby
+* improve memory function - show drop down of points nearby - offer to record current position, and show route back
 * scale icons to match zoom level
-* 
+* sub layer/layer filtering
+* timetravel - see whats open over the next hours/day etc
+* caching opening times objects - so commom times can be calculated quicker
+* size markers to suit zoom level
+* colour/alpha markers based on suitability
+* grouping markers
+* photos for markers
+* high contrast map
+* nearest suitable toilet
+* "way/108865901" has no poi
 
 
 * printable map

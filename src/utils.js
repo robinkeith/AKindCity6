@@ -2,6 +2,7 @@ import $ from 'jquery'
 import L from 'leaflet'
 import * as turf from '@turf/turf'
 import FeatureInfo from './FeatureInfo.js'
+import copyToClipboard from 'copy-to-clipboard'
 
 /** Middleware function called on the raw data before its added to a layer */
 function OSMtoTCSMdataMapper (data, featurePropsList) {
@@ -31,12 +32,20 @@ function OSMtoTCSMdataMapper (data, featurePropsList) {
   *
   */
 function setupInfoWindow (featureInfo) {
+  console.log(featureInfo.tags)
   $('#infoWindowLabel').text(featureInfo.caption)
   $('.pop-location').html(featureInfo.location)
   $('.pop-facilities').html(featureInfo.facilities)
   $('.pop-availability').html(featureInfo.availability)
   $('.pop-operator').html(featureInfo.operator)
   $('.pop-report').html(featureInfo.report)
+
+  let nodeRef = featureInfo.tags.id
+
+  $('#infoWindowFeedback').on('click', function (event) {
+    copyToClipboard(nodeRef)
+    $('#feedback').modal()
+  })
 }
 /*
 function geoJSONLayerFilter (isVisible) {
@@ -83,4 +92,21 @@ export function CSMLayerFactory (dataFile, featureTags, icon, filter) {
   })
 
   return masterLayer
+}
+
+export function getTileUrls (map, bounds, tileLayer, minZoom, maxZoom) {
+  let urls = []
+  for (let zoom = minZoom; zoom <= maxZoom; zoom++) {
+    let min = map.project(bounds.getNorthWest(), zoom).divideBy(256).floor()
+    let max = map.project(bounds.getSouthEast(), zoom).divideBy(256).floor()
+
+    for (var i = min.x; i <= max.x; i++) {
+      for (var j = min.y; j <= max.y; j++) {
+        var coords = new L.Point(i, j)
+        coords.z = zoom
+        urls.push(tileLayer.getTileUrl(coords))
+      }
+    }
+  }
+  return urls
 }

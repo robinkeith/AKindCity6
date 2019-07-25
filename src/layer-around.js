@@ -68,7 +68,7 @@ export default function (userSettings) {
   }
 
   return L.layerGroup([
-    CSMLayerFactory('data/around.geojson', featureTags, chooseIcon, filter),
+    CSMLayerFactory('data/around-crossings.geojson', featureTags, chooseIcon, filter),
     CSMLayerFactory('data/around-amenities.geojson', featureTags, mobilityMarker, filter)
     /* CSMLayerFactory("data/parkingMeters-hand.geojson",featureTags,parkingMarker,filter),
         CSMLayerFactory("data/parkingSpaces-hand.geojson",featureTags,carparkMarker,filter),

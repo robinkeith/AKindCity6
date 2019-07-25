@@ -1,0 +1,916 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "node/364431812",
+   "properties": {
+    "amenity": "toilets",
+    "id": "node/364431812"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.1770828,
+     52.6497638
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/364431875",
+   "properties": {
+    "amenity": "toilets",
+    "id": "node/364431875"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.180087,
+     52.6495701
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/472647140",
+   "properties": {
+    "amenity": "toilets",
+    "description": "Located opposite St Vedast Street. Male only (standing 'butterfly' urinal)",
+    "diaper": "no",
+    "fee": "no",
+    "female": "no",
+    "male": "yes",
+    "name": "Prince of Wales Road, butterfly urinal",
+    "operator": "Norwich City Council",
+    "wheelchair": "no",
+    "id": "node/472647140"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3020923,
+     52.6292283
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/498703509",
+   "properties": {
+    "amenity": "toilets",
+    "id": "node/498703509"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.1756825,
+     52.6464247
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1180840444",
+   "properties": {
+    "amenity": "toilets",
+    "fee": "no",
+    "wheelchair": "yes",
+    "id": "node/1180840444"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.1845154,
+     52.6527017
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1230743522",
+   "properties": {
+    "access": "permissive",
+    "amenity": "toilets",
+    "description": "From Farmers Ave entrance, toilets are just on the right",
+    "fee": "no",
+    "female": "yes",
+    "layer": "-2",
+    "level": "2.5",
+    "male": "yes",
+    "name": "Castle Mall Food Court Toilets",
+    "unisex": "yes",
+    "id": "node/1230743522"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2957831,
+     52.6274202
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1230743580",
+   "properties": {
+    "access": "permissive",
+    "addr:street": "Cattle Market Street",
+    "amenity": "toilets",
+    "description": "From the Cattle Market Entrace, toilets on right next to ShopMobility",
+    "female": "yes",
+    "layer": "-3",
+    "level": "2",
+    "male": "yes",
+    "name": "Castle Mall Toilets (Cattle Market Entrance)",
+    "unisex": "yes",
+    "wheelchair": "no",
+    "id": "node/1230743580"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2973514,
+     52.6274401
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1230744001",
+   "properties": {
+    "access": "permissive",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "layer": "-1",
+    "level": "3",
+    "name": "Castle Mall Toilets (St John's Entrance)",
+    "operator": "Castle Mall",
+    "unisex": "yes",
+    "wheelchair": "yes",
+    "id": "node/1230744001"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2958621,
+     52.6268804
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1248122658",
+   "properties": {
+    "amenity": "toilets",
+    "fee": "no",
+    "level": "0",
+    "wheelchair": "yes",
+    "id": "node/1248122658"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2899398,
+     52.6261257
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1248123374",
+   "properties": {
+    "amenity": "toilets",
+    "layer": "2",
+    "level": "2",
+    "operator": "Costa Coffee",
+    "id": "node/1248123374"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2898198,
+     52.6261265
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1248123398",
+   "properties": {
+    "amenity": "toilets",
+    "layer": "2",
+    "level": "2",
+    "wheelchair": "yes",
+    "id": "node/1248123398"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2911286,
+     52.6256819
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1248123681",
+   "properties": {
+    "amenity": "toilets",
+    "layer": "2",
+    "level": "2",
+    "operator": "House of Fraser",
+    "id": "node/1248123681"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2893232,
+     52.6264278
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1335979674",
+   "properties": {
+    "access": "customers",
+    "amenity": "toilets",
+    "id": "node/1335979674"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.5016557,
+     52.6658571
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1365424951",
+   "properties": {
+    "amenity": "toilets",
+    "fee": "no",
+    "operator": "Tesco",
+    "wheelchair": "yes",
+    "id": "node/1365424951"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2770067,
+     52.5951194
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1541173567",
+   "properties": {
+    "access": "customers",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "description": "The toilets are located on the Concourse, to the left of waiting room (platform 5b). Male toilets left, unisex disabled toilet middle, female toilets right. Doors open inwards",
+    "fee": "no",
+    "female": "yes",
+    "male": "yes",
+    "name": "Toilets at Norwich Station",
+    "opening_hours": "\"Station opening times\"",
+    "operator": "Abellio Greater Anglia",
+    "toilets:handwashing": "yes",
+    "wheelchair": "limited",
+    "wheelchair:description": "Unisex disabled toilet requires RADAR key. Manual doors, open inwards. Baby changing is not wheelchair accessible",
+    "id": "node/1541173567"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3071658,
+     52.626855
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/2381422616",
+   "properties": {
+    "amenity": "toilets",
+    "note": "Baby changing facilities",
+    "opening_hours": "07:00-18:30",
+    "id": "node/2381422616"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2929281,
+     52.6244206
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/2527310545",
+   "properties": {
+    "access": "customers",
+    "amenity": "toilets",
+    "fee": "no",
+    "operator": "RSPB Strumpshaw Fen",
+    "toilets:disposal": "flush",
+    "id": "node/2527310545"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.4565215,
+     52.6064975
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/3033452040",
+   "properties": {
+    "amenity": "toilets",
+    "id": "node/3033452040"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.1794497,
+     52.6470741
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/3250724561",
+   "properties": {
+    "access": "public",
+    "amenity": "toilets",
+    "name": "Sparhawk park toilets",
+    "note": "open during daylight hours",
+    "opening_hours": "sunrise-sunset",
+    "toilets:disposal": "flush",
+    "id": "node/3250724561"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3277886,
+     52.6568856
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/3709817678",
+   "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "drinking_water": "no",
+    "id": "node/3709817678"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.257524,
+     52.6204575
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/3823244185",
+   "properties": {
+    "amenity": "toilets",
+    "id": "node/3823244185"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2774352,
+     52.6698739
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/3823244186",
+   "properties": {
+    "amenity": "toilets",
+    "id": "node/3823244186"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.277558,
+     52.66936
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/3823244187",
+   "properties": {
+    "amenity": "toilets",
+    "id": "node/3823244187"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2775867,
+     52.6694047
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/3862586935",
+   "properties": {
+    "access": "customers",
+    "amenity": "toilets",
+    "diaper": "yes",
+    "fee": "no",
+    "wheelchair": "yes",
+    "id": "node/3862586935"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3027088,
+     52.6280135
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/3862586936",
+   "properties": {
+    "access": "customers",
+    "amenity": "toilets",
+    "diaper": "yes",
+    "fee": "no",
+    "wheelchair": "yes",
+    "id": "node/3862586936"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3026434,
+     52.6280287
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/4207863595",
+   "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "description": "located on Rose Lane, external to the multi storey car park.",
+    "fee": "no",
+    "opening_hours": "Th-Sa 18:00-08:00",
+    "operator": "Norwich City Council",
+    "toilets:disposal": "flush",
+    "unisex": "yes",
+    "id": "node/4207863595"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3031876,
+     52.6283783
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/5167531555",
+   "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "fee": "no",
+    "note": "Access code can be obtained through various locations",
+    "id": "node/5167531555"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3008996,
+     52.6312699
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/5458528254",
+   "properties": {
+    "access": "customers",
+    "amenity": "toilets",
+    "diaper": "room",
+    "fee": "no",
+    "female": "yes",
+    "male": "yes",
+    "toilets:disposal": "flush",
+    "wheelchair": "yes",
+    "id": "node/5458528254"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2940813,
+     52.6222482
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/5694856554",
+   "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "female": "yes",
+    "operator": "Norwich City Council",
+    "id": "node/5694856554"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2991592,
+     52.6161306
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/6543931838",
+   "properties": {
+    "access": "permissive",
+    "addr:city": "Norwich",
+    "addr:street": "Cattlemarket Street",
+    "amenity": "toilets",
+    "centralkey": "nks",
+    "changing_table": "adult",
+    "description": "Near the Cattlemarket entrance, right next to our disabled parking on Level J of the car park. If you are accessing the centre from Castle Meadow or Cattlemarket Street you will not need to use stairs or lifts.",
+    "level": "2",
+    "name": "Changing Places in Castle Mall",
+    "opening_hours": "Mo-Su 08:00-00:00, PH 10:00-17:00 \"Castle Mall opening times\"",
+    "operator": "Castle Mall",
+    "unisex": "yes",
+    "wheelchair": "yes",
+    "wheelchair:description": "Fully accessible toilet with hoist and adult size changing \"table\". Bench - Height Adjustable, Adult Sized, Wall Mounted Hoist - Ceiling , Loop , Mobile Peninsular Toilet Washbasin Height Adjustable , Emergency Alarm, Managed",
+    "id": "node/6543931838"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2974323,
+     52.6272255
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/6587304630",
+   "properties": {
+    "access": "permissive",
+    "addr:housename": "intu Chapelfield",
+    "addr:street": "Dining Terrace",
+    "amenity": "toilets",
+    "building": "yes",
+    "changing_table": "adult",
+    "contact:phone": "01603 753344",
+    "fee": "no",
+    "layer": "2",
+    "level": "2",
+    "name": "Changing Places, intu Chapelfield",
+    "opening_hours": "Mo-We 09:00-18:00; Th 09:00-20:00; Fr-Sa 09:00-19:00; Su 11:00-17:00",
+    "operator": "intu Chapelfield",
+    "supervised": "yes",
+    "unisex": "yes",
+    "wheelchair": "yes",
+    "wheelchair:description": "Bench - Height Adjustable, Adult Sized, Free Standing. Hoist - Ceiling , Loop",
+    "id": "node/6587304630"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2912111,
+     52.6256466
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/6587417851",
+   "properties": {
+    "access": "yes",
+    "addr:housename": "Johnson Place",
+    "addr:street": "Vauxhall Street",
+    "amenity": "toilets",
+    "building": "yes",
+    "changing_table": "adult",
+    "contact:phone": "01603 626 014",
+    "fee": "no",
+    "name": "Changing Places, Vauxhall Community Hub",
+    "opening_hours": "24/7",
+    "operator": "Vauxhall Community Hub",
+    "unisex": "yes",
+    "wheelchair": "yes",
+    "wheelchair:description": "Bench - Height Adjustable, Adult Sized. Peninsular Toilet, Emergency Alarm, Privacy Screen",
+    "id": "node/6587417851"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2851698,
+     52.6276597
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/6587417852",
+   "properties": {
+    "access": "yes",
+    "addr:housename": "Norfolk and Norwich University Hospital NHS Foundation Trust",
+    "amenity": "toilets",
+    "building": "yes",
+    "changing_table": "adult",
+    "contact:phone": "01603 286 286",
+    "description": "In the Radiology department, level 2, outpatient’s east block. Key required to adjust table height, from Radiology reception (8am-5pm)",
+    "fee": "no",
+    "level": "2",
+    "name": "Changing Places, N&N Hospital",
+    "opening_hours": "24/7",
+    "unisex": "yes",
+    "wheelchair": "yes",
+    "wheelchair:description": "Bench - Height Adjustable, Adult Sized, Wall Mounted. Hoist - Ceiling. Peninsular Toilet. Emergency Alarm. Privacy Screen",
+    "id": "node/6587417852"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2205095,
+     52.6179482
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/55291587",
+   "properties": {
+    "amenity": "toilets",
+    "building": "office",
+    "changing_table": "yes",
+    "id": "way/55291587"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2197417,
+     52.6028175
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/114165003",
+   "properties": {
+    "amenity": "toilets",
+    "building": "yes",
+    "source": "Bing",
+    "id": "way/114165003"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2672908,
+     52.6460316
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/116079139",
+   "properties": {
+    "access": "yes",
+    "addr:housenumber": "2",
+    "addr:street": "Pudding Ln",
+    "amenity": "toilets",
+    "building": "service",
+    "centralkey": "nks",
+    "changing": "limited",
+    "changing_table": "limited",
+    "contact:phone": "Office hours: Monday to Friday, 9am to 5pm, 01603 894140 Outside office hours: 08458 500319",
+    "description": "Male and female toilets plus Accessible toilet (RADAR key)\nBaby changing facilities are inside the accessible toilet",
+    "fee": "no",
+    "female": "yes",
+    "male": "yes",
+    "name": "Norwich Market (Memorial Gardens) Toilets",
+    "opening_hours": "Mo-Sa 07:30-16:30",
+    "operator": "Norwich City Council",
+    "toilets:disposal": "flush",
+    "unisex": "no",
+    "wheelchair": "yes",
+    "id": "way/116079139"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2925045,
+     52.6281562
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/117048789",
+   "properties": {
+    "amenity": "toilets",
+    "building": "yes",
+    "id": "way/117048789"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2684964,
+     52.6260753
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/156828005",
+   "properties": {
+    "access": "yes",
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "Unit 3C",
+    "addr:housenumber": "3C",
+    "addr:postcode": "NR5 9HA",
+    "addr:street": "Bowthorpe Main Centre",
+    "amenity": "toilets",
+    "building": "unit",
+    "female": "yes",
+    "male": "yes",
+    "source": "Bing",
+    "wheelchair": "yes",
+    "id": "way/156828005"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2174087,
+     52.6377184
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/186106534",
+   "properties": {
+    "amenity": "toilets",
+    "id": "way/186106534"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3418503,
+     52.6260069
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/196001638",
+   "properties": {
+    "addr:street": "Drayton Road",
+    "amenity": "toilets",
+    "building": "service",
+    "centralkey": "nks",
+    "changing_table": "limited",
+    "changing_table:description": "In ladies toilet only",
+    "fee": "no",
+    "name": "Wensum Park Toilets",
+    "unisex": "yes",
+    "wheelchair": "yes",
+    "id": "way/196001638"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.286512,
+     52.6401022
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/375126841",
+   "properties": {
+    "amenity": "toilets",
+    "id": "way/375126841"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.4311357,
+     52.6876966
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/387138871",
+   "properties": {
+    "amenity": "toilets",
+    "building": "yes",
+    "fee": "no",
+    "source": "OS_OpenData_VectorMapLocal",
+    "toilets:disposal": "flush",
+    "id": "way/387138871"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.4302056,
+     52.6830241
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/604403859",
+   "properties": {
+    "amenity": "toilets",
+    "building": "yes",
+    "id": "way/604403859"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2830513,
+     52.6243212
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/607025993",
+   "properties": {
+    "amenity": "toilets",
+    "building": "yes",
+    "female": "yes",
+    "male": "yes",
+    "material": "brick",
+    "wheelchair": "yes",
+    "id": "way/607025993"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.4892416,
+     52.6771326
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/612990138",
+   "properties": {
+    "amenity": "toilets",
+    "building": "yes",
+    "diaper": "no",
+    "fee": "no",
+    "toilets:disposal": "flush",
+    "id": "way/612990138"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2354562,
+     52.6261632
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/700006882",
+   "properties": {
+    "amenity": "toilets",
+    "building": "yes",
+    "id": "way/700006882"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.252138,
+     52.6202058
+    ]
+   }
+  }
+ ]
+}

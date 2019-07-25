@@ -5,7 +5,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/resources/favicon-32x32.png?v=kP366GqW98">
     <link rel="icon" type="image/png" sizes="192x192" href="/resources/android-chrome-192x192.png?v=kP366GqW98">
     <link rel="icon" type="image/png" sizes="16x16" href="/resources/favicon-16x16.png?v=kP366GqW98">
-    <link rel="manifest" href="/site.webmanifest?v=kP366GqW98">
+    <link rel="manifest" href="./manifest.webmanifest">
     <link rel="mask-icon" href="/resources/safari-pinned-tab.svg?v=kP366GqW98" color="#5bbad5">
     <link rel="shortcut icon" href="/favicon.ico?v=kP366GqW98">
     <meta name="msapplication-TileColor" content="#da532c">
@@ -29,7 +29,7 @@
 </div>
 
 <div id="logoContainer">
-    <img src="resources\logo.svg" class="shadowfilter logo" />
+    <img src="resources\logo.svg" class="shadowfilter logo" alt=""/>
 
     <svg height="0" style="display:none;">
         <filter id="outline">
@@ -136,6 +136,8 @@
                         </div>
                 </div>
                 <div class="modal-footer">
+                    <button type="button" id="infoWindowFeedback" class="btn btn-secondary" data-dismiss="modal"
+                    data-toggle="tooltip" title="Let us know if this entry is out of date. We'll copy a reference code to the clipboard.">Feedback</button>
                     <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
                 </div>
         </div>
@@ -200,7 +202,7 @@
                     <div class="custom-control custom-switch">
                         <input type="checkbox" class="custom-control-input" id="switchSimple" name="switchSimple">
                         <label class="custom-control-label" for="switchSimple"
-                        data-toggle="tooltip" title="Reduce information on the map. No animation."">Keep things simple</label>
+                        data-toggle="tooltip" title="Reduce information on the map. No animation.">Keep things simple</label>
                     </div>
 
                     <div class="custom-control custom-switch">
@@ -279,7 +281,6 @@
         </div>
     </div>
 </form>
-
 
 <script src="./src/index.js"></script>
 </body>

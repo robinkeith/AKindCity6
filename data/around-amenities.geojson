@@ -3,6 +3,36 @@
  "features": [
   {
    "type": "Feature",
+   "id": "node/6590934172",
+   "properties": {
+    "access": "customer",
+    "description": "Access on Level -1 of the car park, adjacent to the disabled parking area. Standard and powered wheelchairs, as well as powered scooters.",
+    "name": "intu Chapelfield Shopmobility Centre",
+    "operator": "intu Chapelfield",
+    "phone": "+44 1603 753350",
+    "shop": "mobility",
+    "website": "https://intu.co.uk/chapelfield/services/shopmobility",
+    "wheelchair": "yes",
+    "id": "node/6590934172",
+    "mapFeature": {
+     "caption": "intu Chapelfield Shopmobility Centre",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  Access on Level -1 of the car park, adjacent to the disabled parking area. Standard and powered wheelchairs, as well as powered scooters.<br />\n  Wheelchair accessible \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2900891,
+     52.6261718
+    ]
+   }
+  },
+  {
+   "type": "Feature",
    "id": "way/107045759",
    "properties": {
     "addr:city": "Norwich",
@@ -21,95 +51,21 @@
     "shop": "mobility",
     "website": "http://www.norwichaccessgroup.org.uk/shopmobility.shtml",
     "wheelchair": "yes",
-    "id": "way/107045759"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2974929,
-       52.6275347
-      ],
-      [
-       1.297477,
-       52.6275024
-      ],
-      [
-       1.2974419,
-       52.6275085
-      ],
-      [
-       1.2974106,
-       52.6275139
-      ],
-      [
-       1.297389,
-       52.6274652
-      ],
-      [
-       1.2973841,
-       52.6274009
-      ],
-      [
-       1.297414,
-       52.6273994
-      ],
-      [
-       1.2974151,
-       52.6274077
-      ],
-      [
-       1.2974645,
-       52.6274048
-      ],
-      [
-       1.2974721,
-       52.6273932
-      ],
-      [
-       1.2975485,
-       52.6273912
-      ],
-      [
-       1.2975346,
-       52.6274078
-      ],
-      [
-       1.2975733,
-       52.6274176
-      ],
-      [
-       1.2976226,
-       52.6275093
-      ],
-      [
-       1.2974929,
-       52.6275347
-      ]
+    "id": "way/107045759",
+    "mapFeature": {
+     "caption": "Shop Mobility",
+     "allowPopup": true,
+     "location": "70   \n  <strong>Level:</strong>&nbsp;2 NR1 3DD <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "around"
      ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/6590934172",
-   "properties": {
-    "access": "customer",
-    "description": "Access on Level -1 of the car park, adjacent to the disabled parking area. Standard and powered wheelchairs, as well as powered scooters.",
-    "name": "intu Chapelfield Shopmobility Centre",
-    "operator": "intu Chapelfield",
-    "phone": "+44 1603 753350",
-    "shop": "mobility",
-    "website": "https://intu.co.uk/chapelfield/services/shopmobility",
-    "wheelchair": "yes",
-    "id": "node/6590934172"
+    }
    },
    "geometry": {
     "type": "Point",
     "coordinates": [
-     1.2900891,
-     52.6261718
+     1.2975033,
+     52.627463
     ]
    }
   }

@@ -1,0 +1,3786 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "node/344733889",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "The Forum",
+    "addr:postcode": "NR2 1TF",
+    "addr:street": "Millennium Plain",
+    "amenity": "restaurant",
+    "brand": "PizzaExpress",
+    "brand:wikidata": "Q662845",
+    "brand:wikipedia": "en:PizzaExpress",
+    "cuisine": "pizza",
+    "fhrs:id": "84111",
+    "name": "PizzaExpress",
+    "opening_hours": "11:30-23:00",
+    "phone": "+44 1603 662234",
+    "source:addr": "FHRS Open Data",
+    "website": "https://www.pizzaexpress.com/visit-a-restaurant/restaurant/norwich-the-forum/",
+    "wheelchair": "yes",
+    "id": "node/344733889"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2913628,
+     52.6279016
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1180840342",
+   "properties": {
+    "amenity": "restaurant",
+    "name": "Sainsbury's Cafe",
+    "opening_hours": "Mo-Sa 07:00-19:00; Su 09:30-15:30",
+    "id": "node/1180840342"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.1843349,
+     52.6527748
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1236341569",
+   "properties": {
+    "addr:housenumber": "6",
+    "addr:postcode": "NR3 1HE",
+    "addr:street": "Tombland",
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "fhrs:id": "10135",
+    "name": "Shiki",
+    "website": "http://www.shikirestaurant.co.uk/",
+    "wikidata": "Q26505765",
+    "id": "node/1236341569"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2983902,
+     52.6310002
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1343287119",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "14",
+    "addr:postcode": "NR3 1HY",
+    "addr:street": "Wensum Street",
+    "amenity": "restaurant",
+    "cuisine": "thai",
+    "email": "postbox@thelawyernorwich.co.uk",
+    "name": "The Sugar Hut@The Lawyer",
+    "opening_hours": "Mo-Sa 12:00-00:00",
+    "phone": "+44 1603 633122",
+    "id": "node/1343287119"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2973832,
+     52.6323346
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1709852302",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housename": "Norwich City College",
+    "addr:housenumber": "5",
+    "addr:postcode": "NR2 2LJ",
+    "addr:street": "Ipswich Road",
+    "amenity": "restaurant",
+    "fhrs:id": "31876",
+    "name": "Debut Restaurant",
+    "source:addr": "FHRS Open Data",
+    "id": "node/1709852302"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2853544,
+     52.6173385
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1822837180",
+   "properties": {
+    "amenity": "restaurant",
+    "name": "The Brasserie",
+    "note": "Position unknown",
+    "opening_hours": "Mo-Fr 06:30-09:30,18:00-21:30; Sa 07:30-10:30,18:00-21:30; Su 08:00-12:00,18:00-21:30",
+    "id": "node/1822837180"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.267712,
+     52.6530034
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/2258268960",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "2",
+    "addr:postcode": "NR6 5LA",
+    "addr:street": "Boundary Road",
+    "amenity": "restaurant",
+    "cuisine": "indian",
+    "email": "zinzeera@live.co.uk",
+    "fhrs:id": "99552",
+    "name": "Red Mango",
+    "old_name": "Zin Zeera",
+    "opening_hours": "12:00-14:30,17:30-23:30; Dec 25 off",
+    "phone": "+44 1603 408888",
+    "website": "http://zin-zeera.co.uk/",
+    "id": "node/2258268960"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2768319,
+     52.6568161
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/2467536823",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:postcode": "NR4 6QP",
+    "addr:street": "Daniels Road",
+    "amenity": "restaurant",
+    "fhrs:id": "14163",
+    "name": "Notcutts Restaurant",
+    "opening_hours": "Mo-Sa 09:00-17:00; Su 10:00-16:00",
+    "source:addr": "FHRS Open Data",
+    "id": "node/2467536823"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2770935,
+     52.6141054
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/2671952376",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "13",
+    "addr:postcode": "NR2 1JL",
+    "addr:street": "Saint Giles Street",
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "fhrs:id": "938992",
+    "name": "Soyokaze",
+    "website": "http://soyokaze.co.uk/",
+    "id": "node/2671952376"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.291313,
+     52.6291815
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/2851530948",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housename": "Theatre Royal",
+    "addr:postcode": "NR2 1RL",
+    "addr:street": "Theatre Street",
+    "amenity": "restaurant",
+    "fhrs:id": "19347",
+    "name": "Prelude",
+    "source:addr": "FSA Food Hygiene Ratings Database",
+    "url": "https://secure.theatreroyalnorwich.co.uk/Online/default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=16E8B17D-C8A1-4EDE-A55E-D5DBD39443F4",
+    "id": "node/2851530948"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2899456,
+     52.6273385
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/3312131671",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "52",
+    "addr:postcode": "NR2 1LW",
+    "addr:street": "Saint Giles Street",
+    "amenity": "restaurant",
+    "building": "shop",
+    "cuisine": "italian",
+    "email": "info@italianostra.co.uk",
+    "fhrs:id": "7424",
+    "name": "Italia Nostra",
+    "opening_hours": "Mo-Fr 17:00-22:00",
+    "operator": "Italia Nostra",
+    "phone": "+44 1603 617199",
+    "smoking": "no",
+    "website": "http://italianostra.co.uk",
+    "id": "node/3312131671"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2883624,
+     52.6292849
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/3525896923",
+   "properties": {
+    "amenity": "restaurant",
+    "cuisine": "regional",
+    "name": "Coldham Hall Restaurant",
+    "opening_hours": "Mo-Fr 12:00-14:00,18:00-21:00; Sa 12:00-21:00; Su 12:00-15:00",
+    "id": "node/3525896923"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.4321752,
+     52.6124217
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/3577019002",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housename": "Central Catering Building",
+    "addr:place": "University Of East Anglia",
+    "addr:postcode": "NR4 7TJ",
+    "addr:street": "The Square",
+    "amenity": "restaurant",
+    "fhrs:id": "14626",
+    "indoor": "yes",
+    "level": "2",
+    "name": "Vista",
+    "opening_hours": "Mo-Fr 08:30-16:00",
+    "source:addr": "FHRS Open Data",
+    "website": "https://portal.uea.ac.uk/campus-kitchen/cafes-and-restaurants/vista",
+    "id": "node/3577019002"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2404781,
+     52.6216396
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/3577019003",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housename": "Central Catering Building",
+    "addr:place": "University Of East Anglia",
+    "addr:postcode": "NR4 7TJ",
+    "addr:street": "The Square",
+    "amenity": "restaurant",
+    "fhrs:id": "14630",
+    "indoor": "yes",
+    "level": "0",
+    "name": "Zest",
+    "opening_hours": "Jun 5-Apr 13: Mo-Fr 07:30-20:00; Sa-Su 09:30-16:30; Jun 6-Sep 20: Mo-Fr 07:30-18:00; Sa-Su off",
+    "source:addr": "FHRS Open Data",
+    "website": "https://portal.uea.ac.uk/campus-kitchen/cafes-and-restaurants/zest",
+    "id": "node/3577019003"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2406759,
+     52.6215744
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/3708316220",
+   "properties": {
+    "addr:city": "Framingham Pigot",
+    "addr:housename": "Manor Farm Barns",
+    "addr:postcode": "NR14 7PZ",
+    "addr:village": "Framingham Pigot",
+    "amenity": "restaurant",
+    "cuisine": "international",
+    "fhrs:id": "648342",
+    "name": "Brasted's",
+    "opening_hours": "Th-Sa 19:00-22:00; Sa 12:00-14:30",
+    "phone": "+44 1508 491112",
+    "website": "https://www.brasteds.co.uk/",
+    "id": "node/3708316220"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3482508,
+     52.5853605
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/4543403790",
+   "properties": {
+    "addr:housenumber": "51-59",
+    "addr:postcode": "NR1 1BY",
+    "addr:street": "Rose Lane",
+    "amenity": "restaurant",
+    "email": "info@rooftopgardens.co.uk",
+    "fhrs:id": "927042",
+    "name": "Rooftop Gardens",
+    "phone": "+44 1603 733044",
+    "id": "node/4543403790"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3012926,
+     52.6283713
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/5115027325",
+   "properties": {
+    "amenity": "restaurant",
+    "opening_hours": "Mo-Th 18:00-23:00; Fr 17:00-23:00; Sa 09:00-19:00; Su 09:30-21:00",
+    "id": "node/5115027325"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3206983,
+     52.6147926
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/5307086621",
+   "properties": {
+    "addr:housenumber": "68-70",
+    "addr:postcode": "NR2 4AR",
+    "addr:street": "Saint Benedicts Street",
+    "amenity": "restaurant",
+    "diet:vegan": "only",
+    "facebook": "https://www.facebook.com/thetipsyvegan/",
+    "fhrs:id": "977307",
+    "instagram": "https://www.instagram.com/thetipsyveganbar",
+    "internet_access": "wlan",
+    "name": "The Tipsy Vegan",
+    "opening_hours": "Mo-Th 11:00-21:00; Fr-Sa 11:00-22:00; Su 11:00-18:00",
+    "source:addr:postcode": "FHRS Open Data",
+    "website": "https://www.thetipsyvegan.co.uk/",
+    "id": "node/5307086621"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2876107,
+     52.6311993
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/5455961705",
+   "properties": {
+    "amenity": "restaurant",
+    "cuisine": "fish_and_chips",
+    "name": "Seafare At Fishes",
+    "id": "node/5455961705"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2514139,
+     52.6615689
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/5777602938",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "3A",
+    "addr:postcode": "NR2 1AD",
+    "addr:street": "Saint Andrews Hill",
+    "amenity": "restaurant",
+    "cuisine": "italian;pizza",
+    "email": "saporita.norwich@gmail.com",
+    "fhrs:id": "940043",
+    "name": "Saporita",
+    "opening_hours": "Mo-Th 11:00-18:00; Fr-Sa 11:00-20:00; Su off",
+    "source:addr:postcode": "FHRS Open Data",
+    "website": "https://www.saporitanorwich.com/",
+    "id": "node/5777602938"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2958731,
+     52.630017
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/5942251685",
+   "properties": {
+    "addr:postcode": "NR6 7QZ",
+    "addr:street": "Tills Road",
+    "amenity": "restaurant",
+    "cuisine": "indian",
+    "name": "Tills Rd, Norwich NR6 7QZ",
+    "name:en": "The Royal Bengal",
+    "phone": "+44 1603 406633",
+    "id": "node/5942251685"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.312448,
+     52.6620386
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/6019809786",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housename": "Norwich City Football Club",
+    "addr:postcode": "NR1 1JE",
+    "addr:street": "Geoffrey Watling Way",
+    "amenity": "restaurant",
+    "fhrs:id": "15206",
+    "name": "Delia's",
+    "source:addr": "FHRS Open Data",
+    "id": "node/6019809786"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3081612,
+     52.6216996
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/6238439724",
+   "properties": {
+    "addr:housenumber": "30",
+    "addr:postcode": "NR2 1LD",
+    "addr:street": "London Street",
+    "amenity": "restaurant",
+    "fhrs:id": "1059252",
+    "name": "The Ivy Brasserie",
+    "website": "https://theivynorwich.com",
+    "id": "node/6238439724"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2950582,
+     52.6291547
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/6566009055",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housename": "Debenhams",
+    "addr:postcode": "NR1 3RZ",
+    "addr:street": "Orford Place",
+    "amenity": "restaurant",
+    "fhrs:id": "55006",
+    "level": "3",
+    "name": "Debenhams Restaurant",
+    "source:addr": "FHRS Open Data",
+    "id": "node/6566009055"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2939941,
+     52.6265748
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/6575232442",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housename": "INTO",
+    "addr:place": "University of East Anglia",
+    "addr:postcode": "NR4 7TJ",
+    "addr:street": "University Drive",
+    "amenity": "restaurant",
+    "fhrs:id": "26530",
+    "fixme": "Check precise location in building",
+    "level": "1",
+    "name": "INTO Café",
+    "website": "https://www.intostudy.com/en-gb/universities/university-of-east-anglia/about-the-university/more-about-the-into-centre",
+    "id": "node/6575232442"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.245532,
+     52.6233027
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/32598177",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "Unit Rest.",
+    "addr:postcode": "NR5 0JT",
+    "addr:street": "Alex Moorhouse Way",
+    "addr:village": "Costessey",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "pizza",
+    "fhrs:id": "648594",
+    "name": "Pizza Hut",
+    "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+    "source:addr": "FHRS Open Data",
+    "id": "way/32598177"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.181824,
+     52.6530719
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/47153891",
+   "properties": {
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "american",
+    "name": "Zaks Mousehold Diner",
+    "opening_hours": "Mo-We 12:00-22:30;Th-Sa 12:00-23:00;Su 12:00-22:00",
+    "phone": "+44 1603 427016",
+    "id": "way/47153891"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3139945,
+     52.6420323
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/85704826",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:postcode": "NR9 3AU",
+    "addr:street": "Thickthorn Service Area",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "regional",
+    "name": "Little Chef",
+    "phone": "+44 1603 505838",
+    "source:building": "OS_OpenData_StreetView",
+    "id": "way/85704826"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2215743,
+     52.6018216
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/90680966",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "Clocktower",
+    "addr:housenumber": "26",
+    "addr:postcode": "NR5 9JD",
+    "addr:street": "Jarrold Way",
+    "alt_name": "Castle Carvery",
+    "amenity": "restaurant",
+    "brand": "Anglia Restaurants",
+    "building": "yes",
+    "cuisine": "regional",
+    "fax": "+44 1603 726692",
+    "kitchen_hours": "Mo-Fr 11:30-22:00; Sa-Su 09:00-22:00",
+    "name": "Clocktower",
+    "old_name": "Calendars",
+    "opening_hours": "Mo-Sa 11:30-23:00; Su 11:30-22:30",
+    "phone": "+44 1603 748068",
+    "real_ale": "yes",
+    "source": "Bing",
+    "website": "http://www.castlecarvery.co.uk/",
+    "id": "way/90680966"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2188499,
+     52.6426312
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/103522685",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "Unit 3a",
+    "addr:housenumber": "3a",
+    "addr:postcode": "NR1 1WX",
+    "addr:street": "Wherry Road",
+    "amenity": "restaurant",
+    "building": "unit",
+    "cuisine": "pizza",
+    "fhrs:id": "84061",
+    "name": "Pizza Hut",
+    "opening_hours": "Su-Th 11:00-21:00; Fr-Sa 11:00-22:00",
+    "phone": "+44 1603 663423",
+    "ref": "466",
+    "source": "Bing",
+    "website": "https://www.pizzahut.co.uk/",
+    "wheelchair": "yes",
+    "id": "way/103522685"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3041938,
+     52.6261117
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/103522687",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "Unit 4a",
+    "addr:housenumber": "4a",
+    "addr:postcode": "NR1 1WX",
+    "addr:street": "Wherry Road",
+    "amenity": "restaurant",
+    "building": "unit",
+    "cuisine": "chinese",
+    "fhrs:id": "7640",
+    "name": "Riverbank Chinese Buffet Restaurant",
+    "not:addr:postcode": "NR1 1WZ",
+    "opening_hours": "Mo-Th 12:00-15:00,17:00-22:00; Fr,Sa 12:00-15:00,17:00-22:30; Su 12:00-16:00,17:00-22:00",
+    "phone": "+44 1603 612323",
+    "real_ale": "no",
+    "source": "Bing",
+    "website": "https://riverbanknorwich.co.uk/",
+    "id": "way/103522687"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3047398,
+     52.6264304
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/104186986",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "101",
+    "addr:postcode": "NR1 3HT",
+    "addr:street": "Southwell Road",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "fish_and_chips",
+    "fhrs:id": "732909",
+    "name": "Southwell Fish Bar",
+    "phone": "+44 1603 624552",
+    "id": "way/104186986"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2939349,
+     52.6198063
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/104186992",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "99",
+    "addr:postcode": "NR1 3HT",
+    "addr:street": "Southwell Road",
+    "amenity": "restaurant",
+    "building": "shop",
+    "cuisine": "chinese",
+    "name": "Wang Chinese",
+    "phone": "01603928610",
+    "id": "way/104186992"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2940674,
+     52.6197266
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/104977522",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "14,16",
+    "addr:postcode": "NR2 1EL",
+    "addr:street": "Lower Goat Lane",
+    "amenity": "restaurant",
+    "building": "amenity",
+    "cuisine": "mexican;south_american",
+    "email": "enquiries@mambojamborestaurant.co.uk",
+    "fhrs:id": "42377",
+    "level": "1",
+    "name": "Mambo Jambos Restaurant",
+    "opening_hours": "Mo-Sa 11:30+; Su 12:00+",
+    "operator": "Mambo Jambo Ltd",
+    "phone": "+44 1603 666802",
+    "source:position": "Bing",
+    "website": "https://www.mambojamborestaurant.co.uk/",
+    "id": "way/104977522"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2915111,
+     52.6295921
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/107045751",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:postcode": "NR1 3DD",
+    "amenity": "restaurant",
+    "building": "unit",
+    "covered": "yes",
+    "cuisine": "mexican",
+    "fhrs:id": "1003517",
+    "level": "4",
+    "name": "Cocina",
+    "website": "https://www.cocina.co.uk/our-restaurants/cocina-norwich-terrace.html",
+    "id": "way/107045751"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2958581,
+     52.6269471
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/107046053",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "Unit 5",
+    "addr:housenumber": "114",
+    "addr:postcode": "NR1 3DD",
+    "addr:street": "Timberhill",
+    "amenity": "restaurant",
+    "building": "retail",
+    "covered": "yes",
+    "cuisine": "steak;lobster",
+    "email": "dataprotection@bourgeeofficial.co.uk",
+    "fhrs:id": "1089529",
+    "level": "4",
+    "name": "BOURGEE",
+    "opening_hours": "Mo-Fr 11:30-17:00; Sa 09:00-17:00; Su 09:00-12:00",
+    "phone": "+44 1603 617143",
+    "website": "https://www.bourgeeofficial.co.uk/",
+    "id": "way/107046053"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2955801,
+     52.6264525
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/108865900",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "MW 09",
+    "addr:housenumber": "408",
+    "addr:postcode": "NR2 1SZ",
+    "addr:street": "Chapelfield Plain",
+    "amenity": "restaurant",
+    "brand": "Wagamama",
+    "brand:wikidata": "Q503715",
+    "brand:wikipedia": "en:Wagamama",
+    "building": "unit",
+    "cuisine": "asian",
+    "email": "norwich@wagamama.co.uk",
+    "fhrs:id": "15451",
+    "leasing_number": "93",
+    "name": "Wagamama",
+    "note": "Opened 10th April 2006",
+    "opening_hours": "Su-We 12:00-22:00; Th-Sa 12:00-23:00",
+    "phone": "+44 1603 305985",
+    "website": "http://www.wagamama.co.uk/",
+    "wheelchair": "yes",
+    "id": "way/108865900"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2910686,
+     52.6261401
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/108865910",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "FF C4",
+    "addr:housenumber": "301",
+    "addr:postcode": "NR2 1SY",
+    "addr:street": "The Dining Terrace",
+    "amenity": "restaurant",
+    "brand": "Pizza Hut",
+    "brand:wikidata": "Q191615",
+    "brand:wikipedia": "en:Pizza Hut",
+    "building": "unit",
+    "cuisine": "pizza",
+    "fhrs:id": "15482",
+    "layer": "2",
+    "leasing_number": "98",
+    "level": "2",
+    "name": "Pizza Hut",
+    "opening_hours": "Mo-We 11:30-18:30; Th 11:30-20:30; Fr 11:30-19:30; Sa 11:00-19:30; Su 11:30-17:30",
+    "phone": "+44 1603 664622",
+    "ref": "793",
+    "website": "https://www.pizzahut.co.uk/",
+    "wheelchair": "yes",
+    "id": "way/108865910"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2912347,
+     52.6257581
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/108865948",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "MW 11",
+    "addr:housenumber": "410",
+    "addr:postcode": "NR2 1SZ",
+    "addr:street": "Chapelfield Plain",
+    "amenity": "restaurant",
+    "brand": "Gourmet Burger Kitchen",
+    "brand:wikidata": "Q5588445",
+    "brand:wikipedia": "en:Gourmet Burger Kitchen",
+    "building": "unit",
+    "building:levels": "2",
+    "cuisine": "burger",
+    "email": "info@gbk.co.uk",
+    "fhrs:id": "555740",
+    "leasing_number": "127",
+    "name": "Gourmet Burger Kitchen",
+    "phone": "+44 1603 305280",
+    "website": "https://www.gbk.co.uk/find-a-restaurant/",
+    "id": "way/108865948"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2911849,
+     52.626373
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/108866025",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "MW 05",
+    "addr:housenumber": "403",
+    "addr:postcode": "NR2 1SZ",
+    "addr:street": "Chapelfield Plain",
+    "amenity": "restaurant",
+    "brand": "YO! Sushi",
+    "brand:wikidata": "Q3105441",
+    "brand:wikipedia": "en:YO! Sushi",
+    "building": "unit",
+    "cuisine": "sushi",
+    "fhrs:id": "35658",
+    "leasing_number": "89",
+    "name": "YO! Sushi",
+    "opening_hours": "Mo-Sa 12:00-23:00; Su 12:00-22:30",
+    "phone": "+44 1603 294833",
+    "website": "http://www.yosushi.com/restaurants/norwich",
+    "id": "way/108866025"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2918782,
+     52.6260728
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/108866031",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "FF C7",
+    "addr:housenumber": "307",
+    "addr:postcode": "NR2 1SY",
+    "addr:street": "The Dining Terrace",
+    "amenity": "restaurant",
+    "building": "unit",
+    "cuisine": "american",
+    "description": "Retro-American diner that captures the spirit of the classic US original.",
+    "fhrs:id": "932633",
+    "layer": "2",
+    "leasing_number": "102",
+    "level": "2",
+    "name": "Ed's Easy Diner",
+    "opening_hours": "Mo-We 09:00-18:00; Th 09:00-20:00; Fr-Sa 09:00-19:00; Su 11:00-17:00; PH 10:00-18:00",
+    "website": "https://edseasydiner.com/location/norwich.php",
+    "id": "way/108866031"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2901443,
+     52.6258384
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/108866057",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "c/o House of Fraser",
+    "addr:housenumber": "130",
+    "addr:postcode": "NR2 1SH",
+    "addr:street": "Merchants' Hall",
+    "amenity": "restaurant",
+    "fhrs:id": "15544",
+    "layer": "2",
+    "level": "2",
+    "name": "Café Zest",
+    "opening_hours": "Mo-We 09:00-18:00; Th 09:00-20:00; Fr-Sa 09:00-19:00; Su 11:00-17:00; PH 10:00-18:00",
+    "phone": "+44 1603 663945",
+    "id": "way/108866057"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2891188,
+     52.6262517
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/112186422",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "30-32",
+    "addr:interpolation": "even",
+    "addr:postcode": "NR3 1BG",
+    "addr:street": "Colegate",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "indian",
+    "email": "info@merchantsofspice.co.uk",
+    "fhrs:id": "828797",
+    "name": "The Merchants of Spice",
+    "opening_hours": "Su-Th 17:30-23:00; Fr-Sa 17:30-00:00",
+    "phone": "+44 1603 660128",
+    "phone:2": "+44 1603 660138",
+    "source": "Bing",
+    "strapline": "Fine Indian Dining",
+    "website": "https://www.merchantsofspice.co.uk/",
+    "id": "way/112186422"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2947623,
+     52.6329984
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/119455215",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "129",
+    "addr:postcode": "NR1 1TR",
+    "addr:street": "Thorpe Road",
+    "amenity": "restaurant",
+    "building": "shop",
+    "cuisine": "chinese",
+    "fhrs:id": "73500",
+    "name": "Canton Chinese Restaurant",
+    "phone": "+44 1603 700702",
+    "id": "way/119455215"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3223548,
+     52.625731
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/119472389",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "131",
+    "addr:postcode": "NR2 3RF",
+    "addr:street": "Earlham Road",
+    "amenity": "restaurant",
+    "building": "shop",
+    "cuisine": "chinese",
+    "fhrs:id": "998632",
+    "name": "The Mitre Chinese Restaurant",
+    "phone": "+44 1603 626306",
+    "id": "way/119472389"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.272441,
+     52.630252
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/119476316",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "137",
+    "addr:postcode": "NR1 3EY",
+    "addr:street": "Ber Street",
+    "amenity": "restaurant",
+    "building": "shop",
+    "cuisine": "chinese",
+    "email": "info@babybuddha-teahouse.co.uk",
+    "fhrs:id": "26535",
+    "name": "Baby Buddha Chinese Teahouse",
+    "opening_hours": "Th-Tu 12:00-22:00; We off",
+    "phone": "+44 1603 490889",
+    "website": "http://babybuddha-teahouse.com/",
+    "id": "way/119476316"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2986499,
+     52.6227159
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/119558527",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "Unit 4a",
+    "addr:housenumber": "4a",
+    "addr:postcode": "NR1 1WX",
+    "addr:street": "Wherry Road",
+    "amenity": "restaurant",
+    "building": "unit",
+    "cuisine": "italian",
+    "fhrs:id": "48450",
+    "name": "Bella Italia",
+    "not:addr:postcode": "NR1 1WS",
+    "opening_hours": "10:00-23:00",
+    "phone": "+44 1603 615584",
+    "real_ale": "no",
+    "source": "Bing",
+    "id": "way/119558527"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.304596,
+     52.6263402
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/119559987",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "72",
+    "addr:postcode": "NR1 1LT",
+    "addr:street": "Prince of Wales Road",
+    "amenity": "restaurant",
+    "building": "shop",
+    "cuisine": "chinese",
+    "fhrs:id": "727202",
+    "name": "China Inn",
+    "phone": "+44 1603 666002",
+    "id": "way/119559987"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3024774,
+     52.6292657
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/119600493",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "8",
+    "addr:postcode": "NR1 3QD",
+    "addr:street": "Orford Hill",
+    "amenity": "restaurant",
+    "building": "shop",
+    "cuisine": "thai",
+    "email": "info@mango-t.co.uk",
+    "fhrs:id": "734878",
+    "name": "Mango-T",
+    "opening_hours": "Mo-Sa 11:45-15:00; 17:45-22:30",
+    "phone": "+44 1603 660514",
+    "website": "http://mango-t.co.uk/",
+    "wikidata": "Q26303747",
+    "id": "way/119600493"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2948338,
+     52.6268422
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/119606587",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "24",
+    "addr:postcode": "NR2 1AQ",
+    "addr:street": "Bridewell Alley",
+    "amenity": "restaurant",
+    "building": "shop",
+    "cuisine": "thai",
+    "fhrs:id": "48489",
+    "name": "Thai Lanna",
+    "opening_hours": "Tu-Sa 12:00-15:00,18:00-23:00; Mo 18:00-23:00; Su 17:30-22:30",
+    "phone": "+44 1603 625087",
+    "website": "http://www.thailannanorwich.co.uk/",
+    "id": "way/119606587"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2950568,
+     52.6303724
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/119607346",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "2a",
+    "addr:postcode": "NR1 3DN",
+    "addr:street": "Opie Street",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "indian",
+    "fhrs:id": "454533",
+    "name": "Namaste India",
+    "id": "way/119607346"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2962719,
+     52.6294943
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/119607347",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "4",
+    "addr:postcode": "NR1 3DN",
+    "addr:street": "Opie Street",
+    "amenity": "restaurant",
+    "building": "shop",
+    "cuisine": "thai",
+    "email": "Info@thaikitti.co.uk",
+    "fhrs:id": "836843",
+    "name": "Thai Kitti",
+    "opening_hours": "11:00-15:00,17:00-22:30",
+    "phone": "+44 1603 766755",
+    "strapline": "Restaurant & Take Away",
+    "website": "http://www.thaikitti.co.uk/",
+    "id": "way/119607347"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2961848,
+     52.629523
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/119607917",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "23-25",
+    "addr:interpolation": "odd",
+    "addr:postcode": "NR1 3QF",
+    "addr:street": "Red Lion Street",
+    "amenity": "restaurant",
+    "brand": "Nando's",
+    "brand:wikidata": "Q3472954",
+    "brand:wikipedia": "en:Nando's",
+    "building": "retail",
+    "cuisine": "chicken;portuguese",
+    "fhrs:id": "62225",
+    "name": "Nando's",
+    "opening_hours": "Su-Th 11:00-22:30; Fr-Sa 11:00-23:30",
+    "phone": "+44 1603 633683",
+    "source": "survey",
+    "toilets:wheelchair": "yes",
+    "website": "http://www.nandos.co.uk/restaurant/norwich-red-lion",
+    "wheelchair": "yes",
+    "wheelchair:description": "Merit Award, Norwich Access Group. 1 accessible toilet with easy access rails. Friendly and knowledgeable staff",
+    "id": "way/119607917"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.294616,
+     52.6267567
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/119609417",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "82",
+    "addr:postcode": "NR2 1LT",
+    "addr:street": "Upper Saint Giles Street",
+    "amenity": "restaurant",
+    "building": "shop",
+    "cuisine": "indian",
+    "delivery": "yes",
+    "email": "info@galifinedining.co.uk",
+    "fhrs:id": "937010",
+    "name": "GALI",
+    "opening_hours": "Su-Th,PH 17:00-22:30; Fr-Sa 17:00-23:00",
+    "phone": "+44 1603 627007",
+    "takeaway": "yes",
+    "website": "http://www.galifinedining.co.uk/",
+    "id": "way/119609417"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2862573,
+     52.6292073
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/119613208",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "8-10",
+    "addr:postcode": "NR3 1HR",
+    "addr:street": "Wensum Street",
+    "amenity": "restaurant",
+    "building": "shop",
+    "cuisine": "indian",
+    "email": "info@spiceloungenorwich.co.uk",
+    "fhrs:id": "18609",
+    "name": "Spice Lounge",
+    "opening_hours": "Mo-Su,PH 12:00-14:00,18:00-00:00",
+    "phone": "+44 1603 766602",
+    "phone:2": "+44 1603 766603",
+    "website": "http://www.spiceloungenorwich.co.uk/",
+    "id": "way/119613208"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2981708,
+     52.6318076
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/119613575",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "9-11",
+    "addr:interpolation": "odd",
+    "addr:postcode": "NR3 1LE",
+    "addr:street": "Magdalen Street",
+    "amenity": "restaurant",
+    "building": "shop",
+    "cuisine": "indian",
+    "fhrs:id": "666570",
+    "name": "Ali Tandoori",
+    "opening_hours": "12:00-14:30,18:00-00:00",
+    "phone": "+44 1603 632101; +44 1603 631998",
+    "website": "http://www.alitandoori.co.uk/",
+    "id": "way/119613575"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2970208,
+     52.6338351
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/119613902",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "38-40",
+    "addr:interpolation": "even",
+    "addr:postcode": "NR2 4AQ",
+    "addr:street": "Saint Benedicts Street",
+    "amenity": "restaurant",
+    "building": "shop",
+    "cuisine": "indian",
+    "fhrs:id": "869996",
+    "name": "The Bengal Spice",
+    "phone": "+44 1603 613444;+44 1603 617766",
+    "website": "http://www.thebengalspicenorwich.co.uk/",
+    "id": "way/119613902"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2890546,
+     52.6308739
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/119739816",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "41",
+    "addr:postcode": "NR3 1LQ",
+    "addr:street": "Magdalen Street",
+    "amenity": "restaurant",
+    "building": "shop",
+    "cuisine": "indian",
+    "name": "Spice Paradise",
+    "opening_hours": "Tu-Su,PH 17:30-23:30",
+    "phone": "+44 1603 666601; +44 1603 664152",
+    "phone:mobile": "+44 7738 021594",
+    "website": "http://www.spiceparadise.co.uk/",
+    "wikidata": "Q26303106",
+    "id": "way/119739816"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2968255,
+     52.6347627
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/119741243",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "42",
+    "addr:postcode": "NR3 3AD",
+    "addr:street": "Saint Augustine's Street",
+    "amenity": "restaurant",
+    "building": "shop",
+    "cuisine": "indian",
+    "fhrs:id": "851585",
+    "name": "Bombay Spice",
+    "opening_hours": "17:00-23:00",
+    "phone": "+44 1603 632020;+44 1603 632080",
+    "website": "http://www.norwichbombayspice.co.uk/",
+    "id": "way/119741243"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2919711,
+     52.6379259
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/119743145",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "98",
+    "addr:postcode": "NR1 1BA",
+    "addr:street": "Thorpe Road",
+    "amenity": "restaurant",
+    "building": "shop",
+    "cuisine": "indian",
+    "email": "info@curryocean.com",
+    "fhrs:id": "1023664",
+    "name": "Curry Ocean",
+    "opening_hours": "17:00-23:00",
+    "phone": "+44 1603 767002; +44 1603 627544",
+    "website": "http://www.curryocean.com/",
+    "id": "way/119743145"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3114495,
+     52.6267357
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/119744104",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "15",
+    "addr:postcode": "NR3 1LE",
+    "addr:street": "Magdalen Street",
+    "amenity": "restaurant",
+    "building": "shop",
+    "cuisine": "indian",
+    "name": "Nazma Brasseries",
+    "phone": "+44 1603 618701; +44 1603 762307",
+    "website": "http://www.nazmabrasseries.co.uk/",
+    "id": "way/119744104"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.296964,
+     52.6339648
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/119744294",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "131-139",
+    "addr:interpolation": "odd",
+    "addr:postcode": "NR1 3PN",
+    "addr:street": "Queens Road",
+    "amenity": "restaurant",
+    "building": "commercial",
+    "capacity": "120",
+    "cuisine": "indian",
+    "delivery": "no",
+    "diet:vegetarian": "yes",
+    "email": "namastevillagenorwich@gmail.co.uk",
+    "fhrs:id": "905157",
+    "name": "Namaste Village",
+    "opening_hours": "Mo-Th 17:30-22:30; Fr 17:30-23:00; Su 18:00-22:30",
+    "outdoor_seating": "no",
+    "phone": "+44 1603 466 466",
+    "smoking": "no",
+    "takeaway": "yes",
+    "website": "http://www.namasteindiannorwich.com",
+    "id": "way/119744294"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2960173,
+     52.6218689
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/119744827",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "26",
+    "addr:postcode": "NR7 8HE",
+    "addr:street": "Mousehold Lane",
+    "amenity": "restaurant",
+    "building": "shop",
+    "cuisine": "indian",
+    "email": "info@rishinorwich.com",
+    "fax": "+44 1603 482637",
+    "fhrs:id": "35375",
+    "name": "Rishi",
+    "phone": "+44 1603 482627",
+    "website": "http://rishi-norwich.co.uk/",
+    "id": "way/119744827"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3125422,
+     52.6501942
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/119745123",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "19",
+    "addr:postcode": "NR1 3HF",
+    "addr:street": "Finkelgate",
+    "amenity": "restaurant",
+    "building": "shop",
+    "cuisine": "indian",
+    "email": "info@rotinorwich.co.uk",
+    "fhrs:id": "1080667",
+    "name": "Roti",
+    "opening_hours": "12:00-14:30,17:30-23:30",
+    "phone": "+44 1603 613151; +44 1603 665901",
+    "source:addr:postcode": "code-point_open",
+    "website": "http://www.rotinorwich.co.uk/",
+    "wheelchair": "yes",
+    "id": "way/119745123"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2989668,
+     52.6213379
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/119746285",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "45",
+    "addr:postcode": "NR3 1LQ",
+    "addr:street": "Magdalen Street",
+    "amenity": "restaurant",
+    "building": "shop",
+    "cuisine": "indian",
+    "name": "Passage To India",
+    "opening_hours": "12:00-14:30,18:00+",
+    "phone": "+44 1603 762836; +44 1603 762845",
+    "website": "http://www.thepassagetoindianorwich.co.uk/",
+    "id": "way/119746285"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.296754,
+     52.6349156
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/119746768",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "19",
+    "addr:postcode": "NR1 1BD",
+    "addr:street": "Prince of Wales Road",
+    "amenity": "restaurant",
+    "building": "shop",
+    "cuisine": "indian",
+    "fhrs:id": "60917",
+    "name": "Prince Of India Restaurant",
+    "phone": "+44 1603 616937; +44 1603 666933",
+    "website": "http://www.theprinceofindia.com/",
+    "id": "way/119746768"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3003337,
+     52.629359
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/119764185",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "103",
+    "addr:postcode": "NR2 2PE",
+    "addr:street": "Unthank Road",
+    "amenity": "restaurant",
+    "building": "yes",
+    "fhrs:id": "429023",
+    "name": "Blue Joanna",
+    "old_name": "The Last Brasserie",
+    "opening_hours": "08:00+",
+    "phone": "+44 1603 610047",
+    "website": "https://www.bluejoanna.co.uk/",
+    "id": "way/119764185"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2776501,
+     52.6247691
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/120682372",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "1",
+    "addr:postcode": "NR1 3LG",
+    "addr:street": "All Saints Street",
+    "amenity": "restaurant",
+    "building": "shop",
+    "cuisine": "thai",
+    "email": "info@thetamarindtree.co.uk",
+    "fhrs:id": "812531",
+    "name": "The Tamarind Tree Thai Restaurant",
+    "opening_hours": "Mo-We 12:00-15:00,18:00-22:30; Th-Sa 11:30-15:00,17:30-22:30; Su 11:00-16:00",
+    "phone": "+44 1603 667809",
+    "website": "http://www.thetamarindtree.co.uk/",
+    "id": "way/120682372"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2958572,
+     52.6257767
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/120692870",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "1",
+    "addr:postcode": "NR2 1JJ",
+    "addr:street": "St Giles Street",
+    "amenity": "restaurant",
+    "building": "shop",
+    "cuisine": "italian",
+    "email": "info@paolos-restaurant.co.uk",
+    "fhrs:id": "69027",
+    "name": "Paolo's Restaurant",
+    "opening_hours": "Mo-Fr 12:00-15:00,17:00-22:00; Sa 12:00-23:00; Su 12:00-22:00",
+    "operator": "Ristorante Di Paolo Ltd",
+    "phone": "+44 1603 611857",
+    "website": "http://paolos-restaurant.co.uk/",
+    "id": "way/120692870"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.291771,
+     52.6292567
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/120694314",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "365",
+    "addr:postcode": "NR3 2RX",
+    "addr:street": "Aylsham Road",
+    "amenity": "restaurant",
+    "building": "shop",
+    "cuisine": "pizza",
+    "fhrs:id": "48109",
+    "name": "Pizza Hut",
+    "opening_hours": "12:00-23:00",
+    "phone": "+44 1603 488900",
+    "website": "https://www.pizzahut.co.uk/",
+    "id": "way/120694314"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2776985,
+     52.6563539
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/120700375",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "Unit 3b",
+    "addr:housenumber": "3b",
+    "addr:postcode": "NR1 1WX",
+    "addr:street": "Wherry Road",
+    "amenity": "restaurant",
+    "building": "unit",
+    "cuisine": "mexican",
+    "fax": "+44 1603 878351",
+    "fhrs:id": "26398",
+    "fixme:addr1": "Unit 3B",
+    "fixme:addr2": "Wherry Road",
+    "fixme:addr3": "Norwich",
+    "name": "Chiquito",
+    "not:addr:postcode": "NR1 1WZ",
+    "note": "Receipt says Unit 4AC / NR1 1WY, in contrast to Royal Mail details. Card receipt states NR1 1WZ.",
+    "old_name": "Brannigans",
+    "opening_hours": "Mo-Sa 09:00-23:00; Su 09:00-22:30",
+    "outdoor_seating": "yes",
+    "phone": "+44 1603 878350",
+    "real_ale": "no",
+    "ref": "2219",
+    "source": "Bing",
+    "source:addr": "FHRS Open Data",
+    "website": "https://www.chiquito.co.uk/restaurant/norwich",
+    "id": "way/120700375"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3042877,
+     52.6261771
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/121499470",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "55-57",
+    "addr:postcode": "NR2 4HZ",
+    "addr:street": "Dereham Road",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "turkish",
+    "fhrs:id": "1080660",
+    "name": "Mr Mangal",
+    "source": "Bing",
+    "id": "way/121499470"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2820273,
+     52.6330455
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/121499477",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "45-47",
+    "addr:postcode": "NR2 4HZ",
+    "addr:street": "Dereham Road",
+    "alt_name": "Brasov Taste of Romania",
+    "amenity": "restaurant",
+    "building": "house",
+    "colour": "white",
+    "cuisine": "romanian",
+    "description": "A Taste Of Romania",
+    "email": "brasovtasteofromania@gmail.com",
+    "fhrs:id": "1134581",
+    "inscription": "Cafe & Restaurant",
+    "name": "BRAŞOV",
+    "source": "Bing",
+    "website": "https://www.facebook.com/brasovtasteofromania/",
+    "id": "way/121499477"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2823994,
+     52.6329459
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/123525355",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "23",
+    "addr:postcode": "NR2 4PF",
+    "addr:street": "Saint Benedicts Street",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "regional",
+    "email": "info@farmyardrestaurant.com",
+    "fhrs:id": "938983",
+    "name": "Farmyard",
+    "opening_hours": "Tu-Th 12:00-14:30,17:30-21:00; Fr-Sa 12:00-14:30,17:30-22:00; Su-Mo off",
+    "phone": "+44 1603 733188",
+    "source": "Bing",
+    "website": "https://www.farmyardrestaurant.com/",
+    "id": "way/123525355"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2895136,
+     52.6310264
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/123525362",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "26",
+    "addr:postcode": "NR2 4AQ",
+    "addr:street": "St Benedicts Street",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "spanish;continental",
+    "fhrs:id": "68598",
+    "name": "Don Pepé",
+    "source": "Bing",
+    "source:addr": "FSA Food Hygiene Ratings Database",
+    "id": "way/123525362"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2898718,
+     52.6307887
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/123525393",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "68-70",
+    "addr:interpolation": "even",
+    "addr:postcode": "NR2 4AR",
+    "addr:street": "St. Benedicts Street",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "italian",
+    "name": "Umberto's Ristorante",
+    "old_name": "Trattoria",
+    "opening_hours": "Tu-Th 12:00-14:30,18:00-22:00; Fr-Sa 12:00-14:30,18:00-23:00; Su-Mo,PH off",
+    "phone": "+44 1603 517413",
+    "source": "Bing",
+    "website": "http://www.umbertostrattoriaitaliapizzeria-norwich.co.uk/",
+    "id": "way/123525393"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.287739,
+     52.6311782
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/125143695",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "8",
+    "addr:postcode": "NR2 4AY",
+    "addr:street": "Dereham Road",
+    "amenity": "restaurant",
+    "building": "shop",
+    "cuisine": "indian",
+    "fhrs:id": "35680",
+    "name": "The City Spice",
+    "opening_hours": "17:00-00:00",
+    "phone": "+44 1603 621621; +44 1603 623444",
+    "website": "http://www.thecityspicenorwich.co.uk/",
+    "id": "way/125143695"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2844201,
+     52.6319915
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/132252425",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "25",
+    "addr:postcode": "NR1 3EU",
+    "addr:street": "Ber Street",
+    "amenity": "restaurant",
+    "building": "yes",
+    "fhrs:id": "1070674",
+    "name": "Cisco's Pan Asian and Sushi",
+    "source:addr": "FHRS Open Data",
+    "id": "way/132252425"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2966495,
+     52.6249214
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/135806241",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "45-51",
+    "addr:postcode": "NR2 1HX",
+    "addr:street": "London Street",
+    "amenity": "restaurant",
+    "building": "commercial",
+    "email": "norwichbookings@cosyclub.co.uk",
+    "fhrs:id": "1108805",
+    "kitchen_hours": "Mo-Su 09:00-22:00",
+    "name": "Cosy Club Norwich",
+    "old_name": "National Provincial Bank",
+    "opening_hours": "Su-We 09:00-23:30; Th 09:00-00:30; Fr-Sa 09:00-01:30",
+    "phone": "+44 1603 358640",
+    "website": "https://cosyclub.co.uk/location/norwich/",
+    "id": "way/135806241"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2955403,
+     52.6295817
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/137307245",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:postcode": "NR2 1RQ",
+    "addr:street": "Theatre Street",
+    "amenity": "restaurant",
+    "building": "yes",
+    "fhrs:id": "73157",
+    "name": "Assembly House",
+    "wheelchair": "yes",
+    "wikidata": "Q4808666",
+    "id": "way/137307245"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2905011,
+     52.62676
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/138504784",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "30-32",
+    "addr:interpolation": "even",
+    "addr:postcode": "NR2 1LL",
+    "addr:street": "St Giles Street",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "fish",
+    "email": "norwich@lochfyne.net",
+    "fax": "+44 1603 723451",
+    "fhrs:id": "609507",
+    "name": "Loch Fyne Fish Restaurant & Oyster Bar",
+    "opening_hours": "Mo-Fr 09:00-22:00; Sa 09:00-22:30; Su 09:00-21:00",
+    "phone": "+44 1603 723450",
+    "source": "Bing",
+    "website": "https://www.lochfyneseafoodandgrill.co.uk/locations/norwich",
+    "id": "way/138504784"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2902525,
+     52.628994
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/144745480",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:postcode": "NR1 1WX",
+    "addr:street": "Wherry Road",
+    "amenity": "restaurant",
+    "building": "yes",
+    "covered": "yes",
+    "cuisine": "italian",
+    "fhrs:id": "25699",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Frankie & Benny’s",
+    "opening_hours": "Mo-Sa 09:00-23:00; Su 09:00-22:30",
+    "outdoor_seating": "yes",
+    "phone": "+44 1603 617206",
+    "real_ale": "no",
+    "website": "https://www.frankieandbennys.com/restaurant/frankie-bennys-norwich",
+    "wheelchair": "yes",
+    "id": "way/144745480"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3049829,
+     52.6262212
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/145482503",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:postcode": "NR3 1TS",
+    "addr:street": "Barrack Street",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "american",
+    "fhrs:id": "4397",
+    "name": "Zaks",
+    "phone": "+44 1603 614318",
+    "source": "Bing",
+    "website": "https://www.zaks.uk.com/",
+    "id": "way/145482503"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3084904,
+     52.6345372
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/147543679",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "22",
+    "addr:postcode": "NR3 1RF",
+    "addr:street": "Tombland",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "vegan",
+    "fhrs:id": "1044086",
+    "name": "Erpingham House",
+    "website": "https://www.erpinghamhouse.com/",
+    "id": "way/147543679"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2992231,
+     52.6312003
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/147543681",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "St Ethelberts",
+    "addr:housenumber": "24",
+    "addr:postcode": "NR3 1RF",
+    "addr:street": "Tombland",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "thai",
+    "fhrs:id": "915725",
+    "name": "Giggling Squid",
+    "website": "https://www.gigglingsquid.com/restaurant/norwich/",
+    "wikidata": "Q26303648",
+    "id": "way/147543681"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2994019,
+     52.6308725
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/147543684",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "21",
+    "addr:postcode": "NR3 1RF",
+    "addr:street": "Tombland",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "seafood",
+    "fhrs:id": "889698",
+    "name": "Tatlers",
+    "website": "http://tatlersnorwich.com/",
+    "wikidata": "Q26653638",
+    "id": "way/147543684"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2991668,
+     52.6313277
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/147543685",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "25",
+    "addr:postcode": "NR3 1RF",
+    "addr:street": "Tombland",
+    "amenity": "restaurant",
+    "brand": "Zizzi",
+    "brand:wikidata": "Q8072944",
+    "brand:wikipedia": "en:Zizzi",
+    "building": "yes",
+    "cuisine": "italian",
+    "email": "Norwich@zizzi.co.uk",
+    "fhrs:id": "836836",
+    "name": "Zizzi",
+    "opening_hours": "Mo-Sa 12:00-23:00; Su 12:00-22:30",
+    "phone": "+44 1603 765767",
+    "website": "https://www.zizzi.co.uk/italian/restaurants/norwich",
+    "wikidata": "Q26578506",
+    "id": "way/147543685"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.299493,
+     52.6306812
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/153706747",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "107",
+    "addr:postcode": "NR7 9AW",
+    "addr:street": "Salhouse Road",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "american",
+    "fhrs:id": "44559",
+    "name": "Fatso's",
+    "opening_hours": "Mo-Sa 12:00-23:00; Su 12:00-22:30",
+    "source": "Bing",
+    "website": "https://www.fatsos.net/",
+    "id": "way/153706747"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.33196,
+     52.6476949
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/156212137",
+   "properties": {
+    "access": "no",
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "Unit 3c",
+    "addr:housenumber": "3c",
+    "addr:postcode": "NR1 1WX",
+    "addr:street": "Wherry Road",
+    "amenity": "restaurant",
+    "building": "unit",
+    "cuisine": "greek",
+    "fhrs:id": "1104939",
+    "name": "Fatso's",
+    "source": "Bing",
+    "website": "https://www.fatsos.net/",
+    "id": "way/156212137"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3044144,
+     52.6262392
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/166702493",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "Unit 7b",
+    "addr:postcode": "NR1 1WX",
+    "addr:street": "Wherry Road",
+    "amenity": "restaurant",
+    "building": "retail",
+    "cuisine": "chicken",
+    "fhrs:id": "84063",
+    "name": "Nando's Chickenland",
+    "not:addr:postcode": "NR1 1WS",
+    "opening_hours": "Su-Th 12:00-22:30; Fr 12:00-23:30; Sa 11:30-00:00",
+    "phone": "+44 1603 663930",
+    "website": "http://www.nandos.co.uk/restaurant/norwich-riverside",
+    "id": "way/166702493"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3043962,
+     52.6252514
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/169980389",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "15",
+    "addr:postcode": "NR2 4PE",
+    "addr:street": "Saint Benedicts Street",
+    "amenity": "restaurant",
+    "brand": "PizzaExpress",
+    "brand:wikidata": "Q662845",
+    "brand:wikipedia": "en:PizzaExpress",
+    "building": "yes",
+    "cuisine": "pizza",
+    "fhrs:id": "68597",
+    "name": "PizzaExpress",
+    "source": "Bing",
+    "source:addr": "FHRS Open Data",
+    "id": "way/169980389"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2907614,
+     52.6309124
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/169985837",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:postcode": "NR7 0WG",
+    "addr:street": "Old Chapel Way",
+    "amenity": "restaurant",
+    "brand": "Brewers Fayre",
+    "building": "retail",
+    "fhrs:id": "145010",
+    "internet_access": "wlan",
+    "name": "Broadland View",
+    "opening_hours": "Mo-Fr 06:30-23:00; Sa 07:00-23:00; Su 07:00-22:30",
+    "outdoor_seating": "yes",
+    "phone": "+44 1603 307610",
+    "real_ale": "1",
+    "real_cider": "no",
+    "website": "https://www.brewersfayre.co.uk/brewersfayre/our-pubs/norwich/broadland-view.html",
+    "id": "way/169985837"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3742401,
+     52.6284745
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/170314471",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "11-15",
+    "addr:interpolation": "odd",
+    "addr:postcode": "NR1 3JZ",
+    "addr:street": "Timberhill",
+    "amenity": "restaurant",
+    "building": "house",
+    "email": "norwich@middletons-shg.co.uk",
+    "fhrs:id": "499555",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "kitchen_hours": "Mo-Sa 12:00-15:00,18:00-23:00; Su 12:00-15:00,18:00-22:30",
+    "name": "Middletons",
+    "old_name": "The Castlegates, Hot-Hot",
+    "opening_hours": "Su-Th 12:00-23:00; Fr-Sa 11:00-23:00",
+    "phone": "+44 1603 633663",
+    "real_ale": "no",
+    "real_cider": "no",
+    "website": "https://middletons-shg.co.uk/index.php/norwich",
+    "id": "way/170314471"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2951298,
+     52.6266097
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/170318607",
+   "properties": {
+    "addr:housename": "Stuart Hall",
+    "addr:postcode": "NR2 4AD",
+    "addr:street": "St Andrews Street",
+    "amenity": "restaurant",
+    "building": "yes",
+    "fhrs:id": "22930",
+    "name": "The Dining Rooms",
+    "operator": "Cinema City",
+    "source:addr": "FSA Food Hygiene Ratings Database",
+    "wheelchair": "yes",
+    "id": "way/170318607"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2958762,
+     52.6303417
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/170320826",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:postcode": "NR5 0JT",
+    "addr:street": "Alex Moorhouse Way",
+    "amenity": "restaurant",
+    "brand": "Marston's",
+    "building": "yes",
+    "email": "copperbeech.norwich@marstons.co.uk",
+    "fhrs:id": "648711",
+    "kitchen_hours": "Mo-Fr 12:00-22:00; Sa 09:00-11:00,12:00-22:00; Su 09:00-11:00,12:00-21:00",
+    "kitchen_hours:breakfast": "Sa-Su 09:00-11:00; Mo-Fr off",
+    "kitchen_hours:carvery": "Mo-Sa 12:00-14:00,17:00-20:00; Su 12:00-20:00",
+    "kitchen_hours:main_menu": "Mo-Sa 12:00-22:00; Su 12:00-21:00",
+    "name": "The Copper Beech",
+    "opening_hours": "Mo-Fr 11:30-22:00+; Sa-Su 09:00-22:00+",
+    "phone": "+44 1603 743489",
+    "real_ale": "3",
+    "real_cider": "no",
+    "start_date": "2011",
+    "website": "https://www.copperbeechpubnorwich.co.uk/",
+    "id": "way/170320826"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.1819685,
+     52.6541733
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/170327088",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "148",
+    "addr:postcode": "NR7 0JD",
+    "addr:street": "Thunder Lane",
+    "amenity": "restaurant",
+    "building": "yes",
+    "email": "enquiries@thecottage-norwich.co.uk",
+    "fhrs:id": "42453",
+    "internet_access": "wlan",
+    "kitchen_hours": "Mo-Sa 18:00-21:30; Su 18:00-20:00",
+    "name": "The Cottage",
+    "opening_hours": "Mo-Sa 12:00-23:00; Su 12:00-22:30",
+    "phone": "+44 1603 433444",
+    "real_ale": "3",
+    "real_cider": "no",
+    "website": "http://thecottage-norwich.co.uk/",
+    "id": "way/170327088"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3452218,
+     52.6381943
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/170764158",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "4a",
+    "addr:postcode": "NR2 1JH",
+    "addr:street": "Guildhall Hill",
+    "amenity": "restaurant",
+    "building": "yes",
+    "email": "thelibrary@rafflesrestaurants.co.uk",
+    "fhrs:id": "19058",
+    "kitchen_hours": "12:00+",
+    "name": "The Library",
+    "opening_hours": "Mo-Sa 11:00-22:00; Su 11:00-15:00",
+    "operator": "Raffles Restaurants",
+    "phone": "+44 1603 616606",
+    "real_ale": "no",
+    "website": "http://thelibraryrestaurant.co.uk/",
+    "website:operator": "http://rafflesrestaurants.co.uk/",
+    "id": "way/170764158"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.292429,
+     52.6294124
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/171243395",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "11",
+    "addr:postcode": "NR2 4PE",
+    "addr:street": "Saint Benedicts Street",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "italian",
+    "email": "pinocchios@rafflesrestaurants.co.uk",
+    "fax": "+44 1603 666919",
+    "fhrs:id": "945159",
+    "name": "Pinnochio's",
+    "opening_hours": "Tu-Sa 12:00-14:00;Mo-Sa 17:00-23:00",
+    "operator": "Raffles Restaurants",
+    "phone": "+44 1603 613318",
+    "source": "Bing",
+    "website": "http://pinocchiosrestaurant.net/",
+    "website:operator": "http://rafflesrestaurants.co.uk/",
+    "id": "way/171243395"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2910033,
+     52.630862
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/171243396",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "9",
+    "addr:postcode": "NR2 4PE",
+    "addr:street": "Saint Benedicts Street",
+    "amenity": "restaurant",
+    "building": "yes",
+    "email": "stbenedicts@rafflesrestaurants.co.uk",
+    "name": "Saint Benedict's Restaurant",
+    "opening_hours": "Tu-Sa 12:00-14:00; Tu-Th 18:00-22:00; Fr-Sa 18:00-22:30",
+    "operator": "Raffles Restaurants",
+    "phone": "+44 1603 765377",
+    "source": "Bing",
+    "website": "http://stbenedictsrestaurant.co.uk/",
+    "website:operator": "http://rafflesrestaurants.co.uk/",
+    "id": "way/171243396"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2910988,
+     52.6308433
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/171243397",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "13",
+    "addr:postcode": "NR2 4PE",
+    "addr:street": "Saint Benedicts Street",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "turkish",
+    "email": "info@hagglerestaurant.com",
+    "fhrs:id": "940044",
+    "name": "Haggle Restaurant",
+    "old_name": "The Rocks Music Bar & Lounge; Comfortably Numb; Lounge",
+    "opening_hours": "Mo-Su 12:00-01:00",
+    "phone": "+44 1603 768100",
+    "website": "http://hagglerestaurant.com",
+    "id": "way/171243397"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2909061,
+     52.6308804
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/171357348",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "4",
+    "addr:postcode": "NR2 1AT",
+    "addr:street": "Exchange Street",
+    "amenity": "restaurant",
+    "building": "shop",
+    "cuisine": "burger",
+    "fhrs:id": "17352",
+    "level": "1",
+    "name": "Captain America's",
+    "opening_hours": "Mo 11:30-16:00; Tu-Sa 11:30+; Su 12:00-16:00",
+    "phone": "+44 1603 622551",
+    "toilets:wheelchair": "no",
+    "website": "http://www.captain-americas.co.uk/",
+    "wheelchair": "no",
+    "wheelchair:description": "Upstairs Restaurant",
+    "id": "way/171357348"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2933603,
+     52.6292158
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/171360585",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "23,23a",
+    "addr:postcode": "NR1 1BG",
+    "addr:street": "Prince of Wales Road",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "chinese",
+    "fhrs:id": "878410",
+    "name": "Tasty Restaurant",
+    "source:cuisine": "https://www.edp24.co.uk/news/crime/revealed-filthy-conditions-and-people-sleeping-at-tasty-chinese-restaurant-on-prince-of-wales-road-1-4965774",
+    "source:name": "FSA Food Hygiene Ratings Database",
+    "id": "way/171360585"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3005379,
+     52.6293317
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/171375436",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "18-22",
+    "addr:interpolation": "even",
+    "addr:postcode": "NR7 0EF",
+    "addr:street": "Yarmouth Road",
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "The Town House",
+    "operator": "Crown Carveries",
+    "phone": "+44 1603 700600",
+    "website": "https://www.crowncarveries.co.uk/thetownhousenorwich/",
+    "id": "way/171375436"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3331884,
+     52.6265814
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/171607787",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:postcode": "NR5 0TP",
+    "addr:street": "Dereham Road",
+    "amenity": "restaurant",
+    "building": "yes",
+    "fax": "+44 1603 741219",
+    "internet_access": "wlan",
+    "name": "Premier Inn",
+    "operator": "Premier Inn",
+    "phone": "+44 8701 977197",
+    "tourism": "motel",
+    "website": "http://www.premierinn.com/en/hotel/NORSHO/norwich-showground/a47",
+    "wheelchair": "yes",
+    "id": "way/171607787"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.1827498,
+     52.650885
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/171787172",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "Unit 5b",
+    "addr:housenumber": "5b",
+    "addr:postcode": "NR1 1WX",
+    "addr:street": "Wherry Road",
+    "amenity": "restaurant",
+    "building": "unit",
+    "fhrs:id": "609504",
+    "name": "Coast to Coast American Restaurant and Bar",
+    "old_name": "Norwegian Blue",
+    "phone": "+44 1603 618082",
+    "source": "Bing",
+    "id": "way/171787172"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3037352,
+     52.6256905
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/178300835",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "29",
+    "addr:postcode": "NR2 1DP",
+    "addr:street": "Exchange Street",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "french",
+    "fhrs:id": "796466",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Cote",
+    "opening_hours": "Mo-Sa 09:00-23:00; Su 10:00-22:30",
+    "phone": "+44 1603 624230",
+    "source": "Bing",
+    "website": "http://www.caferouge.co.uk/french-restaurant/norwich",
+    "wheelchair": "yes",
+    "wikidata": "Q26276083",
+    "id": "way/178300835"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2938451,
+     52.6300095
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/185574414",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "3",
+    "addr:postcode": "NR1 3QF",
+    "addr:street": "Red Lion Street",
+    "amenity": "restaurant",
+    "brand": "Bella Italia",
+    "brand:wikidata": "Q4883362",
+    "brand:wikipedia": "en:Bella Italia",
+    "building": "yes",
+    "cuisine": "italian",
+    "fhrs:id": "48452",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Bella Italia",
+    "opening_hours": "Mo-Th 09:00-23:00; Fr-Sa 09:00-00:00; Su 10:00-22:30",
+    "phone": "+44 1603 614676",
+    "source": "Bing",
+    "website": "https://www.bellaitalia.co.uk/italian-restaurant/norwich-red-lion-street",
+    "wheelchair": "yes",
+    "id": "way/185574414"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2943563,
+     52.6261828
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/188148977",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:postcode": "NR14 7QB",
+    "addr:street": "Loddon Road",
+    "amenity": "restaurant",
+    "building": "yes",
+    "email": "snooker_steve@hotmail.com",
+    "fhrs:id": "647965",
+    "name": "The Old Feathers",
+    "note": "Bookings by phone only",
+    "opening_hours": "Tu-Sa 12:00-15:00, 18:00-23:00; Su,PH 12:00-15:00; Mo off",
+    "phone": "+44 1508 495611",
+    "website": "http://www.theoldfeathers.co.uk/",
+    "id": "way/188148977"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3537856,
+     52.5915686
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/203873762",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "2-3",
+    "addr:parentstreet": "Red Lion Street",
+    "addr:postcode": "NR1 3TB",
+    "addr:street": "Orford Yard",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "portuguese",
+    "fhrs:id": "1089530",
+    "name": "Jorge's Restaurant",
+    "phone": "+44 1603 764441",
+    "id": "way/203873762"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2945578,
+     52.6264634
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/247841522",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "Thai Wellbeing",
+    "addr:housenumber": "19-21",
+    "addr:interpolation": "odd",
+    "addr:postcode": "NR1 3QF",
+    "addr:street": "Red Lion Street",
+    "amenity": "restaurant",
+    "building": "shop",
+    "cuisine": "thai",
+    "email": "eat@baanphraya.com",
+    "level": "1",
+    "name": "Baan Phraya",
+    "phone": "+44 1603 614590",
+    "website": "http://www.baanphraya.com/",
+    "id": "way/247841522"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2945193,
+     52.6267116
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/247841527",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "5",
+    "addr:postcode": "NR1 3LE",
+    "addr:street": "Orford Street",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "italian",
+    "fhrs:rating": "5",
+    "name": "Benoli",
+    "phone": "+44 1603 625390",
+    "start_date": "2019-07-10",
+    "website": "https://benolirestaurant.com/",
+    "id": "way/247841527"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2953092,
+     52.6270875
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/281801970",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:postcode": "NR7 0WG",
+    "addr:street": "Old Chapel Way",
+    "amenity": "restaurant",
+    "brand": "Hungry Horse;Greene King",
+    "building": "retail",
+    "cuisine": "regional",
+    "email": "1789@greeneking.co.uk",
+    "fhrs:id": "753452",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "kitchen_hours": "Mo-Sa 08:00-22:00; Su 08:00-21:00",
+    "name": "The Fieldfare",
+    "opening_hours": "08:00-23:00",
+    "outdoor_seating": "yes",
+    "phone": "+44 1603 438032",
+    "real_ale": "yes",
+    "website": "https://www.hungryhorse.co.uk/pubs/fieldfare-norwich",
+    "id": "way/281801970"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3726234,
+     52.6284653
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/307495325",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "39",
+    "addr:postcode": "NR2 1JN",
+    "addr:street": "Saint Giles Street",
+    "amenity": "restaurant",
+    "building": "house",
+    "cuisine": "waffle",
+    "fhrs:id": "69035",
+    "name": "The Waffle House",
+    "opening_hours": "Mo-Sa 10:00-22:00; Su 10:00-21:00",
+    "phone": "+44 1603 612790",
+    "source": "Bing",
+    "website": "https://www.wafflehousenorwich.co.uk/",
+    "id": "way/307495325"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2896166,
+     52.6293355
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/337986580",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "19",
+    "addr:postcode": "NR3 1LJ",
+    "addr:street": "Fye Bridge Street",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "spanish",
+    "fhrs:id": "20779",
+    "name": "Torero",
+    "opening_hours": "Mo-Th 12:00-14:30,18:30-21:30; Fr-Sa 12:00-14:30,18:00-21:30; Su off",
+    "phone": "+44 1603 621825",
+    "strapline": "Bar de Tapas Restaurant",
+    "wikidata": "Q26638027",
+    "id": "way/337986580"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2970656,
+     52.633451
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/338002246",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "20",
+    "addr:postcode": "NR3 1LB",
+    "addr:street": "Tombland",
+    "amenity": "restaurant",
+    "building": "house",
+    "email": "winepress@maidsheadhotel.co.uk",
+    "kitchen_hours": "12:00-14:00; 18:30-21:30",
+    "name": "wine press",
+    "note": "Shares address with Maid's Head Hotel",
+    "opening_hours": "24/7",
+    "phone": "+44 1603 209955",
+    "website": "https://maidsheadhotel.co.uk/restaurant",
+    "id": "way/338002246"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2982213,
+     52.6322462
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/338972493",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "Samson and Hercules House",
+    "addr:housenumber": "15",
+    "addr:postcode": "NR3 1HF",
+    "addr:street": "Tombland",
+    "amenity": "restaurant",
+    "building": "house",
+    "contact:email": "lobsters@just-lobsters.com",
+    "contact:mobile": "+44 7454 167167",
+    "contact:phone": "+44 203 603 1333",
+    "contact:website": "http://www.just-lobsters.com/",
+    "cuisine": "lobster",
+    "name": "Just Lobsters",
+    "opening_hours": "Mo off; Tu-Tu 12:00-16:00,18:00-23:00; Fr 12:00-16:00,18:00+; Sa-Su 11:00-16:00,18:00+",
+    "id": "way/338972493"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2985339,
+     52.631592
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/345756801",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:postcode": "NR14 8AH",
+    "addr:street": "The Street",
+    "amenity": "restaurant",
+    "building": "yes",
+    "diet:gluten_free": "yes",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "only",
+    "email": "info@rivergreencafe.co.uk",
+    "email:booking": "bookings@rivergreencafe.co.uk",
+    "name": "River Green Café",
+    "opening_hours": "Mo off; Tu-Fr 11:00-15:00,18:00-22:30; Sa 11:00-22:30; Su 11:00-15:30",
+    "phone": "+44 1603 622448",
+    "website": "https://www.rivergreencafe.co.uk/",
+    "id": "way/345756801"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3177457,
+     52.6122288
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/351522072",
+   "properties": {
+    "addr:city": "South Walsham",
+    "addr:country": "GB",
+    "addr:housenumber": "1",
+    "addr:postcode": "NR13 6DY",
+    "addr:street": "Panxworth Road",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "chinese;thai",
+    "name": "Kings Arms Chinese & Thai",
+    "opening_hours": "Mo-Su 17:00-23:00",
+    "phone": "+44 1603 270039",
+    "source": "survey",
+    "takeaway": "yes",
+    "id": "way/351522072"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.4917513,
+     52.6638131
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/361131264",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "3",
+    "addr:interpolation": "odd",
+    "addr:postcode": "NR3 1RB",
+    "addr:street": "Upper King Street",
+    "amenity": "restaurant",
+    "bar": "yes",
+    "building": "yes",
+    "fhrs:id": "937369",
+    "mobile": "+44 7873 607720",
+    "name": "CopaCubana",
+    "website": "https://www.copacubana.co.uk/",
+    "id": "way/361131264"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2989375,
+     52.6302455
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/366714569",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:postcode": "NR4 6EF",
+    "addr:street": "Hall Road",
+    "amenity": "restaurant",
+    "building": "retail",
+    "name": "Shoe Makers",
+    "operator": "Hungry Horse",
+    "phone": "+44 1603 851844",
+    "website": "https://www.hungryhorse.co.uk/locations/shoe-makers",
+    "id": "way/366714569"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2892937,
+     52.6072706
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/374838500",
+   "properties": {
+    "amenity": "restaurant",
+    "building": "yes",
+    "id": "way/374838500"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2205814,
+     52.6226847
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/387130874",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:postcode": "NR13 4AB",
+    "addr:street": "Woodbastwick Road",
+    "amenity": "restaurant",
+    "building": "house",
+    "cuisine": "indian",
+    "name": "Tamarind Find Indian Dining",
+    "opening_hours": "Mo-Su,PH 12:00-14:00,17:30-23:00; Fr 17:30-23:00",
+    "phone": "+44 1603 716622",
+    "phone:2": "1603 716662",
+    "short_name": "Tamarind",
+    "source": "OS_OpenData_VectorMapLocal",
+    "start_date": "2013",
+    "takeaway": "yes",
+    "website": "http://tamarindblofield.co.uk/",
+    "id": "way/387130874"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.4401496,
+     52.6514461
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/439874203",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "8",
+    "addr:postcode": "NR2 1HZ",
+    "addr:street": "Swan Lane",
+    "amenity": "restaurant",
+    "building": "shop",
+    "cuisine": "jamaican",
+    "email": "norwich@turtlebay.co.uk",
+    "fhrs:id": "912834",
+    "name": "Turtle Bay",
+    "opening_hours": "Su-We 11:30-23:30; Th 11:30-00:30; Fr-Sa 11:30-01:30",
+    "phone": "+44 1603 305300",
+    "website": "http://www.turtlebay.co.uk/locations/norwich/",
+    "wikidata": "Q26578581",
+    "id": "way/439874203"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2947723,
+     52.6295503
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/529148861",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "20",
+    "addr:postcode": "NR2 1DN",
+    "addr:street": "Saint John Maddermarket",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "malaysian;singapore;thai",
+    "email": "info@madderkitchen.co.uk",
+    "name": "Madder Kitchen",
+    "name:en": "Madder Kitchen",
+    "opening_hours": "Mo-Tu,Th-Fr 12:00-14:30;17:00-21:00; Sa 11:00-16:00,17:00-22:00; Su 12:00-15:00",
+    "phone": "+44 1603 460558",
+    "source": "Bing",
+    "website": "http://madderkitchen.co.uk/",
+    "id": "way/529148861"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.292678,
+     52.630465
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/681398589",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "8-10",
+    "addr:postcode": "NR2 1AD",
+    "addr:street": "Saint Andrews Hill",
+    "amenity": "restaurant",
+    "building": "yes",
+    "fhrs:id": "35342",
+    "name": "Bishops Dining Room and Bar",
+    "phone": "01603 767 321",
+    "website": "https://www.bishopsrestaurant.co.uk/",
+    "id": "way/681398589"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2956866,
+     52.6300836
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/681398604",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "2",
+    "addr:postcode": "NR1 3PY",
+    "addr:street": "Castle Meadow",
+    "amenity": "restaurant",
+    "building": "yes",
+    "fhrs:id": "1093884",
+    "name": "Matane Sushi",
+    "source:addr": "FHRS Open Data",
+    "id": "way/681398604"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2948361,
+     52.6274576
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/684011191",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "141-143",
+    "addr:postcode": "NR1 3EY",
+    "addr:street": "Ber Street",
+    "amenity": "restaurant",
+    "building": "yes",
+    "fhrs:id": "1065897",
+    "name": "The Ber Street Kitchen",
+    "source:addr": "FHRS Open Data",
+    "id": "way/684011191"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2988115,
+     52.6225801
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/689434701",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "4A",
+    "addr:postcode": "NR2 1QN",
+    "addr:street": "Brigg Street",
+    "amenity": "restaurant",
+    "cuisine": "thai",
+    "fhrs:id": "842923",
+    "level": "1",
+    "name": "Baan Chang",
+    "source:addr": "FSA Food Hygiene Ratings Database",
+    "id": "way/689434701"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2931819,
+     52.6269047
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/693886513",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "25",
+    "addr:postcode": "NR2 1JE",
+    "addr:street": "London Street",
+    "amenity": "restaurant",
+    "building": "yes",
+    "fhrs:id": "809250",
+    "name": "Cosmos World Kitchen",
+    "source:addr": "FHRS Open Data",
+    "website": "https://www.cosmo-restaurants.co.uk/restaurants/norwich",
+    "id": "way/693886513"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2947805,
+     52.6291896
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/693886516",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "23",
+    "addr:postcode": "NR2 1PX",
+    "addr:street": "White Lion Street",
+    "amenity": "restaurant",
+    "building": "yes",
+    "fhrs:id": "958568",
+    "name": "Nanna Mexico",
+    "source:addr": "FHRS Open Data",
+    "id": "way/693886516"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2944611,
+     52.6274406
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/699217496",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "17",
+    "addr:postcode": "NR1 3JZ",
+    "addr:street": "Timberhill",
+    "amenity": "restaurant",
+    "building": "yes",
+    "fhrs:id": "780994",
+    "name": "Donnelli's Pizzeria",
+    "website": "http://www.donnellispizzeria.co.uk/",
+    "id": "way/699217496"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2951958,
+     52.6265246
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/699402732",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "2-3",
+    "addr:postcode": "NR3 1HE",
+    "addr:street": "Tombland",
+    "amenity": "restaurant",
+    "building": "yes",
+    "fhrs:id": "194545",
+    "name": "Prezzo",
+    "source:addr": "FHRS Open Data",
+    "website": "https://www.prezzorestaurants.co.uk/restaurant/norwich-tombland/",
+    "id": "way/699402732"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2985001,
+     52.6306852
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/699469967",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "16-20",
+    "addr:postcode": "NR2 1AT",
+    "addr:street": "Exchange Street",
+    "amenity": "restaurant",
+    "building": "yes",
+    "fhrs:id": "17354",
+    "level": "1",
+    "name": "Bar Tapas",
+    "source:addr": "FHRS Open Data",
+    "id": "way/699469967"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2934113,
+     52.629635
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/700953763",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "UG 21A",
+    "addr:housenumber": "201A",
+    "addr:parentstreet": "Chapelfield",
+    "addr:postcode": "NR2 1SQ",
+    "addr:street": "The North Terrace",
+    "amenity": "restaurant",
+    "building": "unit",
+    "cuisine": "french",
+    "fhrs:id": "570126",
+    "layer": "1",
+    "leasing_number": "64",
+    "level": "1",
+    "name": "Cafe Rouge",
+    "source:addr": "FHRS Open Data",
+    "id": "way/700953763"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2912175,
+     52.6257617
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/701301496",
+   "properties": {
+    "addr:housenumber": "42",
+    "addr:postcode": "NR1 1PD",
+    "addr:street": "King Street",
+    "amenity": "restaurant",
+    "cuisine": "tapas",
+    "name": "42 King Street",
+    "phone": "+44 1603 623971",
+    "website": "http://no42kingstreet.weebly.com/",
+    "id": "way/701301496"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2992984,
+     52.6283636
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "relation/4620205",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "404-405",
+    "addr:postcode": "NR2 1SZ",
+    "addr:street": "Chapelfield Plain",
+    "amenity": "restaurant",
+    "brand": "ASK Italian",
+    "brand:wikidata": "Q4807056",
+    "brand:wikipedia": "en:ASK Italian",
+    "cuisine": "italian",
+    "fhrs:id": "48374",
+    "name": "ASK Italian",
+    "opening_hours": "09:00-22:00",
+    "phone": "+44 1603 230300",
+    "source:addr": "FHRS Open Data",
+    "type": "multipolygon",
+    "website": "https://www.askitalian.co.uk/",
+    "id": "relation/4620205"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.291772,
+     52.6259951
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "relation/5476222",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "2-10",
+    "addr:interpolation": "even",
+    "addr:postcode": "NR2 1PT",
+    "addr:street": "Back of the Inns",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "regional",
+    "email": "norwich@bills-email.co.uk",
+    "fhrs:id": "682950",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "layer": "1",
+    "name": "Bill's Restaurant",
+    "opening_hours": "Mo-Sa 08:00-23:00; Su,PH 09:00-22:30",
+    "phone": "+44 1603 611131",
+    "type": "multipolygon",
+    "website": "https://bills-website.co.uk/restaurants/norwich/",
+    "id": "relation/5476222"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2944736,
+     52.6278722
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "relation/6188296",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "30-34",
+    "addr:postcode": "NR2 2RB",
+    "addr:street": "Unthank Road",
+    "amenity": "restaurant",
+    "email": "info@tgtnorwich.com",
+    "email:events": "events@tgtnorwich.com",
+    "email:hotel": "reception@tgtnorwich.com",
+    "fhrs:id": "711791",
+    "kitchen_hours": "Mo-Sa 08:00-10:00,12:00-22:00,Su 08:00-10:00,12:00-21:00",
+    "name": "The Georgian Townhouse",
+    "opening_hours": "Mo-Fr 08:00-23:00,Sa 08:00-00:00,Su 08:00-22:30",
+    "operator": "City Pub Company East",
+    "phone": "+44 1603 615655",
+    "source:addr": "FHRS Open Data",
+    "tourism": "hotel",
+    "type": "multipolygon",
+    "website": "https://www.thegeorgiantownhousenorwich.com/",
+    "id": "relation/6188296"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.283288,
+     52.6277872
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "relation/7039199",
+   "properties": {
+    "amenity": "restaurant",
+    "cuisine": "burger",
+    "delivery": "yes",
+    "name": "Byron Hamburgers",
+    "opening_hours": "Mo-Fr 11:30-23:00; Sa 11:00-23:00; Su,PH 11:00-22:30",
+    "phone": "+44 1603 767700",
+    "takeaway": "yes",
+    "type": "multipolygon",
+    "website": "https://www.byronhamburgers.com/restaurant/intu-chapelfield",
+    "id": "relation/7039199"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2916292,
+     52.6259075
+    ]
+   }
+  }
+ ]
+}
