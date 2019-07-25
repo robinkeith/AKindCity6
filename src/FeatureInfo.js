@@ -1,14 +1,19 @@
 // import 'opening_hours';
 // declare module 'opening_hours';
-import opening_hours from 'opening_hours'
+
 import titleCase from 'better-title-case'
+import moment from 'moment'
+// import { defaultSettings } from './defaultSettings.js'
+import { getOpeningHours } from './openingHoursPool.js'
+
 // const titleCase = require('better-title-case');
 
 let tagToIgnore =
   '@id,name,NAME,NameS,addr:housename,addr:street,addr:city,addr:country,level,description,wheelchair,wheelchair:description,operator,' +
-  'opening_hours,access,centralkey,fee,fee:ChannelMergerNode,amenity,toilets:wheelchair,' +
-  'OBJECTID,Opening,UPRN,lon,lat,Address,Y,X,altitudeMode,OBJECTI,key,addr:housenumber,addr:postcode' +
+  'opening_hours,access,centralkey,fee,fee:ChannelMergerNode,amenity,toilets:wheelchair,mapFeature,Addr Interpolation,' +
+  'OBJECTID,Opening,UPRN,lon,lat,Address,Y,X,altitudeMode,OBJECTI,key,addr:housenumber,addr:postcode,' +
   'website,email,phone,source:addr, park_ride, type, Maintenance, Maxheight, Salting Ref, ' +
+  'brand,brand:wikidata,brand:wikipedia' +
   ',building,toilets:disposal,addr:city,addr:country,kitchen_hours,fhrs:id,layer,dataSupplier,dataLastUpdated'.split(',')
 
 let dataImprover = {
@@ -39,43 +44,25 @@ let dataImprover = {
   'fee:charge': 'Fee',
   'operator': 'Operated By'
 }
-
-function getCurrentlyOpen (featureOpeningHours) {
-  try {
-    if (featureOpeningHours) {
-      let oh = opening_hours(featureOpeningHours)
-      if (oh) {
-        var state = oh.getState() // we use current date
-        var unknown = oh.getUnknown()
-        var comment = oh.getComment()
-        var nextchange = oh.getNextChange()
-
-        let currentStatus = (getReadableState('Currently ', '', oh, true))
-
-        if (typeof nextchange === 'undefined') { console.log('And we will never ' + (state ? 'close' : 'open'))} else
-        { 
-currentStatus += (' ' +
-                (oh.getUnknown(nextchange) ? 'maybe ' : '') +
-                (state ? 'close' : 'open') + ' on ' + nextchange)}
-        return currentStatus
-      }
-    }
-  } catch (error) {
-    console.log(error)
-  }
-}
-
 export default class FeatureInfo {
   constructor (properties, featureTags) {
     this.tags = properties
     // few adhoc mappings to fix up the safePlaces data
-    if (this.tags.Opening) { this.tags.opening_hours = this.tags.Opening }
-    if (this.tags.Name) {
-      this.tags.name = this.tags.Name
-    }
-    if (this.tags.Address) { this.tags['addr:street'] = this.tags.Address }
+    /**
+      if (this.tags.Opening) { this.tags.opening_hours = this.tags.Opening }
+      if (this.tags.Name) {
+        this.tags.name = this.tags.Name
+      }
+      if (this.tags.Address) { this.tags['addr:street'] = this.tags.Address }
 
-    this.featureTags = featureTags.split(',')
+    */
+    // this.featureTags = featureTags.split(',')
+
+    // handling for opening hours. Avoid parsing the opening hours all the time by doing it once only
+
+    if (properties.opening_hours) {
+      this.openingHours = getOpeningHours(properties.opening_hours, properties.id)
+    }
   }
 
   get featureTagsDescription () {
@@ -96,7 +83,7 @@ export default class FeatureInfo {
     // look for any overrides or improvements and apply them if found
     let dataImprovement = dataImprover[valueName]
     let prettyLabel, prettyValue
-    let improverType = typeof (dataImprovement)
+    // let improverType = typeof (dataImprovement)
     switch (typeof (dataImprovement)) {
       case 'string':
         prettyLabel = dataImprovement
@@ -121,24 +108,20 @@ export default class FeatureInfo {
   }
 
   get caption () {
-    return this.tags.name || this.tags['addr:housename'] || this.tags.amenity || this.tags.building || this.tags['@id'] || ''
+    // if (this.tags.mapFeature)
+    return this.tags.mapFeature.caption || this.tags.mapFeature.hoverCaption || ''
+    // return this.tags.name || this.tags['addr:housename'] || this.tags.amenity || this.tags.building || this.tags['@id']
   }
 
   get location () {
-    return `${this.label('addr:housenumber', ' ')} ${this.label('addr:street', ' ')} ${this.label('level', ' ')}${this.label('addr:postcode', ' ')}<br />
+    return this.tags.mapFeature.location || ''
+
+  /*  return `${this.label('addr:housenumber', ' ')} ${this.label('addr:street', ' ')} ${this.label('level', ' ')}${this.label('addr:postcode', ' ')}<br />
               ${this.label('description', '<br />')}
               ${this.label('wheelchair', ' ')}
-              ${this.label('wheelchair:description')}`
+              ${this.label('wheelchair:description')}` */
   }
-  /*
-    get wheelchairAccessDesc(){
-      switch (this.tags.wheelchair) {
-        case "no":return "NO WHEELCHAIR ACCESS";
-        case "yes":return "Wheelchair accessible";
-        case "limited":return "Limited wheelchair access";
-        default:return '';
-      }
-    } */
+
   get operator () {
     return this.label('operator', '<br />')// || "<strong>Information supplied by:</strong>Open Street Map";
   }
@@ -151,6 +134,65 @@ export default class FeatureInfo {
 
   get contact () {
 
+  }
+
+  /**
+ * Return a human readable string describing the opening hours
+ */
+  get prettyOpeningHours () {
+    if (this.openingHours) {
+      return this.openingHours.prettifyValue({
+        rule_sep_string: '<br/>',
+        print_semicolon: false
+      })
+    }
+  }
+
+  /**
+ * @return A human readable string describing the current state
+ * Either "OPEN" or "CLOSED" in a button highlight, followed by any explanitory notes
+ * OR an explanitory note
+ * Followed by the time the state next changes
+ */
+  get prettyCurrentState () {
+    let output = ''
+    if (this.openingHours) {
+      let openingHours = this.openingHours
+      const comment = openingHours.getComment()
+      const currentState = openingHours.getState()
+      const nextChange = openingHours.getNextChange()
+
+      if (openingHours.getUnknown()) {
+        output = (comment ? comment + '<br/>' : '')
+      } else {
+        output = (currentState
+          ? `<span class="btn btn-primary">OPEN</span>`
+          : `<span class="btn btn-primary">CLOSED</span>`) +
+        (comment ? ' Note: "' + comment + '"' : '') + '<br/>'
+      }
+
+      if (nextChange) {
+        let nextChangeMoment = moment(nextChange)
+        let nextChangeDuration = nextChangeMoment.fromNow()
+        output +=
+            (openingHours.getUnknown(nextChange) ? ' maybe ' : '') +
+            (currentState ? 'Closes ' : 'Opens ') +
+            nextChangeDuration +
+            nextChangeMoment.format('[ (at ] h:mm a [on] dddd, MMMM Do[)]')
+      }
+    }
+
+    return output
+  }
+
+  /**
+ * return a closed/open indicator flag
+ * @return - true if it's currently open, false inf not, and undefined if we don't know
+ */
+  get currentlyOpen () {
+    if (this.openingHours) {
+      return this.currentState
+    }
   }
 
   // use the layer meta data to show the originator of the data and when it was last updated
@@ -166,14 +208,10 @@ export default class FeatureInfo {
 
   /* Use this section to list any conditions or barriers to accessing this service */
   get availability () {
-    let opening = this.label('opening_hours')
-    if (this.tags.opening_hours) {
-      let currentStatus = getCurrentlyOpen(this.tags.opening_hours)
-      if (currentStatus) {
-        opening += `<div class="pop-caption">${currentStatus}</div>`
-      } else {
-        opening += '<br />'
-      }
+    let opening = ''
+    if (this.openingHours) {
+      opening = `${this.prettyCurrentState}<br/><br/>
+        <strong>Opening Hours:</strong> ${this.prettyOpeningHours}<br/>`
     }
     opening += this.label('kitchen_hours')
 
