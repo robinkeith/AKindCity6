@@ -106,6 +106,11 @@ export function setup (map, layerControl, userSettings) {
     $('#about').modal()
   }, 'About the Map', { position: 'topleft' })
 
+  /* ----------------- feedback -------------------------- */
+  const feedbackButton = L.easyButton('fas fa-comment fa-2x', function () {
+    $('#feedback').modal()
+  }, 'Feedback on the Map', { position: 'topleft' })
+
   /* ------------ Remember button ----------------------------------------- */
   const rememberButton = L.easyButton(`<img src="${eliIcon}">`, function () {
     $('#remembered').html(
@@ -204,6 +209,7 @@ export function setup (map, layerControl, userSettings) {
     .addControl(gpsLocateButton)
     .addControl(fullscreenButton)
     .addControl(infoButton)
+    .addControl(feedbackButton)
     .addControl(quickAccessButton)
     .addControl(rememberButton)
   // .addControl(printButton)

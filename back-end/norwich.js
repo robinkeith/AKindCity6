@@ -1,28 +1,56 @@
 
 module.exports = [
+  // [bbox:1.171761,52.578228,1.525726,52.693864]
+
   // Get Here layer
-  { name: 'here-parkingSpaces', query: 'nwr[amenity=parking];' },
-  { name: 'here-parkingMeters', query: 'nwr[amenity=vending_machine][vending=parking_tickets];' },
-  { name: 'here-taxi', query: 'nwr[amenity=taxi];' },
+  { name: 'here-parkingSpaces', layers: ['here'], query: 'nwr[amenity=parking];' },
+  { name: 'here-parkingMeters', layers: ['here'], query: 'nwr[amenity=vending_machine][vending=parking_tickets];' },
+  { name: 'here-taxi', layers: ['here'], query: 'nwr[amenity=taxi];' },
   /* Add
         nwr[railway=station];
         >>bus stations
     */
 
   // Get around layer - shop mobility, bus routes?
-  { name: 'around', query: `
-        nwr[highway=lift];
-        nwr[highway=steps];
-        nwr[ highway=crossing][crossing!=uncontrolled];
-        nwr[ highway=traffic_signals];
-        nwr[highway=footway][incline];
-        nwr[building][elevator=yes];
-        nwr[wheelchair=designated];
-        nwr[ramp];
-        nwr[conveying];
-        nwr[tactile_paving];
-        ` },
-  { name: 'around-amenities', query: `nwr[shop=mobility];` },
+  { name: 'around-aids', layers: ['around'], query: `
+    nwr[highway=lift];
+    nwr[building][elevator=yes];
+    nwr[ramp];
+    nwr[conveying];
+    ` },
+  { name: 'around-barrier', layers: ['around'], query: `
+    nwr[highway=steps];
+    nwr[highway=footway][incline];
+    ` },
+
+  { name: 'around-crossings', layers: ['around'], query: `
+    node["highway"="crossing"]["crossing"!="uncontrolled"];
+    foreach {
+      way(bn)["name"]-> .ways;
+      convert result
+          ::id   = id(),
+          ::geom = center(geom()),
+          road_name    = ways.set(t["name"] ),
+          road_speed = ways.set(t["maxspeed"]),
+          :: = ::;
+    out geom;
+    }
+    ` },
+  { name: 'around-signals', layers: ['around'], query: `
+    (node["highway"="traffic_signals"];);
+    foreach {
+      way(bn)["name"]-> .ways;
+      convert result
+          ::id   = id(),
+          ::geom = center(geom()),
+          road_name    = ways.set(t["name"] ),
+          road_speed = ways.set(t["maxspeed"]),
+          ::     = ::;
+    out geom;
+    }
+    ` },
+
+  { name: 'around-amenities', layers: ['around'], query: `nwr[shop=mobility];` },
 
   /* The followinf might also be useful, but not currently used in area
     amenity=charging station    amenity=dog bin
@@ -31,27 +59,27 @@ module.exports = [
 
   // toilets
   // Toilets can be recorded as seperate amenities:
-  { name: 'toiletsAmenity', query: 'nwr[amenity=toilets];' },
-  { name: 'toiletsNonAmenity', query: 'nwr[~"^toilet(s):.*$"~"."];' },
+  { name: 'toilets-amenity', layers: ['toilets'], query: 'nwr[amenity=toilets];' },
+  { name: 'toilets-nonAmenity', layers: ['toilets'], query: 'nwr[~"^toilet(s):.*$"~"."];' },
 
   // Eat/drink
-  { name: 'food-bar', query: 'nwr[amenity=bar];' },
-  { name: 'food-cafe', query: 'nwr[amenity=cafe];' },
-  { name: 'food-fast_food', query: 'nwr[amenity="fast_food"];' },
-  { name: 'food-pubs', query: 'nwr[amenity=pub];' },
-  { name: 'food-resturants', query: 'nwr[amenity=restaurant];' },
+  { name: 'food-bar', layers: ['food'], query: 'nwr[amenity=bar];' },
+  { name: 'food-cafe', layers: ['food'], query: 'nwr[amenity=cafe];' },
+  { name: 'food-fast_food', layers: ['food'], query: 'nwr[amenity="fast_food"];' },
+  { name: 'food-pubs', layers: ['food'], query: 'nwr[amenity=pub];' },
+  { name: 'food-resturants', layers: ['food'], query: 'nwr[amenity=restaurant];' },
   /* Possible additions:
         amenity=food court      amenity=ice cream
     */
 
   // shop
-  { name: 'shop', query: 'nwr[shop];nwr[amenity=marketplace' },
+  { name: 'shop', layers: ['shop'], query: 'nwr[shop];nwr[amenity=marketplace];' },
 
   // learn
-  { name: '', query: 'nwr[amenity=library]' },
+  { name: 'learn', layers: ['learn'], query: 'nwr[amenity=library];' },
 
   // enjoy
-  { name: 'enjoy', query: `
+  { name: 'enjoy', layers: ['enjoy'], query: `
         nwr[amenity="arts centre"];
         nwr[amenity="cinema"];
         nwr[amenity="community center"];
@@ -68,7 +96,7 @@ module.exports = [
 
   // help
   // {name: 'helpSafePlaces', query:'nwr[amenity=]'},
-  { name: 'help-services', query: 'nwr[amenity=police];nwr[name~"Walk-in"];' }
+  { name: 'help-services', layers: ['help'], query: 'nwr[amenity=police];nwr[name~"Walk-in"];' }
   // {name: 'help-info', query:'nwr[amenity=]'},
   /* possible additiona:
     //amenity=emergency phone

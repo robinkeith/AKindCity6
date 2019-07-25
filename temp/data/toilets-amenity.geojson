@@ -3,653 +3,6 @@
  "features": [
   {
    "type": "Feature",
-   "id": "way/55291587",
-   "properties": {
-    "amenity": "toilets",
-    "baby_changing": "yes",
-    "building": "office",
-    "id": "way/55291587"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2196536,
-       52.6028212
-      ],
-      [
-       1.219685,
-       52.6027764
-      ],
-      [
-       1.2198299,
-       52.6028138
-      ],
-      [
-       1.2197985,
-       52.6028586
-      ],
-      [
-       1.2196536,
-       52.6028212
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/114165003",
-   "properties": {
-    "amenity": "toilets",
-    "building": "yes",
-    "source": "Bing",
-    "id": "way/114165003"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.267177,
-       52.6461281
-      ],
-      [
-       1.2671897,
-       52.6459301
-      ],
-      [
-       1.2674047,
-       52.6459352
-      ],
-      [
-       1.267392,
-       52.6461332
-      ],
-      [
-       1.267177,
-       52.6461281
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/116079139",
-   "properties": {
-    "access": "yes",
-    "addr:housenumber": "2",
-    "addr:street": "Pudding Ln",
-    "amenity": "toilets",
-    "building": "service",
-    "contact:phone": "Office hours: Monday to Friday, 9am to 5pm, 01603 894140 Outside office hours: 08458 500319",
-    "description": "Male and female toilets plus Accessible toilet (RADAR key)\nBaby changing facilities are inside the accessible toilet",
-    "diaper": "limited",
-    "fee": "no",
-    "name": "Norwich Market (Memorial Gardens)  Toilets",
-    "opening_hours": "Mo-Sa 07:30-16:30",
-    "operator": "Norwich City Council",
-    "toilets:disposal": "flush",
-    "unisex": "yes",
-    "wheelchair": "limited",
-    "id": "way/116079139"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2925818,
-       52.6281062
-      ],
-      [
-       1.2925927,
-       52.6281992
-      ],
-      [
-       1.2924271,
-       52.6282063
-      ],
-      [
-       1.2924162,
-       52.6281134
-      ],
-      [
-       1.2925818,
-       52.6281062
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/116079140",
-   "properties": {
-    "amenity": "toilets",
-    "building": "amenity",
-    "operator": "Norwich City Council",
-    "id": "way/116079140"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2868999,
-       52.6268508
-      ],
-      [
-       1.2868099,
-       52.6269405
-      ],
-      [
-       1.2867789,
-       52.6269309
-      ],
-      [
-       1.2867556,
-       52.6269236
-      ],
-      [
-       1.286777,
-       52.6268979
-      ],
-      [
-       1.2867636,
-       52.6268768
-      ],
-      [
-       1.2867797,
-       52.626854
-      ],
-      [
-       1.2868325,
-       52.6268472
-      ],
-      [
-       1.2868468,
-       52.6268324
-      ],
-      [
-       1.2868999,
-       52.6268508
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/116079142",
-   "properties": {
-    "access": "public",
-    "amenity": "toilets",
-    "building": "yes",
-    "description": "Button operated door open/close metallic single occupant toilet facility",
-    "drinking_water": "no",
-    "fee": "no",
-    "operator": "Norwich City Council",
-    "toilets:disposal": "flush",
-    "toilets:position": "seated",
-    "wheelchair": "yes",
-    "id": "way/116079142"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.3037129,
-       52.6285379
-      ],
-      [
-       1.3036762,
-       52.6284961
-      ],
-      [
-       1.3037556,
-       52.6284704
-      ],
-      [
-       1.3037923,
-       52.6285123
-      ],
-      [
-       1.3037129,
-       52.6285379
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/117048789",
-   "properties": {
-    "amenity": "toilets",
-    "building": "yes",
-    "id": "way/117048789"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2685267,
-       52.6261061
-      ],
-      [
-       1.2684688,
-       52.626107
-      ],
-      [
-       1.2684662,
-       52.6260445
-      ],
-      [
-       1.2685241,
-       52.6260436
-      ],
-      [
-       1.2685267,
-       52.6261061
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/156828005",
-   "properties": {
-    "access": "yes",
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housename": "Unit 3C",
-    "addr:housenumber": "3C",
-    "addr:postcode": "NR5 9HA",
-    "addr:street": "Bowthorpe Main Centre",
-    "amenity": "toilets",
-    "building": "unit",
-    "female": "yes",
-    "male": "yes",
-    "source": "Bing",
-    "wheelchair": "yes",
-    "id": "way/156828005"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2174794,
-       52.6376826
-      ],
-      [
-       1.2174786,
-       52.637695
-      ],
-      [
-       1.2174752,
-       52.6377569
-      ],
-      [
-       1.217338,
-       52.6377541
-      ],
-      [
-       1.2173422,
-       52.63768
-      ],
-      [
-       1.2174794,
-       52.6376826
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/186106534",
-   "properties": {
-    "amenity": "toilets",
-    "id": "way/186106534"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.3418356,
-       52.6260519
-      ],
-      [
-       1.3418205,
-       52.6260194
-      ],
-      [
-       1.3418026,
-       52.6260224
-      ],
-      [
-       1.3417812,
-       52.6259766
-      ],
-      [
-       1.3418665,
-       52.625962
-      ],
-      [
-       1.3418814,
-       52.625994
-      ],
-      [
-       1.3418978,
-       52.6259912
-      ],
-      [
-       1.3419194,
-       52.6260375
-      ],
-      [
-       1.3418356,
-       52.6260519
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/196001638",
-   "properties": {
-    "addr:street": "Drayton Road",
-    "amenity": "toilets",
-    "building": "service",
-    "centralkey": "nks",
-    "changing_table": "limited",
-    "changing_table:description": "In ladies toilet only",
-    "fee": "no",
-    "name": "Wensum Park Toilets",
-    "unisex": "yes",
-    "wheelchair": "yes",
-    "id": "way/196001638"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2864545,
-       52.640127
-      ],
-      [
-       1.2864868,
-       52.6400939
-      ],
-      [
-       1.286462,
-       52.640085
-      ],
-      [
-       1.2864876,
-       52.6400588
-      ],
-      [
-       1.2865157,
-       52.6400689
-      ],
-      [
-       1.286521,
-       52.6400635
-      ],
-      [
-       1.2865695,
-       52.6400809
-      ],
-      [
-       1.2865062,
-       52.6401456
-      ],
-      [
-       1.2864545,
-       52.640127
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/375126841",
-   "properties": {
-    "amenity": "toilets",
-    "id": "way/375126841"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.4311187,
-       52.6877207
-      ],
-      [
-       1.4311158,
-       52.6876733
-      ],
-      [
-       1.4311528,
-       52.6876725
-      ],
-      [
-       1.4311557,
-       52.6877199
-      ],
-      [
-       1.4311187,
-       52.6877207
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/387138871",
-   "properties": {
-    "amenity": "toilets",
-    "building": "yes",
-    "fee": "no",
-    "source": "OS_OpenData_VectorMapLocal",
-    "toilets:disposal": "flush",
-    "id": "way/387138871"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.4301798,
-       52.6829942
-      ],
-      [
-       1.4302612,
-       52.6830249
-      ],
-      [
-       1.4302314,
-       52.6830541
-      ],
-      [
-       1.43015,
-       52.6830233
-      ],
-      [
-       1.4301798,
-       52.6829942
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/604403859",
-   "properties": {
-    "amenity": "toilets",
-    "building": "yes",
-    "id": "way/604403859"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2830744,
-       52.6242805
-      ],
-      [
-       1.2831197,
-       52.6243325
-      ],
-      [
-       1.2830281,
-       52.6243619
-      ],
-      [
-       1.2829828,
-       52.6243099
-      ],
-      [
-       1.2830744,
-       52.6242805
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/607025993",
-   "properties": {
-    "amenity": "toilets",
-    "building": "yes",
-    "female": "yes",
-    "male": "yes",
-    "material": "brick",
-    "wheelchair": "yes",
-    "id": "way/607025993"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.4893125,
-       52.677157
-      ],
-      [
-       1.4891751,
-       52.6771613
-      ],
-      [
-       1.4891706,
-       52.6771082
-      ],
-      [
-       1.489308,
-       52.6771039
-      ],
-      [
-       1.4893125,
-       52.677157
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/612990138",
-   "properties": {
-    "amenity": "toilets",
-    "building": "yes",
-    "diaper": "no",
-    "fee": "no",
-    "toilets:disposal": "flush",
-    "id": "way/612990138"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2353893,
-       52.626164
-      ],
-      [
-       1.2355005,
-       52.6261328
-      ],
-      [
-       1.2355232,
-       52.6261618
-      ],
-      [
-       1.2354108,
-       52.6261937
-      ],
-      [
-       1.2353893,
-       52.626164
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/700006882",
-   "properties": {
-    "amenity": "toilets",
-    "building": "yes",
-    "id": "way/700006882"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2521047,
-       52.6202258
-      ],
-      [
-       1.2521228,
-       52.6201789
-      ],
-      [
-       1.2521712,
-       52.6201857
-      ],
-      [
-       1.2521532,
-       52.6202326
-      ],
-      [
-       1.2521047,
-       52.6202258
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
    "id": "node/364431812",
    "properties": {
     "amenity": "toilets",
@@ -683,6 +36,14 @@
    "id": "node/472647140",
    "properties": {
     "amenity": "toilets",
+    "description": "Located opposite St Vedast Street. Male only (standing 'butterfly' urinal)",
+    "diaper": "no",
+    "fee": "no",
+    "female": "no",
+    "male": "yes",
+    "name": "Prince of Wales Road, butterfly urinal",
+    "operator": "Norwich City Council",
+    "wheelchair": "no",
     "id": "node/472647140"
    },
    "geometry": {
@@ -916,7 +277,7 @@
     "female": "yes",
     "male": "yes",
     "name": "Toilets at Norwich Station",
-    "opening_hours": "Station opening times",
+    "opening_hours": "\"Station opening times\"",
     "operator": "Abellio Greater Anglia",
     "toilets:handwashing": "yes",
     "wheelchair": "limited",
@@ -1108,7 +469,10 @@
    "properties": {
     "access": "yes",
     "amenity": "toilets",
+    "description": "located on Rose Lane, external to the multi storey car park.",
     "fee": "no",
+    "opening_hours": "Th-Sa 18:00-08:00",
+    "operator": "Norwich City Council",
     "toilets:disposal": "flush",
     "unisex": "yes",
     "id": "node/4207863595"
@@ -1291,6 +655,260 @@
     "coordinates": [
      1.2205095,
      52.6179482
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/55291587",
+   "properties": {
+    "amenity": "toilets",
+    "building": "office",
+    "changing_table": "yes",
+    "id": "way/55291587"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2197417,
+     52.6028175
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/114165003",
+   "properties": {
+    "amenity": "toilets",
+    "building": "yes",
+    "source": "Bing",
+    "id": "way/114165003"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2672908,
+     52.6460316
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/116079139",
+   "properties": {
+    "access": "yes",
+    "addr:housenumber": "2",
+    "addr:street": "Pudding Ln",
+    "amenity": "toilets",
+    "building": "service",
+    "centralkey": "nks",
+    "changing": "limited",
+    "changing_table": "limited",
+    "contact:phone": "Office hours: Monday to Friday, 9am to 5pm, 01603 894140 Outside office hours: 08458 500319",
+    "description": "Male and female toilets plus Accessible toilet (RADAR key)\nBaby changing facilities are inside the accessible toilet",
+    "fee": "no",
+    "female": "yes",
+    "male": "yes",
+    "name": "Norwich Market (Memorial Gardens) Toilets",
+    "opening_hours": "Mo-Sa 07:30-16:30",
+    "operator": "Norwich City Council",
+    "toilets:disposal": "flush",
+    "unisex": "no",
+    "wheelchair": "yes",
+    "id": "way/116079139"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2925045,
+     52.6281562
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/117048789",
+   "properties": {
+    "amenity": "toilets",
+    "building": "yes",
+    "id": "way/117048789"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2684964,
+     52.6260753
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/156828005",
+   "properties": {
+    "access": "yes",
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "Unit 3C",
+    "addr:housenumber": "3C",
+    "addr:postcode": "NR5 9HA",
+    "addr:street": "Bowthorpe Main Centre",
+    "amenity": "toilets",
+    "building": "unit",
+    "female": "yes",
+    "male": "yes",
+    "source": "Bing",
+    "wheelchair": "yes",
+    "id": "way/156828005"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2174087,
+     52.6377184
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/186106534",
+   "properties": {
+    "amenity": "toilets",
+    "id": "way/186106534"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3418503,
+     52.6260069
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/196001638",
+   "properties": {
+    "addr:street": "Drayton Road",
+    "amenity": "toilets",
+    "building": "service",
+    "centralkey": "nks",
+    "changing_table": "limited",
+    "changing_table:description": "In ladies toilet only",
+    "fee": "no",
+    "name": "Wensum Park Toilets",
+    "unisex": "yes",
+    "wheelchair": "yes",
+    "id": "way/196001638"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.286512,
+     52.6401022
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/375126841",
+   "properties": {
+    "amenity": "toilets",
+    "id": "way/375126841"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.4311357,
+     52.6876966
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/387138871",
+   "properties": {
+    "amenity": "toilets",
+    "building": "yes",
+    "fee": "no",
+    "source": "OS_OpenData_VectorMapLocal",
+    "toilets:disposal": "flush",
+    "id": "way/387138871"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.4302056,
+     52.6830241
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/604403859",
+   "properties": {
+    "amenity": "toilets",
+    "building": "yes",
+    "id": "way/604403859"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2830513,
+     52.6243212
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/607025993",
+   "properties": {
+    "amenity": "toilets",
+    "building": "yes",
+    "female": "yes",
+    "male": "yes",
+    "material": "brick",
+    "wheelchair": "yes",
+    "id": "way/607025993"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.4892416,
+     52.6771326
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/612990138",
+   "properties": {
+    "amenity": "toilets",
+    "building": "yes",
+    "diaper": "no",
+    "fee": "no",
+    "toilets:disposal": "flush",
+    "id": "way/612990138"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2354562,
+     52.6261632
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/700006882",
+   "properties": {
+    "amenity": "toilets",
+    "building": "yes",
+    "id": "way/700006882"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.252138,
+     52.6202058
     ]
    }
   }

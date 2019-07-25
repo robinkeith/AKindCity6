@@ -3,7 +3,10 @@ module.exports = {
         "browser": true,
         "es6": true
     },
-    "extends": "standard",
+    "extends": [
+        "standard",
+        "plugin:css-modules/recommended"
+    ],
     "globals": {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
@@ -15,6 +18,8 @@ module.exports = {
     "rules": {
     },
     "plugins": [
-        "html"
+        "html",
+        "css-modules",
+        "json"
     ]
 };

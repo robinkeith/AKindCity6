@@ -34,3 +34,50 @@ The following can be ignored:
   ## Data Import 
   Contained in the /back-end/ folder. 
   Run Debug task 'download' to refresh data from OSM.
+
+  
+ ## PWA Functionality
+ Plan:
+ * Create a Service Worker
+ * Mobile first layout
+ * Offline map tiles
+
+ ### Service worker
+
+Generate a Complete Service Worker with Workbox CLI https://developers.google.com/web/tools/workbox/guides/generate-service-worker/cli
+
+npm install workbox-cli --save-dev
+workbox wizard
+
+Uses parcel-plugin-workbox to inject workbox into the seup. parcel-plugin-sw was oiginally used, but no longer.
+parcel-plugin-workbox uses the workbox property in package.json, but we use the defaults.
+`````
+"workbox": {
+  importScripts: ['./worker.js'],           // scripts to import into `sw.js`
+  globDirectory: './dist',                  // directory to cache (usually output dir)
+  globPatterns: [                           // file types to include
+  '**/*.{css,html,gif,js,jpg,png,svg,webp}'
+}
+`````
+
+For reference, the plugin-sw config which is no longer used
+"commented_cache - not used": {
+    "inDev": true,
+    "strategy": "inject",
+    "swSrc": "src/service-worker-templates.js",
+    "swDest": "map-service-worker.js"
+  },
+
+### Potential candidates for other layer styles
+ https://openmaptiles.github.io/klokantech-3d-gl-style/#17/52.62690/1.29217/-42.5/57 
+ https://openmaptiles.org/styles/
+ 
+
+## Opening Hours
+The OSM opening hours format is quite complex.  The npm package opening_hours is comprehensive,
+but out of date, so we use the git repo instread
+`````
+npm i github:opening-hours/opening_hours.js.git#master
+````
+
+npm cache clean --force

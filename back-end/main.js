@@ -1,53 +1,101 @@
 #!/usr/bin/env node
-//const dataSets = require( './norwich.js');
-//import {norwichMapOSM} from './norwich.mjs';
-//import 'fs';
-//import * as queryOverpass from 'query-overpass';
-//queryOverpass = require('query-overpass');
+// const dataSets = require( './norwich.js');
+// import {norwichMapOSM} from './norwich.mjs';
+// import 'fs';
+// import * as queryOverpass from 'query-overpass';
+// queryOverpass = require('query-overpass');
 
-const fs = require('fs'),
-    queryOverpass = require('query-overpass'),
-    norwichMapOSM = require( './norwich.js');
+const fs = require('fs')
+const queryOverpass = require('query-overpass')
+const norwichMapOSM = require('./norwich.js')
+const postProcess = require('./postProcess.js')
 
-const bbox='52.578228,1.171761,52.693864,1.525726';
+const bbox = '52.578228,1.171761,52.693864,1.525726'
+const modeDownload = true
+const modePostProcess = !modeDownload
+const modeDatasetsToProcess = ['around-crossings']
+// const modeEverything = true
 
-norwichMapOSM.forEach(function(dataset){
-    osmtoGeoJSONfile(bbox, dataset.query,`./data/${dataset.name}.geojson`);
-})
+function slowIterate (arr, timeout, cb) {
+  if (arr.length === 0) {
+    return
+  }
+  cb(arr[0])
+  setTimeout(() => {
+    slowIterate(arr.slice(1), timeout, cb)
+  }, timeout) // <-- replace with your desired delay (in milliseconds)
+}
 
+let selectedDatasets = norwichMapOSM.filter(dataset => modeDatasetsToProcess.includes(dataset.name))
 
-//osmtoGeoJSONfile(bbox,'nwr["amenity"="police"];','./output/test1.geojson');
+// TODO:sort out the async processing
+if (modeDownload) {
+/* Mode 1 down load the data from OSM - but don't post process */
+  slowIterate(selectedDatasets, 5000, function (dataset) {
+    if (dataset.query) {
+      osmtoGeoJSONfile(bbox, dataset.query, `./temp/data/${dataset.name}.geojson`)
+    }
+  })
+}
 
+if (modePostProcess) {
+  selectedDatasets.forEach(function (dataset) {
+    let data = JSON.parse(fs.readFileSync(`./temp/data/${dataset.name}.geojson`, 'utf8'))
+    let res = postProcess.postProcess(data, dataset)
+    console.log(res)
+    toFile(res, `./data/${dataset.name}.geojson`)
+  })
+}
 
+/**
+ * Query OSM via overpass and convert the resulting OSM format data to geoJSON.
+ * Apply post processing and save the resulting geoJSON to a file
+ * @param {*} bbox  Bounding box, the area the query is restricted to
+ * @param {*} query The OverPass QL to retrieve map features
+ * @param {*} filename Filename of the outpt file
+ */
+function osmtoGeoJSONfile (bbox, query, filename) {
+// Full overpass QL query, with timeout and format parameter
+// Also with output statement
+// out tags center; is probably a better choice as it collapses ways into points
+  // const fullQuery = `[bbox:${bbox}][out:json][timeout:300];(${query});out body;>;out skel qt;`
+  let fullQuery = `[bbox:${bbox}][out:json][timeout:1600];`
+  if (query.includes('out ')) {
+    fullQuery += query
+  } else {
+    fullQuery += `(${query}); out tags center;`
+  }
 
-function osmtoGeoJSONfile(bbox,query,filename){
-    console.log(`Extracting ${filename}`);
-    let fullQuery=`[bbox:${bbox}][out:json][timeout:300];(${query});out body;>;out skel qt;`;
+  console.log(`Extracting ${filename} with query "${fullQuery}"`)
 
-    var req = queryOverpass(fullQuery,
-        function(err, geojson) {
-            if (err) { 
-                console.log(`${filename} - Query failed: ${fullQuery}`);
-                return; 
-            }
-            console.log(`${filename} - Query executed ok, returned ${geojson.features.length} features` );
-            toFile(geojson,filename);
-        },
-        {flatProperties:true}
-        );
+  queryOverpass(fullQuery,
+    function (err, geojson) {
+      if (err) {
+        console.error(`${filename} - Query failed: ${fullQuery} - ERROR: ${err.statusCode} ${err.message}`)
+        return
+      }
+      console.log(`${filename} - Query executed ok, returned ${geojson.features.length} features`)
+      // postProcess.postProcess(geojson)
+      toFile(geojson, filename)
+    },
+    { flatProperties: true }
+  )
+}
+/**
+ * Save an object to a named file
+ * @param {*} obj Any js object
+ * @param {*} filename full path and name of destination file
+ */
+function toFile (obj, filename) {
+  let jsonContent = JSON.stringify(obj, null, ' ')
+  // console.log(jsonContent);
+
+  fs.writeFile(filename, jsonContent, 'utf8', function (err) {
+    if (err) {
+      console.log(`${filename} - Error while attempting to save:`)
+      return console.log(err)
     }
 
-
-function toFile(obj, filename){
-    let jsonContent = JSON.stringify(obj,null," ");
-    //console.log(jsonContent);
-        
-    fs.writeFile(filename, jsonContent, 'utf8', function (err) {
-        if (err) {
-            console.log(`${filename} - Error while attempting to save:`);
-            return console.log(err);
-        }
-        
-        console.log( filename + " has been saved.");
-    });
+    console.log(filename + ' has been saved.')
+  })
 }

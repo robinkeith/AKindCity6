@@ -3,156 +3,1564 @@
  "features": [
   {
    "type": "Feature",
-   "id": "relation/2181552",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housenumber": "52-53",
-    "addr:postcode": "NR2 1ND",
-    "addr:street": "Market Place",
-    "amenity": "cafe",
-    "fhrs:id": "344753",
-    "name": "Burgill Coffee",
-    "note": "Coffee and continental snacks",
-    "operator": "Little red Roaster​",
-    "source:addr": "FHRS Open Data",
-    "type": "multipolygon",
-    "id": "relation/2181552"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2928128,
-       52.6283712
-      ],
-      [
-       1.292811,
-       52.6283505
-      ],
-      [
-       1.292851,
-       52.6283492
-      ],
-      [
-       1.2928911,
-       52.6283479
-      ],
-      [
-       1.2928929,
-       52.6283687
-      ],
-      [
-       1.2928528,
-       52.62837
-      ],
-      [
-       1.2928128,
-       52.6283712
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "relation/3152337",
+   "id": "node/355536540",
    "properties": {
     "addr:city": "Norwich",
     "addr:country": "GB",
-    "addr:housenumber": "121",
-    "addr:postcode": "NR2 1ND",
-    "addr:street": "Market Place",
+    "addr:housename": "Forum Building",
+    "addr:postcode": "NR2 1TF",
+    "addr:street": "Millennium Plain",
     "amenity": "cafe",
-    "building": "stall",
-    "fhrs:id": "15631",
-    "name": "Bs Ts Snack Bar",
-    "operator": "BJs",
-    "ref": "121",
-    "shop": "refreshments",
-    "type": "multipolygon",
-    "id": "relation/3152337"
+    "fhrs:id": "84112",
+    "kitchen_hours": "Mo-Sa 08:30-23:00; Su 09:30-22:30",
+    "name": "Café Bar Marzano",
+    "not:addr:postcode": "NR2 1BH",
+    "opening_hours": "Mo-Th 08:30-22:00; Fr-Sa 08:30-23:00; Su 09:30-22:00",
+    "outdoor_seating": "yes",
+    "phone": "+44 1603 665504",
+    "real_ale": "yes",
+    "toilets:wheelchair": "yes",
+    "website": "https://www.facebook.com/cafebarmarzano",
+    "wheelchair": "yes",
+    "id": "node/355536540",
+    "mapFeature": {
+     "caption": "Café Bar Marzano",
+     "allowPopup": true,
+     "location": " Millennium Plain  \n  NR2 1TF <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2927333,
-       52.6285595
-      ],
-      [
-       1.2927733,
-       52.6285582
-      ],
-      [
-       1.2927751,
-       52.628579
-      ],
-      [
-       1.2927351,
-       52.6285803
-      ],
-      [
-       1.2927333,
-       52.6285595
-      ]
-     ]
+     1.2914672,
+     52.6278151
     ]
    }
   },
   {
    "type": "Feature",
-   "id": "relation/5710976",
+   "id": "node/1188157138",
    "properties": {
     "addr:city": "Norwich",
-    "addr:housenumber": "78-80",
-    "addr:postcode": "NR1 1NJ",
-    "addr:street": "Prince of Wales Road",
+    "addr:country": "GB",
+    "addr:housename": "Unit 2c",
+    "addr:housenumber": "2c",
+    "addr:postcode": "NR1 1WR",
+    "addr:street": "Albion Way",
     "amenity": "cafe",
-    "cuisine": "greek",
-    "disused:amenity": "fast_food",
-    "fhrs:id": "1070661",
-    "level": "0",
-    "name": "The Feed",
-    "old_name": "GRK Greek Kitchen",
-    "type": "multipolygon",
-    "website": "https://thefeed.org.uk/",
-    "id": "relation/5710976"
+    "cuisine": "coffee",
+    "fhrs:id": "22923",
+    "name": "Costa Coffee",
+    "phone": "+44 1603 613441",
+    "id": "node/1188157138",
+    "mapFeature": {
+     "caption": "Costa Coffee",
+     "allowPopup": true,
+     "location": "2c  Albion Way  \n  NR1 1WR <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3028518,
-       52.6291429
-      ],
-      [
-       1.3027916,
-       52.6291646
-      ],
-      [
-       1.302703,
-       52.6290655
-      ],
-      [
-       1.3027626,
-       52.6290464
-      ],
-      [
-       1.3028286,
-       52.6290237
-      ],
-      [
-       1.302921,
-       52.62912
-      ],
-      [
-       1.3028518,
-       52.6291429
-      ]
+     1.3072015,
+     52.6226441
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1248122810",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "c/o House of Fraser",
+    "addr:postcode": "NR2 1SH",
+    "addr:street": "Merchants' Hall",
+    "amenity": "cafe",
+    "brand": "Caffè Nero",
+    "brand:wikidata": "Q675808",
+    "brand:wikipedia": "en:Caffè Nero",
+    "cuisine": "coffee_shop",
+    "fhrs:id": "15505",
+    "name": "Caffè Nero",
+    "opening_hours": "Mo-We 09:00-18:00; Th 09:00-20:00; Fr-Sa 09:00-19:00; Su 11:00-17:00; PH 10:00-18:00",
+    "phone": "+44 1603 764111",
+    "takeaway": "yes",
+    "website": "https://caffenero.com/",
+    "id": "node/1248122810",
+    "mapFeature": {
+     "caption": "Caffè Nero",
+     "allowPopup": true,
+     "location": " Merchants' Hall  \n  NR2 1SH <br />\n  \n  \n  ",
+     "layers": [
+      "food"
      ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2884701,
+     52.6263446
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1295110758",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "42-46",
+    "addr:postcode": "NR2 1NR",
+    "addr:street": "Bethel Street",
+    "amenity": "cafe",
+    "contact:website": "http://greenhousetrust.co.uk/",
+    "cuisine": "coffee_shop",
+    "diet:gluten_free": "yes",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "only",
+    "fhrs:id": "5045",
+    "gay": "welcome",
+    "name": "The Greenhouse Trust",
+    "smoking": "no",
+    "id": "node/1295110758",
+    "mapFeature": {
+     "caption": "The Greenhouse Trust",
+     "allowPopup": true,
+     "location": "42-46  Bethel Street  \n  NR2 1NR <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.289322,
+     52.6283953
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1365424876",
+   "properties": {
+    "addr:housename": "Tesco Supermarket",
+    "addr:postcode": "NR4 6DZ",
+    "addr:street": "Main Road",
+    "addr:village": "Caistor St Edmund",
+    "amenity": "cafe",
+    "fhrs:id": "648697",
+    "name": "Costa Coffee",
+    "opening_hours": "Mo-We,Sa 08:00-18:00; Th-Fr 08:00-20:00; Su 10:00-16:00",
+    "source:addr": "FHRS Open Data",
+    "id": "node/1365424876",
+    "mapFeature": {
+     "caption": "Costa Coffee",
+     "allowPopup": true,
+     "location": " Main Road  \n  NR4 6DZ <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2770326,
+     52.5952878
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1631947640",
+   "properties": {
+    "amenity": "cafe",
+    "name": "Decafe",
+    "id": "node/1631947640",
+    "mapFeature": {
+     "caption": "Decafe",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2655089,
+     52.6629851
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1709852312",
+   "properties": {
+    "amenity": "cafe",
+    "name": "Inspirations Cafe",
+    "id": "node/1709852312",
+    "mapFeature": {
+     "caption": "Inspirations Cafe",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2850342,
+     52.6172482
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1819470087",
+   "properties": {
+    "amenity": "cafe",
+    "name": "Café Oasis",
+    "wheelchair": "yes",
+    "id": "node/1819470087",
+    "mapFeature": {
+     "caption": "Café Oasis",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2771615,
+     52.6699781
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1819470088",
+   "properties": {
+    "amenity": "cafe",
+    "name": "Costa Coffee",
+    "wheelchair": "yes",
+    "id": "node/1819470088",
+    "mapFeature": {
+     "caption": "Costa Coffee",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.277388,
+     52.6697373
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1898832591",
+   "properties": {
+    "amenity": "cafe",
+    "name": "cafe 6",
+    "id": "node/1898832591",
+    "mapFeature": {
+     "caption": "cafe 6",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2910809,
+     52.6124956
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/2328161598",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "Sainsbury Centre For Visual Arts",
+    "addr:place": "University Of East Anglia",
+    "addr:postcode": "NR4 7TJ",
+    "addr:street": "Norfolk Road",
+    "amenity": "cafe",
+    "fhrs:id": "847491",
+    "kitchen_hours": "09:00-11:00,12:00-14:00",
+    "name": "Modern Life Café",
+    "opening_hours": "Mo-Fr 09:00-18:00; Sa-Su 10:00-17:00",
+    "operator": "BaxterStorey",
+    "phone": "+44 1603 593202",
+    "id": "node/2328161598",
+    "mapFeature": {
+     "caption": "Modern Life Café",
+     "allowPopup": true,
+     "location": " Norfolk Road  \n  NR4 7TJ <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2340861,
+     52.6206746
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/2381422615",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housename": "Bus Station",
+    "addr:postcode": "NR1 3NX",
+    "addr:street": "Surrey Street",
+    "amenity": "cafe",
+    "fhrs:id": "15599",
+    "name": "Refresh Express",
+    "source:addr": "FHRS Open Data",
+    "id": "node/2381422615",
+    "mapFeature": {
+     "caption": "Refresh Express",
+     "allowPopup": true,
+     "location": " Surrey Street  \n  NR1 3NX <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2930942,
+     52.6244259
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/2744407130",
+   "properties": {
+    "addr:housename": "Julian Study Centre",
+    "addr:place": "University Of East Anglia",
+    "addr:postcode": "NR4 7TJ",
+    "addr:street": "Chancellors Drive",
+    "amenity": "cafe",
+    "fhrs:id": "661391",
+    "name": "Costa @ Cafe 57",
+    "operator": "UEA",
+    "website": "https://portal.uea.ac.uk/campus-kitchen/cafes-and-restaurants/cafe-57",
+    "id": "node/2744407130",
+    "mapFeature": {
+     "caption": "Costa @ Cafe 57",
+     "allowPopup": true,
+     "location": " Chancellors Drive  \n  NR4 7TJ <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2340437,
+     52.6221728
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/3141765957",
+   "properties": {
+    "FIXME": "Survey to position",
+    "amenity": "cafe",
+    "name": "Morrisons café",
+    "opening_hours": "Mo-Th,Sa 08:00-19:00; Fr 08:00-20:00; Su 09:30-15:00",
+    "id": "node/3141765957",
+    "mapFeature": {
+     "caption": "Morrisons café",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3089266,
+     52.6238151
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/3491809093",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housename": "Sainsbury Centre For Visual Arts",
+    "addr:place": "University of East Anglia",
+    "addr:postcode": "NR4 7TJ",
+    "addr:street": "Norfolk Road",
+    "amenity": "cafe",
+    "fhrs:id": "816417",
+    "name": "Kofra",
+    "opening_hours": "Tu-Fr 09:00-17:30; Sa-Su 10:00-16:30",
+    "website": "https://scva.ac.uk/visit/modern-life-cafe",
+    "id": "node/3491809093",
+    "mapFeature": {
+     "caption": "Kofra",
+     "allowPopup": true,
+     "location": " Norfolk Road  \n  NR4 7TJ <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.235307,
+     52.6199765
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/3577019001",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housename": "Central Catering Building",
+    "addr:place": "University Of East Anglia",
+    "addr:postcode": "NR4 7TJ",
+    "addr:street": "The Square",
+    "amenity": "cafe",
+    "fhrs:id": "14621",
+    "indoor": "yes",
+    "level": "1",
+    "name": "Blend",
+    "opening_hours": "Sep 21-Jun 7: Mo-Fr 10:00-16:00; Jun 8-Sep 20: off",
+    "source:addr": "FHRS Open Data",
+    "website": "https://portal.uea.ac.uk/campus-kitchen/cafes-and-restaurants/blend",
+    "id": "node/3577019001",
+    "mapFeature": {
+     "caption": "Blend",
+     "allowPopup": true,
+     "location": " The Square  \n  <strong>Level:</strong>&nbsp;1 NR4 7TJ <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2404417,
+     52.6216374
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/3577021480",
+   "properties": {
+    "addr:housename": "Biomedical Research Centre",
+    "addr:place": "University Of East Anglia",
+    "addr:postcode": "NR4 7TJ",
+    "addr:street": "Norfolk Road",
+    "amenity": "cafe",
+    "fhrs:id": "212562",
+    "indoor": "yes",
+    "level": "0",
+    "name": "Atrium Cafe",
+    "old_name": "Bio Café",
+    "opening_hours": "Apr 13-Sep 20: Mo-Fr 09:00-16:00",
+    "source:addr": "FHRS Open Data",
+    "id": "node/3577021480",
+    "mapFeature": {
+     "caption": "Atrium Cafe",
+     "allowPopup": true,
+     "location": " Norfolk Road  \n  <strong>Level:</strong>&nbsp;0 NR4 7TJ <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2363488,
+     52.6208152
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/3577025505",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housename": "Sportspark",
+    "addr:place": "University Of East Anglia",
+    "addr:postcode": "NR4 7TJ",
+    "addr:street": "University Drive",
+    "amenity": "cafe",
+    "fhrs:id": "724480",
+    "kitchen_hours": "Mo-Th 08:00-21:30; Fr-Su 08:00-21:00",
+    "name": "Sportscafe",
+    "opening_hours": "Mo-Th 08:00-22:00; Fr-Su 08:00-21:30",
+    "source:addr": "FHRS Open Data",
+    "website": "https://portal.uea.ac.uk/campus-kitchen/cafes-and-restaurants/sports-park-cafe",
+    "wheelchair": "yes",
+    "id": "node/3577025505",
+    "mapFeature": {
+     "caption": "Sportscafe",
+     "allowPopup": true,
+     "location": " University Drive  \n  NR4 7TJ <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2409994,
+     52.6242167
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/3709817672",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:postcode": "NR4 7AU",
+    "addr:site": "Eaton Park",
+    "addr:street": "South Park Avenue",
+    "amenity": "cafe",
+    "fhrs:id": "878419",
+    "name": "Eaton Park Café",
+    "source:addr": "FHRS Open Data",
+    "url": "http://friendsofeatonpark.co.uk/cafe/",
+    "id": "node/3709817672",
+    "mapFeature": {
+     "caption": "Eaton Park Café",
+     "allowPopup": true,
+     "location": " South Park Avenue  \n  NR4 7AU <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2573178,
+     52.6202795
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/3721471907",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housename": "Sainsbury's",
+    "addr:housenumber": "1",
+    "addr:postcode": "NR1 3RB",
+    "addr:street": "Brazen Gate",
+    "amenity": "cafe",
+    "fhrs:id": "97277",
+    "name": "Sainsbury's Cafe",
+    "opening_hours": "Mo-Sa 08:00-19:00; Su 09:30-15:30",
+    "source:addr": "FHRS Open Data",
+    "id": "node/3721471907",
+    "mapFeature": {
+     "caption": "Sainsbury's Cafe",
+     "allowPopup": true,
+     "location": "1  Brazen Gate  \n  NR1 3RB <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2932938,
+     52.6216541
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/3782213550",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housename": "Centrum",
+    "addr:parentstreet": "Colney Lane",
+    "addr:place": "Norwich Research Park",
+    "addr:postcode": "NR4 7UG",
+    "addr:suburb": "Colney",
+    "amenity": "cafe",
+    "fhrs:id": "691751",
+    "name": "The Cafe at Centrum",
+    "operator": "Genuine Dining",
+    "source:addr": "FHRS Open Data",
+    "website": "https://www.norwichresearchpark.com/property-and-park/amenities/cafe",
+    "id": "node/3782213550",
+    "mapFeature": {
+     "caption": "The Cafe at Centrum",
+     "allowPopup": true,
+     "location": "  \n  NR4 7UG <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2199393,
+     52.6227134
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/4207837430",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housename": "Abc Wharf",
+    "addr:postcode": "NR1 1QH",
+    "addr:street": "King Street",
+    "addr:unit": "Unit 1",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "fhrs:id": "638066",
+    "name": "Smokey Barn",
+    "source:addr": "FHRS Open Data",
+    "id": "node/4207837430",
+    "mapFeature": {
+     "caption": "Smokey Barn",
+     "allowPopup": true,
+     "location": " King Street  \n  NR1 1QH <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3023634,
+     52.6242551
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/4853525623",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "23",
+    "addr:postcode": "NR2 1DN",
+    "addr:street": "Saint John Maddermarket",
+    "amenity": "cafe",
+    "cuisine": "cake;coffee_shop",
+    "fhrs:id": "905156",
+    "name": "Figbar",
+    "website": "http://www.figbarnorwich.com",
+    "id": "node/4853525623",
+    "mapFeature": {
+     "caption": "Figbar",
+     "allowPopup": true,
+     "location": "23  Saint John Maddermarket  \n  NR2 1DN <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2930456,
+     52.6305655
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/5073370280",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housename": "St Michael At Plea Church",
+    "addr:postcode": "NR2 4SN",
+    "addr:street": "Redwell Street",
+    "amenity": "cafe",
+    "fhrs:id": "62360",
+    "name": "Revelation Café",
+    "opening_hours": "Mo-Sa 09:30-15:30; Su off",
+    "source:addr": "FHRS Open Data",
+    "id": "node/5073370280",
+    "mapFeature": {
+     "caption": "Revelation Café",
+     "allowPopup": true,
+     "location": " Redwell Street  \n  NR2 4SN <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2971216,
+     52.6304932
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/5167531554",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "41",
+    "addr:postcode": "NR1 1PH",
+    "addr:street": "King Street",
+    "amenity": "cafe",
+    "fhrs:id": "915711",
+    "name": "The cafe club",
+    "source:addr": "FHRS Open Data",
+    "id": "node/5167531554",
+    "mapFeature": {
+     "caption": "The cafe club",
+     "allowPopup": true,
+     "location": "41  King Street  \n  NR1 1PH <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2995929,
+     52.6279832
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/5223683340",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "27-29",
+    "addr:postcode": "NR1 3LA",
+    "addr:street": "Timberhill",
+    "amenity": "cafe",
+    "fhrs:id": "878411",
+    "name": "Timberhill Bakery",
+    "opening_hours": "Tu-Fr 08:00-15:00; Sa 08:00-16:00; Su-Mo off",
+    "phone": "+44 1603 613 172",
+    "shop": "bakery",
+    "source:addr": "FHRS Open Data",
+    "website": "https://timberhillbakery.com/",
+    "id": "node/5223683340",
+    "mapFeature": {
+     "caption": "Timberhill Bakery",
+     "allowPopup": true,
+     "location": "27-29  Timberhill  \n  NR1 3LA <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2954472,
+     52.6262387
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/5308591324",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "33",
+    "addr:postcode": "NR2 1DP",
+    "addr:street": "Exchange Street",
+    "amenity": "cafe",
+    "fhrs:id": "18083",
+    "name": "No 33 Cafe Bar",
+    "source:addr": "FHRS Open Data",
+    "id": "node/5308591324",
+    "mapFeature": {
+     "caption": "No 33 Cafe Bar",
+     "allowPopup": true,
+     "location": "33  Exchange Street  \n  NR2 1DP <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2938036,
+     52.6300789
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/5308705221",
+   "properties": {
+    "amenity": "cafe",
+    "name": "Cafe 67",
+    "id": "node/5308705221",
+    "mapFeature": {
+     "caption": "Cafe 67",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2922896,
+     52.6340175
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/5456045474",
+   "properties": {
+    "addr:housenumber": "6",
+    "addr:postcode": "NR8 6AF",
+    "addr:street": "Drayton High Road",
+    "addr:village": "Drayton",
+    "amenity": "cafe",
+    "cuisine": "regional",
+    "fhrs:id": "124819",
+    "name": "The Willows",
+    "source:addr": "FHRS Open Data",
+    "id": "node/5456045474",
+    "mapFeature": {
+     "caption": "The Willows",
+     "allowPopup": true,
+     "location": "6  Drayton High Road  \n  NR8 6AF <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2252865,
+     52.6754167
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/5828954533",
+   "properties": {
+    "addr:housenumber": "27",
+    "addr:postcode": "NR3 1LE",
+    "addr:street": "Magdalene Street",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "diet:vegan": "only",
+    "facebook": "https://www.facebook.com/Ancestorscoffee/",
+    "fhrs:id": "991861",
+    "instagram": "https://www.instagram.com/ancestorscoffee/",
+    "name": "Ancestors Coffee",
+    "opening_hours": "Mo 09:30-15:00; Tu-Fr 08:00-17:00; Sa 09:00-18:00; Su 10:00-16:00",
+    "source:addr:postcode": "FHRS Open Data",
+    "id": "node/5828954533",
+    "mapFeature": {
+     "caption": "Ancestors Coffee",
+     "allowPopup": true,
+     "location": "27  Magdalene Street  \n  NR3 1LE <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2967796,
+     52.6343261
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/5829166586",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housename": "39",
+    "addr:postcode": "NR3 1LQ",
+    "addr:street": "Magdalen Street",
+    "amenity": "cafe",
+    "cuisine": "moroccan;coffee_shop;deli",
+    "fhrs:id": "720256",
+    "internet_access": "wlan",
+    "name": "Ruth’s Kitchen",
+    "source:addr": "FHRS Open Data",
+    "id": "node/5829166586",
+    "mapFeature": {
+     "caption": "Ruth’s Kitchen",
+     "allowPopup": true,
+     "location": " Magdalen Street  \n  NR3 1LQ <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2966624,
+     52.6346604
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/5835963849",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housename": "Guildhall",
+    "addr:postcode": "NR2 1JP",
+    "addr:street": "Gaol Hill",
+    "amenity": "cafe",
+    "email": "hello@cafebritannia.co.uk",
+    "fhrs:id": "855618",
+    "indoor": "yes",
+    "name": "Guildhall Britannica",
+    "opening_hours": "Mo-Su 08:00-16:00",
+    "phone": "+44 1603 629364",
+    "source:addr": "FHRS Open Data",
+    "id": "node/5835963849",
+    "mapFeature": {
+     "caption": "Guildhall Britannica",
+     "allowPopup": true,
+     "location": " Gaol Hill  \n  NR2 1JP <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2925215,
+     52.6289884
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/5926595685",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housename": "The Enterprise Centre",
+    "addr:place": "University of East Anglia",
+    "addr:postcode": "NR4 7TJ",
+    "alt_name": "Mustard Cafe",
+    "alt_url": "https://www.uea.ac.uk/adapt/the-enterprise-centre/namaste-hut-cafe",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "only",
+    "fhrs:id": "840060;1149938",
+    "name": "Namaste Hut",
+    "opening_hours": "Mo-Fr 08:30-15:30",
+    "url": "http://www.namastehutcafe.com/",
+    "id": "node/5926595685",
+    "mapFeature": {
+     "caption": "Namaste Hut",
+     "allowPopup": true,
+     "location": "  \n  NR4 7TJ <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2395215,
+     52.6255858
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/6313256185",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "117",
+    "addr:postcode": "NR2 2PE",
+    "addr:street": "Unthank Road",
+    "amenity": "cafe",
+    "fhrs:id": "15164",
+    "name": "Unthank Kitchen",
+    "source:addr": "FHRS Open Data",
+    "id": "node/6313256185",
+    "mapFeature": {
+     "caption": "Unthank Kitchen",
+     "allowPopup": true,
+     "location": "117  Unthank Road  \n  NR2 2PE <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2772047,
+     52.6242138
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/6327334540",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:postcode": "NR13 4AZ",
+    "addr:street": "Station Road",
+    "addr:village": "Lingwood",
+    "amenity": "cafe",
+    "fhrs:id": "844345",
+    "name": "Hug a Mug Cafe",
+    "opening_hours": "Mo-Th 08:45-15:00; Fr 07:00-12:00; Sa 08:30-12:00",
+    "source:addr": "FHRS Open Data",
+    "url": "http://www.lingwoodvh.co.uk/hug-a-mug-cafe",
+    "id": "node/6327334540",
+    "mapFeature": {
+     "caption": "Hug a Mug Cafe",
+     "allowPopup": true,
+     "location": " Station Road  \n  NR13 4AZ <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.4907909,
+     52.6189301
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/6458472085",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housename": "Union House",
+    "addr:place": "University of East Anglia",
+    "addr:postcode": "NR4 7TJ",
+    "addr:street": "The Street",
+    "amenity": "cafe",
+    "fhrs:id": "861575",
+    "level": "1",
+    "name": "Unio",
+    "source:addr": "FSA Food Hygiene Ratings Database",
+    "id": "node/6458472085",
+    "mapFeature": {
+     "caption": "Unio",
+     "allowPopup": true,
+     "location": " The Street  \n  <strong>Level:</strong>&nbsp;1 NR4 7TJ <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.241243,
+     52.6214779
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/6466626786",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "2",
+    "addr:postcode": "NR2 1JH",
+    "addr:street": "Guildhall Hill",
+    "amenity": "cafe",
+    "fhrs:id": "48621",
+    "name": "Ground",
+    "source:addr": "FHRS Open Data",
+    "id": "node/6466626786",
+    "mapFeature": {
+     "caption": "Ground",
+     "allowPopup": true,
+     "location": "2  Guildhall Hill  \n  NR2 1JH <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2922112,
+     52.629175
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/6469370766",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housename": "Waterstones",
+    "addr:housenumber": "11-17",
+    "addr:postcode": "NR2 1PB",
+    "addr:street": "Castle Street",
+    "amenity": "cafe",
+    "fhrs:id": "457277",
+    "name": "Cafe W",
+    "source:addr": "FSA Food Hygiene Ratings Database",
+    "id": "node/6469370766",
+    "mapFeature": {
+     "caption": "Cafe W",
+     "allowPopup": true,
+     "location": "11-17  Castle Street  \n  NR2 1PB <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2950402,
+     52.6286459
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/6545308134",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housename": "Union House",
+    "addr:locality": "University Of East Anglia",
+    "addr:postcode": "NR4 7TJ",
+    "addr:street": "The Street",
+    "amenity": "cafe",
+    "fhrs:id": "915692",
+    "level": "2",
+    "name": "Scholars",
+    "source:addr": "FSA Food Hygiene Ratings Database",
+    "id": "node/6545308134",
+    "mapFeature": {
+     "caption": "Scholars",
+     "allowPopup": true,
+     "location": " The Street  \n  <strong>Level:</strong>&nbsp;2 NR4 7TJ <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.241506,
+     52.6213256
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/6565981555",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housename": "John Lewis",
+    "addr:postcode": "NR1 3LX",
+    "addr:street": "All Saints Green",
+    "amenity": "cafe",
+    "fhrs:id": "958567",
+    "level": "1",
+    "name": "Benugo",
+    "operator": "John Lewis & Partners",
+    "source:addr": "FHRS Open Data",
+    "id": "node/6565981555",
+    "mapFeature": {
+     "caption": "Benugo",
+     "allowPopup": true,
+     "location": " All Saints Green  \n  <strong>Level:</strong>&nbsp;1 NR1 3LX <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.29629,
+     52.6253993
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/6567754517",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "18-19",
+    "addr:postcode": "NR2 1NQ",
+    "addr:street": "Royal Arcade",
+    "amenity": "cafe",
+    "fhrs:id": "4910",
+    "name": "Marmalades",
+    "source:addr:postcode": "FSA Food Hygiene Ratings Database",
+    "website": "https://www.facebook.com/marmaladescafe/",
+    "id": "node/6567754517",
+    "mapFeature": {
+     "caption": "Marmalades",
+     "allowPopup": true,
+     "location": "18-19  Royal Arcade  \n  NR2 1NQ <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2940534,
+     52.6280787
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/6568273969",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "48",
+    "addr:postcode": "NR2 1LA",
+    "addr:street": "London Street",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "fhrs:id": "632122",
+    "name": "Costa",
+    "source:addr": "FHRS Open Data",
+    "id": "node/6568273969",
+    "mapFeature": {
+     "caption": "Costa",
+     "allowPopup": true,
+     "location": "48  London Street  \n  NR2 1LA <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2958599,
+     52.6295193
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/6568273972",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "50",
+    "addr:postcode": "NR2 1LA",
+    "addr:street": "London Street",
+    "amenity": "cafe",
+    "fhrs:id": "41579",
+    "name": "Greggs",
+    "shop": "bakery",
+    "source:addr": "FHRS Open Data",
+    "id": "node/6568273972",
+    "mapFeature": {
+     "caption": "Greggs",
+     "allowPopup": true,
+     "location": "50  London Street  \n  NR2 1LA <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.295935,
+     52.6295664
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/6568299050",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "21-23",
+    "addr:postcode": "NR1 3DH",
+    "addr:street": "Castle Meadow",
+    "amenity": "cafe",
+    "fhrs:id": "1038203",
+    "name": "Kinda Kafe",
+    "website": "https://www.missingkind.org/kindakafe-norwich",
+    "id": "node/6568299050",
+    "mapFeature": {
+     "caption": "Kinda Kafe",
+     "allowPopup": true,
+     "location": "21-23  Castle Meadow  \n  NR1 3DH <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2961925,
+     52.6294037
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/6570241119",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housename": "Norwich Cathedral",
+    "addr:postcode": "NR1 4DH",
+    "addr:street": "The Close",
+    "amenity": "cafe",
+    "fhrs:id": "10454",
+    "name": "The Refectory",
+    "opening_hours": "Mo-Sa 10:00-17:00; Su 11:00-17:00",
+    "operator": "Norwich Cathedral",
+    "source:addr": "FSA Food Hygiene Ratings Database",
+    "website": "https://www.cathedral.org.uk/visit/food-drink",
+    "id": "node/6570241119",
+    "mapFeature": {
+     "caption": "The Refectory",
+     "allowPopup": true,
+     "location": " The Close  \n  NR1 4DH <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3010267,
+     52.6312333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/6573544539",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housename": "St Elizabeth Church",
+    "addr:postcode": "NR5 8DG",
+    "addr:street": "Cadge Road",
+    "amenity": "cafe",
+    "fhrs:id": "740994",
+    "name": "The Beacon Cafe",
+    "source:addr": "FHRS Open Data",
+    "website": "https://www.facebook.com/The-Beacon-Cafe-360026354201734/",
+    "id": "node/6573544539",
+    "mapFeature": {
+     "caption": "The Beacon Cafe",
+     "allowPopup": true,
+     "location": " Cadge Road  \n  NR5 8DG <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2475619,
+     52.6337734
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/6573547229",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housename": "INTO",
+    "addr:place": "University of East Anglia",
+    "addr:postcode": "NR4 7TJ",
+    "addr:street": "University Drive",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "fhrs:id": "26530",
+    "level": "0",
+    "id": "node/6573547229",
+    "mapFeature": {
+     "caption": "INTO",
+     "allowPopup": true,
+     "location": " University Drive  \n  <strong>Level:</strong>&nbsp;0 NR4 7TJ <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2453732,
+     52.6233035
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/6574767225",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housename": "Cadge Road Community Centre",
+    "addr:postcode": "NR5 8DG",
+    "addr:street": "Cadge Road",
+    "amenity": "cafe",
+    "fhrs:id": "1027453",
+    "name": "Silver Diners Lunch Club",
+    "opening_hours": "Tu 12:00-14:00",
+    "source:addr": "FHRS Open Data",
+    "id": "node/6574767225",
+    "mapFeature": {
+     "caption": "Silver Diners Lunch Club",
+     "allowPopup": true,
+     "location": " Cadge Road  \n  NR5 8DG <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2465463,
+     52.6346144
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/6582537700",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housename": "Premier Inn",
+    "addr:postcode": "NR1 1DX",
+    "addr:street": "Prince Of Wales Road",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "fhrs:id": "924810",
+    "name": "Costa",
+    "source:addr": "FHRS Open Data",
+    "id": "node/6582537700",
+    "mapFeature": {
+     "caption": "Costa",
+     "allowPopup": true,
+     "location": " Prince Of Wales Road  \n  NR1 1DX <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3053333,
+     52.6278686
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/6585366688",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housename": "St Stephen's",
+    "addr:postcode": "NR2 1QP",
+    "addr:street": "Rampant Horse Street",
+    "amenity": "cafe",
+    "fhrs:id": "764776",
+    "name": "St Stephen's Café",
+    "opening_hours": "Mo-Sa 10:00-15:30",
+    "website": "http://www.ststephensnorwich.org/cafe/",
+    "id": "node/6585366688",
+    "mapFeature": {
+     "caption": "St Stephen's Café",
+     "allowPopup": true,
+     "location": " Rampant Horse Street  \n  NR2 1QP <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2921435,
+     52.6265987
     ]
    }
   },
@@ -172,49 +1580,21 @@
     "name": "Café Britannia",
     "source:addr": "FHRS Open Data",
     "website": "https://www.cafebritannia.co.uk/waterloo-park",
-    "id": "way/40507574"
+    "id": "way/40507574",
+    "mapFeature": {
+     "caption": "Café Britannia",
+     "allowPopup": true,
+     "location": " Angel Road  \n  NR3 3HX <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2882655,
-       52.6450508
-      ],
-      [
-       1.2882243,
-       52.6446417
-      ],
-      [
-       1.2884293,
-       52.6446341
-      ],
-      [
-       1.288442,
-       52.6447603
-      ],
-      [
-       1.288416,
-       52.6447613
-      ],
-      [
-       1.288431,
-       52.6449101
-      ],
-      [
-       1.2884502,
-       52.6449094
-      ],
-      [
-       1.2884637,
-       52.6450435
-      ],
-      [
-       1.2882655,
-       52.6450508
-      ]
-     ]
+     1.288344,
+     52.6448424
     ]
    }
   },
@@ -232,33 +1612,21 @@
     "name": "Earlham Park Café",
     "opening_hours": "Tu-We,Fr-Su 09:30-16:30; Mo off",
     "source:addr": "FHRS Open Data",
-    "id": "way/60439094"
+    "id": "way/60439094",
+    "mapFeature": {
+     "caption": "Earlham Park Café",
+     "allowPopup": true,
+     "location": " Earlham Road  \n  NR4 7TQ <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2353226,
-       52.6261662
-      ],
-      [
-       1.2352128,
-       52.6260131
-      ],
-      [
-       1.2353325,
-       52.6259815
-      ],
-      [
-       1.2354422,
-       52.6261345
-      ],
-      [
-       1.2353226,
-       52.6261662
-      ]
-     ]
+     1.2353275,
+     52.6260738
     ]
    }
   },
@@ -275,41 +1643,21 @@
     "fhrs:id": "719145",
     "name": "Sunny Side Up",
     "url": "http://www.sunnysideupnorwich.co.uk/",
-    "id": "way/104310135"
+    "id": "way/104310135",
+    "mapFeature": {
+     "caption": "Sunny Side Up",
+     "allowPopup": true,
+     "location": "118  Hall Road  \n  NR1 3HP <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2971962,
-       52.6178056
-      ],
-      [
-       1.2972198,
-       52.6178544
-      ],
-      [
-       1.2970236,
-       52.6178879
-      ],
-      [
-       1.2969789,
-       52.6178951
-      ],
-      [
-       1.2969566,
-       52.6178494
-      ],
-      [
-       1.2970769,
-       52.617828
-      ],
-      [
-       1.2971962,
-       52.6178056
-      ]
-     ]
+     1.2970882,
+     52.6178503
     ]
    }
   },
@@ -330,69 +1678,21 @@
     "layer": "-4",
     "level": "1",
     "name": "Muffin Break",
-    "id": "way/107045733"
+    "id": "way/107045733",
+    "mapFeature": {
+     "caption": "Muffin Break",
+     "allowPopup": true,
+     "location": "48   \n  <strong>Level:</strong>&nbsp;1 NR1 3DD <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2953916,
-       52.6276193
-      ],
-      [
-       1.2953778,
-       52.6276265
-      ],
-      [
-       1.2953654,
-       52.6276422
-      ],
-      [
-       1.2953654,
-       52.6276584
-      ],
-      [
-       1.2953778,
-       52.6276763
-      ],
-      [
-       1.2953997,
-       52.6276868
-      ],
-      [
-       1.2953081,
-       52.6277273
-      ],
-      [
-       1.2952461,
-       52.6277273
-      ],
-      [
-       1.2952433,
-       52.627652
-      ],
-      [
-       1.2952805,
-       52.6276503
-      ],
-      [
-       1.295291,
-       52.6276254
-      ],
-      [
-       1.29531,
-       52.6276023
-      ],
-      [
-       1.2953492,
-       52.6275744
-      ],
-      [
-       1.2953916,
-       52.6276193
-      ]
-     ]
+     1.2953215,
+     52.6276508
     ]
    }
   },
@@ -422,45 +1722,21 @@
     "ref": "2974",
     "takeaway": "yes",
     "website": "https://starbucks.co.uk/",
-    "id": "way/107045745"
+    "id": "way/107045745",
+    "mapFeature": {
+     "caption": "Starbucks",
+     "allowPopup": true,
+     "location": "10-11   \n  <strong>Level:</strong>&nbsp;1 NR1 3DD <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2957014,
-       52.6276811
-      ],
-      [
-       1.2958791,
-       52.6276156
-      ],
-      [
-       1.2959703,
-       52.6277103
-      ],
-      [
-       1.2960102,
-       52.6277513
-      ],
-      [
-       1.2958468,
-       52.627786
-      ],
-      [
-       1.2958361,
-       52.6277766
-      ],
-      [
-       1.2958051,
-       52.6277874
-      ],
-      [
-       1.2957014,
-       52.6276811
-      ]
-     ]
+     1.2958558,
+     52.6277015
     ]
    }
   },
@@ -480,53 +1756,21 @@
     "level": "2",
     "name": "Delightful Desserts",
     "website": "https://www.delightfuldesserts.co.uk/locations/norwich/",
-    "id": "way/107046090"
+    "id": "way/107046090",
+    "mapFeature": {
+     "caption": "Delightful Desserts",
+     "allowPopup": true,
+     "location": "76   \n  <strong>Level:</strong>&nbsp;2 NR1 3DD <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.296378,
-       52.6270069
-      ],
-      [
-       1.2963226,
-       52.6269521
-      ],
-      [
-       1.2964908,
-       52.6268898
-      ],
-      [
-       1.2965075,
-       52.6269064
-      ],
-      [
-       1.2965241,
-       52.6269002
-      ],
-      [
-       1.2965544,
-       52.6269302
-      ],
-      [
-       1.2965427,
-       52.6269346
-      ],
-      [
-       1.296551,
-       52.6269428
-      ],
-      [
-       1.296543,
-       52.6269458
-      ],
-      [
-       1.296378,
-       52.6270069
-      ]
-     ]
+     1.2964385,
+     52.6269483
     ]
    }
   },
@@ -549,37 +1793,21 @@
     "opening_hours": "Tu-Th 18:00-23:00; Fr,Sa 10:00-24:00; Su 10:00-16:00",
     "source": "Bing",
     "wheelchair": "yes",
-    "id": "way/108609308"
+    "id": "way/108609308",
+    "mapFeature": {
+     "caption": "Woolf & Social",
+     "allowPopup": true,
+     "location": "21-23  Nelson Street  \n  NR2 4DS <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2753348,
-       52.6354607
-      ],
-      [
-       1.2752358,
-       52.6354698
-      ],
-      [
-       1.2752137,
-       52.6353706
-      ],
-      [
-       1.2752016,
-       52.6353028
-      ],
-      [
-       1.2753016,
-       52.6352904
-      ],
-      [
-       1.2753348,
-       52.6354607
-      ]
-     ]
+     1.2752682,
+     52.6353801
     ]
    }
   },
@@ -608,37 +1836,21 @@
     "phone": "+44 1603 753344",
     "takeaway": "yes",
     "website": "http://www.caffenero.co.uk/",
-    "id": "way/108865901"
+    "id": "way/108865901",
+    "mapFeature": {
+     "caption": "Caffè Nero",
+     "allowPopup": true,
+     "location": "101-104  Saint Stephen's Arcade  \n  <strong>Level:</strong>&nbsp;0 NR2 1SB <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2913203,
-       52.6251315
-      ],
-      [
-       1.2914375,
-       52.6250617
-      ],
-      [
-       1.2914982,
-       52.6250914
-      ],
-      [
-       1.2914571,
-       52.6251267
-      ],
-      [
-       1.2913899,
-       52.6251744
-      ],
-      [
-       1.2913203,
-       52.6251315
-      ]
-     ]
+     1.2914093,
+     52.625118
     ]
    }
   },
@@ -667,57 +1879,21 @@
     "phone": "+44 1603 766326",
     "takeaway": "yes",
     "website": "https://www.costa.co.uk/",
-    "id": "way/108865994"
+    "id": "way/108865994",
+    "mapFeature": {
+     "caption": "Costa",
+     "allowPopup": true,
+     "location": "306  The Dining Terrace  \n  <strong>Level:</strong>&nbsp;2 NR2 1SY <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2898899,
-       52.626148
-      ],
-      [
-       1.2898731,
-       52.6261562
-      ],
-      [
-       1.2898449,
-       52.6261351
-      ],
-      [
-       1.2898117,
-       52.6261512
-      ],
-      [
-       1.2898058,
-       52.6261468
-      ],
-      [
-       1.2897499,
-       52.6261739
-      ],
-      [
-       1.2896403,
-       52.6260905
-      ],
-      [
-       1.2896948,
-       52.6260641
-      ],
-      [
-       1.2896818,
-       52.6260543
-      ],
-      [
-       1.2897336,
-       52.6260292
-      ],
-      [
-       1.2898899,
-       52.626148
-      ]
-     ]
+     1.2897651,
+     52.6261016
     ]
    }
   },
@@ -735,33 +1911,21 @@
     "name": "Harty's Diner",
     "source": "Bing",
     "source:addr": "FHRS Open Data",
-    "id": "way/117007233"
+    "id": "way/117007233",
+    "mapFeature": {
+     "caption": "Harty's Diner",
+     "allowPopup": true,
+     "location": "61-63  Heigham Street  \n  NR2 4TG <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2845628,
-       52.635367
-      ],
-      [
-       1.2844966,
-       52.6353379
-      ],
-      [
-       1.2845526,
-       52.635291
-      ],
-      [
-       1.2846187,
-       52.6353201
-      ],
-      [
-       1.2845628,
-       52.635367
-      ]
-     ]
+     1.2845576,
+     52.635329
     ]
    }
   },
@@ -772,33 +1936,21 @@
     "amenity": "cafe",
     "building": "yes",
     "name": "Kingfisher Tearoom",
-    "id": "way/118848697"
+    "id": "way/118848697",
+    "mapFeature": {
+     "caption": "Kingfisher Tearoom",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.5013354,
-       52.6658458
-      ],
-      [
-       1.5013822,
-       52.6657596
-      ],
-      [
-       1.5017126,
-       52.6658255
-      ],
-      [
-       1.5016659,
-       52.6659117
-      ],
-      [
-       1.5013354,
-       52.6658458
-      ]
-     ]
+     1.501524,
+     52.6658357
     ]
    }
   },
@@ -817,33 +1969,21 @@
     "name": "Bond Street Cafe",
     "source:addr": "FHRS Open Data",
     "source:postcode": "Codepoint",
-    "id": "way/118872859"
+    "id": "way/118872859",
+    "mapFeature": {
+     "caption": "Bond Street Cafe",
+     "allowPopup": true,
+     "location": "47  Bond Street  \n  NR2 3TS <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.266628,
-       52.6342727
-      ],
-      [
-       1.266568,
-       52.634256
-      ],
-      [
-       1.2666057,
-       52.6342061
-      ],
-      [
-       1.2666657,
-       52.6342228
-      ],
-      [
-       1.266628,
-       52.6342727
-      ]
-     ]
+     1.2666168,
+     52.6342394
     ]
    }
   },
@@ -863,33 +2003,21 @@
     "name": "Juniper",
     "phone": "+44 1603 629560",
     "website": "https://www.facebook.com/JuniperCoffeeShop/",
-    "id": "way/119331017"
+    "id": "way/119331017",
+    "mapFeature": {
+     "caption": "Juniper",
+     "allowPopup": true,
+     "location": "13  Saint Stephens Road  \n  NR1 3SP <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2897066,
-       52.6237183
-      ],
-      [
-       1.289779,
-       52.6236744
-      ],
-      [
-       1.2898237,
-       52.6237009
-      ],
-      [
-       1.2897518,
-       52.6237445
-      ],
-      [
-       1.2897066,
-       52.6237183
-      ]
-     ]
+     1.2897652,
+     52.6237094
     ]
    }
   },
@@ -906,41 +2034,21 @@
     "cuisine": "italian",
     "description": "Coffee and pasta house",
     "name": "The Vagabond",
-    "id": "way/119596353"
+    "id": "way/119596353",
+    "mapFeature": {
+     "caption": "The Vagabond",
+     "allowPopup": true,
+     "location": " Riverside  \n  NR1 1EE <br />\n  Coffee and pasta house<br />\n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.305243,
-       52.6271345
-      ],
-      [
-       1.3051689,
-       52.6270857
-      ],
-      [
-       1.3049479,
-       52.6269012
-      ],
-      [
-       1.3050078,
-       52.6268726
-      ],
-      [
-       1.3052841,
-       52.6270817
-      ],
-      [
-       1.3053025,
-       52.6271073
-      ],
-      [
-       1.305243,
-       52.6271345
-      ]
-     ]
+     1.3051252,
+     52.6270036
     ]
    }
   },
@@ -960,33 +2068,21 @@
     "name": "Café Gelato",
     "shop": "confectionery",
     "start_date": "2016-10-08",
-    "id": "way/119607348"
+    "id": "way/119607348",
+    "mapFeature": {
+     "caption": "Café Gelato",
+     "allowPopup": true,
+     "location": "6  Opie Street  \n  NR1 3DN <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.296209,
-       52.629574
-      ],
-      [
-       1.2961635,
-       52.6296078
-      ],
-      [
-       1.296042,
-       52.6295042
-      ],
-      [
-       1.2961144,
-       52.6294909
-      ],
-      [
-       1.296209,
-       52.629574
-      ]
-     ]
+     1.2961255,
+     52.6295494
     ]
    }
   },
@@ -1006,33 +2102,21 @@
     "name": "The Terrace",
     "outdoor_seating": "yes",
     "source:addr": "FHRS Open Data",
-    "id": "way/120820126"
+    "id": "way/120820126",
+    "mapFeature": {
+     "caption": "The Terrace",
+     "allowPopup": true,
+     "location": " Central Avenue  \n  NR7 0HS <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.365768,
-       52.6296311
-      ],
-      [
-       1.366014,
-       52.6295878
-      ],
-      [
-       1.3660623,
-       52.629736
-      ],
-      [
-       1.365821,
-       52.6297696
-      ],
-      [
-       1.365768,
-       52.6296311
-      ]
-     ]
+     1.3659152,
+     52.6296787
     ]
    }
   },
@@ -1049,37 +2133,21 @@
     "building": "yes",
     "fhrs:id": "451315",
     "name": "Bakalya",
-    "id": "way/121499370"
+    "id": "way/121499370",
+    "mapFeature": {
+     "caption": "Bakalya",
+     "allowPopup": true,
+     "location": "75  Dereham Road  \n  NR2 4HT <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2810797,
-       52.6332412
-      ],
-      [
-       1.2811663,
-       52.6333722
-      ],
-      [
-       1.281087,
-       52.6333915
-      ],
-      [
-       1.2810519,
-       52.6333385
-      ],
-      [
-       1.2810004,
-       52.6332605
-      ],
-      [
-       1.2810797,
-       52.6332412
-      ]
-     ]
+     1.2810833,
+     52.6333163
     ]
    }
   },
@@ -1098,33 +2166,21 @@
     "name": "The Muddy Cup",
     "source:name": "FSA Food Hygiene Ratings Database",
     "twitter": "@themuddycup",
-    "id": "way/121499386"
+    "id": "way/121499386",
+    "mapFeature": {
+     "caption": "The Muddy Cup",
+     "allowPopup": true,
+     "location": "12  Distillery Square  \n  NR2 4BH <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2813144,
-       52.6324876
-      ],
-      [
-       1.281495,
-       52.6324602
-      ],
-      [
-       1.2815143,
-       52.6325052
-      ],
-      [
-       1.2813341,
-       52.6325336
-      ],
-      [
-       1.2813144,
-       52.6324876
-      ]
-     ]
+     1.2814143,
+     52.6324969
     ]
    }
   },
@@ -1149,33 +2205,21 @@
     "start_date": "2018-05-04",
     "strapline": "Dine · Drink · Shisha",
     "website": "https://www.instagram.com/aromaloungenorwich/",
-    "id": "way/121499489"
+    "id": "way/121499489",
+    "mapFeature": {
+     "caption": "Aroma Lounge",
+     "allowPopup": true,
+     "location": "128  Dereham Road  \n  NR2 3AF <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2775976,
-       52.6335651
-      ],
-      [
-       1.2776239,
-       52.633641
-      ],
-      [
-       1.2775143,
-       52.633655
-      ],
-      [
-       1.277488,
-       52.6335791
-      ],
-      [
-       1.2775976,
-       52.6335651
-      ]
-     ]
+     1.2775559,
+     52.6336101
     ]
    }
   },
@@ -1183,37 +2227,66 @@
    "type": "Feature",
    "id": "way/122819588",
    "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "6",
+    "addr:parentstreet": "Earlham Road",
+    "addr:street": "Earlham House Shops",
     "amenity": "cafe",
     "building": "yes",
-    "name": "Litebite",
+    "name": "Mundy's Beds & Furnishings",
+    "shop": "furniture",
     "source": "survey",
-    "id": "way/122819588"
+    "website": "http://mundysbeds.co.uk/",
+    "id": "way/122819588",
+    "mapFeature": {
+     "caption": "Mundy's Beds & Furnishings",
+     "allowPopup": true,
+     "location": "6  Earlham House Shops  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2689319,
-       52.6286758
-      ],
-      [
-       1.2690077,
-       52.6286702
-      ],
-      [
-       1.2690275,
-       52.6287688
-      ],
-      [
-       1.2689518,
-       52.6287744
-      ],
-      [
-       1.2689319,
-       52.6286758
-      ]
+     1.2689797,
+     52.6287223
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/122819605",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "16a",
+    "addr:parentstreet": "Earlham Road",
+    "addr:postcode": "NR2 3PD",
+    "addr:street": "Earlham House Shops",
+    "amenity": "cafe",
+    "building": "yes",
+    "fhrs:id": "1108810",
+    "name": "Dyrrah Coffee",
+    "source": "survey",
+    "website": "https://www.facebook.com/dyrrahcoffee/",
+    "id": "way/122819605",
+    "mapFeature": {
+     "caption": "Dyrrah Coffee",
+     "allowPopup": true,
+     "location": "16a  Earlham House Shops  \n  NR2 3PD <br />\n  \n  \n  ",
+     "layers": [
+      "food"
      ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2687146,
+     52.6291905
     ]
    }
   },
@@ -1222,7 +2295,8 @@
    "id": "way/122819611",
    "properties": {
     "addr:city": "Norwich",
-    "addr:housenumber": "2-4",
+    "addr:country": "GB",
+    "addr:housenumber": "2",
     "addr:parentstreet": "Earlham Road",
     "addr:postcode": "NR2 3PD",
     "addr:street": "Earlham House Shops",
@@ -1232,33 +2306,22 @@
     "name": "The Green Grocers",
     "source": "survey",
     "source:addr": "FHRS Open Data",
-    "id": "way/122819611"
+    "website": "http://www.thegreengrocers.co.uk/cafe.html",
+    "id": "way/122819611",
+    "mapFeature": {
+     "caption": "The Green Grocers",
+     "allowPopup": true,
+     "location": "2  Earlham House Shops  \n  NR2 3PD <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2692348,
-       52.6286533
-      ],
-      [
-       1.2693105,
-       52.6286477
-      ],
-      [
-       1.2693304,
-       52.6287464
-      ],
-      [
-       1.2692547,
-       52.628752
-      ],
-      [
-       1.2692348,
-       52.6286533
-      ]
-     ]
+     1.2692826,
+     52.6286998
     ]
    }
   },
@@ -1276,33 +2339,21 @@
     "fhrs:id": "836840",
     "name": "Roys Cafe",
     "source": "Survey",
-    "id": "way/123011783"
+    "id": "way/123011783",
+    "mapFeature": {
+     "caption": "Roys Cafe",
+     "allowPopup": true,
+     "location": " Bowthorpe Main Centre  \n  NR5 9HA <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2171805,
-       52.6371257
-      ],
-      [
-       1.2173377,
-       52.6371292
-      ],
-      [
-       1.2173283,
-       52.6372864
-      ],
-      [
-       1.2171711,
-       52.6372829
-      ],
-      [
-       1.2171805,
-       52.6371257
-      ]
-     ]
+     1.2172544,
+     52.6372061
     ]
    }
   },
@@ -1324,57 +2375,21 @@
     "shop": "toys",
     "source": "Bing",
     "wheelchair": "yes",
-    "id": "way/123011785"
+    "id": "way/123011785",
+    "mapFeature": {
+     "caption": "Zatu Board Game Café",
+     "allowPopup": true,
+     "location": "15  Bowthorpe Main Centre  \n  NR5 9HA <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.217463,
-       52.6368833
-      ],
-      [
-       1.2175018,
-       52.6369017
-      ],
-      [
-       1.2174999,
-       52.6369213
-      ],
-      [
-       1.2174641,
-       52.6369379
-      ],
-      [
-       1.2174503,
-       52.6369375
-      ],
-      [
-       1.2174452,
-       52.6370133
-      ],
-      [
-       1.2171892,
-       52.6370068
-      ],
-      [
-       1.2171984,
-       52.6368716
-      ],
-      [
-       1.2174385,
-       52.6368777
-      ],
-      [
-       1.2174381,
-       52.6368826
-      ],
-      [
-       1.217463,
-       52.6368833
-      ]
-     ]
+     1.2173455,
+     52.6369425
     ]
    }
   },
@@ -1396,37 +2411,21 @@
     "phone": "+44 1603 768881",
     "source": "Bing",
     "website": "http://expresso-online.co.uk/",
-    "id": "way/123035168"
+    "id": "way/123035168",
+    "mapFeature": {
+     "caption": "Expresso Café",
+     "allowPopup": true,
+     "location": "12  Saint Georges Street  \n  NR3 1BA <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2953971,
-       52.630874
-      ],
-      [
-       1.2952569,
-       52.6308435
-      ],
-      [
-       1.2952913,
-       52.6307822
-      ],
-      [
-       1.2953215,
-       52.6307885
-      ],
-      [
-       1.295431,
-       52.6308134
-      ],
-      [
-       1.2953971,
-       52.630874
-      ]
-     ]
+     1.2953439,
+     52.6308281
     ]
    }
   },
@@ -1450,33 +2449,21 @@
     "toilets:wheelchair": "yes",
     "website": "https://housestbenedicts.co.uk/",
     "wheelchair": "yes",
-    "id": "way/123525364"
+    "id": "way/123525364",
+    "mapFeature": {
+     "caption": "House Cafe",
+     "allowPopup": true,
+     "location": "52  Saint Benedicts Street  \n  NR2 4AR <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2884514,
-       52.630982
-      ],
-      [
-       1.2884998,
-       52.6310759
-      ],
-      [
-       1.2884238,
-       52.6310899
-      ],
-      [
-       1.2883789,
-       52.6309959
-      ],
-      [
-       1.2884514,
-       52.630982
-      ]
-     ]
+     1.2884393,
+     52.6310359
     ]
    }
   },
@@ -1488,37 +2475,21 @@
     "building": "yes",
     "name": "Rumbling Tum",
     "source": "Bing",
-    "id": "way/123525378"
+    "id": "way/123525378",
+    "mapFeature": {
+     "caption": "Rumbling Tum",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2887067,
-       52.6309731
-      ],
-      [
-       1.2887306,
-       52.6310333
-      ],
-      [
-       1.2886305,
-       52.6310522
-      ],
-      [
-       1.2885754,
-       52.6309397
-      ],
-      [
-       1.288679,
-       52.6309199
-      ],
-      [
-       1.2887067,
-       52.6309731
-      ]
-     ]
+     1.288653,
+     52.6309861
     ]
    }
   },
@@ -1539,41 +2510,21 @@
     "note": "Is actually called 'unknown coffee'",
     "source": "Bing,survey",
     "source:name": "FSA Food Hygiene Ratings Database",
-    "id": "way/123525385"
+    "id": "way/123525385",
+    "mapFeature": {
+     "caption": "Unknown Coffee",
+     "allowPopup": true,
+     "location": "60-62  Saint Benedicts Street  \n  NR2 4AR <br />\n  100% plant based coffee shop, small but perfectly formed with a good selection of hot & cold drinks, cakes and more<br />\n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2880092,
-       52.6310977
-      ],
-      [
-       1.2880416,
-       52.6311638
-      ],
-      [
-       1.2879889,
-       52.6311739
-      ],
-      [
-       1.2879336,
-       52.6311845
-      ],
-      [
-       1.2878986,
-       52.6311189
-      ],
-      [
-       1.2879536,
-       52.6311084
-      ],
-      [
-       1.2880092,
-       52.6310977
-      ]
-     ]
+     1.2879701,
+     52.6311411
     ]
    }
   },
@@ -1591,33 +2542,21 @@
     "name": "Sahara",
     "source": "Bing",
     "source:addr": "FHRS Open Data",
-    "id": "way/123525387"
+    "id": "way/123525387",
+    "mapFeature": {
+     "caption": "Sahara",
+     "allowPopup": true,
+     "location": "22-24  St Benedicts Street  \n  NR2 4AQ <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2899734,
-       52.6308103
-      ],
-      [
-       1.2899537,
-       52.6307415
-      ],
-      [
-       1.2900662,
-       52.6307306
-      ],
-      [
-       1.2900877,
-       52.630799
-      ],
-      [
-       1.2899734,
-       52.6308103
-      ]
-     ]
+     1.2900207,
+     52.6307704
     ]
    }
   },
@@ -1636,33 +2575,21 @@
     "fhrs:id": "937011",
     "name": "The Cafe NR1",
     "source": "Bing",
-    "id": "way/129538553"
+    "id": "way/129538553",
+    "mapFeature": {
+     "caption": "The Cafe NR1",
+     "allowPopup": true,
+     "location": "61,65a  Hall Road  \n  NR1 3HL <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.29824,
-       52.6194676
-      ],
-      [
-       1.298447,
-       52.6194459
-      ],
-      [
-       1.298473,
-       52.6195372
-      ],
-      [
-       1.298266,
-       52.6195589
-      ],
-      [
-       1.29824,
-       52.6194676
-      ]
-     ]
+     1.2983565,
+     52.6195024
     ]
    }
   },
@@ -1683,41 +2610,21 @@
     "source": "Bing",
     "source:addr": "FHRS Open Data",
     "website": "https://portal.uea.ac.uk/campus-kitchen/cafes-and-restaurants/cafe-direct",
-    "id": "way/131888484"
+    "id": "way/131888484",
+    "mapFeature": {
+     "caption": "Ziggy’s",
+     "allowPopup": true,
+     "location": " The Street  \n  <strong>Level:</strong>&nbsp;0 NR4 7TJ <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2416245,
-       52.6210514
-      ],
-      [
-       1.2415151,
-       52.6211077
-      ],
-      [
-       1.2414995,
-       52.6211157
-      ],
-      [
-       1.2414857,
-       52.6211228
-      ],
-      [
-       1.2413414,
-       52.6210195
-      ],
-      [
-       1.2414801,
-       52.6209481
-      ],
-      [
-       1.2416245,
-       52.6210514
-      ]
-     ]
+     1.2414829,
+     52.6210354
     ]
    }
   },
@@ -1752,53 +2659,21 @@
     "real_ale": "no",
     "website": "https://wildthymenorwich.co.uk/",
     "website:operator": "http://rafflesrestaurants.co.uk/",
-    "id": "way/135806254"
+    "id": "way/135806254",
+    "mapFeature": {
+     "caption": "Wild Thyme",
+     "allowPopup": true,
+     "location": "3  Labour in Vain Yard  \n  <strong>Level:</strong>&nbsp;1 NR2 1JD <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2920509,
-       52.6295898
-      ],
-      [
-       1.2920565,
-       52.6295284
-      ],
-      [
-       1.2920895,
-       52.6295291
-      ],
-      [
-       1.2920905,
-       52.6294792
-      ],
-      [
-       1.2921334,
-       52.6294795
-      ],
-      [
-       1.2922534,
-       52.6294815
-      ],
-      [
-       1.2922566,
-       52.6295406
-      ],
-      [
-       1.2922587,
-       52.6295944
-      ],
-      [
-       1.2922339,
-       52.6295941
-      ],
-      [
-       1.2920509,
-       52.6295898
-      ]
-     ]
+     1.2921548,
+     52.6295368
     ]
    }
   },
@@ -1823,65 +2698,21 @@
     "opening_hours": "Mo-Tu 07:00-18:30; We off; Th 09:00-16:30; Fr 07:00-18:30; Sa 08:00-18:30; Su 09:00-17:30",
     "source": "Bing",
     "takeaway": "yes",
-    "id": "way/136090710"
+    "id": "way/136090710",
+    "mapFeature": {
+     "caption": "Starbucks",
+     "allowPopup": true,
+     "location": "36-38  Saint Stephens Street  \n  NR1 3SH <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2916933,
-       52.6251194
-      ],
-      [
-       1.2918061,
-       52.6251678
-      ],
-      [
-       1.2916179,
-       52.6252872
-      ],
-      [
-       1.2916021,
-       52.6252794
-      ],
-      [
-       1.2915839,
-       52.6252915
-      ],
-      [
-       1.2915246,
-       52.6252561
-      ],
-      [
-       1.2915582,
-       52.6252351
-      ],
-      [
-       1.2915341,
-       52.6252217
-      ],
-      [
-       1.291579,
-       52.625186
-      ],
-      [
-       1.2916214,
-       52.6251549
-      ],
-      [
-       1.2916321,
-       52.6251475
-      ],
-      [
-       1.2916443,
-       52.6251535
-      ],
-      [
-       1.2916933,
-       52.6251194
-      ]
-     ]
+     1.2916654,
+     52.6252054
     ]
    }
   },
@@ -1900,33 +2731,21 @@
     "fhrs:id": "486801",
     "name": "The House",
     "phone": "+44 1603 631559",
-    "id": "way/136895234"
+    "id": "way/136895234",
+    "mapFeature": {
+     "caption": "The House",
+     "allowPopup": true,
+     "location": "2  Queens Road  \n  NR1 3PR <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2913695,
-       52.6241993
-      ],
-      [
-       1.2912829,
-       52.624234
-      ],
-      [
-       1.2911479,
-       52.6241098
-      ],
-      [
-       1.2912345,
-       52.6240751
-      ],
-      [
-       1.2913695,
-       52.6241993
-      ]
-     ]
+     1.2912587,
+     52.6241546
     ]
    }
   },
@@ -1944,37 +2763,21 @@
     "fhrs:id": "71690",
     "name": "7 Surrey Street",
     "source:addr:postcode": "FHRS Open Data",
-    "id": "way/136895336"
+    "id": "way/136895336",
+    "mapFeature": {
+     "caption": "7 Surrey Street",
+     "allowPopup": true,
+     "location": "7  Surrey Street  \n  NR1 3NX <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2933443,
-       52.6253058
-      ],
-      [
-       1.2932463,
-       52.6252568
-      ],
-      [
-       1.2933243,
-       52.6251998
-      ],
-      [
-       1.2935463,
-       52.6252908
-      ],
-      [
-       1.2935099,
-       52.6253452
-      ],
-      [
-       1.2933443,
-       52.6253058
-      ]
-     ]
+     1.2933963,
+     52.6252725
     ]
    }
   },
@@ -1986,33 +2789,21 @@
     "building": "yes",
     "name": "Longwater Cafe",
     "source": "Bing",
-    "id": "way/138428496"
+    "id": "way/138428496",
+    "mapFeature": {
+     "caption": "Longwater Cafe",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2066126,
-       52.6511851
-      ],
-      [
-       1.2066724,
-       52.6513279
-      ],
-      [
-       1.2065609,
-       52.6513451
-      ],
-      [
-       1.2065011,
-       52.6512023
-      ],
-      [
-       1.2066126,
-       52.6511851
-      ]
-     ]
+     1.2065868,
+     52.6512651
     ]
    }
   },
@@ -2031,49 +2822,21 @@
     "source": "Bing",
     "source:addr": "FSA Food Hygiene Ratings Database",
     "website": "http://www.theyogatree.co.uk/tytmain/?page=acorn",
-    "id": "way/139286475"
+    "id": "way/139286475",
+    "mapFeature": {
+     "caption": "Acorn Café",
+     "allowPopup": true,
+     "location": "50  All Saints Green  \n  NR1 3NB <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2941259,
-       52.6237557
-      ],
-      [
-       1.294171,
-       52.6237941
-      ],
-      [
-       1.2941657,
-       52.6237964
-      ],
-      [
-       1.2942013,
-       52.6238279
-      ],
-      [
-       1.2941295,
-       52.6238785
-      ],
-      [
-       1.293991,
-       52.6237609
-      ],
-      [
-       1.294067,
-       52.6237135
-      ],
-      [
-       1.2941206,
-       52.623758
-      ],
-      [
-       1.2941259,
-       52.6237557
-      ]
-     ]
+     1.2940962,
+     52.623796
     ]
    }
   },
@@ -2096,33 +2859,21 @@
     "name": "moorish falafal bar",
     "opening_hours": "Mo-Sa 11:00-17:30; Su off",
     "phone": "+44 1603 622250",
-    "id": "way/144929194"
+    "id": "way/144929194",
+    "mapFeature": {
+     "caption": "moorish falafal bar",
+     "allowPopup": true,
+     "location": "17  Lower Goat Lane  \n  NR2 1EL <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2918145,
-       52.6297143
-      ],
-      [
-       1.2918075,
-       52.6297525
-      ],
-      [
-       1.291729,
-       52.6297472
-      ],
-      [
-       1.291736,
-       52.6297089
-      ],
-      [
-       1.2918145,
-       52.6297143
-      ]
-     ]
+     1.2917718,
+     52.6297307
     ]
    }
   },
@@ -2140,33 +2891,21 @@
     "fhrs:id": "1016500",
     "name": "That Cafe",
     "website": "https://thatcafenorwich.co.uk/",
-    "id": "way/150613631"
+    "id": "way/150613631",
+    "mapFeature": {
+     "caption": "That Cafe",
+     "allowPopup": true,
+     "location": "27  Saint Augustine's  \n  NR3 3BY <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2924974,
-       52.6377039
-      ],
-      [
-       1.2925474,
-       52.6376631
-      ],
-      [
-       1.2926466,
-       52.6377075
-      ],
-      [
-       1.2925972,
-       52.6377474
-      ],
-      [
-       1.2924974,
-       52.6377039
-      ]
-     ]
+     1.292572,
+     52.6377052
     ]
    }
   },
@@ -2186,37 +2925,21 @@
     "fhrs:id": "19319",
     "name": "ButterflyCafé",
     "opening_hours": "Mo-Fr 08:30-16:00; Sa 10:00-15:00; Su off",
-    "id": "way/157250646"
+    "id": "way/157250646",
+    "mapFeature": {
+     "caption": "ButterflyCafé",
+     "allowPopup": true,
+     "location": "114a  King Street  \n  NR1 1QE <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3012241,
-       52.6254419
-      ],
-      [
-       1.3010993,
-       52.6254013
-      ],
-      [
-       1.3010878,
-       52.6253976
-      ],
-      [
-       1.301126,
-       52.6253541
-      ],
-      [
-       1.3012624,
-       52.6253984
-      ],
-      [
-       1.3012241,
-       52.6254419
-      ]
-     ]
+     1.3011751,
+     52.625398
     ]
    }
   },
@@ -2227,37 +2950,21 @@
     "amenity": "cafe",
     "building": "yes",
     "name": "The Old Granary",
-    "id": "way/158640590"
+    "id": "way/158640590",
+    "mapFeature": {
+     "caption": "The Old Granary",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.4895655,
-       52.6776951
-      ],
-      [
-       1.4896191,
-       52.6776897
-      ],
-      [
-       1.489631,
-       52.6777413
-      ],
-      [
-       1.4894249,
-       52.677762
-      ],
-      [
-       1.4894107,
-       52.6777119
-      ],
-      [
-       1.4895655,
-       52.6776951
-      ]
-     ]
+     1.4895208,
+     52.6777259
     ]
    }
   },
@@ -2277,33 +2984,21 @@
     "opening_hours": "Mo-Sa 08:00-17:00",
     "phone": "+44 1603 630077",
     "website": "http://www.mustardcoffeebar.co.uk/",
-    "id": "way/160941196"
+    "id": "way/160941196",
+    "mapFeature": {
+     "caption": "Mustard Coffee Bar",
+     "allowPopup": true,
+     "location": "3  Bridewell Alley  \n  NR2 1AQ <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2952002,
-       52.6298345
-      ],
-      [
-       1.2953738,
-       52.6298427
-      ],
-      [
-       1.2953748,
-       52.6298796
-      ],
-      [
-       1.295202,
-       52.6298729
-      ],
-      [
-       1.2952002,
-       52.6298345
-      ]
-     ]
+     1.2952875,
+     52.629857
     ]
    }
   },
@@ -2320,33 +3015,21 @@
     "building": "yes",
     "fhrs:id": "69230",
     "name": "Sweettree",
-    "id": "way/167039460"
+    "id": "way/167039460",
+    "mapFeature": {
+     "caption": "Sweettree",
+     "allowPopup": true,
+     "location": "5  Saint Johns Close  \n  NR1 2AD <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2945485,
-       52.6145328
-      ],
-      [
-       1.2945909,
-       52.6145982
-      ],
-      [
-       1.2944799,
-       52.6146248
-      ],
-      [
-       1.2944375,
-       52.6145593
-      ],
-      [
-       1.2945485,
-       52.6145328
-      ]
-     ]
+     1.2945142,
+     52.6145788
     ]
    }
   },
@@ -2367,37 +3050,21 @@
     "real_ale": "no",
     "real_cider": "no",
     "start_date": "2018-03-23",
-    "id": "way/168159795"
+    "id": "way/168159795",
+    "mapFeature": {
+     "caption": "NR2",
+     "allowPopup": true,
+     "location": "9  Trory Street  \n  NR2 2RH <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2832392,
-       52.6266386
-      ],
-      [
-       1.2832896,
-       52.6266822
-      ],
-      [
-       1.2832778,
-       52.626705
-      ],
-      [
-       1.2831759,
-       52.6267362
-      ],
-      [
-       1.2831201,
-       52.626675
-      ],
-      [
-       1.2832392,
-       52.6266386
-      ]
-     ]
+     1.2832049,
+     52.6266874
     ]
    }
   },
@@ -2415,33 +3082,21 @@
     "name": "The People's Palace",
     "source": "Bing",
     "source:addr": "FHRS Open Data",
-    "id": "way/168880550"
+    "id": "way/168880550",
+    "mapFeature": {
+     "caption": "The People's Palace",
+     "allowPopup": true,
+     "location": "26  Suffolk Square  \n  NR2 2AA <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2829598,
-       52.6250916
-      ],
-      [
-       1.2828059,
-       52.625137
-      ],
-      [
-       1.2827686,
-       52.6250905
-      ],
-      [
-       1.2829224,
-       52.625045
-      ],
-      [
-       1.2829598,
-       52.6250916
-      ]
-     ]
+     1.2828642,
+     52.625091
     ]
    }
   },
@@ -2460,33 +3115,21 @@
     "fixme:addr2": "Norwich",
     "name": "Jive Kitchen",
     "source:addr": "FHRS Open Data",
-    "id": "way/171357352"
+    "id": "way/171357352",
+    "mapFeature": {
+     "caption": "Jive Kitchen",
+     "allowPopup": true,
+     "location": "2A  Exchange Street  \n  NR2 1AT <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2933916,
-       52.6291298
-      ],
-      [
-       1.2933033,
-       52.6291351
-      ],
-      [
-       1.2932998,
-       52.6291068
-      ],
-      [
-       1.2933879,
-       52.6291041
-      ],
-      [
-       1.2933916,
-       52.6291298
-      ]
-     ]
+     1.2933457,
+     52.6291196
     ]
    }
   },
@@ -2506,49 +3149,21 @@
     "opening_hours": "Mo 17:00-23:00; Tu-Sa 10:00-23:00; Su 12:00-22:30",
     "phone": "+44 1603 615853",
     "real_ale": "no",
-    "id": "way/171404467"
+    "id": "way/171404467",
+    "mapFeature": {
+     "caption": "Workshop",
+     "allowPopup": true,
+     "location": "53  Earlham Road  \n  NR2 3AD <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2787962,
-       52.6308566
-      ],
-      [
-       1.2789105,
-       52.6308479
-      ],
-      [
-       1.2789156,
-       52.6308726
-      ],
-      [
-       1.2789379,
-       52.6309803
-      ],
-      [
-       1.2789494,
-       52.6310358
-      ],
-      [
-       1.2788804,
-       52.6310411
-      ],
-      [
-       1.2788586,
-       52.6309574
-      ],
-      [
-       1.2788157,
-       52.6309594
-      ],
-      [
-       1.2787962,
-       52.6308566
-      ]
-     ]
+     1.2788728,
+     52.6309445
     ]
    }
   },
@@ -2569,37 +3184,21 @@
     "operator": "YMCA Norfolk",
     "source:addr": "FHRS Open Data",
     "website": "http://www.steppingstonescafe.co.uk/",
-    "id": "way/188860011"
+    "id": "way/188860011",
+    "mapFeature": {
+     "caption": "Stepping Stone Café",
+     "allowPopup": true,
+     "location": "10  Winalls Yard  \n  NR1 3GX <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2936047,
-       52.6241828
-      ],
-      [
-       1.2934596,
-       52.6240673
-      ],
-      [
-       1.2935614,
-       52.6240202
-      ],
-      [
-       1.2937064,
-       52.6241357
-      ],
-      [
-       1.2936331,
-       52.6241696
-      ],
-      [
-       1.2936047,
-       52.6241828
-      ]
-     ]
+     1.293583,
+     52.6241015
     ]
    }
   },
@@ -2619,45 +3218,21 @@
     "opening_hours": "Mo-Fr 07:30-16:00",
     "shop": "hairdresser",
     "strapline": "Norwich · Norfolk",
-    "id": "way/190708486"
+    "id": "way/190708486",
+    "mapFeature": {
+     "caption": "Departure Lounge",
+     "allowPopup": true,
+     "location": "99  Prince of Wales Road  \n  NR1 1DW <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3040739,
-       52.6283068
-      ],
-      [
-       1.3039964,
-       52.6283272
-      ],
-      [
-       1.3039856,
-       52.6283122
-      ],
-      [
-       1.3039163,
-       52.6283304
-      ],
-      [
-       1.3038398,
-       52.6282235
-      ],
-      [
-       1.3039128,
-       52.6282043
-      ],
-      [
-       1.3039866,
-       52.6281848
-      ],
-      [
-       1.3040739,
-       52.6283068
-      ]
-     ]
+     1.3039569,
+     52.6282576
     ]
    }
   },
@@ -2674,41 +3249,21 @@
     "fhrs:id": "780999",
     "name": "Harriet's Café Tearooms",
     "source:addr": "FHRS Open Data",
-    "id": "way/202071136"
+    "id": "way/202071136",
+    "mapFeature": {
+     "caption": "Harriet's Café Tearooms",
+     "allowPopup": true,
+     "location": "38  London Street  \n  NR2 1LD <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2953864,
-       52.6293628
-      ],
-      [
-       1.2954485,
-       52.6292692
-      ],
-      [
-       1.2955181,
-       52.6292185
-      ],
-      [
-       1.2955831,
-       52.6292438
-      ],
-      [
-       1.2955305,
-       52.6293079
-      ],
-      [
-       1.2954679,
-       52.6293904
-      ],
-      [
-       1.2953864,
-       52.6293628
-      ]
-     ]
+     1.2954847,
+     52.6293045
     ]
    }
   },
@@ -2731,33 +3286,21 @@
     "name": "Starbucks",
     "source:addr": "FHRS Open Data",
     "takeaway": "yes",
-    "id": "way/205594932"
+    "id": "way/205594932",
+    "mapFeature": {
+     "caption": "Starbucks",
+     "allowPopup": true,
+     "location": "19-20  Haymarket  \n  NR2 1QE <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2931824,
-       52.627688
-      ],
-      [
-       1.2930573,
-       52.6276847
-      ],
-      [
-       1.2930683,
-       52.6275326
-      ],
-      [
-       1.2931934,
-       52.6275359
-      ],
-      [
-       1.2931824,
-       52.627688
-      ]
-     ]
+     1.2931253,
+     52.6276103
     ]
    }
   },
@@ -2781,33 +3324,21 @@
     "shop": "furniture",
     "website": "https://www.waringsathome.co.uk/",
     "wikidata": "Q26303635",
-    "id": "way/229497850"
+    "id": "way/229497850",
+    "mapFeature": {
+     "caption": "Warings Lifestore",
+     "allowPopup": true,
+     "location": "20  Westlegate  \n  NR1 3LR <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2951433,
-       52.6259059
-      ],
-      [
-       1.2952519,
-       52.6258983
-      ],
-      [
-       1.2952705,
-       52.6259973
-      ],
-      [
-       1.2951619,
-       52.6260049
-      ],
-      [
-       1.2951433,
-       52.6259059
-      ]
-     ]
+     1.2952069,
+     52.6259516
     ]
    }
   },
@@ -2825,41 +3356,21 @@
     "fhrs:id": "661399",
     "name": "Kofra",
     "website": "https://www.kofra.co.uk/",
-    "id": "way/231212350"
+    "id": "way/231212350",
+    "mapFeature": {
+     "caption": "Kofra",
+     "allowPopup": true,
+     "location": "4  Unthank Road  \n  NR2 2RA <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2847103,
-       52.6288901
-      ],
-      [
-       1.2847683,
-       52.6289251
-      ],
-      [
-       1.2846395,
-       52.6290037
-      ],
-      [
-       1.2845816,
-       52.6289708
-      ],
-      [
-       1.2845888,
-       52.6289642
-      ],
-      [
-       1.2846955,
-       52.6288975
-      ],
-      [
-       1.2847103,
-       52.6288901
-      ]
-     ]
+     1.284675,
+     52.6289469
     ]
    }
   },
@@ -2878,57 +3389,21 @@
     "name": "Logans",
     "opening_hours": "Mo-Sa 08:00-17:00",
     "outdoor_seating": "no",
-    "id": "way/246820289"
+    "id": "way/246820289",
+    "mapFeature": {
+     "caption": "Logans",
+     "allowPopup": true,
+     "location": "5  Swan Lane  \n  NR2 1HZ <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2952145,
-       52.6296357
-      ],
-      [
-       1.2950694,
-       52.6296371
-      ],
-      [
-       1.2950685,
-       52.6296264
-      ],
-      [
-       1.2950618,
-       52.6295644
-      ],
-      [
-       1.2949591,
-       52.6295686
-      ],
-      [
-       1.2949481,
-       52.6294961
-      ],
-      [
-       1.2950631,
-       52.6294911
-      ],
-      [
-       1.2950644,
-       52.6295301
-      ],
-      [
-       1.2951891,
-       52.6295274
-      ],
-      [
-       1.2952126,
-       52.6295279
-      ],
-      [
-       1.2952145,
-       52.6296357
-      ]
-     ]
+     1.2950813,
+     52.6295641
     ]
    }
   },
@@ -2947,33 +3422,21 @@
     "fhrs:id": "48581",
     "name": "Littlehaven",
     "website": "https://www.facebook.com/littlehavencoffee/",
-    "id": "way/258695109"
+    "id": "way/258695109",
+    "mapFeature": {
+     "caption": "Littlehaven",
+     "allowPopup": true,
+     "location": "45  St. Stephens Square  \n  NR1 3SS <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2888404,
-       52.6232694
-      ],
-      [
-       1.2888699,
-       52.6232912
-      ],
-      [
-       1.2887241,
-       52.6233839
-      ],
-      [
-       1.2886895,
-       52.6233534
-      ],
-      [
-       1.2888404,
-       52.6232694
-      ]
-     ]
+     1.2887797,
+     52.6233266
     ]
    }
   },
@@ -2993,33 +3456,21 @@
     "fixme": "now open but building shape needs to be checked",
     "name": "Costa Coffee",
     "source:addr": "FHRS Open Data",
-    "id": "way/281801474"
+    "id": "way/281801474",
+    "mapFeature": {
+     "caption": "Costa Coffee",
+     "allowPopup": true,
+     "location": " Old Chapel Way  \n  NR7 0WG <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3732201,
-       52.6280658
-      ],
-      [
-       1.373004,
-       52.6281677
-      ],
-      [
-       1.3728187,
-       52.6280228
-      ],
-      [
-       1.3730347,
-       52.627921
-      ],
-      [
-       1.3732201,
-       52.6280658
-      ]
-     ]
+     1.3730194,
+     52.6280443
     ]
    }
   },
@@ -3037,33 +3488,21 @@
     "toilets:position": "seated",
     "tourism": "information",
     "wheelchair": "yes",
-    "id": "way/296344311"
+    "id": "way/296344311",
+    "mapFeature": {
+     "caption": "Whitlingham Visitor Centre",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3293391,
-       52.6212151
-      ],
-      [
-       1.3294153,
-       52.6209562
-      ],
-      [
-       1.3295409,
-       52.6209678
-      ],
-      [
-       1.329461,
-       52.621229
-      ],
-      [
-       1.3293391,
-       52.6212151
-      ]
-     ]
+     1.32944,
+     52.6210926
     ]
    }
   },
@@ -3073,33 +3512,21 @@
    "properties": {
     "amenity": "cafe",
     "building": "yes",
-    "id": "way/320200620"
+    "id": "way/320200620",
+    "mapFeature": {
+     "caption": "cafe",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.484477,
-       52.6795559
-      ],
-      [
-       1.4844084,
-       52.6793531
-      ],
-      [
-       1.4844818,
-       52.6793439
-      ],
-      [
-       1.4845504,
-       52.6795468
-      ],
-      [
-       1.484477,
-       52.6795559
-      ]
-     ]
+     1.4844794,
+     52.6794499
     ]
    }
   },
@@ -3119,33 +3546,21 @@
     "fhrs:id": "1108807",
     "name": "Fika",
     "opening_hours": "Mo-Fr 08:00-15:30; Sa 10:00-16:00; Su off",
-    "id": "way/338002245"
+    "id": "way/338002245",
+    "mapFeature": {
+     "caption": "Fika",
+     "allowPopup": true,
+     "location": "25  Wensum Street  \n  NR3 1LA <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2975166,
-       52.6326807
-      ],
-      [
-       1.2975371,
-       52.6326559
-      ],
-      [
-       1.29759,
-       52.6326726
-      ],
-      [
-       1.2975705,
-       52.632697
-      ],
-      [
-       1.2975166,
-       52.6326807
-      ]
-     ]
+     1.2975533,
+     52.6326765
     ]
    }
   },
@@ -3164,37 +3579,21 @@
     "name": "Copper Kettle Cafe",
     "phone": "+44 1603 626870",
     "website": "http://www.copperkettlenorwich.co.uk/",
-    "id": "way/338963853"
+    "id": "way/338963853",
+    "mapFeature": {
+     "caption": "Copper Kettle Cafe",
+     "allowPopup": true,
+     "location": "4  Lower Goat Lane  \n  NR2 1EL <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2917289,
-       52.6293507
-      ],
-      [
-       1.2918217,
-       52.629373
-      ],
-      [
-       1.2918099,
-       52.6293918
-      ],
-      [
-       1.2917177,
-       52.6293707
-      ],
-      [
-       1.2917213,
-       52.6293642
-      ],
-      [
-       1.2917289,
-       52.6293507
-      ]
-     ]
+     1.2917697,
+     52.6293713
     ]
    }
   },
@@ -3216,49 +3615,21 @@
     "name": "Costa",
     "source:addr": "FSA Food Hygiene Ratings Database",
     "takeaway": "yes",
-    "id": "way/368518294"
+    "id": "way/368518294",
+    "mapFeature": {
+     "caption": "Costa",
+     "allowPopup": true,
+     "location": "10  White Lion Street  \n  NR2 1QA <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2941758,
-       52.6277763
-      ],
-      [
-       1.2942065,
-       52.6278755
-      ],
-      [
-       1.2942131,
-       52.6278932
-      ],
-      [
-       1.294021,
-       52.6279027
-      ],
-      [
-       1.2939881,
-       52.6278892
-      ],
-      [
-       1.2939787,
-       52.6278496
-      ],
-      [
-       1.2940686,
-       52.627841
-      ],
-      [
-       1.2940559,
-       52.6277924
-      ],
-      [
-       1.2941758,
-       52.6277763
-      ]
-     ]
+     1.2940959,
+     52.6278395
     ]
    }
   },
@@ -3279,33 +3650,21 @@
     "opening_hours": "Mo-Fr 06:30-14:00; Sa 08:00-14:00; Su 08:00-13:00",
     "phone": "+44 1603 720452",
     "website": "https://www.facebook.com/hilltopcafenorwich/",
-    "id": "way/401790777"
+    "id": "way/401790777",
+    "mapFeature": {
+     "caption": "Hill Top Cafe",
+     "allowPopup": true,
+     "location": "11  Hill Road  \n  NR13 6LX <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3678718,
-       52.6786075
-      ],
-      [
-       1.3678175,
-       52.6786289
-      ],
-      [
-       1.3677494,
-       52.6785654
-      ],
-      [
-       1.3678037,
-       52.678544
-      ],
-      [
-       1.3678718,
-       52.6786075
-      ]
-     ]
+     1.3678106,
+     52.6785864
     ]
    }
   },
@@ -3328,37 +3687,21 @@
     "name": "Starbucks",
     "source:addr": "FHRS Open Data",
     "takeaway": "yes",
-    "id": "way/430815314"
+    "id": "way/430815314",
+    "mapFeature": {
+     "caption": "Starbucks",
+     "allowPopup": true,
+     "location": " Station Approach  \n  NR1 1EF <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3068955,
-       52.6268044
-      ],
-      [
-       1.3068498,
-       52.6267753
-      ],
-      [
-       1.3068668,
-       52.6267655
-      ],
-      [
-       1.3068888,
-       52.6267529
-      ],
-      [
-       1.3069343,
-       52.6267812
-      ],
-      [
-       1.3068955,
-       52.6268044
-      ]
-     ]
+     1.3068921,
+     52.6267787
     ]
    }
   },
@@ -3374,57 +3717,21 @@
     "amenity": "cafe",
     "building": "yes",
     "name": "Moonlight Cafe",
-    "id": "way/438423618"
+    "id": "way/438423618",
+    "mapFeature": {
+     "caption": "Moonlight Cafe",
+     "allowPopup": true,
+     "location": "73  Magdalen Street  \n  NR3 1AA <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2967817,
-       52.6360056
-      ],
-      [
-       1.2967806,
-       52.6360219
-      ],
-      [
-       1.2968675,
-       52.6360243
-      ],
-      [
-       1.2968702,
-       52.6360145
-      ],
-      [
-       1.2968989,
-       52.6360155
-      ],
-      [
-       1.2968945,
-       52.6360682
-      ],
-      [
-       1.2967783,
-       52.6360642
-      ],
-      [
-       1.2967775,
-       52.6360761
-      ],
-      [
-       1.2966412,
-       52.6360729
-      ],
-      [
-       1.2966476,
-       52.6359998
-      ],
-      [
-       1.2967817,
-       52.6360056
-      ]
-     ]
+     1.2967701,
+     52.636038
     ]
    }
   },
@@ -3441,65 +3748,21 @@
     "fhrs:id": "667908",
     "name": "Sahara",
     "source:addr": "FHRS Open Data",
-    "id": "way/438423622"
+    "id": "way/438423622",
+    "mapFeature": {
+     "caption": "Sahara",
+     "allowPopup": true,
+     "location": " Magdalen Street  \n  NR3 1AA <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2969523,
-       52.6359734
-      ],
-      [
-       1.2968018,
-       52.6359649
-      ],
-      [
-       1.2967924,
-       52.6359429
-      ],
-      [
-       1.2966507,
-       52.635938
-      ],
-      [
-       1.2966535,
-       52.6358608
-      ],
-      [
-       1.2966533,
-       52.6358563
-      ],
-      [
-       1.2967066,
-       52.6358575
-      ],
-      [
-       1.2967066,
-       52.6358619
-      ],
-      [
-       1.2967066,
-       52.6358652
-      ],
-      [
-       1.2969141,
-       52.635875
-      ],
-      [
-       1.2969056,
-       52.635941
-      ],
-      [
-       1.2969599,
-       52.6359439
-      ],
-      [
-       1.2969523,
-       52.6359734
-      ]
-     ]
+     1.2968053,
+     52.6359149
     ]
    }
   },
@@ -3518,33 +3781,21 @@
     "fhrs:id": "941445",
     "name": "Starbucks",
     "source:addr": "FHRS Open Data",
-    "id": "way/440968617"
+    "id": "way/440968617",
+    "mapFeature": {
+     "caption": "Starbucks",
+     "allowPopup": true,
+     "location": " Albion Way  \n  NR1 1WR <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3073763,
-       52.6249213
-      ],
-      [
-       1.3075385,
-       52.6248278
-      ],
-      [
-       1.3077179,
-       52.6249444
-      ],
-      [
-       1.3075457,
-       52.6250359
-      ],
-      [
-       1.3073763,
-       52.6249213
-      ]
-     ]
+     1.3075471,
+     52.6249318
     ]
    }
   },
@@ -3554,42 +3805,31 @@
    "properties": {
     "addr:city": "Norwich",
     "addr:country": "GB",
-    "addr:housenumber": "17,19",
+    "addr:housenumber": "13-15",
     "addr:postcode": "NR3 1AB",
     "addr:street": "St George's Street",
     "amenity": "cafe",
     "building": "yes",
-    "fixme": "Check housenumber - FHRS has this at 13-15",
+    "fhrs:id": "991856",
     "name": "Café Pure @ St. George's",
     "phone": "+44 1603 627599",
     "source": "Bing",
-    "id": "way/529717506"
+    "website": "https://www.facebook.com/cafepurestgeorges/",
+    "id": "way/529717506",
+    "mapFeature": {
+     "caption": "Café Pure @ St. George's",
+     "allowPopup": true,
+     "location": "13-15  St George's Street  \n  NR3 1AB <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2946486,
-       52.6323501
-      ],
-      [
-       1.2948331,
-       52.6323772
-      ],
-      [
-       1.2947647,
-       52.6325484
-      ],
-      [
-       1.2945803,
-       52.6325212
-      ],
-      [
-       1.2946486,
-       52.6323501
-      ]
-     ]
+     1.2947067,
+     52.6324492
     ]
    }
   },
@@ -3604,33 +3844,21 @@
     "fhrs:id": "147214",
     "name": "Waterside Café",
     "source:addr": "FHRS Open Data",
-    "id": "way/533969803"
+    "id": "way/533969803",
+    "mapFeature": {
+     "caption": "Waterside Café",
+     "allowPopup": true,
+     "location": " Old Chapel Way  \n  NR7 0WG <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3718289,
-       52.6294804
-      ],
-      [
-       1.3716444,
-       52.629366
-      ],
-      [
-       1.3718463,
-       52.629246
-      ],
-      [
-       1.3720308,
-       52.6293604
-      ],
-      [
-       1.3718289,
-       52.6294804
-      ]
-     ]
+     1.3718376,
+     52.6293632
     ]
    }
   },
@@ -3648,37 +3876,21 @@
     "fhrs:id": "915723",
     "name": "Costa",
     "source:addr": "FHRS Open Data",
-    "id": "way/541599431"
+    "id": "way/541599431",
+    "mapFeature": {
+     "caption": "Costa",
+     "allowPopup": true,
+     "location": "4-5  The Lastings  \n  NR4 6EF <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2882014,
-       52.6068827
-      ],
-      [
-       1.2880032,
-       52.6069464
-      ],
-      [
-       1.287964,
-       52.606959
-      ],
-      [
-       1.2878796,
-       52.6068619
-      ],
-      [
-       1.2881169,
-       52.6067857
-      ],
-      [
-       1.2882014,
-       52.6068827
-      ]
-     ]
+     1.2880405,
+     52.6068723
     ]
    }
   },
@@ -3701,41 +3913,21 @@
     "phone": "+44 1603 632580",
     "source": "Bing",
     "website": "https://www.aldentenorwich.co.uk/",
-    "id": "way/544580860"
+    "id": "way/544580860",
+    "mapFeature": {
+     "caption": "al dente",
+     "allowPopup": true,
+     "location": "25b  St Giles Street  \n  NR2 1JN <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2903457,
-       52.6292164
-      ],
-      [
-       1.2904192,
-       52.6292095
-      ],
-      [
-       1.2904483,
-       52.6293347
-      ],
-      [
-       1.2903005,
-       52.6293499
-      ],
-      [
-       1.2902816,
-       52.62927
-      ],
-      [
-       1.2903558,
-       52.6292633
-      ],
-      [
-       1.2903457,
-       52.6292164
-      ]
-     ]
+     1.2903649,
+     52.6292797
     ]
    }
   },
@@ -3746,33 +3938,21 @@
     "amenity": "cafe",
     "building": "yes",
     "name": "Roots",
-    "id": "way/546434515"
+    "id": "way/546434515",
+    "mapFeature": {
+     "caption": "Roots",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2924162,
-       52.6298013
-      ],
-      [
-       1.292401,
-       52.6297399
-      ],
-      [
-       1.2926,
-       52.6297078
-      ],
-      [
-       1.2926118,
-       52.6297647
-      ],
-      [
-       1.2924162,
-       52.6298013
-      ]
-     ]
+     1.2925064,
+     52.6297546
     ]
    }
   },
@@ -3786,55 +3966,24 @@
     "addr:street": "Park Lane",
     "amenity": "cafe",
     "building": "yes",
-    "contact:website": "https://www.your-artsdesire.co.uk/",
-    "cuisine": "cake",
-    "fhrs:id": "713359",
-    "name": "Arts desire",
-    "note": "sign on window saying being renovate will reopen soon",
-    "shop": "craft",
-    "id": "way/548990631"
+    "contact:website": "https://www.facebook.com/SEED-HOUSE-Caf%C3%A9-470018073408239/",
+    "fhrs:id": "1080663",
+    "name": "Seed House Cafe",
+    "id": "way/548990631",
+    "mapFeature": {
+     "caption": "Seed House Cafe",
+     "allowPopup": true,
+     "location": "81  Park Lane  \n  NR2 3EL <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2768684,
-       52.6261423
-      ],
-      [
-       1.2768315,
-       52.62615
-      ],
-      [
-       1.2767993,
-       52.626136
-      ],
-      [
-       1.2767889,
-       52.6261179
-      ],
-      [
-       1.2767901,
-       52.6260948
-      ],
-      [
-       1.2768027,
-       52.6260808
-      ],
-      [
-       1.2768799,
-       52.626041
-      ],
-      [
-       1.2769593,
-       52.6260857
-      ],
-      [
-       1.2768684,
-       52.6261423
-      ]
-     ]
+     1.2768741,
+     52.6260955
     ]
    }
   },
@@ -3856,65 +4005,21 @@
     "name": "Starbucks",
     "source:addr": "FHRS Open Data",
     "takeaway": "yes",
-    "id": "way/568558557"
+    "id": "way/568558557",
+    "mapFeature": {
+     "caption": "Starbucks",
+     "allowPopup": true,
+     "location": "411  Chapelfield Plain  \n  NR2 1SZ <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2918645,
-       52.6262953
-      ],
-      [
-       1.2918873,
-       52.626293
-      ],
-      [
-       1.2919089,
-       52.6262979
-      ],
-      [
-       1.2919235,
-       52.6263087
-      ],
-      [
-       1.2919273,
-       52.6263225
-      ],
-      [
-       1.2919192,
-       52.6263356
-      ],
-      [
-       1.2919014,
-       52.6263445
-      ],
-      [
-       1.2918786,
-       52.6263468
-      ],
-      [
-       1.291857,
-       52.6263419
-      ],
-      [
-       1.2918424,
-       52.6263311
-      ],
-      [
-       1.2918386,
-       52.6263173
-      ],
-      [
-       1.2918467,
-       52.6263042
-      ],
-      [
-       1.2918645,
-       52.6262953
-      ]
-     ]
+     1.2918829,
+     52.6263199
     ]
    }
   },
@@ -3933,33 +4038,21 @@
     "shop": "supermarket",
     "source": "Bing",
     "source:addr": "FSA Food Hygiene Ratings Database",
-    "id": "way/569746815"
+    "id": "way/569746815",
+    "mapFeature": {
+     "caption": "Bom Sabor",
+     "allowPopup": true,
+     "location": "215-217  Queens Road  \n  NR1 3AE <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2999228,
-       52.6207657
-      ],
-      [
-       1.3001353,
-       52.6207536
-      ],
-      [
-       1.300147,
-       52.6208294
-      ],
-      [
-       1.2999344,
-       52.6208415
-      ],
-      [
-       1.2999228,
-       52.6207657
-      ]
-     ]
+     1.3000349,
+     52.6207976
     ]
    }
   },
@@ -3977,33 +4070,21 @@
     "phone": "+44 1603 814151",
     "shop": "farm",
     "website": "http://www.churchfarmshopandtearoom.co.uk/",
-    "id": "way/603266287"
+    "id": "way/603266287",
+    "mapFeature": {
+     "caption": "Church Farm Shop and Tea Room",
+     "allowPopup": true,
+     "location": " Norwich Road  \n  NR9 3AS <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.1922765,
-       52.6006654
-      ],
-      [
-       1.1923747,
-       52.6005914
-      ],
-      [
-       1.1925015,
-       52.6006534
-      ],
-      [
-       1.1924033,
-       52.6007274
-      ],
-      [
-       1.1922765,
-       52.6006654
-      ]
-     ]
+     1.192389,
+     52.6006594
     ]
    }
   },
@@ -4020,37 +4101,21 @@
     "fhrs:id": "22216",
     "name": "The Little Read Roaster",
     "website": "http://thelittleredroaster.co.uk/",
-    "id": "way/674116971"
+    "id": "way/674116971",
+    "mapFeature": {
+     "caption": "The Little Read Roaster",
+     "allowPopup": true,
+     "location": "81B  Grove Road  \n  NR1 3RT <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2916945,
-       52.6213044
-      ],
-      [
-       1.2916326,
-       52.6212712
-      ],
-      [
-       1.2917484,
-       52.6212142
-      ],
-      [
-       1.2917819,
-       52.6212391
-      ],
-      [
-       1.2917965,
-       52.6212497
-      ],
-      [
-       1.2916945,
-       52.6213044
-      ]
-     ]
+     1.2917146,
+     52.6212593
     ]
    }
   },
@@ -4073,37 +4138,21 @@
     "outdoor_seating": "no",
     "phone": "01603 762201",
     "takeaway": "yes",
-    "id": "way/674120558"
+    "id": "way/674120558",
+    "mapFeature": {
+     "caption": "Caffè Nero",
+     "allowPopup": true,
+     "location": "20  Gentlemans Walk  \n  NR2 1NA <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2937147,
-       52.6284496
-      ],
-      [
-       1.2935111,
-       52.6284559
-      ],
-      [
-       1.2934537,
-       52.6284258
-      ],
-      [
-       1.2934508,
-       52.6283857
-      ],
-      [
-       1.2936987,
-       52.6283698
-      ],
-      [
-       1.2937147,
-       52.6284496
-      ]
-     ]
+     1.2935828,
+     52.6284129
     ]
    }
   },
@@ -4121,53 +4170,21 @@
     "fhrs:id": "910273",
     "name": "Bread Source",
     "source:addr:postcode": "FHRS Open Data",
-    "id": "way/674289226"
+    "id": "way/674289226",
+    "mapFeature": {
+     "caption": "Bread Source",
+     "allowPopup": true,
+     "location": "93  Upper Saint Giles Street  \n  NR2 1AB <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2856634,
-       52.629444
-      ],
-      [
-       1.2856697,
-       52.6293611
-      ],
-      [
-       1.2857803,
-       52.6293635
-      ],
-      [
-       1.2857787,
-       52.6294469
-      ],
-      [
-       1.2857628,
-       52.6294466
-      ],
-      [
-       1.285759,
-       52.629489
-      ],
-      [
-       1.2857602,
-       52.62949
-      ],
-      [
-       1.2857009,
-       52.6294887
-      ],
-      [
-       1.285699,
-       52.6294435
-      ],
-      [
-       1.2856634,
-       52.629444
-      ]
-     ]
+     1.2857219,
+     52.6294256
     ]
    }
   },
@@ -4185,33 +4202,21 @@
     "fhrs:id": "987226",
     "name": "Alchemista",
     "website": "https://www.alchemistacoffee.co.uk/",
-    "id": "way/675889925"
+    "id": "way/675889925",
+    "mapFeature": {
+     "caption": "Alchemista",
+     "allowPopup": true,
+     "location": "4  St Gregory’s Alley  \n  NR2 1ER <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2912589,
-       52.6302146
-      ],
-      [
-       1.2912378,
-       52.6302844
-      ],
-      [
-       1.2911631,
-       52.6302795
-      ],
-      [
-       1.2911805,
-       52.6302161
-      ],
-      [
-       1.2912589,
-       52.6302146
-      ]
-     ]
+     1.291211,
+     52.6302495
     ]
    }
   },
@@ -4228,37 +4233,21 @@
     "fhrs:id": "60343",
     "name": "Strangers Coffee House",
     "website": "http://www.strangerscafe.co.uk/",
-    "id": "way/676216874"
+    "id": "way/676216874",
+    "mapFeature": {
+     "caption": "Strangers Coffee House",
+     "allowPopup": true,
+     "location": "21  Pottergate  \n  NR2 1DS <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2917181,
-       52.6300652
-      ],
-      [
-       1.2917102,
-       52.6300089
-      ],
-      [
-       1.2917087,
-       52.6299957
-      ],
-      [
-       1.2917942,
-       52.6299776
-      ],
-      [
-       1.2918081,
-       52.6300561
-      ],
-      [
-       1.2917181,
-       52.6300652
-      ]
-     ]
+     1.2917584,
+     52.6300214
     ]
    }
   },
@@ -4275,57 +4264,21 @@
     "fhrs:id": "1064618",
     "name": "Artel",
     "website": "http://www.artelstore.co.uk/",
-    "id": "way/681398587"
+    "id": "way/681398587",
+    "mapFeature": {
+     "caption": "Artel",
+     "allowPopup": true,
+     "location": "67  London Street  \n  NR2 1HL <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2967291,
-       52.6299552
-      ],
-      [
-       1.2968174,
-       52.6299624
-      ],
-      [
-       1.296796,
-       52.6300249
-      ],
-      [
-       1.2967541,
-       52.6300202
-      ],
-      [
-       1.2967502,
-       52.630029
-      ],
-      [
-       1.2967723,
-       52.6300371
-      ],
-      [
-       1.2967657,
-       52.6300579
-      ],
-      [
-       1.2967396,
-       52.6300615
-      ],
-      [
-       1.2966957,
-       52.6300533
-      ],
-      [
-       1.2967033,
-       52.6300301
-      ],
-      [
-       1.2967291,
-       52.6299552
-      ]
-     ]
+     1.2967566,
+     52.6300084
     ]
    }
   },
@@ -4345,33 +4298,21 @@
     "phone": "01603 623367",
     "source:addr:postcode": "FHRS Open Data",
     "wikidata": "Q17531356",
-    "id": "way/681404766"
+    "id": "way/681404766",
+    "mapFeature": {
+     "caption": "Britons Arms",
+     "allowPopup": true,
+     "location": "9  Elm Hill  \n  NR3 1HN <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2966338,
-       52.6312917
-      ],
-      [
-       1.2966751,
-       52.6311997
-      ],
-      [
-       1.2968026,
-       52.6312222
-      ],
-      [
-       1.2967582,
-       52.6313133
-      ],
-      [
-       1.2966338,
-       52.6312917
-      ]
-     ]
+     1.2967182,
+     52.6312565
     ]
    }
   },
@@ -4388,37 +4329,21 @@
     "fhrs:id": "924799",
     "name": "Storm in a Teacup",
     "source:addr": "FHRS Open Data",
-    "id": "way/681404768"
+    "id": "way/681404768",
+    "mapFeature": {
+     "caption": "Storm in a Teacup",
+     "allowPopup": true,
+     "location": " Elm Hill  \n  NR3 1HN <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2966061,
-       52.6308494
-      ],
-      [
-       1.2966705,
-       52.6308596
-      ],
-      [
-       1.2966835,
-       52.6308699
-      ],
-      [
-       1.2966682,
-       52.630921
-      ],
-      [
-       1.2965801,
-       52.6309057
-      ],
-      [
-       1.2966061,
-       52.6308494
-      ]
-     ]
+     1.2966318,
+     52.6308852
     ]
    }
   },
@@ -4436,33 +4361,21 @@
     "fhrs:id": "896150",
     "name": "Brundall Coffee Shop",
     "source:addr": "FHRS Open Data",
-    "id": "way/684438454"
+    "id": "way/684438454",
+    "mapFeature": {
+     "caption": "Brundall Coffee Shop",
+     "allowPopup": true,
+     "location": "78  The Street  \n  NR13 5LH <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.4326434,
-       52.6244026
-      ],
-      [
-       1.4326812,
-       52.6244837
-      ],
-      [
-       1.4326139,
-       52.6244952
-      ],
-      [
-       1.4325761,
-       52.6244141
-      ],
-      [
-       1.4326434,
-       52.6244026
-      ]
-     ]
+     1.4326286,
+     52.6244489
     ]
    }
   },
@@ -4483,33 +4396,21 @@
     "phone": "+44 1603 660899",
     "real_ale": "no",
     "website": "http://www.amtcoffee.co.uk/",
-    "id": "way/689433097"
+    "id": "way/689433097",
+    "mapFeature": {
+     "caption": "AMT Coffee",
+     "allowPopup": true,
+     "location": " Station Approach  \n  NR1 1EF <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3066139,
-       52.6265648
-      ],
-      [
-       1.3065494,
-       52.6266015
-      ],
-      [
-       1.3064544,
-       52.6265404
-      ],
-      [
-       1.3065171,
-       52.6265034
-      ],
-      [
-       1.3066139,
-       52.6265648
-      ]
-     ]
+     1.3065342,
+     52.6265524
     ]
    }
   },
@@ -4529,37 +4430,21 @@
     "name": "Costa Coffee",
     "opening_hours": "Mo-Fr 09:00-20:30; Sa 09:00-19:30; Su 10:00-16:00",
     "website": "https://www.costa.co.uk/locations/store-locator/",
-    "id": "way/695825106"
+    "id": "way/695825106",
+    "mapFeature": {
+     "caption": "Costa Coffee",
+     "allowPopup": true,
+     "location": " Alex Moorhouse Way  \n  NR5 0JT <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.1795293,
-       52.6535068
-      ],
-      [
-       1.1797351,
-       52.6533861
-      ],
-      [
-       1.1798706,
-       52.6534711
-      ],
-      [
-       1.1796882,
-       52.6535781
-      ],
-      [
-       1.1796648,
-       52.6535918
-      ],
-      [
-       1.1795293,
-       52.6535068
-      ]
-     ]
+     1.1797,
+     52.6534889
     ]
    }
   },
@@ -4578,33 +4463,21 @@
     "name": "West Conrwall Pasty Co",
     "source:addr": "FHRS Open Data",
     "takeaway": "yes",
-    "id": "way/699215603"
+    "id": "way/699215603",
+    "mapFeature": {
+     "caption": "West Conrwall Pasty Co",
+     "allowPopup": true,
+     "location": " Station Approach  \n  NR1 1EF <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3068955,
-       52.6268044
-      ],
-      [
-       1.3069343,
-       52.6267812
-      ],
-      [
-       1.3069717,
-       52.6268042
-      ],
-      [
-       1.3069328,
-       52.6268275
-      ],
-      [
-       1.3068955,
-       52.6268044
-      ]
-     ]
+     1.3069336,
+     52.6268044
     ]
    }
   },
@@ -4622,33 +4495,21 @@
     "cuisine": "irish",
     "fhrs:id": "1030462",
     "name": "Butcher Bhoy",
-    "id": "way/699468518"
+    "id": "way/699468518",
+    "mapFeature": {
+     "caption": "Butcher Bhoy",
+     "allowPopup": true,
+     "location": "10  Exchange Street  \n  NR2 1AT <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2934315,
-       52.6293995
-      ],
-      [
-       1.2934432,
-       52.6294671
-      ],
-      [
-       1.2933518,
-       52.6294715
-      ],
-      [
-       1.2933418,
-       52.629404
-      ],
-      [
-       1.2934315,
-       52.6293995
-      ]
-     ]
+     1.2933925,
+     52.6294355
     ]
    }
   },
@@ -4667,33 +4528,21 @@
     "name": "Rasa's Cafe",
     "source:addr:postcode": "FHRS Open Data",
     "website": "https://www.facebook.com/rasascafe/",
-    "id": "way/700132761"
+    "id": "way/700132761",
+    "mapFeature": {
+     "caption": "Rasa's Cafe",
+     "allowPopup": true,
+     "location": "31  Earlham West Centre  \n  <strong>Level:</strong>&nbsp;0 NR5 8AD <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2408539,
-       52.6321322
-      ],
-      [
-       1.2409223,
-       52.6321646
-      ],
-      [
-       1.2408812,
-       52.6321965
-      ],
-      [
-       1.2408129,
-       52.632164
-      ],
-      [
-       1.2408539,
-       52.6321322
-      ]
-     ]
+     1.2408676,
+     52.6321643
     ]
    }
   },
@@ -4710,41 +4559,21 @@
     "level": "1",
     "name": "Greggs",
     "source:addr": "FHRS Open Data",
-    "id": "way/701261004"
+    "id": "way/701261004",
+    "mapFeature": {
+     "caption": "Greggs",
+     "allowPopup": true,
+     "location": "18  White Lion Street  \n  <strong>Level:</strong>&nbsp;1 NR2 1PX <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2946791,
-       52.6276577
-      ],
-      [
-       1.2946005,
-       52.6276594
-      ],
-      [
-       1.2945812,
-       52.627586
-      ],
-      [
-       1.2946543,
-       52.6275859
-      ],
-      [
-       1.2947626,
-       52.6275764
-      ],
-      [
-       1.2947843,
-       52.6276576
-      ],
-      [
-       1.2946791,
-       52.6276577
-      ]
-     ]
+     1.2946828,
+     52.6276179
     ]
    }
   },
@@ -4762,1215 +4591,124 @@
     "level": "1",
     "name": "White Lion Cafe",
     "source:addr": "FHRS Open Data",
-    "id": "way/701263534"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2943007,
-       52.6275612
-      ],
-      [
-       1.2944964,
-       52.6275644
-      ],
-      [
-       1.2944738,
-       52.6276129
-      ],
-      [
-       1.2944346,
-       52.62761
-      ],
-      [
-       1.2943942,
-       52.6276657
-      ],
-      [
-       1.2943696,
-       52.6276386
-      ],
-      [
-       1.2943431,
-       52.6276376
-      ],
-      [
-       1.2943426,
-       52.6276069
-      ],
-      [
-       1.2943019,
-       52.6276092
-      ],
-      [
-       1.2943007,
-       52.6275612
-      ]
+    "id": "way/701263534",
+    "mapFeature": {
+     "caption": "White Lion Cafe",
+     "allowPopup": true,
+     "location": "17  White Lion Street  \n  <strong>Level:</strong>&nbsp;1 NR2 1PX <br />\n  \n  \n  ",
+     "layers": [
+      "food"
      ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/355536540",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housename": "Forum Building",
-    "addr:postcode": "NR2 1TF",
-    "addr:street": "Millennium Plain",
-    "amenity": "cafe",
-    "fhrs:id": "84112",
-    "kitchen_hours": "Mo-Sa 08:30-23:00; Su 09:30-22:30",
-    "name": "Café Bar Marzano",
-    "not:addr:postcode": "NR2 1BH",
-    "opening_hours": "Mo-Th 08:30-22:00; Fr-Sa 08:30-23:00; Su 09:30-22:00",
-    "outdoor_seating": "yes",
-    "phone": "+44 1603 665504",
-    "real_ale": "yes",
-    "toilets:wheelchair": "yes",
-    "website": "https://www.facebook.com/cafebarmarzano",
-    "wheelchair": "yes",
-    "id": "node/355536540"
+    }
    },
    "geometry": {
     "type": "Point",
     "coordinates": [
-     1.2914672,
-     52.6278151
+     1.2943985,
+     52.6276134
     ]
    }
   },
   {
    "type": "Feature",
-   "id": "node/1188157138",
+   "id": "relation/2181552",
    "properties": {
     "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housename": "Unit 2c",
-    "addr:housenumber": "2c",
-    "addr:postcode": "NR1 1WR",
-    "addr:street": "Albion Way",
+    "addr:housenumber": "52-53",
+    "addr:postcode": "NR2 1ND",
+    "addr:street": "Market Place",
     "amenity": "cafe",
-    "cuisine": "coffee",
-    "fhrs:id": "22923",
-    "name": "Costa Coffee",
-    "phone": "+44 1603 613441",
-    "id": "node/1188157138"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.3072015,
-     52.6226441
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/1248122810",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housename": "c/o House of Fraser",
-    "addr:postcode": "NR2 1SH",
-    "addr:street": "Merchants' Hall",
-    "amenity": "cafe",
-    "brand": "Caffè Nero",
-    "brand:wikidata": "Q675808",
-    "brand:wikipedia": "en:Caffè Nero",
-    "cuisine": "coffee_shop",
-    "fhrs:id": "15505",
-    "name": "Caffè Nero",
-    "opening_hours": "Mo-We 09:00-18:00; Th 09:00-20:00; Fr-Sa 09:00-19:00; Su 11:00-17:00; PH 10:00-18:00",
-    "phone": "+44 1603 764111",
-    "takeaway": "yes",
-    "website": "https://caffenero.com/",
-    "id": "node/1248122810"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2884701,
-     52.6263446
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/1295110758",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housenumber": "42-46",
-    "addr:postcode": "NR2 1NR",
-    "addr:street": "Bethel Street",
-    "amenity": "cafe",
-    "contact:website": "http://greenhousetrust.co.uk/",
-    "cuisine": "coffee_shop",
-    "diet:gluten_free": "yes",
-    "diet:vegan": "yes",
-    "diet:vegetarian": "only",
-    "fhrs:id": "5045",
-    "gay": "welcome",
-    "name": "The Greenhouse Trust",
-    "smoking": "no",
-    "id": "node/1295110758"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.289322,
-     52.6283953
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/1365424876",
-   "properties": {
-    "addr:housename": "Tesco Supermarket",
-    "addr:postcode": "NR4 6DZ",
-    "addr:street": "Main Road",
-    "addr:village": "Caistor St Edmund",
-    "amenity": "cafe",
-    "fhrs:id": "648697",
-    "name": "Costa Coffee",
-    "opening_hours": "Mo-We,Sa 08:00-18:00; Th-Fr 08:00-20:00; Su 10:00-16:00",
+    "fhrs:id": "344753",
+    "name": "Burgill Coffee",
+    "note": "Coffee and continental snacks",
+    "operator": "Little red Roaster​",
     "source:addr": "FHRS Open Data",
-    "id": "node/1365424876"
+    "type": "multipolygon",
+    "id": "relation/2181552",
+    "mapFeature": {
+     "caption": "Burgill Coffee",
+     "allowPopup": true,
+     "location": "52-53  Market Place  \n  NR2 1ND <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
     "coordinates": [
-     1.2770326,
-     52.5952878
+     1.2928519,
+     52.6283595
     ]
    }
   },
   {
    "type": "Feature",
-   "id": "node/1631947640",
-   "properties": {
-    "amenity": "cafe",
-    "name": "Decafe",
-    "id": "node/1631947640"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2655089,
-     52.6629851
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/1709852312",
-   "properties": {
-    "amenity": "cafe",
-    "name": "Inspirations Cafe",
-    "id": "node/1709852312"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2850342,
-     52.6172482
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/1819470087",
-   "properties": {
-    "amenity": "cafe",
-    "name": "Café Oasis",
-    "wheelchair": "yes",
-    "id": "node/1819470087"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2771615,
-     52.6699781
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/1819470088",
-   "properties": {
-    "amenity": "cafe",
-    "name": "Costa Coffee",
-    "wheelchair": "yes",
-    "id": "node/1819470088"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.277388,
-     52.6697373
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/1898832591",
-   "properties": {
-    "amenity": "cafe",
-    "name": "cafe 6",
-    "id": "node/1898832591"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2910809,
-     52.6124956
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/2328161598",
+   "id": "relation/3152337",
    "properties": {
     "addr:city": "Norwich",
     "addr:country": "GB",
-    "addr:housename": "Sainsbury Centre For Visual Arts",
-    "addr:place": "University Of East Anglia",
-    "addr:postcode": "NR4 7TJ",
-    "addr:street": "Norfolk Road",
+    "addr:housenumber": "121",
+    "addr:postcode": "NR2 1ND",
+    "addr:street": "Market Place",
     "amenity": "cafe",
-    "fhrs:id": "847491",
-    "kitchen_hours": "09:00-11:00,12:00-14:00",
-    "name": "Modern Life Café",
-    "opening_hours": "Mo-Fr 09:00-18:00; Sa-Su 10:00-17:00",
-    "operator": "BaxterStorey",
-    "phone": "+44 1603 593202",
-    "id": "node/2328161598"
+    "building": "stall",
+    "fhrs:id": "15631",
+    "name": "Bs Ts Snack Bar",
+    "operator": "BJs",
+    "ref": "121",
+    "shop": "refreshments",
+    "type": "multipolygon",
+    "id": "relation/3152337",
+    "mapFeature": {
+     "caption": "Bs Ts Snack Bar",
+     "allowPopup": true,
+     "location": "121  Market Place  \n  NR2 1ND <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
     "coordinates": [
-     1.2340861,
-     52.6206746
+     1.2927542,
+     52.6285692
     ]
    }
   },
   {
    "type": "Feature",
-   "id": "node/2381422615",
+   "id": "relation/5710976",
    "properties": {
     "addr:city": "Norwich",
-    "addr:housename": "Bus Station",
-    "addr:postcode": "NR1 3NX",
-    "addr:street": "Surrey Street",
+    "addr:housenumber": "78-80",
+    "addr:postcode": "NR1 1NJ",
+    "addr:street": "Prince of Wales Road",
     "amenity": "cafe",
-    "fhrs:id": "15599",
-    "name": "Refresh Express",
-    "source:addr": "FHRS Open Data",
-    "id": "node/2381422615"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2930942,
-     52.6244259
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/2744407130",
-   "properties": {
-    "addr:housename": "Julian Study Centre",
-    "addr:place": "University Of East Anglia",
-    "addr:postcode": "NR4 7TJ",
-    "addr:street": "Chancellors Drive",
-    "amenity": "cafe",
-    "fhrs:id": "661391",
-    "name": "Costa @ Cafe 57",
-    "operator": "UEA",
-    "website": "https://portal.uea.ac.uk/campus-kitchen/cafes-and-restaurants/cafe-57",
-    "id": "node/2744407130"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2340437,
-     52.6221728
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/3141765957",
-   "properties": {
-    "FIXME": "Survey to position",
-    "amenity": "cafe",
-    "name": "Morrisons café",
-    "opening_hours": "Mo-Th,Sa 08:00-19:00; Fr 08:00-20:00; Su 09:30-15:00",
-    "id": "node/3141765957"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.3089266,
-     52.6238151
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/3491809093",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housename": "Sainsbury Centre For Visual Arts",
-    "addr:place": "University of East Anglia",
-    "addr:postcode": "NR4 7TJ",
-    "addr:street": "Norfolk Road",
-    "amenity": "cafe",
-    "fhrs:id": "816417",
-    "name": "Kofra",
-    "opening_hours": "Tu-Fr 09:00-17:30; Sa-Su 10:00-16:30",
-    "website": "https://scva.ac.uk/visit/modern-life-cafe",
-    "id": "node/3491809093"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.235307,
-     52.6199765
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/3577019001",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housename": "Central Catering Building",
-    "addr:place": "University Of East Anglia",
-    "addr:postcode": "NR4 7TJ",
-    "addr:street": "The Square",
-    "amenity": "cafe",
-    "fhrs:id": "14621",
-    "indoor": "yes",
-    "level": "1",
-    "name": "Blend",
-    "opening_hours": "Sep 21-Jun 7: Mo-Fr 10:00-16:00; Jun 8-Sep 20: off",
-    "source:addr": "FHRS Open Data",
-    "website": "https://portal.uea.ac.uk/campus-kitchen/cafes-and-restaurants/blend",
-    "id": "node/3577019001"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2404417,
-     52.6216374
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/3577021480",
-   "properties": {
-    "addr:housename": "Biomedical Research Centre",
-    "addr:place": "University Of East Anglia",
-    "addr:postcode": "NR4 7TJ",
-    "addr:street": "Norfolk Road",
-    "amenity": "cafe",
-    "fhrs:id": "212562",
-    "indoor": "yes",
+    "cuisine": "greek",
+    "disused:amenity": "fast_food",
+    "fhrs:id": "1070661",
     "level": "0",
-    "name": "Atrium Cafe",
-    "old_name": "Bio Café",
-    "opening_hours": "Apr 13-Sep 20: Mo-Fr 09:00-16:00",
-    "source:addr": "FHRS Open Data",
-    "id": "node/3577021480"
+    "name": "The Feed",
+    "old_name": "GRK Greek Kitchen",
+    "type": "multipolygon",
+    "website": "https://thefeed.org.uk/",
+    "id": "relation/5710976",
+    "mapFeature": {
+     "caption": "The Feed",
+     "allowPopup": true,
+     "location": "78-80  Prince of Wales Road  \n  <strong>Level:</strong>&nbsp;0 NR1 1NJ <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
     "coordinates": [
-     1.2363488,
-     52.6208152
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/3577025505",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housename": "Sportspark",
-    "addr:place": "University Of East Anglia",
-    "addr:postcode": "NR4 7TJ",
-    "addr:street": "University Drive",
-    "amenity": "cafe",
-    "fhrs:id": "724480",
-    "kitchen_hours": "Mo-Th 08:00-21:30; Fr-Su 08:00-21:00",
-    "name": "Sportscafe",
-    "opening_hours": "Mo-Th 08:00-22:00; Fr-Su 08:00-21:30",
-    "source:addr": "FHRS Open Data",
-    "website": "https://portal.uea.ac.uk/campus-kitchen/cafes-and-restaurants/sports-park-cafe",
-    "wheelchair": "yes",
-    "id": "node/3577025505"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2409994,
-     52.6242167
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/3709817672",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:postcode": "NR4 7AU",
-    "addr:site": "Eaton Park",
-    "addr:street": "South Park Avenue",
-    "amenity": "cafe",
-    "fhrs:id": "878419",
-    "name": "Eaton Park Café",
-    "source:addr": "FHRS Open Data",
-    "url": "http://friendsofeatonpark.co.uk/cafe/",
-    "id": "node/3709817672"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2573178,
-     52.6202795
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/3721471907",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housename": "Sainsbury's",
-    "addr:housenumber": "1",
-    "addr:postcode": "NR1 3RB",
-    "addr:street": "Brazen Gate",
-    "amenity": "cafe",
-    "fhrs:id": "97277",
-    "name": "Sainsbury's Cafe",
-    "opening_hours": "Mo-Sa 08:00-19:00; Su 09:30-15:30",
-    "source:addr": "FHRS Open Data",
-    "id": "node/3721471907"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2932938,
-     52.6216541
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/3782213550",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housename": "Centrum",
-    "addr:parentstreet": "Colney Lane",
-    "addr:place": "Norwich Research Park",
-    "addr:postcode": "NR4 7UG",
-    "addr:suburb": "Colney",
-    "amenity": "cafe",
-    "fhrs:id": "691751",
-    "name": "The Cafe at Centrum",
-    "operator": "Genuine Dining",
-    "source:addr": "FHRS Open Data",
-    "website": "https://www.norwichresearchpark.com/property-and-park/amenities/cafe",
-    "id": "node/3782213550"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2199393,
-     52.6227134
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/4207837430",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housename": "Abc Wharf",
-    "addr:postcode": "NR1 1QH",
-    "addr:street": "King Street",
-    "addr:unit": "Unit 1",
-    "amenity": "cafe",
-    "cuisine": "coffee_shop",
-    "fhrs:id": "638066",
-    "name": "Smokey Barn",
-    "source:addr": "FHRS Open Data",
-    "id": "node/4207837430"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.3023634,
-     52.6242551
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/4853525623",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housenumber": "23",
-    "addr:postcode": "NR2 1DN",
-    "addr:street": "Saint John Maddermarket",
-    "amenity": "cafe",
-    "cuisine": "cake;coffee_shop",
-    "fhrs:id": "905156",
-    "name": "Figbar",
-    "website": "http://www.figbarnorwich.com",
-    "id": "node/4853525623"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2930456,
-     52.6305655
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/5073370280",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housename": "St Michael At Plea Church",
-    "addr:postcode": "NR2 4SN",
-    "addr:street": "Redwell Street",
-    "amenity": "cafe",
-    "fhrs:id": "62360",
-    "name": "Revelation Café",
-    "opening_hours": "Mo-Sa 09:30-15:30; Su off",
-    "source:addr": "FHRS Open Data",
-    "id": "node/5073370280"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2971216,
-     52.6304932
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/5167531554",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housenumber": "41",
-    "addr:postcode": "NR1 1PH",
-    "addr:street": "King Street",
-    "amenity": "cafe",
-    "fhrs:id": "915711",
-    "name": "The cafe club",
-    "source:addr": "FHRS Open Data",
-    "id": "node/5167531554"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2995929,
-     52.6279832
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/5223683340",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housenumber": "27-29",
-    "addr:postcode": "NR1 3LA",
-    "addr:street": "Timberhill",
-    "amenity": "cafe",
-    "fhrs:id": "878411",
-    "name": "Timberhill Bakery",
-    "opening_hours": "Tu-Fr 08:00-15:00; Sa 08:00-16:00; Su-Mo off",
-    "phone": "+44 1603 613 172",
-    "shop": "bakery",
-    "source:addr": "FHRS Open Data",
-    "website": "https://timberhillbakery.com/",
-    "id": "node/5223683340"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2954472,
-     52.6262387
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/5308591324",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housenumber": "33",
-    "addr:postcode": "NR2 1DP",
-    "addr:street": "Exchange Street",
-    "amenity": "cafe",
-    "fhrs:id": "18083",
-    "name": "No 33 Cafe Bar",
-    "source:addr": "FHRS Open Data",
-    "id": "node/5308591324"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2938036,
-     52.6300789
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/5308705221",
-   "properties": {
-    "amenity": "cafe",
-    "name": "Cafe 67",
-    "id": "node/5308705221"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2922896,
-     52.6340175
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/5456045474",
-   "properties": {
-    "addr:housenumber": "6",
-    "addr:postcode": "NR8 6AF",
-    "addr:street": "Drayton High Road",
-    "addr:village": "Drayton",
-    "amenity": "cafe",
-    "cuisine": "regional",
-    "fhrs:id": "124819",
-    "name": "The Willows",
-    "source:addr": "FHRS Open Data",
-    "id": "node/5456045474"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2252865,
-     52.6754167
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/5828954533",
-   "properties": {
-    "addr:housenumber": "27",
-    "addr:postcode": "NR3 1LE",
-    "addr:street": "Magdalene Street",
-    "amenity": "cafe",
-    "cuisine": "coffee_shop",
-    "diet:vegan": "only",
-    "facebook": "https://www.facebook.com/Ancestorscoffee/",
-    "fhrs:id": "991861",
-    "instagram": "https://www.instagram.com/ancestorscoffee/",
-    "name": "Ancestors Coffee",
-    "opening_hours": "Mo 09:30-15:00; Tu-Fr 08:00-17:00; Sa 09:00-18:00; Su 10:00-16:00",
-    "source:addr:postcode": "FHRS Open Data",
-    "id": "node/5828954533"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2967796,
-     52.6343261
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/5829166586",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housename": "39",
-    "addr:postcode": "NR3 1LQ",
-    "addr:street": "Magdalen Street",
-    "amenity": "cafe",
-    "cuisine": "moroccan;coffee_shop;deli",
-    "fhrs:id": "720256",
-    "internet_access": "wlan",
-    "name": "Ruth’s Kitchen",
-    "source:addr": "FHRS Open Data",
-    "id": "node/5829166586"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2966624,
-     52.6346604
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/5835963849",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housename": "Guildhall",
-    "addr:postcode": "NR2 1JP",
-    "addr:street": "Gaol Hill",
-    "amenity": "cafe",
-    "email": "hello@cafebritannia.co.uk",
-    "fhrs:id": "855618",
-    "indoor": "yes",
-    "name": "Guildhall Britannica",
-    "opening_hours": "Mo-Su 08:00-16:00",
-    "phone": "+44 1603 629364",
-    "source:addr": "FHRS Open Data",
-    "id": "node/5835963849"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2925215,
-     52.6289884
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/5926595685",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housename": "The Enterprise Centre",
-    "addr:place": "University of East Anglia",
-    "addr:postcode": "NR4 7TJ",
-    "alt_name": "Mustard Cafe",
-    "alt_url": "https://www.uea.ac.uk/adapt/the-enterprise-centre/namaste-hut-cafe",
-    "amenity": "cafe",
-    "cuisine": "coffee_shop",
-    "diet:vegan": "yes",
-    "diet:vegetarian": "only",
-    "fhrs:id": "840060",
-    "name": "Namaste Hut",
-    "opening_hours": "Mo-Fr 08:30-15:30",
-    "url": "http://www.namastehutcafe.com/",
-    "id": "node/5926595685"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2395215,
-     52.6255858
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/6313256185",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housenumber": "117",
-    "addr:postcode": "NR2 2PE",
-    "addr:street": "Unthank Road",
-    "amenity": "cafe",
-    "fhrs:id": "15164",
-    "name": "Unthank Kitchen",
-    "source:addr": "FHRS Open Data",
-    "id": "node/6313256185"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2772047,
-     52.6242138
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/6327334540",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:postcode": "NR13 4AZ",
-    "addr:street": "Station Road",
-    "addr:village": "Lingwood",
-    "amenity": "cafe",
-    "fhrs:id": "844345",
-    "name": "Hug a Mug Cafe",
-    "opening_hours": "Mo-Th 08:45-15:00; Fr 07:00-12:00; Sa 08:30-12:00",
-    "source:addr": "FHRS Open Data",
-    "url": "http://www.lingwoodvh.co.uk/hug-a-mug-cafe",
-    "id": "node/6327334540"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.4907909,
-     52.6189301
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/6458472085",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housename": "Union House",
-    "addr:place": "University of East Anglia",
-    "addr:postcode": "NR4 7TJ",
-    "addr:street": "The Street",
-    "amenity": "cafe",
-    "fhrs:id": "861575",
-    "level": "1",
-    "name": "Unio",
-    "source:addr": "FSA Food Hygiene Ratings Database",
-    "id": "node/6458472085"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.241243,
-     52.6214779
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/6466626786",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housenumber": "2",
-    "addr:postcode": "NR2 1JH",
-    "addr:street": "Guildhall Hill",
-    "amenity": "cafe",
-    "fhrs:id": "48621",
-    "name": "Ground",
-    "source:addr": "FHRS Open Data",
-    "id": "node/6466626786"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2922112,
-     52.629175
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/6469370766",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housename": "Waterstones",
-    "addr:housenumber": "11-17",
-    "addr:postcode": "NR2 1PB",
-    "addr:street": "Castle Street",
-    "amenity": "cafe",
-    "fhrs:id": "457277",
-    "name": "Cafe W",
-    "source:addr": "FSA Food Hygiene Ratings Database",
-    "id": "node/6469370766"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2950402,
-     52.6286459
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/6545308134",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housename": "Union House",
-    "addr:locality": "University Of East Anglia",
-    "addr:postcode": "NR4 7TJ",
-    "addr:street": "The Street",
-    "amenity": "cafe",
-    "fhrs:id": "915692",
-    "level": "2",
-    "name": "Scholars",
-    "source:addr": "FSA Food Hygiene Ratings Database",
-    "id": "node/6545308134"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.241506,
-     52.6213256
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/6565981555",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housename": "John Lewis",
-    "addr:postcode": "NR1 3LX",
-    "addr:street": "All Saints Green",
-    "amenity": "cafe",
-    "fhrs:id": "958567",
-    "level": "1",
-    "name": "Benugo",
-    "operator": "John Lewis & Partners",
-    "source:addr": "FHRS Open Data",
-    "id": "node/6565981555"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.29629,
-     52.6253993
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/6567754517",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housenumber": "18-19",
-    "addr:postcode": "NR2 1NQ",
-    "addr:street": "Royal Arcade",
-    "amenity": "cafe",
-    "fhrs:id": "4910",
-    "name": "Marmalades",
-    "source:addr:postcode": "FSA Food Hygiene Ratings Database",
-    "website": "https://www.facebook.com/marmaladescafe/",
-    "id": "node/6567754517"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2940534,
-     52.6280787
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/6568273969",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housenumber": "48",
-    "addr:postcode": "NR2 1LA",
-    "addr:street": "London Street",
-    "amenity": "cafe",
-    "cuisine": "coffee_shop",
-    "fhrs:id": "632122",
-    "name": "Costa",
-    "source:addr": "FHRS Open Data",
-    "id": "node/6568273969"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2958599,
-     52.6295193
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/6568273972",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housenumber": "50",
-    "addr:postcode": "NR2 1LA",
-    "addr:street": "London Street",
-    "amenity": "cafe",
-    "fhrs:id": "41579",
-    "name": "Greggs",
-    "shop": "bakery",
-    "source:addr": "FHRS Open Data",
-    "id": "node/6568273972"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.295935,
-     52.6295664
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/6568299050",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housenumber": "21-23",
-    "addr:postcode": "NR1 3DH",
-    "addr:street": "Castle Meadow",
-    "amenity": "cafe",
-    "fhrs:id": "1038203",
-    "name": "Kinda Kafe",
-    "website": "https://www.missingkind.org/kindakafe-norwich",
-    "id": "node/6568299050"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2961925,
-     52.6294037
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/6570241119",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housename": "Norwich Cathedral",
-    "addr:postcode": "NR1 4DH",
-    "addr:street": "The Close",
-    "amenity": "cafe",
-    "fhrs:id": "10454",
-    "name": "The Refectory",
-    "opening_hours": "Mo-Sa 10:00-17:00; Su 11:00-17:00",
-    "operator": "Norwich Cathedral",
-    "source:addr": "FSA Food Hygiene Ratings Database",
-    "website": "https://www.cathedral.org.uk/visit/food-drink",
-    "id": "node/6570241119"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.3010267,
-     52.6312333
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/6573544539",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housename": "St Elizabeth Church",
-    "addr:postcode": "NR5 8DG",
-    "addr:street": "Cadge Road",
-    "amenity": "cafe",
-    "name": "The Beacon Cafe",
-    "source:addr": "FHRS Open Data",
-    "website": "https://www.facebook.com/The-Beacon-Cafe-360026354201734/",
-    "id": "node/6573544539"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2475619,
-     52.6337734
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/6573547229",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housename": "INTO",
-    "addr:place": "University of East Anglia",
-    "addr:postcode": "NR4 7TJ",
-    "addr:street": "University Drive",
-    "amenity": "cafe",
-    "cuisine": "coffee_shop",
-    "fhrs:id": "26530",
-    "level": "0",
-    "id": "node/6573547229"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2453732,
-     52.6233035
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/6574767225",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housename": "Cadge Road Community Centre",
-    "addr:postcode": "NR5 8DG",
-    "addr:street": "Cadge Road",
-    "amenity": "cafe",
-    "fhrs:id": "1027453",
-    "name": "Silver Diners Lunch Club",
-    "opening_hours": "Tu 12:00-14:00",
-    "source:addr": "FHRS Open Data",
-    "id": "node/6574767225"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2465463,
-     52.6346144
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/6582537700",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housename": "Premier Inn",
-    "addr:postcode": "NR1 1DX",
-    "addr:street": "Prince Of Wales Road",
-    "amenity": "cafe",
-    "cuisine": "coffee_shop",
-    "fhrs:id": "924810",
-    "name": "Costa",
-    "source:addr": "FHRS Open Data",
-    "id": "node/6582537700"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.3053333,
-     52.6278686
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/6585366688",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housename": "St Stephen's",
-    "addr:postcode": "NR2 1QP",
-    "addr:street": "Rampant Horse Street",
-    "amenity": "cafe",
-    "fhrs:id": "764776",
-    "name": "St Stephen's Café",
-    "opening_hours": "Mo-Sa 10:00-15:30",
-    "website": "http://www.ststephensnorwich.org/cafe/",
-    "id": "node/6585366688"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2921435,
-     52.6265987
+     1.302812,
+     52.6290942
     ]
    }
   }

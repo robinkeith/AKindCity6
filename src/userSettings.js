@@ -49,7 +49,11 @@ export class UserSettings {
   initUserSettingsForm () {
     $('#fg-name').toggle(!this.demoMode)
 
+<<<<<<< HEAD
     $('#userName').val(html.escape(this.userName || '')) // Fix error thrown if userName is undefined
+=======
+    $('#userName').val(html.escape(this.userName || ''))
+>>>>>>> responsive-PWA-experiment
     $('#switchSimple').prop('checked', this.simpleMode)
     $('#switchPics').prop('checked', this.pictureMode)
     $('#switchWheelchair').prop('checked', this.wheelchair)

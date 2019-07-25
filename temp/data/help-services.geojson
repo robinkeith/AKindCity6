@@ -1,0 +1,162 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "node/2969607869",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housename": "Norwich Station",
+    "addr:postcode": "NR1 1EG",
+    "addr:street": "Thorpe Road",
+    "amenity": "police",
+    "name": "British Transport Police Norwich",
+    "opening_hours": "\"7am-2am depending on officer availability\"",
+    "operator": "British Transport Police",
+    "phone": "01223 536 125",
+    "website": "https://www.btp.police.uk/contact_us/btp_stations/east.aspx",
+    "id": "node/2969607869"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.307522,
+     52.6265787
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/3563394693",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "Rouen House",
+    "addr:postcode": "NR1 1RB",
+    "addr:street": "Rouen Road",
+    "amenity": "doctors",
+    "covered": "yes",
+    "email": "timberhill.reception@nhs.net",
+    "fax": "+44 1603 753499",
+    "name": "Norwich Practices Health and Walk-in Centre",
+    "note": "Walk-in Centre and Doctors' Surgery",
+    "opening_hours": "07:00-21:00",
+    "opening_hours:blood_tests": "Mo-Fr 08:00-12:30; PH off",
+    "operator": "NHS",
+    "phone": "+44 1603 677500",
+    "website": "http://www.norwichwalkincentre.co.uk/",
+    "id": "node/3563394693"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2989071,
+     52.6263175
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/75739196",
+   "properties": {
+    "alt_name": "Tuckswood Police Station",
+    "amenity": "police",
+    "building": "amenity",
+    "name": "West Centre SNT",
+    "operator": "Norfolk Constabulary",
+    "source": "Bing",
+    "source:name": "survey",
+    "id": "way/75739196"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2919814,
+     52.6114082
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/113746954",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "422",
+    "addr:postcode": "NR4 7HQ",
+    "addr:street": "Earlham Road",
+    "alt_name": "West Norwich Operational Deployment Base",
+    "amenity": "police",
+    "building": "yes",
+    "name": "Earlham Police Station",
+    "operator": "Norfolk Constabulary",
+    "source": "survey",
+    "id": "way/113746954"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2600633,
+     52.629203
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/119744293",
+   "properties": {
+    "addr:postcode": "NR2 1NN",
+    "amenity": "police",
+    "building": "yes",
+    "name": "Norwich Police Station",
+    "source": "Bing",
+    "id": "way/119744293"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2910191,
+     52.6282578
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/283175744",
+   "properties": {
+    "amenity": "police",
+    "name": "Taverham Police Station",
+    "note": "If station closed please use telephone provided.",
+    "wheelchair": "yes",
+    "id": "way/283175744"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2073741,
+     52.6823238
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/320385938",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "2",
+    "addr:postcode": "NR1 2RZ",
+    "addr:street": "Abbot Road",
+    "amenity": "police",
+    "building": "amenity",
+    "id": "way/320385938"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2923161,
+     52.6114173
+    ]
+   }
+  }
+ ]
+}

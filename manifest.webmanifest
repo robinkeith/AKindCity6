@@ -49,7 +49,11 @@
         }
     ],
     "theme_color": "#ffffff",
-    "background_color": "#ffffff",
-    "start_url": "https://robinkeith.github.io/AKindCity6/",
-    "display": "standalone"
+    "background_color": "white",
+    "start_url": "./index.html",
+    "display": "fullscreen",
+    "lang": "en-GB",
+    "orientation": "any",
+    "categories": ["navigation"],
+    "description":"Navigate around Norwich"
 }

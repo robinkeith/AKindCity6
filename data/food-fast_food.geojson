@@ -3,479 +3,578 @@
  "features": [
   {
    "type": "Feature",
-   "id": "relation/2180494",
+   "id": "node/510145174",
    "properties": {
     "addr:city": "Norwich",
-    "addr:housenumber": "92-93",
-    "addr:postcode": "NR2 1ND",
-    "addr:street": "Market Place",
+    "addr:housenumber": "35",
+    "addr:postcode": "NR1 3DY",
+    "addr:street": "Cattle Market Street",
     "amenity": "fast_food",
-    "cuisine": "chinese",
-    "fhrs:id": "915749",
-    "name": "The China Wok & Curry Stop",
-    "source:name": "FSA Food Hygiene Ratings Database",
-    "type": "multipolygon",
-    "id": "relation/2180494"
+    "cuisine": "kebab;pizza",
+    "fhrs:id": "8676",
+    "name": "Top Kapi - Kebab House",
+    "source:addr": "FHRS Open Data",
+    "id": "node/510145174",
+    "mapFeature": {
+     "caption": "Top Kapi - Kebab House",
+     "allowPopup": true,
+     "location": "35  Cattle Market Street  \n  NR1 3DY <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2928668,
-       52.6284701
-      ],
-      [
-       1.2929068,
-       52.6284688
-      ],
-      [
-       1.2929086,
-       52.6284896
-      ],
-      [
-       1.2928686,
-       52.6284909
-      ],
-      [
-       1.2928285,
-       52.6284921
-      ],
-      [
-       1.2928267,
-       52.6284714
-      ],
-      [
-       1.2928668,
-       52.6284701
-      ]
-     ]
+     1.2986449,
+     52.6278928
     ]
    }
   },
   {
    "type": "Feature",
-   "id": "relation/2180495",
+   "id": "node/1038499891",
    "properties": {
     "addr:city": "Norwich",
-    "addr:housenumber": "Stalls 94-95",
-    "addr:postcode": "NR2 1ND",
-    "addr:street": "Market Place",
+    "addr:housenumber": "18",
+    "addr:postcode": "NR2 1QJ",
+    "addr:street": "Haymarket",
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "cuisine": "burger",
+    "drive_through": "no",
+    "fhrs:id": "27479",
+    "name": "McDonald's",
+    "phone": "+44 1603 623391",
+    "source:addr": "FHRS Open Data",
+    "takeaway": "yes",
+    "toilets": "customers",
+    "toilets:wheelchair": "Ground floor with easy access rails and low sinks.",
+    "wheelchair": "yes",
+    "wheelchair:description": "Easy access through electronic doors from Hayhill/Haymarket",
+    "id": "node/1038499891",
+    "mapFeature": {
+     "caption": "McDonald's",
+     "allowPopup": true,
+     "location": "18  Haymarket  \n  NR2 1QJ <br />\n  \n  Wheelchair accessible \n  Easy access through electronic doors from Hayhill/Haymarket",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2927065,
+     52.6271956
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1317865563",
+   "properties": {
+    "amenity": "fast_food",
+    "name": "Megabites",
+    "id": "node/1317865563",
+    "mapFeature": {
+     "caption": "Megabites",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2844799,
+     52.6384872
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1539929456",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "11",
+    "addr:postcode": "NR2 1QD",
+    "addr:street": "Haymarket",
+    "amenity": "fast_food",
+    "brand": "Pret A Manger",
+    "brand:wikidata": "Q2109109",
+    "brand:wikipedia": "en:Pret a Manger",
+    "cuisine": "sandwich",
+    "fhrs:id": "15185",
+    "name": "Pret A Manger",
+    "source:addr": "FHRS Open Data",
+    "takeaway": "yes",
+    "id": "node/1539929456",
+    "mapFeature": {
+     "caption": "Pret A Manger",
+     "allowPopup": true,
+     "location": "11  Haymarket  \n  NR2 1QD <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2934965,
+     52.6271056
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1824494500",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "2",
+    "addr:postcode": "NR5 0SY",
+    "addr:street": "Dereham Road",
+    "amenity": "fast_food",
+    "cuisine": "sandwich",
+    "fhrs:id": "648785",
+    "name": "Subway",
+    "opening_hours": "08:00-23:00",
+    "phone": "+44 1603 271542",
+    "ref": "55386",
+    "website": "http://www.subway.co.uk/",
+    "id": "node/1824494500",
+    "mapFeature": {
+     "caption": "Subway",
+     "allowPopup": true,
+     "location": "2  Dereham Road  \n  NR5 0SY <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2353726,
+     52.6411779
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1855526590",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:postcode": "NR5 9JB",
+    "addr:street": "Barnard Road",
+    "amenity": "fast_food",
+    "colour": "black;yellow",
+    "cuisine": "regional",
+    "description": "Mobile catering",
+    "fhrs:id": "1056196",
+    "name": "The Bap Cave",
+    "note": "Mobile kitchen. Only on site during opening hours.",
+    "opening_hours": "Mo-Fr 07:00-15:00; Sa-Su closed",
+    "phone": "+44 7907 795444",
+    "source:addr:postcode": "code-point_open",
+    "id": "node/1855526590",
+    "mapFeature": {
+     "caption": "The Bap Cave",
+     "allowPopup": true,
+     "location": " Barnard Road  \n  NR5 9JB <br />\n  Mobile catering<br />\n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2133875,
+     52.6428316
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/3250735961",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "197",
+    "addr:postcode": "NR7 8AG",
+    "addr:street": "Wroxham Road",
+    "addr:village": "Sprowston",
     "amenity": "fast_food",
     "cuisine": "fish_and_chips",
-    "fhrs:id": "17813",
-    "name": "Rons Fish & Chips",
+    "fhrs:id": "94370",
+    "name": "Golden Plaice",
+    "phone": "+44 1603 425921",
+    "id": "node/3250735961",
+    "mapFeature": {
+     "caption": "Golden Plaice",
+     "allowPopup": true,
+     "location": "197  Wroxham Road  \n  NR7 8AG <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3246006,
+     52.6584933
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/3544832139",
+   "properties": {
+    "amenity": "fast_food",
+    "cuisine": "sandwich",
+    "email": "pdeary@applegreen.ie",
+    "indoor": "yes",
+    "name": "Subway",
+    "opening_hours": "Mo-We 07:00-20:00; Th-Sa 07:00-21:00; Su 09:00-20:00",
+    "phone": "+44 1603 867226",
+    "ref": "63310",
+    "website": "http://www.subway.co.uk/",
+    "id": "node/3544832139",
+    "mapFeature": {
+     "caption": "Subway",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2232105,
+     52.6757641
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/5309286221",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "54-55",
+    "addr:postcode": "NR2 1ND",
+    "addr:street": "Market Place",
+    "amenity": "fast_food",
+    "cuisine": "burger;sandwich;sausage",
+    "diet:gluten_free": "yes",
+    "diet:vegan": "only",
+    "facebook": "https://www.facebook.com/biakitchen/",
+    "fhrs:id": "839165",
+    "instagram": "https://www.instagram.com/explore/tags/biakitchen/",
+    "name": "Bia Vegan Diner",
     "source:addr": "FHRS Open Data",
-    "type": "multipolygon",
-    "id": "relation/2180495"
+    "website": "http://biavegandiner.co.uk/",
+    "id": "node/5309286221",
+    "mapFeature": {
+     "caption": "Bia Vegan Diner",
+     "allowPopup": true,
+     "location": "54-55  Market Place  \n  NR2 1ND <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2927339,
-       52.6284973
-      ],
-      [
-       1.2926938,
-       52.6284986
-      ],
-      [
-       1.292692,
-       52.6284778
-      ],
-      [
-       1.2927321,
-       52.6284765
-      ],
-      [
-       1.2927721,
-       52.6284753
-      ],
-      [
-       1.2927739,
-       52.628496
-      ],
-      [
-       1.2927339,
-       52.6284973
-      ]
-     ]
+     1.2926916,
+     52.6283623
     ]
    }
   },
   {
    "type": "Feature",
-   "id": "relation/3152343",
+   "id": "node/5478805912",
    "properties": {
     "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "120",
-    "addr:postcode": "NR2 1ND",
-    "addr:street": "Market Place",
+    "addr:housenumber": "216",
+    "addr:postcode": "NR1 3HG",
+    "addr:street": "Queens Road",
     "amenity": "fast_food",
-    "building": "stall",
-    "cuisine": "jacket_potato",
-    "fhrs:id": "1063149",
-    "name": "George's Jacket Spuds",
-    "operator": "George's",
-    "ref": "120",
-    "strapline": "and Sandwiches",
-    "type": "multipolygon",
-    "id": "relation/3152343"
+    "cuisine": "chicken",
+    "fhrs:id": "915682",
+    "name": "USA Fried Chicken",
+    "source:addr": "FSA Food Hygiene Ratings Database",
+    "id": "node/5478805912",
+    "mapFeature": {
+     "caption": "USA Fried Chicken",
+     "allowPopup": true,
+     "location": "216  Queens Road  \n  NR1 3HG <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2926932,
-       52.6285608
-      ],
-      [
-       1.2927333,
-       52.6285595
-      ],
-      [
-       1.2927351,
-       52.6285803
-      ],
-      [
-       1.292695,
-       52.6285816
-      ],
-      [
-       1.2926932,
-       52.6285608
-      ]
-     ]
+     1.3000036,
+     52.6209746
     ]
    }
   },
   {
    "type": "Feature",
-   "id": "relation/3152344",
+   "id": "node/6195282042",
    "properties": {
     "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "81",
-    "addr:postcode": "NR2 1ND",
-    "addr:street": "Market Place",
+    "addr:housenumber": "13",
+    "addr:postcode": "NR1 3RU",
+    "addr:street": "Orford Place",
     "amenity": "fast_food",
-    "building": "stall",
-    "cuisine": "roast",
-    "fhrs:id": "15646",
-    "name": "Henry's Hog Roast",
-    "operator": "Henry's",
-    "type": "multipolygon",
-    "id": "relation/3152344"
+    "cuisine": "fish_and_chips",
+    "fhrs:id": "735927",
+    "name": "Orford Plaice",
+    "source:addr": "FHRS Open Data",
+    "id": "node/6195282042",
+    "mapFeature": {
+     "caption": "Orford Plaice",
+     "allowPopup": true,
+     "location": "13  Orford Place  \n  NR1 3RU <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2927216,
-       52.6284354
-      ],
-      [
-       1.2927617,
-       52.6284342
-      ],
-      [
-       1.2927635,
-       52.6284549
-      ],
-      [
-       1.2927234,
-       52.6284562
-      ],
-      [
-       1.2927216,
-       52.6284354
-      ]
-     ]
+     1.293957,
+     52.6269459
     ]
    }
   },
   {
    "type": "Feature",
-   "id": "relation/3152352",
+   "id": "node/6566009059",
    "properties": {
     "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "175",
-    "addr:postcode": "NR2 1NE",
-    "addr:street": "Market Place",
+    "addr:postcode": "NR2 1QQ",
+    "addr:street": "Hay Hill",
     "amenity": "fast_food",
-    "building": "stall",
-    "fhrs:id": "928650",
-    "name": "Lasagneria",
-    "ref": "175",
-    "type": "multipolygon",
-    "website": "https://www.facebook.com/lasagnerianorwich/",
-    "id": "relation/3152352"
+    "building": "kiosk",
+    "cuisine": "sausages",
+    "fhrs:id": "27467",
+    "name": "Top Dog",
+    "source:addr": "FHRS Open Data",
+    "id": "node/6566009059",
+    "mapFeature": {
+     "caption": "Top Dog",
+     "allowPopup": true,
+     "location": " Hay Hill  \n  NR2 1QQ <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.292711,
-       52.6287448
-      ],
-      [
-       1.2927092,
-       52.628724
-      ],
-      [
-       1.2927492,
-       52.6287227
-      ],
-      [
-       1.292751,
-       52.6287435
-      ],
-      [
-       1.292711,
-       52.6287448
-      ]
-     ]
+     1.2930258,
+     52.6272765
     ]
    }
   },
   {
    "type": "Feature",
-   "id": "relation/3152354",
+   "id": "node/6568273970",
    "properties": {
     "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "114",
-    "addr:postcode": "NR2 1ND",
-    "addr:street": "Market Place",
+    "addr:housenumber": "52",
+    "addr:postcode": "NR2 1LA",
+    "addr:street": "London Street",
     "amenity": "fast_food",
-    "building": "stall",
-    "cuisine": "chips",
-    "fhrs:id": "932631",
-    "name": "Lucy's Chips",
-    "operator": "Lucy's",
-    "ref": "114",
-    "type": "multipolygon",
-    "id": "relation/3152354"
+    "cuisine": "subs",
+    "fhrs:id": "30134",
+    "name": "Subway",
+    "source:addr": "FHRS Open Data",
+    "id": "node/6568273970",
+    "mapFeature": {
+     "caption": "Subway",
+     "allowPopup": true,
+     "location": "52  London Street  \n  NR2 1LA <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2927333,
-       52.6285595
-      ],
-      [
-       1.2927315,
-       52.6285388
-      ],
-      [
-       1.2927715,
-       52.6285375
-      ],
-      [
-       1.2927733,
-       52.6285582
-      ],
-      [
-       1.2927333,
-       52.6285595
-      ]
-     ]
+     1.2959833,
+     52.6296039
     ]
    }
   },
   {
    "type": "Feature",
-   "id": "relation/3152360",
+   "id": "node/6568273971",
    "properties": {
     "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "80",
-    "addr:postcode": "NR2 1ND",
-    "addr:street": "Market Place",
+    "addr:housenumber": "46",
+    "addr:postcode": "NR2 1LA",
+    "addr:street": "London Street",
     "amenity": "fast_food",
-    "building": "stall",
-    "fhrs:id": "1080666",
-    "name": "The All Electric Banger Stop",
-    "operator": "Banger Stop",
-    "start_date": "1979",
-    "type": "multipolygon",
-    "id": "relation/3152360"
+    "fhrs:id": "1089532",
+    "name": "The Chicken Shop",
+    "source:addr": "FHRS Open Data",
+    "id": "node/6568273971",
+    "mapFeature": {
+     "caption": "The Chicken Shop",
+     "allowPopup": true,
+     "location": "46  London Street  \n  NR2 1LA <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2926816,
-       52.6284367
-      ],
-      [
-       1.2927216,
-       52.6284354
-      ],
-      [
-       1.2927234,
-       52.6284562
-      ],
-      [
-       1.2926834,
-       52.6284575
-      ],
-      [
-       1.2926816,
-       52.6284367
-      ]
-     ]
+     1.2957902,
+     52.6294672
     ]
    }
   },
   {
    "type": "Feature",
-   "id": "relation/3152361",
+   "id": "node/6568299054",
    "properties": {
     "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "61",
-    "addr:postcode": "NR2 1ND",
-    "addr:street": "Market Place",
+    "addr:housenumber": "17-19",
+    "addr:postcode": "NR1 3DH",
+    "addr:street": "Castle Meadow",
     "amenity": "fast_food",
-    "building": "stall",
-    "cuisine": "chips",
-    "fhrs:id": "932630",
-    "name": "The Chip Stall",
-    "operator": "North's",
-    "ref": "61",
-    "type": "multipolygon",
-    "id": "relation/3152361"
+    "fhrs:id": "1030465",
+    "name": "Take a Break",
+    "source:addr": "FHRS Open Data",
+    "id": "node/6568299054",
+    "mapFeature": {
+     "caption": "Take a Break",
+     "allowPopup": true,
+     "location": "17-19  Castle Meadow  \n  NR1 3DH <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2927181,
-       52.6283764
-      ],
-      [
-       1.2927582,
-       52.6283751
-      ],
-      [
-       1.29276,
-       52.6283959
-      ],
-      [
-       1.2927199,
-       52.6283972
-      ],
-      [
-       1.2927181,
-       52.6283764
-      ]
-     ]
+     1.2957178,
+     52.6293288
     ]
    }
   },
   {
    "type": "Feature",
-   "id": "relation/3152363",
+   "id": "node/6573544543",
    "properties": {
     "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "180",
-    "addr:postcode": "NR2 1NE",
-    "addr:street": "Market Place",
+    "addr:housename": "Co-op Foodstore",
+    "addr:postcode": "NR4 7TE",
+    "addr:street": "Earlham Green Lane",
     "amenity": "fast_food",
-    "building": "stall",
-    "cuisine": "ice_cream",
-    "fhrs:id": "690201",
-    "name": "The Ice Cream Parlour",
-    "operator": "Ice Cream Parlour",
-    "ref": "180",
-    "strapline": "Whippy & Local Dairy Ice Cream",
-    "type": "multipolygon",
-    "id": "relation/3152363"
+    "cuisine": "subs",
+    "fhrs:id": "937371",
+    "name": "Subway",
+    "note": "Inside Coop Store",
+    "source:addr": "FHRS Open Data",
+    "id": "node/6573544543",
+    "mapFeature": {
+     "caption": "Subway",
+     "allowPopup": true,
+     "location": " Earlham Green Lane  \n  NR4 7TE <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.292711,
-       52.6287448
-      ],
-      [
-       1.292751,
-       52.6287435
-      ],
-      [
-       1.2927528,
-       52.6287642
-      ],
-      [
-       1.2927128,
-       52.6287655
-      ],
-      [
-       1.292711,
-       52.6287448
-      ]
-     ]
+     1.2476235,
+     52.6293942
     ]
    }
   },
   {
    "type": "Feature",
-   "id": "relation/3152364",
+   "id": "node/6573544551",
    "properties": {
     "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "115",
-    "addr:postcode": "NR2 1ND",
-    "addr:street": "Market Place",
+    "addr:housenumber": "78",
+    "addr:postcode": "NR5 8DG",
+    "addr:street": "Cadge Road",
     "amenity": "fast_food",
-    "building": "stall",
-    "cuisine": "mushy_peas",
-    "fhrs:id": "15634",
-    "name": "The Mushy Pea Stall",
-    "ref": "115",
-    "type": "multipolygon",
-    "id": "relation/3152364"
+    "fhrs:id": "7412",
+    "name": "Britannia Kebab & Fish Bar",
+    "source:addr": "FHRS Open Data",
+    "id": "node/6573544551",
+    "mapFeature": {
+     "caption": "Britannia Kebab & Fish Bar",
+     "allowPopup": true,
+     "location": "78  Cadge Road  \n  NR5 8DG <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2927315,
-       52.6285388
-      ],
-      [
-       1.2927333,
-       52.6285595
-      ],
-      [
-       1.2926932,
-       52.6285608
-      ],
-      [
-       1.2926914,
-       52.62854
-      ],
-      [
-       1.2927315,
-       52.6285388
-      ]
+     1.2484283,
+     52.633661
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/6582594508",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "33",
+    "addr:postcode": "NR1 1BG",
+    "addr:street": "Prince of Wales Road",
+    "amenity": "fast_food",
+    "name": "Rocky Mountain Pizza Project",
+    "old_name": "Voodoo Daddy's Pizza",
+    "website": "https://www.facebook.com/rockymoutainpizzaproject/",
+    "id": "node/6582594508",
+    "mapFeature": {
+     "caption": "Rocky Mountain Pizza Project",
+     "allowPopup": true,
+     "location": "33  Prince of Wales Road  \n  NR1 1BG <br />\n  \n  \n  ",
+     "layers": [
+      "food"
      ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3009999,
+     52.6293306
     ]
    }
   },
@@ -492,45 +591,21 @@
     "fhrs:id": "648248",
     "name": "McDonald's",
     "source:addr": "FHRS Open Data",
-    "id": "way/32561155"
+    "id": "way/32561155",
+    "mapFeature": {
+     "caption": "McDonald's",
+     "allowPopup": true,
+     "location": " William Frost Way  \n  NR5 0JS <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.185443,
-       52.6516181
-      ],
-      [
-       1.1854302,
-       52.6514053
-      ],
-      [
-       1.1856593,
-       52.6514002
-      ],
-      [
-       1.1856754,
-       52.6516686
-      ],
-      [
-       1.1856091,
-       52.65167
-      ],
-      [
-       1.1856058,
-       52.6516145
-      ],
-      [
-       1.1854794,
-       52.6516173
-      ],
-      [
-       1.185443,
-       52.6516181
-      ]
-     ]
+     1.1855528,
+     52.6515351
     ]
    }
   },
@@ -552,49 +627,21 @@
     "opening_hours": "Mo-Su 10:30-23:00",
     "outdoor_seating": "yes",
     "website": "https://www.kfc.co.uk/",
-    "id": "way/32561301"
+    "id": "way/32561301",
+    "mapFeature": {
+     "caption": "KFC",
+     "allowPopup": true,
+     "location": " William Frost Way  \n  NR5 0JS <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.1849465,
-       52.6539154
-      ],
-      [
-       1.1848428,
-       52.6539075
-      ],
-      [
-       1.184838,
-       52.6539307
-      ],
-      [
-       1.1847403,
-       52.6539232
-      ],
-      [
-       1.184745,
-       52.6539005
-      ],
-      [
-       1.1845625,
-       52.6538866
-      ],
-      [
-       1.1845832,
-       52.6537867
-      ],
-      [
-       1.1849671,
-       52.653816
-      ],
-      [
-       1.1849465,
-       52.6539154
-      ]
-     ]
+     1.1847648,
+     52.6538587
     ]
    }
   },
@@ -620,45 +667,21 @@
     "phone": "+44 1603 619159",
     "ref": "607",
     "website": "https://www.mcdonalds.co.uk/",
-    "id": "way/33617676"
+    "id": "way/33617676",
+    "mapFeature": {
+     "caption": "McDonald's",
+     "allowPopup": true,
+     "location": "162  Barrett Road  \n  NR1 2RT <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2916722,
-       52.610288
-      ],
-      [
-       1.2916403,
-       52.6102278
-      ],
-      [
-       1.2916504,
-       52.6102183
-      ],
-      [
-       1.2916352,
-       52.6101859
-      ],
-      [
-       1.2919218,
-       52.6101351
-      ],
-      [
-       1.2919689,
-       52.6101497
-      ],
-      [
-       1.2920028,
-       52.6102286
-      ],
-      [
-       1.2916722,
-       52.610288
-      ]
-     ]
+     1.291819,
+     52.6102116
     ]
    }
   },
@@ -683,33 +706,21 @@
     "start_date": "2017-02-16",
     "takeaway": "only",
     "website": "http://planetwok.co.uk/",
-    "id": "way/71550738"
+    "id": "way/71550738",
+    "mapFeature": {
+     "caption": "Planet Wok",
+     "allowPopup": true,
+     "location": "24  Eaton Street  \n  NR4 7LD <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2511711,
-       52.6084142
-      ],
-      [
-       1.2512302,
-       52.6083443
-      ],
-      [
-       1.2512784,
-       52.6083593
-      ],
-      [
-       1.2512192,
-       52.6084292
-      ],
-      [
-       1.2511711,
-       52.6084142
-      ]
-     ]
+     1.2512247,
+     52.6083867
     ]
    }
   },
@@ -730,33 +741,21 @@
     "opening_hours": "Mo-Fr 11:30-13:45,16:30-23:00; Sa 11:30-14:00,16:30-22:30",
     "phone": "+44 1603 458343",
     "source:building": "OS_OpenData_StreetView",
-    "id": "way/84798510"
+    "id": "way/84798510",
+    "mapFeature": {
+     "caption": "Larkman Fish Bar",
+     "allowPopup": true,
+     "location": "2a  Larkman Lane  \n  NR5 8TX <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2406229,
-       52.6389073
-      ],
-      [
-       1.2404829,
-       52.6389393
-      ],
-      [
-       1.2404313,
-       52.6388585
-      ],
-      [
-       1.240567,
-       52.6388262
-      ],
-      [
-       1.2406229,
-       52.6389073
-      ]
-     ]
+     1.2405271,
+     52.6388828
     ]
    }
   },
@@ -774,53 +773,21 @@
     "name": "Burger King",
     "phone": "+44 1603 505838",
     "source:building": "OS_OpenData_StreetView",
-    "id": "way/85704828"
+    "id": "way/85704828",
+    "mapFeature": {
+     "caption": "Burger King",
+     "allowPopup": true,
+     "location": " Thickthorn Service Area  \n  NR9 3AU <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2214391,
-       52.6017651
-      ],
-      [
-       1.2216138,
-       52.6019277
-      ],
-      [
-       1.2214998,
-       52.6019728
-      ],
-      [
-       1.2214603,
-       52.6019361
-      ],
-      [
-       1.2214137,
-       52.6019545
-      ],
-      [
-       1.221354,
-       52.6018989
-      ],
-      [
-       1.2214006,
-       52.6018804
-      ],
-      [
-       1.2213158,
-       52.6018015
-      ],
-      [
-       1.2214297,
-       52.6017563
-      ],
-      [
-       1.2214391,
-       52.6017651
-      ]
-     ]
+     1.2214648,
+     52.6018646
     ]
    }
   },
@@ -842,33 +809,21 @@
     "opening_hours": "Su-Th 16:00-00:00; Fr-Sa 16:00-01:00",
     "phone": "+44 1603 626260",
     "website": "https://www.just-eat.co.uk/restaurants-norwich-amigos/",
-    "id": "way/104310151"
+    "id": "way/104310151",
+    "mapFeature": {
+     "caption": "Amigo’s",
+     "allowPopup": true,
+     "location": "120  Hall Road  \n  NR1 3HP <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2971784,
-       52.6177697
-      ],
-      [
-       1.2971962,
-       52.6178056
-      ],
-      [
-       1.2970769,
-       52.617828
-      ],
-      [
-       1.2970582,
-       52.6177922
-      ],
-      [
-       1.2971784,
-       52.6177697
-      ]
-     ]
+     1.2971272,
+     52.6177988
     ]
    }
   },
@@ -887,33 +842,21 @@
     "opening_hours": "Su-We 06:00-24:00; Th-Sa 06:00-03:00",
     "source:addr": "FHRS Open Data",
     "wheelchair": "yes",
-    "id": "way/106366982"
+    "id": "way/106366982",
+    "mapFeature": {
+     "caption": "McDonald's",
+     "allowPopup": true,
+     "location": " Delft Way  \n  NR6 6BB <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2718788,
-       52.6681301
-      ],
-      [
-       1.2719813,
-       52.6679531
-      ],
-      [
-       1.2721362,
-       52.6679861
-      ],
-      [
-       1.2720337,
-       52.6681631
-      ],
-      [
-       1.2718788,
-       52.6681301
-      ]
-     ]
+     1.2720075,
+     52.6680581
     ]
    }
   },
@@ -936,33 +879,21 @@
     "phone": "+44 1603 220066",
     "takeaway": "yes",
     "website": "https://www.pizzahut.co.uk/",
-    "id": "way/106665874"
+    "id": "way/106665874",
+    "mapFeature": {
+     "caption": "Pizza Hut",
+     "allowPopup": true,
+     "location": "73  Grove Road  \n  NR1 3RL <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2912112,
-       52.6209345
-      ],
-      [
-       1.291168,
-       52.6208984
-      ],
-      [
-       1.2913734,
-       52.6208078
-      ],
-      [
-       1.2914165,
-       52.6208439
-      ],
-      [
-       1.2912112,
-       52.6209345
-      ]
-     ]
+     1.2912923,
+     52.6208711
     ]
    }
   },
@@ -991,49 +922,21 @@
     "phone": "+44 1603 305835",
     "takeaway": "yes",
     "website": "https://www.burgerking.co.uk/",
-    "id": "way/107045851"
+    "id": "way/107045851",
+    "mapFeature": {
+     "caption": "Burger King",
+     "allowPopup": true,
+     "location": " Castle Mall  \n  <strong>Level:</strong>&nbsp;2.5 NR1 3DD <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2961245,
-       52.6272594
-      ],
-      [
-       1.2961364,
-       52.6272713
-      ],
-      [
-       1.2961559,
-       52.6272641
-      ],
-      [
-       1.2961938,
-       52.627302
-      ],
-      [
-       1.2961671,
-       52.6273118
-      ],
-      [
-       1.2961913,
-       52.627336
-      ],
-      [
-       1.2961048,
-       52.6273661
-      ],
-      [
-       1.2960323,
-       52.6272937
-      ],
-      [
-       1.2961245,
-       52.6272594
-      ]
-     ]
+     1.296113,
+     52.6273128
     ]
    }
   },
@@ -1055,33 +958,21 @@
     "name": "Southern Fried Chicken",
     "phone": "+44 1603 663816",
     "website": "http://www.southernfriedchicken.co.uk/",
-    "id": "way/107045860"
+    "id": "way/107045860",
+    "mapFeature": {
+     "caption": "Southern Fried Chicken",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;2.5 NR1 3DD <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2960253,
-       52.6272962
-      ],
-      [
-       1.2960988,
-       52.6273682
-      ],
-      [
-       1.2960125,
-       52.6273983
-      ],
-      [
-       1.2959404,
-       52.6273277
-      ],
-      [
-       1.2960253,
-       52.6272962
-      ]
-     ]
+     1.2960196,
+     52.6273472
     ]
    }
   },
@@ -1102,33 +993,21 @@
     "level": "2.5",
     "name": "Spudulike",
     "phone": "+44 1603 305877",
-    "id": "way/107045928"
+    "id": "way/107045928",
+    "mapFeature": {
+     "caption": "Spudulike",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;2.5 NR1 3DD <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2959346,
-       52.6273299
-      ],
-      [
-       1.296005,
-       52.6274009
-      ],
-      [
-       1.2959082,
-       52.6274346
-      ],
-      [
-       1.2958393,
-       52.6273653
-      ],
-      [
-       1.2959346,
-       52.6273299
-      ]
-     ]
+     1.2959221,
+     52.6273822
     ]
    }
   },
@@ -1152,81 +1031,21 @@
     "name": "ChopStix Noodle Bar",
     "opening_hours": "Mo-We 10:00-18:00;Th 10:00-20:00; Fr-Sa 10:00-19:00; Su 11:00-17:00",
     "website": "http://www.chopstix.me/",
-    "id": "way/108865891"
+    "id": "way/108865891",
+    "mapFeature": {
+     "caption": "ChopStix Noodle Bar",
+     "allowPopup": true,
+     "location": "308  The Dining Terrace  \n  <strong>Level:</strong>&nbsp;2 NR2 1SY <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2907072,
-       52.6257018
-      ],
-      [
-       1.2904818,
-       52.6258091
-      ],
-      [
-       1.2904561,
-       52.6257905
-      ],
-      [
-       1.2904047,
-       52.6258137
-      ],
-      [
-       1.2903844,
-       52.625797
-      ],
-      [
-       1.2904642,
-       52.6257596
-      ],
-      [
-       1.290412,
-       52.6257262
-      ],
-      [
-       1.290395,
-       52.6257064
-      ],
-      [
-       1.2903829,
-       52.6256828
-      ],
-      [
-       1.2903889,
-       52.6256616
-      ],
-      [
-       1.29041,
-       52.6256385
-      ],
-      [
-       1.2904424,
-       52.6256223
-      ],
-      [
-       1.2904945,
-       52.625612
-      ],
-      [
-       1.2905499,
-       52.6256247
-      ],
-      [
-       1.2905875,
-       52.6256502
-      ],
-      [
-       1.2906513,
-       52.6256833
-      ],
-      [
-       1.2907072,
-       52.6257018
-      ]
-     ]
+     1.290545,
+     52.6257128
     ]
    }
   },
@@ -1256,61 +1075,21 @@
     "ref": "5838",
     "takeaway": "yes",
     "website": "https://www.kfc.co.uk/",
-    "id": "way/108865930"
+    "id": "way/108865930",
+    "mapFeature": {
+     "caption": "KFC",
+     "allowPopup": true,
+     "location": "309  The Dining Terrace  \n  <strong>Level:</strong>&nbsp;2 NR2 1SY <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2908463,
-       52.625791
-      ],
-      [
-       1.2906375,
-       52.6258868
-      ],
-      [
-       1.290549,
-       52.6258179
-      ],
-      [
-       1.2904869,
-       52.6258464
-      ],
-      [
-       1.2904548,
-       52.6258213
-      ],
-      [
-       1.2904818,
-       52.6258091
-      ],
-      [
-       1.2907072,
-       52.6257018
-      ],
-      [
-       1.2907678,
-       52.6257203
-      ],
-      [
-       1.2908214,
-       52.625727
-      ],
-      [
-       1.290834,
-       52.6257368
-      ],
-      [
-       1.2908383,
-       52.6257706
-      ],
-      [
-       1.2908463,
-       52.625791
-      ]
-     ]
+     1.2906506,
+     52.6257943
     ]
    }
   },
@@ -1338,41 +1117,21 @@
     "not:addr:postcode": "NR2 1SH",
     "source:name": "FHRS Open Data",
     "takeaway": "yes",
-    "id": "way/108865998"
+    "id": "way/108865998",
+    "mapFeature": {
+     "caption": "Pret A Manger",
+     "allowPopup": true,
+     "location": "210  Merchants' Hall  \n  <strong>Level:</strong>&nbsp;1 NR2 1SU <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2900597,
-       52.6253228
-      ],
-      [
-       1.290268,
-       52.6254859
-      ],
-      [
-       1.2902237,
-       52.6255073
-      ],
-      [
-       1.2901851,
-       52.6255349
-      ],
-      [
-       1.2899691,
-       52.6253659
-      ],
-      [
-       1.2900146,
-       52.6253448
-      ],
-      [
-       1.2900597,
-       52.6253228
-      ]
-     ]
+     1.2901185,
+     52.6254288
     ]
    }
   },
@@ -1403,61 +1162,21 @@
     "ref": "1345",
     "takeaway": "yes",
     "website": "http://www.mcdonalds.com/",
-    "id": "way/108866001"
+    "id": "way/108866001",
+    "mapFeature": {
+     "caption": "McDonald's",
+     "allowPopup": true,
+     "location": "310  The Dining Terrace  \n  <strong>Level:</strong>&nbsp;2 NR2 1SY <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2907005,
-       52.6258869
-      ],
-      [
-       1.290866,
-       52.6258094
-      ],
-      [
-       1.2909261,
-       52.6258504
-      ],
-      [
-       1.2909864,
-       52.6258776
-      ],
-      [
-       1.2910471,
-       52.6258901
-      ],
-      [
-       1.2910616,
-       52.625902
-      ],
-      [
-       1.2909644,
-       52.6259457
-      ],
-      [
-       1.2909903,
-       52.6259672
-      ],
-      [
-       1.2908447,
-       52.6260346
-      ],
-      [
-       1.2907763,
-       52.6259806
-      ],
-      [
-       1.2908059,
-       52.625967
-      ],
-      [
-       1.2907005,
-       52.6258869
-      ]
-     ]
+     1.290881,
+     52.625922
     ]
    }
   },
@@ -1479,41 +1198,21 @@
     "level": "0",
     "name": "Shaake",
     "source:name": "FHRS Open Data",
-    "id": "way/108866034"
+    "id": "way/108866034",
+    "mapFeature": {
+     "caption": "Shaake",
+     "allowPopup": true,
+     "location": "156-157  Saint Stephen's Arcade  \n  <strong>Level:</strong>&nbsp;0 NR2 1SB <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2914587,
-       52.6252198
-      ],
-      [
-       1.2915324,
-       52.6251626
-      ],
-      [
-       1.291579,
-       52.625186
-      ],
-      [
-       1.2915341,
-       52.6252217
-      ],
-      [
-       1.2915582,
-       52.6252351
-      ],
-      [
-       1.2915246,
-       52.6252561
-      ],
-      [
-       1.2914587,
-       52.6252198
-      ]
-     ]
+     1.2915189,
+     52.6252094
     ]
    }
   },
@@ -1538,41 +1237,21 @@
     "opening_hours": "Mo-We 09:00-18:00; Th 09:00-20:00; Fr-Sa 09:00-19:00; Su 11:00-17:00; PH 10:00-18:00",
     "phone": "+44 1603 624294",
     "website": "http://www.spudulike.co.uk/",
-    "id": "way/108866052"
+    "id": "way/108866052",
+    "mapFeature": {
+     "caption": "spudulike",
+     "allowPopup": true,
+     "location": "302  The Dining Terrace  \n  <strong>Level:</strong>&nbsp;2 NR2 1SY <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2909643,
-       52.6256328
-      ],
-      [
-       1.2911235,
-       52.6255597
-      ],
-      [
-       1.2911983,
-       52.6256186
-      ],
-      [
-       1.2910357,
-       52.6256968
-      ],
-      [
-       1.2909963,
-       52.6256819
-      ],
-      [
-       1.290981,
-       52.6256562
-      ],
-      [
-       1.2909643,
-       52.6256328
-      ]
-     ]
+     1.2910813,
+     52.6256282
     ]
    }
   },
@@ -1593,37 +1272,21 @@
     "opening_hours": "Mo-Sa 15:00-00:00; Su 14:00-00:00",
     "phone": "+44 1603 453339",
     "source": "Bing",
-    "id": "way/114453803"
+    "id": "way/114453803",
+    "mapFeature": {
+     "caption": "Neptune Fish Bar",
+     "allowPopup": true,
+     "location": "179a  Earlham Green Lane  \n  NR5 8RF <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2341714,
-       52.6368592
-      ],
-      [
-       1.2342038,
-       52.6368994
-      ],
-      [
-       1.2342804,
-       52.6369942
-      ],
-      [
-       1.2342068,
-       52.6370161
-      ],
-      [
-       1.2340978,
-       52.6368811
-      ],
-      [
-       1.2341714,
-       52.6368592
-      ]
-     ]
+     1.2341891,
+     52.6369377
     ]
    }
   },
@@ -1643,33 +1306,21 @@
     "name": "The Little Fish Bar",
     "phone": "+44 1603 623934",
     "source": "Bing",
-    "id": "way/114455226"
+    "id": "way/114455226",
+    "mapFeature": {
+     "caption": "The Little Fish Bar",
+     "allowPopup": true,
+     "location": "306  Bowthorpe Road  \n  NR5 8AB <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2541233,
-       52.6316784
-      ],
-      [
-       1.2542333,
-       52.6317067
-      ],
-      [
-       1.2541779,
-       52.6317861
-      ],
-      [
-       1.2540679,
-       52.6317578
-      ],
-      [
-       1.2541233,
-       52.6316784
-      ]
-     ]
+     1.2541506,
+     52.6317322
     ]
    }
   },
@@ -1688,33 +1339,21 @@
     "fhrs:id": "1096617",
     "name": "Hartlands Fish Shop",
     "phone": "+44 1603 433988",
-    "id": "way/114511720"
+    "id": "way/114511720",
+    "mapFeature": {
+     "caption": "Hartlands Fish Shop",
+     "allowPopup": true,
+     "location": "94  Harvey Lane  \n  NR7 0AQ <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3286561,
-       52.6367031
-      ],
-      [
-       1.3286607,
-       52.6365964
-      ],
-      [
-       1.3287741,
-       52.6365982
-      ],
-      [
-       1.3287695,
-       52.6367049
-      ],
-      [
-       1.3286561,
-       52.6367031
-      ]
-     ]
+     1.3287151,
+     52.6366507
     ]
    }
   },
@@ -1735,33 +1374,21 @@
     "name": "Peking Chinese Takeaway",
     "phone": "+44 1603 451045",
     "source": "Bing",
-    "id": "way/115016457"
+    "id": "way/115016457",
+    "mapFeature": {
+     "caption": "Peking Chinese Takeaway",
+     "allowPopup": true,
+     "location": "556-558  Dereham Road  \n  NR5 8TU <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2426536,
-       52.6387672
-      ],
-      [
-       1.2427722,
-       52.6387426
-      ],
-      [
-       1.2428149,
-       52.6388183
-      ],
-      [
-       1.2426964,
-       52.638843
-      ],
-      [
-       1.2426536,
-       52.6387672
-      ]
-     ]
+     1.2427342,
+     52.6387928
     ]
    }
   },
@@ -1780,33 +1407,21 @@
     "name": "Mr Chip Fish Bar and Chinese Takeaway",
     "phone": "+44 1603 451260",
     "source": "Bing",
-    "id": "way/115753923"
+    "id": "way/115753923",
+    "mapFeature": {
+     "caption": "Mr Chip Fish Bar and Chinese Takeaway",
+     "allowPopup": true,
+     "location": "11,11a  Parmenter Road  \n  NR4 7DH <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2588908,
-       52.6175817
-      ],
-      [
-       1.2589899,
-       52.6175223
-      ],
-      [
-       1.259093,
-       52.6175857
-      ],
-      [
-       1.2589939,
-       52.6176451
-      ],
-      [
-       1.2588908,
-       52.6175817
-      ]
-     ]
+     1.2589919,
+     52.6175837
     ]
    }
   },
@@ -1832,33 +1447,21 @@
     "opening_hours": "Mo-Sa 12:00-14:00,16:30-21:00; Su closed",
     "phone": "+44 1603 745555",
     "takeaway": "yes",
-    "id": "way/115982166"
+    "id": "way/115982166",
+    "mapFeature": {
+     "caption": "Avenue Fish, Chicken & Pizza Place",
+     "allowPopup": true,
+     "location": "7  Upper Stafford Avenue  \n  NR5 0AB <br />\n  We are a lovely food takeaway of different types of food including kebabs we also deliver in the evenings<br />\n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2186464,
-       52.6469875
-      ],
-      [
-       1.2186106,
-       52.6469121
-      ],
-      [
-       1.2187184,
-       52.6468933
-      ],
-      [
-       1.2187542,
-       52.6469687
-      ],
-      [
-       1.2186464,
-       52.6469875
-      ]
-     ]
+     1.2186824,
+     52.6469404
     ]
    }
   },
@@ -1877,49 +1480,21 @@
     "fhrs:id": "647602",
     "name": "China China Peking & Cantonese Take Away",
     "phone": "+44 1603 745622",
-    "id": "way/115982168"
+    "id": "way/115982168",
+    "mapFeature": {
+     "caption": "China China Peking & Cantonese Take Away",
+     "allowPopup": true,
+     "location": "3  Upper Stafford Avenue  \n  NR5 0AB <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.218898,
-       52.6469429
-      ],
-      [
-       1.2188313,
-       52.6467985
-      ],
-      [
-       1.2189218,
-       52.6467831
-      ],
-      [
-       1.2189057,
-       52.6467483
-      ],
-      [
-       1.2189617,
-       52.6467387
-      ],
-      [
-       1.2189741,
-       52.6467655
-      ],
-      [
-       1.2190035,
-       52.6468293
-      ],
-      [
-       1.2190445,
-       52.646918
-      ],
-      [
-       1.218898,
-       52.6469429
-      ]
-     ]
+     1.2189379,
+     52.6468408
     ]
    }
   },
@@ -1939,33 +1514,21 @@
     "phone": "+44 1603 402424",
     "source": "Bing",
     "website": "http://burgerking.co.uk/",
-    "id": "way/116106252"
+    "id": "way/116106252",
+    "mapFeature": {
+     "caption": "Burger King",
+     "allowPopup": true,
+     "location": " Sweet Briar Road  \n  NR6 5AL <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2614282,
-       52.6502
-      ],
-      [
-       1.2614907,
-       52.6503517
-      ],
-      [
-       1.2613057,
-       52.6503797
-      ],
-      [
-       1.2612432,
-       52.6502281
-      ],
-      [
-       1.2614282,
-       52.6502
-      ]
-     ]
+     1.2613669,
+     52.6502899
     ]
    }
   },
@@ -1985,41 +1548,21 @@
     "name": "The Frying Machine",
     "phone": "+44 1603 506544",
     "source": "Bing",
-    "id": "way/116820355"
+    "id": "way/116820355",
+    "mapFeature": {
+     "caption": "The Frying Machine",
+     "allowPopup": true,
+     "location": "144,144a  Colman Road  \n  NR4 7AA <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2596875,
-       52.6251144
-      ],
-      [
-       1.2598273,
-       52.6251241
-      ],
-      [
-       1.2598171,
-       52.6251782
-      ],
-      [
-       1.2596428,
-       52.6251662
-      ],
-      [
-       1.2596483,
-       52.6251364
-      ],
-      [
-       1.2596829,
-       52.6251387
-      ],
-      [
-       1.2596875,
-       52.6251144
-      ]
-     ]
+     1.259735,
+     52.6251463
     ]
    }
   },
@@ -2039,41 +1582,21 @@
     "name": "China Garden",
     "phone": "+44 1603 507798",
     "source": "Bing",
-    "id": "way/116820500"
+    "id": "way/116820500",
+    "mapFeature": {
+     "caption": "China Garden",
+     "allowPopup": true,
+     "location": "142,142a  Colman Road  \n  NR4 7AA <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2596648,
-       52.6250555
-      ],
-      [
-       1.2598379,
-       52.6250674
-      ],
-      [
-       1.2598273,
-       52.6251241
-      ],
-      [
-       1.2596875,
-       52.6251144
-      ],
-      [
-       1.2596925,
-       52.6250875
-      ],
-      [
-       1.2596592,
-       52.6250852
-      ],
-      [
-       1.2596648,
-       52.6250555
-      ]
-     ]
+     1.2597485,
+     52.6250898
     ]
    }
   },
@@ -2096,33 +1619,21 @@
     "source": "Bing",
     "takeaway": "yes",
     "website": "http://dellacasa-norwich.co.uk/",
-    "id": "way/116820658"
+    "id": "way/116820658",
+    "mapFeature": {
+     "caption": "Dellacasa",
+     "allowPopup": true,
+     "location": "81  Lovelace Road  \n  NR4 7AE <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2512856,
-       52.6218559
-      ],
-      [
-       1.2515348,
-       52.6218522
-      ],
-      [
-       1.2515367,
-       52.6218987
-      ],
-      [
-       1.2512875,
-       52.6219025
-      ],
-      [
-       1.2512856,
-       52.6218559
-      ]
-     ]
+     1.2514112,
+     52.6218774
     ]
    }
   },
@@ -2147,33 +1658,21 @@
     "source": "Bing",
     "takeaway": "yes",
     "website": "https://www.facebook.com/trawlersfishandchips/",
-    "id": "way/118612266"
+    "id": "way/118612266",
+    "mapFeature": {
+     "caption": "Trawlers Fish & Chips",
+     "allowPopup": true,
+     "location": "562  Dereham Road  \n  NR5 8TU <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2422769,
-       52.638749
-      ],
-      [
-       1.2423679,
-       52.6389058
-      ],
-      [
-       1.2422996,
-       52.6389204
-      ],
-      [
-       1.2422086,
-       52.6387636
-      ],
-      [
-       1.2422769,
-       52.638749
-      ]
-     ]
+     1.2422883,
+     52.6388347
     ]
    }
   },
@@ -2194,33 +1693,21 @@
     "phone": "+44 1603 455255",
     "source": "Bing",
     "strapline": "Kebab & Pizza House",
-    "id": "way/118612373"
+    "id": "way/118612373",
+    "mapFeature": {
+     "caption": "O'Yes",
+     "allowPopup": true,
+     "location": "560b  Dereham Road  \n  NR5 8TU <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2423996,
-       52.6387272
-      ],
-      [
-       1.2424985,
-       52.6388971
-      ],
-      [
-       1.2424135,
-       52.6389153
-      ],
-      [
-       1.2423146,
-       52.6387454
-      ],
-      [
-       1.2423996,
-       52.6387272
-      ]
-     ]
+     1.2424066,
+     52.6388213
     ]
    }
   },
@@ -2244,41 +1731,21 @@
     "phone:2": "+44 1603 765218",
     "takeaway": "only",
     "website": "http://www.goodfoodnorwich.co.uk/",
-    "id": "way/119331011"
+    "id": "way/119331011",
+    "mapFeature": {
+     "caption": "Good Food Tandoori",
+     "allowPopup": true,
+     "location": "15  Saint Stephens Road  \n  NR1 3SP <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.289779,
-       52.6236744
-      ],
-      [
-       1.2897066,
-       52.6237183
-      ],
-      [
-       1.2896266,
-       52.6237695
-      ],
-      [
-       1.2895781,
-       52.6237401
-      ],
-      [
-       1.2896926,
-       52.623664
-      ],
-      [
-       1.2897261,
-       52.6236415
-      ],
-      [
-       1.289779,
-       52.6236744
-      ]
-     ]
+     1.2896786,
+     52.6237055
     ]
    }
   },
@@ -2297,45 +1764,21 @@
     "fhrs:id": "20704",
     "name": "Ken's Fish Bar",
     "phone": "+44 1603 454557",
-    "id": "way/119361735"
+    "id": "way/119361735",
+    "mapFeature": {
+     "caption": "Ken's Fish Bar",
+     "allowPopup": true,
+     "location": "17  Friar Tuck Road  \n  NR4 6DB <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2831588,
-       52.6083454
-      ],
-      [
-       1.2832417,
-       52.608442
-      ],
-      [
-       1.2831166,
-       52.6084813
-      ],
-      [
-       1.2830501,
-       52.6085022
-      ],
-      [
-       1.2830199,
-       52.6084667
-      ],
-      [
-       1.2830854,
-       52.6084461
-      ],
-      [
-       1.283058,
-       52.6084139
-      ],
-      [
-       1.2831588,
-       52.6083454
-      ]
-     ]
+     1.2831308,
+     52.6084238
     ]
    }
   },
@@ -2353,33 +1796,21 @@
     "cuisine": "fish_and_chips",
     "name": "Atlantis Fish Shop",
     "phone": "+44 1603 419792",
-    "id": "way/119364441"
+    "id": "way/119364441",
+    "mapFeature": {
+     "caption": "Atlantis Fish Shop",
+     "allowPopup": true,
+     "location": "74,82  Lefroy Road  \n  NR3 2NU <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2701494,
-       52.6521532
-      ],
-      [
-       1.2701455,
-       52.6521078
-      ],
-      [
-       1.2704029,
-       52.6520998
-      ],
-      [
-       1.2704067,
-       52.6521452
-      ],
-      [
-       1.2701494,
-       52.6521532
-      ]
-     ]
+     1.2702761,
+     52.6521265
     ]
    }
   },
@@ -2397,57 +1828,21 @@
     "fhrs:id": "67956",
     "name": "Chip Stop",
     "phone": "+44 1603 424827",
-    "id": "way/119369024"
+    "id": "way/119369024",
+    "mapFeature": {
+     "caption": "Chip Stop",
+     "allowPopup": true,
+     "location": "474,474a  Sprowston Road  \n  NR3 4DY <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3092419,
-       52.650833
-      ],
-      [
-       1.3091375,
-       52.650883
-      ],
-      [
-       1.3091099,
-       52.6508618
-      ],
-      [
-       1.3090329,
-       52.6508986
-      ],
-      [
-       1.3089954,
-       52.6508698
-      ],
-      [
-       1.3090364,
-       52.6508502
-      ],
-      [
-       1.3090123,
-       52.6508317
-      ],
-      [
-       1.3090409,
-       52.650818
-      ],
-      [
-       1.3090612,
-       52.6508336
-      ],
-      [
-       1.3091731,
-       52.6507801
-      ],
-      [
-       1.3092419,
-       52.650833
-      ]
-     ]
+     1.3091186,
+     52.6508393
     ]
    }
   },
@@ -2468,49 +1863,21 @@
     "name": "Chish & Fips",
     "opening_hours": "Su-Mo off; Tu-Fr 12:00-13:30,16:30-21:00; Sa 11:45-13:30,16:30-21:00",
     "phone": "+44 1603 475475",
-    "id": "way/119369539"
+    "id": "way/119369539",
+    "mapFeature": {
+     "caption": "Chish & Fips",
+     "allowPopup": true,
+     "location": "53  Angel Road  \n  NR3 3HR <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2921716,
-       52.6430913
-      ],
-      [
-       1.2919924,
-       52.6430504
-      ],
-      [
-       1.2920172,
-       52.6430103
-      ],
-      [
-       1.2920291,
-       52.6430131
-      ],
-      [
-       1.2920449,
-       52.6429875
-      ],
-      [
-       1.2921849,
-       52.6430194
-      ],
-      [
-       1.2921793,
-       52.6430283
-      ],
-      [
-       1.2922067,
-       52.6430345
-      ],
-      [
-       1.2921716,
-       52.6430913
-      ]
-     ]
+     1.2920996,
+     52.6430394
     ]
    }
   },
@@ -2532,33 +1899,21 @@
     "opening_hours": "Mo,We 16:00-20:00; Tu,Th 11:45-14:00,16:30-21:30; Fr 11:45-14:00,16:30+; Sa 11:45-14:00",
     "phone": "+44 1603 426501",
     "wheelchair": "yes",
-    "id": "way/119370217"
+    "id": "way/119370217",
+    "mapFeature": {
+     "caption": "Happy Fish and Chips",
+     "allowPopup": true,
+     "location": "86,86a  Catton Grove Road  \n  NR3 3AA <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2930367,
-       52.6544657
-      ],
-      [
-       1.2928756,
-       52.6544554
-      ],
-      [
-       1.2928843,
-       52.654405
-      ],
-      [
-       1.2930454,
-       52.6544153
-      ],
-      [
-       1.2930367,
-       52.6544657
-      ]
-     ]
+     1.2929605,
+     52.6544353
     ]
    }
   },
@@ -2577,53 +1932,21 @@
     "fhrs:id": "24238",
     "name": "Golden Fish Bar",
     "phone": "+44 1603 621168",
-    "id": "way/119371672"
+    "id": "way/119371672",
+    "mapFeature": {
+     "caption": "Golden Fish Bar",
+     "allowPopup": true,
+     "location": "6,6a  Hall Road  \n  NR1 3HQ <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2989103,
-       52.620697
-      ],
-      [
-       1.2990434,
-       52.6207683
-      ],
-      [
-       1.2989629,
-       52.6208174
-      ],
-      [
-       1.2988975,
-       52.6207874
-      ],
-      [
-       1.2988037,
-       52.620813
-      ],
-      [
-       1.2987814,
-       52.6207789
-      ],
-      [
-       1.2988348,
-       52.6207636
-      ],
-      [
-       1.2988155,
-       52.6207465
-      ],
-      [
-       1.298857,
-       52.6207312
-      ],
-      [
-       1.2989103,
-       52.620697
-      ]
-     ]
+     1.2989124,
+     52.6207572
     ]
    }
   },
@@ -2642,37 +1965,21 @@
     "fhrs:id": "65905",
     "name": "Inn Plaice",
     "phone": "+44 1603 622487",
-    "id": "way/119371974"
+    "id": "way/119371974",
+    "mapFeature": {
+     "caption": "Inn Plaice",
+     "allowPopup": true,
+     "location": "2  Silver Street  \n  NR3 4TT <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2988543,
-       52.6378897
-      ],
-      [
-       1.2990897,
-       52.6379432
-      ],
-      [
-       1.2990752,
-       52.6379601
-      ],
-      [
-       1.298835,
-       52.6379425
-      ],
-      [
-       1.2988181,
-       52.6379242
-      ],
-      [
-       1.2988543,
-       52.6378897
-      ]
-     ]
+     1.2989539,
+     52.6379249
     ]
    }
   },
@@ -2693,37 +2000,21 @@
     "name": "Lucky Fish Bar",
     "old_name": "The Codfather",
     "phone": "+44 1603 423259",
-    "id": "way/119372741"
+    "id": "way/119372741",
+    "mapFeature": {
+     "caption": "Lucky Fish Bar",
+     "allowPopup": true,
+     "location": "193  Drayton Road  \n  NR3 2PG <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2760066,
-       52.6456332
-      ],
-      [
-       1.2760318,
-       52.6456656
-      ],
-      [
-       1.2759472,
-       52.645726
-      ],
-      [
-       1.275916,
-       52.6457125
-      ],
-      [
-       1.2758848,
-       52.645662
-      ],
-      [
-       1.2760066,
-       52.6456332
-      ]
-     ]
+     1.2759583,
+     52.6456796
     ]
    }
   },
@@ -2742,37 +2033,21 @@
     "fhrs:id": "661402",
     "name": "The Plaice For Taste",
     "phone": "+44 1603 400810",
-    "id": "way/119373107"
+    "id": "way/119373107",
+    "mapFeature": {
+     "caption": "The Plaice For Taste",
+     "allowPopup": true,
+     "location": "291  Aylsham Road  \n  NR3 2RY <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2810071,
-       52.6497975
-      ],
-      [
-       1.2810352,
-       52.6497367
-      ],
-      [
-       1.2813577,
-       52.6497917
-      ],
-      [
-       1.2813295,
-       52.6498525
-      ],
-      [
-       1.2811165,
-       52.6498161
-      ],
-      [
-       1.2810071,
-       52.6497975
-      ]
-     ]
+     1.2811824,
+     52.6497946
     ]
    }
   },
@@ -2793,57 +2068,21 @@
     "opening_hours": "Mo-Sa 11:00-20:00; Su off",
     "phone": "+44 7837 915375",
     "website": "https://www.facebook.com/FlamingGalahTheAussiePieStop/",
-    "id": "way/119377893"
+    "id": "way/119377893",
+    "mapFeature": {
+     "caption": "Flaming Galah's",
+     "allowPopup": true,
+     "location": "123  Ber Street  \n  NR1 3EY <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2982524,
-       52.6230916
-      ],
-      [
-       1.2982779,
-       52.6230643
-      ],
-      [
-       1.2983282,
-       52.6230819
-      ],
-      [
-       1.2983359,
-       52.6230737
-      ],
-      [
-       1.2983429,
-       52.6230663
-      ],
-      [
-       1.2984463,
-       52.6231023
-      ],
-      [
-       1.2984406,
-       52.6231083
-      ],
-      [
-       1.2984121,
-       52.6231385
-      ],
-      [
-       1.2983145,
-       52.6231044
-      ],
-      [
-       1.2983083,
-       52.623111
-      ],
-      [
-       1.2982524,
-       52.6230916
-      ]
-     ]
+     1.2983494,
+     52.6231014
     ]
    }
   },
@@ -2861,33 +2100,21 @@
     "cuisine": "fish_and_chips",
     "name": "The Friars Inn",
     "phone": "+44 1603 435401",
-    "id": "way/119378232"
+    "id": "way/119378232",
+    "mapFeature": {
+     "caption": "The Friars Inn",
+     "allowPopup": true,
+     "location": "1,1a  Clancy Road  \n  NR7 9AA <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3307221,
-       52.6446526
-      ],
-      [
-       1.3306722,
-       52.6447282
-      ],
-      [
-       1.3305818,
-       52.6447062
-      ],
-      [
-       1.3306317,
-       52.6446306
-      ],
-      [
-       1.3307221,
-       52.6446526
-      ]
-     ]
+     1.330652,
+     52.6446794
     ]
    }
   },
@@ -2907,41 +2134,21 @@
     "name": "G M West",
     "note": "Owner Gerald West died aged 77 from lung cancer on 29th January 2013",
     "phone": "+44 1603 621606",
-    "id": "way/119378438"
+    "id": "way/119378438",
+    "mapFeature": {
+     "caption": "G M West",
+     "allowPopup": true,
+     "location": "84  Spencer Street  \n  NR3 4PD <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2996516,
-       52.6404923
-      ],
-      [
-       1.2994623,
-       52.6405017
-      ],
-      [
-       1.2994576,
-       52.6404667
-      ],
-      [
-       1.2994723,
-       52.640466
-      ],
-      [
-       1.2994698,
-       52.6404474
-      ],
-      [
-       1.2996444,
-       52.6404387
-      ],
-      [
-       1.2996516,
-       52.6404923
-      ]
-     ]
+     1.2995546,
+     52.6404702
     ]
    }
   },
@@ -2959,33 +2166,21 @@
     "fhrs:id": "67955",
     "name": "Golden Chicken & Fish Bar",
     "phone": "+44 1603 427563",
-    "id": "way/119378624"
+    "id": "way/119378624",
+    "mapFeature": {
+     "caption": "Golden Chicken & Fish Bar",
+     "allowPopup": true,
+     "location": "224  Sprowston Road  \n  NR3 4HT <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3031083,
-       52.6463065
-      ],
-      [
-       1.3029216,
-       52.6463713
-      ],
-      [
-       1.3028691,
-       52.6463157
-      ],
-      [
-       1.3030558,
-       52.6462509
-      ],
-      [
-       1.3031083,
-       52.6463065
-      ]
-     ]
+     1.3029887,
+     52.6463111
     ]
    }
   },
@@ -3004,33 +2199,21 @@
     "fhrs:id": "9017",
     "name": "Lee's Fish & Chips",
     "phone": "+44 1603 611472",
-    "id": "way/119379007"
+    "id": "way/119379007",
+    "mapFeature": {
+     "caption": "Lee's Fish & Chips",
+     "allowPopup": true,
+     "location": "28  Chester Street  \n  NR2 2AY <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2794509,
-       52.6225393
-      ],
-      [
-       1.2793981,
-       52.6225762
-      ],
-      [
-       1.2792204,
-       52.6224822
-      ],
-      [
-       1.2792733,
-       52.6224454
-      ],
-      [
-       1.2794509,
-       52.6225393
-      ]
-     ]
+     1.2793357,
+     52.6225108
     ]
    }
   },
@@ -3049,41 +2232,21 @@
     "fhrs:id": "937012",
     "name": "Long John Hill Fish Bar",
     "phone": "+44 1603 620932",
-    "id": "way/119380490"
+    "id": "way/119380490",
+    "mapFeature": {
+     "caption": "Long John Hill Fish Bar",
+     "allowPopup": true,
+     "location": "61  Long John Hill  \n  NR1 2JJ <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3016106,
-       52.6104203
-      ],
-      [
-       1.3017373,
-       52.6104529
-      ],
-      [
-       1.3017196,
-       52.6104842
-      ],
-      [
-       1.3017888,
-       52.610501
-      ],
-      [
-       1.3017747,
-       52.6105185
-      ],
-      [
-       1.3015771,
-       52.6104579
-      ],
-      [
-       1.3016106,
-       52.6104203
-      ]
-     ]
+     1.301683,
+     52.6104694
     ]
    }
   },
@@ -3104,33 +2267,21 @@
     "operator": "Nick McLaren",
     "phone": "+44 1603 624713",
     "wheelchair": "yes",
-    "id": "way/119384838"
+    "id": "way/119384838",
+    "mapFeature": {
+     "caption": "Rish and Chips",
+     "allowPopup": true,
+     "location": "3  Saint Johns Close  \n  NR1 2AD <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.294449,
-       52.6143777
-      ],
-      [
-       1.2944904,
-       52.6144391
-      ],
-      [
-       1.2943729,
-       52.6144683
-      ],
-      [
-       1.2943315,
-       52.6144068
-      ],
-      [
-       1.294449,
-       52.6143777
-      ]
-     ]
+     1.294411,
+     52.614423
     ]
    }
   },
@@ -3151,53 +2302,21 @@
     "name": "Happy Fresh Fryer",
     "opening_hours": "Su-We 12:00-23:00; Th closed; Fr 16:00-23:00",
     "phone": "+44 1603 928690",
-    "id": "way/119385438"
+    "id": "way/119385438",
+    "mapFeature": {
+     "caption": "Happy Fresh Fryer",
+     "allowPopup": true,
+     "location": "141  Aylsham Road  \n  NR3 2AD <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2840259,
-       52.6457774
-      ],
-      [
-       1.2840767,
-       52.6457173
-      ],
-      [
-       1.2841879,
-       52.6458256
-      ],
-      [
-       1.2841681,
-       52.6458329
-      ],
-      [
-       1.2841472,
-       52.6458129
-      ],
-      [
-       1.2841009,
-       52.6457975
-      ],
-      [
-       1.284107,
-       52.6457911
-      ],
-      [
-       1.2840868,
-       52.6457841
-      ],
-      [
-       1.2840797,
-       52.6457937
-      ],
-      [
-       1.2840259,
-       52.6457774
-      ]
-     ]
+     1.2841069,
+     52.6457751
     ]
    }
   },
@@ -3216,41 +2335,21 @@
     "fhrs:id": "46936",
     "name": "Woodcock Fish Bar",
     "phone": "+44 1603 427239",
-    "id": "way/119388908"
+    "id": "way/119388908",
+    "mapFeature": {
+     "caption": "Woodcock Fish Bar",
+     "allowPopup": true,
+     "location": "59  Woodcock Road  \n  NR3 3TH <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2845921,
-       52.6531982
-      ],
-      [
-       1.2845926,
-       52.6530594
-      ],
-      [
-       1.284714,
-       52.6530595
-      ],
-      [
-       1.2847137,
-       52.6531452
-      ],
-      [
-       1.2846625,
-       52.6531451
-      ],
-      [
-       1.2846623,
-       52.6531983
-      ],
-      [
-       1.2845921,
-       52.6531982
-      ]
-     ]
+     1.284653,
+     52.6531289
     ]
    }
   },
@@ -3271,41 +2370,21 @@
     "note": "Flat above shop",
     "opening_hours": "Tu,Th 12:00-13:30; Tu-Sa 16:30-23:00; Fr,Sa 12:00-13:45",
     "phone": "+44 1603 627885",
-    "id": "way/119389360"
+    "id": "way/119389360",
+    "mapFeature": {
+     "caption": "The Chip Shop",
+     "allowPopup": true,
+     "location": "26  Stafford Street  \n  NR2 3BB <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2754797,
-       52.6325103
-      ],
-      [
-       1.2754276,
-       52.6325128
-      ],
-      [
-       1.2753315,
-       52.6325175
-      ],
-      [
-       1.2753223,
-       52.6324476
-      ],
-      [
-       1.2754705,
-       52.6324404
-      ],
-      [
-       1.2754759,
-       52.6324819
-      ],
-      [
-       1.2754797,
-       52.6325103
-      ]
-     ]
+     1.275401,
+     52.632479
     ]
    }
   },
@@ -3331,45 +2410,21 @@
     "toilets:wheelchair": "no",
     "website": "http://www.fshshop.com/",
     "wheelchair": "limited",
-    "id": "way/119389652"
+    "id": "way/119389652",
+    "mapFeature": {
+     "caption": "Grosvenor Fish Bar",
+     "allowPopup": true,
+     "location": "28  Lower Goat Lane  \n  NR2 1EL <br />\n  \n  Limited wheelchair access \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2916729,
-       52.6299445
-      ],
-      [
-       1.2915215,
-       52.6299655
-      ],
-      [
-       1.291511,
-       52.6299387
-      ],
-      [
-       1.2915485,
-       52.629933
-      ],
-      [
-       1.291544,
-       52.6299221
-      ],
-      [
-       1.2915385,
-       52.6299087
-      ],
-      [
-       1.2916702,
-       52.6299069
-      ],
-      [
-       1.2916729,
-       52.6299445
-      ]
-     ]
+     1.2915919,
+     52.6299362
     ]
    }
   },
@@ -3390,49 +2445,21 @@
     "outdoor_seating": "yes",
     "phone": "+44 1508 520825",
     "smoking": "outside",
-    "id": "way/119390126"
+    "id": "way/119390126",
+    "mapFeature": {
+     "caption": "Unthank Fish & Chips",
+     "allowPopup": true,
+     "location": "131,131a,131b  Unthank Road  \n  NR2 2PE <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2770387,
-       52.6239723
-      ],
-      [
-       1.276977,
-       52.623995
-      ],
-      [
-       1.2769556,
-       52.623982
-      ],
-      [
-       1.2768241,
-       52.6240309
-      ],
-      [
-       1.2768,
-       52.6240097
-      ],
-      [
-       1.2768912,
-       52.6239706
-      ],
-      [
-       1.2769287,
-       52.6239576
-      ],
-      [
-       1.2770012,
-       52.6239315
-      ],
-      [
-       1.2770387,
-       52.6239723
-      ]
-     ]
+     1.2769194,
+     52.6239812
     ]
    }
   },
@@ -3451,65 +2478,21 @@
     "fhrs:id": "69373",
     "name": "Massingham's Fish and Chip Shop",
     "phone": "+44 1603 620868",
-    "id": "way/119390978"
+    "id": "way/119390978",
+    "mapFeature": {
+     "caption": "Massingham's Fish and Chip Shop",
+     "allowPopup": true,
+     "location": "53  Saint Leonards Road  \n  NR1 4JW <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3122322,
-       52.6297689
-      ],
-      [
-       1.3122361,
-       52.629865
-      ],
-      [
-       1.312264,
-       52.6298645
-      ],
-      [
-       1.3122648,
-       52.629883
-      ],
-      [
-       1.3121698,
-       52.6298844
-      ],
-      [
-       1.3121691,
-       52.6298657
-      ],
-      [
-       1.3121867,
-       52.6298654
-      ],
-      [
-       1.3121858,
-       52.6298449
-      ],
-      [
-       1.3121485,
-       52.6298454
-      ],
-      [
-       1.3121499,
-       52.6298795
-      ],
-      [
-       1.3121142,
-       52.62988
-      ],
-      [
-       1.3121097,
-       52.6297707
-      ],
-      [
-       1.3122322,
-       52.6297689
-      ]
-     ]
+     1.3121873,
+     52.6298266
     ]
    }
   },
@@ -3528,41 +2511,21 @@
     "fhrs:id": "65736",
     "name": "Silver Road Fish Bar",
     "phone": "+44 1603 423340",
-    "id": "way/119442559"
+    "id": "way/119442559",
+    "mapFeature": {
+     "caption": "Silver Road Fish Bar",
+     "allowPopup": true,
+     "location": "142  Silver Road  \n  NR3 4TG <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3025263,
-       52.641339
-      ],
-      [
-       1.3025227,
-       52.6413661
-      ],
-      [
-       1.3023739,
-       52.6413786
-      ],
-      [
-       1.3023799,
-       52.6413661
-      ],
-      [
-       1.3023388,
-       52.6413669
-      ],
-      [
-       1.3023388,
-       52.6413397
-      ],
-      [
-       1.3025263,
-       52.641339
-      ]
-     ]
+     1.3024326,
+     52.6413588
     ]
    }
   },
@@ -3583,33 +2546,21 @@
     "operator": "17:00-23:00",
     "phone": "+44 1603 300002; +44 1603 700766",
     "website": "http://qualityindian.co.uk/",
-    "id": "way/119443396"
+    "id": "way/119443396",
+    "mapFeature": {
+     "caption": "Quality Indian Takeaway",
+     "allowPopup": true,
+     "location": "100  Harvey Lane  \n  NR7 0AQ <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3288882,
-       52.6367565
-      ],
-      [
-       1.3290543,
-       52.6367172
-      ],
-      [
-       1.3290915,
-       52.636775
-      ],
-      [
-       1.3289254,
-       52.6368144
-      ],
-      [
-       1.3288882,
-       52.6367565
-      ]
-     ]
+     1.3289899,
+     52.6367658
     ]
    }
   },
@@ -3630,37 +2581,21 @@
     "opening_hours": "Tu-Su 17:00-22:30",
     "phone": "+44 1603 464646",
     "website": "http://www.takethai.co.uk/",
-    "id": "way/119443696"
+    "id": "way/119443696",
+    "mapFeature": {
+     "caption": "Take Thai",
+     "allowPopup": true,
+     "location": "130  Dereham Road  \n  NR2 3AF <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.277473,
-       52.6335359
-      ],
-      [
-       1.277488,
-       52.6335791
-      ],
-      [
-       1.2775143,
-       52.633655
-      ],
-      [
-       1.2774281,
-       52.633666
-      ],
-      [
-       1.2773869,
-       52.6335469
-      ],
-      [
-       1.277473,
-       52.6335359
-      ]
-     ]
+     1.2774506,
+     52.633601
     ]
    }
   },
@@ -3679,49 +2614,21 @@
     "fhrs:id": "511304",
     "name": "Good World Chinese Takeaway",
     "phone": "+44 1603 408394",
-    "id": "way/119455709"
+    "id": "way/119455709",
+    "mapFeature": {
+     "caption": "Good World Chinese Takeaway",
+     "allowPopup": true,
+     "location": "144  Constitution Hill  \n  NR3 4BB <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.300569,
-       52.6495066
-      ],
-      [
-       1.3006701,
-       52.6494886
-      ],
-      [
-       1.3006829,
-       52.6495152
-      ],
-      [
-       1.3007624,
-       52.6495011
-      ],
-      [
-       1.3007552,
-       52.6494861
-      ],
-      [
-       1.3009342,
-       52.6494543
-      ],
-      [
-       1.3009539,
-       52.6494951
-      ],
-      [
-       1.3005942,
-       52.6495589
-      ],
-      [
-       1.300569,
-       52.6495066
-      ]
-     ]
+     1.3007614,
+     52.6495066
     ]
    }
   },
@@ -3741,41 +2648,21 @@
     "name": "Hong Kong Fusion Takeaway",
     "phone": "+44 1603 622851",
     "takeaway": "yes",
-    "id": "way/119456019"
+    "id": "way/119456019",
+    "mapFeature": {
+     "caption": "Hong Kong Fusion Takeaway",
+     "allowPopup": true,
+     "location": "166a  Unthank Road  \n  NR2 2AB <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2759651,
-       52.6228383
-      ],
-      [
-       1.2759511,
-       52.6228289
-      ],
-      [
-       1.2759389,
-       52.6228354
-      ],
-      [
-       1.2759163,
-       52.6228194
-      ],
-      [
-       1.2760852,
-       52.6227308
-      ],
-      [
-       1.2761216,
-       52.6227558
-      ],
-      [
-       1.2759651,
-       52.6228383
-      ]
-     ]
+     1.276019,
+     52.6227846
     ]
    }
   },
@@ -3794,41 +2681,21 @@
     "fhrs:id": "10471",
     "name": "Jin Gong",
     "phone": "+44 1603 427903",
-    "id": "way/119456438"
+    "id": "way/119456438",
+    "mapFeature": {
+     "caption": "Jin Gong",
+     "allowPopup": true,
+     "location": "282  Aylsham Road  \n  NR3 2RG <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2808773,
-       52.6490589
-      ],
-      [
-       1.2808408,
-       52.6491087
-      ],
-      [
-       1.2807104,
-       52.6490735
-      ],
-      [
-       1.2807221,
-       52.6490575
-      ],
-      [
-       1.2806809,
-       52.6490464
-      ],
-      [
-       1.2807057,
-       52.6490126
-      ],
-      [
-       1.2808773,
-       52.6490589
-      ]
-     ]
+     1.2807791,
+     52.6490606
     ]
    }
   },
@@ -3847,41 +2714,21 @@
     "fhrs:id": "16736",
     "name": "Kam Lee Chinese Take Away",
     "phone": "+44 1603 484052",
-    "id": "way/119456590"
+    "id": "way/119456590",
+    "mapFeature": {
+     "caption": "Kam Lee Chinese Take Away",
+     "allowPopup": true,
+     "location": "189  Drayton Road  \n  NR3 2PG <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2760784,
-       52.6458
-      ],
-      [
-       1.2760295,
-       52.6457878
-      ],
-      [
-       1.2761086,
-       52.6456863
-      ],
-      [
-       1.2761854,
-       52.645707
-      ],
-      [
-       1.2761368,
-       52.6457739
-      ],
-      [
-       1.2761042,
-       52.6457656
-      ],
-      [
-       1.2760784,
-       52.6458
-      ]
-     ]
+     1.2761075,
+     52.6457432
     ]
    }
   },
@@ -3902,41 +2749,21 @@
     "opening_hours": "Mo-Su,PH 16:30-23:00",
     "phone": "+44 1603 788300",
     "website": "http://www.wokchina.co.uk/",
-    "id": "way/119457845"
+    "id": "way/119457845",
+    "mapFeature": {
+     "caption": "Wok China",
+     "allowPopup": true,
+     "location": "217a  Aylsham Road  \n  NR3 2RE <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2827774,
-       52.6477781
-      ],
-      [
-       1.2827409,
-       52.647795
-      ],
-      [
-       1.2826507,
-       52.6477286
-      ],
-      [
-       1.2824382,
-       52.6476674
-      ],
-      [
-       1.2824661,
-       52.6476322
-      ],
-      [
-       1.2826765,
-       52.6476973
-      ],
-      [
-       1.2827774,
-       52.6477781
-      ]
-     ]
+     1.2826078,
+     52.6477136
     ]
    }
   },
@@ -3955,41 +2782,21 @@
     "fhrs:id": "8711",
     "name": "Golden Place",
     "phone": "+44 1603 419945",
-    "id": "way/119463433"
+    "id": "way/119463433",
+    "mapFeature": {
+     "caption": "Golden Place",
+     "allowPopup": true,
+     "location": "8  Woodgrove Parade  \n  NR3 3NS <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.291848,
-       52.65154
-      ],
-      [
-       1.291745,
-       52.6515574
-      ],
-      [
-       1.2916183,
-       52.6515787
-      ],
-      [
-       1.2915997,
-       52.6515381
-      ],
-      [
-       1.2917155,
-       52.6515186
-      ],
-      [
-       1.2918294,
-       52.6514994
-      ],
-      [
-       1.291848,
-       52.65154
-      ]
-     ]
+     1.2917238,
+     52.651539
     ]
    }
   },
@@ -4008,33 +2815,21 @@
     "fhrs:id": "65568",
     "name": "Kam Hon Take Away",
     "phone": "+44 1603 429460",
-    "id": "way/119469630"
+    "id": "way/119469630",
+    "mapFeature": {
+     "caption": "Kam Hon Take Away",
+     "allowPopup": true,
+     "location": "107  Shipfield  \n  NR3 4DT <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3083408,
-       52.6507544
-      ],
-      [
-       1.3082061,
-       52.650656
-      ],
-      [
-       1.3082677,
-       52.6506249
-      ],
-      [
-       1.3084024,
-       52.6507233
-      ],
-      [
-       1.3083408,
-       52.6507544
-      ]
-     ]
+     1.3083042,
+     52.6506897
     ]
    }
   },
@@ -4056,49 +2851,21 @@
     "opening_hours": "We-Mo 17:00-00:00",
     "phone": "+44 1603 424663",
     "website": "https://chinastarnorwich.wixsite.com/2019",
-    "id": "way/119471060"
+    "id": "way/119471060",
+    "mapFeature": {
+     "caption": "China Star",
+     "allowPopup": true,
+     "location": "193  Sprowston Road  \n  NR3 4QQ <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3020637,
-       52.6443752
-      ],
-      [
-       1.3020741,
-       52.6443893
-      ],
-      [
-       1.3020332,
-       52.6444004
-      ],
-      [
-       1.3020495,
-       52.6444226
-      ],
-      [
-       1.3020027,
-       52.6444353
-      ],
-      [
-       1.3020086,
-       52.6444433
-      ],
-      [
-       1.3019371,
-       52.6444626
-      ],
-      [
-       1.3019045,
-       52.6444181
-      ],
-      [
-       1.3020637,
-       52.6443752
-      ]
-     ]
+     1.3019893,
+     52.6444189
     ]
    }
   },
@@ -4117,41 +2884,21 @@
     "fhrs:id": "18793",
     "name": "Royal Dynasty",
     "phone": "+44 1603 411281",
-    "id": "way/119472515"
+    "id": "way/119472515",
+    "mapFeature": {
+     "caption": "Royal Dynasty",
+     "allowPopup": true,
+     "location": "57  Woodcock Road  \n  NR3 3TH <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2845926,
-       52.6530594
-      ],
-      [
-       1.2845921,
-       52.6531982
-      ],
-      [
-       1.2845197,
-       52.6531981
-      ],
-      [
-       1.2845199,
-       52.6531477
-      ],
-      [
-       1.2844639,
-       52.6531477
-      ],
-      [
-       1.2844642,
-       52.6530592
-      ],
-      [
-       1.2845926,
-       52.6530594
-      ]
-     ]
+     1.2845283,
+     52.6531287
     ]
    }
   },
@@ -4170,41 +2917,21 @@
     "fhrs:id": "74968",
     "name": "Cantonese Kitchen",
     "phone": "+44 1603 614605",
-    "id": "way/119476455"
+    "id": "way/119476455",
+    "mapFeature": {
+     "caption": "Cantonese Kitchen",
+     "allowPopup": true,
+     "location": "97  Unthank Road  \n  NR2 2PE <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2778514,
-       52.6249246
-      ],
-      [
-       1.2775677,
-       52.6250304
-      ],
-      [
-       1.2775424,
-       52.6250033
-      ],
-      [
-       1.2777257,
-       52.6249366
-      ],
-      [
-       1.2777107,
-       52.6249214
-      ],
-      [
-       1.2778154,
-       52.6248833
-      ],
-      [
-       1.2778514,
-       52.6249246
-      ]
-     ]
+     1.2776969,
+     52.6249569
     ]
    }
   },
@@ -4223,45 +2950,21 @@
     "fhrs:id": "605927",
     "name": "Dragon Chinese Takeaway",
     "phone": "+44 1603 501188",
-    "id": "way/119476680"
+    "id": "way/119476680",
+    "mapFeature": {
+     "caption": "Dragon Chinese Takeaway",
+     "allowPopup": true,
+     "location": "12  Hall Road  \n  NR1 3HQ <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2987664,
-       52.620618
-      ],
-      [
-       1.2986978,
-       52.6206675
-      ],
-      [
-       1.2986328,
-       52.6206812
-      ],
-      [
-       1.2986162,
-       52.6206847
-      ],
-      [
-       1.2985891,
-       52.6206374
-      ],
-      [
-       1.2986884,
-       52.6206166
-      ],
-      [
-       1.2987203,
-       52.6205936
-      ],
-      [
-       1.2987664,
-       52.620618
-      ]
-     ]
+     1.2986777,
+     52.6206392
     ]
    }
   },
@@ -4280,45 +2983,21 @@
     "fhrs:id": "851580",
     "name": "Evergreen",
     "phone": "+44 1603 400780",
-    "id": "way/119555440"
+    "id": "way/119555440",
+    "mapFeature": {
+     "caption": "Evergreen",
+     "allowPopup": true,
+     "location": "315  Aylsham Road  \n  NR3 2AB <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.279724,
-       52.6524493
-      ],
-      [
-       1.2798894,
-       52.6525315
-      ],
-      [
-       1.2798637,
-       52.6525557
-      ],
-      [
-       1.2798666,
-       52.6525774
-      ],
-      [
-       1.2796883,
-       52.6525177
-      ],
-      [
-       1.2797168,
-       52.6524883
-      ],
-      [
-       1.2796969,
-       52.6524796
-      ],
-      [
-       1.279724,
-       52.6524493
-      ]
-     ]
+     1.2797889,
+     52.6525134
     ]
    }
   },
@@ -4338,33 +3017,21 @@
     "name": "Golden City",
     "opening_hours": "Tu-Th,Su,PH 17:00-23:30; Fr,Sa 17:00-24:00",
     "phone": "+44 1603 620489",
-    "id": "way/119556658"
+    "id": "way/119556658",
+    "mapFeature": {
+     "caption": "Golden City",
+     "allowPopup": true,
+     "location": "14  Distillery Square  \n  NR2 4BH <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.281554,
-       52.6325943
-      ],
-      [
-       1.2813429,
-       52.6326292
-      ],
-      [
-       1.2813266,
-       52.6325929
-      ],
-      [
-       1.2815377,
-       52.632558
-      ],
-      [
-       1.281554,
-       52.6325943
-      ]
-     ]
+     1.2814403,
+     52.6325936
     ]
    }
   },
@@ -4388,45 +3055,21 @@
     "phone": "+44 1603 618025",
     "takeaway": "yes",
     "website": "http://www.happyviewchinese.co.uk/",
-    "id": "way/119557178"
+    "id": "way/119557178",
+    "mapFeature": {
+     "caption": "Happy View",
+     "allowPopup": true,
+     "location": "69a  Ketts Hill  \n  NR1 4EX <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.312565,
-       52.6341973
-      ],
-      [
-       1.3124997,
-       52.6340806
-      ],
-      [
-       1.3125634,
-       52.6340675
-      ],
-      [
-       1.3126048,
-       52.6341415
-      ],
-      [
-       1.3125817,
-       52.6341462
-      ],
-      [
-       1.3126093,
-       52.6341955
-      ],
-      [
-       1.3125686,
-       52.6342039
-      ],
-      [
-       1.312565,
-       52.6341973
-      ]
-     ]
+     1.3125545,
+     52.6341357
     ]
    }
   },
@@ -4445,45 +3088,21 @@
     "fhrs:id": "878405",
     "name": "Ken Tong Take-Away",
     "phone": "+44 1603 439818",
-    "id": "way/119557432"
+    "id": "way/119557432",
+    "mapFeature": {
+     "caption": "Ken Tong Take-Away",
+     "allowPopup": true,
+     "location": "67  Borrowdale Drive  \n  NR1 4NS <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3226935,
-       52.6395887
-      ],
-      [
-       1.322739,
-       52.6395935
-      ],
-      [
-       1.3227524,
-       52.639546
-      ],
-      [
-       1.3227966,
-       52.6395506
-      ],
-      [
-       1.3227552,
-       52.6396974
-      ],
-      [
-       1.322744,
-       52.6397372
-      ],
-      [
-       1.3226543,
-       52.6397279
-      ],
-      [
-       1.3226935,
-       52.6395887
-      ]
-     ]
+     1.3227255,
+     52.6396416
     ]
    }
   },
@@ -4502,41 +3121,21 @@
     "fhrs:id": "852370",
     "name": "New World Chinese",
     "phone": "+44 1603 484716",
-    "id": "way/119557982"
+    "id": "way/119557982",
+    "mapFeature": {
+     "caption": "New World Chinese",
+     "allowPopup": true,
+     "location": "361  Aylsham Road  \n  NR3 2RX <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2778653,
-       52.6562376
-      ],
-      [
-       1.2777233,
-       52.6562049
-      ],
-      [
-       1.2777832,
-       52.6561093
-      ],
-      [
-       1.277839,
-       52.6561222
-      ],
-      [
-       1.277815,
-       52.6561606
-      ],
-      [
-       1.2779011,
-       52.6561804
-      ],
-      [
-       1.2778653,
-       52.6562376
-      ]
-     ]
+     1.2778122,
+     52.6561734
     ]
    }
   },
@@ -4556,33 +3155,21 @@
     "name": "China Express",
     "opening_hours": "17:00-23:00",
     "phone": "+44 1603 661177; +44 1603 665913",
-    "id": "way/119559471"
+    "id": "way/119559471",
+    "mapFeature": {
+     "caption": "China Express",
+     "allowPopup": true,
+     "location": "89  Cambridge Street  \n  NR2 2BD <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2822888,
-       52.6232234
-      ],
-      [
-       1.2821917,
-       52.6232534
-      ],
-      [
-       1.2821338,
-       52.6231841
-      ],
-      [
-       1.2821781,
-       52.6231675
-      ],
-      [
-       1.2822888,
-       52.6232234
-      ]
-     ]
+     1.2822113,
+     52.6232105
     ]
    }
   },
@@ -4601,41 +3188,21 @@
     "fhrs:id": "846084",
     "name": "Zen",
     "website": "http://www.zentakeaway.co.uk/",
-    "id": "way/119563267"
+    "id": "way/119563267",
+    "mapFeature": {
+     "caption": "Zen",
+     "allowPopup": true,
+     "location": "170  Nelson Street  \n  NR2 4DS <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2762046,
-       52.6390848
-      ],
-      [
-       1.2761898,
-       52.6390237
-      ],
-      [
-       1.2762131,
-       52.6390216
-      ],
-      [
-       1.2762021,
-       52.6389759
-      ],
-      [
-       1.2763178,
-       52.6389656
-      ],
-      [
-       1.2763436,
-       52.6390724
-      ],
-      [
-       1.2762046,
-       52.6390848
-      ]
-     ]
+     1.2762667,
+     52.6390252
     ]
    }
   },
@@ -4654,49 +3221,21 @@
     "fhrs:id": "67625",
     "name": "Great Wall",
     "phone": "+44 1603 627907",
-    "id": "way/119564363"
+    "id": "way/119564363",
+    "mapFeature": {
+     "caption": "Great Wall",
+     "allowPopup": true,
+     "location": "85  Spencer Street  \n  NR3 4PE <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3000814,
-       52.6406826
-      ],
-      [
-       1.3000831,
-       52.6407013
-      ],
-      [
-       1.2999357,
-       52.640706
-      ],
-      [
-       1.2999293,
-       52.6406335
-      ],
-      [
-       1.3000686,
-       52.640629
-      ],
-      [
-       1.3000721,
-       52.6406682
-      ],
-      [
-       1.3000088,
-       52.6406703
-      ],
-      [
-       1.30001,
-       52.6406849
-      ],
-      [
-       1.3000814,
-       52.6406826
-      ]
-     ]
+     1.3000062,
+     52.6406675
     ]
    }
   },
@@ -4715,45 +3254,21 @@
     "fhrs:id": "1100556",
     "name": "Lotus House",
     "phone": "+44 1603 624888",
-    "id": "way/119566558"
+    "id": "way/119566558",
+    "mapFeature": {
+     "caption": "Lotus House",
+     "allowPopup": true,
+     "location": "16  Bishop Bridge Road  \n  NR1 4ET <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3093202,
-       52.6336045
-      ],
-      [
-       1.309486,
-       52.6335946
-      ],
-      [
-       1.3095171,
-       52.6335927
-      ],
-      [
-       1.3095256,
-       52.6336453
-      ],
-      [
-       1.3093687,
-       52.6336546
-      ],
-      [
-       1.3093643,
-       52.6336276
-      ],
-      [
-       1.3093243,
-       52.63363
-      ],
-      [
-       1.3093202,
-       52.6336045
-      ]
-     ]
+     1.3094229,
+     52.6336237
     ]
    }
   },
@@ -4772,41 +3287,21 @@
     "fhrs:id": "1019486",
     "name": "Fish & Chips",
     "phone": "+44 1603 395593",
-    "id": "way/119566559"
+    "id": "way/119566559",
+    "mapFeature": {
+     "caption": "Fish & Chips",
+     "allowPopup": true,
+     "location": "18  Bishop Bridge Road  \n  NR1 4ET <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3093687,
-       52.6336546
-      ],
-      [
-       1.3095256,
-       52.6336453
-      ],
-      [
-       1.3095331,
-       52.6336918
-      ],
-      [
-       1.3093335,
-       52.6337038
-      ],
-      [
-       1.3093306,
-       52.6336858
-      ],
-      [
-       1.3093733,
-       52.6336832
-      ],
-      [
-       1.3093687,
-       52.6336546
-      ]
-     ]
+     1.3094318,
+     52.6336746
     ]
    }
   },
@@ -4827,49 +3322,21 @@
     "phone": "+44 1603 219994",
     "phone:2": "+44 1603 219997",
     "website": "http://www.tandoori-express.net/",
-    "id": "way/119566561"
+    "id": "way/119566561",
+    "mapFeature": {
+     "caption": "Tandoori Express",
+     "allowPopup": true,
+     "location": "28  Bishop Bridge Road  \n  NR1 4ET <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3095603,
-       52.6338503
-      ],
-      [
-       1.3095653,
-       52.6338812
-      ],
-      [
-       1.3094756,
-       52.6338866
-      ],
-      [
-       1.309478,
-       52.6339015
-      ],
-      [
-       1.3094088,
-       52.6339056
-      ],
-      [
-       1.3094066,
-       52.6338921
-      ],
-      [
-       1.3093568,
-       52.6338951
-      ],
-      [
-       1.3093516,
-       52.6338628
-      ],
-      [
-       1.3095603,
-       52.6338503
-      ]
-     ]
+     1.3094585,
+     52.6338779
     ]
    }
   },
@@ -4888,41 +3355,21 @@
     "fhrs:id": "6919",
     "name": "Welcome Chinese Takeaway",
     "phone": "+44 1603 630932",
-    "id": "way/119567334"
+    "id": "way/119567334",
+    "mapFeature": {
+     "caption": "Welcome Chinese Takeaway",
+     "allowPopup": true,
+     "location": "105  Bull Close Road  \n  NR3 1NY <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3002847,
-       52.6373775
-      ],
-      [
-       1.3002629,
-       52.6373837
-      ],
-      [
-       1.3003048,
-       52.6374384
-      ],
-      [
-       1.3002526,
-       52.6374531
-      ],
-      [
-       1.3001557,
-       52.6373268
-      ],
-      [
-       1.3002297,
-       52.6373059
-      ],
-      [
-       1.3002847,
-       52.6373775
-      ]
-     ]
+     1.3002302,
+     52.6373795
     ]
    }
   },
@@ -4943,33 +3390,21 @@
     "name": "Yuan Feng",
     "opening_hours": "Su,Mo,We,Th 17:00-23:00; Fr,Sa 17:00-23:30",
     "phone": "+44 1603 502277",
-    "id": "way/119568650"
+    "id": "way/119568650",
+    "mapFeature": {
+     "caption": "Yuan Feng",
+     "allowPopup": true,
+     "location": "117b,117e  Ipswich Road  \n  NR4 6LD <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2796252,
-       52.6057309
-      ],
-      [
-       1.2796516,
-       52.6057756
-      ],
-      [
-       1.2795061,
-       52.6058073
-      ],
-      [
-       1.2794797,
-       52.6057626
-      ],
-      [
-       1.2796252,
-       52.6057309
-      ]
-     ]
+     1.2795656,
+     52.6057691
     ]
    }
   },
@@ -4988,33 +3423,21 @@
     "fhrs:id": "48009",
     "name": "Lucky Star Chinese Take Away",
     "phone": "+44 1603 483889",
-    "id": "way/119569108"
+    "id": "way/119569108",
+    "mapFeature": {
+     "caption": "Lucky Star Chinese Take Away",
+     "allowPopup": true,
+     "location": "299  Aylsham Road  \n  NR3 2RY <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2804311,
-       52.6511401
-      ],
-      [
-       1.2804552,
-       52.6510884
-      ],
-      [
-       1.2805938,
-       52.6511121
-      ],
-      [
-       1.2805697,
-       52.6511638
-      ],
-      [
-       1.2804311,
-       52.6511401
-      ]
-     ]
+     1.2805124,
+     52.6511261
     ]
    }
   },
@@ -5033,33 +3456,21 @@
     "fhrs:id": "1108812",
     "name": "New Island",
     "phone": "+44 1603 622621",
-    "id": "way/119569259"
+    "id": "way/119569259",
+    "mapFeature": {
+     "caption": "New Island",
+     "allowPopup": true,
+     "location": "60  Sandy Lane  \n  NR1 2NR <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2967844,
-       52.6052117
-      ],
-      [
-       1.2968937,
-       52.6051622
-      ],
-      [
-       1.2969619,
-       52.6052177
-      ],
-      [
-       1.2968526,
-       52.6052672
-      ],
-      [
-       1.2967844,
-       52.6052117
-      ]
-     ]
+     1.2968731,
+     52.6052147
     ]
    }
   },
@@ -5084,49 +3495,21 @@
     "start_date": "2019-02-07",
     "takeaway": "yes",
     "website": "https://www.thaistreet.uk/",
-    "id": "way/119725975"
+    "id": "way/119725975",
+    "mapFeature": {
+     "caption": "THAI Street",
+     "allowPopup": true,
+     "location": "131  Magdalen Street  \n  NR3 1NF <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2968849,
-       52.6377476
-      ],
-      [
-       1.296881,
-       52.6377255
-      ],
-      [
-       1.2968679,
-       52.6376496
-      ],
-      [
-       1.2970316,
-       52.6376391
-      ],
-      [
-       1.2970407,
-       52.6376919
-      ],
-      [
-       1.2969858,
-       52.6376954
-      ],
-      [
-       1.2969898,
-       52.6377185
-      ],
-      [
-       1.2969936,
-       52.6377407
-      ],
-      [
-       1.2968849,
-       52.6377476
-      ]
-     ]
+     1.2969543,
+     52.6376934
     ]
    }
   },
@@ -5146,41 +3529,21 @@
     "name": "Mumbai Kitchen",
     "phone": "+44 1603 629898",
     "website": "http://www.mumbaikitchennorwich.co.uk/",
-    "id": "way/119731889"
+    "id": "way/119731889",
+    "mapFeature": {
+     "caption": "Mumbai Kitchen",
+     "allowPopup": true,
+     "location": "229  Queens Road  \n  NR1 3AE <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.300661,
-       52.620807
-      ],
-      [
-       1.3005391,
-       52.6208095
-      ],
-      [
-       1.30052,
-       52.6207584
-      ],
-      [
-       1.3005013,
-       52.6207083
-      ],
-      [
-       1.3006108,
-       52.6206896
-      ],
-      [
-       1.3006562,
-       52.6207535
-      ],
-      [
-       1.300661,
-       52.620807
-      ]
-     ]
+     1.3005812,
+     52.6207495
     ]
    }
   },
@@ -5202,57 +3565,21 @@
     "opening_hours": "Su-Th 17:00-22:30; Tu off; Fr-Sa 17:00-23:00",
     "phone": "+44 1603 496355",
     "website": "http://bengalpalacenorwich.co.uk/",
-    "id": "way/119741841"
+    "id": "way/119741841",
+    "mapFeature": {
+     "caption": "Bengal Palace",
+     "allowPopup": true,
+     "location": "61  Magpie Road  \n  NR3 1JG <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2945017,
-       52.6389114
-      ],
-      [
-       1.2945936,
-       52.6389122
-      ],
-      [
-       1.2945887,
-       52.6390848
-      ],
-      [
-       1.2944465,
-       52.6390825
-      ],
-      [
-       1.2944661,
-       52.6390372
-      ],
-      [
-       1.2945176,
-       52.6390372
-      ],
-      [
-       1.2945164,
-       52.6390647
-      ],
-      [
-       1.2945593,
-       52.6390639
-      ],
-      [
-       1.2945617,
-       52.6390267
-      ],
-      [
-       1.2944673,
-       52.6390253
-      ],
-      [
-       1.2945017,
-       52.6389114
-      ]
-     ]
+     1.2945201,
+     52.6389981
     ]
    }
   },
@@ -5272,41 +3599,21 @@
     "name": "Furama",
     "opening_hours": "17:00-23:30",
     "phone": "+44 1603 662333",
-    "id": "way/119743826"
+    "id": "way/119743826",
+    "mapFeature": {
+     "caption": "Furama",
+     "allowPopup": true,
+     "location": "101  Dereham Road  \n  NR2 4HT <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2801775,
-       52.633505
-      ],
-      [
-       1.2800821,
-       52.6335291
-      ],
-      [
-       1.2800592,
-       52.6334957
-      ],
-      [
-       1.2800839,
-       52.6334901
-      ],
-      [
-       1.2800567,
-       52.6334477
-      ],
-      [
-       1.2801314,
-       52.6334309
-      ],
-      [
-       1.2801775,
-       52.633505
-      ]
-     ]
+     1.2801171,
+     52.63348
     ]
    }
   },
@@ -5330,37 +3637,21 @@
     "phone": "+44 1603 762555;+44 1603 762700",
     "takeaway": "only",
     "website": "https://www.luckytandoori.co.uk/",
-    "id": "way/119743827"
+    "id": "way/119743827",
+    "mapFeature": {
+     "caption": "Lucky Tandoori",
+     "allowPopup": true,
+     "location": "105  Dereham Road  \n  NR2 4HT <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2800402,
-       52.6335479
-      ],
-      [
-       1.279994,
-       52.6335597
-      ],
-      [
-       1.2799706,
-       52.6335498
-      ],
-      [
-       1.2799117,
-       52.6334773
-      ],
-      [
-       1.2799832,
-       52.6334627
-      ],
-      [
-       1.2800402,
-       52.6335479
-      ]
-     ]
+     1.2799759,
+     52.6335112
     ]
    }
   },
@@ -5379,49 +3670,21 @@
     "fhrs:id": "76176",
     "name": "Shah Zahan",
     "phone": "+44 1603 425 984",
-    "id": "way/119745260"
+    "id": "way/119745260",
+    "mapFeature": {
+     "caption": "Shah Zahan",
+     "allowPopup": true,
+     "location": "84  Waterloo Road  \n  NR3 1EW <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2938024,
-       52.6416642
-      ],
-      [
-       1.2937589,
-       52.6416629
-      ],
-      [
-       1.293728,
-       52.6416787
-      ],
-      [
-       1.2937736,
-       52.641721
-      ],
-      [
-       1.2936943,
-       52.6417298
-      ],
-      [
-       1.2936319,
-       52.6416525
-      ],
-      [
-       1.2936847,
-       52.641635
-      ],
-      [
-       1.2938,
-       52.6416336
-      ],
-      [
-       1.2938024,
-       52.6416642
-      ]
-     ]
+     1.2937171,
+     52.6416817
     ]
    }
   },
@@ -5442,33 +3705,21 @@
     "opening_hours": "17:00-23:00",
     "phone": "+44 1603 419252",
     "website": "http://www.tajmahal-norwich.co.uk/",
-    "id": "way/119745504"
+    "id": "way/119745504",
+    "mapFeature": {
+     "caption": "Taj Mahal Indian Take Away",
+     "allowPopup": true,
+     "location": "319  Aylsham Road  \n  NR3 2AB <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2797859,
-       52.6527353
-      ],
-      [
-       1.2797523,
-       52.6528106
-      ],
-      [
-       1.2796285,
-       52.6527902
-      ],
-      [
-       1.279662,
-       52.652715
-      ],
-      [
-       1.2797859,
-       52.6527353
-      ]
-     ]
+     1.2797072,
+     52.6527628
     ]
    }
   },
@@ -5485,45 +3736,21 @@
     "building": "shop",
     "fhrs:id": "1089534",
     "name": "Yummies",
-    "id": "way/119747839"
+    "id": "way/119747839",
+    "mapFeature": {
+     "caption": "Yummies",
+     "allowPopup": true,
+     "location": "105  Unthank Road  \n  NR2 2PE <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2777058,
-       52.6247325
-      ],
-      [
-       1.2775592,
-       52.6247796
-      ],
-      [
-       1.2775306,
-       52.6247888
-      ],
-      [
-       1.2775054,
-       52.6247599
-      ],
-      [
-       1.2775608,
-       52.6247421
-      ],
-      [
-       1.2775481,
-       52.6247276
-      ],
-      [
-       1.2776679,
-       52.6246891
-      ],
-      [
-       1.2777058,
-       52.6247325
-      ]
-     ]
+     1.2776056,
+     52.624739
     ]
    }
   },
@@ -5542,49 +3769,21 @@
     "fhrs:id": "67957",
     "name": "Baba's",
     "phone": "+44 1603 487820",
-    "id": "way/120679322"
+    "id": "way/120679322",
+    "mapFeature": {
+     "caption": "Baba's",
+     "allowPopup": true,
+     "location": "478  Sprowston Road  \n  NR3 4DY <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3094103,
-       52.6509479
-      ],
-      [
-       1.30937,
-       52.6509687
-      ],
-      [
-       1.3093215,
-       52.6509938
-      ],
-      [
-       1.3092377,
-       52.6510371
-      ],
-      [
-       1.3092112,
-       52.6510182
-      ],
-      [
-       1.3091905,
-       52.6510289
-      ],
-      [
-       1.3091701,
-       52.6510144
-      ],
-      [
-       1.3093634,
-       52.6509145
-      ],
-      [
-       1.3094103,
-       52.6509479
-      ]
-     ]
+     1.3092902,
+     52.6509758
     ]
    }
   },
@@ -5602,33 +3801,21 @@
     "cuisine": "pizza",
     "name": "Munchies",
     "phone": "+44 1603 625825",
-    "id": "way/120680606"
+    "id": "way/120680606",
+    "mapFeature": {
+     "caption": "Munchies",
+     "allowPopup": true,
+     "location": "6  Saint Vedast Street  \n  NR1 1BT <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3020296,
-       52.6289621
-      ],
-      [
-       1.3019369,
-       52.6289975
-      ],
-      [
-       1.3018907,
-       52.628953
-      ],
-      [
-       1.3019834,
-       52.6289176
-      ],
-      [
-       1.3020296,
-       52.6289621
-      ]
-     ]
+     1.3019601,
+     52.6289575
     ]
    }
   },
@@ -5648,33 +3835,21 @@
     "fhrs:id": "60923",
     "name": "The Best Turkish Kebab & Pizza",
     "phone": "+44 1603 617517",
-    "id": "way/120680610"
+    "id": "way/120680610",
+    "mapFeature": {
+     "caption": "The Best Turkish Kebab & Pizza",
+     "allowPopup": true,
+     "location": "69-71  Prince of Wales Road  \n  NR1 1DG <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3024992,
-       52.6288761
-      ],
-      [
-       1.3025804,
-       52.628849
-      ],
-      [
-       1.3026398,
-       52.6289144
-      ],
-      [
-       1.3025586,
-       52.6289416
-      ],
-      [
-       1.3024992,
-       52.6288761
-      ]
-     ]
+     1.3025695,
+     52.6288953
     ]
    }
   },
@@ -5694,33 +3869,21 @@
     "name": "Caspian Kebab & Pizza",
     "opening_hours": "Mo-Th 16:00-01:00, Fr,Sa 16:00-04:00",
     "phone": "+44 1603 620015",
-    "id": "way/120680940"
+    "id": "way/120680940",
+    "mapFeature": {
+     "caption": "Caspian Kebab & Pizza",
+     "allowPopup": true,
+     "location": "44  King Street  \n  NR1 1PD <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.29934,
-       52.6283341
-      ],
-      [
-       1.2992652,
-       52.6283318
-      ],
-      [
-       1.2992655,
-       52.6282805
-      ],
-      [
-       1.2993484,
-       52.628283
-      ],
-      [
-       1.29934,
-       52.6283341
-      ]
-     ]
+     1.2993068,
+     52.6283073
     ]
    }
   },
@@ -5741,33 +3904,21 @@
     "opening_hours": "11:00-23:00",
     "phone": "+44 1603 455666",
     "website": "http://www.dominos.co.uk/",
-    "id": "way/120682119"
+    "id": "way/120682119",
+    "mapFeature": {
+     "caption": "Domino's",
+     "allowPopup": true,
+     "location": "88  Colman Road  \n  NR4 7EH <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2624359,
-       52.6219537
-      ],
-      [
-       1.2623836,
-       52.6219876
-      ],
-      [
-       1.2621207,
-       52.6218383
-      ],
-      [
-       1.2621729,
-       52.6218044
-      ],
-      [
-       1.2624359,
-       52.6219537
-      ]
-     ]
+     1.2622783,
+     52.621896
     ]
    }
   },
@@ -5790,33 +3941,21 @@
     "opening_hours": "Tu-Su,PH 17:00-23:00",
     "phone": "+44 1603 501188",
     "website": "http://www.eastchinesetakeaway.com/",
-    "id": "way/120682123"
+    "id": "way/120682123",
+    "mapFeature": {
+     "caption": "East Chinese Takeaway",
+     "allowPopup": true,
+     "location": "86  Colman Road  \n  NR4 7EH <br />\n  Opened by local brothers Ping and Hing Lau in August 2010<br />\n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2622255,
-       52.6217703
-      ],
-      [
-       1.2624884,
-       52.6219196
-      ],
-      [
-       1.2624359,
-       52.6219537
-      ],
-      [
-       1.2621729,
-       52.6218044
-      ],
-      [
-       1.2622255,
-       52.6217703
-      ]
-     ]
+     1.2623306,
+     52.621862
     ]
    }
   },
@@ -5839,41 +3978,21 @@
     "operator": "Papa John's (GB) Ltd",
     "phone": "+44 1603 504433",
     "website": "https://www.papajohns.co.uk/",
-    "id": "way/120682127"
+    "id": "way/120682127",
+    "mapFeature": {
+     "caption": "Papa John's",
+     "allowPopup": true,
+     "location": "96  Colman Road  \n  NR4 7EH <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2622233,
-       52.6220913
-      ],
-      [
-       1.2621673,
-       52.6221283
-      ],
-      [
-       1.2620664,
-       52.6220719
-      ],
-      [
-       1.2619701,
-       52.6220185
-      ],
-      [
-       1.2619022,
-       52.621981
-      ],
-      [
-       1.2619585,
-       52.6219438
-      ],
-      [
-       1.2622233,
-       52.6220913
-      ]
-     ]
+     1.2620628,
+     52.6220361
     ]
    }
   },
@@ -5893,33 +4012,21 @@
     "name": "Star Grill",
     "opening_hours": "Su-Th 16:30-23:45; Fr-Sa 16:30-00:45",
     "phone": "+44 1603 400709",
-    "id": "way/120696138"
+    "id": "way/120696138",
+    "mapFeature": {
+     "caption": "Star Grill",
+     "allowPopup": true,
+     "location": "291a  Aylsham Road  \n  NR3 2RY <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2810071,
-       52.6497975
-      ],
-      [
-       1.2811165,
-       52.6498161
-      ],
-      [
-       1.2810941,
-       52.6498645
-      ],
-      [
-       1.2809847,
-       52.6498458
-      ],
-      [
-       1.2810071,
-       52.6497975
-      ]
-     ]
+     1.2810506,
+     52.649831
     ]
    }
   },
@@ -5939,33 +4046,21 @@
     "name": "Master Chef",
     "opening_hours": "Su 17:00-01:00; Mo-Sa 17:00-03:30",
     "phone": "+44 1603 765555",
-    "id": "way/120698291"
+    "id": "way/120698291",
+    "mapFeature": {
+     "caption": "Master Chef",
+     "allowPopup": true,
+     "location": "87  Prince of Wales Road  \n  NR1 1DG <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.303256,
-       52.6286018
-      ],
-      [
-       1.3034176,
-       52.6286414
-      ],
-      [
-       1.3032973,
-       52.6286881
-      ],
-      [
-       1.3032285,
-       52.6286073
-      ],
-      [
-       1.303256,
-       52.6286018
-      ]
-     ]
+     1.303323,
+     52.628645
     ]
    }
   },
@@ -5987,45 +4082,21 @@
     "opening_hours": "11:00-05:00",
     "phone": "+44 1603 700400",
     "website": "https://www.dominos.co.uk/norwich-east",
-    "id": "way/120699131"
+    "id": "way/120699131",
+    "mapFeature": {
+     "caption": "Domino's",
+     "allowPopup": true,
+     "location": "181  Plumstead Road  \n  NR1 4AB <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3260263,
-       52.6366329
-      ],
-      [
-       1.3260071,
-       52.6366584
-      ],
-      [
-       1.3259292,
-       52.6366367
-      ],
-      [
-       1.3259897,
-       52.6365567
-      ],
-      [
-       1.3260675,
-       52.6365784
-      ],
-      [
-       1.3261202,
-       52.6365933
-      ],
-      [
-       1.3260789,
-       52.6366476
-      ],
-      [
-       1.3260263,
-       52.6366329
-      ]
-     ]
+     1.3260247,
+     52.6366075
     ]
    }
   },
@@ -6044,41 +4115,21 @@
     "gambling": "betting",
     "name": "Pizza XS",
     "source": "Bing",
-    "id": "way/121286440"
+    "id": "way/121286440",
+    "mapFeature": {
+     "caption": "Pizza XS",
+     "allowPopup": true,
+     "location": "133;133a  Colman Road  \n  NR4 7HA <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2606148,
-       52.62506
-      ],
-      [
-       1.2605616,
-       52.6250563
-      ],
-      [
-       1.2604356,
-       52.6250477
-      ],
-      [
-       1.260444,
-       52.6250025
-      ],
-      [
-       1.2605697,
-       52.625011
-      ],
-      [
-       1.2606233,
-       52.6250148
-      ],
-      [
-       1.2606148,
-       52.62506
-      ]
-     ]
+     1.2605294,
+     52.6250312
     ]
    }
   },
@@ -6098,33 +4149,21 @@
     "name": "Vietnam Pho",
     "phone": "+44 1603 667788",
     "website": "http://vietnampho.co.uk/",
-    "id": "way/121499362"
+    "id": "way/121499362",
+    "mapFeature": {
+     "caption": "Vietnam Pho",
+     "allowPopup": true,
+     "location": "67  Dereham Road  \n  NR2 4HU <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2813733,
-       52.6331505
-      ],
-      [
-       1.2814439,
-       52.6331327
-      ],
-      [
-       1.2815166,
-       52.6332394
-      ],
-      [
-       1.281446,
-       52.6332572
-      ],
-      [
-       1.2813733,
-       52.6331505
-      ]
-     ]
+     1.281445,
+     52.633195
     ]
    }
   },
@@ -6143,49 +4182,21 @@
     "fhrs:id": "696530",
     "name": "Caesar's",
     "source": "Bing",
-    "id": "way/121499366"
+    "id": "way/121499366",
+    "mapFeature": {
+     "caption": "Caesar's",
+     "allowPopup": true,
+     "location": "81  Dereham Road  \n  NR2 4HT <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.280814,
-       52.6333965
-      ],
-      [
-       1.2807624,
-       52.6333185
-      ],
-      [
-       1.2808215,
-       52.6333041
-      ],
-      [
-       1.2808417,
-       52.6332992
-      ],
-      [
-       1.2808933,
-       52.6333772
-      ],
-      [
-       1.2808731,
-       52.6333821
-      ],
-      [
-       1.2809271,
-       52.6334638
-      ],
-      [
-       1.280868,
-       52.6334782
-      ],
-      [
-       1.280814,
-       52.6333965
-      ]
-     ]
+     1.2808447,
+     52.6333887
     ]
    }
   },
@@ -6205,37 +4216,21 @@
     "name": "Wokaholic",
     "phone": "+44 1603 886001",
     "website": "http://www.newwokaholic.co.uk/",
-    "id": "way/121499373"
+    "id": "way/121499373",
+    "mapFeature": {
+     "caption": "Wokaholic",
+     "allowPopup": true,
+     "location": "28  Dereham Road  \n  NR2 4AZ <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2826049,
-       52.6325727
-      ],
-      [
-       1.2825551,
-       52.6324464
-      ],
-      [
-       1.2826067,
-       52.6324382
-      ],
-      [
-       1.2826491,
-       52.6325464
-      ],
-      [
-       1.2826356,
-       52.6325647
-      ],
-      [
-       1.2826049,
-       52.6325727
-      ]
-     ]
+     1.2826021,
+     52.6325054
     ]
    }
   },
@@ -6254,33 +4249,21 @@
     "fhrs:id": "951801",
     "name": "Crown Pizza & Chicken",
     "takeaway": "yes",
-    "id": "way/121499468"
+    "id": "way/121499468",
+    "mapFeature": {
+     "caption": "Crown Pizza & Chicken",
+     "allowPopup": true,
+     "location": "71  Dereham Road  \n  NR2 4HU <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.281232,
-       52.633186
-      ],
-      [
-       1.2813026,
-       52.6331682
-      ],
-      [
-       1.2813753,
-       52.6332749
-      ],
-      [
-       1.2813047,
-       52.6332927
-      ],
-      [
-       1.281232,
-       52.633186
-      ]
-     ]
+     1.2813036,
+     52.6332304
     ]
    }
   },
@@ -6305,73 +4288,21 @@
     "smoking": "outside",
     "takeaway": "yes",
     "website": "https://www.kfc.co.uk/find-us?postcode=NR6%206SD&lat=52.65760604831675&lng=1.284327507019043&zoom=18",
-    "id": "way/122398673"
+    "id": "way/122398673",
+    "mapFeature": {
+     "caption": "KFC Mile Cross",
+     "allowPopup": true,
+     "location": " Mile Cross Lane  \n  NR6 6SD <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2840465,
-       52.6577964
-      ],
-      [
-       1.2840541,
-       52.6578528
-      ],
-      [
-       1.2840368,
-       52.6578537
-      ],
-      [
-       1.2840442,
-       52.6579081
-      ],
-      [
-       1.2840276,
-       52.6579089
-      ],
-      [
-       1.2840328,
-       52.657947
-      ],
-      [
-       1.283763,
-       52.6579604
-      ],
-      [
-       1.2837589,
-       52.6579299
-      ],
-      [
-       1.2837346,
-       52.6579311
-      ],
-      [
-       1.2837283,
-       52.6578838
-      ],
-      [
-       1.2837834,
-       52.6578811
-      ],
-      [
-       1.2837818,
-       52.6578689
-      ],
-      [
-       1.2837555,
-       52.6578702
-      ],
-      [
-       1.2837475,
-       52.6578112
-      ],
-      [
-       1.2840465,
-       52.6577964
-      ]
-     ]
+     1.2838912,
+     52.6578784
     ]
    }
   },
@@ -6379,38 +4310,31 @@
    "type": "Feature",
    "id": "way/122819592",
    "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "11",
+    "addr:parentstreet": "Earlham Road",
     "addr:postcode": "NR2 3PF",
+    "addr:street": "Earlham House Shops",
     "amenity": "fast_food",
     "building": "yes",
     "name": "Mona Kebab & Pizza",
     "source": "survey",
-    "id": "way/122819592"
+    "id": "way/122819592",
+    "mapFeature": {
+     "caption": "Mona Kebab & Pizza",
+     "allowPopup": true,
+     "location": "11  Earlham House Shops  \n  NR2 3PF <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2685676,
-       52.6289092
-      ],
-      [
-       1.2687457,
-       52.628896
-      ],
-      [
-       1.2687562,
-       52.6289483
-      ],
-      [
-       1.2685782,
-       52.6289615
-      ],
-      [
-       1.2685676,
-       52.6289092
-      ]
-     ]
+     1.2686619,
+     52.6289288
     ]
    }
   },
@@ -6420,10 +4344,10 @@
    "properties": {
     "addr:city": "Norwich",
     "addr:country": "GB",
-    "addr:housename": "Earlham House Shops",
     "addr:housenumber": "16c",
+    "addr:parentstreet": "Earlham Road",
     "addr:postcode": "NR2 3PD",
-    "addr:street": "Earlham Road",
+    "addr:street": "Earlham House Shops",
     "amenity": "fast_food",
     "building": "yes",
     "cuisine": "indian",
@@ -6433,33 +4357,21 @@
     "phone": "+44 1603 503080; +44 1603 504020",
     "source": "survey",
     "website": "https://www.rice-and-spice.co.uk/",
-    "id": "way/122819601"
+    "id": "way/122819601",
+    "mapFeature": {
+     "caption": "Rice & Spice",
+     "allowPopup": true,
+     "location": "16c  Earlham House Shops  \n  NR2 3PD <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2686414,
-       52.6292756
-      ],
-      [
-       1.2688194,
-       52.6292624
-      ],
-      [
-       1.26883,
-       52.6293148
-      ],
-      [
-       1.2686519,
-       52.629328
-      ],
-      [
-       1.2686414,
-       52.6292756
-      ]
-     ]
+     1.2687357,
+     52.6292952
     ]
    }
   },
@@ -6470,8 +4382,9 @@
     "addr:city": "Norwich",
     "addr:country": "GB",
     "addr:housenumber": "9",
+    "addr:parentstreet": "Earlham Road",
     "addr:postcode": "NR2 3PD",
-    "addr:street": "Earlham Road",
+    "addr:street": "Earlham House Shops",
     "amenity": "fast_food",
     "building": "shop",
     "cuisine": "chinese",
@@ -6479,33 +4392,22 @@
     "name": "Royal Plaza",
     "phone": "+44 1603 506888",
     "source": "survey",
-    "id": "way/122819604"
+    "website": "https://www.royal-plaza.uk/",
+    "id": "way/122819604",
+    "mapFeature": {
+     "caption": "Royal Plaza",
+     "allowPopup": true,
+     "location": "9  Earlham House Shops  \n  NR2 3PD <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2687048,
-       52.6286926
-      ],
-      [
-       1.2687805,
-       52.628687
-      ],
-      [
-       1.2688004,
-       52.6287856
-      ],
-      [
-       1.2687246,
-       52.6287913
-      ],
-      [
-       1.2687048,
-       52.6286926
-      ]
-     ]
+     1.2687526,
+     52.6287392
     ]
    }
   },
@@ -6526,33 +4428,21 @@
     "name": "Happy House",
     "phone": "+44 1603 740011",
     "source": "Bing",
-    "id": "way/123011784"
+    "id": "way/123011784",
+    "mapFeature": {
+     "caption": "Happy House",
+     "allowPopup": true,
+     "location": "10  Bowthorpe Main Centre  \n  NR5 9HA <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2170693,
-       52.6371232
-      ],
-      [
-       1.2171805,
-       52.6371257
-      ],
-      [
-       1.2171711,
-       52.6372829
-      ],
-      [
-       1.2170598,
-       52.6372804
-      ],
-      [
-       1.2170693,
-       52.6371232
-      ]
-     ]
+     1.2171201,
+     52.637203
     ]
    }
   },
@@ -6573,41 +4463,21 @@
     "name": "Simply The Best Fish Kebab and Pizza",
     "phone": "+44 1603 748855",
     "source": "Bing",
-    "id": "way/123011786"
+    "id": "way/123011786",
+    "mapFeature": {
+     "caption": "Simply The Best Fish Kebab and Pizza",
+     "allowPopup": true,
+     "location": "9  Bowthorpe Main Centre  \n  NR5 9HA <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2169543,
-       52.6372781
-      ],
-      [
-       1.2169654,
-       52.6370931
-      ],
-      [
-       1.2170424,
-       52.6370948
-      ],
-      [
-       1.2170407,
-       52.6371226
-      ],
-      [
-       1.2170693,
-       52.6371232
-      ],
-      [
-       1.2170598,
-       52.6372804
-      ],
-      [
-       1.2169543,
-       52.6372781
-      ]
-     ]
+     1.2170118,
+     52.6371867
     ]
    }
   },
@@ -6621,37 +4491,21 @@
     "cuisine": "burger",
     "name": "McDonald's",
     "source": "Bing",
-    "id": "way/123077954"
+    "id": "way/123077954",
+    "mapFeature": {
+     "caption": "McDonald's",
+     "allowPopup": true,
+     "location": "  \n  NR6 5JB <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2690351,
-       52.6545622
-      ],
-      [
-       1.269207,
-       52.6543368
-      ],
-      [
-       1.2693228,
-       52.6543693
-      ],
-      [
-       1.2694257,
-       52.6543982
-      ],
-      [
-       1.2692538,
-       52.6546236
-      ],
-      [
-       1.2690351,
-       52.6545622
-      ]
-     ]
+     1.2692304,
+     52.6544802
     ]
    }
   },
@@ -6672,33 +4526,21 @@
     "source": "Bing",
     "takeaway": "yes",
     "website": "https://ratings.food.gov.uk/business/en-GB/930079/Jade-Garden-Norfolk",
-    "id": "way/128807401"
+    "id": "way/128807401",
+    "mapFeature": {
+     "caption": "Jade Garden",
+     "allowPopup": true,
+     "location": "198  Norwich Road  \n  NR5 0EX <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2349557,
-       52.6476632
-      ],
-      [
-       1.234834,
-       52.6476527
-      ],
-      [
-       1.234855,
-       52.6475632
-      ],
-      [
-       1.2349767,
-       52.6475737
-      ],
-      [
-       1.2349557,
-       52.6476632
-      ]
-     ]
+     1.2349054,
+     52.6476132
     ]
    }
   },
@@ -6731,113 +4573,21 @@
     "website": "https://www.fiveguys.co.uk/",
     "wheelchair": "yes",
     "wheelchair:description:en": "Push Manual doors from Red Lion Street;staff door hosts to provide assistance.",
-    "id": "way/135964029"
+    "id": "way/135964029",
+    "mapFeature": {
+     "caption": "Five Guys",
+     "allowPopup": true,
+     "location": "17,27  Orford Place  \n  NR1 3QA <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2942339,
-       52.6269811
-      ],
-      [
-       1.2942467,
-       52.6269371
-      ],
-      [
-       1.2942492,
-       52.6269349
-      ],
-      [
-       1.2942597,
-       52.6269327
-      ],
-      [
-       1.2942764,
-       52.6269353
-      ],
-      [
-       1.2942916,
-       52.6269445
-      ],
-      [
-       1.2942924,
-       52.6269556
-      ],
-      [
-       1.2943024,
-       52.6269621
-      ],
-      [
-       1.2943651,
-       52.6269849
-      ],
-      [
-       1.2944171,
-       52.6270229
-      ],
-      [
-       1.2944261,
-       52.6270321
-      ],
-      [
-       1.2944461,
-       52.6270559
-      ],
-      [
-       1.2944541,
-       52.6270689
-      ],
-      [
-       1.2944781,
-       52.6270739
-      ],
-      [
-       1.2944903,
-       52.6271035
-      ],
-      [
-       1.294494,
-       52.6271139
-      ],
-      [
-       1.2943662,
-       52.6271324
-      ],
-      [
-       1.2943734,
-       52.6271505
-      ],
-      [
-       1.2942678,
-       52.6271682
-      ],
-      [
-       1.2942277,
-       52.627083
-      ],
-      [
-       1.2942172,
-       52.6270516
-      ],
-      [
-       1.2942465,
-       52.6270429
-      ],
-      [
-       1.2942262,
-       52.6270325
-      ],
-      [
-       1.2942262,
-       52.6270101
-      ],
-      [
-       1.2942339,
-       52.6269811
-      ]
-     ]
+     1.2943556,
+     52.6270504
     ]
    }
   },
@@ -6847,40 +4597,29 @@
    "properties": {
     "addr:postcode": "NR1 3QN",
     "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
     "building": "yes",
+    "cuisine": "sandwich",
     "name": "Subway",
     "source": "Bing",
-    "id": "way/136090716"
+    "takeaway": "yes",
+    "id": "way/136090716",
+    "mapFeature": {
+     "caption": "Subway",
+     "allowPopup": true,
+     "location": "  \n  NR1 3QN <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2929234,
-       52.625195
-      ],
-      [
-       1.2927755,
-       52.6253176
-      ],
-      [
-       1.2927227,
-       52.6252931
-      ],
-      [
-       1.2929229,
-       52.6251301
-      ],
-      [
-       1.2929746,
-       52.625153
-      ],
-      [
-       1.2929234,
-       52.625195
-      ]
-     ]
+     1.2928486,
+     52.6252238
     ]
    }
   },
@@ -6894,41 +4633,21 @@
     "name": "Sun Rise",
     "phone": "+44 1603 811387",
     "source:outline": "Bing",
-    "id": "way/137846577"
+    "id": "way/137846577",
+    "mapFeature": {
+     "caption": "Sun Rise",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.1761346,
-       52.6006158
-      ],
-      [
-       1.1761064,
-       52.6005082
-      ],
-      [
-       1.1761626,
-       52.6005028
-      ],
-      [
-       1.1761588,
-       52.6004882
-      ],
-      [
-       1.1762072,
-       52.6004835
-      ],
-      [
-       1.1762392,
-       52.6006057
-      ],
-      [
-       1.1761346,
-       52.6006158
-      ]
-     ]
+     1.1761728,
+     52.6005497
     ]
    }
   },
@@ -6949,33 +4668,21 @@
     "phone": "+44 1603 437772",
     "source": "Bing",
     "source:addr": "FHRS Open Data",
-    "id": "way/138439034"
+    "id": "way/138439034",
+    "mapFeature": {
+     "caption": "Top Chef",
+     "allowPopup": true,
+     "location": "161  Thunder Lane  \n  NR7 0JG <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3431312,
-       52.6347822
-      ],
-      [
-       1.3430216,
-       52.634732
-      ],
-      [
-       1.3430958,
-       52.6346724
-      ],
-      [
-       1.3432053,
-       52.6347226
-      ],
-      [
-       1.3431312,
-       52.6347822
-      ]
-     ]
+     1.3431134,
+     52.6347273
     ]
    }
   },
@@ -7004,33 +4711,21 @@
     "source:building": "OS_OpenData_StreetView",
     "start_date": "2014 Mar 5 11:30",
     "takeaway": "only",
-    "id": "way/165811179"
+    "id": "way/165811179",
+    "mapFeature": {
+     "caption": "Eaton Fish Bar",
+     "allowPopup": true,
+     "location": "26,26a,26b  Eaton Street  \n  NR4 7LD <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2511711,
-       52.6084142
-      ],
-      [
-       1.2511229,
-       52.6083991
-      ],
-      [
-       1.251182,
-       52.6083292
-      ],
-      [
-       1.2512302,
-       52.6083443
-      ],
-      [
-       1.2511711,
-       52.6084142
-      ]
-     ]
+     1.2511765,
+     52.6083717
     ]
    }
   },
@@ -7052,41 +4747,21 @@
     "opening_hours": "Mo-Sa 09:00-23:00; Su 10:00-22:00",
     "phone": "+44 1603 633729",
     "website": "https://caffenero.com/uk/stores/norwich-unthank-road-703/",
-    "id": "way/167577804"
+    "id": "way/167577804",
+    "mapFeature": {
+     "caption": "Caffè Nero",
+     "allowPopup": true,
+     "location": "95  Unthank Road  \n  NR2 2PE <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.277523,
-       52.6250484
-      ],
-      [
-       1.2775677,
-       52.6250304
-      ],
-      [
-       1.2778514,
-       52.6249246
-      ],
-      [
-       1.2779121,
-       52.6249771
-      ],
-      [
-       1.2776526,
-       52.6250738
-      ],
-      [
-       1.2775775,
-       52.625102
-      ],
-      [
-       1.277523,
-       52.6250484
-      ]
-     ]
+     1.2777175,
+     52.6250133
     ]
    }
   },
@@ -7112,37 +4787,21 @@
     "source:addr": "FHRS Open Data",
     "takeaway": "yes",
     "website": "https://en-gb.facebook.com/pg/Newsoleplaice/",
-    "id": "way/168880548"
+    "id": "way/168880548",
+    "mapFeature": {
+     "caption": "New Sole Plaice",
+     "allowPopup": true,
+     "location": "27  Suffolk Square  \n  NR2 2AA <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.282997,
-       52.6251379
-      ],
-      [
-       1.2828618,
-       52.6251779
-      ],
-      [
-       1.2828432,
-       52.6251835
-      ],
-      [
-       1.2828059,
-       52.625137
-      ],
-      [
-       1.2829598,
-       52.6250916
-      ],
-      [
-       1.282997,
-       52.6251379
-      ]
-     ]
+     1.2829014,
+     52.6251375
     ]
    }
   },
@@ -7161,49 +4820,21 @@
     "name": "Tastebuds",
     "source:addr:postcode": "FHRS Open Data",
     "source:name": "FSA Food Hygiene Ratings Database",
-    "id": "way/171360586"
+    "id": "way/171360586",
+    "mapFeature": {
+     "caption": "Tastebuds",
+     "allowPopup": true,
+     "location": "21  Prince of Wales Road  \n  NR1 1BG <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.300383,
-       52.6293124
-      ],
-      [
-       1.3003862,
-       52.6292712
-      ],
-      [
-       1.3003987,
-       52.6292436
-      ],
-      [
-       1.3004972,
-       52.6292646
-      ],
-      [
-       1.300482,
-       52.6293071
-      ],
-      [
-       1.3005034,
-       52.6293117
-      ],
-      [
-       1.300513,
-       52.6294026
-      ],
-      [
-       1.30039,
-       52.6294069
-      ],
-      [
-       1.300383,
-       52.6293124
-      ]
-     ]
+     1.300448,
+     52.6293252
     ]
    }
   },
@@ -7223,49 +4854,21 @@
     "fixme": "Check if still open",
     "name": "Vine Leaves",
     "website": "https://www.facebook.com/Vine-Leaves-707061915981655/",
-    "id": "way/171366877"
+    "id": "way/171366877",
+    "mapFeature": {
+     "caption": "Vine Leaves",
+     "allowPopup": true,
+     "location": "55  Prince of Wales Road  \n  NR1 1BL <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3017724,
-       52.6290003
-      ],
-      [
-       1.3019086,
-       52.6291552
-      ],
-      [
-       1.3018288,
-       52.629182
-      ],
-      [
-       1.3017611,
-       52.6291009
-      ],
-      [
-       1.3017811,
-       52.6290936
-      ],
-      [
-       1.3017481,
-       52.6290583
-      ],
-      [
-       1.3017758,
-       52.6290493
-      ],
-      [
-       1.3017403,
-       52.6290098
-      ],
-      [
-       1.3017724,
-       52.6290003
-      ]
-     ]
+     1.3018245,
+     52.6290911
     ]
    }
   },
@@ -7296,37 +4899,21 @@
     "source": "Bing",
     "takeaway": "yes",
     "website": "http://www.happyviewchinese.co.uk/",
-    "id": "way/181274728"
+    "id": "way/181274728",
+    "mapFeature": {
+     "caption": "Happy View",
+     "allowPopup": true,
+     "location": "173  Earlham Green Lane  \n  NR5 8RF <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2344901,
-       52.6369319
-      ],
-      [
-       1.2344135,
-       52.636837
-      ],
-      [
-       1.2343969,
-       52.6368166
-      ],
-      [
-       1.2344982,
-       52.6367868
-      ],
-      [
-       1.2345914,
-       52.6369005
-      ],
-      [
-       1.2344901,
-       52.6369319
-      ]
-     ]
+     1.2344941,
+     52.6368594
     ]
    }
   },
@@ -7348,33 +4935,21 @@
     "phone": "+44 1603 763355",
     "phone_alt": "+44 1603 616045",
     "website": "https://sicilianoonline.co.uk/",
-    "id": "way/202664402"
+    "id": "way/202664402",
+    "mapFeature": {
+     "caption": "Siciliano",
+     "allowPopup": true,
+     "location": "43  Prince of Wales Road  \n  NR1 1BL <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3014072,
-       52.6292034
-      ],
-      [
-       1.3014551,
-       52.6292867
-      ],
-      [
-       1.3013914,
-       52.6293007
-      ],
-      [
-       1.3013491,
-       52.6292147
-      ],
-      [
-       1.3014072,
-       52.6292034
-      ]
-     ]
+     1.3014021,
+     52.629252
     ]
    }
   },
@@ -7395,33 +4970,21 @@
     "phone": "+44 1844 205135",
     "takeaway": "yes",
     "website": "http://westcornwallpasty.co.uk",
-    "id": "way/205593730"
+    "id": "way/205593730",
+    "mapFeature": {
+     "caption": "West Cornwall Pasty Co",
+     "allowPopup": true,
+     "location": "21  Haymarket  \n  NR2 1QE <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2931824,
-       52.627688
-      ],
-      [
-       1.2931777,
-       52.6277524
-      ],
-      [
-       1.2930526,
-       52.627749
-      ],
-      [
-       1.2930573,
-       52.6276847
-      ],
-      [
-       1.2931824,
-       52.627688
-      ]
-     ]
+     1.2931175,
+     52.6277185
     ]
    }
   },
@@ -7445,37 +5008,21 @@
     "outdoor_seating": "yes",
     "smoking": "no",
     "takeaway": "yes",
-    "id": "way/240855184"
+    "id": "way/240855184",
+    "mapFeature": {
+     "caption": "Urban Munch",
+     "allowPopup": true,
+     "location": "1  Castle Meadow  \n  NR1 3PY <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2947379,
-       52.6274167
-      ],
-      [
-       1.2947568,
-       52.6273842
-      ],
-      [
-       1.2947746,
-       52.6273536
-      ],
-      [
-       1.2948369,
-       52.6273981
-      ],
-      [
-       1.2947245,
-       52.6274448
-      ],
-      [
-       1.2947379,
-       52.6274167
-      ]
-     ]
+     1.2947807,
+     52.6273992
     ]
    }
   },
@@ -7502,37 +5049,21 @@
     "takeaway": "yes",
     "website": "http://www.subway.co.uk/",
     "wikidata": "Q26653891",
-    "id": "way/253360635"
+    "id": "way/253360635",
+    "mapFeature": {
+     "caption": "Subway",
+     "allowPopup": true,
+     "location": "75  Magdalen Street  \n  NR3 1AA <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2966412,
-       52.6360729
-      ],
-      [
-       1.2967775,
-       52.6360761
-      ],
-      [
-       1.2968104,
-       52.6360769
-      ],
-      [
-       1.2968075,
-       52.6361216
-      ],
-      [
-       1.2966383,
-       52.6361175
-      ],
-      [
-       1.2966412,
-       52.6360729
-      ]
-     ]
+     1.2967243,
+     52.6360972
     ]
    }
   },
@@ -7551,37 +5082,21 @@
     "name": "Tasty Bites",
     "phone": "+44 1603 811333",
     "source:addr": "FHRS Open Data",
-    "id": "way/277622213"
+    "id": "way/277622213",
+    "mapFeature": {
+     "caption": "Tasty Bites",
+     "allowPopup": true,
+     "location": "14  Great Melton Road  \n  NR9 3AB <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.1763623,
-       52.6009533
-      ],
-      [
-       1.1762961,
-       52.6009593
-      ],
-      [
-       1.176256,
-       52.6007958
-      ],
-      [
-       1.176275,
-       52.6007941
-      ],
-      [
-       1.1763222,
-       52.6007898
-      ],
-      [
-       1.1763623,
-       52.6009533
-      ]
-     ]
+     1.1763092,
+     52.6008746
     ]
    }
   },
@@ -7603,37 +5118,21 @@
     "opening_hours": "Mo-Th 07:00-20:00; Fr 07:00-23:00; Sa 09:00-23:00; Su 10:00-20:00",
     "phone": "+44 1603 666116",
     "website": "http://www.subway.co.uk/store-finder/store-detail.aspx?sid=453055469",
-    "id": "way/314264580"
+    "id": "way/314264580",
+    "mapFeature": {
+     "caption": "Subway",
+     "allowPopup": true,
+     "location": "101a  Prince of Wales Road  \n  NR1 1DW <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3043389,
-       52.6280919
-      ],
-      [
-       1.3043794,
-       52.6280812
-      ],
-      [
-       1.3044643,
-       52.6281997
-      ],
-      [
-       1.3044713,
-       52.6282095
-      ],
-      [
-       1.3044307,
-       52.6282202
-      ],
-      [
-       1.3043389,
-       52.6280919
-      ]
-     ]
+     1.3044051,
+     52.6281507
     ]
    }
   },
@@ -7654,37 +5153,21 @@
     "note": "Cash payment only",
     "opening_hours": "Su-We,PH 17:00-22:30; Th-Sa 17:00-23:00; Tu off",
     "phone": "+44 1603 861199",
-    "id": "way/322932514"
+    "id": "way/322932514",
+    "mapFeature": {
+     "caption": "Dragon Palace",
+     "allowPopup": true,
+     "location": "297a  Fakenham Road  \n  NR8 6LE <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.1974176,
-       52.6861452
-      ],
-      [
-       1.1972962,
-       52.6860126
-      ],
-      [
-       1.1973788,
-       52.6859848
-      ],
-      [
-       1.1974387,
-       52.6860503
-      ],
-      [
-       1.1975002,
-       52.6861174
-      ],
-      [
-       1.1974176,
-       52.6861452
-      ]
-     ]
+     1.1973982,
+     52.686065
     ]
    }
   },
@@ -7703,65 +5186,21 @@
     "fhrs:id": "94551",
     "name": "Ocean Fish Bar",
     "phone": "+44 1603 867279",
-    "id": "way/322932517"
+    "id": "way/322932517",
+    "mapFeature": {
+     "caption": "Ocean Fish Bar",
+     "allowPopup": true,
+     "location": "295  Fakenham Road  \n  NR8 6LE <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.1975002,
-       52.6861174
-      ],
-      [
-       1.1974387,
-       52.6860503
-      ],
-      [
-       1.1974667,
-       52.6860409
-      ],
-      [
-       1.1974205,
-       52.6859903
-      ],
-      [
-       1.197517,
-       52.6859578
-      ],
-      [
-       1.1975891,
-       52.6860365
-      ],
-      [
-       1.1976238,
-       52.6860248
-      ],
-      [
-       1.1976567,
-       52.6860606
-      ],
-      [
-       1.1976151,
-       52.6860746
-      ],
-      [
-       1.1976338,
-       52.686095
-      ],
-      [
-       1.1975655,
-       52.686118
-      ],
-      [
-       1.1975497,
-       52.6861008
-      ],
-      [
-       1.1975002,
-       52.6861174
-      ]
-     ]
+     1.1975386,
+     52.6860379
     ]
    }
   },
@@ -7786,33 +5225,21 @@
     "opening_hours": "11:00-23:00",
     "phone": "+44 1603 622977",
     "takeaway": "yes",
-    "id": "way/329618461"
+    "id": "way/329618461",
+    "mapFeature": {
+     "caption": "Domino's Pizza",
+     "allowPopup": true,
+     "location": "29  Saint Augustine's Gate  \n  NR3 3BE <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2907233,
-       52.6392695
-      ],
-      [
-       1.2907915,
-       52.6392147
-      ],
-      [
-       1.2910212,
-       52.6393198
-      ],
-      [
-       1.290953,
-       52.6393747
-      ],
-      [
-       1.2907233,
-       52.6392695
-      ]
-     ]
+     1.2908723,
+     52.6392947
     ]
    }
   },
@@ -7835,33 +5262,21 @@
     "phone": "+44 1603 663880",
     "source:addr": "FHRS Open Data",
     "website": "https://www.starfishbar.co.uk/",
-    "id": "way/329618462"
+    "id": "way/329618462",
+    "mapFeature": {
+     "caption": "Star Fish Bar",
+     "allowPopup": true,
+     "location": "30  Saint Augustine's Gate  \n  NR3 3BE <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2906551,
-       52.6393244
-      ],
-      [
-       1.2907233,
-       52.6392695
-      ],
-      [
-       1.290953,
-       52.6393747
-      ],
-      [
-       1.2908849,
-       52.6394295
-      ],
-      [
-       1.2906551,
-       52.6393244
-      ]
-     ]
+     1.290804,
+     52.6393495
     ]
    }
   },
@@ -7881,33 +5296,21 @@
     "name": "Wokaholic",
     "opening_hours": "Su-Th 16:00-23:00; Fr,Sa 16:00-00:00",
     "website": "http://www.wokaholicnorwich.co.uk/",
-    "id": "way/329618463"
+    "id": "way/329618463",
+    "mapFeature": {
+     "caption": "Wokaholic",
+     "allowPopup": true,
+     "location": "1  Saint Augustine's Gate  \n  NR3 3BE <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2905869,
-       52.6393793
-      ],
-      [
-       1.2906551,
-       52.6393244
-      ],
-      [
-       1.2908849,
-       52.6394295
-      ],
-      [
-       1.2908167,
-       52.6394844
-      ],
-      [
-       1.2905869,
-       52.6393793
-      ]
-     ]
+     1.2907359,
+     52.6394044
     ]
    }
   },
@@ -7926,37 +5329,21 @@
     "name": "Ossi's",
     "opening_hours": "Mo,We-Fr 17:00-02:45; Tu,Su 17:00-00:45; Sa 17:00-01:45",
     "takeaway": "yes",
-    "id": "way/330356549"
+    "id": "way/330356549",
+    "mapFeature": {
+     "caption": "Ossi's",
+     "allowPopup": true,
+     "location": "68  Prince of Wales Road  \n  NR1 1LT <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3022426,
-       52.6292303
-      ],
-      [
-       1.3022994,
-       52.6292153
-      ],
-      [
-       1.3024227,
-       52.6293299
-      ],
-      [
-       1.3024527,
-       52.6293578
-      ],
-      [
-       1.3023922,
-       52.6293785
-      ],
-      [
-       1.3022426,
-       52.6292303
-      ]
-     ]
+     1.3023476,
+     52.6292969
     ]
    }
   },
@@ -7974,33 +5361,21 @@
     "cuisine": "chicken",
     "name": "DFChicken",
     "note": "Southern Fried Chicken",
-    "id": "way/330651023"
+    "id": "way/330651023",
+    "mapFeature": {
+     "caption": "DFChicken",
+     "allowPopup": true,
+     "location": "98  Prince of Wales Road  \n  NR1 1NJ <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3033712,
-       52.6288366
-      ],
-      [
-       1.3034915,
-       52.6287928
-      ],
-      [
-       1.3035825,
-       52.628997
-      ],
-      [
-       1.3035307,
-       52.6290128
-      ],
-      [
-       1.3033712,
-       52.6288366
-      ]
-     ]
+     1.3034769,
+     52.6289028
     ]
    }
   },
@@ -8020,41 +5395,21 @@
     "name": "Piccolos",
     "opening_hours": "Su-Fr 16:30-13:00; Sa 16:30-00:00",
     "phone": "+44 1603 761076",
-    "id": "way/330651026"
+    "id": "way/330651026",
+    "mapFeature": {
+     "caption": "Piccolos",
+     "allowPopup": true,
+     "location": "74  Prince of Wales Road  \n  NR1 1NJ <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3027745,
-       52.6291992
-      ],
-      [
-       1.3026753,
-       52.6292347
-      ],
-      [
-       1.3025622,
-       52.629114
-      ],
-      [
-       1.3026473,
-       52.6290855
-      ],
-      [
-       1.3027377,
-       52.6291836
-      ],
-      [
-       1.3027548,
-       52.6291776
-      ],
-      [
-       1.3027745,
-       52.6291992
-      ]
-     ]
+     1.3026683,
+     52.6291601
     ]
    }
   },
@@ -8077,49 +5432,21 @@
     "phone": "+44 1603 400212",
     "ref": "58759",
     "website": "http://www.subway.co.uk/",
-    "id": "way/338043918"
+    "id": "way/338043918",
+    "mapFeature": {
+     "caption": "Subway",
+     "allowPopup": true,
+     "location": "110  Boundary Road  \n  NR6 5JE <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2679463,
-       52.6541022
-      ],
-      [
-       1.2680734,
-       52.6540785
-      ],
-      [
-       1.2681178,
-       52.6541682
-      ],
-      [
-       1.2680614,
-       52.654249
-      ],
-      [
-       1.2679162,
-       52.6542148
-      ],
-      [
-       1.2679366,
-       52.6541762
-      ],
-      [
-       1.2679702,
-       52.6541842
-      ],
-      [
-       1.2679822,
-       52.654166
-      ],
-      [
-       1.2679463,
-       52.6541022
-      ]
-     ]
+     1.268017,
+     52.6541637
     ]
    }
   },
@@ -8139,33 +5466,21 @@
     "name": "Lucky House Chinese & Thai",
     "opening_hours": "17:00-21:00",
     "phone": "+44 1603 866662",
-    "id": "way/346912107"
+    "id": "way/346912107",
+    "mapFeature": {
+     "caption": "Lucky House Chinese & Thai",
+     "allowPopup": true,
+     "location": "13a  Victoria Road  \n  NR8 6NU <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.201643,
-       52.6807033
-      ],
-      [
-       1.2016913,
-       52.6807562
-      ],
-      [
-       1.2014601,
-       52.6808337
-      ],
-      [
-       1.2014178,
-       52.6807764
-      ],
-      [
-       1.201643,
-       52.6807033
-      ]
-     ]
+     1.2015545,
+     52.6807685
     ]
    }
   },
@@ -8185,37 +5500,21 @@
     "name": "Taverham Fish Bar",
     "opening_hours": "Mo-Sa 11:30-14:00,16:30-21:00; Su off",
     "phone": "+44 1603 260271",
-    "id": "way/346912110"
+    "id": "way/346912110",
+    "mapFeature": {
+     "caption": "Taverham Fish Bar",
+     "allowPopup": true,
+     "location": "13b  Victoria Road  \n  NR8 6NU <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2015651,
-       52.6806811
-      ],
-      [
-       1.2016093,
-       52.6806664
-      ],
-      [
-       1.201643,
-       52.6807033
-      ],
-      [
-       1.2014178,
-       52.6807764
-      ],
-      [
-       1.2013843,
-       52.6807398
-      ],
-      [
-       1.2015651,
-       52.6806811
-      ]
-     ]
+     1.2015136,
+     52.6807214
     ]
    }
   },
@@ -8236,37 +5535,21 @@
     "phone": "+44 1603 760056",
     "source": "survey",
     "website": "http://www.pizzagogo.co.uk/",
-    "id": "way/348670674"
+    "id": "way/348670674",
+    "mapFeature": {
+     "caption": "Pizza GoGo",
+     "allowPopup": true,
+     "location": "19  Wensum Street  \n  NR3 1LA <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2978178,
-       52.6326123
-      ],
-      [
-       1.2977782,
-       52.6326021
-      ],
-      [
-       1.2976372,
-       52.6325633
-      ],
-      [
-       1.2976795,
-       52.6325189
-      ],
-      [
-       1.2978557,
-       52.6325687
-      ],
-      [
-       1.2978178,
-       52.6326123
-      ]
-     ]
+     1.2977464,
+     52.6325656
     ]
    }
   },
@@ -8290,33 +5573,21 @@
     "start_date": "2015-08-03",
     "strapline": "Chinese & Thai Food",
     "website": "https://www.facebook.com/Happyvalley.cotessey/",
-    "id": "way/378027110"
+    "id": "way/378027110",
+    "mapFeature": {
+     "caption": "Happy Valley",
+     "allowPopup": true,
+     "location": "20  West End  \n  NR8 5AG <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2081738,
-       52.6592354
-      ],
-      [
-       1.2081282,
-       52.6592912
-      ],
-      [
-       1.2080023,
-       52.6592533
-      ],
-      [
-       1.2080479,
-       52.6591976
-      ],
-      [
-       1.2081738,
-       52.6592354
-      ]
-     ]
+     1.208088,
+     52.6592444
     ]
    }
   },
@@ -8341,49 +5612,21 @@
     "source": "OS_OpenData_VectorMapLocal",
     "source:addr": "FHRS Open Data",
     "website": "https://www.mcdonalds.co.uk/",
-    "id": "way/384406555"
+    "id": "way/384406555",
+    "mapFeature": {
+     "caption": "McDonald's",
+     "allowPopup": true,
+     "location": " Yarmouth Road  \n  NR13 5AR <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.4282354,
-       52.6320611
-      ],
-      [
-       1.4279418,
-       52.6319724
-      ],
-      [
-       1.4280368,
-       52.6318565
-      ],
-      [
-       1.4281563,
-       52.6318926
-      ],
-      [
-       1.4281745,
-       52.6318704
-      ],
-      [
-       1.428272,
-       52.6318998
-      ],
-      [
-       1.4282547,
-       52.631921
-      ],
-      [
-       1.4283313,
-       52.6319441
-      ],
-      [
-       1.4282354,
-       52.6320611
-      ]
-     ]
+     1.4281366,
+     52.6319588
     ]
    }
   },
@@ -8402,33 +5645,21 @@
     "name": "New World",
     "source": "OS_OpenData_VectorMapLocal",
     "source:addr": "FHRS Open Data",
-    "id": "way/384408370"
+    "id": "way/384408370",
+    "mapFeature": {
+     "caption": "New World",
+     "allowPopup": true,
+     "location": "72  The Street  \n  NR13 5LH <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.4333119,
-       52.6245382
-      ],
-      [
-       1.4331412,
-       52.624562
-      ],
-      [
-       1.4331014,
-       52.6244568
-      ],
-      [
-       1.4332721,
-       52.624433
-      ],
-      [
-       1.4333119,
-       52.6245382
-      ]
-     ]
+     1.4332067,
+     52.6244975
     ]
    }
   },
@@ -8447,69 +5678,21 @@
     "name": "Lingwood Chippie",
     "source": "OS_OpenData_VectorMapLocal",
     "source:addr": "FHRS Open Data",
-    "id": "way/384419214"
+    "id": "way/384419214",
+    "mapFeature": {
+     "caption": "Lingwood Chippie",
+     "allowPopup": true,
+     "location": " Norwich Road  \n  NR13 4BH <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.4828331,
-       52.6188703
-      ],
-      [
-       1.4828397,
-       52.6188973
-      ],
-      [
-       1.4827999,
-       52.6188994
-      ],
-      [
-       1.4828002,
-       52.6189072
-      ],
-      [
-       1.4827297,
-       52.6189119
-      ],
-      [
-       1.482609,
-       52.6189128
-      ],
-      [
-       1.4826105,
-       52.6189187
-      ],
-      [
-       1.4825221,
-       52.6189224
-      ],
-      [
-       1.4825063,
-       52.6188187
-      ],
-      [
-       1.4827094,
-       52.6188106
-      ],
-      [
-       1.4827131,
-       52.6188286
-      ],
-      [
-       1.4828135,
-       52.6188191
-      ],
-      [
-       1.4828187,
-       52.6188439
-      ],
-      [
-       1.4828331,
-       52.6188703
-      ]
-     ]
+     1.482673,
+     52.6188665
     ]
    }
   },
@@ -8529,45 +5712,21 @@
     "name": "Papa John's",
     "phone": "+44 1603 709090",
     "website": "https://www.papajohns.co.uk/",
-    "id": "way/457392362"
+    "id": "way/457392362",
+    "mapFeature": {
+     "caption": "Papa John's",
+     "allowPopup": true,
+     "location": "207  Plumstead Road  \n  NR1 4AB <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3279558,
-       52.6371434
-      ],
-      [
-       1.3280504,
-       52.6371723
-      ],
-      [
-       1.3280332,
-       52.637193
-      ],
-      [
-       1.3279771,
-       52.6372607
-      ],
-      [
-       1.3279628,
-       52.6372779
-      ],
-      [
-       1.3278683,
-       52.637249
-      ],
-      [
-       1.327883,
-       52.6372313
-      ],
-      [
-       1.3279558,
-       52.6371434
-      ]
-     ]
+     1.3279593,
+     52.6372107
     ]
    }
   },
@@ -8601,33 +5760,21 @@
     "phone": "+44 1603 503722",
     "takeaway": "yes",
     "website": "http://www.enjoyeatpizza.co.uk/",
-    "id": "way/484357150"
+    "id": "way/484357150",
+    "mapFeature": {
+     "caption": "Enjoy Eat",
+     "allowPopup": true,
+     "location": "2  Dragonfly Lane  \n  NR4 7FF <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2303728,
-       52.6101116
-      ],
-      [
-       1.2302453,
-       52.6100222
-      ],
-      [
-       1.2303336,
-       52.6099758
-      ],
-      [
-       1.2304611,
-       52.6100652
-      ],
-      [
-       1.2303728,
-       52.6101116
-      ]
-     ]
+     1.2303532,
+     52.6100437
     ]
    }
   },
@@ -8653,33 +5800,21 @@
     "start_date": "2017-03-20",
     "takeaway": "only",
     "website": "http://gofish.menu/",
-    "id": "way/484357157"
+    "id": "way/484357157",
+    "mapFeature": {
+     "caption": "Go Fish",
+     "allowPopup": true,
+     "location": "3  Dragonfly Lane  \n  NR4 7FF <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2303336,
-       52.6099758
-      ],
-      [
-       1.2304201,
-       52.6099303
-      ],
-      [
-       1.2305476,
-       52.6100197
-      ],
-      [
-       1.2304611,
-       52.6100652
-      ],
-      [
-       1.2303336,
-       52.6099758
-      ]
-     ]
+     1.2304406,
+     52.6099978
     ]
    }
   },
@@ -8696,33 +5831,21 @@
     "fhrs:id": "896814",
     "name": "Mr Pizza",
     "source:addr": "FHRS Open Data",
-    "id": "way/494282180"
+    "id": "way/494282180",
+    "mapFeature": {
+     "caption": "Mr Pizza",
+     "allowPopup": true,
+     "location": "47  Portersfield Road  \n  NR2 3JU <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2753101,
-       52.6252077
-      ],
-      [
-       1.2753182,
-       52.6251369
-      ],
-      [
-       1.2754791,
-       52.6251434
-      ],
-      [
-       1.2754644,
-       52.6252085
-      ],
-      [
-       1.2753101,
-       52.6252077
-      ]
-     ]
+     1.2753946,
+     52.6251727
     ]
    }
   },
@@ -8744,33 +5867,21 @@
     "smoking": "outside",
     "start_date": "2017",
     "website": "https://www.costa.co.uk/",
-    "id": "way/498396556"
+    "id": "way/498396556",
+    "mapFeature": {
+     "caption": "Costa Coffee",
+     "allowPopup": true,
+     "location": "5  Blackberry Court  \n  NR6 5DH <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2591551,
-       52.6507714
-      ],
-      [
-       1.2594158,
-       52.6507269
-      ],
-      [
-       1.2594853,
-       52.6508766
-      ],
-      [
-       1.2592246,
-       52.6509211
-      ],
-      [
-       1.2591551,
-       52.6507714
-      ]
-     ]
+     1.2593202,
+     52.650824
     ]
    }
   },
@@ -8795,37 +5906,21 @@
     "ref": "SO140",
     "start_date": "2017-11-29 01:31",
     "website": "https://en-gb.facebook.com/pg/Thickthorn-McDonalds-118419662195679",
-    "id": "way/543475950"
+    "id": "way/543475950",
+    "mapFeature": {
+     "caption": "McDonald's",
+     "allowPopup": true,
+     "location": " Norwich Road  \n  NR9 3AU <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2224499,
-       52.603859
-      ],
-      [
-       1.2224491,
-       52.603704
-      ],
-      [
-       1.222448,
-       52.603516
-      ],
-      [
-       1.2226652,
-       52.6035156
-      ],
-      [
-       1.2226671,
-       52.6038586
-      ],
-      [
-       1.2224499,
-       52.603859
-      ]
-     ]
+     1.2225575,
+     52.6036873
     ]
    }
   },
@@ -8848,49 +5943,21 @@
     "operator": "Domino's Pizza",
     "ref:pol_id": "931",
     "website": "https://www.dominos.co.uk/norwich-drayton",
-    "id": "way/550087932"
+    "id": "way/550087932",
+    "mapFeature": {
+     "caption": "Domino's Pizza",
+     "allowPopup": true,
+     "location": "4  Fakenham Road  \n  NR8 6PW <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2231402,
-       52.6763621
-      ],
-      [
-       1.223139,
-       52.6763107
-      ],
-      [
-       1.2232324,
-       52.6763099
-      ],
-      [
-       1.2232313,
-       52.6762613
-      ],
-      [
-       1.2232303,
-       52.6762166
-      ],
-      [
-       1.2232878,
-       52.6762161
-      ],
-      [
-       1.2233127,
-       52.6762158
-      ],
-      [
-       1.2233161,
-       52.6763606
-      ],
-      [
-       1.2231402,
-       52.6763621
-      ]
-     ]
+     1.2232275,
+     52.6762889
     ]
    }
   },
@@ -8908,33 +5975,21 @@
     "name": "Mystic River",
     "source": "Bing",
     "source:addr:postcode": "FSA Food Hygiene Ratings Database",
-    "id": "way/569561408"
+    "id": "way/569561408",
+    "mapFeature": {
+     "caption": "Mystic River",
+     "allowPopup": true,
+     "location": "213  Queens Road  \n  NR1 3AE <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2998497,
-       52.6207698
-      ],
-      [
-       1.2999228,
-       52.6207657
-      ],
-      [
-       1.2999344,
-       52.6208415
-      ],
-      [
-       1.2998614,
-       52.6208457
-      ],
-      [
-       1.2998497,
-       52.6207698
-      ]
-     ]
+     1.299892,
+     52.6208057
     ]
    }
   },
@@ -8956,37 +6011,21 @@
     "name": "Subway",
     "source:addr": "FHRS Open Data",
     "takeaway": "yes",
-    "id": "way/661743307"
+    "id": "way/661743307",
+    "mapFeature": {
+     "caption": "Subway",
+     "allowPopup": true,
+     "location": "2  Rampant Horse Street  \n  NR2 1QP <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2925083,
-       52.6269693
-      ],
-      [
-       1.2924691,
-       52.6269039
-      ],
-      [
-       1.2924717,
-       52.6268856
-      ],
-      [
-       1.2925846,
-       52.6268276
-      ],
-      [
-       1.2926478,
-       52.6269398
-      ],
-      [
-       1.2925083,
-       52.6269693
-      ]
-     ]
+     1.2925585,
+     52.6268985
     ]
    }
   },
@@ -9002,37 +6041,21 @@
     "building": "yes",
     "fhrs:id": "1101980",
     "name": "Ali Andos Peri Peri Chicken",
-    "id": "way/661752353"
+    "id": "way/661752353",
+    "mapFeature": {
+     "caption": "Ali Andos Peri Peri Chicken",
+     "allowPopup": true,
+     "location": "78  Catton Grove Road  \n  NR3 3AA <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2929002,
-       52.6542765
-      ],
-      [
-       1.2929065,
-       52.6542264
-      ],
-      [
-       1.2929235,
-       52.6542276
-      ],
-      [
-       1.2930712,
-       52.6542375
-      ],
-      [
-       1.293062,
-       52.6542857
-      ],
-      [
-       1.2929002,
-       52.6542765
-      ]
-     ]
+     1.2929857,
+     52.6542561
     ]
    }
   },
@@ -9053,37 +6076,21 @@
     "fhrs:id": "1070666",
     "name": "Subway",
     "source:addr": "FHRS Open Data",
-    "id": "way/689433091"
+    "id": "way/689433091",
+    "mapFeature": {
+     "caption": "Subway",
+     "allowPopup": true,
+     "location": " Station Approach  \n  NR1 1EF <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.3064855,
-       52.6266392
-      ],
-      [
-       1.3064208,
-       52.626676
-      ],
-      [
-       1.3063281,
-       52.6266192
-      ],
-      [
-       1.3063751,
-       52.626589
-      ],
-      [
-       1.3063905,
-       52.6265799
-      ],
-      [
-       1.3064855,
-       52.6266392
-      ]
-     ]
+     1.3064068,
+     52.6266279
     ]
    }
   },
@@ -9099,33 +6106,21 @@
     "fhrs:id": "878426",
     "name": "Chopstix",
     "source:addr": "FHRS Open Data",
-    "id": "way/693886521"
+    "id": "way/693886521",
+    "mapFeature": {
+     "caption": "Chopstix",
+     "allowPopup": true,
+     "location": "33  Orford Place  \n  NR1 3QA <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2945061,
-       52.6271939
-      ],
-      [
-       1.294351,
-       52.6272007
-      ],
-      [
-       1.2943469,
-       52.6271737
-      ],
-      [
-       1.2945003,
-       52.6271648
-      ],
-      [
-       1.2945061,
-       52.6271939
-      ]
-     ]
+     1.2944265,
+     52.6271828
     ]
    }
   },
@@ -9144,33 +6139,21 @@
     "level": "0",
     "name": "Earlham Pizza",
     "source:addr": "FHRS Open Data",
-    "id": "way/700132762"
+    "id": "way/700132762",
+    "mapFeature": {
+     "caption": "Earlham Pizza",
+     "allowPopup": true,
+     "location": "32  Earlham West Centre  \n  <strong>Level:</strong>&nbsp;0 NR5 8AD <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2408129,
-       52.632164
-      ],
-      [
-       1.2408812,
-       52.6321965
-      ],
-      [
-       1.2408402,
-       52.6322283
-      ],
-      [
-       1.2407718,
-       52.6321958
-      ],
-      [
-       1.2408129,
-       52.632164
-      ]
-     ]
+     1.2408265,
+     52.6321961
     ]
    }
   },
@@ -9189,49 +6172,21 @@
     "level": "0",
     "name": "BBQ",
     "source:addr": "FHRS Open Data",
-    "id": "way/700132767"
+    "id": "way/700132767",
+    "mapFeature": {
+     "caption": "BBQ",
+     "allowPopup": true,
+     "location": "28  Earlham West Centre  \n  <strong>Level:</strong>&nbsp;0 NR5 8AD <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       1.2409256,
-       52.6320302
-      ],
-      [
-       1.2409345,
-       52.6320712
-      ],
-      [
-       1.2408484,
-       52.6320781
-      ],
-      [
-       1.2408395,
-       52.6320371
-      ],
-      [
-       1.2408164,
-       52.6320389
-      ],
-      [
-       1.2408054,
-       52.6319882
-      ],
-      [
-       1.2409411,
-       52.6319774
-      ],
-      [
-       1.2409521,
-       52.6320281
-      ],
-      [
-       1.2409256,
-       52.6320302
-      ]
-     ]
+     1.2408787,
+     52.6320278
     ]
    }
   },
@@ -9249,466 +6204,363 @@
     "name": "Krasadis Taverna",
     "source": "Bing",
     "source:addr": "FHRS Open Data",
-    "id": "way/700938334"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.3001507,
-       52.6293074
-      ],
-      [
-       1.300284,
-       52.6293112
-      ],
-      [
-       1.3002774,
-       52.6294047
-      ],
-      [
-       1.3001435,
-       52.6294012
-      ],
-      [
-       1.3001507,
-       52.6293074
-      ]
+    "id": "way/700938334",
+    "mapFeature": {
+     "caption": "Krasadis Taverna",
+     "allowPopup": true,
+     "location": "17  Prince Of Wales Road  \n  NR1 1BD <br />\n  \n  \n  ",
+     "layers": [
+      "food"
      ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3002137,
+     52.629356
     ]
    }
   },
   {
    "type": "Feature",
-   "id": "node/510145174",
+   "id": "relation/2180494",
    "properties": {
     "addr:city": "Norwich",
-    "addr:housenumber": "35",
-    "addr:postcode": "NR1 3DY",
-    "addr:street": "Cattle Market Street",
-    "amenity": "fast_food",
-    "cuisine": "kebab;pizza",
-    "fhrs:id": "8676",
-    "name": "Top Kapi - Kebab House",
-    "source:addr": "FHRS Open Data",
-    "id": "node/510145174"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2986449,
-     52.6278928
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/1038499891",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housenumber": "18",
-    "addr:postcode": "NR2 1QJ",
-    "addr:street": "Haymarket",
-    "amenity": "fast_food",
-    "brand": "McDonald's",
-    "brand:wikidata": "Q38076",
-    "brand:wikipedia": "en:McDonald's",
-    "cuisine": "burger",
-    "drive_through": "no",
-    "fhrs:id": "27479",
-    "name": "McDonald's",
-    "phone": "+44 1603 623391",
-    "source:addr": "FHRS Open Data",
-    "takeaway": "yes",
-    "toilets": "customers",
-    "toilets:wheelchair": "Ground floor with easy access rails and low sinks.",
-    "wheelchair": "yes",
-    "wheelchair:description": "Easy access through electronic doors from Hayhill/Haymarket",
-    "id": "node/1038499891"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2927065,
-     52.6271956
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/1317865563",
-   "properties": {
-    "amenity": "fast_food",
-    "name": "Megabites",
-    "id": "node/1317865563"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2844799,
-     52.6384872
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/1539929456",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housenumber": "11",
-    "addr:postcode": "NR2 1QD",
-    "addr:street": "Haymarket",
-    "amenity": "fast_food",
-    "brand": "Pret A Manger",
-    "brand:wikidata": "Q2109109",
-    "brand:wikipedia": "en:Pret a Manger",
-    "cuisine": "sandwich",
-    "fhrs:id": "15185",
-    "name": "Pret A Manger",
-    "source:addr": "FHRS Open Data",
-    "takeaway": "yes",
-    "id": "node/1539929456"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2934965,
-     52.6271056
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/1824494500",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "2",
-    "addr:postcode": "NR5 0SY",
-    "addr:street": "Dereham Road",
-    "amenity": "fast_food",
-    "cuisine": "sandwich",
-    "fhrs:id": "648785",
-    "name": "Subway",
-    "opening_hours": "08:00-23:00",
-    "phone": "+44 1603 271542",
-    "ref": "55386",
-    "website": "http://www.subway.co.uk/",
-    "id": "node/1824494500"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2353726,
-     52.6411779
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/1855526590",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:postcode": "NR5 9JB",
-    "addr:street": "Barnard Road",
-    "amenity": "fast_food",
-    "colour": "black;yellow",
-    "cuisine": "regional",
-    "description": "Mobile catering",
-    "fhrs:id": "1056196",
-    "name": "The Bap Cave",
-    "note": "Mobile kitchen. Only on site during opening hours.",
-    "opening_hours": "Mo-Fr 07:00-15:00; Sa-Su closed",
-    "phone": "+44 7907 795444",
-    "source:addr:postcode": "code-point_open",
-    "id": "node/1855526590"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2133875,
-     52.6428316
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/3250735961",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "197",
-    "addr:postcode": "NR7 8AG",
-    "addr:street": "Wroxham Road",
-    "addr:village": "Sprowston",
-    "amenity": "fast_food",
-    "cuisine": "fish_and_chips",
-    "fhrs:id": "94370",
-    "name": "Golden Plaice",
-    "phone": "+44 1603 425921",
-    "id": "node/3250735961"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.3246006,
-     52.6584933
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/3544832139",
-   "properties": {
-    "amenity": "fast_food",
-    "cuisine": "sandwich",
-    "email": "pdeary@applegreen.ie",
-    "indoor": "yes",
-    "name": "Subway",
-    "opening_hours": "Mo-We 07:00-20:00; Th-Sa 07:00-21:00; Su 09:00-20:00",
-    "phone": "+44 1603 867226",
-    "ref": "63310",
-    "website": "http://www.subway.co.uk/",
-    "id": "node/3544832139"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2232105,
-     52.6757641
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/5309286221",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housenumber": "54-55",
+    "addr:housenumber": "92-93",
     "addr:postcode": "NR2 1ND",
     "addr:street": "Market Place",
     "amenity": "fast_food",
-    "cuisine": "burger;sandwich;sausage",
-    "diet:gluten_free": "yes",
-    "diet:vegan": "only",
-    "facebook": "https://www.facebook.com/biakitchen/",
-    "fhrs:id": "839165",
-    "instagram": "https://www.instagram.com/explore/tags/biakitchen/",
-    "name": "Bia Vegan Diner",
-    "source:addr": "FHRS Open Data",
-    "website": "http://biavegandiner.co.uk/",
-    "id": "node/5309286221"
+    "cuisine": "chinese",
+    "fhrs:id": "915749",
+    "name": "The China Wok & Curry Stop",
+    "source:name": "FSA Food Hygiene Ratings Database",
+    "type": "multipolygon",
+    "id": "relation/2180494",
+    "mapFeature": {
+     "caption": "The China Wok & Curry Stop",
+     "allowPopup": true,
+     "location": "92-93  Market Place  \n  NR2 1ND <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
     "coordinates": [
-     1.2926916,
-     52.6283623
+     1.2928677,
+     52.6284804
     ]
    }
   },
   {
    "type": "Feature",
-   "id": "node/5478805912",
+   "id": "relation/2180495",
    "properties": {
     "addr:city": "Norwich",
-    "addr:housenumber": "216",
-    "addr:postcode": "NR1 3HG",
-    "addr:street": "Queens Road",
-    "amenity": "fast_food",
-    "cuisine": "chicken",
-    "fhrs:id": "915682",
-    "name": "USA Fried Chicken",
-    "source:addr": "FSA Food Hygiene Ratings Database",
-    "id": "node/5478805912"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.3000036,
-     52.6209746
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/6195282042",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housenumber": "13",
-    "addr:postcode": "NR1 3RU",
-    "addr:street": "Orford Place",
+    "addr:housenumber": "Stalls 94-95",
+    "addr:postcode": "NR2 1ND",
+    "addr:street": "Market Place",
     "amenity": "fast_food",
     "cuisine": "fish_and_chips",
-    "fhrs:id": "735927",
-    "name": "Orford Plaice",
+    "fhrs:id": "17813",
+    "name": "Rons Fish & Chips",
     "source:addr": "FHRS Open Data",
-    "id": "node/6195282042"
+    "type": "multipolygon",
+    "id": "relation/2180495",
+    "mapFeature": {
+     "caption": "Rons Fish & Chips",
+     "allowPopup": true,
+     "location": "Stalls 94-95  Market Place  \n  NR2 1ND <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
     "coordinates": [
-     1.293957,
-     52.6269459
+     1.2927329,
+     52.6284869
     ]
    }
   },
   {
    "type": "Feature",
-   "id": "node/6566009059",
+   "id": "relation/3152343",
    "properties": {
     "addr:city": "Norwich",
-    "addr:postcode": "NR2 1QQ",
-    "addr:street": "Hay Hill",
+    "addr:country": "GB",
+    "addr:housenumber": "120",
+    "addr:postcode": "NR2 1ND",
+    "addr:street": "Market Place",
     "amenity": "fast_food",
-    "building": "kiosk",
-    "cuisine": "sausages",
-    "fhrs:id": "27467",
-    "name": "Top Dog",
-    "source:addr": "FHRS Open Data",
-    "id": "node/6566009059"
+    "building": "stall",
+    "cuisine": "jacket_potato",
+    "fhrs:id": "1063149",
+    "name": "George's Jacket Spuds",
+    "operator": "George's",
+    "ref": "120",
+    "strapline": "and Sandwiches",
+    "type": "multipolygon",
+    "id": "relation/3152343",
+    "mapFeature": {
+     "caption": "George's Jacket Spuds",
+     "allowPopup": true,
+     "location": "120  Market Place  \n  NR2 1ND <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
     "coordinates": [
-     1.2930258,
-     52.6272765
+     1.2927142,
+     52.6285705
     ]
    }
   },
   {
    "type": "Feature",
-   "id": "node/6568273970",
+   "id": "relation/3152344",
    "properties": {
     "addr:city": "Norwich",
-    "addr:housenumber": "52",
-    "addr:postcode": "NR2 1LA",
-    "addr:street": "London Street",
+    "addr:country": "GB",
+    "addr:housenumber": "81",
+    "addr:postcode": "NR2 1ND",
+    "addr:street": "Market Place",
     "amenity": "fast_food",
-    "cuisine": "subs",
-    "fhrs:id": "30134",
-    "name": "Subway",
-    "source:addr": "FHRS Open Data",
-    "id": "node/6568273970"
+    "building": "stall",
+    "cuisine": "roast",
+    "fhrs:id": "15646",
+    "name": "Henry's Hog Roast",
+    "operator": "Henry's",
+    "type": "multipolygon",
+    "id": "relation/3152344",
+    "mapFeature": {
+     "caption": "Henry's Hog Roast",
+     "allowPopup": true,
+     "location": "81  Market Place  \n  NR2 1ND <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
     "coordinates": [
-     1.2959833,
-     52.6296039
+     1.2927425,
+     52.6284452
     ]
    }
   },
   {
    "type": "Feature",
-   "id": "node/6568273971",
+   "id": "relation/3152352",
    "properties": {
     "addr:city": "Norwich",
-    "addr:housenumber": "46",
-    "addr:postcode": "NR2 1LA",
-    "addr:street": "London Street",
+    "addr:country": "GB",
+    "addr:housenumber": "175",
+    "addr:postcode": "NR2 1NE",
+    "addr:street": "Market Place",
     "amenity": "fast_food",
-    "fhrs:id": "1089532",
-    "name": "The Chicken Shop",
-    "source:addr": "FHRS Open Data",
-    "id": "node/6568273971"
+    "building": "stall",
+    "fhrs:id": "928650",
+    "name": "Lasagneria",
+    "ref": "175",
+    "type": "multipolygon",
+    "website": "https://www.facebook.com/lasagnerianorwich/",
+    "id": "relation/3152352",
+    "mapFeature": {
+     "caption": "Lasagneria",
+     "allowPopup": true,
+     "location": "175  Market Place  \n  NR2 1NE <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
     "coordinates": [
-     1.2957902,
-     52.6294672
+     1.2927301,
+     52.6287337
     ]
    }
   },
   {
    "type": "Feature",
-   "id": "node/6568299054",
+   "id": "relation/3152354",
    "properties": {
     "addr:city": "Norwich",
-    "addr:housenumber": "17-19",
-    "addr:postcode": "NR1 3DH",
-    "addr:street": "Castle Meadow",
+    "addr:country": "GB",
+    "addr:housenumber": "114",
+    "addr:postcode": "NR2 1ND",
+    "addr:street": "Market Place",
     "amenity": "fast_food",
-    "fhrs:id": "1030465",
-    "name": "Take a Break",
-    "source:addr": "FHRS Open Data",
-    "id": "node/6568299054"
+    "building": "stall",
+    "cuisine": "chips",
+    "fhrs:id": "932631",
+    "name": "Lucy's Chips",
+    "operator": "Lucy's",
+    "ref": "114",
+    "type": "multipolygon",
+    "id": "relation/3152354",
+    "mapFeature": {
+     "caption": "Lucy's Chips",
+     "allowPopup": true,
+     "location": "114  Market Place  \n  NR2 1ND <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
     "coordinates": [
-     1.2957178,
-     52.6293288
+     1.2927524,
+     52.6285485
     ]
    }
   },
   {
    "type": "Feature",
-   "id": "node/6573544543",
+   "id": "relation/3152360",
    "properties": {
     "addr:city": "Norwich",
-    "addr:housename": "Co-op Foodstore",
-    "addr:postcode": "NR4 7TE",
-    "addr:street": "Earlham Green Lane",
+    "addr:country": "GB",
+    "addr:housenumber": "80",
+    "addr:postcode": "NR2 1ND",
+    "addr:street": "Market Place",
     "amenity": "fast_food",
-    "cuisine": "subs",
-    "fhrs:id": "937371",
-    "name": "Subway",
-    "note": "Inside Coop Store",
-    "source:addr": "FHRS Open Data",
-    "id": "node/6573544543"
+    "building": "stall",
+    "fhrs:id": "1080666",
+    "name": "The All Electric Banger Stop",
+    "operator": "Banger Stop",
+    "start_date": "1979",
+    "type": "multipolygon",
+    "id": "relation/3152360",
+    "mapFeature": {
+     "caption": "The All Electric Banger Stop",
+     "allowPopup": true,
+     "location": "80  Market Place  \n  NR2 1ND <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
     "coordinates": [
-     1.2476235,
-     52.6293942
+     1.2927025,
+     52.6284464
     ]
    }
   },
   {
    "type": "Feature",
-   "id": "node/6573544551",
+   "id": "relation/3152361",
    "properties": {
     "addr:city": "Norwich",
-    "addr:housenumber": "78",
-    "addr:postcode": "NR5 8DG",
-    "addr:street": "Cadge Road",
+    "addr:country": "GB",
+    "addr:housenumber": "61",
+    "addr:postcode": "NR2 1ND",
+    "addr:street": "Market Place",
     "amenity": "fast_food",
-    "fhrs:id": "7412",
-    "name": "Britannia Kebab & Fish Bar",
-    "source:addr": "FHRS Open Data",
-    "id": "node/6573544551"
+    "building": "stall",
+    "cuisine": "chips",
+    "fhrs:id": "932630",
+    "name": "The Chip Stall",
+    "operator": "North's",
+    "ref": "61",
+    "type": "multipolygon",
+    "id": "relation/3152361",
+    "mapFeature": {
+     "caption": "The Chip Stall",
+     "allowPopup": true,
+     "location": "61  Market Place  \n  NR2 1ND <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
     "coordinates": [
-     1.2484283,
-     52.633661
+     1.2927391,
+     52.6283861
     ]
    }
   },
   {
    "type": "Feature",
-   "id": "node/6582594508",
+   "id": "relation/3152363",
    "properties": {
     "addr:city": "Norwich",
-    "addr:housenumber": "33",
-    "addr:postcode": "NR1 1BG",
-    "addr:street": "Prince of Wales Road",
+    "addr:country": "GB",
+    "addr:housenumber": "180",
+    "addr:postcode": "NR2 1NE",
+    "addr:street": "Market Place",
     "amenity": "fast_food",
-    "name": "Rocky Mountain Pizza Project",
-    "old_name": "Voodoo Daddy's Pizza",
-    "website": "https://www.facebook.com/rockymoutainpizzaproject/",
-    "id": "node/6582594508"
+    "building": "stall",
+    "cuisine": "ice_cream",
+    "fhrs:id": "690201",
+    "name": "The Ice Cream Parlour",
+    "operator": "Ice Cream Parlour",
+    "ref": "180",
+    "strapline": "Whippy & Local Dairy Ice Cream",
+    "type": "multipolygon",
+    "id": "relation/3152363",
+    "mapFeature": {
+     "caption": "The Ice Cream Parlour",
+     "allowPopup": true,
+     "location": "180  Market Place  \n  NR2 1NE <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
     "coordinates": [
-     1.3009999,
-     52.6293306
+     1.2927319,
+     52.6287545
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "relation/3152364",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "115",
+    "addr:postcode": "NR2 1ND",
+    "addr:street": "Market Place",
+    "amenity": "fast_food",
+    "building": "stall",
+    "cuisine": "mushy_peas",
+    "fhrs:id": "15634",
+    "name": "The Mushy Pea Stall",
+    "ref": "115",
+    "type": "multipolygon",
+    "id": "relation/3152364",
+    "mapFeature": {
+     "caption": "The Mushy Pea Stall",
+     "allowPopup": true,
+     "location": "115  Market Place  \n  NR2 1ND <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2927123,
+     52.6285498
     ]
    }
   }
