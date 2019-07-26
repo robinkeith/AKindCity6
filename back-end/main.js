@@ -5,15 +5,16 @@
 // import * as queryOverpass from 'query-overpass';
 // queryOverpass = require('query-overpass');
 
+// import { readFileSync, writeFile } from 'fs'
+import queryOverpass from 'query-overpass'
+import { filter } from './norwich.js'
+import { postProcess as _postProcess } from './postProcess.js'
 const fs = require('fs')
-const queryOverpass = require('query-overpass')
-const norwichMapOSM = require('./norwich.js')
-const postProcess = require('./postProcess.js')
 
 const bbox = '52.578228,1.171761,52.693864,1.525726'
 const modeDownload = true
 const modePostProcess = !modeDownload
-const modeDatasetsToProcess = ['around-crossings']
+const modeDatasetsToProcess = [] // ['around-crossings']
 // const modeEverything = true
 
 function slowIterate (arr, timeout, cb) {
@@ -26,7 +27,13 @@ function slowIterate (arr, timeout, cb) {
   }, timeout) // <-- replace with your desired delay (in milliseconds)
 }
 
-let selectedDatasets = norwichMapOSM.filter(dataset => modeDatasetsToProcess.includes(dataset.name))
+let selectedDatasets = filter(dataset => modeDatasetsToProcess.includes(dataset.name))
+/*
+selectedDatasets.reduce( async (previousPromise, nextID) => {
+  await previousPromise;
+  return methodThatReturnsAPromise(nextID);
+}, Promise.resolve());
+*/
 
 // TODO:sort out the async processing
 if (modeDownload) {
@@ -41,7 +48,7 @@ if (modeDownload) {
 if (modePostProcess) {
   selectedDatasets.forEach(function (dataset) {
     let data = JSON.parse(fs.readFileSync(`./temp/data/${dataset.name}.geojson`, 'utf8'))
-    let res = postProcess.postProcess(data, dataset)
+    let res = _postProcess(data, dataset)
     console.log(res)
     toFile(res, `./data/${dataset.name}.geojson`)
   })
