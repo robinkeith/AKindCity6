@@ -1,0 +1,6 @@
+type,id,access,description,name,operator,phone,shop,website,wheelchair,id,F.caption,F.allowPopup,F.icon,F.location,F.facilities,F.availability,F.operator,F.contact,F.meta,F.layers,geometry.type,geometry.coordinates
+Feature,node/6590934172,customer,"Access on Level -1 of the car park, adjacent to the disabled parking area. Standard and powered wheelchairs, as well as powered scooters.",intu Chapelfield Shopmobility Centre,intu Chapelfield,+44 1603 753350,mobility,https://intu.co.uk/chapelfield/services/shopmobility,yes,node/6590934172,intu Chapelfield Shopmobility Centre,true,,"  
+  <br />
+  Access on Level -1 of the car park, adjacent to the disabled parking area. Standard and powered wheelchairs, as well as powered scooters.<br />
+  Wheelchair accessible 
+  ",,,,,,around,Point,1.2900891;52.6261718

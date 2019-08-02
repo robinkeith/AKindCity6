@@ -10,7 +10,11 @@
 * Moved polygon to point conversion to overpass query - reduces layer loading time.
 * Move name tidy to preprocessing to reduce layer load time.
 * Improved toolbar display on laptops and larger screen sizes
-* Implemented basic service worker for PWA compatability
+* Implemented basic service worker for PWA compatability. Map data is cached off-line. Map tiles visited will be for offline use but not yet downloading all tiles
+* Opening Hours improvements, shows if places are currently open or close and next opening/closing time.
+* Improvements to OSM data, added opening hours, website + email details, fixed out of date tags, and added 3d info for large number of city centre places.
+Known issues: The 'Get Around' layer data for crossings etc is missing
+
 
 ## 1.8
 * Added Elephant Juice! Press the elephant button to remember where you parked.

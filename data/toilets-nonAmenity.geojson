@@ -93,6 +93,7 @@
     "fee:amount:3_hour": "£3.60 GBP",
     "fee:amount:4_hour": "£4.80 GBP",
     "fee:amount:6_hour": "£8.00 GBP",
+    "layer": "-1",
     "maxheight": "2.2",
     "maxspeed": "5 mph",
     "name": "Chapelfield",
@@ -361,7 +362,7 @@
     "addr:postcode": "NR3 3AT",
     "addr:street": "Duke Street",
     "amenity": "parking",
-    "building": "yes",
+    "building": "parking",
     "capacity": "1084",
     "fee": "yes",
     "fee:amount:1_hour": "£1.80 GBP",
@@ -401,6 +402,51 @@
     "coordinates": [
      1.2938558,
      52.6312916
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/40691584",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "Unit 5",
+    "addr:housenumber": "5",
+    "addr:postcode": "NR1 1WR",
+    "addr:street": "Albion Way",
+    "amenity": "pharmacy",
+    "brand": "boots",
+    "brand:wikidata": "Q6123139",
+    "brand:wikipedia": "en:Boots UK",
+    "building": "shop",
+    "deaf:description:en": "induction loop",
+    "dispensing": "yes",
+    "fhrs:id": "84115",
+    "healthcare": "pharmacy",
+    "name": "Boots (Midnight Pharmacy)",
+    "opening_hours": "Mo-Fr 08:30-20:30; Sa 08:30-18:00; Su 10:15-16:30",
+    "operator": "Boots",
+    "phone": "+44 1603 662894",
+    "shop": "health_and_beauty",
+    "toilets:wheelchair": "yes",
+    "website": "https://www.boots.com/stores/6477-norwich-riverside-retail-park-nr1-1wr",
+    "wheelchair": "yes",
+    "id": "way/40691584",
+    "mapFeature": {
+     "caption": "Boots (Midnight Pharmacy)",
+     "allowPopup": true,
+     "location": "5  Albion Way  \n  NR1 1WR <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3060832,
+     52.622951
     ]
    }
   },
@@ -926,6 +972,95 @@
   },
   {
    "type": "Feature",
+   "id": "way/170318604",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:postcode": "NR2 4AD",
+    "addr:street": "Saint Andrews Street",
+    "amenity": "cinema",
+    "brand": "Cinema City",
+    "brand:wikidata": "Q543651",
+    "brand:wikipedia": "en:Cinema City International",
+    "building": "commercial",
+    "email": "cinemacity@picturehouses.co.uk",
+    "name": "Cinema City",
+    "operator": "Picturehouse",
+    "owner": "Cineworld",
+    "phone": "0871 902 5747",
+    "screen": "3",
+    "source": "local knowledge",
+    "toilets": "customers",
+    "toilets:position": "Male and Female toilets on basement level. Fully accessible separate toilet on the top floor. Both accessible by lift.",
+    "toilets:wheelchair": "yes",
+    "website": "http://www.picturehouses.co.uk/cinema/cinema_city/",
+    "wheelchair": "yes",
+    "wheelchair:description": "Entrance from St Andrews Hill courtyard. Take lift to box office (low level counter), screens (removeable seats if booked) and toilets. Guide dogs welcome. Infrared receiving equipment in all screens. Autism-Friendly Screenings",
+    "wikidata": "Q7061476",
+    "wikipedia": "en:Norwich Cinema City",
+    "id": "way/170318604",
+    "mapFeature": {
+     "caption": "Cinema City",
+     "allowPopup": true,
+     "location": " Saint Andrews Street  \n  NR2 4AD <br />\n  \n  Wheelchair accessible \n  Entrance from St Andrews Hill courtyard. Take lift to box office (low level counter), screens (removeable seats if booked) and toilets. Guide dogs welcome. Infrared receiving equipment in all screens. Autism-Friendly Screenings",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2961782,
+     52.6302137
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/171216877",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "7-9",
+    "addr:interpolation": "odd",
+    "addr:postcode": "NR2 4TL",
+    "addr:street": "Queen Street",
+    "amenity": "bar",
+    "brand": "Revolución de Cuba",
+    "brand:wikidata": "Q64024691",
+    "building": "retail",
+    "fhrs:id": "48354",
+    "internet_access": "wlan",
+    "name": "Revolución de Cuba",
+    "old_name": "Slug & Lettuce, Yates's",
+    "phone": "+44 1603 857565",
+    "real_ale": "no",
+    "source:addr:postcode": "FHRS Open Data",
+    "toilets:wheelchair": "customer",
+    "website": "https://www.revoluciondecuba.com/norwich/",
+    "wheelchair": "limited",
+    "wheelchair:description": "Full access within building, limited in garden",
+    "id": "way/171216877",
+    "mapFeature": {
+     "caption": "Revolución de Cuba",
+     "allowPopup": true,
+     "location": "7-9  Queen Street  \n  NR2 4TL <br />\n  \n  Limited wheelchair access \n  Full access within building, limited in garden",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.29817,
+     52.6302234
+    ]
+   }
+  },
+  {
+   "type": "Feature",
    "id": "way/171357348",
    "properties": {
     "addr:city": "Norwich",
@@ -978,7 +1113,7 @@
     "fhrs:id": "34276",
     "name": "The Wine Cellar",
     "old_name": "Wine Press Bar & Bistro",
-    "opening_hours": "Mo 11:00-22:00; Tu-Th 11:00-23:00; Fr-Sa 11:00-00:00; Su 11:00-16:00",
+    "opening_hours": "Mo,We 11:00-22:00; Tu,Th 11:00-23:00; Fr-Sa 11:00-00:00; Su 11:00-16:00",
     "phone": "+44 1603 886100",
     "real_ale": "no",
     "toilets:wheelchair": "no",

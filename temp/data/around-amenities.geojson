@@ -1,17 +1,5 @@
-{
- "type": "FeatureCollection",
- "features": [
-  {
-   "type": "Feature",
-   "id": "node/6590934172",
-   "properties": {
-    "access": "customer",
-    "description": "Access on Level -1 of the car park, adjacent to the disabled parking area. Standard and powered wheelchairs, as well as powered scooters.",
-    "name": "intu Chapelfield Shopmobility Centre",
-    "operator": "intu Chapelfield",
-    "phone": "+44 1603 753350",
-    "shop": "mobility",
-    "website": "https://intu.co.uk/chapelfield/services/shopmobility",
+type,id,access,description,name,operator,phone,shop,website,wheelchair,id,geometry.type,geometry.coordinates
+Feature,node/6590934172,customer,"Access on Level -1 of the car park, adjacent to the disabled parking area. Standard and powered wheelchairs, as well as powered scooters.",intu Chapelfield Shopmobility Centre,intu Chapelfield,+44 1603 753350,mobility,https://intu.co.uk/chapelfield/services/shopmobility,yes,node/6590934172,Point,1.2900891;52.6261718e": "https://intu.co.uk/chapelfield/services/shopmobility",
     "wheelchair": "yes",
     "id": "node/6590934172"
    },
@@ -20,36 +8,6 @@
     "coordinates": [
      1.2900891,
      52.6261718
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/107045759",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "70",
-    "addr:postcode": "NR1 3DD",
-    "building": "unit",
-    "covered": "yes",
-    "layer": "-3",
-    "level": "2",
-    "name": "Shop Mobility",
-    "note": "Parking on Level J",
-    "opening_hours": "Mo-Fr 10:00-16:30; Sa 10:00-16:15",
-    "operator": "Norwich Access Group",
-    "phone": "+44 1603 283148",
-    "shop": "mobility",
-    "website": "http://www.norwichaccessgroup.org.uk/shopmobility.shtml",
-    "wheelchair": "yes",
-    "id": "way/107045759"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2975033,
-     52.627463
     ]
    }
   }

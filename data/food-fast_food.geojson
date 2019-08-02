@@ -268,42 +268,6 @@
   },
   {
    "type": "Feature",
-   "id": "node/5309286221",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housenumber": "54-55",
-    "addr:postcode": "NR2 1ND",
-    "addr:street": "Market Place",
-    "amenity": "fast_food",
-    "cuisine": "burger;sandwich;sausage",
-    "diet:gluten_free": "yes",
-    "diet:vegan": "only",
-    "facebook": "https://www.facebook.com/biakitchen/",
-    "fhrs:id": "839165",
-    "instagram": "https://www.instagram.com/explore/tags/biakitchen/",
-    "name": "Bia Vegan Diner",
-    "source:addr": "FHRS Open Data",
-    "website": "http://biavegandiner.co.uk/",
-    "id": "node/5309286221",
-    "mapFeature": {
-     "caption": "Bia Vegan Diner",
-     "allowPopup": true,
-     "location": "54-55  Market Place  \n  NR2 1ND <br />\n  \n  \n  ",
-     "layers": [
-      "food"
-     ]
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2926916,
-     52.6283623
-    ]
-   }
-  },
-  {
-   "type": "Feature",
    "id": "node/5478805912",
    "properties": {
     "addr:city": "Norwich",
@@ -404,10 +368,15 @@
     "addr:postcode": "NR2 1LA",
     "addr:street": "London Street",
     "amenity": "fast_food",
-    "cuisine": "subs",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "drive_through": "no",
     "fhrs:id": "30134",
     "name": "Subway",
     "source:addr": "FHRS Open Data",
+    "takeaway": "yes",
     "id": "node/6568273970",
     "mapFeature": {
      "caption": "Subway",
@@ -655,6 +624,9 @@
     "addr:postcode": "NR1 2RT",
     "addr:street": "Barrett Road",
     "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
     "building": "yes",
     "cuisine": "burger",
     "email": "00607@uk.mcd.com",
@@ -666,6 +638,7 @@
     "operator": "K Foley Ltd",
     "phone": "+44 1603 619159",
     "ref": "607",
+    "takeaway": "yes",
     "website": "https://www.mcdonalds.co.uk/",
     "id": "way/33617676",
     "mapFeature": {
@@ -680,7 +653,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     1.291819,
+     1.2918215,
      52.6102116
     ]
    }
@@ -862,43 +835,6 @@
   },
   {
    "type": "Feature",
-   "id": "way/106665874",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "73",
-    "addr:postcode": "NR1 3RL",
-    "addr:street": "Grove Road",
-    "amenity": "fast_food",
-    "building": "shop",
-    "cuisine": "pizza",
-    "delivery": "yes",
-    "fhrs:id": "711790",
-    "name": "Pizza Hut",
-    "opening_hours": "Su-Mo,We-Fr 11:00-01:00; Tu,Sa 11:00-04:00; Dec 24,26,31 11:30-23:00; Dec 25 off",
-    "phone": "+44 1603 220066",
-    "takeaway": "yes",
-    "website": "https://www.pizzahut.co.uk/",
-    "id": "way/106665874",
-    "mapFeature": {
-     "caption": "Pizza Hut",
-     "allowPopup": true,
-     "location": "73  Grove Road  \n  NR1 3RL <br />\n  \n  \n  ",
-     "layers": [
-      "food"
-     ]
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2912923,
-     52.6208711
-    ]
-   }
-  },
-  {
-   "type": "Feature",
    "id": "way/107045851",
    "properties": {
     "addr:city": "Norwich",
@@ -1059,6 +995,7 @@
     "addr:housenumber": "309",
     "addr:postcode": "NR2 1SY",
     "addr:street": "The Dining Terrace",
+    "alt_name": "Kentucky Fried Chicken",
     "amenity": "fast_food",
     "brand": "KFC",
     "brand:wikidata": "Q524757",
@@ -1177,6 +1114,50 @@
     "coordinates": [
      1.290881,
      52.625922
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/108866020",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "LG 05",
+    "addr:housenumber": "105",
+    "addr:postcode": "NR2 1SB",
+    "addr:street": "Saint Stephen's Arcade",
+    "amenity": "fast_food",
+    "brand": "Krispy Kreme",
+    "brand:wikidata": "Q1192805",
+    "brand:wikipedia": "en:Krispy Kreme",
+    "building": "shop",
+    "cuisine": "donut",
+    "description": "Doughnuts",
+    "fhrs:id": "915752",
+    "leasing_number": "5",
+    "level": "0",
+    "name": "Krispy Kreme",
+    "opening_hours": "Mo-Sa 08:00-19:00; Su 10:00-17:00",
+    "shop": "confectionery",
+    "start_date": "2016-09-02 10:00:00 BST",
+    "takeaway": "yes",
+    "website": "https://www.krispykreme.co.uk/",
+    "id": "way/108866020",
+    "mapFeature": {
+     "caption": "Krispy Kreme",
+     "allowPopup": true,
+     "location": "105  Saint Stephen's Arcade  \n  <strong>Level:</strong>&nbsp;0 NR2 1SB <br />\n  Doughnuts<br />\n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2913165,
+     52.6251763
     ]
    }
   },
@@ -3317,14 +3298,14 @@
     "amenity": "fast_food",
     "building": "shop",
     "cuisine": "indian",
-    "name": "Tandoori Express",
-    "opening_hours": "17:00-00:00",
-    "phone": "+44 1603 219994",
-    "phone:2": "+44 1603 219997",
-    "website": "http://www.tandoori-express.net/",
+    "fhrs:id": "911205",
+    "name": "Hot Grill",
+    "opening_hours": "Mo off; Tu-Th,Su 16:00-22:00; Fr-Sa 16:00-23:00",
+    "phone": "+44 1603 610013",
+    "website": "https://hotgrillnorwich.com/",
     "id": "way/119566561",
     "mapFeature": {
-     "caption": "Tandoori Express",
+     "caption": "Hot Grill",
      "allowPopup": true,
      "location": "28  Bishop Bridge Road  \n  NR1 4ET <br />\n  \n  \n  ",
      "layers": [
@@ -3489,6 +3470,7 @@
     "cuisine": "thai",
     "delivery": "yes",
     "email": "info@thaistreet.uk",
+    "fhrs:id": "1137546",
     "name": "THAI Street",
     "opening_hours": "Tu-Su 17:00-22:30; Mo closed",
     "phone": "+44 1603 474747",
@@ -3897,16 +3879,21 @@
     "addr:postcode": "NR4 7EH",
     "addr:street": "Colman Road",
     "amenity": "fast_food",
+    "brand": "Domino's Pizza",
+    "brand:wikidata": "Q839466",
+    "brand:wikipedia": "en:Domino's Pizza",
     "building": "shop",
     "cuisine": "pizza",
     "fhrs:id": "30266",
-    "name": "Domino's",
+    "name": "Domino's Pizza",
     "opening_hours": "11:00-23:00",
     "phone": "+44 1603 455666",
+    "short_name": "Domino's",
+    "takeaway": "yes",
     "website": "http://www.dominos.co.uk/",
     "id": "way/120682119",
     "mapFeature": {
-     "caption": "Domino's",
+     "caption": "Domino's Pizza",
      "allowPopup": true,
      "location": "88  Colman Road  \n  NR4 7EH <br />\n  \n  \n  ",
      "layers": [
@@ -3969,6 +3956,9 @@
     "addr:postcode": "NR4 7EH",
     "addr:street": "Colman Road",
     "amenity": "fast_food",
+    "brand": "Papa John's",
+    "brand:wikidata": "Q2759586",
+    "brand:wikipedia": "en:Papa John's Pizza",
     "building": "shop",
     "cuisine": "pizza",
     "fhrs:id": "747643",
@@ -3977,6 +3967,7 @@
     "opening_hours": "Mo-Fr 16:30-23:00; Sa 11:30-23:00; Su 16:00-23:00",
     "operator": "Papa John's (GB) Ltd",
     "phone": "+44 1603 504433",
+    "takeaway": "yes",
     "website": "https://www.papajohns.co.uk/",
     "id": "way/120682127",
     "mapFeature": {
@@ -4731,42 +4722,6 @@
   },
   {
    "type": "Feature",
-   "id": "way/167577804",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "95",
-    "addr:postcode": "NR2 2PE",
-    "addr:street": "Unthank Road",
-    "amenity": "fast_food",
-    "brand": "Co-op",
-    "building": "yes",
-    "cuisine": "coffee_shop",
-    "fhrs:id": "932632",
-    "name": "Caffè Nero",
-    "opening_hours": "Mo-Sa 09:00-23:00; Su 10:00-22:00",
-    "phone": "+44 1603 633729",
-    "website": "https://caffenero.com/uk/stores/norwich-unthank-road-703/",
-    "id": "way/167577804",
-    "mapFeature": {
-     "caption": "Caffè Nero",
-     "allowPopup": true,
-     "location": "95  Unthank Road  \n  NR2 2PE <br />\n  \n  \n  ",
-     "layers": [
-      "food"
-     ]
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2777175,
-     52.6250133
-    ]
-   }
-  },
-  {
-   "type": "Feature",
    "id": "way/168880548",
    "properties": {
     "addr:city": "Norwich",
@@ -4962,10 +4917,12 @@
     "addr:postcode": "NR2 1QE",
     "addr:street": "Haymarket",
     "amenity": "fast_food",
-    "building": "yes",
+    "building": "shop",
+    "building:levels": "4",
     "cuisine": "regional",
     "drive_through": "no",
     "fhrs:id": "27481",
+    "level": "0",
     "name": "West Cornwall Pasty Co",
     "phone": "+44 1844 205135",
     "takeaway": "yes",
@@ -4974,7 +4931,7 @@
     "mapFeature": {
      "caption": "West Cornwall Pasty Co",
      "allowPopup": true,
-     "location": "21  Haymarket  \n  NR2 1QE <br />\n  \n  \n  ",
+     "location": "21  Haymarket  \n  <strong>Level:</strong>&nbsp;0 NR2 1QE <br />\n  \n  \n  ",
      "layers": [
       "food"
      ]
@@ -5111,12 +5068,16 @@
     "addr:postcode": "NR1 1DW",
     "addr:street": "Prince of Wales Road",
     "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
     "building": "yes",
     "cuisine": "sandwich",
     "fhrs:id": "682955",
     "name": "Subway",
     "opening_hours": "Mo-Th 07:00-20:00; Fr 07:00-23:00; Sa 09:00-23:00; Su 10:00-20:00",
     "phone": "+44 1603 666116",
+    "takeaway": "yes",
     "website": "http://www.subway.co.uk/store-finder/store-detail.aspx?sid=453055469",
     "id": "way/314264580",
     "mapFeature": {
@@ -5224,6 +5185,7 @@
     "name": "Domino's Pizza",
     "opening_hours": "11:00-23:00",
     "phone": "+44 1603 622977",
+    "short_name": "Domino's",
     "takeaway": "yes",
     "id": "way/329618461",
     "mapFeature": {
@@ -5773,8 +5735,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     1.2303532,
-     52.6100437
+     1.2303432,
+     52.6100412
     ]
    }
   },
@@ -5813,8 +5775,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     1.2304406,
-     52.6099978
+     1.2304248,
+     52.6099986
     ]
    }
   },
@@ -6008,6 +5970,7 @@
     "building": "yes",
     "cuisine": "sandwich",
     "fhrs:id": "22345",
+    "level": "0",
     "name": "Subway",
     "source:addr": "FHRS Open Data",
     "takeaway": "yes",
@@ -6015,7 +5978,7 @@
     "mapFeature": {
      "caption": "Subway",
      "allowPopup": true,
-     "location": "2  Rampant Horse Street  \n  NR2 1QP <br />\n  \n  \n  ",
+     "location": "2  Rampant Horse Street  \n  <strong>Level:</strong>&nbsp;0 NR2 1QP <br />\n  \n  \n  ",
      "layers": [
       "food"
      ]
@@ -6039,7 +6002,7 @@
     "addr:street": "Catton Grove Road",
     "amenity": "fast_food",
     "building": "yes",
-    "fhrs:id": "1101980",
+    "fhrs:id": "1157753",
     "name": "Ali Andos Peri Peri Chicken",
     "id": "way/661752353",
     "mapFeature": {
@@ -6071,11 +6034,16 @@
     "brand": "Subway",
     "brand:wikidata": "Q244457",
     "brand:wikipedia": "en:Subway (restaurant)",
-    "building": "unit",
+    "building": "retail",
     "cuisine": "sandwich",
+    "drive_through": "no",
     "fhrs:id": "1070666",
     "name": "Subway",
+    "opening_hours": "Mo-Su 07:00-22:00",
+    "operator": "Subway IP Inc",
+    "phone": "+44 1473 862032",
     "source:addr": "FHRS Open Data",
+    "takeaway": "yes",
     "id": "way/689433091",
     "mapFeature": {
      "caption": "Subway",
@@ -6232,15 +6200,21 @@
     "addr:street": "Market Place",
     "amenity": "fast_food",
     "cuisine": "chinese",
+    "description": "Delicious Chinese takeaway with all the firm favourites including noodles, chicken balls, salt and pepper dishes, black bean dishes and more.",
     "fhrs:id": "915749",
     "name": "The China Wok & Curry Stop",
+    "opening_hours": "Mo-Sa 11:00-16:00; Su closed",
+    "phone": "+44 7577 423035",
+    "short_name": "China Wok",
+    "source:addr": "FHRS Open Data",
     "source:name": "FSA Food Hygiene Ratings Database",
     "type": "multipolygon",
+    "website": "https://www.norwich.gov.uk/directory_record/909/china_wok",
     "id": "relation/2180494",
     "mapFeature": {
      "caption": "The China Wok & Curry Stop",
      "allowPopup": true,
-     "location": "92-93  Market Place  \n  NR2 1ND <br />\n  \n  \n  ",
+     "location": "92-93  Market Place  \n  NR2 1ND <br />\n  Delicious Chinese takeaway with all the firm favourites including noodles, chicken balls, salt and pepper dishes, black bean dishes and more.<br />\n  \n  ",
      "layers": [
       "food"
      ]
@@ -6259,20 +6233,24 @@
    "id": "relation/2180495",
    "properties": {
     "addr:city": "Norwich",
-    "addr:housenumber": "Stalls 94-95",
+    "addr:housenumber": "94-95",
     "addr:postcode": "NR2 1ND",
     "addr:street": "Market Place",
     "amenity": "fast_food",
     "cuisine": "fish_and_chips",
+    "description": "Established in 1953 and widely-renowned for its tasty homemade chips, Ron's serve up cod and sausages in their own homemade batter along with hand-cut chips and cold drinks to wash it all down with.",
     "fhrs:id": "17813",
     "name": "Rons Fish & Chips",
+    "opening_hours": "Mo-Sa; Su closed",
     "source:addr": "FHRS Open Data",
+    "start_date": "1953",
     "type": "multipolygon",
+    "website": "https://www.norwich.gov.uk/directory_record/924/rons_fish_and_chips",
     "id": "relation/2180495",
     "mapFeature": {
      "caption": "Rons Fish & Chips",
      "allowPopup": true,
-     "location": "Stalls 94-95  Market Place  \n  NR2 1ND <br />\n  \n  \n  ",
+     "location": "94-95  Market Place  \n  NR2 1ND <br />\n  Established in 1953 and widely-renowned for its tasty homemade chips, Ron's serve up cod and sausages in their own homemade batter along with hand-cut chips and cold drinks to wash it all down with.<br />\n  \n  ",
      "layers": [
       "food"
      ]
@@ -6288,6 +6266,341 @@
   },
   {
    "type": "Feature",
+   "id": "relation/2181554",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "116;119",
+    "addr:postcode": "NR2 1ND",
+    "addr:street": "Market Place",
+    "amenity": "fast_food",
+    "cuisine": "regional",
+    "description": "A hearty breakfast selection featuring everything from bacon, sausages, eggs, and toast can be found at this popular stall along with burgers and cold choices including filled rolls, cakes and scones, with teas, coffees and cold drinks.",
+    "fhrs:id": "21457",
+    "name": "Debs Teas & Coffee",
+    "opening_hours": "Mo-Fr 07:00-15:00; Sa 07:00-17:00; Su closed",
+    "operator": "Debs'",
+    "short_name": "Deb's",
+    "source:addr": "FHRS Open Data",
+    "type": "multipolygon",
+    "website": "https://www.norwich.gov.uk/directory_record/907/debs",
+    "id": "relation/2181554",
+    "mapFeature": {
+     "caption": "Debs Teas & Coffee",
+     "allowPopup": true,
+     "location": "116;119  Market Place  \n  NR2 1ND <br />\n  A hearty breakfast selection featuring everything from bacon, sausages, eggs, and toast can be found at this popular stall along with burgers and cold choices including filled rolls, cakes and scones, with teas, coffees and cold drinks.<br />\n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2926428,
+     52.6285625
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "relation/2181560",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "25",
+    "addr:postcode": "NR2 1ND",
+    "addr:street": "Market Place",
+    "alt_name": "Churros for the People",
+    "amenity": "fast_food",
+    "cuisine": "spanish",
+    "description": "Get your taste of the sun with the best of Spanish street food like paella, slow-cooked stews, padron peppers and chorizo ciabattas and deli items at Norwich Market. Seating area provided.",
+    "email": "churrosandchorizo@gmail.com",
+    "fhrs:id": "1084405",
+    "name": "Churros & Chorizo",
+    "opening_hours": "Mo-Sa 09:30-15:30; Su closed",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+44 7751 770032",
+    "shop": "clothes",
+    "source:addr": "FHRS Open Data",
+    "type": "multipolygon",
+    "id": "relation/2181560",
+    "mapFeature": {
+     "caption": "Churros & Chorizo",
+     "allowPopup": true,
+     "location": "25  Market Place  \n  NR2 1ND <br />\n  Get your taste of the sun with the best of Spanish street food like paella, slow-cooked stews, padron peppers and chorizo ciabattas and deli items at Norwich Market. Seating area provided.<br />\n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2929529,
+     52.6282524
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "relation/2181563",
+   "properties": {
+    "amenity": "fast_food",
+    "cuisine": "burger;sandwich;sausage",
+    "description": "Refreshments",
+    "diet:gluten_free": "yes",
+    "diet:vegan": "only",
+    "facebook": "https://www.facebook.com/biakitchen/",
+    "fhrs:id": "839165",
+    "instagram": "https://www.instagram.com/explore/tags/biakitchen/",
+    "name": "Bia Vegan Diner",
+    "opening_hours": "Mo-Sa 10:00-16:00; Su closed",
+    "shop": "refreshments",
+    "type": "multipolygon",
+    "website": "http://biavegandiner.co.uk/",
+    "id": "relation/2181563",
+    "mapFeature": {
+     "caption": "Bia Vegan Diner",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  Refreshments<br />\n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2927172,
+     52.628366
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "relation/2181595",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "74-75",
+    "addr:postcode": "NR2 1ND",
+    "addr:street": "Market Place",
+    "amenity": "fast_food",
+    "cuisine": "turkish",
+    "description": "Homemade Turkish food including baklava, breakfast pastries as well as burgers and toasted sandwiches.",
+    "fhrs:id": "1023662",
+    "name": "Delight",
+    "opening_hours": "Mo-Sa; Su closed",
+    "shop": "refreshments",
+    "source:addr": "FHRS Open Data",
+    "strapline": "Breakfast & Kebab",
+    "type": "multipolygon",
+    "website": "https://www.norwich.gov.uk/directory_record/2033/delight",
+    "id": "relation/2181595",
+    "mapFeature": {
+     "caption": "Delight",
+     "allowPopup": true,
+     "location": "74-75  Market Place  \n  NR2 1ND <br />\n  Homemade Turkish food including baklava, breakfast pastries as well as burgers and toasted sandwiches.<br />\n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2927207,
+     52.6284251
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "relation/2889687",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "23",
+    "addr:postcode": "NR2 1ND",
+    "addr:street": "Market Place",
+    "amenity": "fast_food",
+    "building": "stall",
+    "cuisine": "street_food",
+    "description": "Fresh Japanese-inspired streetfood including beautiful bao/hirata buns with a range of fillings including pork belly, katsu chicken and more, don buri rice bowls, sushi, and freshly-made delicate dumplings plus a whole range of specials.",
+    "fhrs:id": "977311",
+    "name": "Bun Box",
+    "opening_hours": "Tu-Sa 11:00-15:00; Su-Mo closed",
+    "type": "multipolygon",
+    "website": "https://www.instagram.com/bun_box_/",
+    "id": "relation/2889687",
+    "mapFeature": {
+     "caption": "Bun Box",
+     "allowPopup": true,
+     "location": "23  Market Place  \n  NR2 1ND <br />\n  Fresh Japanese-inspired streetfood including beautiful bao/hirata buns with a range of fillings including pork belly, katsu chicken and more, don buri rice bowls, sushi, and freshly-made delicate dumplings plus a whole range of specials.<br />\n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2928586,
+     52.6282556
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "relation/2889766",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "22",
+    "addr:postcode": "NR2 1ND",
+    "addr:street": "Market Place",
+    "amenity": "fast_food",
+    "building": "stall",
+    "cuisine": "juice",
+    "description": "A wide choice of freshly squeezed and cold-pressed juices and smoothies - each ingredient chosen with care to ensure a perfect blend.",
+    "fhrs:id": "972367",
+    "name": "Fresh",
+    "opening_hours": "Tu-Sa 11:00-15:00; Su-Mo closed",
+    "type": "multipolygon",
+    "website": "https://www.norwich.gov.uk/directory_record/1882/fresh",
+    "id": "relation/2889766",
+    "mapFeature": {
+     "caption": "Fresh",
+     "allowPopup": true,
+     "location": "22  Market Place  \n  NR2 1ND <br />\n  A wide choice of freshly squeezed and cold-pressed juices and smoothies - each ingredient chosen with care to ensure a perfect blend.<br />\n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2928186,
+     52.6282569
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "relation/3152333",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "79",
+    "addr:postcode": "NR2 1ND",
+    "addr:street": "Market Place",
+    "amenity": "fast_food",
+    "building": "stall",
+    "cuisine": "street_food",
+    "description": "Wonderful Shanghai and Singapore-style street food cooked freshly by Alan including favourites like chicken katsu and crispy chicken and Oden skewered seafood and meatballs",
+    "fhrs:id": "964953",
+    "name": "A Taste of Shanghai",
+    "opening_hours": "Mo-Sa 11:00-17:00; Su closed",
+    "payment:credit_cards": "no",
+    "payment:debit_cards": "no",
+    "type": "multipolygon",
+    "website": "https://www.norwich.gov.uk/directory_record/2180/a_taste_of_shanghai",
+    "id": "relation/3152333",
+    "mapFeature": {
+     "caption": "A Taste of Shanghai",
+     "allowPopup": true,
+     "location": "79  Market Place  \n  NR2 1ND <br />\n  Wonderful Shanghai and Singapore-style street food cooked freshly by Alan including favourites like chicken katsu and crispy chicken and Oden skewered seafood and meatballs<br />\n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.292632,
+     52.6284488
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "relation/3152334",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "84",
+    "addr:postcode": "NR2 1ND",
+    "addr:street": "Market Place",
+    "amenity": "fast_food",
+    "building": "stall",
+    "cuisine": "caribbean",
+    "description": "Coral Bay is a Husband and wife team, specialising in homecooked tasty Jamaican Cuisine serving up dishes like Jerk Chicken, Curried Goat, Vegan Sweet potato curry and Jamaican patties daily along with a selection of weekly specials.",
+    "fhrs:id": "1084398",
+    "name": "Coral Bay",
+    "opening_hours": "Mo-Sa 11:00-16:00; Su closed",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+44 7947 702176",
+    "type": "multipolygon",
+    "website": "https://m.facebook.com/CoralBayNorwich",
+    "id": "relation/3152334",
+    "mapFeature": {
+     "caption": "Coral Bay",
+     "allowPopup": true,
+     "location": "84  Market Place  \n  NR2 1ND <br />\n  Coral Bay is a Husband and wife team, specialising in homecooked tasty Jamaican Cuisine serving up dishes like Jerk Chicken, Curried Goat, Vegan Sweet potato curry and Jamaican patties daily along with a selection of weekly specials.<br />\n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2929515,
+     52.6284362
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "relation/3152337",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "121",
+    "addr:postcode": "NR2 1ND",
+    "addr:street": "Market Place",
+    "alt_name": "B's Ts",
+    "amenity": "fast_food",
+    "building": "stall",
+    "cuisine": "regional",
+    "description": "Breakfasts, burgers, hot dogs, BLTs and filled rolls can all be found on this stall along with hot and cold drinks.",
+    "fhrs:id": "15631",
+    "name": "Bs Ts Snack Bar",
+    "opening_hours": "Mo-Sa 07:00-16:00; Su closed",
+    "operator": "BJs",
+    "type": "multipolygon",
+    "id": "relation/3152337",
+    "mapFeature": {
+     "caption": "Bs Ts Snack Bar",
+     "allowPopup": true,
+     "location": "121  Market Place  \n  NR2 1ND <br />\n  Breakfasts, burgers, hot dogs, BLTs and filled rolls can all be found on this stall along with hot and cold drinks.<br />\n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2927542,
+     52.6285692
+    ]
+   }
+  },
+  {
+   "type": "Feature",
    "id": "relation/3152343",
    "properties": {
     "addr:city": "Norwich",
@@ -6295,20 +6608,23 @@
     "addr:housenumber": "120",
     "addr:postcode": "NR2 1ND",
     "addr:street": "Market Place",
+    "alt_name": "Georges Jacket Spuds",
     "amenity": "fast_food",
     "building": "stall",
     "cuisine": "jacket_potato",
+    "description": "Mariana has taken over Norwich's best jacket potatoes with a whole array of fillings at this friendly stall. It is also the home of the 'breakfast in a box' and as if that's not tasty enough, you could even try a breakfast on a jacket potato!",
     "fhrs:id": "1063149",
     "name": "George's Jacket Spuds",
+    "opening_hours": "Mo-Sa 08:00-17:00; Su 08:00-14:30",
     "operator": "George's",
-    "ref": "120",
     "strapline": "and Sandwiches",
     "type": "multipolygon",
+    "website": "https://www.facebook.com/pages/Georges-Jacket-spuds/202583806443097",
     "id": "relation/3152343",
     "mapFeature": {
      "caption": "George's Jacket Spuds",
      "allowPopup": true,
-     "location": "120  Market Place  \n  NR2 1ND <br />\n  \n  \n  ",
+     "location": "120  Market Place  \n  NR2 1ND <br />\n  Mariana has taken over Norwich's best jacket potatoes with a whole array of fillings at this friendly stall. It is also the home of the 'breakfast in a box' and as if that's not tasty enough, you could even try a breakfast on a jacket potato!<br />\n  \n  ",
      "layers": [
       "food"
      ]
@@ -6334,15 +6650,18 @@
     "amenity": "fast_food",
     "building": "stall",
     "cuisine": "roast",
+    "description": "Succulent freshly-cooked pork sourced from Norfolk and Suffolk with all the trimmings is the fayre from this delicious stall. Crispy crunchy crackling, apple sauce, and fresh bread rolls are all on offer along with beef and turkey options too.",
     "fhrs:id": "15646",
     "name": "Henry's Hog Roast",
+    "opening_hours": "Mo-Sa; Su closed",
     "operator": "Henry's",
     "type": "multipolygon",
+    "website": "https://www.norwich.gov.uk/directory_record/926/henrys_hog_roast",
     "id": "relation/3152344",
     "mapFeature": {
      "caption": "Henry's Hog Roast",
      "allowPopup": true,
-     "location": "81  Market Place  \n  NR2 1ND <br />\n  \n  \n  ",
+     "location": "81  Market Place  \n  NR2 1ND <br />\n  Succulent freshly-cooked pork sourced from Norfolk and Suffolk with all the trimmings is the fayre from this delicious stall. Crispy crunchy crackling, apple sauce, and fresh bread rolls are all on offer along with beef and turkey options too.<br />\n  \n  ",
      "layers": [
       "food"
      ]
@@ -6358,6 +6677,44 @@
   },
   {
    "type": "Feature",
+   "id": "relation/3152347",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "76",
+    "addr:postcode": "NR2 1ND",
+    "addr:street": "Market Place",
+    "amenity": "fast_food",
+    "building": "stall",
+    "cuisine": "indian",
+    "description": "A range of Indian curries fresh from the Punjab including lamb and chicken biryani served with rice, samosas and more",
+    "fhrs:id": "991859",
+    "name": "A Taste of Punjab",
+    "opening_hours": "Mo-Sa 11:00-16:00; Su closed",
+    "payment:credit_cards": "no",
+    "payment:debit_cards": "no",
+    "type": "multipolygon",
+    "website": "https://www.norwich.gov.uk/directory_record/2166/a_taste_of_punjab",
+    "id": "relation/3152347",
+    "mapFeature": {
+     "caption": "A Taste of Punjab",
+     "allowPopup": true,
+     "location": "76  Market Place  \n  NR2 1ND <br />\n  A range of Indian curries fresh from the Punjab including lamb and chicken biryani served with rice, samosas and more<br />\n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2926302,
+     52.6284281
+    ]
+   }
+  },
+  {
+   "type": "Feature",
    "id": "relation/3152352",
    "properties": {
     "addr:city": "Norwich",
@@ -6367,16 +6724,24 @@
     "addr:street": "Market Place",
     "amenity": "fast_food",
     "building": "stall",
+    "cuisine": "lasagne",
+    "description": "A delicious variety of lasagnes on offer either by the portion or trays cooked to order. Traditional and vegetarian varieties are on offer along with salmon, spicy pork and more.",
+    "email": "paolo.grazzini2@gmail.com",
     "fhrs:id": "928650",
     "name": "Lasagneria",
-    "ref": "175",
+    "opening_hours": "Tu-Fr 11:30-15:30; Sa 11:30-16:30; Su-Mo closed",
+    "payment:cash": "yes",
+    "payment:credit_cards": "no",
+    "payment:debit_cards": "no",
+    "phone": "+44 7935 807519",
+    "start_date": "2016-12",
     "type": "multipolygon",
     "website": "https://www.facebook.com/lasagnerianorwich/",
     "id": "relation/3152352",
     "mapFeature": {
      "caption": "Lasagneria",
      "allowPopup": true,
-     "location": "175  Market Place  \n  NR2 1NE <br />\n  \n  \n  ",
+     "location": "175  Market Place  \n  NR2 1NE <br />\n  A delicious variety of lasagnes on offer either by the portion or trays cooked to order. Traditional and vegetarian varieties are on offer along with salmon, spicy pork and more.<br />\n  \n  ",
      "layers": [
       "food"
      ]
@@ -6402,16 +6767,18 @@
     "amenity": "fast_food",
     "building": "stall",
     "cuisine": "chips",
+    "description": "Hand-cut chips fried in beef dripping for a uniquely delicious taste are the speciality of this stall. Curry sauce and gravy is available as a tasty accompaniment along with sausages and rolls.",
     "fhrs:id": "932631",
     "name": "Lucy's Chips",
+    "opening_hours": "Mo-Sa 10:00-16:00; Su closed",
     "operator": "Lucy's",
-    "ref": "114",
     "type": "multipolygon",
+    "website": "https://www.norwich.gov.uk/directory_record/911/lucys_chips",
     "id": "relation/3152354",
     "mapFeature": {
      "caption": "Lucy's Chips",
      "allowPopup": true,
-     "location": "114  Market Place  \n  NR2 1ND <br />\n  \n  \n  ",
+     "location": "114  Market Place  \n  NR2 1ND <br />\n  Hand-cut chips fried in beef dripping for a uniquely delicious taste are the speciality of this stall. Curry sauce and gravy is available as a tasty accompaniment along with sausages and rolls.<br />\n  \n  ",
      "layers": [
       "food"
      ]
@@ -6436,16 +6803,20 @@
     "addr:street": "Market Place",
     "amenity": "fast_food",
     "building": "stall",
+    "cuisine": "sausage",
+    "description": "Fantastically tasty homemade sausages are served here to be enjoyed best in a bun with a choice of accompaniments including homemade ketchup or homemade smoked paprika and red pepper chilli sauce or just classicly with onions and cheese.",
     "fhrs:id": "1080666",
     "name": "The All Electric Banger Stop",
+    "opening_hours": "Mo-Sa 12:00-15:00; Su closed",
     "operator": "Banger Stop",
     "start_date": "1979",
     "type": "multipolygon",
+    "website": "https://www.norwich.gov.uk/directory_record/925/the_all_electric_banger_stop",
     "id": "relation/3152360",
     "mapFeature": {
      "caption": "The All Electric Banger Stop",
      "allowPopup": true,
-     "location": "80  Market Place  \n  NR2 1ND <br />\n  \n  \n  ",
+     "location": "80  Market Place  \n  NR2 1ND <br />\n  Fantastically tasty homemade sausages are served here to be enjoyed best in a bun with a choice of accompaniments including homemade ketchup or homemade smoked paprika and red pepper chilli sauce or just classicly with onions and cheese.<br />\n  \n  ",
      "layers": [
       "food"
      ]
@@ -6461,77 +6832,6 @@
   },
   {
    "type": "Feature",
-   "id": "relation/3152361",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "61",
-    "addr:postcode": "NR2 1ND",
-    "addr:street": "Market Place",
-    "amenity": "fast_food",
-    "building": "stall",
-    "cuisine": "chips",
-    "fhrs:id": "932630",
-    "name": "The Chip Stall",
-    "operator": "North's",
-    "ref": "61",
-    "type": "multipolygon",
-    "id": "relation/3152361",
-    "mapFeature": {
-     "caption": "The Chip Stall",
-     "allowPopup": true,
-     "location": "61  Market Place  \n  NR2 1ND <br />\n  \n  \n  ",
-     "layers": [
-      "food"
-     ]
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2927391,
-     52.6283861
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "relation/3152363",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "180",
-    "addr:postcode": "NR2 1NE",
-    "addr:street": "Market Place",
-    "amenity": "fast_food",
-    "building": "stall",
-    "cuisine": "ice_cream",
-    "fhrs:id": "690201",
-    "name": "The Ice Cream Parlour",
-    "operator": "Ice Cream Parlour",
-    "ref": "180",
-    "strapline": "Whippy & Local Dairy Ice Cream",
-    "type": "multipolygon",
-    "id": "relation/3152363",
-    "mapFeature": {
-     "caption": "The Ice Cream Parlour",
-     "allowPopup": true,
-     "location": "180  Market Place  \n  NR2 1NE <br />\n  \n  \n  ",
-     "layers": [
-      "food"
-     ]
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2927319,
-     52.6287545
-    ]
-   }
-  },
-  {
-   "type": "Feature",
    "id": "relation/3152364",
    "properties": {
     "addr:city": "Norwich",
@@ -6542,15 +6842,20 @@
     "amenity": "fast_food",
     "building": "stall",
     "cuisine": "mushy_peas",
+    "description": "It sells its own fresh homemade mushy peas along with tasty mint sauce, assorted pies, bacon rolls, old-fashioned Westler burgers, hot dogs, hot drinks and more.",
+    "email": "anita.1@ntlworld.com",
     "fhrs:id": "15634",
     "name": "The Mushy Pea Stall",
-    "ref": "115",
+    "opening_hours": "Mo-Fr 10:00-16:00; Sa 10:00-16:30; Su closed",
+    "phone": "+44 7776 410250",
+    "start_date": "1949",
     "type": "multipolygon",
+    "website": "https://www.facebook.com/stall115norwichmarket/",
     "id": "relation/3152364",
     "mapFeature": {
      "caption": "The Mushy Pea Stall",
      "allowPopup": true,
-     "location": "115  Market Place  \n  NR2 1ND <br />\n  \n  \n  ",
+     "location": "115  Market Place  \n  NR2 1ND <br />\n  It sells its own fresh homemade mushy peas along with tasty mint sauce, assorted pies, bacon rolls, old-fashioned Westler burgers, hot dogs, hot drinks and more.<br />\n  \n  ",
      "layers": [
       "food"
      ]
@@ -6561,6 +6866,266 @@
     "coordinates": [
      1.2927123,
      52.6285498
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "relation/3154465",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "34-35;40-41",
+    "addr:postcode": "NR2 1ND",
+    "addr:street": "Market Place",
+    "amenity": "fast_food",
+    "building": "stall",
+    "cuisine": "falafel",
+    "description": "You can find falafels with a huge range of creative accompaniments including halloumi and pickled vegetables, and an innovative vegetarian menu on the other offering its signature kimchi and rice dishes alongside aubergine burgers and more.",
+    "fhrs:id": "924808",
+    "name": "Falafel and Friends; Falafel and More",
+    "opening_hours": "Mo-Sa 11:00-16:00; Su closed",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "type": "multipolygon",
+    "website": "https://www.norwich.gov.uk/directory_record/1851/falafel_and_friends_and_falafel_and_more",
+    "id": "relation/3154465",
+    "mapFeature": {
+     "caption": "Falafel and Friends; Falafel and More",
+     "allowPopup": true,
+     "location": "34-35;40-41  Market Place  \n  NR2 1ND <br />\n  You can find falafels with a huge range of creative accompaniments including halloumi and pickled vegetables, and an innovative vegetarian menu on the other offering its signature kimchi and rice dishes alongside aubergine burgers and more.<br />\n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2927105,
+     52.6283142
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "relation/9811001",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "152",
+    "addr:postcode": "NR2 1NE",
+    "addr:street": "Market Place",
+    "amenity": "fast_food",
+    "cuisine": "chilean",
+    "description": "Authentic Chilean food based on family recipes passed down through generations. Empanadas, ensaladas and much more, also daily lunch time specials",
+    "fhrs:id": "977302",
+    "name": "Cocina Mia",
+    "opening_hours": "Tu-Sa 11:30-15:00; Su-Mo closed",
+    "source:addr": "FHRS Open Data",
+    "strapline": "The taste of Chile",
+    "type": "multipolygon",
+    "website": "https://www.facebook.com/cocinamianorwich",
+    "id": "relation/9811001",
+    "mapFeature": {
+     "caption": "Cocina Mia",
+     "allowPopup": true,
+     "location": "152  Market Place  \n  NR2 1NE <br />\n  Authentic Chilean food based on family recipes passed down through generations. Empanadas, ensaladas and much more, also daily lunch time specials<br />\n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2928795,
+     52.628664
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "relation/9812452",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "91;104",
+    "addr:postcode": "NR2 1ND",
+    "addr:street": "Market Place",
+    "amenity": "fast_food",
+    "cuisine": "italian",
+    "description": "Bruno and Rocco cook up delicious fresh pizzas and calzone, arancini and a daily list of beautiful pasta specials.",
+    "email": "info@sicilyvan.co.uk",
+    "fhrs:id": "1084395",
+    "name": "Sicily Market",
+    "opening_hours": "Mo-Sa; Su closed",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+44 7742 152690",
+    "source:addr": "FHRS Open Data",
+    "type": "multipolygon",
+    "website": "https://www.sicilyvan.co.uk/",
+    "id": "relation/9812452",
+    "mapFeature": {
+     "caption": "Sicily Market",
+     "allowPopup": true,
+     "location": "91;104  Market Place  \n  NR2 1ND <br />\n  Bruno and Rocco cook up delicious fresh pizzas and calzone, arancini and a daily list of beautiful pasta specials.<br />\n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2929628,
+     52.6284877
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "relation/9812453",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "32-33",
+    "addr:postcode": "NR2 1ND",
+    "addr:street": "Market Place",
+    "amenity": "fast_food",
+    "cuisine": "soup",
+    "description": "Fresh fusion noodle soups created in meat and vegetarian variations packed with fresh vegetables and more.",
+    "fhrs:id": "991862",
+    "name": "Norwich Fresh",
+    "opening_hours": "Tu-Sa 11:00-15:00; Su-Mo closed",
+    "source:addr": "FHRS Open Data",
+    "type": "multipolygon",
+    "website": "https://www.norwich.gov.uk/directory_record/2181/norwich_fresh",
+    "id": "relation/9812453",
+    "mapFeature": {
+     "caption": "Norwich Fresh",
+     "allowPopup": true,
+     "location": "32-33  Market Place  \n  NR2 1ND <br />\n  Fresh fusion noodle soups created in meat and vegetarian variations packed with fresh vegetables and more.<br />\n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2928443,
+     52.6282973
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "relation/9812455",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "60-61",
+    "addr:postcode": "NR2 1ND",
+    "addr:street": "Market Place",
+    "alt_name": "Lucy's Chip Stall",
+    "amenity": "fast_food",
+    "building": "stall",
+    "cuisine": "chips",
+    "description": "Traditional Lucy's Chips Stalls on Norwich Market established Since 1971 frying in Beef Dripping and Vegetable Oil using new fresh cut potatoes, serving the highest quality.",
+    "email": "lucysfishandchips@gmail.com",
+    "fhrs:id": "932630",
+    "name": "Lucys Chips",
+    "opening_hours": "Mo-Sa 10:00-16:00; Su 11:00-15:00",
+    "operator": "North's",
+    "phone": "+44 1603 622055",
+    "source:addr": "FHRS Open Data",
+    "type": "multipolygon",
+    "website": "https://en-gb.facebook.com/lucyschips114norwichmarket/",
+    "id": "relation/9812455",
+    "mapFeature": {
+     "caption": "Lucys Chips",
+     "allowPopup": true,
+     "location": "60-61  Market Place  \n  NR2 1ND <br />\n  Traditional Lucy's Chips Stalls on Norwich Market established Since 1971 frying in Beef Dripping and Vegetable Oil using new fresh cut potatoes, serving the highest quality.<br />\n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2927191,
+     52.6283868
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "relation/9812456",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "21",
+    "addr:postcode": "NR2 1ND",
+    "addr:street": "Market Place",
+    "amenity": "fast_food",
+    "cuisine": "indian",
+    "description": "All vegetarian Indian curries and snacks lovingly prepared by Jas including chickpea and red kidney bean curry, samosas, bhajis, pakoras and more, all served with tantalisingly fresh sauces. Seating area provided.",
+    "fhrs:id": "927044",
+    "name": "Indian Feast",
+    "opening_hours": "Tu-Sa 11:00-15:00; Su-Mo closed",
+    "source:addr": "FHRS Open Data",
+    "strapline": "All Kinds of Indian snacks",
+    "type": "multipolygon",
+    "website": "https://www.norwich.gov.uk/directory_record/1885/indian_feast",
+    "id": "relation/9812456",
+    "mapFeature": {
+     "caption": "Indian Feast",
+     "allowPopup": true,
+     "location": "21  Market Place  \n  NR2 1ND <br />\n  All vegetarian Indian curries and snacks lovingly prepared by Jas including chickpea and red kidney bean curry, samosas, bhajis, pakoras and more, all served with tantalisingly fresh sauces. Seating area provided.<br />\n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2927039,
+     52.6282627
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "relation/9814518",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "172-173",
+    "addr:postcode": "NR2 1NE",
+    "addr:street": "Market Place",
+    "amenity": "fast_food",
+    "cuisine": "asian",
+    "description": "An ever changing menu of authentic deliciousness. Pad Thai, Massaman curries and much much more are cooked freshly taking themes and inspiration from Thailand, Cambodia, Burma and beyond. Seating area provided or take away.",
+    "fhrs:id": "998636",
+    "name": "Tasty House",
+    "opening_hours": "Mo-Sa; Su closed",
+    "source:addr": "FHRS Open Data",
+    "strapline": "Asian Street Food Emporium",
+    "type": "multipolygon",
+    "website": "https://www.norwich.gov.uk/directory_record/1911/tasty_house_south_east_asian_streefood_emporium",
+    "id": "relation/9814518",
+    "mapFeature": {
+     "caption": "Tasty House",
+     "allowPopup": true,
+     "location": "172-173  Market Place  \n  NR2 1NE <br />\n  An ever changing menu of authentic deliciousness. Pad Thai, Massaman curries and much much more are cooked freshly taking themes and inspiration from Thailand, Cambodia, Burma and beyond. Seating area provided or take away.<br />\n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2928849,
+     52.6287267
     ]
    }
   }

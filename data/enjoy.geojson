@@ -391,12 +391,12 @@
    "type": "Feature",
    "id": "node/2538075187",
    "properties": {
-    "FIXME": "Needs to be positioned based on survey",
     "addr:city": "Norwich",
     "addr:country": "GB",
     "addr:postcode": "NR4 6EP",
     "addr:street": "Ipswich Road",
     "email": "spirit.norwich@ihg.com",
+    "fixme": "Needs to be positioned based on survey",
     "leisure": "fitness_centre",
     "name": "Spirit Health Club",
     "opening_hours": "Mo-Fr 06:30-22:00; Sa-Su 07:00-22:00",
@@ -1350,15 +1350,20 @@
    "type": "Feature",
    "id": "node/5835963848",
    "properties": {
-    "leisure": "yes",
+    "addr:city": "Norwich",
+    "addr:housename": "Guildhall",
+    "addr:postcode": "NR2 1JS",
+    "addr:street": "Gaol Hill",
+    "leisure": "escape_game",
     "level": "-1;2",
     "name": "Escape Games at Norwich Guildhall",
     "website": "http://historymysterygame.com/escape-games/norwich-guildhall/",
+    "wheelchair": "no",
     "id": "node/5835963848",
     "mapFeature": {
      "caption": "Escape Games at Norwich Guildhall",
      "allowPopup": true,
-     "location": "  \n  <strong>Level:</strong>&nbsp;-1;2 <br />\n  \n  \n  ",
+     "location": " Gaol Hill  \n  <strong>Level:</strong>&nbsp;-1;2 NR2 1JS <br />\n  \n  NO WHEELCHAIR ACCESS \n  ",
      "layers": [
       "enjoy"
      ]
@@ -2568,7 +2573,7 @@
     "opening_hours": "Mo-Fr 09:00-22:00; Sa-Su 09:00-17:00",
     "phone": "+44 1603 568823",
     "sport": "multi;badminton;squash;table_tennis;football;pickleball;fitness;mixed_martial_arts",
-    "website": "www.wensumsports.com",
+    "website": "https://wensumsports.com/",
     "id": "way/32087992",
     "mapFeature": {
      "caption": "Wensum Sports Centre Charitable Association",
@@ -2799,8 +2804,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     1.2856802,
-     52.6415395
+     1.2857513,
+     52.6415238
     ]
    }
   },
@@ -3460,14 +3465,17 @@
     "addr:postcode": "NR1 1XA",
     "addr:street": "Wherry Road",
     "amenity": "cinema",
+    "brand": "Odeon",
+    "brand:wikidata": "Q6127470",
+    "brand:wikipedia": "en:Odeon Cinemas",
     "building": "yes",
     "fhrs:id": "84059",
-    "name": "Odeon Norwich",
+    "name": "Odeon",
     "website": "https://www.odeon.co.uk/",
     "wikidata": "Q39413422",
     "id": "way/48579750",
     "mapFeature": {
-     "caption": "Odeon Norwich",
+     "caption": "Odeon",
      "allowPopup": true,
      "location": " Wherry Road  \n  NR1 1XA <br />\n  \n  \n  ",
      "layers": [
@@ -4724,6 +4732,8 @@
     "addr:housenumber": "5a",
     "addr:postcode": "NR5 8PE",
     "addr:street": "Guardian Road",
+    "brand": "American Golf",
+    "brand:wikidata": "Q62657494",
     "building": "retail",
     "name": "American Golf",
     "shop": "sports",
@@ -4860,10 +4870,13 @@
    "type": "Feature",
    "id": "way/100168534",
    "properties": {
+    "access": "yes",
+    "height": "20",
     "leisure": "garden",
+    "name": "Castle Gadens",
     "id": "way/100168534",
     "mapFeature": {
-     "caption": "way/100168534",
+     "caption": "Castle Gadens",
      "allowPopup": true,
      "location": "  \n  <br />\n  \n  \n  ",
      "layers": [
@@ -5836,6 +5849,7 @@
     "addr:street": "Saint Mary's Works",
     "building": "yes",
     "email": "info@phoenixgymnorwich.co.uk",
+    "fhrs:id": "661385",
     "leisure": "fitness_centre",
     "name": "Phoenix Gym",
     "opening_hours": "Mo-Fr 06:00-22:00; Sa 09:00-18:00; Su 09:00-15:00",
@@ -5982,8 +5996,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     1.2663437,
-     52.643209
+     1.2663491,
+     52.6432449
     ]
    }
   },
@@ -6031,8 +6045,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     1.2666117,
-     52.6460201
+     1.2666144,
+     52.6460592
     ]
    }
   },
@@ -6080,8 +6094,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     1.2661318,
-     52.6460081
+     1.2661237,
+     52.6460503
     ]
    }
   },
@@ -6406,6 +6420,38 @@
   },
   {
    "type": "Feature",
+   "id": "way/114804311",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "43a",
+    "addr:postcode": "NR2 2HN",
+    "addr:street": "Newmarket Road",
+    "building": "yes",
+    "dance:teaching": "yes",
+    "leisure": "dance",
+    "name": "Guildhall School of Dancing",
+    "phone": "+44 1603 626815",
+    "id": "way/114804311",
+    "mapFeature": {
+     "caption": "Guildhall School of Dancing",
+     "allowPopup": true,
+     "location": "43a  Newmarket Road  \n  NR2 2HN <br />\n  \n  \n  ",
+     "layers": [
+      "enjoy"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2826362,
+     52.6200576
+    ]
+   }
+  },
+  {
+   "type": "Feature",
    "id": "way/114957174",
    "properties": {
     "leisure": "pitch",
@@ -6450,6 +6496,30 @@
     "coordinates": [
      1.2220111,
      52.6426098
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/116106271",
+   "properties": {
+    "leisure": "park",
+    "name": "Sloughbottom Park",
+    "id": "way/116106271",
+    "mapFeature": {
+     "caption": "Sloughbottom Park",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "enjoy"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2674143,
+     52.6455319
     ]
    }
   },
@@ -9013,20 +9083,27 @@
     "brand": "Cinema City",
     "brand:wikidata": "Q543651",
     "brand:wikipedia": "en:Cinema City International",
-    "building": "yes",
+    "building": "commercial",
     "email": "cinemacity@picturehouses.co.uk",
     "name": "Cinema City",
     "operator": "Picturehouse",
     "owner": "Cineworld",
+    "phone": "0871 902 5747",
+    "screen": "3",
+    "source": "local knowledge",
+    "toilets": "customers",
+    "toilets:position": "Male and Female toilets on basement level. Fully accessible separate toilet on the top floor. Both accessible by lift.",
+    "toilets:wheelchair": "yes",
     "website": "http://www.picturehouses.co.uk/cinema/cinema_city/",
     "wheelchair": "yes",
+    "wheelchair:description": "Entrance from St Andrews Hill courtyard. Take lift to box office (low level counter), screens (removeable seats if booked) and toilets. Guide dogs welcome. Infrared receiving equipment in all screens. Autism-Friendly Screenings",
     "wikidata": "Q7061476",
     "wikipedia": "en:Norwich Cinema City",
     "id": "way/170318604",
     "mapFeature": {
      "caption": "Cinema City",
      "allowPopup": true,
-     "location": " Saint Andrews Street  \n  NR2 4AD <br />\n  \n  Wheelchair accessible \n  ",
+     "location": " Saint Andrews Street  \n  NR2 4AD <br />\n  \n  Wheelchair accessible \n  Entrance from St Andrews Hill courtyard. Take lift to box office (low level counter), screens (removeable seats if booked) and toilets. Guide dogs welcome. Infrared receiving equipment in all screens. Autism-Friendly Screenings",
      "layers": [
       "enjoy"
      ]
@@ -9064,29 +9141,6 @@
     "coordinates": [
      1.2750899,
      52.6185144
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/177696186",
-   "properties": {
-    "leisure": "recreation_ground",
-    "id": "way/177696186",
-    "mapFeature": {
-     "caption": "way/177696186",
-     "allowPopup": true,
-     "location": "  \n  <br />\n  \n  \n  ",
-     "layers": [
-      "enjoy"
-     ]
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2783327,
-     52.6190333
     ]
    }
   },
@@ -11485,7 +11539,7 @@
    "type": "Feature",
    "id": "way/310644649",
    "properties": {
-    "leisure": "pitch",
+    "leisure": "recreation_ground",
     "name": "Broadlands Air Rifle Club",
     "opening_hours": "Sa 13:00-sunset; Su-Fr off",
     "shooting": "range",
@@ -11853,8 +11907,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     1.2942333,
-     52.6435367
+     1.2942602,
+     52.6434363
     ]
    }
   },
@@ -11878,8 +11932,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     1.291507,
-     52.6423629
+     1.2912771,
+     52.6423468
     ]
    }
   },
@@ -12627,7 +12681,7 @@
    "type": "Feature",
    "id": "way/348026935",
    "properties": {
-    "leisure": "pitch",
+    "leisure": "recreation_ground",
     "surface": "grass",
     "id": "way/348026935",
     "mapFeature": {
@@ -14942,7 +14996,7 @@
     "type": "Point",
     "coordinates": [
      1.2833456,
-     52.6417372
+     52.6417475
     ]
    }
   },
@@ -17317,8 +17371,8 @@
     "addr:housenumber": "30",
     "addr:postcode": "NR1 2QW",
     "addr:street": "Trafford Road",
+    "club": "sport",
     "fhrs:id": "74534",
-    "leisure": "club",
     "name": "Victoria Bowling Club",
     "sport": "bowls",
     "id": "way/697816544",
@@ -17359,38 +17413,6 @@
     "coordinates": [
      1.180532,
      52.6630969
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/699370560",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housenumber": "17",
-    "addr:postcode": "NR3 1RB",
-    "addr:street": "Upper King Street",
-    "building": "yes",
-    "fhrs:id": "75115",
-    "leisure": "club",
-    "name": "The Norfolk Club",
-    "source": "Bing",
-    "website": "https://www.thenorfolkclub.co.uk/",
-    "id": "way/699370560",
-    "mapFeature": {
-     "caption": "The Norfolk Club",
-     "allowPopup": true,
-     "location": "17  Upper King Street  \n  NR3 1RB <br />\n  \n  \n  ",
-     "layers": [
-      "enjoy"
-     ]
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.29916,
-     52.6298222
     ]
    }
   },
@@ -17520,6 +17542,155 @@
     "coordinates": [
      1.2585557,
      52.6604296
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/705501211",
+   "properties": {
+    "leisure": "pitch",
+    "sport": "soccer",
+    "id": "way/705501211",
+    "mapFeature": {
+     "caption": "way/705501211",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "enjoy"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2940142,
+     52.6437181
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/706461047",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "Unit 19",
+    "addr:housenumber": "19",
+    "addr:place": "Sweetbriar Industrial Estate",
+    "addr:postcode": "NR3 2BX",
+    "addr:street": "Page Road",
+    "building": "commercial",
+    "email": "imogen@imogenclarke.co.uk",
+    "leisure": "fitness_centre",
+    "name": "Inspire-PT",
+    "phone": "+44 7502 215097",
+    "source": "Bing",
+    "website": "http://inspire-pt.co.uk/",
+    "id": "way/706461047",
+    "mapFeature": {
+     "caption": "Inspire-PT",
+     "allowPopup": true,
+     "location": "19  Page Road  \n  NR3 2BX <br />\n  \n  \n  ",
+     "layers": [
+      "enjoy"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2625549,
+     52.644458
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/706461053",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "Tower Fitness Gym",
+    "addr:housenumber": "12",
+    "addr:place": "Sweet Briar Industrial Estate",
+    "addr:postcode": "NR3 2BX",
+    "addr:street": "Page Road",
+    "alt_name": "Tower Fitness Gym",
+    "building": "commercial",
+    "email": "info@tower-ftiness.co.uk",
+    "leisure": "fitness_centre",
+    "name": "Tower Fitness",
+    "website": "https://www.tower-fitness.co.uk/",
+    "id": "way/706461053",
+    "mapFeature": {
+     "caption": "Tower Fitness",
+     "allowPopup": true,
+     "location": "12  Page Road  \n  NR3 2BX <br />\n  \n  \n  ",
+     "layers": [
+      "enjoy"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2631577,
+     52.6449588
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/706879114",
+   "properties": {
+    "leisure": "pitch",
+    "sport": "tennis",
+    "id": "way/706879114",
+    "mapFeature": {
+     "caption": "way/706879114",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "enjoy"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.243492,
+     52.627511
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/707350570",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housename": "GAIN Fitness",
+    "addr:housenumber": "1B",
+    "addr:postcode": "NR5 8PF",
+    "addr:street": "Guardian Road",
+    "building": "yes",
+    "leisure": "fitness_centre",
+    "name": "GAIN Fitness",
+    "id": "way/707350570",
+    "mapFeature": {
+     "caption": "GAIN Fitness",
+     "allowPopup": true,
+     "location": "1B  Guardian Road  \n  NR5 8PF <br />\n  \n  \n  ",
+     "layers": [
+      "enjoy"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2580996,
+     52.6338441
     ]
    }
   },
@@ -17789,31 +17960,6 @@
     "coordinates": [
      1.2667362,
      52.6051495
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "relation/1610682",
-   "properties": {
-    "leisure": "park",
-    "name": "Sloughbottom Park",
-    "type": "multipolygon",
-    "id": "relation/1610682",
-    "mapFeature": {
-     "caption": "Sloughbottom Park",
-     "allowPopup": true,
-     "location": "  \n  <br />\n  \n  \n  ",
-     "layers": [
-      "enjoy"
-     ]
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2674177,
-     52.6455005
     ]
    }
   },
@@ -18221,6 +18367,7 @@
    "properties": {
     "leisure": "golf_course",
     "name": "Sprowston Manor Golf Club",
+    "sport": "golf",
     "type": "multipolygon",
     "id": "relation/1767393",
     "mapFeature": {

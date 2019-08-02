@@ -1,0 +1,54 @@
+type,id,amenity,operator,payment:coins,ref,vending,id,F.hoverCaption,F.allowPopup,F.icon,F.layers,geometry.type,geometry.coordinates
+Feature,node/566562251,vending_machine,Norwich City Council,yes,GFR RD,parking_tickets,node/566562251,On-road Parking Bay,false,parkingMeter,here,Point,1.3002911;52.6283804
+Feature,node/596362294,vending_machine,Norwich City Council,,,parking_tickets,node/596362294,On-road Parking Bay,false,parkingMeter,here,Point,1.2895191;52.6292951
+Feature,node/608458948,vending_machine,,,,parking_tickets,node/608458948,On-road Parking Bay,false,parkingMeter,here,Point,1.2929941;52.6328419
+Feature,node/608458952,vending_machine,,,,parking_tickets,node/608458952,On-road Parking Bay,false,parkingMeter,here,Point,1.2938379;52.6329847
+Feature,node/608458979,vending_machine,,,,parking_tickets,node/608458979,On-road Parking Bay,false,parkingMeter,here,Point,1.2963518;52.6333482
+Feature,node/665125583,vending_machine,Norwich City Council,yes,PWR 2,parking_tickets,node/665125583,On-road Parking Bay,false,parkingMeter,here,Point,1.3017676;52.6292296
+Feature,node/665125584,vending_machine,Norwich City Council,yes,PWL1,parking_tickets,node/665125584,On-road Parking Bay,false,parkingMeter,here,Point,1.3007132;52.6294246
+Feature,node/1137615582,vending_machine,Norwich City Council,,,parking_tickets,node/1137615582,On-road Parking Bay,false,parkingMeter,here,Point,1.2874912;52.6336379
+Feature,node/1314007610,vending_machine,Norwich City Council,,,parking_tickets,node/1314007610,On-road Parking Bay,false,parkingMeter,here,Point,1.3030466;52.6295626
+Feature,node/1314007612,vending_machine,Norwich City Council,,,parking_tickets,node/1314007612,On-road Parking Bay,false,parkingMeter,here,Point,1.3026346;52.6293252
+Feature,node/1314069654,vending_machine,,,,parking_tickets,node/1314069654,On-road Parking Bay,false,parkingMeter,here,Point,1.2990689;52.6305978
+Feature,node/1314077011,vending_machine,,,,parking_tickets,node/1314077011,On-road Parking Bay,false,parkingMeter,here,Point,1.2903127;52.6308376
+Feature,node/1314077012,vending_machine,,,,parking_tickets,node/1314077012,On-road Parking Bay,false,parkingMeter,here,Point,1.2877379;52.6313207
+Feature,node/1314085368,vending_machine,,,,parking_tickets,node/1314085368,On-road Parking Bay,false,parkingMeter,here,Point,1.2972338;52.6309951
+Feature,node/1314094026,vending_machine,,,,parking_tickets,node/1314094026,On-road Parking Bay,false,parkingMeter,here,Point,1.288723;52.6293613
+Feature,node/1314131578,vending_machine,,,,parking_tickets,node/1314131578,On-road Parking Bay,false,parkingMeter,here,Point,1.2975872;52.6240958
+Feature,node/1314131588,vending_machine,,,,parking_tickets,node/1314131588,On-road Parking Bay,false,parkingMeter,here,Point,1.2993572;52.6224159
+Feature,node/1314131600,vending_machine,,,,parking_tickets,node/1314131600,On-road Parking Bay,false,parkingMeter,here,Point,1.2983002;52.6233004
+Feature,node/1314131603,vending_machine,,,,parking_tickets,node/1314131603,On-road Parking Bay,false,parkingMeter,here,Point,1.2988431;52.6229464
+Feature,node/1314131637,vending_machine,,,,parking_tickets,node/1314131637,On-road Parking Bay,false,parkingMeter,here,Point,1.2991715;52.62235
+Feature,node/1314131641,vending_machine,,,,parking_tickets,node/1314131641,On-road Parking Bay,false,parkingMeter,here,Point,1.298643;52.6228828
+Feature,node/1314143052,vending_machine,,,,parking_tickets,node/1314143052,On-road Parking Bay,false,parkingMeter,here,Point,1.2885091;52.6313502
+Feature,node/1314898699,vending_machine,,,,parking_tickets,node/1314898699,On-road Parking Bay,false,parkingMeter,here,Point,1.3039451;52.6220435
+Feature,node/1314910532,vending_machine,,,,parking_tickets,node/1314910532,On-road Parking Bay,false,parkingMeter,here,Point,1.2967368;52.6224832
+Feature,node/1319011110,vending_machine,,,,parking_tickets,node/1319011110,On-road Parking Bay,false,parkingMeter,here,Point,1.302804;52.6226368
+Feature,node/1319011130,vending_machine,,,,parking_tickets,node/1319011130,On-road Parking Bay,false,parkingMeter,here,Point,1.3015689;52.6229547
+Feature,node/1319011186,vending_machine,,,,parking_tickets,node/1319011186,On-road Parking Bay,false,parkingMeter,here,Point,1.301821;52.6229834
+Feature,node/1319903422,vending_machine,,,,parking_tickets,node/1319903422,On-road Parking Bay,false,parkingMeter,here,Point,1.2871666;52.6303128
+Feature,node/1319903426,vending_machine,,,,parking_tickets,node/1319903426,On-road Parking Bay,false,parkingMeter,here,Point,1.2864092;52.6293004
+Feature,node/1319903448,vending_machine,,,,parking_tickets,node/1319903448,On-road Parking Bay,false,parkingMeter,here,Point,1.2856578;52.6293562
+Feature,node/1323453565,vending_machine,,,,parking_tickets,node/1323453565,On-road Parking Bay,false,parkingMeter,here,Point,1.2914767;52.633995
+Feature,node/1323453568,vending_machine,,,,parking_tickets,node/1323453568,On-road Parking Bay,false,parkingMeter,here,Point,1.2924061;52.6340488
+Feature,node/1323453580,vending_machine,,,,parking_tickets,node/1323453580,On-road Parking Bay,false,parkingMeter,here,Point,1.2906805;52.6340097
+Feature,node/1323563588,vending_machine,,,,parking_tickets,node/1323563588,On-road Parking Bay,false,parkingMeter,here,Point,1.2977558;52.6322254
+Feature,node/1323637184,vending_machine,,,,parking_tickets,node/1323637184,On-road Parking Bay,false,parkingMeter,here,Point,1.3044316;52.6295213
+Feature,node/1323637219,vending_machine,,,,parking_tickets,node/1323637219,On-road Parking Bay,false,parkingMeter,here,Point,1.3036201;52.6297655
+Feature,node/1352541909,vending_machine,,,,parking_tickets,node/1352541909,On-road Parking Bay,false,parkingMeter,here,Point,1.3026621;52.6289023
+Feature,node/2463314261,vending_machine,,,,parking_tickets,node/2463314261,On-road Parking Bay,false,parkingMeter,here,Point,1.2959794;52.622326
+Feature,node/2581113196,vending_machine,,,,parking_tickets,node/2581113196,On-road Parking Bay,false,parkingMeter,here,Point,1.3002637;52.6245566
+Feature,node/2581113203,vending_machine,,,,parking_tickets,node/2581113203,On-road Parking Bay,false,parkingMeter,here,Point,1.2997106;52.6250041
+Feature,node/2581113213,vending_machine,,,,parking_tickets,node/2581113213,On-road Parking Bay,false,parkingMeter,here,Point,1.2996594;52.6253484
+Feature,node/2581113216,vending_machine,,,,parking_tickets,node/2581113216,On-road Parking Bay,false,parkingMeter,here,Point,1.2991613;52.6256028
+Feature,node/2581113224,vending_machine,,,,parking_tickets,node/2581113224,On-road Parking Bay,false,parkingMeter,here,Point,1.2987621;52.6259359
+Feature,node/2581113228,vending_machine,,,,parking_tickets,node/2581113228,On-road Parking Bay,false,parkingMeter,here,Point,1.2982117;52.6264166
+Feature,node/2584241169,vending_machine,,,,parking_tickets,node/2584241169,On-road Parking Bay,false,parkingMeter,here,Point,1.2991389;52.6249423
+Feature,node/3368004361,vending_machine,,,,parking_tickets,node/3368004361,On-road Parking Bay,false,parkingMeter,here,Point,1.302275;52.6272475
+Feature,node/3368004363,vending_machine,,,,parking_tickets,node/3368004363,On-road Parking Bay,false,parkingMeter,here,Point,1.3021873;52.6272603
+Feature,node/3368004368,vending_machine,,,,parking_tickets,node/3368004368,On-road Parking Bay,false,parkingMeter,here,Point,1.3025957;52.6273866
+Feature,node/3368004381,vending_machine,,,,parking_tickets,node/3368004381,On-road Parking Bay,false,parkingMeter,here,Point,1.3026984;52.6276042
+Feature,node/3465232095,vending_machine,,,,parking_tickets,node/3465232095,On-road Parking Bay,false,parkingMeter,here,Point,1.3035068;52.6325751
+Feature,node/4198478079,vending_machine,,,,parking_tickets,node/4198478079,On-road Parking Bay,false,parkingMeter,here,Point,1.3513895;52.620854
+Feature,node/5068906167,vending_machine,,,,parking_tickets,node/5068906167,On-road Parking Bay,false,parkingMeter,here,Point,1.2963854;52.630809
+Feature,node/5219678128,vending_machine,,,,parking_tickets,node/5219678128,On-road Parking Bay,false,parkingMeter,here,Point,1.2393294;52.6261406

@@ -1,0 +1,238 @@
+type,id,amenity,id,F.caption,F.allowPopup,F.icon,F.location,F.facilities,F.availability,F.operator,F.contact,F.meta,F.layers,geometry.type,geometry.coordinates,description,diaper,fee,female,male,name,operator,wheelchair,access,layer,level,unisex,addr:street,changing_table,opening_hours,toilets:handwashing,wheelchair:description,note,toilets:disposal,drinking_water,addr:city,centralkey,addr:housename,building,contact:phone,supervised,addr:housenumber,changing,addr:country,addr:postcode,source,changing_table:description,material
+Feature,node/364431812,toilets,node/364431812,toilets,true,,"  
+  <br />
+  
+  
+  ",,,,,,toilets,Point,1.1770828;52.6497638
+Feature,node/364431875,toilets,node/364431875,toilets,true,,"  
+  <br />
+  
+  
+  ",,,,,,toilets,Point,1.180087;52.6495701
+Feature,node/472647140,toilets,node/472647140,"Prince of Wales Road, butterfly urinal",true,,"  
+  <br />
+  Located opposite St Vedast Street. Male only (standing 'butterfly' urinal)<br />
+  NO WHEELCHAIR ACCESS 
+  ",,,,,,toilets,Point,1.3020923;52.6292283,Located opposite St Vedast Street. Male only (standing 'butterfly' urinal),no,no,no,yes,"Prince of Wales Road, butterfly urinal",Norwich City Council,no
+Feature,node/498703509,toilets,node/498703509,toilets,true,,"  
+  <br />
+  
+  
+  ",,,,,,toilets,Point,1.1756825;52.6464247,,,,,,,,
+Feature,node/1180840444,toilets,node/1180840444,toilets,true,,"  
+  <br />
+  
+  Wheelchair accessible 
+  ",,,,,,toilets,Point,1.1845154;52.6527017,,,no,,,,,yes
+Feature,node/1230743522,toilets,node/1230743522,Castle Mall Food Court Toilets,true,,"  
+  <strong>Level:</strong>&nbsp;2.5 <br />
+  From Farmers Ave entrance, toilets are just on the right<br />
+  
+  ",,,,,,toilets,Point,1.2957831;52.6274202,"From Farmers Ave entrance, toilets are just on the right",,no,yes,yes,Castle Mall Food Court Toilets,,,permissive,-2,2.5,yes
+Feature,node/1230743580,toilets,node/1230743580,Castle Mall Toilets (Cattle Market Entrance),true,," Cattle Market Street  
+  <strong>Level:</strong>&nbsp;2 <br />
+  From the Cattle Market Entrace, toilets on right next to ShopMobility<br />
+  NO WHEELCHAIR ACCESS 
+  ",,,,,,toilets,Point,1.2973514;52.6274401,"From the Cattle Market Entrace, toilets on right next to ShopMobility",,,yes,yes,Castle Mall Toilets (Cattle Market Entrance),,no,permissive,-3,2,yes,Cattle Market Street
+Feature,node/1230744001,toilets,node/1230744001,Castle Mall Toilets (St John's Entrance),true,,"  
+  <strong>Level:</strong>&nbsp;3 <br />
+  
+  Wheelchair accessible 
+  ",,,,,,toilets,Point,1.2958621;52.6268804,,,no,,,Castle Mall Toilets (St John's Entrance),Castle Mall,yes,permissive,-1,3,yes,,yes
+Feature,node/1248122658,toilets,node/1248122658,toilets,true,,"  
+  <strong>Level:</strong>&nbsp;0 <br />
+  
+  Wheelchair accessible 
+  ",,,,,,toilets,Point,1.2899398;52.6261257,,,no,,,,,yes,,,0,,,
+Feature,node/1248123374,toilets,node/1248123374,toilets,true,,"  
+  <strong>Level:</strong>&nbsp;2 <br />
+  
+  
+  ",,,,,,toilets,Point,1.2898198;52.6261265,,,,,,,Costa Coffee,,,2,2,,,
+Feature,node/1248123398,toilets,node/1248123398,toilets,true,,"  
+  <strong>Level:</strong>&nbsp;2 <br />
+  
+  Wheelchair accessible 
+  ",,,,,,toilets,Point,1.2911286;52.6256819,,,,,,,,yes,,2,2,,,
+Feature,node/1248123681,toilets,node/1248123681,toilets,true,,"  
+  <strong>Level:</strong>&nbsp;2 <br />
+  
+  
+  ",,,,,,toilets,Point,1.2893232;52.6264278,,,,,,,House of Fraser,,,2,2,,,
+Feature,node/1335979674,toilets,node/1335979674,toilets,true,,"  
+  <br />
+  
+  
+  ",,,,,,toilets,Point,1.5016557;52.6658571,,,,,,,,,customers,,,,,
+Feature,node/1365424951,toilets,node/1365424951,toilets,true,,"  
+  <br />
+  
+  Wheelchair accessible 
+  ",,,,,,toilets,Point,1.2770067;52.5951194,,,no,,,,Tesco,yes,,,,,,
+Feature,node/1541173567,toilets,node/1541173567,Toilets at Norwich Station,true,,"  
+  <br />
+  The toilets are located on the Concourse, to the left of waiting room (platform 5b). Male toilets left, unisex disabled toilet middle, female toilets right. Doors open inwards<br />
+  Limited wheelchair access 
+  Unisex disabled toilet requires RADAR key. Manual doors, open inwards. Baby changing is not wheelchair accessible",,,,,,toilets,Point,1.3071658;52.626855,"The toilets are located on the Concourse, to the left of waiting room (platform 5b). Male toilets left, unisex disabled toilet middle, female toilets right. Doors open inwards",,no,yes,yes,Toilets at Norwich Station,Abellio Greater Anglia,limited,customers,,,,,yes,"""Station opening times""",yes,"Unisex disabled toilet requires RADAR key. Manual doors, open inwards. Baby changing is not wheelchair accessible"
+Feature,node/2381422616,toilets,node/2381422616,toilets,true,,"  
+  <br />
+  
+  
+  ",,,,,,toilets,Point,1.2929281;52.6244206,,,,,,,,,,,,,,,07:00-18:30,,,Baby changing facilities
+Feature,node/2527310545,toilets,node/2527310545,toilets,true,,"  
+  <br />
+  
+  
+  ",,,,,,toilets,Point,1.4565215;52.6064975,,,no,,,,RSPB Strumpshaw Fen,,customers,,,,,,,,,,flush
+Feature,node/3033452040,toilets,node/3033452040,toilets,true,,"  
+  <br />
+  
+  
+  ",,,,,,toilets,Point,1.1794497;52.6470741,,,,,,,,,,,,,,,,,,,
+Feature,node/3250724561,toilets,node/3250724561,Sparhawk park toilets,true,,"  
+  <br />
+  
+  
+  ",,,,,,toilets,Point,1.3277886;52.6568856,,,,,,Sparhawk park toilets,,,public,,,,,,sunrise-sunset,,,open during daylight hours,flush
+Feature,node/3709817678,toilets,node/3709817678,toilets,true,,"  
+  <br />
+  
+  
+  ",,,,,,toilets,Point,1.257524;52.6204575,,,,,,,,,yes,,,,,,,,,,,no
+Feature,node/3823244185,toilets,node/3823244185,toilets,true,,"  
+  <br />
+  
+  
+  ",,,,,,toilets,Point,1.2774352;52.6698739,,,,,,,,,,,,,,,,,,,,
+Feature,node/3823244186,toilets,node/3823244186,toilets,true,,"  
+  <br />
+  
+  
+  ",,,,,,toilets,Point,1.277558;52.66936,,,,,,,,,,,,,,,,,,,,
+Feature,node/3823244187,toilets,node/3823244187,toilets,true,,"  
+  <br />
+  
+  
+  ",,,,,,toilets,Point,1.2775867;52.6694047,,,,,,,,,,,,,,,,,,,,
+Feature,node/3862586935,toilets,node/3862586935,toilets,true,,"  
+  <br />
+  
+  Wheelchair accessible 
+  ",,,,,,toilets,Point,1.3027088;52.6280135,,yes,no,,,,,yes,customers,,,,,,,,,,,
+Feature,node/3862586936,toilets,node/3862586936,toilets,true,,"  
+  <br />
+  
+  Wheelchair accessible 
+  ",,,,,,toilets,Point,1.3026434;52.6280287,,yes,no,,,,,yes,customers,,,,,,,,,,,
+Feature,node/4207863595,toilets,node/4207863595,toilets,true,,"  
+  <br />
+  located on Rose Lane, external to the multi storey car park.<br />
+  
+  ",,,,,,toilets,Point,1.3031876;52.6283783,"located on Rose Lane, external to the multi storey car park.",,no,,,,Norwich City Council,,yes,,,yes,,,Th-Sa 18:00-08:00,,,,flush,
+Feature,node/5167531555,toilets,node/5167531555,toilets,true,,"  
+  <br />
+  
+  
+  ",,,,,,toilets,Point,1.3008996;52.6312699,,,no,,,,,,yes,,,,,,,,,Access code can be obtained through various locations,,
+Feature,node/5458528254,toilets,node/5458528254,toilets,true,,"  
+  <br />
+  
+  Wheelchair accessible 
+  ",,,,,,toilets,Point,1.2940813;52.6222482,,room,no,yes,yes,,,yes,customers,,,,,,,,,,flush,
+Feature,node/5694856554,toilets,node/5694856554,toilets,true,,"  
+  <br />
+  
+  
+  ",,,,,,toilets,Point,1.2991592;52.6161306,,,,yes,,,Norwich City Council,,yes,,,,,,,,,,,
+Feature,node/6543931838,toilets,node/6543931838,Changing Places in Castle Mall,true,," Cattlemarket Street  
+  <strong>Level:</strong>&nbsp;2 <br />
+  Near the Cattlemarket entrance, right next to our disabled parking on Level J of the car park. If you are accessing the centre from Castle Meadow or Cattlemarket Street you will not need to use stairs or lifts.<br />
+  Wheelchair accessible 
+  Fully accessible toilet with hoist and adult size changing ""table"". Bench - Height Adjustable, Adult Sized, Wall Mounted Hoist - Ceiling , Loop , Mobile Peninsular Toilet Washbasin Height Adjustable , Emergency Alarm, Managed",,,,,,toilets,Point,1.2974323;52.6272255,"Near the Cattlemarket entrance, right next to our disabled parking on Level J of the car park. If you are accessing the centre from Castle Meadow or Cattlemarket Street you will not need to use stairs or lifts.",,,,,Changing Places in Castle Mall,Castle Mall,yes,permissive,,2,yes,Cattlemarket Street,adult,"Mo-Su 08:00-00:00, PH 10:00-17:00 ""Castle Mall opening times""",,"Fully accessible toilet with hoist and adult size changing ""table"". Bench - Height Adjustable, Adult Sized, Wall Mounted Hoist - Ceiling , Loop , Mobile Peninsular Toilet Washbasin Height Adjustable , Emergency Alarm, Managed",,,,Norwich,nks
+Feature,node/6587304630,toilets,node/6587304630,"Changing Places, intu Chapelfield",true,," Dining Terrace  
+  <strong>Level:</strong>&nbsp;2 <br />
+  
+  Wheelchair accessible 
+  Bench - Height Adjustable, Adult Sized, Free Standing. Hoist - Ceiling , Loop",,,,,,toilets,Point,1.2912111;52.6256466,,,no,,,"Changing Places, intu Chapelfield",intu Chapelfield,yes,permissive,2,2,yes,Dining Terrace,adult,Mo-We 09:00-18:00; Th 09:00-20:00; Fr-Sa 09:00-19:00; Su 11:00-17:00,,"Bench - Height Adjustable, Adult Sized, Free Standing. Hoist - Ceiling , Loop",,,,,,intu Chapelfield,yes,01603 753344,yes
+Feature,node/6587417851,toilets,node/6587417851,"Changing Places, Vauxhall Community Hub",true,," Vauxhall Street  
+  <br />
+  
+  Wheelchair accessible 
+  Bench - Height Adjustable, Adult Sized. Peninsular Toilet, Emergency Alarm, Privacy Screen",,,,,,toilets,Point,1.2851698;52.6276597,,,no,,,"Changing Places, Vauxhall Community Hub",Vauxhall Community Hub,yes,yes,,,yes,Vauxhall Street,adult,24/7,,"Bench - Height Adjustable, Adult Sized. Peninsular Toilet, Emergency Alarm, Privacy Screen",,,,,,Johnson Place,yes,01603 626 014,
+Feature,node/6587417852,toilets,node/6587417852,"Changing Places, N&N Hospital",true,,"  
+  <strong>Level:</strong>&nbsp;2 <br />
+  In the Radiology department, level 2, outpatient’s east block. Key required to adjust table height, from Radiology reception (8am-5pm)<br />
+  Wheelchair accessible 
+  Bench - Height Adjustable, Adult Sized, Wall Mounted. Hoist - Ceiling. Peninsular Toilet. Emergency Alarm. Privacy Screen",,,,,,toilets,Point,1.2205095;52.6179482,"In the Radiology department, level 2, outpatient’s east block. Key required to adjust table height, from Radiology reception (8am-5pm)",,no,,,"Changing Places, N&N Hospital",,yes,yes,,2,yes,,adult,24/7,,"Bench - Height Adjustable, Adult Sized, Wall Mounted. Hoist - Ceiling. Peninsular Toilet. Emergency Alarm. Privacy Screen",,,,,,Norfolk and Norwich University Hospital NHS Foundation Trust,yes,01603 286 286,
+Feature,node/6633090469,toilets,node/6633090469,toilets,true,,"  
+  <br />
+  
+  
+  ",,,,,,toilets,Point,1.2673306;52.6461462,,,,,yes,,,,,,,,,,,,,,,,,,,,,
+Feature,node/6633090472,toilets,node/6633090472,toilets,true,,"  
+  <br />
+  
+  
+  ",,,,,,toilets,Point,1.2673386;52.6459933,,,,yes,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/55291587,toilets,way/55291587,toilets,true,,"  
+  <br />
+  
+  
+  ",,,,,,toilets,Point,1.2197417;52.6028175,,,,,,,,,,,,,,yes,,,,,,,,,,office,,
+Feature,way/116079139,toilets,way/116079139,Norwich Market (Memorial Gardens) Toilets,true,,"2  Pudding Ln  
+  <br />
+  Male and female toilets plus Accessible toilet (RADAR key)
+Baby changing facilities are inside the accessible toilet<br />
+  Wheelchair accessible 
+  ",,,,,,toilets,Point,1.2925045;52.6281562,"Male and female toilets plus Accessible toilet (RADAR key)
+Baby changing facilities are inside the accessible toilet",,no,yes,yes,Norwich Market (Memorial Gardens) Toilets,Norwich City Council,yes,yes,,,no,Pudding Ln,limited,Mo-Sa 07:30-16:30,,,,flush,,,nks,,service,"Office hours: Monday to Friday, 9am to 5pm, 01603 894140 Outside office hours: 08458 500319",,2,limited
+Feature,way/117048789,toilets,way/117048789,toilets,true,,"  
+  <br />
+  
+  
+  ",,,,,,toilets,Point,1.2684964;52.6260753,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,
+Feature,way/156828005,toilets,way/156828005,Unit 3C,true,,"3C  Bowthorpe Main Centre  
+  NR5 9HA <br />
+  
+  Wheelchair accessible 
+  ",,,,,,toilets,Point,1.2174087;52.6377184,,,,yes,yes,,,yes,yes,,,,Bowthorpe Main Centre,,,,,,,,Norwich,,Unit 3C,unit,,,3C,,GB,NR5 9HA,Bing
+Feature,way/186106534,toilets,way/186106534,toilets,true,,"  
+  <br />
+  
+  
+  ",,,,,,toilets,Point,1.3418503;52.6260069,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/196001638,toilets,way/196001638,Wensum Park Toilets,true,," Drayton Road  
+  <br />
+  
+  Wheelchair accessible 
+  ",,,,,,toilets,Point,1.286512;52.6401022,,,no,,,Wensum Park Toilets,,yes,,,,yes,Drayton Road,limited,,,,,,,,nks,,service,,,,,,,,In ladies toilet only
+Feature,way/375126841,toilets,way/375126841,toilets,true,,"  
+  <br />
+  
+  
+  ",,,,,,toilets,Point,1.4311357;52.6876966,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/387138871,toilets,way/387138871,toilets,true,,"  
+  <br />
+  
+  
+  ",,,,,,toilets,Point,1.4302056;52.6830241,,,no,,,,,,,,,,,,,,,,flush,,,,,yes,,,,,,,OS_OpenData_VectorMapLocal,
+Feature,way/604403859,toilets,way/604403859,toilets,true,,"  
+  <br />
+  
+  
+  ",,,,,,toilets,Point,1.2830513;52.6243212,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,
+Feature,way/607025993,toilets,way/607025993,toilets,true,,"  
+  <br />
+  
+  Wheelchair accessible 
+  ",,,,,,toilets,Point,1.4892416;52.6771326,,,,yes,yes,,,yes,,,,,,,,,,,,,,,,yes,,,,,,,,,brick
+Feature,way/612990138,toilets,way/612990138,toilets,true,,"  
+  <br />
+  
+  
+  ",,,,,,toilets,Point,1.2354562;52.6261632,,no,no,,,,,,,,,,,,,,,,flush,,,,,yes,,,,,,,,,
+Feature,way/700006882,toilets,way/700006882,toilets,true,,"  
+  <br />
+  
+  
+  ",,,,,,toilets,Point,1.252138;52.6202058,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,

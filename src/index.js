@@ -21,6 +21,9 @@ import { setup } from './mapControls.js'
 import { takeTour } from './tourMap.js'
 // import registerServiceWorker from './register-service-worker'
 
+// TODO: Fix service worker registration
+// TODO: Support hover captions when appropriate (e.g. not touch, mouse hover)
+
 window.$ = window.jQuery = $
 window.bootstrap = bootstrap
 window.popper = popper

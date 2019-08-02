@@ -30,44 +30,6 @@
      52.6261718
     ]
    }
-  },
-  {
-   "type": "Feature",
-   "id": "way/107045759",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "70",
-    "addr:postcode": "NR1 3DD",
-    "building": "unit",
-    "covered": "yes",
-    "layer": "-3",
-    "level": "2",
-    "name": "Shop Mobility",
-    "note": "Parking on Level J",
-    "opening_hours": "Mo-Fr 10:00-16:30; Sa 10:00-16:15",
-    "operator": "Norwich Access Group",
-    "phone": "+44 1603 283148",
-    "shop": "mobility",
-    "website": "http://www.norwichaccessgroup.org.uk/shopmobility.shtml",
-    "wheelchair": "yes",
-    "id": "way/107045759",
-    "mapFeature": {
-     "caption": "Shop Mobility",
-     "allowPopup": true,
-     "location": "70   \n  <strong>Level:</strong>&nbsp;2 NR1 3DD <br />\n  \n  Wheelchair accessible \n  ",
-     "layers": [
-      "around"
-     ]
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2975033,
-     52.627463
-    ]
-   }
   }
  ]
 }

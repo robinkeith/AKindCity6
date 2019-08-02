@@ -1,6 +1,7 @@
 // import * as turf from '@turf/turf'
+const titleCase = require('better-title-case')
 const turf = require('@turf/turf')
-
+/*
 const layerHere = 'here'
 const layerAround = 'around'
 const layerToilets = 'toilets'
@@ -8,7 +9,7 @@ const layerFood = 'food'
 const layerShop = 'shop'
 const layerEnjoy = 'enjoy'
 const layerHelp = 'help'
-
+*/
 let dataImprover = {
   'capacity:disabled': 'Number of Blue Badge spaces',
   'capacity:parent': 'Number of Parent and Child spaces',
@@ -114,24 +115,19 @@ function createMapFeature (feature, dataset) {
 }
 
 function describeCrossing (tags) {
-  let caption, rating
+  let caption
+  let score = 0
 
   const bHasTactile = (tags['tactile_paving'] && tags['tactile_paving'] === 'yes')
   const bHasAudio = (tags['traffic_signals:sound'] &&
                     (tags['traffic_signals:sound'] === 'yes' || tags['traffic_signals:sound'] === 'walk'))
   const bHasPedestrianSensor = (tags['pedestrian_sensor'] && tags['pedestrian_sensor'] === 'yes')
 
-  let score = 0
   if (bHasAudio) score++
   if (bHasTactile) score++
   if (bHasPedestrianSensor) score++
 
-  //  rating = 'green'
-  // } else {
-  //  rating = 'amber'
-  // }
-
-  return { caption, rating }
+  return { caption, score }
 }
 
 function tidyTags (tags) {

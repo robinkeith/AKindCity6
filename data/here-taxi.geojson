@@ -510,42 +510,6 @@
   },
   {
    "type": "Feature",
-   "id": "way/173295454",
-   "properties": {
-    "access": "no",
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:postcode": "NR1 3EJ",
-    "addr:street": "Ber Street",
-    "amenity": "taxi",
-    "building": "house",
-    "description": "Can no longer sit and wait inside.",
-    "email": "info@kestral-taxis-norwich.co.uk",
-    "name": "Kestral Taxis",
-    "opening_hours": "24/7",
-    "phone": "+44 1603 666111;+44 1603 622677;+44 1603 621200",
-    "website": "http://kestral-taxis-norwich.co.uk/",
-    "wheelchair": "no",
-    "id": "way/173295454",
-    "mapFeature": {
-     "caption": "Kestral Taxis",
-     "allowPopup": true,
-     "location": " Ber Street  \n  NR1 3EJ <br />\n  Can no longer sit and wait inside.<br />\n  NO WHEELCHAIR ACCESS \n  ",
-     "layers": [
-      "here"
-     ]
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2965591,
-     52.6257747
-    ]
-   }
-  },
-  {
-   "type": "Feature",
    "id": "way/200262922",
    "properties": {
     "addr:city": "Norwich",

@@ -1,0 +1,211 @@
+type,id,addr:city,addr:housename,addr:postcode,addr:street,amenity,fhrs:id,name,note,phone,real_ale,source:addr,website,id,F.caption,F.allowPopup,F.icon,F.location,F.facilities,F.availability,F.operator,F.contact,F.meta,F.layers,geometry.type,geometry.coordinates,real_cider,addr:housenumber,outdoor_seating,wheelchair,addr:country,opening_hours,operator,indoor,old_name,building,fax,kitchen_hours,email,source,start_date,wikidata,alt_name,covered,level,url,addr:interpolation,phone:mobile,addr:place,addr:full,brand,brand:wikidata,brand:wikipedia,internet_access,toilets:wheelchair,source:addr:postcode,wheelchair:description,smoking,tagline,addr:floor,building:levels,cuisine
+Feature,node/1373249712,Norwich,Maddermarket Theatre,NR2 1DR,St Johns Alley,bar,69209,Maddermarket Theatre bar,"Opens 45 minutes before a performance, remains open after",+44 1603 620917,yes,FHRS Open Data,http://maddermarket.co.uk/your-visit/bar,node/1373249712,Maddermarket Theatre bar,true,," St Johns Alley  
+  NR2 1DR <br />
+  
+  
+  ",,,,,,food,Point,1.2925329;52.6301413
+Feature,node/1378091033,,,,,bar,,Maids Head Hotel bar,,,2,,,node/1378091033,Maids Head Hotel bar,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.2984608;52.6319506,no
+Feature,node/1394739087,,,NR3 1RE,Tombland,bar,853737,Bond,,,,,http://www.bondnorwich.co.uk/,node/1394739087,Bond,true,,"27-28  Tombland  
+  NR3 1RE <br />
+  
+  
+  ",,,,,,food,Point,1.2992232;52.6304736,,27-28
+Feature,node/1811060374,,,,,bar,,Ambar,,+44 1603 230414,no,,,node/1811060374,Ambar,true,,"  
+  <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.3050316;52.6252628,,,no,yes
+Feature,node/1811089126,,,,,bar,68606,,Position is inexact,+44 1603 630479,1,,,node/1811089126,bar,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.2880034;52.631587,no,,,
+Feature,node/1814764893,Norwich,,NR2 4AD,Saint Andrews Street,bar,,The Bar,,,1,,,node/1814764893,The Bar,true,," Saint Andrews Street  
+  NR2 4AD <br />
+  
+  
+  ",,,,,,food,Point,1.296157;52.6303608,no,,,,GB,11:00-23:00,Cinema City
+Feature,node/1819470089,,,,,bar,,The Yard of Ale,,,no,,,node/1819470089,The Yard of Ale,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.2773314;52.6696663,,,,,,,
+Feature,node/1822735069,Norwich,,NR2 4SF,Bank Plain,bar,853732,Be At One,,+44 1603 959986,no,,https://www.beatone.co.uk/cocktail-bar/norwich,node/1822735069,Be At One,true,,"23  Bank Plain  
+  NR2 4SF <br />
+  
+  
+  ",,,,,,food,Point,1.2981103;52.6295657,,23,,,GB,,,yes,Lola Lo;Po Na Na;Bar Celona;Chicago Rock Cafe;Royal Hotel
+Feature,node/1822837181,,,,,bar,,The Club Bar,Position unknown,,no,,,node/1822837181,The Club Bar,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.2680159;52.6530792,,,,,,24/7,,,
+Feature,node/1824031610,,,,,bar,,SGH Bistro and bar,,,no,,,node/1824031610,SGH Bistro and bar,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.289239;52.6293885,,,,,,12:00+,,,
+Feature,node/1824076352,,,,,bar,,Adnams Bar,Circle level,,no,,,node/1824076352,Adnams Bar,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.2900059;52.6272845,,,,,,Mo-Sa 09:30+,,,
+Feature,node/1824076353,,,,,bar,,Rockalls Bar,Stalls level,,no,,,node/1824076353,Rockalls Bar,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.2900857;52.627268,,,,,,,,,
+Feature,node/1987730663,,,,,bar,,,,,,,,node/1987730663,bar,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.3537491;52.5916383,,,,,,,,,
+Feature,node/5535521476,,,,,bar,,Oak Bar & Terrace,,,,,https://www.theoakbarterrace.co.uk/,node/5535521476,Oak Bar & Terrace,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.3437599;52.6266934,,,,,,,,,
+Feature,node/6505466785,Norwich,,NR3 1AB,Saint Georges Street,bar,1110504,Last Wine Bar & Restaurant,,+44 1603 626626,no,,https://www.lastwinebar.co.uk/,node/6505466785,Last Wine Bar & Restaurant,true,,"76  Saint Georges Street  
+  NR3 1AB <br />
+  
+  
+  ",,,,,,food,Point,1.2943456;52.6328411,,76,,,GB,"Mo-Fr 12:00-14:30,17:00-00:30; Sa 12:00-14:30,18:00-00:30",,,,yes,+44 1603 630100,Mo-Sa 12:00-14:30; 18:00-22:30
+Feature,way/103337946,Norwich,,NR3 1BA,Saint Georges Street,bar,26183,The Dog House,,+44 1603 765378,no,,http://thedoghousenorwich.co.uk/,way/103337946,The Dog House,true,,"18  Saint Georges Street  
+  NR3 1BA <br />
+  
+  
+  ",,,,,,food,Point,1.2952265;52.6310395,,18,yes,,GB,Mo off; Tu-Th 12:00-23:30; Fr-Sa 12:00-01:30; Su 16:00-00:00,,,The Doghouse; Red Lion,yes,,,info@thedoghousenorwich.co.uk,Bing,2008-07,Q26515440
+Feature,way/106901911,Norwich,Jerninghams Suite,NR8 5AL,Parklands,bar,648139,Costessey Park Golf Course Club House,,+44 1603 746333,,,http://jerninghams.com/,way/106901911,Costessey Park Golf Course Club House,true,," Parklands  
+  NR8 5AL <br />
+  
+  
+  ",,,,,,food,Point,1.1970616;52.6581941,,,,,GB,,,,,club_house,,,tginn@costesseypark.com,,,,Jerninghams
+Feature,way/107045907,Norwich,,NR1 3DD,,bar,,Veeno,,,,,,way/107045907,Veeno,true,,"107   
+  <strong>Level:</strong>&nbsp;4 NR1 3DD <br />
+  
+  
+  ",,,,,,food,Point,1.2963286;52.6268708,,107,,,GB,,,,,unit,,,,,,,,yes,4,http://www.theveenocompany.com/veeno-norwich/
+Feature,way/112817887,Norwich,,NR3 1LJ,Fye Bridge Street,bar,903864,NORTH,,,,,https://www.norwichnorth.co.uk/,way/112817887,NORTH,true,,"7-9  Fye Bridge Street  
+  NR3 1LJ <br />
+  
+  
+  ",,,,,,food,Point,1.2972127;52.6332601,,7-9,,,GB,,,,,yes,,,,,,,,,,,odd
+Feature,way/114946051,Norwich,,NR3 1AB,Saint George's Street,bar,739696,Norwich Playhouse Bar,,+44 1603 612580,2,,,way/114946051,Norwich Playhouse Bar,true,,"42-58  Saint George's Street  
+  NR3 1AB <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.2945937;52.6320032,no,42-58,,yes,GB,,,,,yes,,,,Bing,,,,,,,even
+Feature,way/119604428,Norwich,,NR3 1HG,Elm Hill,bar,774194,Olive's,,+44 1603 230500,no,,http://www.olivesnorwich.co.uk/,way/119604428,Olive's,true,,"40  Elm Hill  
+  NR3 1HG <br />
+  
+  
+  ",,,,,,food,Point,1.2975712;52.6322778,,40,,,GB,,,,,yes,,,mick@olivesnorwich.co.uk,,,Q26482889,,,,,,+44 7817 932304
+Feature,way/131888490,Norwich,Union House,NR4 7TJ,The Street,bar,26420,bar(su),,+44 1603 456161,1,FHRS Open Data,,way/131888490,bar(su),true,," The Street  
+  <strong>Level:</strong>&nbsp;0 NR4 7TJ <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.2414159;52.6214014,no,,yes,yes,,Mo-Th 11:00-23:00; Fr 11:00-00:00; Sa 11:00-23:30; Su 12:00-23:00,Union of UEA Students,,,yes,,,,Bing,,,,,0,,,,University of East Anglia
+Feature,way/160322241,Norwich,,NR2 1AX,Exchange Street,bar,1129422,The Wallow,,,1,,https://www.wallowwine.co.uk/,way/160322241,The Wallow,true,,"36  Exchange Street  
+  NR2 1AX <br />
+  
+  
+  ",,,,,,food,Point,1.2937174;52.6303539,no,36,,,GB,,,,,shop,,,,Bing,,Q26303187,,,,,,,
+Feature,way/169958257,Norwich,,NR3 1RB,Upper King Street,bar,47085,All Bar One,,+44 1603 621223,no,,https://www.allbarone.co.uk/all-bar-one-norwich/,way/169958257,All Bar One,true,,"1  Upper King Street  
+  NR3 1RB <br />
+  
+  
+  ",,,,,,food,Point,1.2989787;52.6303738,no,1,,,GB,Mo-Th 11:00-23:00; Fr-Sa 11:00-01:00; Su 11:00-22:30,,,Ha!Ha! Bar & Grill;Ha!Ha! Bar & Canteen,yes,,09:00-22:00,,,,,,,,,,,,"29 Tombland / 1 Upper King Street, Norwich, NR3 1RB",All Bar One,Q4728624,en:All Bar One
+Feature,way/169964350,Norwich,,NR1 1BG,Prince of Wales Road,bar,924803,Reload Gaming Lounge And Bar,,,no,,https://www.facebook.com/reloadgamingloungeandbar/,way/169964350,Reload Gaming Lounge And Bar,true,,"35,35a  Prince of Wales Road  
+  NR1 1BG <br />
+  
+  
+  ",,,,,,food,Point,1.3010822;52.6292622,,"35,35a",,,GB,,,,Bar X;Xcape;Joe Alans,yes,,,,,,,,,,,,,,,,,
+Feature,way/169979540,Norwich,,NR3 1HA,Upper King Street,bar,1080656,Mr Postles Apothecary,,+44 1603 624042,no,,http://www.mybeluga.co.uk/,way/169979540,Mr Postles Apothecary,true,,"2  Upper King Street  
+  NR3 1HA <br />
+  
+  
+  ",,,,,,food,Point,1.298481;52.6303501,,2,,,GB,We 17:00-00:00; Th 12:00-01:00; Fr-Sa 12:00-02:00,,,Slug & Lettuce,yes,,Th-Sa 17:30-21:00; Su-We of,BelugaNorwich@hotmail.com,,2009-08,,,,,,,,,,Taste Inc Group,,
+Feature,way/169980388,Norwich,,NR2 4PE,Saint Benedicts Street,bar,30686,The Bicycle Shop,,+44 1603 625777,yes,,,way/169980388,The Bicycle Shop,true,,"17  Saint Benedicts Street  
+  NR2 4PE <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.290611;52.6308983,,17,,yes,GB,Mo-Sa 17:00-01:00; Su off,,,Scullery Bar,yes,,,,Bing,,,,,,,,,,,,,,wlan,yes
+Feature,way/170336038,Norwich,,NR2 1AR,Bedford Street,bar,26175,Frank's Bar,,+44 1603 618902,2,,https://www.franksbar.co.uk/,way/170336038,Frank's Bar,true,,"19  Bedford Street  
+  NR2 1AR <br />
+  
+  
+  ",,,,,,food,Point,1.2947689;52.6298016,no,19,,,GB,Mo off; Tu-Th 10:00-00:00; Fr-Sa 10:00-02:30; Su 10:00-22:30,,,,yes,,"Mo 12:00-15:00; Tu-Fr 12:00-15:00,18:00-22:00; Sa 12:00-22:00; Su 12:00-18:00",,,,,,,,,,,,,,,,,
+Feature,way/170559834,Norwich,,NR2 1JT,London Street,bar,621646,Gonzo's Tea Room,,,no,,https://www.gonzostearoom.com/,way/170559834,Gonzo's Tea Room,true,,"68  London Street  
+  NR2 1JT <br />
+  
+  
+  ",,,,,,food,Point,1.2969137;52.6298124,,68,,,GB,Su–We 12:00–03:00 Th–Sa 12:00–3:30,,,,yes,,,,,,,,,,,,,,,,,,,
+Feature,way/170636121,Norwich,,NR2 1AG,Bedford Street,bar,830832,Karma Kafe,,+44 1603 622836,no,,https://www.mykarmakafe.com/,way/170636121,Karma Kafe,true,,"18  Bedford Street  
+  NR2 1AG <br />
+  
+  
+  ",,,,,,food,Point,1.2951971;52.6296804,,18,,,GB,,,,Red;Alley Katz;Kafe Da;Hector's House;Skippers Wine Bar,retail,,,nfo@mykarmakafe.com,,,,,,,,,+44 7540 934188,,,,,,,
+Feature,way/171216382,Norwich,,NR1 1BG,Prince of Wales Road,bar,717310,Gringos,,,,,https://www.gringosnorwich.co.uk/,way/171216382,Gringos,true,,"25  Prince of Wales Road  
+  NR1 1BG <br />
+  
+  
+  ",,,,,,food,Point,1.3006395;52.629342,,25,,,GB,,,,,yes,,,,,,,,,,,,,,,,,,,
+Feature,way/171216877,Norwich,,NR2 4TL,Queen Street,bar,48354,Revolución de Cuba,,+44 1603 857565,no,,https://www.revoluciondecuba.com/norwich/,way/171216877,Revolución de Cuba,true,,"7-9  Queen Street  
+  NR2 4TL <br />
+  
+  Limited wheelchair access 
+  Full access within building, limited in garden",,,,,,food,Point,1.29817;52.6302234,,7-9,,limited,GB,,,,"Slug & Lettuce, Yates's",retail,,,,,,,,,,,odd,,,,Revolución de Cuba,Q64024691,,wlan,customer,FHRS Open Data,"Full access within building, limited in garden"
+Feature,way/171366884,Norwich,,NR1 1BL,Prince of Wales Road,bar,612610,Fluke,,+44 1603 762491,no,,https://www.flukebar.com/,way/171366884,Fluke,true,,"57  Prince of Wales Road  
+  NR1 1BL <br />
+  
+  
+  ",,,,,,food,Point,1.3018735;52.6290686,,57,,,GB,,,,,yes,,,,,,,,,,,,,,,,,,,,,
+Feature,way/183465327,Norwich,,NR2 4SN,Redwell Street,bar,1076778,Panda,Opening soon according to signs,,yes,,,way/183465327,Panda,true,,"8  Redwell Street  
+  NR2 4SN <br />
+  
+  
+  ",,,,,,food,Point,1.29662;52.6305539,,8,,,GB,24/7 closed,,,Norwich Tap House,house,,,,,2012,Q26653605,,,,,,,,,,,,,,,,no
+Feature,way/202664405,Norwich,,NR1 1BG,Prince of Wales Road,bar,915695,9 BAR,,,,,,way/202664405,9 BAR,true,,"37  Prince of Wales Road  
+  NR1 1BG <br />
+  
+  
+  ",,,,,,food,Point,1.3011847;52.6292761,,37,,,GB,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,Asian Style Karaoke Bar
+Feature,way/310058406,Norwich,,NR2 4SQ,Queen Street,bar,717311,Vodka Revolution,,,,,,way/310058406,Vodka Revolution,true,,"6  Queen Street  
+  NR2 4SQ <br />
+  
+  
+  ",,,,,,food,Point,1.2977508;52.6304415,,6,,,,Mo 12:00-01:00; Tu 12:00-00:00; We-Th 12:00-01:00; Fr 12:00-02:00; Sa 12:00-03:00; Su 12:00-01:00,,,,yes,,,,,,,,,,,,,,,,,,,,FHRS Open Data,,outside,
+Feature,way/330651021,Norwich,,NR1 1NJ,Prince of Wales Road,bar,,Bar XS,,+44 1603 627666,,,http://www.mercynightclub.com/bar-xs,way/330651021,Bar XS,true,,"90  Prince of Wales Road  
+  NR1 1NJ <br />
+  
+  
+  ",,,,,,food,Point,1.3033013;52.6289341,,90,,,GB,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/361131262,Norwich,,NR3 1RB,Upper King Street,bar,47903,Bar 11,,+44 1603 762250,yes,,https://www.bar11.co.uk/,way/361131262,Bar 11,true,,"9-11  Upper King Street  
+  NR3 1RB <br />
+  
+  
+  ",,,,,,food,Point,1.2990747;52.6300399,,9-11,,,GB,Su-We 19:00-02:00; Th 19:00-03:00; Fr-Sa 17:00-04:00,,,,yes,,,info@bar11.co.uk,,2011-09,,,,,,odd,,,,,,,,,FHRS Open Data,,,
+Feature,way/374838498,,,,,bar,,,,,,,,way/374838498,bar,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.2207109;52.6226213,,,,,,Fr 17:30-19:00,,,,yes,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/444612773,Norwich,Platform 12,NR2 4AG,Saint Benedicts Street,bar,711789,Platform 12,,+44 1603 666112,,,http://www.platformtwelve.co.uk/,way/444612773,Platform 12,true,,"12  Saint Benedicts Street  
+  NR2 4AG <br />
+  
+  
+  ",,,,,,food,Point,1.2905869;52.6306869,,12,,,,,,,,yes,,,,,,,,,,,,,,,,,,wlan,,,,,,0,3
+Feature,way/484921477,Norwich,The Allye cafe,NR2 1AQ,Bridewell Alley,bar,,Alley Olé,,+44 1603 928282,,,http://thealleycafe.co.uk/,way/484921477,Alley Olé,true,,"20-22  Bridewell Alley  
+  NR2 1AQ <br />
+  
+  
+  ",,,,,,food,Point,1.2950685;52.6303045,,20-22,,,GB,Mo off; Tu-Th 11:00-23:00; Fr-Sa 11:00-23:30,,,,yes,,,alleyole@gmail.com,,,,,,,,even,,,,,,,,,,,,,,,tapas
+Feature,way/619453989,Norwich,,NR1 1LB,Prince of Wales Road,bar,1100554,Envy,,,,,https://www.envynorwich.com/,way/619453989,Envy,true,,"20  Prince of Wales Road  
+  NR1 1LB <br />
+  
+  
+  ",,,,,,food,Point,1.2998541;52.6296361,,20,,,GB,,,,Red Rock Cafe,yes,,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,706 @@
+type,id,addr:city,addr:country,addr:housename,addr:postcode,addr:street,amenity,brand,brand:wikidata,brand:wikipedia,cuisine,fhrs:id,name,opening_hours,phone,source:addr,website,wheelchair,id,F.caption,F.allowPopup,F.icon,F.location,F.facilities,F.availability,F.operator,F.contact,F.meta,F.layers,geometry.type,geometry.coordinates,addr:housenumber,wikidata,email,note,old_name,url,building,operator,smoking,addr:place,indoor,level,addr:village,diet:vegan,facebook,instagram,internet_access,source:addr:postcode,name:en,fixme,source:building,alt_name,fax,kitchen_hours,real_ale,source,outdoor_seating,ref,not:addr:postcode,source:position,delivery,takeaway,covered,leasing_number,layer,building:levels,description,addr:interpolation,phone:2,strapline,toilets:wheelchair,wheelchair:description,phone:mobile,capacity,diet:vegetarian,fixme:addr1,fixme:addr2,fixme:addr3,colour,inscription,diet:gluten_free,internet_access:fee,access,real_cider,kitchen_hours:breakfast,kitchen_hours:carvery,kitchen_hours:main_menu,start_date,website:operator,source:cuisine,source:name,tourism,addr:parentstreet,fhrs:rating,contact:email,contact:mobile,contact:phone,contact:website,email:booking,bar,mobile,short_name,type,email:events,email:hotel
+Feature,node/344733889,Norwich,GB,The Forum,NR2 1TF,Millennium Plain,restaurant,PizzaExpress,Q662845,en:PizzaExpress,pizza,84111,PizzaExpress,11:30-23:00,+44 1603 662234,FHRS Open Data,https://www.pizzaexpress.com/visit-a-restaurant/restaurant/norwich-the-forum/,yes,node/344733889,PizzaExpress,true,," Millennium Plain  
+  NR2 1TF <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.2913628;52.6279016
+Feature,node/1180840342,,,,,,restaurant,,,,,,Sainsbury's Cafe,Mo-Sa 07:00-19:00; Su 09:30-15:30,,,,,node/1180840342,Sainsbury's Cafe,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.1843349;52.6527748
+Feature,node/1236341569,,,,NR3 1HE,Tombland,restaurant,,,,japanese,10135,Shiki,,,,http://www.shikirestaurant.co.uk/,,node/1236341569,Shiki,true,,"6  Tombland  
+  NR3 1HE <br />
+  
+  
+  ",,,,,,food,Point,1.2983902;52.6310002,6,Q26505765
+Feature,node/1343287119,Norwich,GB,,NR3 1HY,Wensum Street,restaurant,,,,thai,,The Sugar Hut@The Lawyer,Mo-Sa 12:00-00:00,+44 1603 633122,,,,node/1343287119,The Sugar Hut@The Lawyer,true,,"14  Wensum Street  
+  NR3 1HY <br />
+  
+  
+  ",,,,,,food,Point,1.2973832;52.6323346,14,,postbox@thelawyernorwich.co.uk
+Feature,node/1709852302,Norwich,,Norwich City College,NR2 2LJ,Ipswich Road,restaurant,,,,,31876,Debut Restaurant,,,FHRS Open Data,,,node/1709852302,Debut Restaurant,true,,"5  Ipswich Road  
+  NR2 2LJ <br />
+  
+  
+  ",,,,,,food,Point,1.2853544;52.6173385,5,,
+Feature,node/1822837180,,,,,,restaurant,,,,,,The Brasserie,"Mo-Fr 06:30-09:30,18:00-21:30; Sa 07:30-10:30,18:00-21:30; Su 08:00-12:00,18:00-21:30",,,,,node/1822837180,The Brasserie,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.267712;52.6530034,,,,Position unknown
+Feature,node/2258268960,Norwich,GB,,NR6 5LA,Boundary Road,restaurant,,,,indian,99552,Red Mango,"12:00-14:30,17:30-23:30; Dec 25 off",+44 1603 408888,,http://zin-zeera.co.uk/,,node/2258268960,Red Mango,true,,"2  Boundary Road  
+  NR6 5LA <br />
+  
+  
+  ",,,,,,food,Point,1.2768319;52.6568161,2,,zinzeera@live.co.uk,,Zin Zeera
+Feature,node/2467536823,Norwich,,,NR4 6QP,Daniels Road,restaurant,,,,,14163,Notcutts Restaurant,Mo-Sa 09:00-17:00; Su 10:00-16:00,,FHRS Open Data,,,node/2467536823,Notcutts Restaurant,true,," Daniels Road  
+  NR4 6QP <br />
+  
+  
+  ",,,,,,food,Point,1.2770935;52.6141054,,,,,
+Feature,node/2671952376,Norwich,,,NR2 1JL,Saint Giles Street,restaurant,,,,sushi,938992,Soyokaze,,,,http://soyokaze.co.uk/,,node/2671952376,Soyokaze,true,,"13  Saint Giles Street  
+  NR2 1JL <br />
+  
+  
+  ",,,,,,food,Point,1.291313;52.6291815,13,,,,
+Feature,node/2851530948,Norwich,,Theatre Royal,NR2 1RL,Theatre Street,restaurant,,,,,19347,Prelude,,,FSA Food Hygiene Ratings Database,,,node/2851530948,Prelude,true,," Theatre Street  
+  NR2 1RL <br />
+  
+  
+  ",,,,,,food,Point,1.2899456;52.6273385,,,,,,https://secure.theatreroyalnorwich.co.uk/Online/default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=16E8B17D-C8A1-4EDE-A55E-D5DBD39443F4
+Feature,node/3312131671,Norwich,,,NR2 1LW,Saint Giles Street,restaurant,,,,italian,7424,Italia Nostra,Mo-Fr 17:00-22:00,+44 1603 617199,,http://italianostra.co.uk,,node/3312131671,Italia Nostra,true,,"52  Saint Giles Street  
+  NR2 1LW <br />
+  
+  
+  ",,,,,,food,Point,1.2883624;52.6292849,52,,info@italianostra.co.uk,,,,shop,Italia Nostra,no
+Feature,node/3525896923,,,,,,restaurant,,,,regional,,Coldham Hall Restaurant,"Mo-Fr 12:00-14:00,18:00-21:00; Sa 12:00-21:00; Su 12:00-15:00",,,,,node/3525896923,Coldham Hall Restaurant,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.4321752;52.6124217,,,,,,,,,
+Feature,node/3577019002,Norwich,,Central Catering Building,NR4 7TJ,The Square,restaurant,,,,,14626,Vista,Mo-Fr 08:30-16:00,,FHRS Open Data,https://portal.uea.ac.uk/campus-kitchen/cafes-and-restaurants/vista,,node/3577019002,Vista,true,," The Square  
+  <strong>Level:</strong>&nbsp;2 NR4 7TJ <br />
+  
+  
+  ",,,,,,food,Point,1.2404781;52.6216396,,,,,,,,,,University Of East Anglia,yes,2
+Feature,node/3577019003,Norwich,,Central Catering Building,NR4 7TJ,The Square,restaurant,,,,,14630,Zest,Jun 5-Apr 13: Mo-Fr 07:30-20:00; Sa-Su 09:30-16:30; Jun 6-Sep 20: Mo-Fr 07:30-18:00; Sa-Su off,,FHRS Open Data,https://portal.uea.ac.uk/campus-kitchen/cafes-and-restaurants/zest,,node/3577019003,Zest,true,," The Square  
+  <strong>Level:</strong>&nbsp;0 NR4 7TJ <br />
+  
+  
+  ",,,,,,food,Point,1.2406759;52.6215744,,,,,,,,,,University Of East Anglia,yes,0
+Feature,node/3708316220,Framingham Pigot,,Manor Farm Barns,NR14 7PZ,,restaurant,,,,international,648342,Brasted's,Th-Sa 19:00-22:00; Sa 12:00-14:30,+44 1508 491112,,https://www.brasteds.co.uk/,,node/3708316220,Brasted's,true,,"  
+  NR14 7PZ <br />
+  
+  
+  ",,,,,,food,Point,1.3482508;52.5853605,,,,,,,,,,,,,Framingham Pigot
+Feature,node/4543403790,,,,NR1 1BY,Rose Lane,restaurant,,,,,927042,Rooftop Gardens,,+44 1603 733044,,,,node/4543403790,Rooftop Gardens,true,,"51-59  Rose Lane  
+  NR1 1BY <br />
+  
+  
+  ",,,,,,food,Point,1.3012926;52.6283713,51-59,,info@rooftopgardens.co.uk,,,,,,,,,,
+Feature,node/5115027325,,,,,,restaurant,,,,,,,Mo-Th 18:00-23:00; Fr 17:00-23:00; Sa 09:00-19:00; Su 09:30-21:00,,,,,node/5115027325,restaurant,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.3206983;52.6147926,,,,,,,,,,,,,
+Feature,node/5307086621,,,,NR2 4AR,Saint Benedicts Street,restaurant,,,,,977307,The Tipsy Vegan,Mo-Th 11:00-21:00; Fr-Sa 11:00-22:00; Su 11:00-18:00,,,https://www.thetipsyvegan.co.uk/,,node/5307086621,The Tipsy Vegan,true,,"68-70  Saint Benedicts Street  
+  NR2 4AR <br />
+  
+  
+  ",,,,,,food,Point,1.2876107;52.6311993,68-70,,,,,,,,,,,,,only,https://www.facebook.com/thetipsyvegan/,https://www.instagram.com/thetipsyveganbar,wlan,FHRS Open Data
+Feature,node/5455961705,,,,,,restaurant,,,,fish_and_chips,,Seafare At Fishes,,,,,,node/5455961705,Seafare At Fishes,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.2514139;52.6615689,,,,,,,,,,,,,,,,,,
+Feature,node/5777602938,Norwich,GB,,NR2 1AD,Saint Andrews Hill,restaurant,,,,italian;pizza,940043,Saporita,Mo-Th 11:00-18:00; Fr-Sa 11:00-20:00; Su off,,,https://www.saporitanorwich.com/,,node/5777602938,Saporita,true,,"3A  Saint Andrews Hill  
+  NR2 1AD <br />
+  
+  
+  ",,,,,,food,Point,1.2958731;52.630017,3A,,saporita.norwich@gmail.com,,,,,,,,,,,,,,,FHRS Open Data
+Feature,node/5942251685,,,,NR6 7QZ,Tills Road,restaurant,,,,indian,,"Tills Rd, Norwich NR6 7QZ",,+44 1603 406633,,,,node/5942251685,"Tills Rd, Norwich NR6 7QZ",true,," Tills Road  
+  NR6 7QZ <br />
+  
+  
+  ",,,,,,food,Point,1.312448;52.6620386,,,,,,,,,,,,,,,,,,,The Royal Bengal
+Feature,node/6019809786,Norwich,,Norwich City Football Club,NR1 1JE,Geoffrey Watling Way,restaurant,,,,,15206,Delia's,,,FHRS Open Data,,,node/6019809786,Delia's,true,," Geoffrey Watling Way  
+  NR1 1JE <br />
+  
+  
+  ",,,,,,food,Point,1.3081612;52.6216996,,,,,,,,,,,,,,,,,,,
+Feature,node/6238439724,,,,NR2 1LD,London Street,restaurant,,,,,1059252,The Ivy Brasserie,,,,https://theivynorwich.com,,node/6238439724,The Ivy Brasserie,true,,"30  London Street  
+  NR2 1LD <br />
+  
+  
+  ",,,,,,food,Point,1.2950582;52.6291547,30,,,,,,,,,,,,,,,,,,
+Feature,node/6566009055,Norwich,,Debenhams,NR1 3RZ,Orford Place,restaurant,,,,,55006,Debenhams Restaurant,,,FHRS Open Data,,,node/6566009055,Debenhams Restaurant,true,," Orford Place  
+  <strong>Level:</strong>&nbsp;3 NR1 3RZ <br />
+  
+  
+  ",,,,,,food,Point,1.2939941;52.6265748,,,,,,,,,,,,3,,,,,,,
+Feature,node/6575232442,Norwich,,INTO,NR4 7TJ,University Drive,restaurant,,,,,26530,INTO Café,,,,https://www.intostudy.com/en-gb/universities/university-of-east-anglia/about-the-university/more-about-the-into-centre,,node/6575232442,INTO Café,true,," University Drive  
+  <strong>Level:</strong>&nbsp;1 NR4 7TJ <br />
+  
+  
+  ",,,,,,food,Point,1.245532;52.6233027,,,,,,,,,,University of East Anglia,,1,,,,,,,,Check precise location in building
+Feature,way/32598177,Norwich,GB,Unit Rest.,NR5 0JT,Alex Moorhouse Way,restaurant,,,,pizza,648594,Pizza Hut,Su-Th 11:00-22:00; Fr-Sa 11:00-23:00,,FHRS Open Data,,,way/32598177,Pizza Hut,true,," Alex Moorhouse Way  
+  NR5 0JT <br />
+  
+  
+  ",,,,,,food,Point,1.181824;52.6530719,,,,,,,yes,,,,,,Costessey,,,,,,,
+Feature,way/47153891,,,,,,restaurant,,,,american,,Zaks Mousehold Diner,Mo-We 12:00-22:30;Th-Sa 12:00-23:00;Su 12:00-22:00,+44 1603 427016,,,,way/47153891,Zaks Mousehold Diner,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.3139945;52.6420323,,,,,,,yes,,,,,,,,,,,,,
+Feature,way/85704826,Norwich,GB,,NR9 3AU,Thickthorn Service Area,restaurant,,,,regional,,Little Chef,,+44 1603 505838,,,,way/85704826,Little Chef,true,," Thickthorn Service Area  
+  NR9 3AU <br />
+  
+  
+  ",,,,,,food,Point,1.2215743;52.6018216,,,,,,,yes,,,,,,,,,,,,,,OS_OpenData_StreetView
+Feature,way/90680966,Norwich,GB,Clocktower,NR5 9JD,Jarrold Way,restaurant,Anglia Restaurants,,,regional,,Clocktower,Mo-Sa 11:30-23:00; Su 11:30-22:30,+44 1603 748068,,http://www.castlecarvery.co.uk/,,way/90680966,Clocktower,true,,"26  Jarrold Way  
+  NR5 9JD <br />
+  
+  
+  ",,,,,,food,Point,1.2188499;52.6426312,26,,,,Calendars,,yes,,,,,,,,,,,,,,,Castle Carvery,+44 1603 726692,Mo-Fr 11:30-22:00; Sa-Su 09:00-22:00,yes,Bing
+Feature,way/103522685,Norwich,GB,Unit 3a,NR1 1WX,Wherry Road,restaurant,Pizza Hut,Q191615,en:Pizza Hut,pizza,84061,Pizza Hut,Mo-Th 11:00-21:00; Fr-Sa 11:00-23:00; Su 11:00-21:00,+44 1603 663423,,https://www.pizzahut.co.uk/,yes,way/103522685,Pizza Hut,true,,"3a  Wherry Road  
+  NR1 1WX <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.3041938;52.6261117,3a,,,,,,retail,,,,,,,,,,wlan,,,,,,,,,Bing,yes,466
+Feature,way/103522686,Norwich,GB,Unit 5a,NR1 1WX,Wherry Road,restaurant,TGI Friday's,Q1524184,en:TGI Fridays,american,609505,TGI Friday's,Su-Th 12:00-22:30; Fr-Sa 12:00-23:00,+44 1603 666101,,https://www.tgifridays.co.uk/norwich/,,way/103522686,TGI Friday's,true,,"5a  Wherry Road  
+  NR1 1WX <br />
+  
+  
+  ",,,,,,food,Point,1.303909;52.6259197,5a,,,,,,unit,,,,,,,,,,,,,,,,,,,Bing,,
+Feature,way/103522687,Norwich,GB,Unit 4a,NR1 1WX,Wherry Road,restaurant,,,,chinese,7640,Riverbank Chinese Buffet Restaurant,"Mo-Th 12:00-15:00,17:00-22:00; Fr,Sa 12:00-15:00,17:00-22:30; Su 12:00-16:00,17:00-22:00",+44 1603 612323,,https://riverbanknorwich.co.uk/,,way/103522687,Riverbank Chinese Buffet Restaurant,true,,"4a  Wherry Road  
+  NR1 1WX <br />
+  
+  
+  ",,,,,,food,Point,1.3047398;52.6264304,4a,,,,,,unit,,,,,,,,,,,,,,,,,,no,Bing,,,NR1 1WZ
+Feature,way/104186986,Norwich,GB,,NR1 3HT,Southwell Road,restaurant,,,,fish_and_chips,732909,Southwell Fish Bar,,+44 1603 624552,,,,way/104186986,Southwell Fish Bar,true,,"101  Southwell Road  
+  NR1 3HT <br />
+  
+  
+  ",,,,,,food,Point,1.2939349;52.6198063,101,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/104186992,Norwich,GB,,NR1 3HT,Southwell Road,restaurant,,,,chinese,,Wang Chinese,,01603928610,,,,way/104186992,Wang Chinese,true,,"99  Southwell Road  
+  NR1 3HT <br />
+  
+  
+  ",,,,,,food,Point,1.2940674;52.6197266,99,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/104977522,Norwich,GB,,NR2 1EL,Lower Goat Lane,restaurant,,,,mexican;south_american,42377,Mambo Jambos Restaurant,Mo-Sa 11:30+; Su 12:00+,+44 1603 666802,,https://www.mambojamborestaurant.co.uk/,,way/104977522,Mambo Jambos Restaurant,true,,"14,16  Lower Goat Lane  
+  <strong>Level:</strong>&nbsp;1 NR2 1EL <br />
+  
+  
+  ",,,,,,food,Point,1.2915111;52.6295921,"14,16",,enquiries@mambojamborestaurant.co.uk,,,,amenity,Mambo Jambo Ltd,,,,1,,,,,,,,,,,,,,,,,,Bing
+Feature,way/106665874,Norwich,GB,,NR1 3RL,Grove Road,restaurant,Pizza Hut,Q191615,en:Pizza Hut,pizza,711790,Pizza Hut,"Su-Mo,We-Fr 11:00-01:00; Tu,Sa 11:00-04:00; Dec 24,26,31 11:30-23:00; Dec 25 off",+44 1603 220066,,https://www.pizzahut.co.uk/,,way/106665874,Pizza Hut,true,,"73  Grove Road  
+  NR1 3RL <br />
+  
+  
+  ",,,,,,food,Point,1.2912923;52.6208711,73,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,yes,yes
+Feature,way/107045751,Norwich,GB,,NR1 3DD,,restaurant,,,,mexican,1003517,Cocina,,,,https://www.cocina.co.uk/our-restaurants/cocina-norwich-terrace.html,,way/107045751,Cocina,true,,"  
+  <strong>Level:</strong>&nbsp;4 NR1 3DD <br />
+  
+  
+  ",,,,,,food,Point,1.2958581;52.6269471,,,,,,,unit,,,,,4,,,,,,,,,,,,,,,,,,,,,yes
+Feature,way/107046053,Norwich,GB,Unit 5,NR1 3DD,Timberhill,restaurant,,,,steak;lobster,1089529,BOURGEE,Mo-Fr 11:30-17:00; Sa 09:00-17:00; Su 09:00-12:00,+44 1603 617143,,https://www.bourgeeofficial.co.uk/,,way/107046053,BOURGEE,true,,"114  Timberhill  
+  <strong>Level:</strong>&nbsp;4 NR1 3DD <br />
+  
+  
+  ",,,,,,food,Point,1.2955801;52.6264525,114,,dataprotection@bourgeeofficial.co.uk,,,,retail,,,,,4,,,,,,,,,,,,,,,,,,,,,yes
+Feature,way/108865900,Norwich,GB,MW 09,NR2 1SZ,Chapelfield Plain,restaurant,Wagamama,Q503715,en:Wagamama,asian,15451,Wagamama,Su-We 12:00-22:00; Th-Sa 12:00-23:00,+44 1603 305985,,http://www.wagamama.co.uk/,yes,way/108865900,Wagamama,true,,"408  Chapelfield Plain  
+  NR2 1SZ <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.2910686;52.6261401,408,,norwich@wagamama.co.uk,Opened 10th April 2006,,,unit,,,,,,,,,,,,,,,,,,,,,,,,,,,93
+Feature,way/108865910,Norwich,GB,FF C4,NR2 1SY,The Dining Terrace,restaurant,Pizza Hut,Q191615,en:Pizza Hut,pizza,15482,Pizza Hut,Mo-We 11:30-18:30; Th 11:30-20:30; Fr 11:30-19:30; Sa 11:00-19:30; Su 11:30-17:30,+44 1603 664622,,https://www.pizzahut.co.uk/,yes,way/108865910,Pizza Hut,true,,"301  The Dining Terrace  
+  <strong>Level:</strong>&nbsp;2 NR2 1SY <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.2912347;52.6257581,301,,,,,,unit,,,,,2,,,,,,,,,,,,,,,,793,,,,,,98,2
+Feature,way/108865948,Norwich,GB,MW 11,NR2 1SZ,Chapelfield Plain,restaurant,Gourmet Burger Kitchen,Q5588445,en:Gourmet Burger Kitchen,burger,555740,Gourmet Burger Kitchen,,+44 1603 305280,,https://www.gbk.co.uk/find-a-restaurant/,,way/108865948,Gourmet Burger Kitchen,true,,"410  Chapelfield Plain  
+  NR2 1SZ <br />
+  
+  
+  ",,,,,,food,Point,1.2911849;52.626373,410,,info@gbk.co.uk,,,,unit,,,,,,,,,,,,,,,,,,,,,,,,,,,127,,2
+Feature,way/108866025,Norwich,GB,MW 05,NR2 1SZ,Chapelfield Plain,restaurant,YO! Sushi,Q3105441,en:YO! Sushi,sushi,35658,YO! Sushi,Mo-Sa 12:00-23:00; Su 12:00-22:30,+44 1603 294833,,http://www.yosushi.com/restaurants/norwich,,way/108866025,YO! Sushi,true,,"403  Chapelfield Plain  
+  NR2 1SZ <br />
+  
+  
+  ",,,,,,food,Point,1.2918782;52.6260728,403,,,,,,unit,,,,,,,,,,,,,,,,,,,,,,,,,,,89,,
+Feature,way/108866031,Norwich,GB,FF C7,NR2 1SY,The Dining Terrace,restaurant,,,,american,932633,Ed's Easy Diner,Mo-We 09:00-18:00; Th 09:00-20:00; Fr-Sa 09:00-19:00; Su 11:00-17:00; PH 10:00-18:00,,,https://edseasydiner.com/location/norwich.php,,way/108866031,Ed's Easy Diner,true,,"307  The Dining Terrace  
+  <strong>Level:</strong>&nbsp;2 NR2 1SY <br />
+  Retro-American diner that captures the spirit of the classic US original.<br />
+  
+  ",,,,,,food,Point,1.2901443;52.6258384,307,,,,,,unit,,,,,2,,,,,,,,,,,,,,,,,,,,,,102,2,,Retro-American diner that captures the spirit of the classic US original.
+Feature,way/108866057,Norwich,GB,c/o House of Fraser,NR2 1SH,Merchants' Hall,restaurant,,,,,15544,Café Zest,Mo-We 09:00-18:00; Th 09:00-20:00; Fr-Sa 09:00-19:00; Su 11:00-17:00; PH 10:00-18:00,+44 1603 663945,,,,way/108866057,Café Zest,true,,"130  Merchants' Hall  
+  <strong>Level:</strong>&nbsp;2 NR2 1SH <br />
+  
+  
+  ",,,,,,food,Point,1.2891188;52.6262517,130,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,2,,
+Feature,way/112186422,Norwich,GB,,NR3 1BG,Colegate,restaurant,,,,indian,828797,The Merchants of Spice,Su-Th 17:30-23:00; Fr-Sa 17:30-00:00,+44 1603 660128,,https://www.merchantsofspice.co.uk/,,way/112186422,The Merchants of Spice,true,,"30-32  Colegate  
+  NR3 1BG <br />
+  
+  
+  ",,,,,,food,Point,1.2947623;52.6329984,30-32,,info@merchantsofspice.co.uk,,,,yes,,,,,,,,,,,,,,,,,,,Bing,,,,,,,,,,,,even,+44 1603 660138,Fine Indian Dining
+Feature,way/119455215,Norwich,GB,,NR1 1TR,Thorpe Road,restaurant,,,,chinese,73500,Canton Chinese Restaurant,,+44 1603 700702,,,,way/119455215,Canton Chinese Restaurant,true,,"129  Thorpe Road  
+  NR1 1TR <br />
+  
+  
+  ",,,,,,food,Point,1.3223548;52.625731,129,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119472389,Norwich,GB,,NR2 3RF,Earlham Road,restaurant,,,,chinese,998632,The Mitre Chinese Restaurant,,+44 1603 626306,,,,way/119472389,The Mitre Chinese Restaurant,true,,"131  Earlham Road  
+  NR2 3RF <br />
+  
+  
+  ",,,,,,food,Point,1.272441;52.630252,131,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119476316,Norwich,GB,,NR1 3EY,Ber Street,restaurant,,,,chinese,26535,Baby Buddha Chinese Teahouse,Th-Tu 12:00-22:00; We off,+44 1603 490889,,http://babybuddha-teahouse.com/,,way/119476316,Baby Buddha Chinese Teahouse,true,,"137  Ber Street  
+  NR1 3EY <br />
+  
+  
+  ",,,,,,food,Point,1.2986499;52.6227159,137,,info@babybuddha-teahouse.co.uk,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119558527,Norwich,GB,Unit 4a,NR1 1WX,Wherry Road,restaurant,Bella Italia,Q4883362,en:Bella Italia,italian,48450,Bella Italia,Mo-Fr 11:30-23:00; Sa 09:00-23:00; Su 09:00-22:00; ,+44 1603 615584,,https://www.bellaitalia.co.uk/italian-restaurant/norwich/riverside,,way/119558527,Bella Italia,true,,"4a  Wherry Road  
+  NR1 1WX <br />
+  
+  
+  ",,,,,,food,Point,1.304596;52.6263402,4a,,,,,,retail,,,,,,,,,,,,,,,,,,no,Bing;local knowledge,,,NR1 1WS,,,,,,,,,,,
+Feature,way/119559987,Norwich,GB,,NR1 1LT,Prince of Wales Road,restaurant,,,,chinese,727202,China Inn,,+44 1603 666002,,,,way/119559987,China Inn,true,,"72  Prince of Wales Road  
+  NR1 1LT <br />
+  
+  
+  ",,,,,,food,Point,1.3024774;52.6292657,72,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119600493,Norwich,GB,,NR1 3QD,Orford Hill,restaurant,,,,thai,734878,Mango-T,Mo-Sa 11:45-15:00; 17:45-22:30,+44 1603 660514,,http://mango-t.co.uk/,,way/119600493,Mango-T,true,,"8  Orford Hill  
+  NR1 3QD <br />
+  
+  
+  ",,,,,,food,Point,1.2948338;52.6268422,8,Q26303747,info@mango-t.co.uk,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119606587,Norwich,GB,,NR2 1AQ,Bridewell Alley,restaurant,,,,thai,48489,Thai Lanna,"Tu-Sa 12:00-15:00,18:00-23:00; Mo 18:00-23:00; Su 17:30-22:30",+44 1603 625087,,http://www.thailannanorwich.co.uk/,,way/119606587,Thai Lanna,true,,"24  Bridewell Alley  
+  NR2 1AQ <br />
+  
+  
+  ",,,,,,food,Point,1.2950568;52.6303724,24,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119607346,Norwich,GB,,NR1 3DN,Opie Street,restaurant,,,,indian,454533,Namaste India,,,,,,way/119607346,Namaste India,true,,"2a  Opie Street  
+  NR1 3DN <br />
+  
+  
+  ",,,,,,food,Point,1.2962719;52.6294943,2a,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119607347,Norwich,GB,,NR1 3DN,Opie Street,restaurant,,,,thai,836843,Thai Kitti,"11:00-15:00,17:00-22:30",+44 1603 766755,,http://www.thaikitti.co.uk/,,way/119607347,Thai Kitti,true,,"4  Opie Street  
+  NR1 3DN <br />
+  
+  
+  ",,,,,,food,Point,1.2961848;52.629523,4,,Info@thaikitti.co.uk,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Restaurant & Take Away
+Feature,way/119607917,Norwich,GB,,NR1 3QF,Red Lion Street,restaurant,Nando's,Q3472954,en:Nando's,chicken;portuguese,62225,Nando's,Su-Th 11:00-22:30; Fr-Sa 11:00-23:30,+44 1603 633683,,http://www.nandos.co.uk/restaurant/norwich-red-lion,yes,way/119607917,Nando's,true,,"23-25  Red Lion Street  
+  NR1 3QF <br />
+  
+  Wheelchair accessible 
+  Merit Award, Norwich Access Group. 1 accessible toilet with easy access rails. Friendly and knowledgeable staff",,,,,,food,Point,1.294616;52.6267567,23-25,,,,,,retail,,,,,,,,,,,,,,,,,,,survey,,,,,,,,,,,,odd,,,yes,"Merit Award, Norwich Access Group. 1 accessible toilet with easy access rails. Friendly and knowledgeable staff"
+Feature,way/119609417,Norwich,GB,,NR2 1LT,Upper Saint Giles Street,restaurant,,,,indian,937010,GALI,"Su-Th,PH 17:00-22:30; Fr-Sa 17:00-23:00",+44 1603 627007,,http://www.galifinedining.co.uk/,,way/119609417,GALI,true,,"82  Upper Saint Giles Street  
+  NR2 1LT <br />
+  
+  
+  ",,,,,,food,Point,1.2862573;52.6292073,82,,info@galifinedining.co.uk,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,yes,yes,,,,,,,,,,
+Feature,way/119613208,Norwich,GB,,NR3 1HR,Wensum Street,restaurant,,,,indian,18609,Spice Lounge,"Mo-Su,PH 12:00-14:00,18:00-00:00",+44 1603 766602,,http://www.spiceloungenorwich.co.uk/,,way/119613208,Spice Lounge,true,,"8-10  Wensum Street  
+  NR3 1HR <br />
+  
+  
+  ",,,,,,food,Point,1.2981708;52.6318076,8-10,,info@spiceloungenorwich.co.uk,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+44 1603 766603,,,
+Feature,way/119613575,Norwich,GB,,NR3 1LE,Magdalen Street,restaurant,,,,indian,666570,Ali Tandoori,"12:00-14:30,18:00-00:00",+44 1603 632101; +44 1603 631998,,http://www.alitandoori.co.uk/,,way/119613575,Ali Tandoori,true,,"9-11  Magdalen Street  
+  NR3 1LE <br />
+  
+  
+  ",,,,,,food,Point,1.2970208;52.6338351,9-11,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,odd,,,,
+Feature,way/119613902,Norwich,GB,,NR2 4AQ,Saint Benedicts Street,restaurant,,,,indian,869996,The Bengal Spice,,+44 1603 613444;+44 1603 617766,,http://www.thebengalspicenorwich.co.uk/,,way/119613902,The Bengal Spice,true,,"38-40  Saint Benedicts Street  
+  NR2 4AQ <br />
+  
+  
+  ",,,,,,food,Point,1.2890546;52.6308739,38-40,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,even,,,,
+Feature,way/119739816,Norwich,GB,,NR3 1LQ,Magdalen Street,restaurant,,,,indian,,Spice Paradise,"Tu-Su,PH 17:30-23:30",+44 1603 666601; +44 1603 664152,,http://www.spiceparadise.co.uk/,,way/119739816,Spice Paradise,true,,"41  Magdalen Street  
+  NR3 1LQ <br />
+  
+  
+  ",,,,,,food,Point,1.2968255;52.6347627,41,Q26303106,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+44 7738 021594
+Feature,way/119741243,Norwich,GB,,NR3 3AD,Saint Augustine's Street,restaurant,,,,indian,851585,Bombay Spice,17:00-23:00,+44 1603 632020;+44 1603 632080,,http://www.norwichbombayspice.co.uk/,,way/119741243,Bombay Spice,true,,"42  Saint Augustine's Street  
+  NR3 3AD <br />
+  
+  
+  ",,,,,,food,Point,1.2919711;52.6379259,42,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119743145,Norwich,GB,,NR1 1BA,Thorpe Road,restaurant,,,,indian,1023664,Curry Ocean,17:00-23:00,+44 1603 767002; +44 1603 627544,,http://www.curryocean.com/,,way/119743145,Curry Ocean,true,,"98  Thorpe Road  
+  NR1 1BA <br />
+  
+  
+  ",,,,,,food,Point,1.3114495;52.6267357,98,,info@curryocean.com,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119744104,Norwich,GB,,NR3 1LE,Magdalen Street,restaurant,,,,indian,,Nazma Brasseries,,+44 1603 618701; +44 1603 762307,,http://www.nazmabrasseries.co.uk/,,way/119744104,Nazma Brasseries,true,,"15  Magdalen Street  
+  NR3 1LE <br />
+  
+  
+  ",,,,,,food,Point,1.296964;52.6339648,15,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119744294,Norwich,GB,,NR1 3PN,Queens Road,restaurant,,,,indian,905157,Namaste Village,Mo-Th 17:30-22:30; Fr 17:30-23:00; Su 18:00-22:30,+44 1603 466 466,,http://www.namasteindiannorwich.com,,way/119744294,Namaste Village,true,,"131-139  Queens Road  
+  NR1 3PN <br />
+  
+  
+  ",,,,,,food,Point,1.2960173;52.6218689,131-139,,namastevillagenorwich@gmail.co.uk,,,,commercial,,no,,,,,,,,,,,,,,,,,,no,,,,no,yes,,,,,,odd,,,,,,120,yes
+Feature,way/119744827,Norwich,GB,,NR7 8HE,Mousehold Lane,restaurant,,,,indian,35375,Rishi,,+44 1603 482627,,http://rishi-norwich.co.uk/,,way/119744827,Rishi,true,,"26  Mousehold Lane  
+  NR7 8HE <br />
+  
+  
+  ",,,,,,food,Point,1.3125422;52.6501942,26,,info@rishinorwich.com,,,,shop,,,,,,,,,,,,,,,,+44 1603 482637,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119745123,Norwich,GB,,NR1 3HF,Finkelgate,restaurant,,,,indian,1080667,Roti,"12:00-14:30,17:30-23:30",+44 1603 613151; +44 1603 665901,,http://www.rotinorwich.co.uk/,yes,way/119745123,Roti,true,,"19  Finkelgate  
+  NR1 3HF <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.2989668;52.6213379,19,,info@rotinorwich.co.uk,,,,shop,,,,,,,,,,,code-point_open,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119746285,Norwich,GB,,NR3 1LQ,Magdalen Street,restaurant,,,,indian,,Passage To India,"12:00-14:30,18:00+",+44 1603 762836; +44 1603 762845,,http://www.thepassagetoindianorwich.co.uk/,,way/119746285,Passage To India,true,,"45  Magdalen Street  
+  NR3 1LQ <br />
+  
+  
+  ",,,,,,food,Point,1.296754;52.6349156,45,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119746768,Norwich,GB,,NR1 1BD,Prince of Wales Road,restaurant,,,,indian,60917,Prince Of India Restaurant,,+44 1603 616937; +44 1603 666933,,http://www.theprinceofindia.com/,,way/119746768,Prince Of India Restaurant,true,,"19  Prince of Wales Road  
+  NR1 1BD <br />
+  
+  
+  ",,,,,,food,Point,1.3003337;52.629359,19,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119764185,Norwich,GB,,NR2 2PE,Unthank Road,restaurant,,,,,429023,Blue Joanna,08:00+,+44 1603 610047,,https://www.bluejoanna.co.uk/,,way/119764185,Blue Joanna,true,,"103  Unthank Road  
+  NR2 2PE <br />
+  
+  
+  ",,,,,,food,Point,1.2776501;52.6247691,103,,,,The Last Brasserie,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/120682372,Norwich,GB,,NR1 3LG,All Saints Street,restaurant,,,,thai,812531,The Tamarind Tree Thai Restaurant,"Mo-We 12:00-15:00,18:00-22:30; Th-Sa 11:30-15:00,17:30-22:30; Su 11:00-16:00",+44 1603 667809,,http://www.thetamarindtree.co.uk/,,way/120682372,The Tamarind Tree Thai Restaurant,true,,"1  All Saints Street  
+  NR1 3LG <br />
+  
+  
+  ",,,,,,food,Point,1.2958572;52.6257767,1,,info@thetamarindtree.co.uk,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/120692870,Norwich,GB,,NR2 1JJ,St Giles Street,restaurant,,,,italian,69027,Paolo's Restaurant,"Mo-Fr 12:00-15:00,17:00-22:00; Sa 12:00-23:00; Su 12:00-22:00",+44 1603 611857,,http://paolos-restaurant.co.uk/,,way/120692870,Paolo's Restaurant,true,,"1  St Giles Street  
+  <strong>Level:</strong>&nbsp;2 NR2 1JJ <br />
+  
+  
+  ",,,,,,food,Point,1.291771;52.6292567,1,,info@paolos-restaurant.co.uk,,,,shop,Ristorante Di Paolo Ltd,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/120694314,Norwich,GB,,NR3 2RX,Aylsham Road,restaurant,,,,pizza,48109,Pizza Hut,12:00-23:00,+44 1603 488900,,https://www.pizzahut.co.uk/,,way/120694314,Pizza Hut,true,,"365  Aylsham Road  
+  NR3 2RX <br />
+  
+  
+  ",,,,,,food,Point,1.2776985;52.6563539,365,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/120700375,Norwich,GB,,NR1 1WX,Wherry Road,restaurant,Chiquito,Q5101775,en:Chiquito (restaurant),tex-mex,26398,Chiquito,Mo-Sa 09:00-23:00; Su 09:00-22:30,+44 1603 305521,FHRS Open Data,https://www.chiquito.co.uk/restaurant/norwich,yes,way/120700375,Chiquito,true,,"4ac  Wherry Road  
+  NR1 1WX <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.3042877;52.6261771,4ac,,,"Receipt says Unit 4AC / NR1 1WY, in contrast to Royal Mail details. Card receipt states NR1 1WZ.",Brannigans,,retail,,,,,,,,,,wlan,,,,,,+44 1603 878351,,no,Bing,yes,2219,NR1 1WZ,,,,,,,,,,,,,,,,,Unit 3B,Wherry Road,Norwich
+Feature,way/121499470,Norwich,GB,,NR2 4HZ,Dereham Road,restaurant,,,,turkish,1080660,Mr Mangal,,,,,,way/121499470,Mr Mangal,true,,"55-57  Dereham Road  
+  NR2 4HZ <br />
+  
+  
+  ",,,,,,food,Point,1.2820273;52.6330455,55-57,,,,,,yes,,,,,,,,,,,,,,,,,,,Bing,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/121499477,Norwich,GB,,NR2 4HZ,Dereham Road,restaurant,,,,romanian,1134581,BRAŞOV,,,,https://www.facebook.com/brasovtasteofromania/,,way/121499477,BRAŞOV,true,,"45-47  Dereham Road  
+  NR2 4HZ <br />
+  A Taste Of Romania<br />
+  
+  ",,,,,,food,Point,1.2823994;52.6329459,45-47,,brasovtasteofromania@gmail.com,,,,house,,,,,,,,,,,,,,,Brasov Taste of Romania,,,,Bing,,,,,,,,,,,A Taste Of Romania,,,,,,,,,,,,white,Cafe & Restaurant
+Feature,way/123525355,Norwich,GB,,NR2 4PF,Saint Benedicts Street,restaurant,,,,regional,938983,Farmyard,"Tu-Th 12:00-14:30,17:30-21:00; Fr-Sa 12:00-14:30,17:30-22:00; Su-Mo off",+44 1603 733188,,https://www.farmyardrestaurant.com/,,way/123525355,Farmyard,true,,"23  Saint Benedicts Street  
+  NR2 4PF <br />
+  
+  
+  ",,,,,,food,Point,1.2895136;52.6310264,23,,info@farmyardrestaurant.com,,,,yes,,,,,,,,,,,,,,,,,,,Bing,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/123525362,Norwich,,,NR2 4AQ,St Benedicts Street,restaurant,,,,spanish;continental,68598,Don Pepé,,,FSA Food Hygiene Ratings Database,,,way/123525362,Don Pepé,true,,"26  St Benedicts Street  
+  NR2 4AQ <br />
+  
+  
+  ",,,,,,food,Point,1.2898718;52.6307887,26,,,,,,yes,,,,,,,,,,,,,,,,,,,Bing,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/123525393,Norwich,GB,,NR2 4AR,St. Benedicts Street,restaurant,,,,italian,,Umberto's Ristorante,"Tu-Th 12:00-14:30,18:00-22:00; Fr-Sa 12:00-14:30,18:00-23:00; Su-Mo,PH off",+44 1603 517413,,http://www.umbertostrattoriaitaliapizzeria-norwich.co.uk/,,way/123525393,Umberto's Ristorante,true,,"68-70  St. Benedicts Street  
+  NR2 4AR <br />
+  
+  
+  ",,,,,,food,Point,1.287739;52.6311782,68-70,,,,Trattoria,,yes,,,,,,,,,,,,,,,,,,,Bing,,,,,,,,,,,,even,,,,,,,,,,,,
+Feature,way/125143695,Norwich,GB,,NR2 4AY,Dereham Road,restaurant,,,,indian,35680,The City Spice,17:00-00:00,+44 1603 621621; +44 1603 623444,,http://www.thecityspicenorwich.co.uk/,,way/125143695,The City Spice,true,,"8  Dereham Road  
+  NR2 4AY <br />
+  
+  
+  ",,,,,,food,Point,1.2844201;52.6319915,8,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/132252425,Norwich,,,NR1 3EU,Ber Street,restaurant,,,,,1070674,Cisco's Pan Asian and Sushi,,,FHRS Open Data,,,way/132252425,Cisco's Pan Asian and Sushi,true,,"25  Ber Street  
+  NR1 3EU <br />
+  
+  
+  ",,,,,,food,Point,1.2966495;52.6249214,25,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/135806241,Norwich,GB,,NR2 1HX,London Street,restaurant,,,,,1108805,Cosy Club Norwich,Su-We 09:00-23:30; Th 09:00-00:30; Fr-Sa 09:00-01:30,+44 1603 358640,,https://cosyclub.co.uk/location/norwich/,,way/135806241,Cosy Club Norwich,true,,"45-51  London Street  
+  NR2 1HX <br />
+  
+  
+  ",,,,,,food,Point,1.2955403;52.6295817,45-51,,norwichbookings@cosyclub.co.uk,,National Provincial Bank,,commercial,,,,,,,,,,,,,,,,,Mo-Su 09:00-22:00,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/137307245,Norwich,,,NR2 1RQ,Theatre Street,restaurant,,,,,73157,Assembly House,,,,,yes,way/137307245,Assembly House,true,," Theatre Street  
+  NR2 1RQ <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.2905011;52.62676,,Q4808666,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/138504784,Norwich,GB,,NR2 1LL,St Giles Street,restaurant,,,,fish,609507,Loch Fyne Fish Restaurant & Oyster Bar,Mo-Fr 09:00-22:00; Sa 09:00-22:30; Su 09:00-21:00,+44 1603 723450,,https://www.lochfyneseafoodandgrill.co.uk/locations/norwich,,way/138504784,Loch Fyne Fish Restaurant & Oyster Bar,true,,"30-32  St Giles Street  
+  NR2 1LL <br />
+  
+  
+  ",,,,,,food,Point,1.2902525;52.628994,30-32,,norwich@lochfyne.net,,,,yes,,,,,,,,,,,,,,,,+44 1603 723451,,,Bing,,,,,,,,,,,,even,,,,,,,,,,,,
+Feature,way/144745480,Norwich,GB,,NR1 1WX,Wherry Road,restaurant,Frankie & Benny's,Q5490892,en:Frankie & Benny's,italian,25699,Frankie & Benny's,Mo-Sa 09:00-23:00; Su 09:00-22:30,+44 1603 617206,,https://www.frankieandbennys.com/restaurant/frankie-bennys-norwich,yes,way/144745480,Frankie & Benny's,true,,"2  Wherry Road  
+  NR1 1WX <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.3049829;52.6262212,2,,,,,,retail,,,,,,,,,,wlan,,,,,,,,no,,yes,,,,,,yes,,,,,,,,,,,,yes,,,,,,yes,no
+Feature,way/145482503,Norwich,GB,,NR3 1TS,Barrack Street,restaurant,,,,american,4397,Zaks,,+44 1603 614318,,https://www.zaks.uk.com/,,way/145482503,Zaks,true,," Barrack Street  
+  NR3 1TS <br />
+  
+  
+  ",,,,,,food,Point,1.3084904;52.6345372,,,,,,,yes,,,,,,,,,,,,,,,,,,,Bing,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/147543679,Norwich,GB,,NR3 1RF,Tombland,restaurant,,,,,1044086,Erpingham House,"We-Sa 12:00-15:00,17:00-22:00",+44 1603 733834,,https://www.erpinghamhouse.com/,,way/147543679,Erpingham House,true,,"22  Tombland  
+  NR3 1RF <br />
+  
+  
+  ",,,,,,food,Point,1.2992231;52.6312003,22,,Info@erpinghamhouse.com,Cafe Wednesday- Sunday 11:00 - 16:00,,,yes,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,
+Feature,way/147543681,Norwich,GB,St Ethelberts,NR3 1RF,Tombland,restaurant,,,,thai,915725,Giggling Squid,,,,https://www.gigglingsquid.com/restaurant/norwich/,,way/147543681,Giggling Squid,true,,"24  Tombland  
+  NR3 1RF <br />
+  
+  
+  ",,,,,,food,Point,1.2994019;52.6308725,24,Q26303648,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/147543684,Norwich,GB,,NR3 1RF,Tombland,restaurant,,,,seafood,889698,Tatlers,,,,http://tatlersnorwich.com/,,way/147543684,Tatlers,true,,"21  Tombland  
+  NR3 1RF <br />
+  
+  
+  ",,,,,,food,Point,1.2991668;52.6313277,21,Q26653638,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/147543685,Norwich,GB,,NR3 1RF,Tombland,restaurant,Zizzi,Q8072944,en:Zizzi,italian,836836,Zizzi,Mo-Sa 12:00-23:00; Su 12:00-22:30,+44 1603 765767,,https://www.zizzi.co.uk/italian/restaurants/norwich,,way/147543685,Zizzi,true,,"25  Tombland  
+  NR3 1RF <br />
+  
+  
+  ",,,,,,food,Point,1.299493;52.6306812,25,Q26578506,Norwich@zizzi.co.uk,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/153706747,Norwich,GB,,NR7 9AW,Salhouse Road,restaurant,,,,american,44559,Fatso's,Mo-Sa 12:00-23:00; Su 12:00-22:30,,,https://www.fatsos.net/,,way/153706747,Fatso's,true,,"107  Salhouse Road  
+  NR7 9AW <br />
+  
+  
+  ",,,,,,food,Point,1.33196;52.6476949,107,,,,,,yes,,,,,,,,,,,,,,,,,,,Bing,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/156212137,Norwich,GB,Unit 3c,NR1 1WX,Wherry Road,restaurant,,,,american;italian,1104939,Fatso's,Su-Th 12:00-22:00; Fr-Sa 12:00-23:00,+44 1603 666165,,https://www.fatsos.net/,,way/156212137,Fatso's,true,,"3c  Wherry Road  
+  NR1 1WX <br />
+  
+  
+  ",,,,,,food,Point,1.3044144;52.6262392,3c,,,,,,retail,,,,,,,,,,,,,,,,,,,Bing,,,,,,,,,,,,,,,,,,,,,,,,,,,no
+Feature,way/166702493,Norwich,GB,Unit 7b,NR1 1WX,Wherry Road,restaurant,Nando's,Q3472954,en:Nando's,chicken;portuguese,84063,Nando's,Su-Th 12:00-22:30; Fr 12:00-23:30; Sa 11:30-00:00,+44 1603 663930,,http://www.nandos.co.uk/restaurant/norwich-riverside,,way/166702493,Nando's,true,," Wherry Road  
+  NR1 1WX <br />
+  
+  
+  ",,,,,,food,Point,1.3043962;52.6252514,,,,,,,retail,,,,,,,,,,,,,,,,,,,,,,NR1 1WS,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/169980389,Norwich,,,NR2 4PE,Saint Benedicts Street,restaurant,PizzaExpress,Q662845,en:PizzaExpress,pizza,68597,PizzaExpress,,,FHRS Open Data,,,way/169980389,PizzaExpress,true,,"15  Saint Benedicts Street  
+  NR2 4PE <br />
+  
+  
+  ",,,,,,food,Point,1.2907614;52.6309124,15,,,,,,yes,,,,,,,,,,,,,,,,,,,Bing,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/169985837,Norwich,GB,,NR7 0WG,Old Chapel Way,restaurant,Brewers Fayre,,,,145010,Broadland View,Mo-Fr 06:30-23:00; Sa 07:00-23:00; Su 07:00-22:30,+44 1603 307610,,https://www.brewersfayre.co.uk/brewersfayre/our-pubs/norwich/broadland-view.html,,way/169985837,Broadland View,true,," Old Chapel Way  
+  NR7 0WG <br />
+  
+  
+  ",,,,,,food,Point,1.3742401;52.6284745,,,,,,,retail,,,,,,,,,,wlan,,,,,,,,1,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,no
+Feature,way/170314471,Norwich,GB,,NR1 3JZ,Timberhill,restaurant,,,,,499555,Middletons,Su-Th 12:00-23:00; Fr-Sa 11:00-23:00,+44 1603 633663,,https://middletons-shg.co.uk/index.php/norwich,,way/170314471,Middletons,true,,"11-15  Timberhill  
+  NR1 3JZ <br />
+  
+  
+  ",,,,,,food,Point,1.2951298;52.6266097,11-15,,norwich@middletons-shg.co.uk,,"The Castlegates, Hot-Hot",,house,,,,,,,,,,wlan,,,,,,,"Mo-Sa 12:00-15:00,18:00-23:00; Su 12:00-15:00,18:00-22:30",no,,,,,,,,,,,,,odd,,,,,,,,,,,,,,no,,no
+Feature,way/170318607,,,Stuart Hall,NR2 4AD,St Andrews Street,restaurant,,,,,22930,The Dining Rooms,,,FSA Food Hygiene Ratings Database,,yes,way/170318607,The Dining Rooms,true,," St Andrews Street  
+  NR2 4AD <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.2958762;52.6303417,,,,,,,yes,Cinema City,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/170320826,Norwich,GB,,NR5 0JT,Alex Moorhouse Way,restaurant,Marston's,,,,648711,The Copper Beech,Mo-Fr 11:30-22:00+; Sa-Su 09:00-22:00+,+44 1603 743489,,https://www.copperbeechpubnorwich.co.uk/,,way/170320826,The Copper Beech,true,," Alex Moorhouse Way  
+  NR5 0JT <br />
+  
+  
+  ",,,,,,food,Point,1.1819685;52.6541733,,,copperbeech.norwich@marstons.co.uk,,,,yes,,,,,,,,,,,,,,,,,"Mo-Fr 12:00-22:00; Sa 09:00-11:00,12:00-22:00; Su 09:00-11:00,12:00-21:00",3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,no,Sa-Su 09:00-11:00; Mo-Fr off,"Mo-Sa 12:00-14:00,17:00-20:00; Su 12:00-20:00",Mo-Sa 12:00-22:00; Su 12:00-21:00,2011
+Feature,way/170327088,Norwich,GB,,NR7 0JD,Thunder Lane,restaurant,,,,,42453,The Cottage,Mo-Sa 12:00-23:00; Su 12:00-22:30,+44 1603 433444,,http://thecottage-norwich.co.uk/,,way/170327088,The Cottage,true,,"148  Thunder Lane  
+  NR7 0JD <br />
+  
+  
+  ",,,,,,food,Point,1.3452218;52.6381943,148,,enquiries@thecottage-norwich.co.uk,,,,yes,,,,,,,,,,wlan,,,,,,,Mo-Sa 18:00-21:30; Su 18:00-20:00,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,no,,,,
+Feature,way/170764158,Norwich,GB,,NR2 1JH,Guildhall Hill,restaurant,,,,,19058,The Library,Mo-Sa 11:00-22:00; Su 11:00-15:00,+44 1603 616606,,http://thelibraryrestaurant.co.uk/,,way/170764158,The Library,true,,"4a  Guildhall Hill  
+  NR2 1JH <br />
+  
+  
+  ",,,,,,food,Point,1.292429;52.6294124,4a,,thelibrary@rafflesrestaurants.co.uk,,,,yes,Raffles Restaurants,,,,,,,,,,,,,,,,12:00+,no,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,http://rafflesrestaurants.co.uk/
+Feature,way/171243395,Norwich,GB,,NR2 4PE,Saint Benedicts Street,restaurant,,,,italian,945159,Pinnochio's,Tu-Sa 12:00-14:00;Mo-Sa 17:00-23:00,+44 1603 613318,,http://pinocchiosrestaurant.net/,,way/171243395,Pinnochio's,true,,"11  Saint Benedicts Street  
+  NR2 4PE <br />
+  
+  
+  ",,,,,,food,Point,1.2910033;52.630862,11,,pinocchios@rafflesrestaurants.co.uk,,,,yes,Raffles Restaurants,,,,,,,,,,,,,,,+44 1603 666919,,,Bing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,http://rafflesrestaurants.co.uk/
+Feature,way/171243396,Norwich,GB,,NR2 4PE,Saint Benedicts Street,restaurant,,,,,,Saint Benedict's Restaurant,Tu-Sa 12:00-14:00; Tu-Th 18:00-22:00; Fr-Sa 18:00-22:30,+44 1603 765377,,http://stbenedictsrestaurant.co.uk/,,way/171243396,Saint Benedict's Restaurant,true,,"9  Saint Benedicts Street  
+  NR2 4PE <br />
+  
+  
+  ",,,,,,food,Point,1.2910988;52.6308433,9,,stbenedicts@rafflesrestaurants.co.uk,,,,yes,Raffles Restaurants,,,,,,,,,,,,,,,,,,Bing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,http://rafflesrestaurants.co.uk/
+Feature,way/171243397,Norwich,GB,,NR2 4PE,Saint Benedicts Street,restaurant,,,,turkish,940044,Haggle Restaurant,Mo-Su 12:00-01:00,+44 1603 768100,,http://hagglerestaurant.com,,way/171243397,Haggle Restaurant,true,,"13  Saint Benedicts Street  
+  NR2 4PE <br />
+  
+  
+  ",,,,,,food,Point,1.2909061;52.6308804,13,,info@hagglerestaurant.com,,The Rocks Music Bar & Lounge; Comfortably Numb; Lounge,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/171357348,Norwich,GB,,NR2 1AT,Exchange Street,restaurant,,,,burger,17352,Captain America's,Mo 11:30-16:00; Tu-Sa 11:30+; Su 12:00-16:00,+44 1603 622551,,http://www.captain-americas.co.uk/,no,way/171357348,Captain America's,true,,"4  Exchange Street  
+  <strong>Level:</strong>&nbsp;1 NR2 1AT <br />
+  
+  NO WHEELCHAIR ACCESS 
+  Upstairs Restaurant",,,,,,food,Point,1.2933603;52.6292158,4,,,,,,shop,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,no,Upstairs Restaurant,,,,,,,,,,,,,,,,,
+Feature,way/171360585,Norwich,GB,,NR1 1BG,Prince of Wales Road,restaurant,,,,chinese,878410,Tasty Restaurant,,,,,,way/171360585,Tasty Restaurant,true,,"23,23a  Prince of Wales Road  
+  NR1 1BG <br />
+  
+  
+  ",,,,,,food,Point,1.3005379;52.6293317,"23,23a",,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.edp24.co.uk/news/crime/revealed-filthy-conditions-and-people-sleeping-at-tasty-chinese-restaurant-on-prince-of-wales-road-1-4965774,FSA Food Hygiene Ratings Database
+Feature,way/171375436,Norwich,GB,,NR7 0EF,Yarmouth Road,restaurant,,,,,,The Town House,,+44 1603 700600,,https://www.crowncarveries.co.uk/thetownhousenorwich/,,way/171375436,The Town House,true,,"18-22  Yarmouth Road  
+  NR7 0EF <br />
+  
+  
+  ",,,,,,food,Point,1.3331884;52.6265814,18-22,,,,,,yes,Crown Carveries,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,even,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/171607787,Norwich,GB,,NR5 0TP,Dereham Road,restaurant,,,,,,Premier Inn,,+44 8701 977197,,http://www.premierinn.com/en/hotel/NORSHO/norwich-showground/a47,yes,way/171607787,Premier Inn,true,," Dereham Road  
+  NR5 0TP <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.1827498;52.650885,,,,,,,yes,Premier Inn,,,,,,,,,wlan,,,,,,+44 1603 741219,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,motel
+Feature,way/171787172,Norwich,GB,Unit 5b,NR1 1WX,Wherry Road,restaurant,Coast to Coast,Q22000729,en:Coast to Coast (restaurant),american,609504,Coast to Coast,,+44 1603 618082,,,,way/171787172,Coast to Coast,true,,"5b  Wherry Road  
+  NR1 1WX <br />
+  
+  
+  ",,,,,,food,Point,1.3037352;52.6256905,5b,,,,Norwegian Blue,,unit,,,,,,,,,,,,,,,,,,,Bing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/178300835,Norwich,GB,,NR2 1DP,Exchange Street,restaurant,,,,french,796466,Cote,Mo-Sa 09:00-23:00; Su 10:00-22:30,+44 1603 624230,,http://www.caferouge.co.uk/french-restaurant/norwich,yes,way/178300835,Cote,true,,"29  Exchange Street  
+  NR2 1DP <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.2938451;52.6300095,29,Q26276083,,,,,yes,,,,,,,,,,wlan,,,,,,,,,Bing,,,,,,,,,,,,,,,,,,,,,,,,,,no,,,,,,,,,,
+Feature,way/185574414,Norwich,GB,,NR1 3QF,Red Lion Street,restaurant,Bella Italia,Q4883362,en:Bella Italia,italian,48452,Bella Italia,Mo-Th 09:00-23:00; Fr-Sa 09:00-00:00; Su 10:00-22:30,+44 1603 614676,,https://www.bellaitalia.co.uk/italian-restaurant/norwich-red-lion-street,yes,way/185574414,Bella Italia,true,,"3  Red Lion Street  
+  NR1 3QF <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.2943563;52.6261828,3,,,,,,yes,,,,,,,,,,wlan,,,,,,,,,Bing,,,,,,,,,,,,,,,,,,,,,,,,,,no,,,,,,,,,,
+Feature,way/188148977,Norwich,GB,,NR14 7QB,Loddon Road,restaurant,,,,,647965,The Old Feathers,"Tu-Sa 12:00-15:00, 18:00-23:00; Su,PH 12:00-15:00; Mo off",+44 1508 495611,,http://www.theoldfeathers.co.uk/,,way/188148977,The Old Feathers,true,," Loddon Road  
+  NR14 7QB <br />
+  
+  
+  ",,,,,,food,Point,1.3537856;52.5915686,,,snooker_steve@hotmail.com,Bookings by phone only,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/203873762,Norwich,GB,,NR1 3TB,Orford Yard,restaurant,,,,portuguese,1089530,Jorge's Restaurant,,+44 1603 764441,,,,way/203873762,Jorge's Restaurant,true,,"2-3  Orford Yard  
+  NR1 3TB <br />
+  
+  
+  ",,,,,,food,Point,1.2945578;52.6264634,2-3,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Red Lion Street
+Feature,way/247841522,Norwich,GB,Thai Wellbeing,NR1 3QF,Red Lion Street,restaurant,,,,thai,,Baan Phraya,,+44 1603 614590,,http://www.baanphraya.com/,,way/247841522,Baan Phraya,true,,"19-21  Red Lion Street  
+  <strong>Level:</strong>&nbsp;1 NR1 3QF <br />
+  
+  
+  ",,,,,,food,Point,1.2945193;52.6267116,19-21,,eat@baanphraya.com,,,,shop,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,odd,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/247841527,Norwich,GB,,NR1 3LE,Orford Street,restaurant,,,,italian,,Benoli,,+44 1603 625390,,https://benolirestaurant.com/,,way/247841527,Benoli,true,,"5  Orford Street  
+  NR1 3LE <br />
+  
+  
+  ",,,,,,food,Point,1.2953092;52.6270875,5,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2019-07-10,,,,,,5
+Feature,way/281801970,Norwich,GB,,NR7 0WG,Old Chapel Way,restaurant,Hungry Horse;Greene King,,,regional,753452,The Fieldfare,08:00-23:00,+44 1603 438032,,https://www.hungryhorse.co.uk/pubs/fieldfare-norwich,,way/281801970,The Fieldfare,true,," Old Chapel Way  
+  NR7 0WG <br />
+  
+  
+  ",,,,,,food,Point,1.3726234;52.6284653,,,1789@greeneking.co.uk,,,,retail,,,,,,,,,,wlan,,,,,,,Mo-Sa 08:00-22:00; Su 08:00-21:00,yes,,yes,,,,,,,,,,,,,,,,,,,,,,,,,no,,,,,,,,,,,,
+Feature,way/307495325,Norwich,GB,,NR2 1JN,Saint Giles Street,restaurant,,,,waffle,69035,The Waffle House,Mo-Sa 10:00-22:00; Su 10:00-21:00,+44 1603 612790,,https://www.wafflehousenorwich.co.uk/,,way/307495325,The Waffle House,true,,"39  Saint Giles Street  
+  NR2 1JN <br />
+  
+  
+  ",,,,,,food,Point,1.2896166;52.6293355,39,,,,,,house,,,,,,,,,,,,,,,,,,,Bing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/337986580,Norwich,GB,,NR3 1LJ,Fye Bridge Street,restaurant,,,,spanish,20779,Torero,"Mo-Th 12:00-14:30,18:30-21:30; Fr-Sa 12:00-14:30,18:00-21:30; Su off",+44 1603 621825,,,,way/337986580,Torero,true,,"19  Fye Bridge Street  
+  NR3 1LJ <br />
+  
+  
+  ",,,,,,food,Point,1.2970656;52.633451,19,Q26638027,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Bar de Tapas Restaurant,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/338002246,Norwich,GB,,NR3 1LB,Tombland,restaurant,,,,,,wine press,24/7,+44 1603 209955,,https://maidsheadhotel.co.uk/restaurant,,way/338002246,wine press,true,,"20  Tombland  
+  NR3 1LB <br />
+  
+  
+  ",,,,,,food,Point,1.2982213;52.6322462,20,,winepress@maidsheadhotel.co.uk,Shares address with Maid's Head Hotel,,,house,,,,,,,,,,,,,,,,,12:00-14:00; 18:30-21:30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/338972493,Norwich,GB,Samson and Hercules House,NR3 1HF,Tombland,restaurant,,,,lobster,,Just Lobsters,"Mo off; Tu-Tu 12:00-16:00,18:00-23:00; Fr 12:00-16:00,18:00+; Sa-Su 11:00-16:00,18:00+",,,,,way/338972493,Just Lobsters,true,,"15  Tombland  
+  NR3 1HF <br />
+  
+  
+  ",,,,,,food,Point,1.2985339;52.631592,15,,,,,,house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lobsters@just-lobsters.com,+44 7454 167167,+44 203 603 1333,http://www.just-lobsters.com/
+Feature,way/345756801,Norwich,GB,,NR14 8AH,The Street,restaurant,,,,,,River Green Café,"Mo off; Tu-Fr 11:00-15:00,18:00-22:30; Sa 11:00-22:30; Su 11:00-15:30",+44 1603 622448,,https://www.rivergreencafe.co.uk/,,way/345756801,River Green Café,true,," The Street  
+  NR14 8AH <br />
+  
+  
+  ",,,,,,food,Point,1.3177457;52.6122288,,,info@rivergreencafe.co.uk,,,,yes,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,only,,,,,,yes,,,,,,,,,,,,,,,,,,bookings@rivergreencafe.co.uk
+Feature,way/351522072,South Walsham,GB,,NR13 6DY,Panxworth Road,restaurant,,,,chinese;thai,,Kings Arms Chinese & Thai,Mo-Su 17:00-23:00,+44 1603 270039,,,,way/351522072,Kings Arms Chinese & Thai,true,,"1  Panxworth Road  
+  NR13 6DY <br />
+  
+  
+  ",,,,,,food,Point,1.4917513;52.6638131,1,,,,,,yes,,,,,,,,,,,,,,,,,,,survey,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/361131264,Norwich,GB,,NR3 1RB,Upper King Street,restaurant,,,,,937369,CopaCubana,,,,https://www.copacubana.co.uk/,,way/361131264,CopaCubana,true,,"3  Upper King Street  
+  NR3 1RB <br />
+  
+  
+  ",,,,,,food,Point,1.2989375;52.6302455,3,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,odd,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,+44 7873 607720
+Feature,way/366714569,Norwich,GB,,NR4 6EF,Hall Road,restaurant,,,,,,Shoe Makers,,+44 1603 851844,,https://www.hungryhorse.co.uk/locations/shoe-makers,,way/366714569,Shoe Makers,true,," Hall Road  
+  NR4 6EF <br />
+  
+  
+  ",,,,,,food,Point,1.2892937;52.6072706,,,,,,,retail,Hungry Horse,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/374838500,,,,,,restaurant,,,,,,,,,,,,way/374838500,restaurant,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.2205814;52.6226847,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/387130874,Norwich,GB,,NR13 4AB,Woodbastwick Road,restaurant,,,,indian,,Tamarind Find Indian Dining,"Mo-Su,PH 12:00-14:00,17:30-23:00; Fr 17:30-23:00",+44 1603 716622,,http://tamarindblofield.co.uk/,,way/387130874,Tamarind Find Indian Dining,true,," Woodbastwick Road  
+  NR13 4AB <br />
+  
+  
+  ",,,,,,food,Point,1.4401496;52.6514461,,,,,,,house,,,,,,,,,,,,,,,,,,,OS_OpenData_VectorMapLocal,,,,,,yes,,,,,,,1603 716662,,,,,,,,,,,,,,,,,,,2013,,,,,,,,,,,,,,Tamarind
+Feature,way/439874203,Norwich,GB,,NR2 1HZ,Swan Lane,restaurant,,,,jamaican,912834,Turtle Bay,Su-We 11:30-23:30; Th 11:30-00:30; Fr-Sa 11:30-01:30,+44 1603 305300,,http://www.turtlebay.co.uk/locations/norwich/,,way/439874203,Turtle Bay,true,,"8  Swan Lane  
+  NR2 1HZ <br />
+  
+  
+  ",,,,,,food,Point,1.2947723;52.6295503,8,Q26578581,norwich@turtlebay.co.uk,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/529148861,Norwich,GB,,NR2 1DN,Saint John Maddermarket,restaurant,,,,malaysian;singapore;thai,,Madder Kitchen,"Mo-Tu,Th-Fr 12:00-14:30;17:00-21:00; Sa 11:00-16:00,17:00-22:00; Su 12:00-15:00",+44 1603 460558,,http://madderkitchen.co.uk/,,way/529148861,Madder Kitchen,true,,"20  Saint John Maddermarket  
+  NR2 1DN <br />
+  
+  
+  ",,,,,,food,Point,1.292678;52.630465,20,,info@madderkitchen.co.uk,,,,yes,,,,,,,,,,,,Madder Kitchen,,,,,,,Bing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/681398589,Norwich,,,NR2 1AD,Saint Andrews Hill,restaurant,,,,,35342,Bishops Dining Room and Bar,,01603 767 321,,https://www.bishopsrestaurant.co.uk/,,way/681398589,Bishops Dining Room and Bar,true,,"8-10  Saint Andrews Hill  
+  NR2 1AD <br />
+  
+  
+  ",,,,,,food,Point,1.2956866;52.6300836,8-10,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/681398604,Norwich,,,NR1 3PY,Castle Meadow,restaurant,,,,,1093884,Matane Sushi,,,FHRS Open Data,,,way/681398604,Matane Sushi,true,,"2  Castle Meadow  
+  NR1 3PY <br />
+  
+  
+  ",,,,,,food,Point,1.2948361;52.6274576,2,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/684011191,Norwich,,,NR1 3EY,Ber Street,restaurant,,,,,1065897,The Ber Street Kitchen,,,FHRS Open Data,,,way/684011191,The Ber Street Kitchen,true,,"141-143  Ber Street  
+  NR1 3EY <br />
+  
+  
+  ",,,,,,food,Point,1.2988115;52.6225801,141-143,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/689434701,Norwich,,,NR2 1QN,Brigg Street,restaurant,,,,thai,842923,Baan Chang,,,FSA Food Hygiene Ratings Database,,,way/689434701,Baan Chang,true,,"4A  Brigg Street  
+  <strong>Level:</strong>&nbsp;1 NR2 1QN <br />
+  
+  
+  ",,,,,,food,Point,1.2931819;52.6269047,4A,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/693886513,Norwich,,,NR2 1JE,London Street,restaurant,,,,,809250,Cosmos World Kitchen,,,FHRS Open Data,https://www.cosmo-restaurants.co.uk/restaurants/norwich,,way/693886513,Cosmos World Kitchen,true,,"25  London Street  
+  NR2 1JE <br />
+  
+  
+  ",,,,,,food,Point,1.2947805;52.6291896,25,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/693886516,Norwich,,,NR2 1PX,White Lion Street,restaurant,,,,,958568,Nanna Mexico,,,FHRS Open Data,,,way/693886516,Nanna Mexico,true,,"23  White Lion Street  
+  NR2 1PX <br />
+  
+  
+  ",,,,,,food,Point,1.2944611;52.6274406,23,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/699217496,Norwich,,,NR1 3JZ,Timberhill,restaurant,,,,,780994,Donnelli's Pizzeria,,,,http://www.donnellispizzeria.co.uk/,,way/699217496,Donnelli's Pizzeria,true,,"17  Timberhill  
+  NR1 3JZ <br />
+  
+  
+  ",,,,,,food,Point,1.2951958;52.6265246,17,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/699402732,Norwich,,,NR3 1HE,Tombland,restaurant,Prezzo,Q7242489,en:Prezzo (restaurant),italian,194545,Prezzo,,,FHRS Open Data,https://www.prezzorestaurants.co.uk/restaurant/norwich-tombland/,yes,way/699402732,Prezzo,true,,"2-3  Tombland  
+  NR3 1HE <br />
+  
+  Wheelchair accessible 
+  Upstairs dining, customer lift",,,,,,food,Point,1.2985001;52.6306852,2-3,,,,,,retail,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Upstairs dining, customer lift",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/699469967,Norwich,,,NR2 1AT,Exchange Street,restaurant,,,,,17354,Bar Tapas,,,FHRS Open Data,,,way/699469967,Bar Tapas,true,,"16-20  Exchange Street  
+  <strong>Level:</strong>&nbsp;1 NR2 1AT <br />
+  
+  
+  ",,,,,,food,Point,1.2934113;52.629635,16-20,,,,,,yes,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/700953763,Norwich,GB,UG 21A,NR2 1SQ,The North Terrace,restaurant,,,,french,570126,Cafe Rouge,,,FHRS Open Data,,,way/700953763,Cafe Rouge,true,,"201A  The North Terrace  
+  <strong>Level:</strong>&nbsp;1 NR2 1SQ <br />
+  
+  
+  ",,,,,,food,Point,1.2912175;52.6257617,201A,,,,,,unit,,,,,1,,,,,,,,,,,,,,,,,,,,,,64,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,Chapelfield,,,,,,,,,
+Feature,way/701301496,,,,NR1 1PD,King Street,restaurant,,,,tapas,,42 King Street,,+44 1603 623971,,http://no42kingstreet.weebly.com/,,way/701301496,42 King Street,true,,"42  King Street  
+  NR1 1PD <br />
+  
+  
+  ",,,,,,food,Point,1.2992984;52.6283636,42,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,relation/4620205,Norwich,,,NR2 1SZ,Chapelfield Plain,restaurant,ASK Italian,Q4807056,en:ASK Italian,italian,48374,ASK Italian,09:00-22:00,+44 1603 230300,FHRS Open Data,https://www.askitalian.co.uk/,,relation/4620205,ASK Italian,true,,"404-405  Chapelfield Plain  
+  NR2 1SZ <br />
+  
+  
+  ",,,,,,food,Point,1.291772;52.6259951,404-405,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,multipolygon
+Feature,relation/5476222,Norwich,GB,,NR2 1PT,Back of the Inns,restaurant,,,,regional,682950,Bill's Restaurant,"Mo-Sa 08:00-23:00; Su,PH 09:00-22:30",+44 1603 611131,,https://bills-website.co.uk/restaurants/norwich/,,relation/5476222,Bill's Restaurant,true,,"2-10  Back of the Inns  
+  NR2 1PT <br />
+  
+  
+  ",,,,,,food,Point,1.2944736;52.6278722,2-10,,norwich@bills-email.co.uk,,,,yes,,,,,,,,,,wlan,,,,,,,,,,,,,,,,,,1,,,even,,,,,,,,,,,,,,no,,,,,,,,,,,,,,,,,,,,,multipolygon
+Feature,relation/6188296,Norwich,,,NR2 2RB,Unthank Road,restaurant,,,,,711791,The Georgian Townhouse,"Mo-Fr 08:00-23:00,Sa 08:00-00:00,Su 08:00-22:30",+44 1603 615655,FHRS Open Data,https://www.thegeorgiantownhousenorwich.com/,,relation/6188296,The Georgian Townhouse,true,,"30-34  Unthank Road  
+  NR2 2RB <br />
+  
+  
+  ",,,,,,food,Point,1.283288;52.6277872,30-34,,info@tgtnorwich.com,,,,,City Pub Company East,,,,,,,,,,,,,,,,"Mo-Sa 08:00-10:00,12:00-22:00,Su 08:00-10:00,12:00-21:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,hotel,,,,,,,,,,,multipolygon,events@tgtnorwich.com,reception@tgtnorwich.com
+Feature,relation/7039199,,,,,,restaurant,,,,burger,,Byron Hamburgers,"Mo-Fr 11:30-23:00; Sa 11:00-23:00; Su,PH 11:00-22:30",+44 1603 767700,,https://www.byronhamburgers.com/restaurant/intu-chapelfield,,relation/7039199,Byron Hamburgers,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.2916292;52.6259075,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,multipolygon,,

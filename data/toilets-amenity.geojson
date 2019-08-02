@@ -924,6 +924,54 @@
   },
   {
    "type": "Feature",
+   "id": "node/6633090469",
+   "properties": {
+    "amenity": "toilets",
+    "male": "yes",
+    "id": "node/6633090469",
+    "mapFeature": {
+     "caption": "toilets",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2673306,
+     52.6461462
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/6633090472",
+   "properties": {
+    "amenity": "toilets",
+    "female": "yes",
+    "id": "node/6633090472",
+    "mapFeature": {
+     "caption": "toilets",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2673386,
+     52.6459933
+    ]
+   }
+  },
+  {
+   "type": "Feature",
    "id": "way/55291587",
    "properties": {
     "amenity": "toilets",
@@ -944,31 +992,6 @@
     "coordinates": [
      1.2197417,
      52.6028175
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/114165003",
-   "properties": {
-    "amenity": "toilets",
-    "building": "yes",
-    "source": "Bing",
-    "id": "way/114165003",
-    "mapFeature": {
-     "caption": "toilets",
-     "allowPopup": true,
-     "location": "  \n  <br />\n  \n  \n  ",
-     "layers": [
-      "toilets"
-     ]
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2672908,
-     52.6460316
     ]
    }
   },

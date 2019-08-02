@@ -1,7 +1,7 @@
 import L from 'leaflet'
 import { CSMLayerFactory } from './utils.js'
 // import { userSettings } from './userSettings.js'
-import changingPlacesLogo from './../resources/Changing_Place_logo.svg'
+import changingPlacesLogo from './../resources/logos/Changing_Place_logo.svg'
 
 var toiletMarker = L.ExtraMarkers.icon({
   icon: 'fa-toilet',

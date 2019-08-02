@@ -929,11 +929,16 @@
     "addr:postcode": "NR1 1WX",
     "addr:street": "Wherry Road",
     "amenity": "restaurant",
-    "building": "unit",
+    "brand": "Pizza Hut",
+    "brand:wikidata": "Q191615",
+    "brand:wikipedia": "en:Pizza Hut",
+    "building": "retail",
     "cuisine": "pizza",
     "fhrs:id": "84061",
+    "internet_access": "wlan",
     "name": "Pizza Hut",
-    "opening_hours": "Su-Th 11:00-21:00; Fr-Sa 11:00-22:00",
+    "opening_hours": "Mo-Th 11:00-21:00; Fr-Sa 11:00-23:00; Su 11:00-21:00",
+    "outdoor_seating": "yes",
     "phone": "+44 1603 663423",
     "ref": "466",
     "source": "Bing",
@@ -954,6 +959,46 @@
     "coordinates": [
      1.3041938,
      52.6261117
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/103522686",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "Unit 5a",
+    "addr:housenumber": "5a",
+    "addr:postcode": "NR1 1WX",
+    "addr:street": "Wherry Road",
+    "amenity": "restaurant",
+    "brand": "TGI Friday's",
+    "brand:wikidata": "Q1524184",
+    "brand:wikipedia": "en:TGI Fridays",
+    "building": "unit",
+    "cuisine": "american",
+    "fhrs:id": "609505",
+    "name": "TGI Friday's",
+    "opening_hours": "Su-Th 12:00-22:30; Fr-Sa 12:00-23:00",
+    "phone": "+44 1603 666101",
+    "source": "Bing",
+    "website": "https://www.tgifridays.co.uk/norwich/",
+    "id": "way/103522686",
+    "mapFeature": {
+     "caption": "TGI Friday's",
+     "allowPopup": true,
+     "location": "5a  Wherry Road  \n  NR1 1WX <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.303909,
+     52.6259197
     ]
    }
   },
@@ -1097,6 +1142,46 @@
     "coordinates": [
      1.2915111,
      52.6295921
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/106665874",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "73",
+    "addr:postcode": "NR1 3RL",
+    "addr:street": "Grove Road",
+    "amenity": "restaurant",
+    "brand": "Pizza Hut",
+    "brand:wikidata": "Q191615",
+    "brand:wikipedia": "en:Pizza Hut",
+    "building": "shop",
+    "cuisine": "pizza",
+    "delivery": "yes",
+    "fhrs:id": "711790",
+    "name": "Pizza Hut",
+    "opening_hours": "Su-Mo,We-Fr 11:00-01:00; Tu,Sa 11:00-04:00; Dec 24,26,31 11:30-23:00; Dec 25 off",
+    "phone": "+44 1603 220066",
+    "takeaway": "yes",
+    "website": "https://www.pizzahut.co.uk/",
+    "id": "way/106665874",
+    "mapFeature": {
+     "caption": "Pizza Hut",
+     "allowPopup": true,
+     "location": "73  Grove Road  \n  NR1 3RL <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2912923,
+     52.6208711
     ]
    }
   },
@@ -1567,15 +1652,19 @@
     "addr:postcode": "NR1 1WX",
     "addr:street": "Wherry Road",
     "amenity": "restaurant",
-    "building": "unit",
+    "brand": "Bella Italia",
+    "brand:wikidata": "Q4883362",
+    "brand:wikipedia": "en:Bella Italia",
+    "building": "retail",
     "cuisine": "italian",
     "fhrs:id": "48450",
     "name": "Bella Italia",
     "not:addr:postcode": "NR1 1WS",
-    "opening_hours": "10:00-23:00",
+    "opening_hours": "Mo-Fr 11:30-23:00; Sa 09:00-23:00; Su 09:00-22:00; ",
     "phone": "+44 1603 615584",
     "real_ale": "no",
-    "source": "Bing",
+    "source": "Bing;local knowledge",
+    "website": "https://www.bellaitalia.co.uk/italian-restaurant/norwich/riverside",
     "id": "way/119558527",
     "mapFeature": {
      "caption": "Bella Italia",
@@ -2367,6 +2456,7 @@
     "cuisine": "italian",
     "email": "info@paolos-restaurant.co.uk",
     "fhrs:id": "69027",
+    "level": "2",
     "name": "Paolo's Restaurant",
     "opening_hours": "Mo-Fr 12:00-15:00,17:00-22:00; Sa 12:00-23:00; Su 12:00-22:00",
     "operator": "Ristorante Di Paolo Ltd",
@@ -2376,7 +2466,7 @@
     "mapFeature": {
      "caption": "Paolo's Restaurant",
      "allowPopup": true,
-     "location": "1  St Giles Street  \n  NR2 1JJ <br />\n  \n  \n  ",
+     "location": "1  St Giles Street  \n  <strong>Level:</strong>&nbsp;2 NR2 1JJ <br />\n  \n  \n  ",
      "layers": [
       "food"
      ]
@@ -2431,35 +2521,39 @@
    "properties": {
     "addr:city": "Norwich",
     "addr:country": "GB",
-    "addr:housename": "Unit 3b",
-    "addr:housenumber": "3b",
+    "addr:housenumber": "4ac",
     "addr:postcode": "NR1 1WX",
     "addr:street": "Wherry Road",
     "amenity": "restaurant",
-    "building": "unit",
-    "cuisine": "mexican",
+    "brand": "Chiquito",
+    "brand:wikidata": "Q5101775",
+    "brand:wikipedia": "en:Chiquito (restaurant)",
+    "building": "retail",
+    "cuisine": "tex-mex",
     "fax": "+44 1603 878351",
     "fhrs:id": "26398",
     "fixme:addr1": "Unit 3B",
     "fixme:addr2": "Wherry Road",
     "fixme:addr3": "Norwich",
+    "internet_access": "wlan",
     "name": "Chiquito",
     "not:addr:postcode": "NR1 1WZ",
     "note": "Receipt says Unit 4AC / NR1 1WY, in contrast to Royal Mail details. Card receipt states NR1 1WZ.",
     "old_name": "Brannigans",
     "opening_hours": "Mo-Sa 09:00-23:00; Su 09:00-22:30",
     "outdoor_seating": "yes",
-    "phone": "+44 1603 878350",
+    "phone": "+44 1603 305521",
     "real_ale": "no",
     "ref": "2219",
     "source": "Bing",
     "source:addr": "FHRS Open Data",
     "website": "https://www.chiquito.co.uk/restaurant/norwich",
+    "wheelchair": "yes",
     "id": "way/120700375",
     "mapFeature": {
      "caption": "Chiquito",
      "allowPopup": true,
-     "location": "3b  Wherry Road  \n  NR1 1WX <br />\n  \n  \n  ",
+     "location": "4ac  Wherry Road  \n  NR1 1WX <br />\n  \n  Wheelchair accessible \n  ",
      "layers": [
       "food"
      ]
@@ -2831,16 +2925,22 @@
    "properties": {
     "addr:city": "Norwich",
     "addr:country": "GB",
+    "addr:housenumber": "2",
     "addr:postcode": "NR1 1WX",
     "addr:street": "Wherry Road",
     "amenity": "restaurant",
-    "building": "yes",
+    "brand": "Frankie & Benny's",
+    "brand:wikidata": "Q5490892",
+    "brand:wikipedia": "en:Frankie & Benny's",
+    "building": "retail",
     "covered": "yes",
     "cuisine": "italian",
+    "diet:gluten_free": "yes",
+    "diet:vegetarian": "yes",
     "fhrs:id": "25699",
     "internet_access": "wlan",
     "internet_access:fee": "no",
-    "name": "Frankie & Benny’s",
+    "name": "Frankie & Benny's",
     "opening_hours": "Mo-Sa 09:00-23:00; Su 09:00-22:30",
     "outdoor_seating": "yes",
     "phone": "+44 1603 617206",
@@ -2849,9 +2949,9 @@
     "wheelchair": "yes",
     "id": "way/144745480",
     "mapFeature": {
-     "caption": "Frankie & Benny’s",
+     "caption": "Frankie & Benny's",
      "allowPopup": true,
-     "location": " Wherry Road  \n  NR1 1WX <br />\n  \n  Wheelchair accessible \n  ",
+     "location": "2  Wherry Road  \n  NR1 1WX <br />\n  \n  Wheelchair accessible \n  ",
      "layers": [
       "food"
      ]
@@ -2910,9 +3010,14 @@
     "addr:street": "Tombland",
     "amenity": "restaurant",
     "building": "yes",
-    "cuisine": "vegan",
+    "diet:gluten_free": "yes",
+    "diet:vegan": "yes",
+    "email": "Info@erpinghamhouse.com",
     "fhrs:id": "1044086",
     "name": "Erpingham House",
+    "note": "Cafe Wednesday- Sunday 11:00 - 16:00",
+    "opening_hours": "We-Sa 12:00-15:00,17:00-22:00",
+    "phone": "+44 1603 733834",
     "website": "https://www.erpinghamhouse.com/",
     "id": "way/147543679",
     "mapFeature": {
@@ -3088,10 +3193,12 @@
     "addr:postcode": "NR1 1WX",
     "addr:street": "Wherry Road",
     "amenity": "restaurant",
-    "building": "unit",
-    "cuisine": "greek",
+    "building": "retail",
+    "cuisine": "american;italian",
     "fhrs:id": "1104939",
     "name": "Fatso's",
+    "opening_hours": "Su-Th 12:00-22:00; Fr-Sa 12:00-23:00",
+    "phone": "+44 1603 666165",
     "source": "Bing",
     "website": "https://www.fatsos.net/",
     "id": "way/156212137",
@@ -3122,17 +3229,20 @@
     "addr:postcode": "NR1 1WX",
     "addr:street": "Wherry Road",
     "amenity": "restaurant",
+    "brand": "Nando's",
+    "brand:wikidata": "Q3472954",
+    "brand:wikipedia": "en:Nando's",
     "building": "retail",
-    "cuisine": "chicken",
+    "cuisine": "chicken;portuguese",
     "fhrs:id": "84063",
-    "name": "Nando's Chickenland",
+    "name": "Nando's",
     "not:addr:postcode": "NR1 1WS",
     "opening_hours": "Su-Th 12:00-22:30; Fr 12:00-23:30; Sa 11:30-00:00",
     "phone": "+44 1603 663930",
     "website": "http://www.nandos.co.uk/restaurant/norwich-riverside",
     "id": "way/166702493",
     "mapFeature": {
-     "caption": "Nando's Chickenland",
+     "caption": "Nando's",
      "allowPopup": true,
      "location": " Wherry Road  \n  NR1 1WX <br />\n  \n  \n  ",
      "layers": [
@@ -3684,15 +3794,19 @@
     "addr:postcode": "NR1 1WX",
     "addr:street": "Wherry Road",
     "amenity": "restaurant",
+    "brand": "Coast to Coast",
+    "brand:wikidata": "Q22000729",
+    "brand:wikipedia": "en:Coast to Coast (restaurant)",
     "building": "unit",
+    "cuisine": "american",
     "fhrs:id": "609504",
-    "name": "Coast to Coast American Restaurant and Bar",
+    "name": "Coast to Coast",
     "old_name": "Norwegian Blue",
     "phone": "+44 1603 618082",
     "source": "Bing",
     "id": "way/171787172",
     "mapFeature": {
-     "caption": "Coast to Coast American Restaurant and Bar",
+     "caption": "Coast to Coast",
      "allowPopup": true,
      "location": "5b  Wherry Road  \n  NR1 1WX <br />\n  \n  \n  ",
      "layers": [
@@ -4621,16 +4735,22 @@
     "addr:postcode": "NR3 1HE",
     "addr:street": "Tombland",
     "amenity": "restaurant",
-    "building": "yes",
+    "brand": "Prezzo",
+    "brand:wikidata": "Q7242489",
+    "brand:wikipedia": "en:Prezzo (restaurant)",
+    "building": "retail",
+    "cuisine": "italian",
     "fhrs:id": "194545",
     "name": "Prezzo",
     "source:addr": "FHRS Open Data",
     "website": "https://www.prezzorestaurants.co.uk/restaurant/norwich-tombland/",
+    "wheelchair": "yes",
+    "wheelchair:description": "Upstairs dining, customer lift",
     "id": "way/699402732",
     "mapFeature": {
      "caption": "Prezzo",
      "allowPopup": true,
-     "location": "2-3  Tombland  \n  NR3 1HE <br />\n  \n  \n  ",
+     "location": "2-3  Tombland  \n  NR3 1HE <br />\n  \n  Wheelchair accessible \n  Upstairs dining, customer lift",
      "layers": [
       "food"
      ]

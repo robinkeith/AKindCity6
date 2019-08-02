@@ -1,0 +1,111 @@
+type,id,addr:city,addr:street,amenity,capacity,name,opening_hours,operator,wheelchair,id,F.caption,F.allowPopup,F.icon,F.location,F.facilities,F.availability,F.operator,F.contact,F.meta,F.layers,geometry.type,geometry.coordinates,description,addr:country,addr:housenumber,addr:postcode,email,fax,phone,website,addr:housename,note,phone_alt,taxi,access,wheelchair:description,source,building,contact:email,contact:mobile,contact:phone,contact:website,strapline,office,level,phone:admin,type
+Feature,node/328762,Norwich,Riverside,taxi,3,Riverside Taxi Rank (Part Time),"""Part time""",Norwich City Council,yes,node/328762,Riverside Taxi Rank (Part Time),true,," Riverside  
+  <br />
+  
+  Wheelchair accessible 
+  ",,,,,,here,Point,1.3051079;52.6266197
+Feature,node/306668786,,,taxi,,,,,,node/306668786,taxi,true,,"  
+  <br />
+  
+  
+  ",,,,,,here,Point,1.2774005;52.6692665
+Feature,node/772786068,Norwich,Queens Road,taxi,3,Bus Station Taxi rank,24/7,Norwich City Council,yes,node/772786068,Bus Station Taxi rank,true,," Queens Road  
+  <br />
+  Through walkway to bus station<br />
+  Wheelchair accessible 
+  ",,,,,,here,Point,1.2919604;52.6237677,Through walkway to bus station
+Feature,node/967674107,Norwich,Magdalen Road,taxi,,Bestway Taxis,,,,node/967674107,Bestway Taxis,true,,"25  Magdalen Road  
+  NR3 4LQ <br />
+  
+  
+  ",,,,,,here,Point,1.2966424;52.640331,,GB,25,NR3 4LQ,bestwaytaxis@googlemail.com,+44 1603 666222,+44 1603 666666,http://www.bestwaytaxisnorwich.co.uk/
+Feature,node/1236341553,Norwich,Tombland,taxi,3,Tombland Taxi Rank (Full time),24/7,Norwich City Council,,node/1236341553,Tombland Taxi Rank (Full time),true,," Tombland  
+  <br />
+  
+  
+  ",,,,,,here,Point,1.2988874;52.6305032,,,,,,,,
+Feature,node/1736108940,Norwich,Dereham Road,taxi,,Millennium Taxis,,,,node/1736108940,Millennium Taxis,true,,"397  Dereham Road  
+  NR5 0SE <br />
+  
+  
+  ",,,,,,here,Point,1.2112776;52.6451805,,GB,397,NR5 0SE,,,+44 1603 747474,,Unit 1,Located upstairs,+44 1603 749749
+Feature,node/2126290197,Norwich,Prince of Wales Road,taxi,,Five Star Taxis,,,,node/2126290197,Five Star Taxis,true,,"43a  Prince of Wales Road  
+  NR1 1BL <br />
+  
+  
+  ",,,,,,here,Point,1.3014037;52.629262,,GB,43a,NR1 1BL,info@5startaxis.com,,+44 1603 455555,https://www.5startaxis.com/,,,+44 800 575575,office
+Feature,node/2772911954,,,taxi,,,,,,node/2772911954,taxi,true,,"  
+  <br />
+  
+  
+  ",,,,,,here,Point,1.2928472;52.6255242,,,,,,,,,,,,
+Feature,node/6568899501,Norwich,Tombland,taxi,5,Tombland (Part time),"""Part time""",Norwich City Council,,node/6568899501,Tombland (Part time),true,," Tombland  
+  <br />
+  
+  
+  ",,,,,,here,Point,1.2991859;52.6307911,,,,,,,,,,,,
+Feature,node/6568899502,Norwich,Bank Plain,taxi,5,Bank Plain Taxi Rank (Part time),"""part time""",Norwich City Council,,node/6568899502,Bank Plain Taxi Rank (Part time),true,," Bank Plain  
+  <br />
+  
+  
+  ",,,,,,here,Point,1.2971502;52.6301383,,,,,,,,,,,,
+Feature,node/6568899503,Norwich,Prince of Wales Road,taxi,5,Prince of Wales Road Taxi Rank (Part Time),"""Part time""",Norwich City Council,,node/6568899503,Prince of Wales Road Taxi Rank (Part Time),true,," Prince of Wales Road  
+  <br />
+  
+  
+  ",,,,,,here,Point,1.3036832;52.628666,,,,,,,,,,,,
+Feature,node/6568899504,Norwich,Castle Meadow,taxi,3,Castle Meadow Taxi Rank,24/7,Norwich City Council,yes,node/6568899504,Castle Meadow Taxi Rank,true,," Castle Meadow  
+  <br />
+  
+  Wheelchair accessible 
+  ",,,,,,here,Point,1.2951511;52.6285178,,,,,,,,,,,,
+Feature,node/6568899505,Norwich,Saint Stephens Street,taxi,3,St Stephens Street Taxi Rank,24/7,Norwich City Council,yes,node/6568899505,St Stephens Street Taxi Rank,true,," Saint Stephens Street  
+  <br />
+  
+  Wheelchair accessible 
+  ",,,,,,here,Point,1.2922061;52.6251379,,,,,,,,,,,,
+Feature,way/27303611,Norwich,Guildhall Hill,taxi,10,Marketplace Taxi Rank (Gaol Hill),24/7,Norwich City Council,yes,way/27303611,Marketplace Taxi Rank (Gaol Hill),true,," Guildhall Hill  
+  NR2 1SN <br />
+  
+  Wheelchair accessible 
+  Taxi rank situated on a slope",,,,,,here,Point,1.2930352;52.6289599,,,,NR2 1SN,,,,,,,,,yes,Taxi rank situated on a slope
+Feature,way/108467051,Norwich,Station Approach,taxi,5,Norwich Railway Station Taxi Rank,24/7,Norwich City Council,yes,way/108467051,Norwich Railway Station Taxi Rank,true,," Station Approach  
+  <br />
+  Taxi rank at front of station<br />
+  Wheelchair accessible 
+  ",,,,,,here,Point,1.3065905;52.6271501,Taxi rank at front of station,,,,,,,,,,,,,,survey
+Feature,way/117007251,,,taxi,,ABC Taxis,,,,way/117007251,ABC Taxis,true,,"  
+  <br />
+  
+  
+  ",,,,,,here,Point,1.2801087;52.6391975,,,,,,,,,,,,,,,Bing,yes
+Feature,way/166701242,Norwich,Danesbower Close,taxi,,A Tolver Taxis & Travel,,,,way/166701242,A Tolver Taxis & Travel,true,,"16  Danesbower Close  
+  NR13 4LR <br />
+  
+  
+  ",,,,,,here,Point,1.4514591;52.6329578,,GB,16,NR13 4LR,a.tolver@btinternet.com,+44 1603 717356,+44 1603 717271,,,,+44 1603 717356,,,,,
+Feature,way/200262922,Norwich,Crostwick Lane,taxi,,AMC Taxis,,,,way/200262922,AMC Taxis,true,,"98  Crostwick Lane  
+  NR10 3NQ <br />
+  
+  
+  ",,,,,,here,Point,1.3281034;52.6874304,,GB,98,NR10 3NQ,enquiries@amctravel.co.uk,,+44 1603 890222,https://www.taxis-norwichlondonairports.co.uk/,,,,,,,,office
+Feature,way/252766256,,,taxi,,Allstar Taxis,,,,way/252766256,Allstar Taxis,true,,"  
+  <br />
+  
+  
+  ",,,,,,here,Point,1.1869926;52.6528712,,,,,,,+44 1603 744444,,,,,office,,,,office
+Feature,way/312316171,Norwich,Priory Road,taxi,,Abbey Taxis,,,,way/312316171,Abbey Taxis,true,,"50  Priory Road  
+  NR9 3EY <br />
+  
+  
+  ",,,,,,here,Point,1.1773329;52.5964328,,GB,50,NR9 3EY,,,,,,,,office,,,,house,andy@abbeytaxi.com,+44 7917 638766,+44 1603 810555,http://www.abbeytaxi.com/,Hethersett Wymondham & Beyond
+Feature,way/330356527,Norwich,Prince of Wales Road,taxi,,Beeline Taxis,,,,way/330356527,Beeline Taxis,true,,"70  Prince of Wales Road  
+  <br />
+  
+  
+  ",,,,,,here,Point,1.3023718;52.6292645,,GB,70,,,,+44 1603 767676,http://www.beelinetaxisnorwich.co.uk/,,,,,,,,yes,,,,,,taxi
+Feature,relation/5710974,Norwich,Prince of Wales Road,taxi,,Courtesy Taxis,,,,relation/5710974,Courtesy Taxis,true,,"77a  Prince of Wales Road  
+  <strong>Level:</strong>&nbsp;1 NR1 1DG <br />
+  
+  
+  ",,,,,,here,Point,1.3028498;52.6286805,,GB,77a,NR1 1DG,citycars.ltd@btconnect.com,+44 1603 633383,+44 1603 446644,https://www.courtesytaxis.com/,,,,office,,,,,,,,,,,1,+44 1603 633336,multipolygon

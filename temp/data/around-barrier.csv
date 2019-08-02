@@ -1,0 +1,3261 @@
+type,id,bridge,dismount,highway,incline,layer,lit,maintenance,salting:operator,salting:ref,id,F.caption,F.allowPopup,F.icon,F.location,F.facilities,F.availability,F.operator,F.contact,F.meta,F.layers,geometry.type,geometry.coordinates,steps,step_count,surface,bicycle,designation,foot,proposed,prow_ref,source:prow_ref,name,width,covered,source:ref,horse,motor_vehicle,tunnel,postal_code,note,access,level,conveying,source:designation,source,handrail,smoothness,wheelchair,ramp,footway,route,area,cutting,ramp:wheelchair,handrail:center,description,dog
+Feature,way/26530307,yes,yes,footway,up,1,yes,salting,Norwich City Council,NKE044,way/26530307,way/26530307,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2849266;52.6294139
+Feature,way/26530308,yes,yes,footway,up,1,yes,salting,Norwich City Council,NKE044,way/26530308,way/26530308,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2853847;52.6294902
+Feature,way/30451010,,,steps,up,,,,,,way/30451010,way/30451010,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2455752;52.6058337,8
+Feature,way/30451012,,,steps,up,,,,,,way/30451012,way/30451012,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2447997;52.6058803,2
+Feature,way/30451028,,,steps,up,,,,,,way/30451028,way/30451028,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2509504;52.6075124,,8
+Feature,way/30451030,,,footway,up,,,,,,way/30451030,way/30451030,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2511385;52.6075629,,
+Feature,way/31469774,yes,,steps,,1,,,,,way/31469774,way/31469774,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2407326;52.6220455,,
+Feature,way/31469776,yes,,steps,,1,,,,,way/31469776,way/31469776,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2402644;52.621713,,
+Feature,way/31958996,,,steps,,,,,,,way/31958996,way/31958996,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2641468;52.6059868,,
+Feature,way/31958997,,,steps,,,yes,,,,way/31958997,way/31958997,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2648692;52.6060555,,
+Feature,way/32196008,,,steps,,,,,,,way/32196008,way/32196008,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2213369;52.6189646,,
+Feature,way/32196818,,,steps,,,,,,,way/32196818,way/32196818,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2202374;52.6197034,,
+Feature,way/32398066,,,footway,up,,,,,,way/32398066,way/32398066,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2511572;52.6076042,,
+Feature,way/32464212,,,steps,down,,,,,,way/32464212,way/32464212,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2407077;52.6216383,,
+Feature,way/32464391,,,steps,up,,,,,,way/32464391,way/32464391,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2420526;52.6208787,,8
+Feature,way/32465448,,,steps,down,,,,,,way/32465448,way/32465448,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.239403;52.6218396,,
+Feature,way/32465520,yes,,steps,up,1,,,,,way/32465520,way/32465520,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2400069;52.6214868,,
+Feature,way/32465699,,,steps,,,,,,,way/32465699,way/32465699,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2405008;52.6218546,,
+Feature,way/32466096,,,steps,up,,,,,,way/32466096,way/32466096,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.235857;52.6214801,,
+Feature,way/32466197,,,steps,,,,,,,way/32466197,way/32466197,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2374706;52.6212099,,
+Feature,way/32474838,,,steps,down,,,,,,way/32474838,way/32474838,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2408585;52.6217415,,
+Feature,way/32474839,,,steps,down,,,,,,way/32474839,way/32474839,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.241118;52.6216862,,
+Feature,way/32474841,,,steps,up,,,,,,way/32474841,way/32474841,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2407856;52.621408,,
+Feature,way/32474855,,,steps,down,,,,,,way/32474855,way/32474855,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2404771;52.6217582,,
+Feature,way/32474857,,,steps,down,,,,,,way/32474857,way/32474857,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.240846;52.6218398,,
+Feature,way/32474862,yes,,steps,up,1,,,,,way/32474862,way/32474862,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2406739;52.6219631,,
+Feature,way/32492958,,,steps,down,,,,,,way/32492958,way/32492958,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2409967;52.6217481,,
+Feature,way/32561187,,,footway,up,,,,,,way/32561187,way/32561187,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.1852746;52.6538862,,,paved
+Feature,way/32697096,,,steps,down,,,,,,way/32697096,way/32697096,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2419968;52.6213971,,,
+Feature,way/32744028,,,steps,up,,,,,,way/32744028,way/32744028,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2690399;52.6292533,,,
+Feature,way/33649078,,,steps,up,,,,,,way/33649078,way/33649078,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2474787;52.6386125,2,,
+Feature,way/33649080,,,steps,up,,,,,,way/33649080,way/33649080,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2472312;52.6386487,4,,
+Feature,way/33919243,,yes,footway,up,,,salting,,NKE044,way/33919243,way/33919243,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2864471;52.6268432,,,,yes
+Feature,way/34308643,,,steps,up,,,,,,way/34308643,way/34308643,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2901509;52.6242215,,13,,
+Feature,way/34608999,,,steps,,,,,,,way/34608999,way/34608999,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2198507;52.6166717,,,,
+Feature,way/34609002,,,steps,,,,,,,way/34609002,way/34609002,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.220679;52.6177112,,,,
+Feature,way/34868254,yes,,steps,up,1,,,,,way/34868254,way/34868254,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2288287;52.5997385,,,,,public_footpath,designated,demolition,Cringleford FP 4a,definitive_statement
+Feature,way/34868257,yes,,steps,down,1,,,,,way/34868257,way/34868257,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2284531;52.599519,,,,,public_footpath,designated,demolition,Cringleford FP 4a,definitive_statement
+Feature,way/37072953,,,steps,up,,,,,,way/37072953,Saint Marys Alley,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2917873;52.633247,,5,,,,,,,,Saint Marys Alley
+Feature,way/38081236,,,steps,,,,,,,way/38081236,way/38081236,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3218804;52.6237663,,,,,,,,,,
+Feature,way/38247865,,,steps,up,,,,,,way/38247865,way/38247865,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2519206;52.6079635,,10,,,,,,,,
+Feature,way/38622959,,,steps,down,,,,,,way/38622959,way/38622959,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2873547;52.6407694,,,,,,,,,,
+Feature,way/38622961,,,steps,down,,,,,,way/38622961,way/38622961,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2874429;52.6406566,,,,,,,,,,
+Feature,way/39233965,,,steps,,,,,,,way/39233965,way/39233965,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3715377;52.6314849,,,,,,,,,,
+Feature,way/39344731,,,steps,,,,,,,way/39344731,way/39344731,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2762238;52.6459928,,,,,,,,,,
+Feature,way/39496765,,,steps,,,,,,,way/39496765,way/39496765,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3723603;52.6289639,,,,,,,,,,
+Feature,way/40507553,,,steps,,,,,,,way/40507553,way/40507553,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2890809;52.644572,,,,,,,,,,
+Feature,way/40507558,,,steps,,,,,,,way/40507558,way/40507558,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2896772;52.6448129,,,,,,,,,,
+Feature,way/40507599,,,steps,,,,,,,way/40507599,way/40507599,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2896745;52.6447812,,,,,,,,,,
+Feature,way/40507601,,,steps,,,,,,,way/40507601,way/40507601,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2891249;52.6450643,,,,,,,,,,
+Feature,way/40507602,,,steps,,,,,,,way/40507602,way/40507602,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2885469;52.644841,,,,,,,,,,
+Feature,way/40847084,,,steps,,,yes,,,,way/40847084,Clarendon Steps,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.277807;52.6281095,13,,,,,,,,,Clarendon Steps
+Feature,way/44280202,,,steps,down,,,,,,way/44280202,Saint Lawrence Little Steps,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2897561;52.6309978,,,,,,,,,,Saint Lawrence Little Steps
+Feature,way/44529638,,,steps,,,,,,,way/44529638,way/44529638,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.252725;52.6192073,5,,,,,,,,,
+Feature,way/45825132,,,steps,down,,,,,,way/45825132,way/45825132,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2402986;52.621115,,,,,,,,,,
+Feature,way/45826938,,,steps,up,,,,,,way/45826938,Butterfly Way,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2211903;52.6438359,,12,,,,,,,,Butterfly Way
+Feature,way/45826941,,,footway,up,,,,,,way/45826941,Butterfly Way,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2210114;52.6438773,,,,,,,,,,Butterfly Way
+Feature,way/45826943,,,steps,up,,,,,,way/45826943,Butterfly Way,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2208198;52.6439475,,13,,,,,,,,Butterfly Way
+Feature,way/45826945,,,footway,up,,,,,,way/45826945,Butterfly Way,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2209765;52.6438269,,,,,,,,,,Butterfly Way
+Feature,way/46662009,,,steps,up,,,,,,way/46662009,way/46662009,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2923526;52.6282422,,8,,,,,,,,
+Feature,way/46662010,,,steps,up,,,,,,way/46662010,way/46662010,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2924459;52.6282403,,13,,,,,,,,,6
+Feature,way/46831095,,,steps,up,,,,,,way/46831095,way/46831095,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2363892;52.6202552,,,,,,,,,,,
+Feature,way/46831096,,,steps,up,1,,,,,way/46831096,way/46831096,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2364074;52.620258,,,,,,,,,,,
+Feature,way/46875516,,,steps,down,,,,,,way/46875516,way/46875516,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.237691;52.6209034,,,,,,,,,,,
+Feature,way/46875519,,,steps,up,1,,,,,way/46875519,way/46875519,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2377358;52.6208806,,,,,,,,,,,
+Feature,way/46875521,,,steps,down,2,,,,,way/46875521,way/46875521,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2383911;52.6212108,,,,,,,,,,,
+Feature,way/46875522,,,steps,down,,,,,,way/46875522,way/46875522,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2383854;52.6212127,,,,,,,,,,,
+Feature,way/46875523,,,steps,down,,,,,,way/46875523,way/46875523,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2384093;52.6212325,,,,,,,,,,,
+Feature,way/46875524,,,steps,down,2,,,,,way/46875524,way/46875524,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2384089;52.6212321,,,,,,,,,,,
+Feature,way/46875528,,,steps,down,2,,,,,way/46875528,way/46875528,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2383782;52.6212441,,,,,,,,,,,
+Feature,way/46875532,,,steps,down,,,,,,way/46875532,way/46875532,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2397079;52.621285,,10,,,,,,,,,
+Feature,way/46875535,yes,,steps,down,,,,,,way/46875535,way/46875535,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2396814;52.6213176,,10,,,,,,,,,
+Feature,way/47058154,,,steps,up,,,,,,way/47058154,way/47058154,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2959808;52.6277935,,7,,,,,,,,,
+Feature,way/47058156,,,steps,up,,,,,,way/47058156,way/47058156,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2959677;52.6278889,,7,,,,,,,,,
+Feature,way/47058160,,,steps,up,,,,,,way/47058160,way/47058160,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2959767;52.6278229,,7,,,,,,,,,
+Feature,way/47058164,,,steps,up,,,,,,way/47058164,way/47058164,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2959724;52.6278548,,7,,,,,,,,,
+Feature,way/47058199,,,steps,down,,yes,,,,way/47058199,way/47058199,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2974406;52.6281856,,,,,,,,,,,
+Feature,way/47984860,,,footway,up,,,,,,way/47984860,way/47984860,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3057549;52.6269938,,,,,,,,,,,
+Feature,way/48681528,,,steps,down,,,,,,way/48681528,way/48681528,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2236866;52.6493669,,7,ground,,,,,,,,
+Feature,way/49605239,,,steps,down,1,,,,,way/49605239,way/49605239,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2395628;52.6205909,,,,,,,,,,,
+Feature,way/49605241,yes,,steps,up,1,,,,,way/49605241,way/49605241,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2416444;52.6206339,,,,,,,,,,,
+Feature,way/49605243,yes,,steps,down,1,,,,,way/49605243,way/49605243,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2415856;52.6206408,,,,,,,,,,,
+Feature,way/49709386,,,footway,up,,,,,,way/49709386,way/49709386,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2907387;52.6244231,,,,,,,,,,,
+Feature,way/49709387,,,footway,up,,,,,,way/49709387,way/49709387,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2905156;52.6238194,,,,,,,,,,,
+Feature,way/49709388,,,steps,up,,,,,,way/49709388,way/49709388,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2904458;52.6236938,,5,,,,,,,,,
+Feature,way/49709392,,,steps,up,,,,,,way/49709392,way/49709392,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2901969;52.6241227,,12,,,,,,,,,
+Feature,way/49709393,,,footway,down,,,,,,way/49709393,way/49709393,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2901745;52.6239651,,,,,,,,,,,
+Feature,way/49709396,,,steps,down,,,,,,way/49709396,way/49709396,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2908578;52.6238732,,,,,,,,,,,
+Feature,way/49709397,,,steps,down,,,,,,way/49709397,way/49709397,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2907635;52.6238683,,,,,,,,,,,
+Feature,way/49709400,,,steps,up,,,,,,way/49709400,way/49709400,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2904857;52.6243681,,14,,,,,,,,,
+Feature,way/49709402,,,steps,up,,,,,,way/49709402,way/49709402,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2904117;52.624387,,13,,,,,,,,,
+Feature,way/49709405,,,footway,up,,,salting,,NKE044,way/49709405,way/49709405,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.291053;52.6241558,,,,,,,,,,,
+Feature,way/49709406,,,steps,up,,,salting,,NKE044,way/49709406,way/49709406,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2910614;52.6241293,,12,,,,,,,,,
+Feature,way/49709408,,,steps,up,,,salting,,NKE044,way/49709408,way/49709408,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2911051;52.6240705,,,,,,,,,,,
+Feature,way/50733949,,,steps,up,,,,,,way/50733949,way/50733949,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3520842;52.6314667,,15,,,,,,,,,
+Feature,way/50733951,,,steps,up,,,,,,way/50733951,way/50733951,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3519841;52.6315005,,14,,,,,,,,,
+Feature,way/50842004,,,footway,up,,,,,,way/50842004,way/50842004,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2905107;52.627486,,,,,,,,,,,
+Feature,way/50842023,,,steps,,,,,,,way/50842023,way/50842023,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2912723;52.6273116,,,,,,,,,,,
+Feature,way/50914444,,,footway,up,,,,,,way/50914444,way/50914444,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.292773;52.6282115,,,,,,,,,,,
+Feature,way/50914446,,,footway,up,,,,,,way/50914446,Row A,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2928382;52.6282796,,,,,,,,,,Row A,,yes
+Feature,way/50914448,,,footway,up,,,,,,way/50914448,Row B,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2928434;52.6283406,,,,,,,,,,Row B,,yes
+Feature,way/50914450,,,footway,up,,,,,,way/50914450,Row C,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2928484;52.6284002,,,,,,,,,,Row C,,yes
+Feature,way/50914451,,,footway,up,,,,,,way/50914451,Row D,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2928538;52.6284632,,,,,,,,,,Row D,,yes
+Feature,way/50914453,,,footway,up,,,,,,way/50914453,Row E,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2928589;52.6285236,,,,,,,,,,Row E,,yes
+Feature,way/50914455,,,footway,up,,,,,,way/50914455,Row F,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2928641;52.6285857,,,,,,,,,,Row F,,yes
+Feature,way/50914469,,,footway,up,,,,,,way/50914469,way/50914469,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.29288;52.6287726,,,,,,,,,,,,
+Feature,way/50914471,,,footway,up,,,,,,way/50914471,Row G,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2928694;52.6286487,,,,,,,,,,Row G,,yes
+Feature,way/51445655,,,footway,up,,,,,,way/51445655,way/51445655,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3518237;52.6313977,,,,,,,,,,,,
+Feature,way/51445656,,,footway,up,,,,,,way/51445656,way/51445656,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.352092;52.6317993,,,,,,,,,,,,
+Feature,way/52783471,,,steps,down,,,,,,way/52783471,way/52783471,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.206202;52.6202845,,,,,,,,,,,,
+Feature,way/52918604,,,steps,up,,,,,,way/52918604,way/52918604,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.204448;52.6208776,,21,concrete,,public_footpath,designated,,Colney FP 1,,,,,definitive_statement
+Feature,way/52918605,,,footway,up,,no,,,,way/52918605,way/52918605,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2043321;52.6208376,,,ground,,public_footpath,designated,,Colney FP 1,,,,,definitive_statement,no,no
+Feature,way/52993531,,,steps,up,,,,,,way/52993531,way/52993531,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3058777;52.6658532,,,,,,,,,,,,,,,
+Feature,way/53512795,,,steps,down,,no,,,,way/53512795,way/53512795,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2050485;52.6210125,,31,concrete,,public_footpath,designated,,Colney FP 1,,,,,definitive_statement,,
+Feature,way/61980580,,,footway,down,,,,,,way/61980580,way/61980580,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2920443;52.6238503,,,,,,,,,,,,,,,,building_passage
+Feature,way/61980583,,,steps,down,,,,,,way/61980583,way/61980583,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2920861;52.623835,,6,,,,,,,,,,,,,,building_passage
+Feature,way/62034789,,,steps,up,,,,,,way/62034789,Saint Lawrence Little Steps,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2899148;52.6312335,,8,,,,,,,,Saint Lawrence Little Steps,,,,,,
+Feature,way/71231930,,,steps,down,,,,,,way/71231930,way/71231930,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2972952;52.6204446,,7,,,,,,,,,,,,,,
+Feature,way/71231931,,,steps,down,,,,,,way/71231931,way/71231931,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2972855;52.6204046,,6,,,,,,,,,,,,,,
+Feature,way/71297057,,,footway,up,,,,,,way/71297057,way/71297057,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2508773;52.6075935,,,,,,,,,,,,,,,,
+Feature,way/71297070,,,footway,up,,,,,,way/71297070,way/71297070,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2509132;52.6075931,,,,,,,,,,,,,,,,
+Feature,way/73002333,,,steps,up,,,,,,way/73002333,way/73002333,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2388341;52.6279055,,10,,,,,,,,,,,,,,
+Feature,way/76738376,,,steps,up,,,,,,way/76738376,Stepping Lane,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2998523;52.6264769,,8,,,,,,,,Stepping Lane,,,,,,
+Feature,way/81178560,,,steps,up,,,,,,way/81178560,way/81178560,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2367158;52.6211665,,,,,,,,,,,,,,,,
+Feature,way/81241154,,,steps,down,,,,,,way/81241154,Saint Gregorys Alley,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2912746;52.6301212,,4,,,,,,,,Saint Gregorys Alley,,,,,,
+Feature,way/81241155,,,footway,down,,,,,,way/81241155,Saint Gregory's Alley,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2912315;52.6304324,,,,yes,,,,,,Saint Gregory's Alley,,,,,,,NR2 1ER
+Feature,way/81241157,,,footway,down,,,,,,way/81241157,way/81241157,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2914199;52.6301498,,,brick_weave,yes,,,,,,,,,,,,,
+Feature,way/81368180,,,footway,up,,,salting,Norwich City Council,NKE044,way/81368180,way/81368180,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2917659;52.6251971,,,,,,,,,,,,,,,,,
+Feature,way/81368189,,,footway,down,,,,,,way/81368189,One Post Alley,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2919301;52.6255084,,,,,,,,,,One Post Alley,,,,,,,
+Feature,way/81501954,,,steps,up,,,,,,way/81501954,way/81501954,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2976136;52.6264546,,11,,,,,,,,,,,,,,,
+Feature,way/81501960,,,steps,up,,,,,,way/81501960,way/81501960,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2975496;52.6264494,,12,,,,,,,,,,,,,,,
+Feature,way/81501966,,,footway,up,,,,,,way/81501966,way/81501966,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2982481;52.6266264,,,,,,,,,,,,,,,,,
+Feature,way/83741176,,,footway,up,,,,,,way/83741176,way/83741176,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2197685;52.6432226,,,,,,,,,,,,,,,,,
+Feature,way/83741177,,,steps,up,,,,,,way/83741177,Butterfly Way,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2212762;52.6438395,,12,,,,,,,,Butterfly Way,,,,,,,
+Feature,way/84049053,,,steps,down,,,,,,way/84049053,way/84049053,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3092641;52.6329592,,,ground,,,,,,,,,,,,,,
+Feature,way/85334662,,,steps,up,,,,,,way/85334662,way/85334662,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2478583;52.6169156,,7,ground,,,,,,,,,,,,,,
+Feature,way/85334663,,,footway,up,,yes,,,,way/85334663,way/85334663,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2474182;52.6145625,,,ground,,,,,,,,,,,,,,
+Feature,way/85334664,,,steps,up,,,,,,way/85334664,way/85334664,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2477142;52.6155126,,7,ground,,,,,,,,,,,,,,
+Feature,way/85602662,,,steps,,,,,,,way/85602662,way/85602662,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.1889334;52.5876441,,,,,adopted_footway,yes,,,,,,,,,,,,Continuation of footpath within A11 highway boundary
+Feature,way/88537336,,,steps,,,,,,,way/88537336,way/88537336,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2645748;52.6360634,,11,,,,,,,,,,,,,,,,
+Feature,way/89129931,,,steps,,,,,,,way/89129931,way/89129931,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2717277;52.6365866,,,,,,,,,,,,,,,,,,
+Feature,way/90178018,,,steps,up,,,,,,way/90178018,way/90178018,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2960386;52.6260216,,5,concrete,,,,,,,,,,,,,,,
+Feature,way/90494461,,,steps,up,,,,,,way/90494461,way/90494461,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2975043;52.611635,,15,,,,,,,,,,,,,,,,
+Feature,way/90494464,,,steps,up,,,,,,way/90494464,way/90494464,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2997013;52.6129897,,15,,,,,,,,,,,,,,,,
+Feature,way/90494468,,,steps,up,,,,,,way/90494468,way/90494468,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.297959;52.6115954,,15,,,,,,,,,,,,,,,,
+Feature,way/90494472,,,steps,up,,,,,,way/90494472,way/90494472,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2999158;52.612651,,17,,,,,,,,,,,,,,,,
+Feature,way/90494478,,,steps,up,,,,,,way/90494478,way/90494478,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2984729;52.611691,,5,,,,,,,,,,,,,,,,
+Feature,way/90494487,,,footway,up,,yes,,,,way/90494487,way/90494487,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2984998;52.6109356,,,,,,,,,,,,,,,,,,
+Feature,way/90494490,,,steps,up,,,,,,way/90494490,way/90494490,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2988023;52.6115414,,6,,,,,,,,,,,,,,,,
+Feature,way/90494492,,,footway,up,,,,,,way/90494492,way/90494492,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2986839;52.6112962,,,,,,,,,,,,,,,,,,
+Feature,way/90494494,,,steps,up,,,,,,way/90494494,way/90494494,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2984922;52.6117843,,14,,,,,,,,,,,,,,,,
+Feature,way/90494495,,,footway,up,,,,,,way/90494495,way/90494495,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2994788;52.6126256,,,,,,,,,,,,,,,,,,
+Feature,way/90494498,,,footway,up,,,,,,way/90494498,way/90494498,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2994633;52.6128292,,,,,,,,,,,,,,,,,,
+Feature,way/90494502,,,footway,up,,,,,,way/90494502,way/90494502,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2963808;52.6118309,,,,,,,,,,,,,,,,,,
+Feature,way/90494514,,,steps,up,,,,,,way/90494514,way/90494514,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2987001;52.6113261,,,,,,,,,,,,,,,,,,
+Feature,way/90494517,,,footway,up,,,,,,way/90494517,way/90494517,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2963511;52.6117318,,,,,,,,,,,,,,,,,,
+Feature,way/90494518,,,steps,up,,,,,,way/90494518,way/90494518,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.296174;52.6118785,,7,,,,,,,,,,,,,,,,
+Feature,way/90494521,,,steps,up,,,,,,way/90494521,way/90494521,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2984327;52.6115714,,9,,,,,,,,,,,,,,,,
+Feature,way/90494523,,,steps,up,,,,,,way/90494523,way/90494523,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2986493;52.6115201,,8,,,,,,,,,,,,,,,,
+Feature,way/90494528,,,footway,up,,,,,,way/90494528,way/90494528,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2991761;52.6128765,,,,,,,,,,,,,,,,,,
+Feature,way/90494529,,,steps,up,,,,,,way/90494529,way/90494529,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2970302;52.6118826,,7,,,,,,,,,,,,,,,,
+Feature,way/90494532,,,steps,up,,,,,,way/90494532,way/90494532,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2968567;52.6117341,,,,,,,,,,,,,,,,,,
+Feature,way/90494535,,,footway,up,,,,,,way/90494535,way/90494535,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2988506;52.6133026,,,,,,,,,,,,,,,,,,
+Feature,way/90494537,,,steps,up,,,,,,way/90494537,way/90494537,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2968477;52.6117839,,,,,,,,,,,,,,,,,,
+Feature,way/90494547,,,steps,up,,,,,,way/90494547,way/90494547,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2986306;52.611379,,6,,,,,,,,,,,,,,,,
+Feature,way/90494549,,,footway,up,,,,,,way/90494549,way/90494549,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2967587;52.6117444,,,,,,,,,,,,,,,,,,
+Feature,way/90494551,,,footway,up,,,,,,way/90494551,way/90494551,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2990123;52.6134046,,,,,,,,,,,,,,,,,,
+Feature,way/90494558,,,steps,up,,,,,,way/90494558,way/90494558,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2985228;52.6118415,,9,,,,,,,,,,,,,,,,
+Feature,way/90494565,,,footway,up,,,,,,way/90494565,way/90494565,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2987196;52.6113622,,,,,,,,,,,,,,,,,,
+Feature,way/90494568,,,steps,up,,,,,,way/90494568,way/90494568,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2958973;52.6117863,,9,,,,,,,,,,,,,,,,
+Feature,way/90494578,,,footway,up,,,,,,way/90494578,way/90494578,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2962891;52.6119118,,,,,,,,,,,,,,,,,,
+Feature,way/90494581,,,steps,up,,,,,,way/90494581,way/90494581,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2983904;52.6118384,,,,,,,,,,,,,,,,,,
+Feature,way/90494583,,,footway,up,,,,,,way/90494583,way/90494583,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2992393;52.6130807,,,,,,,,,,,,,,,,,,
+Feature,way/90494614,,,steps,up,,,,,,way/90494614,way/90494614,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2961379;52.6115594,,12,,,,,,,,,,,,,,,,
+Feature,way/90494630,,,footway,up,,,,,,way/90494630,way/90494630,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2986232;52.6111794,,,,,,,,,,,,,,,,,,
+Feature,way/90494631,,,footway,up,,,,,,way/90494631,way/90494631,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2995634;52.6129357,,,,,,,,,,,,,,,,,,
+Feature,way/90494636,,,footway,up,,,,,,way/90494636,way/90494636,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2967796;52.6118362,,,,,,,,,,,,,,,,,,
+Feature,way/90494637,,,steps,up,,,,,,way/90494637,way/90494637,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2986673;52.6112656,,,,,,,,,,,,,,,,,,
+Feature,way/93470368,,,steps,,,,,,,way/93470368,way/93470368,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3283408;52.6306345,,,,,,,,,,,,,,,,,,
+Feature,way/94131408,,,steps,down,,,,,,way/94131408,way/94131408,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2626887;52.6365646,,,ground,,,,,,,,,,,,,,,
+Feature,way/96706847,,,steps,down,2,,,,,way/96706847,way/96706847,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2395636;52.6205947,,,,,,,,,,,,,,,,,,
+Feature,way/97376971,,,steps,up,,,,,,way/97376971,way/97376971,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2455377;52.6058261,3,,,,,,,,,,,,,,,,,
+Feature,way/97830768,,,steps,,,,,,,way/97830768,Lion Wood Nature Trail,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.322369;52.6292837,,31,dirt,,,,,,,Lion Wood Nature Trail,,,,,no,,,,yes
+Feature,way/97830774,,,steps,,,,,,,way/97830774,Lion Wood Nature Trail,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3237545;52.6292468,,54,dirt,,,,,,,Lion Wood Nature Trail,,,,,no,,,,yes
+Feature,way/97830779,,,steps,,,,,,,way/97830779,Lion Wood Nature Trail,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3232005;52.6292747,,18,dirt,,,,,,,Lion Wood Nature Trail,,,,,no,,,,yes
+Feature,way/97836895,,,steps,down,,,,,,way/97836895,way/97836895,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2366423;52.6214499,,,,,,,,,,,,,,,,,,,
+Feature,way/97984478,,,steps,up,,,,,,way/97984478,way/97984478,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2330648;52.6216865,,,,,,,,,,,,,,,,,,,
+Feature,way/98192107,,,steps,down,,,,,,way/98192107,way/98192107,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2446255;52.6214857,,,,,,,,,,,,,,,,,,,
+Feature,way/98445426,,,steps,up,,,,,,way/98445426,way/98445426,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2354178;52.6119298,,2,concrete,,,,,,,,,,,,,,,,
+Feature,way/98522253,,,footway,up,,,,,,way/98522253,way/98522253,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2210566;52.6254043,,,,,,,,,,,,,,,,,,,
+Feature,way/98522260,,,steps,up,,,,,,way/98522260,way/98522260,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2165259;52.6338657,,11,,,,,,,,,,,,,,,,,
+Feature,way/98528030,,,steps,up,,,,,,way/98528030,way/98528030,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.1949443;52.6014317,,5,,,,,,,,,,,,,,,,,
+Feature,way/99018576,,,steps,up,,,,,,way/99018576,way/99018576,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2362112;52.6211167,,,,,,,,,,,,,,,,,,,
+Feature,way/99216728,,,steps,down,,,,,,way/99216728,way/99216728,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2360753;52.6212958,,,,,,,,,,,,,,,,,,,
+Feature,way/100655890,,,steps,down,,,,,,way/100655890,way/100655890,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2917278;52.635457,,,,,,,,,,,,,,,,,,,
+Feature,way/100655893,,,steps,down,,,,,,way/100655893,Quakers Lane,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2904666;52.635485,,,,,,,,,,Quakers Lane,,,,,,,,,
+Feature,way/101754508,,,footway,up,,,,,,way/101754508,way/101754508,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2518646;52.6080414,,,,,,,,,,,,,,,,,,,
+Feature,way/101754511,,,footway,up,,,,,,way/101754511,way/101754511,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2519138;52.6080513,,,,,,,,,,,,,,,,,,,
+Feature,way/101975923,,,steps,up,,,,,,way/101975923,way/101975923,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2956763;52.6364221,,,,,,,,,,,,,,,,,,,
+Feature,way/101975932,,,steps,up,,,,,,way/101975932,way/101975932,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2956415;52.6359957,,,,,,,,,,,,yes,,,,,,,
+Feature,way/102298649,,,steps,up,,,,,,way/102298649,way/102298649,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.1825246;52.652924,,,,,,,,,,,,,,,,,,,
+Feature,way/102421907,,,steps,up,,,,,,way/102421907,way/102421907,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2903127;52.6274957,,8,,,,,,,,,,,,,,,,,
+Feature,way/102421928,,,steps,up,,,,,,way/102421928,way/102421928,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2903303;52.6275317,,8,,,,,,,,,,,,,,,,,
+Feature,way/102421929,,,steps,up,,,,,,way/102421929,way/102421929,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2923111;52.6280974,,9,,,,,,,,,,,,,,,,,
+Feature,way/102438925,,,footway,up,,,,,,way/102438925,way/102438925,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2593821;52.6342537,,,,,,,,,,,,,,,,,,,
+Feature,way/102438941,,,steps,up,,,,,,way/102438941,way/102438941,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2594278;52.6341762,,,,,,,,,,,,,,,,,,,
+Feature,way/102579375,,,steps,down,,,,,,way/102579375,way/102579375,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2617907;52.6370953,,,,,,,,,,,,,,,,,,,
+Feature,way/103166330,,,steps,up,,,,,,way/103166330,way/103166330,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3069564;52.614986,,13,,,,,,,,,,,,,,,,,
+Feature,way/103166335,,,steps,up,,,,,,way/103166335,way/103166335,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.306616;52.6151743,,,,,,,,,,,,,,,,,,,
+Feature,way/103166336,,,steps,up,,,,,,way/103166336,way/103166336,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3065757;52.6151415,,,,,,,,,,,,,,,,,,,
+Feature,way/103166339,,,steps,up,,,,,,way/103166339,way/103166339,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3068952;52.6149374,,13,,,,,,,,,,,,,,,,,
+Feature,way/103166350,,,steps,up,,,,,,way/103166350,way/103166350,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3070131;52.6150385,,13,,,,,,,,,,,,,,,,,
+Feature,way/103429418,,,steps,down,,,,,,way/103429418,way/103429418,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2873093;52.6406726,,,,,,,,,,,,,,,,,,,
+Feature,way/103430458,,,steps,up,,,,,,way/103430458,way/103430458,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2872812;52.6397891,,,,,,,,,,,,,,,,,,,
+Feature,way/105077956,,,steps,up,,,,,,way/105077956,way/105077956,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3126825;52.6335908,,,,,,,,,,,,,,,,,,,
+Feature,way/106901912,,,steps,up,,,,,,way/106901912,way/106901912,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.1971852;52.6582317,,12,,,,,,,,,,,,,,,,,
+Feature,way/106901913,,,steps,up,,,,,,way/106901913,way/106901913,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.1972295;52.658401,,8,,,,,,,,,,,,,,,,,
+Feature,way/106901914,,,footway,up,,,,,,way/106901914,way/106901914,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.1973547;52.6582155,,,,,,,,,,,,,,,,,,,
+Feature,way/107045708,,,steps,up,-4,,,,,way/107045708,way/107045708,true,,"  
+  <strong>Level:</strong>&nbsp;1 <br />
+  
+  
+  ",,,,,,around,Point,1.2966749;52.6272977,,,,,,,,,,,,,,,,,,,,1
+Feature,way/107045713,,,steps,up,-3,,,,,way/107045713,way/107045713,true,,"  
+  <strong>Level:</strong>&nbsp;2 <br />
+  
+  
+  ",,,,,,around,Point,1.2967687;52.6272531,,,,,,,,,,,,,,,,,,,,2
+Feature,way/107045714,,,steps,down,,,,,,way/107045714,way/107045714,true,,"  
+  <strong>Level:</strong>&nbsp;4 <br />
+  
+  
+  ",,,,,,around,Point,1.2961724;52.626773,,,,,,,,,,,,,,,,,,,,4,yes
+Feature,way/107045715,,,steps,down,-4,,,,,way/107045715,way/107045715,true,,"  
+  <strong>Level:</strong>&nbsp;1 <br />
+  
+  
+  ",,,,,,around,Point,1.2964198;52.6271627,,,,,,,,,,,,,,,,,,,,1,yes
+Feature,way/107045716,,,steps,up,-5,,,,,way/107045716,way/107045716,true,,"  
+  <strong>Level:</strong>&nbsp;0 <br />
+  
+  
+  ",,,,,,around,Point,1.2963987;52.6271692,,,,,,,,,,,,,,,,,,,,0,yes
+Feature,way/107045728,,,steps,up,,,,,,way/107045728,way/107045728,true,,"  
+  <strong>Level:</strong>&nbsp;4 <br />
+  
+  
+  ",,,,,,around,Point,1.2961925;52.6267651,,,,,,,,,,,,,,,,,,,,4,yes
+Feature,way/107045737,,,steps,up,-3,,,,,way/107045737,way/107045737,true,,"  
+  <strong>Level:</strong>&nbsp;2 <br />
+  
+  
+  ",,,,,,around,Point,1.2961925;52.6267651,,,,,,,,,,,,,,,,,,,,2,yes
+Feature,way/107045742,,,steps,up,-1,,,,,way/107045742,way/107045742,true,,"  
+  <strong>Level:</strong>&nbsp;3 <br />
+  
+  
+  ",,,,,,around,Point,1.2961925;52.6267651,,,,,,,,,,,,,,,,,,,,3,yes
+Feature,way/107045746,,,steps,down,-3,,,,,way/107045746,way/107045746,true,,"  
+  <strong>Level:</strong>&nbsp;2 <br />
+  
+  
+  ",,,,,,around,Point,1.2961724;52.626773,,,,,,,,,,,,,,,,,,,,2,yes
+Feature,way/107045757,,,steps,up,-4,,,,,way/107045757,way/107045757,true,,"  
+  <strong>Level:</strong>&nbsp;1 <br />
+  
+  
+  ",,,,,,around,Point,1.2961925;52.6267651,,,,,,,,,,,,,,,,,,,,1,yes
+Feature,way/107045817,,,steps,down,-1,,,,,way/107045817,way/107045817,true,,"  
+  <strong>Level:</strong>&nbsp;3 <br />
+  
+  
+  ",,,,,,around,Point,1.2961724;52.626773,,,,,,,,,,,,,,,,,,,,3,yes
+Feature,way/107045958,,,steps,down,-2,,,,,way/107045958,way/107045958,true,,"  
+  <strong>Level:</strong>&nbsp;2.5 <br />
+  
+  
+  ",,,,,,around,Point,1.2961239;52.6275191,,,,,,,,,,,,,,,,,,,,2.5,yes
+Feature,way/107045998,,,steps,up,-4,,,,,way/107045998,way/107045998,true,,"  
+  <strong>Level:</strong>&nbsp;1 <br />
+  
+  
+  ",,,,,,around,Point,1.2958195;52.6276201,,,,,,,,,,,,,,,,,,,,1,yes
+Feature,way/107046034,,,steps,up,-3,,,,,way/107046034,way/107046034,true,,"  
+  <strong>Level:</strong>&nbsp;2 <br />
+  
+  
+  ",,,,,,around,Point,1.2962605;52.6274681,,,,,,,,,,,,,,,,,,,,2,yes
+Feature,way/107046044,,,steps,down,1,,,,,way/107046044,way/107046044,true,,"  
+  <strong>Level:</strong>&nbsp;5 <br />
+  
+  
+  ",,,,,,around,Point,1.2961724;52.626773,,,,,,,,,,,,,,,,,,,,5,yes
+Feature,way/107046102,,,steps,up,,,,,,way/107046102,way/107046102,true,,"  
+  <strong>Level:</strong>&nbsp;4 <br />
+  
+  
+  ",,,,,,around,Point,1.2959408;52.6268635,,,,,,,,,,,,,,,,,,,,4,yes
+Feature,way/107046114,,,steps,down,-3,,,,,way/107046114,way/107046114,true,,"  
+  <strong>Level:</strong>&nbsp;2 <br />
+  
+  
+  ",,,,,,around,Point,1.2958251;52.6276251,,,,,,,,,,,,,,,,,,,,2,yes
+Feature,way/107047923,,,steps,up,,,,,,way/107047923,way/107047923,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2962208;52.626977,,5,,,,,,,,,,,,,,,,,,,
+Feature,way/107400981,,,steps,,,,,,,way/107400981,way/107400981,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.451163;52.6173261,,,wood,,public_footpath,designated,,Brundall FP 5,definitive_statement,,,,,,,,,,,,
+Feature,way/107400984,,,steps,,,,,,,way/107400984,way/107400984,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.4511418;52.6174214,,,wood,,public_footpath,designated,,Brundall FP 5,definitive_statement,,,,,,,,,,,,
+Feature,way/108865875,,,steps,down,2,,,,,way/108865875,way/108865875,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2888458;52.6263411,,,,,,,,,,,,,,,,,,,,,yes
+Feature,way/108865896,,,steps,down,,,,,,way/108865896,way/108865896,true,,"  
+  <strong>Level:</strong>&nbsp;1-2 <br />
+  
+  
+  ",,,,,,around,Point,1.2902948;52.6256084,,,,,,,,,,,,,,,,,,,,1-2,yes
+Feature,way/108865897,,,steps,up,,,,,,way/108865897,way/108865897,true,,"  
+  <strong>Level:</strong>&nbsp;-1-0 <br />
+  
+  
+  ",,,,,,around,Point,1.2900289;52.6260972,,,,,,,,,,,,,,,,,,,,-1-0,yes
+Feature,way/108865898,,,steps,up,,,,,,way/108865898,way/108865898,true,,"  
+  <strong>Level:</strong>&nbsp;1-2 <br />
+  
+  
+  ",,,,,,around,Point,1.2903085;52.6256197,,,,,,,,,,,,,,,,,,,,1-2,yes
+Feature,way/108865916,,,steps,up,,,,,,way/108865916,way/108865916,true,,"  
+  <strong>Level:</strong>&nbsp;0-1 <br />
+  
+  
+  ",,,,,,around,Point,1.2906555;52.6255913,,,,,,,,,,,,,,,,,,,,0-1,yes
+Feature,way/108865939,,,steps,up,,,,,,way/108865939,way/108865939,true,,"  
+  <strong>Level:</strong>&nbsp;0-0.5 <br />
+  
+  
+  ",,,,,,around,Point,1.2897375;52.6260762,,,,,,,,,,,,,,,,,,,,0-0.5,
+Feature,way/108865943,,,steps,up,,,,,,way/108865943,way/108865943,true,,"  
+  <strong>Level:</strong>&nbsp;1-2 <br />
+  
+  
+  ",,,,,,around,Point,1.2897363;52.6260784,,,,,,,,,,,,,,,,,,,,1-2,
+Feature,way/108865975,,,steps,up,,,,,,way/108865975,way/108865975,true,,"  
+  <strong>Level:</strong>&nbsp;0.5-1 <br />
+  
+  
+  ",,,,,,around,Point,1.2897551;52.6260727,,,,,,,,,,,,,,,,,,,,0.5-1,
+Feature,way/108865995,,,steps,down,1,,,,,way/108865995,way/108865995,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2888458;52.6263411,,,,,,,,,,,,,,,,,,,,,yes
+Feature,way/108866008,,,steps,down,1,,,,,way/108866008,way/108866008,true,,"  
+  <strong>Level:</strong>&nbsp;0-1 <br />
+  
+  
+  ",,,,,,around,Point,1.2906721;52.625578,,,,,,,,,,,,,,,,,,,,0-1,yes
+Feature,way/108866022,,,steps,down,,,,,,way/108866022,way/108866022,true,,"  
+  <strong>Level:</strong>&nbsp;-1-0 <br />
+  
+  
+  ",,,,,,around,Point,1.2900015;52.6261107,,,,,,,,,,,,,,,,,,,,-1-0,yes
+Feature,way/108866029,,,steps,up,1,,,,,way/108866029,way/108866029,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2888018;52.6263632,,,,,,,,,,,,,,,,,,,,,yes
+Feature,way/110970302,,,footway,up,,,,,,way/110970302,way/110970302,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2227485;52.6262575,,,,,,,,,,,,,,,,,,,,,
+Feature,way/110970304,,,footway,up,,,,,,way/110970304,way/110970304,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2228779;52.6262752,,,,,,,,,,,,,,,,,,,,,
+Feature,way/110970332,,,steps,up,,,,,,way/110970332,way/110970332,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2232543;52.6287257,,18,compacted,,,,,,,,,,,,,,,,,,
+Feature,way/114421686,yes,,steps,,,,,,,way/114421686,way/114421686,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3473382;52.6254396,,,,,public_footpath,designated,,Thorpe St Andrew FP 12,norfolk_county_council_prow_gis_data,,,,,,,,,,,,,norfolk_county_council_prow_gis_data
+Feature,way/114421689,yes,,steps,,,,,,,way/114421689,way/114421689,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.347355;52.6253466,,,,,public_footpath,designated,,Thorpe St Andrew FP 12,norfolk_county_council_prow_gis_data,,,,,,,,,,,,,norfolk_county_council_prow_gis_data
+Feature,way/115722072,,,steps,up,,,,,,way/115722072,way/115722072,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2511671;52.6158685,,4,,,,,,,,,,,,,,,,,,,,
+Feature,way/115761765,,,steps,up,,,,,,way/115761765,way/115761765,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3057629;52.628259,,15,wood,,,,,,,,,,,,,,,,,,,
+Feature,way/116937067,,,steps,,,,,,,way/116937067,Riverside Walk,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2929236;52.6318967,,,paved,,,,,,,Riverside Walk,,,,,,,,,,,,
+Feature,way/116939539,,,steps,,,,,,,way/116939539,way/116939539,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3068161;52.6213299,,,ground,,,,,,,,,,,,,,,,,,,
+Feature,way/116945958,,,steps,,,,,,,way/116945958,way/116945958,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3717484;52.6251661,,,ground,,public_footpath,designated,,Postwick FP 4,definitive_statement,,,,,,,,,,,,,
+Feature,way/116945961,,,steps,,,,,,,way/116945961,way/116945961,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3717312;52.6250928,,,ground,,public_footpath,designated,,Postwick FP 4,definitive_statement,,,,,,,,,,,,,
+Feature,way/117089472,,,steps,up,,,,,,way/117089472,way/117089472,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.304624;52.6215687,,7,,,,,,,,,,,,,,,,,,,,
+Feature,way/117181361,,,steps,up,,,,,,way/117181361,Saint Swithins Alley,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2875109;52.6314079,,,,,,,,,,Saint Swithins Alley,,,,,,,,,,,,
+Feature,way/117384966,,,steps,,,,,,,way/117384966,way/117384966,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2828819;52.647199,,,,,,,,,,,,,,,,,,,,,,,local knowledge/Bing
+Feature,way/117409254,,,steps,,,,,,,way/117409254,way/117409254,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2951133;52.6457431,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/117559679,,,steps,,,,,,,way/117559679,way/117559679,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3616291;52.6311436,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/118152342,,,steps,up,,,,,,way/118152342,way/118152342,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2864412;52.6057674,,4,,,,,,,,,,,,,,,,,,,,,
+Feature,way/118649757,,,steps,up,,yes,,,,way/118649757,way/118649757,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.252318;52.6373571,,12,,,,,,,,,,,,,,,,,,,,,,yes
+Feature,way/118649763,,,steps,up,,yes,,,,way/118649763,way/118649763,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2523544;52.6376276,,5,,,,,,,,,,,,,,,,,,,,,,no
+Feature,way/118649813,,,steps,up,,yes,,,,way/118649813,way/118649813,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2523456;52.6375585,,10,,,,,,,,,,,,,,,,,,,,,,yes
+Feature,way/122923515,,,steps,down,,,,,,way/122923515,way/122923515,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.222895;52.6407662,,2,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/123525381,,,steps,up,,,,,,way/123525381,Saint Lawrence Steps,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2904765;52.6310218,,8,,,,,,,,Saint Lawrence Steps,,,,,,,,,,,,,,
+Feature,way/124541188,,,steps,,,,,,,way/124541188,way/124541188,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3198243;52.6150722,,,ground,,,permissive,,,,,,,,,,,,,,,,,,
+Feature,way/127082024,,,steps,,,,,,,way/127082024,way/127082024,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3183163;52.6283069,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/127674392,,,steps,up,,,,,,way/127674392,way/127674392,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3136057;52.6234977,,7,concrete,,,,,,,,,,,,,,,,,,,,,
+Feature,way/127674393,,,footway,down,,,,,,way/127674393,way/127674393,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3135112;52.6234718,,,concrete,,,,,,,,,,,,,,,,,,,,,
+Feature,way/127674395,,,footway,down,,,,,,way/127674395,way/127674395,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3134846;52.6234843,,,concrete,,,,,,,,,,,,,,,,,,,,,
+Feature,way/131888498,yes,,steps,up,1,,,,,way/131888498,way/131888498,true,,"  
+  <strong>Level:</strong>&nbsp;1 <br />
+  
+  
+  ",,,,,,around,Point,1.2418345;52.6212681,,,,,,,,,,,,,,,,,,,,1,,,,
+Feature,way/131888501,,,steps,up,,,,,,way/131888501,way/131888501,true,,"  
+  <strong>Level:</strong>&nbsp;0 <br />
+  
+  
+  ",,,,,,around,Point,1.2411486;52.6211577,,9,,,,,,,,,,yes,,,,,,,,0,,,,
+Feature,way/133161947,,,footway,down,,,,,,way/133161947,Gentry Place,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2417405;52.6416867,,,,,,,,,,Gentry Place,,,,,,,,,,,,,,
+Feature,way/133498386,,,steps,up,,,,,,way/133498386,Becks Fur,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2100292;52.6885222,,,,,,,,,,Becks Fur,,,,,,,,,,,,,,
+Feature,way/133498396,,,steps,up,,,,,,way/133498396,way/133498396,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2118149;52.6871179,,21,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/135627129,,,steps,,,,,,,way/135627129,way/135627129,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2396317;52.6213291,,5,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/135627130,,,steps,,,,,,,way/135627130,way/135627130,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2398559;52.6212808,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/136090694,,,footway,up,,,salting,,NKE044,way/136090694,way/136090694,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2910404;52.6242057,,,,,,,,,,,,yes,,,,,,,,,,,,
+Feature,way/136090696,,,footway,up,,,salting,,NKE044,way/136090696,way/136090696,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2910418;52.6243282,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/137250649,,,steps,up,,,,,,way/137250649,Ninhams Court,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2876177;52.6285323,,3,,,,,,,,Ninhams Court,,,,,,,,,,,,,,
+Feature,way/138314678,,,steps,down,,,,,,way/138314678,way/138314678,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2448573;52.621344,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/140372557,,,steps,up,,,,,,way/140372557,way/140372557,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.242968;52.6217871,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/140372560,,,footway,down,,,,,,way/140372560,way/140372560,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2425431;52.6216479,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/143200583,,,steps,up,,,,,,way/143200583,way/143200583,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3083342;52.6545446,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/143245290,,,steps,up,,,,,,way/143245290,way/143245290,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.272633;52.6344847,,2,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/143383734,,,steps,up,,,,,,way/143383734,way/143383734,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2972442;52.6088132,,6,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/143383736,,,steps,up,,,,,,way/143383736,way/143383736,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.297046;52.6095153,,7,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/148724945,,,steps,up,,yes,,,,way/148724945,way/148724945,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3112667;52.6282911,,3,,,,,,,,,,,,,,,,,,,,,survey,
+Feature,way/149612422,,,footway,up,,,,,,way/149612422,way/149612422,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3085954;52.6315835,,,,,,,,,,,,,,,,,,wheelchair access to moorings,,,,,,
+Feature,way/149612424,,,steps,,,,,,,way/149612424,way/149612424,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3086707;52.631787,,,paved,,,,,,,,,,,,,,,footway on the mooring,,,,,,
+Feature,way/150050954,,,steps,,,yes,,,,way/150050954,Clarendon Steps,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2783079;52.6280366,,,,,,,,,,Clarendon Steps,,,,,,,,,,,,,,
+Feature,way/150050959,,,steps,,,yes,,,,way/150050959,Clarendon Steps,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2780471;52.6280828,,,,,,,,,,Clarendon Steps,,,,,,,,,,,,,,
+Feature,way/150076321,,,steps,up,,,,,,way/150076321,way/150076321,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3244675;52.6104678,,16,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/153885550,,,steps,up,,,,,,way/153885550,way/153885550,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3053348;52.6396947,,,ground,,,,,,,,,,,,,,,,,,,,,
+Feature,way/154342562,,,steps,up,,"sunset-00:00,05:00-sunrise UTC",,,,way/154342562,way/154342562,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3080936;52.6485799,,3,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/154342569,,,steps,up,,"sunset-00:00,05:00-sunrise UTC",,,,way/154342569,way/154342569,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3080093;52.648613,,3,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/154342580,,,steps,up,,"sunset-00:00,05:00-sunrise UTC",,,,way/154342580,way/154342580,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3136822;52.6335703,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/155781213,,,steps,up,,,,,,way/155781213,way/155781213,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2954724;52.6279238,,11,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/156657120,,,steps,up,,,,,,way/156657120,way/156657120,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2182997;52.6369298,,4,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/156823132,,,steps,up,,,,,,way/156823132,way/156823132,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2179706;52.6369473,,3,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/157250664,,,steps,up,,,,,,way/157250664,way/157250664,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3005669;52.625538,,12,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/157390482,,,steps,up,,,,,,way/157390482,way/157390482,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2883487;52.6383723,,2,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/158347315,,,steps,up,,,,,,way/158347315,way/158347315,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2944267;52.6224972,,3,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/161049444,,,steps,down,,,,,,way/161049444,way/161049444,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3040041;52.6349383,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/163413195,,,footway,up,,,,,,way/163413195,Row H,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2928744;52.6287071,,,,,,,,,,Row H,,yes,,,,,,,,,,,,
+Feature,way/164782619,,,steps,,,,,,,way/164782619,way/164782619,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.235309;52.6645791,,,ground,,,,,,,,,,,,,,,,,,,,,
+Feature,way/164782621,,,steps,,,,,,,way/164782621,way/164782621,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2356737;52.666349,,,ground,,,,,,,,,,,,,,,,,,,,,
+Feature,way/166699363,,,steps,up,,,,,,way/166699363,way/166699363,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2526633;52.608822,,7,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/166909977,,,steps,up,,,,,,way/166909977,way/166909977,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3079055;52.6280908,,22,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/167902834,,,steps,up,,,,,,way/167902834,way/167902834,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2162157;52.636009,,7,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/167902837,,,steps,up,,,,,,way/167902837,way/167902837,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.216104;52.636021,,7,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/167902839,,,steps,up,,,,,,way/167902839,way/167902839,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2158813;52.6357534,,3,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/167984270,,,steps,up,,,,,,way/167984270,way/167984270,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3262696;52.6365636,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/167984271,,,steps,up,,,,,,way/167984271,way/167984271,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3261032;52.6365143,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/167984273,,,steps,up,,,,,,way/167984273,way/167984273,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3257735;52.6364194,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/167984275,,,steps,up,,,,,,way/167984275,way/167984275,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3259284;52.6364638,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/168738587,,,steps,up,,,,,,way/168738587,way/168738587,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3083054;52.6525284,,2,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/168880554,,,steps,up,,,,,,way/168880554,way/168880554,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2830949;52.6250627,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/168880555,,,steps,up,,,,,,way/168880555,way/168880555,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2830145;52.6249705,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/168880556,,,steps,up,,,,,,way/168880556,way/168880556,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2828546;52.6247872,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/168880557,,,steps,up,,,,,,way/168880557,way/168880557,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2831683;52.6251469,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/168880558,,,steps,up,,,,,,way/168880558,way/168880558,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.282931;52.6248749,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/169080586,,,footway,up,,,,,,way/169080586,way/169080586,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3010398;52.6231849,,,,,,,,,,,,,,,,,,,,,,,Bing,
+Feature,way/169080588,,,footway,up,,,,,,way/169080588,way/169080588,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3011559;52.6232129,,,,,,,,,,,,,,,,,,,,,,,Bing,
+Feature,way/169080589,,,footway,up,,,,,,way/169080589,way/169080589,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.300812;52.6231442,,,,,,,,,,,,,,,,,,,,,,,Bing,
+Feature,way/169080593,,,footway,up,,,,,,way/169080593,way/169080593,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3009433;52.6231593,,,,,,,,,,,,,,,,,,,,,,,Bing,
+Feature,way/169080596,,,steps,up,,,,,,way/169080596,way/169080596,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3003224;52.6240337,,,,,,,,,,,,,,,,,,,,,,,Bing,
+Feature,way/169220911,,,steps,up,,,,,,way/169220911,way/169220911,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.1806375;52.652114,,7,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/170422865,,,steps,down,,,,,,way/170422865,way/170422865,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3063431;52.6222134,,5,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/170422868,,,footway,up,,,,,,way/170422868,way/170422868,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3065125;52.6221585,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/170795333,,,steps,down,,,,,,way/170795333,way/170795333,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2773594;52.5986009,,5,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/172697465,,,steps,down,,,,,,way/172697465,way/172697465,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2982514;52.6069003,,18,ground,,,,,,,,,,,,,,,Path through grave yard,,,,,,
+Feature,way/177643381,,,steps,down,,,,,,way/177643381,way/177643381,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2655647;52.6039794,,3,concrete,,,,,,,,,,,,,,,,,,,,,
+Feature,way/178770420,,,steps,up,,,,,,way/178770420,way/178770420,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2957495;52.6273337,,5,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/178824881,,,steps,up,,,,,,way/178824881,way/178824881,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2954763;52.6278774,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/180678591,,,steps,up,,,,,,way/180678591,way/180678591,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3227846;52.6397571,,10,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/180678592,,,steps,up,,,,,,way/180678592,way/180678592,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3225908;52.6397775,,13,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/182534499,,,footway,down,,,,,,way/182534499,way/182534499,true,,"  
+  <br />
+  
+  Wheelchair accessible 
+  ",,,,,,around,Point,1.3063615;52.6283217,,,,no,,,,,,,,,,,,,,,,,,,,,good,yes
+Feature,way/186106526,,,steps,,,,,,,way/186106526,way/186106526,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3386061;52.6261505,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/188150046,,,footway,up,,,,,,way/188150046,way/188150046,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3077151;52.6268218,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/193163875,,,footway,up,,,,,,way/193163875,way/193163875,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2863917;52.6268422,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/196002573,,,steps,,,,,,,way/196002573,way/196002573,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2871463;52.6406268,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/199622733,,,steps,up,,,,,,way/199622733,way/199622733,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2226417;52.6596931,,2,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/199988076,,,steps,up,,,,,,way/199988076,way/199988076,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3107068;52.6216594,,2,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/208000600,,,steps,,,,,,,way/208000600,way/208000600,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2914205;52.6132036,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/208000601,,,steps,,,,,,,way/208000601,way/208000601,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2910713;52.6125766,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/208000602,,,steps,,,,,,,way/208000602,way/208000602,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2912616;52.6127479,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/208000606,,,steps,,,,,,,way/208000606,way/208000606,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2897021;52.6138798,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/208000624,,,steps,,,,,,,way/208000624,way/208000624,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2905841;52.6136539,,,,,,,,,,,,,,,,,,,,,,,,,,,no
+Feature,way/226868387,,,steps,,,,,,,way/226868387,way/226868387,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2819372;52.6290397,,,paving_stones,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/226868389,,,steps,,,,,,,way/226868389,way/226868389,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2822966;52.62895,,,ground,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/226868391,,,steps,,,,,,,way/226868391,way/226868391,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2823119;52.6288929,,,ground,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/226868394,,,steps,,,,,,,way/226868394,way/226868394,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2823;52.629344,,,paving_stones,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/226868395,,,steps,,,,,,,way/226868395,way/226868395,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.281739;52.6283809,,,ground,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/239871741,,,steps,up,,,,,,way/239871741,Riverside Walk,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3005849;52.6341628,,14,gravel,,,,,,,Riverside Walk,,,,,,,,,,,,,,,,,
+Feature,way/239871743,,,footway,up,,,,,,way/239871743,way/239871743,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3006247;52.6341454,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/239871747,,,footway,up,,,,,,way/239871747,way/239871747,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3005612;52.6341242,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/239871748,,,footway,up,,,,,,way/239871748,way/239871748,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3005914;52.6341286,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/242250862,,,steps,,,,,,,way/242250862,way/242250862,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2335803;52.6735156,,,,,,yes,,,,,,,,,,,,,,,,,,,,,
+Feature,way/243329539,,,steps,up,,,,,,way/243329539,way/243329539,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2021542;52.5904522,,43,ground,,public_footpath,designated,,Ketteringham FP 1,definitive_statement,,,,,,,,,,,,,,,,,,
+Feature,way/244304039,,,steps,up,,,,,,way/244304039,Hales Court,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2867597;52.6288297,,4,,,,,,,,Hales Court,,,,,,,,,,,,,,,,,
+Feature,way/244415655,,,steps,up,,,,,,way/244415655,way/244415655,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2419365;52.6208137,,11,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/244415656,,,steps,up,,,,,,way/244415656,way/244415656,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2419784;52.6209188,,10,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/244415657,,,steps,up,,,,,,way/244415657,way/244415657,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2419825;52.6208475,,11,,,,,,,,,,yes,,,,,,,,,,,,,,,
+Feature,way/244415658,,,steps,up,,,,,,way/244415658,way/244415658,true,,"  
+  <strong>Level:</strong>&nbsp;0 <br />
+  
+  
+  ",,,,,,around,Point,1.2412295;52.6212153,,9,,,,,,,,,,yes,,,,,,,,0,,,,,,,
+Feature,way/244415662,,,footway,up,,,,,,way/244415662,way/244415662,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2399568;52.6215226,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/244415663,,,footway,up,,,,,,way/244415663,way/244415663,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.240317;52.6217723,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/247058946,,,steps,,,,,,,way/247058946,way/247058946,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2916574;52.6131117,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/247957959,,,steps,,0,,,,,way/247957959,way/247957959,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2908725;52.6122758,,,,,,,,,,,,no,,,,,,,,,,,,,,,
+Feature,way/247959603,,,steps,,,,,,,way/247959603,way/247959603,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2906013;52.6137427,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/249660200,,,steps,,,,,,,way/249660200,way/249660200,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2915717;52.6123696,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/251502786,,,steps,,,,,,,way/251502786,way/251502786,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3078046;52.6373817,,,paved,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/253793256,,,steps,up,,,,,,way/253793256,way/253793256,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.4394466;52.6193523,,13,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/253793258,,,steps,down,,,,,,way/253793258,way/253793258,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.439321;52.6192444,,15,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/253793259,yes,,steps,down,1,,,,,way/253793259,way/253793259,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.4393913;52.6192357,,7,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/253793261,yes,,steps,up,1,,,,,way/253793261,way/253793261,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.4394787;52.61931,,9,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/257075708,,,steps,up,,,,,,way/257075708,way/257075708,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3020167;52.6104537,,2,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/257075711,,,steps,up,,,,,,way/257075711,way/257075711,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3039564;52.6109874,,10,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/257075715,,,footway,up,,,,,,way/257075715,way/257075715,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3044181;52.6111123,,,,,,,,,,,,,,,,,,,,,,,,,,,,sidewalk
+Feature,way/257323120,,,footway,down,,,,,,way/257323120,way/257323120,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2338532;52.6221435,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/257949573,,,steps,up,,,,,,way/257949573,way/257949573,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2470817;52.6231655,,3,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/259559944,,,steps,up,,,,,,way/259559944,way/259559944,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2735085;52.6461563,,7,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/259559945,,,steps,up,,,,,,way/259559945,way/259559945,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2743438;52.6458692,,6,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/259559951,,,steps,up,,,,,,way/259559951,way/259559951,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2752356;52.6457205,,9,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/259790750,,,steps,,,,,,,way/259790750,way/259790750,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2944675;52.5847354,,,wood,,,permissive,,,,,,,,,,,,Way into Open Access Area. Caister St Edmunds roman site,,,,,,,,,,
+Feature,way/264088979,,,steps,up,,,,,,way/264088979,way/264088979,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2023328;52.5927147,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/264182621,,,steps,up,,,,,,way/264182621,way/264182621,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3057353;52.6205155,,4,cobblestone,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/264182623,,,steps,up,,,,,,way/264182623,way/264182623,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.305376;52.6203314,,2,ground,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/264182625,,,steps,up,,,,,,way/264182625,way/264182625,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3054163;52.6203713,,2,cobblestone,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/264182626,,,footway,up,,,,,,way/264182626,way/264182626,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3047666;52.6201459,,,cobblestone,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/264182627,,,steps,,,,,,,way/264182627,way/264182627,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3059272;52.6205978,,6,cobblestone,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/264182630,,,steps,up,,,,,,way/264182630,way/264182630,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3052007;52.6201736,,7,ground,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/264182633,,,steps,up,,,,,,way/264182633,way/264182633,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.304923;52.6201423,,17,ground,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/264182635,,,steps,up,,,,,,way/264182635,way/264182635,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3052302;52.6201048,,18,ground,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/264182636,,,steps,down,,,,,,way/264182636,way/264182636,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3050558;52.6202787,,26,ground,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/264182637,,,steps,up,,,,,,way/264182637,way/264182637,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3053022;52.6202444,,35,ground,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/264182638,,,steps,down,,,,,,way/264182638,way/264182638,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3052938;52.62033,,26,ground,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/264182639,,,steps,down,,,,,,way/264182639,way/264182639,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3047493;52.6202209,,39,ground,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/264182640,,,footway,up,,,,,,way/264182640,way/264182640,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3051172;52.6200523,,,ground,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/266576872,,,footway,up,,,,,,way/266576872,way/266576872,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3021621;52.6103138,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/266576873,,,steps,up,,,,,,way/266576873,way/266576873,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3023087;52.610356,,10,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/266872764,,,steps,up,,,salting,,NKE044,way/266872764,Davey Place,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2950179;52.6284122,,9,,,,,,,,Davey Place,,,,,,,,,,,,,,,,,,
+Feature,way/267947580,,,steps,down,,,,,,way/267947580,York Alley,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2947874;52.6274321,,5,,,,,,,,York Alley,,,,,,,,,,,,,,,,,,
+Feature,way/272006926,,,footway,up,,,,,,way/272006926,way/272006926,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2019288;52.5921251,,,paved,,,,,,,,,,,,,,,Currently overgrown,,,,,survey,,,,,
+Feature,way/275678981,,,steps,up,,,,,,way/275678981,way/275678981,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3728504;52.6245596,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/277589562,,,steps,up,,,,,,way/277589562,Boudicca's Way,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.302914;52.60554,,4,,,public_footpath,designated,,Bixley FP 1,definitive_statement,Boudicca's Way,,,,,,,,,,,,,,,,,,
+Feature,way/277609607,,,steps,up,,,,,,way/277609607,way/277609607,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3255509;52.6227904,,11,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/278068122,,,steps,up,,,,,,way/278068122,way/278068122,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2939043;52.6251663,,5,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/280858911,,,steps,,,,,,,way/280858911,way/280858911,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.4629277;52.6191829,,,ground,,public_footpath,designated,,Strumpshaw FP 5,definitive_statement,,,,,,,,,,,,,,,,,,,
+Feature,way/280964150,,,steps,up,,,,,,way/280964150,way/280964150,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.235822;52.6329887,,9,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/280964151,,,steps,up,,,,,,way/280964151,way/280964151,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2356365;52.6322983,,8,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/280964152,,,steps,up,,,,,,way/280964152,way/280964152,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2358502;52.6322795,,8,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/286763133,,,steps,up,,,,,,way/286763133,way/286763133,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3464666;52.634231,,3,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/286763138,,,steps,down,,,,,,way/286763138,way/286763138,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2817335;52.657569,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/289216272,,,footway,up,,,,,,way/289216272,way/289216272,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2249325;52.6275284,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,crossing
+Feature,way/290230376,,,footway,up,,,,,,way/290230376,way/290230376,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2848895;52.6297139,,,,,,,,,,,,,,,,,,,,,,,,,,,,sidewalk
+Feature,way/290360567,,,steps,up,,,,,,way/290360567,way/290360567,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3096248;52.6341542,,3,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/290667694,,,steps,up,-3,,,,,way/290667694,way/290667694,true,,"  
+  <strong>Level:</strong>&nbsp;2 <br />
+  
+  
+  ",,,,,,around,Point,1.296715;52.6272383,,,,,,,,,,,,,,,,,,,,2,,,,,,,,
+Feature,way/291431865,,,steps,up,,,,,,way/291431865,way/291431865,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3135631;52.623525,,8,concrete,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/292424821,,,steps,up,,,,,,way/292424821,way/292424821,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2853299;52.6313567,,4,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/292570051,,,steps,up,,,,,,way/292570051,way/292570051,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3004323;52.6434786,,3,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/293534828,,,steps,down,,,,,,way/293534828,way/293534828,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2911746;52.6372047,,7,,,,,,,,,,,,,,building_passage,,,,,,,,,,,,
+Feature,way/293534833,,,steps,down,,,,,,way/293534833,way/293534833,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.286847;52.6412595,,5,brick,no,,yes,,,,,,,,,,,,,,,,,gpx/local knowledge,,,,,
+Feature,way/293534839,,,steps,up,,,,,,way/293534839,way/293534839,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.283964;52.6427118,,9,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/294213177,,,steps,up,,,,,,way/294213177,way/294213177,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2114159;52.6433485,,3,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/294494066,,,steps,down,,,,,,way/294494066,way/294494066,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2763391;52.640919,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/294494067,,,steps,down,,,,,,way/294494067,way/294494067,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2767117;52.6408924,,4,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/304002824,,,steps,,,,,,,way/304002824,way/304002824,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.5204232;52.6875417,,,,,permissive_footpath,permissive,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/308172857,,,steps,,,,,,,way/308172857,way/308172857,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3075702;52.6275797,,,paved,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/311728037,,,footway,down,,,,,,way/311728037,way/311728037,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2923604;52.6287309,,,,,,,,,,,,,,,,,,,,,,,,,,,,,wheelchair
+Feature,way/311728038,,,steps,down,,,,,,way/311728038,way/311728038,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2923329;52.6287772,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/313097682,,,steps,up,,,,,,way/313097682,way/313097682,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.25716;52.6205171,,3,,,,,,,,,,yes,,,,,,,,,,,,,,,,,
+Feature,way/313097685,,,steps,up,,,,,,way/313097685,way/313097685,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2490973;52.6169734,,13,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/313097688,,,steps,up,,,,,,way/313097688,way/313097688,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2570785;52.6205605,,3,,,,,,,,,,yes,,,,,,,,,,,,,,,,,
+Feature,way/313097689,,,steps,up,,,,,,way/313097689,way/313097689,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2491358;52.6169361,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/313097690,,,steps,up,,,,,,way/313097690,way/313097690,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2570926;52.6204735,,3,,,,,,,,,,yes,,,,,,,,,,,,,,,,,
+Feature,way/313097691,,,steps,up,,,,,,way/313097691,way/313097691,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2490833;52.6170147,,13,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/313097694,,,steps,up,,,,,,way/313097694,way/313097694,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.257017;52.6205082,,3,,,,,,,,,,yes,,,,,,,,,,,,,,,,,
+Feature,way/314264585,,,steps,up,,,,,,way/314264585,way/314264585,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3036937;52.6282753,,5,,,,,,,,,,yes,,,,,,,,,,,,,,,,,
+Feature,way/314264586,,,footway,down,,yes,,,,way/314264586,way/314264586,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3047422;52.6280384,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/314264592,,,footway,up,,,,,,way/314264592,way/314264592,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3037376;52.6282518,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/314723158,,,steps,up,,,,,,way/314723158,way/314723158,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2192748;52.6364073,,7,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/315753637,,,steps,down,,,,,,way/315753637,way/315753637,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2063914;52.6417233,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/315753640,,,footway,up,,,,,,way/315753640,way/315753640,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2122481;52.6385437,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/316955637,,,steps,down,,yes,,,,way/316955637,way/316955637,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2235569;52.6412544,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/321554792,,,steps,down,,,,,,way/321554792,way/321554792,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2992989;52.6260611,,12,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/321554794,,,steps,down,,,,,,way/321554794,way/321554794,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2996033;52.6260068,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/325392390,,,steps,down,,,,,,way/325392390,way/325392390,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.223559;52.6493646,,8,ground,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/327492152,,,steps,up,,,,,,way/327492152,way/327492152,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2420452;52.5908847,,5,stone,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/329616722,,,footway,up,,,,,,way/329616722,way/329616722,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2470488;52.6135189,,,ground,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/332441857,,,steps,,,,,,,way/332441857,way/332441857,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3015774;52.6215591,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/332441860,,,steps,down,,,,,,way/332441860,way/332441860,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2997014;52.6260269,,8,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/332441867,,,steps,down,,,,,,way/332441867,way/332441867,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2999931;52.6261077,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/332441869,,,steps,down,,,,,,way/332441869,way/332441869,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.299768;52.6260417,,8,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/332441870,,,steps,down,,,,,,way/332441870,way/332441870,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2993965;52.62608,,12,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/332441872,,,steps,,,,,,,way/332441872,way/332441872,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3019009;52.6218501,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/332577116,,,steps,up,,,,,,way/332577116,way/332577116,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3037577;52.6223246,,8,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/332577117,,,steps,down,,,,,,way/332577117,way/332577117,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3029839;52.6224306,,6,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/332580480,,,footway,down,,,,,,way/332580480,Riverside Walk,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2928521;52.6318522,,4,paved,,,,,,,Riverside Walk,,,,,,,,,,,,,,,,,,,
+Feature,way/332580481,,,steps,down,,,,,,way/332580481,Riverside Walk,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2926035;52.6317765,,6,paved,,,,,,,Riverside Walk,,,,,,,,,,,,,,,,,,,
+Feature,way/332580485,,,steps,down,,,,,,way/332580485,way/332580485,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3033846;52.6223104,,8,paved,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/332580488,,,steps,down,,,,,,way/332580488,way/332580488,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3017272;52.6232613,,5,,,,,,,,,,,,,,,,,,,,,Bing,,,,,,
+Feature,way/332580491,,,steps,down,,,,,,way/332580491,way/332580491,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3025082;52.6221797,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/332580492,,,steps,down,,,,,,way/332580492,way/332580492,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3015175;52.6231917,,4,,,,,,,,,,,,,,,,,,,,,Bing,,,,,,
+Feature,way/332580494,,,steps,up,,,,,,way/332580494,way/332580494,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2924005;52.6317485,,7,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/332580496,,,steps,down,,,,,,way/332580496,way/332580496,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.302467;52.62216,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/332580497,,,steps,down,,,,,,way/332580497,way/332580497,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3023836;52.6221202,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/332580499,,,steps,down,,,,,,way/332580499,way/332580499,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3024248;52.6221398,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/336724699,,,steps,up,,,,,,way/336724699,way/336724699,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2490579;52.6390668,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/336724700,,,steps,down,,,,,,way/336724700,way/336724700,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2480592;52.6399713,,9,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/336724706,,,steps,up,,,,,,way/336724706,way/336724706,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2477588;52.6401089,,7,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/336724710,,,steps,up,,,,,,way/336724710,way/336724710,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2492336;52.6392312,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/337625217,,,steps,down,,,,,,way/337625217,way/337625217,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2402232;52.6206277,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/337625218,,,steps,down,,,,,,way/337625218,way/337625218,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2402206;52.620629,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/337625219,,,steps,down,,,,,,way/337625219,way/337625219,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2402086;52.6206382,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/337625220,,,steps,down,,,,,,way/337625220,way/337625220,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2402182;52.6206306,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/337625221,,,steps,down,,,,,,way/337625221,way/337625221,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2402062;52.6206395,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/338111570,,,steps,down,,,,,,way/338111570,way/338111570,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3054734;52.6278566,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/338111572,,,steps,down,,,,,,way/338111572,way/338111572,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3054979;52.6278895,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/339339984,,,steps,down,,,,,,way/339339984,way/339339984,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3076942;52.6309941,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/343881505,,,steps,down,,,,,,way/343881505,way/343881505,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3039601;52.6260938,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/355325185,,,steps,up,,,,,,way/355325185,way/355325185,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2878692;52.6282129,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/355335561,,,steps,down,,,,,,way/355335561,way/355335561,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2894778;52.6087577,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/355335563,,,steps,down,,,,,,way/355335563,way/355335563,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2894173;52.60878,,6,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/355335564,,,steps,down,,,,,,way/355335564,way/355335564,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2893585;52.6088015,,6,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/362662005,,,steps,up,,,,,,way/362662005,way/362662005,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.230648;52.6351574,,7,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/362662007,,,steps,up,,,,,,way/362662007,way/362662007,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2307337;52.6352275,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/362662008,,,steps,up,,,,,,way/362662008,way/362662008,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2306341;52.6351365,,6,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/364758752,,,footway,up,,,,,,way/364758752,way/364758752,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2882062;52.6215149,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/364758759,,,steps,up,,,,,,way/364758759,way/364758759,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2881231;52.6215238,,7,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/364758761,,,footway,up,,,,,,way/364758761,way/364758761,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2881874;52.621499,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/365833810,,,steps,up,,,,,,way/365833810,way/365833810,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2933892;52.6192691,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/365833811,,,steps,up,,,,,,way/365833811,way/365833811,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2935635;52.6197138,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/365833812,,,steps,up,,,,,,way/365833812,way/365833812,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2936405;52.6195059,,14,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/365833817,,,steps,up,,,,,,way/365833817,way/365833817,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2936357;52.619358,,7,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/370428218,,,steps,up,,,,,,way/370428218,Winkles Row,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3064367;52.6202519,,6,,,,,,,,Winkles Row,,,,,,,,,,,,,,,,,,,
+Feature,way/370428220,,,steps,up,,,,,,way/370428220,Winkles Row,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3060626;52.6200622,,4,,,,,,,,Winkles Row,,,,,,,,,,,,,,,,,,,
+Feature,way/370428224,,,footway,up,,,,,,way/370428224,way/370428224,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3061205;52.620075,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/370428227,,,steps,up,,,,,,way/370428227,way/370428227,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.306103;52.6200664,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/370428230,,,steps,down,,,,,,way/370428230,way/370428230,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3061234;52.6196487,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/370428232,,,steps,up,,,,,,way/370428232,way/370428232,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3056328;52.6229719,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/371652651,,,steps,up,,,,,,way/371652651,way/371652651,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2524499;52.6092074,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/371652654,,,footway,down,,,,,,way/371652654,way/371652654,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2522586;52.6090736,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/373191592,,,steps,up,,,,,,way/373191592,way/373191592,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2894891;52.6327866,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/377110770,,,steps,up,,,,,,way/377110770,way/377110770,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2908899;52.631062,,9,brick_weave,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/377219972,,,steps,down,,,,,,way/377219972,way/377219972,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.220031;52.622963,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/377441738,,,steps,,,,,,,way/377441738,way/377441738,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2195874;52.6226744,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes
+Feature,way/379092560,,,steps,up,,,,,,way/379092560,way/379092560,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2967084;52.6327683,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/382745216,,,steps,down,,,,,,way/382745216,Saint Lawrence Steps,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2904254;52.6308904,,,,,,,,,,Saint Lawrence Steps,,,,,,,,,,,,,,,,,,,,
+Feature,way/382745219,,,steps,up,,,,,,way/382745219,Saint Lawrence Steps,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2904939;52.6310661,,7,,,,,,,,Saint Lawrence Steps,,,,,,,,,,,,,,,,,,,,
+Feature,way/382750997,,,steps,down,,,,,,way/382750997,way/382750997,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2883727;52.6377325,,10,paved,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,yes
+Feature,way/382751003,,,steps,down,,,,,,way/382751003,way/382751003,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2874261;52.6386794,,11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/382751006,,,steps,down,,,,,,way/382751006,way/382751006,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2883284;52.637939,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/384630083,,,steps,,,,,,,way/384630083,way/384630083,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.4182227;52.6233353,,,wood,,,yes,,,,,,,,,,,,,,,,,,yes,,,,,,,
+Feature,way/384630084,,,steps,,,,,,,way/384630084,way/384630084,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.418204;52.6234424,,,wood,,,yes,,,,,,,,,,,,,,,,,,yes,,,,,,,
+Feature,way/384992080,,,steps,,,,,,,way/384992080,way/384992080,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2412108;52.5952228,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/385960458,,,steps,down,,,,,,way/385960458,way/385960458,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2863956;52.640394,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/387425239,,,steps,up,,,,,,way/387425239,way/387425239,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.288305;52.6072204,,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/387425240,,,steps,down,,,,,,way/387425240,way/387425240,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2894569;52.6062445,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/387425242,,,footway,down,,,,,,way/387425242,way/387425242,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2878652;52.6066729,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/387425244,,,steps,up,,,,,,way/387425244,way/387425244,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2884673;52.6073985,,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/387425246,,,steps,down,,,,,,way/387425246,way/387425246,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2879036;52.6068277,,12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/387425250,,,steps,down,,,,,,way/387425250,way/387425250,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2880127;52.6067922,,12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/387425251,,,steps,up,,,,,,way/387425251,way/387425251,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2882285;52.6072399,,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/387425254,,,footway,down,,,,,,way/387425254,way/387425254,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2878347;52.6067012,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/387425262,,,footway,down,,,,,,way/387425262,way/387425262,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2877265;52.6067821,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/387425263,,,steps,up,,,,,,way/387425263,way/387425263,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2884244;52.6071601,,10,paved,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/387425264,,,footway,down,,,,,,way/387425264,way/387425264,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2879159;52.6066646,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/387508577,,,steps,up,,,,,,way/387508577,way/387508577,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.1966937;52.6582308,,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/387508578,,,steps,up,,,,,,way/387508578,way/387508578,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.1974027;52.6580849,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/387508580,,,steps,up,,,,,,way/387508580,way/387508580,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.1967074;52.6581692,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/387637899,,,steps,,,,,,,way/387637899,way/387637899,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2711197;52.6299517,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/387637902,,,steps,,,,,,,way/387637902,way/387637902,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2712766;52.6299658,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/392215762,,,steps,,,,,,,way/392215762,way/392215762,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2076361;52.6583435,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/401951340,,,steps,down,,,,,,way/401951340,way/401951340,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2986604;52.6239681,,8,ground,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/416157028,,,steps,up,,,,,,way/416157028,way/416157028,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3089309;52.6345608,,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/416157029,,,steps,up,,,,,,way/416157029,way/416157029,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3088084;52.6345174,,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/416157030,,,footway,up,,,,,,way/416157030,way/416157030,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3088675;52.6345418,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/416157031,,,footway,up,,,,,,way/416157031,way/416157031,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3090216;52.6345914,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/419852713,,,steps,up,,,,,,way/419852713,way/419852713,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3542942;52.6204812,,27,ground,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/420575531,,,steps,,,,,,,way/420575531,way/420575531,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2496364;52.6428823,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/420575532,,,steps,,,,,,,way/420575532,way/420575532,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2492766;52.6430479,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/420898891,,,footway,up,,,,,,way/420898891,way/420898891,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2877509;52.6391136,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/420898893,,,steps,down,,,,,,way/420898893,way/420898893,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2876203;52.639074,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/476139814,,,steps,,,,,,,way/476139814,way/476139814,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2999086;52.6328209,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes
+Feature,way/476139818,,,steps,,,,,,,way/476139818,way/476139818,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2999693;52.6328283,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/479740399,,,steps,,,,,,,way/479740399,way/479740399,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2423361;52.6222066,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/480735958,,,steps,up,,,,,,way/480735958,way/480735958,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.223587;52.62356,,6,concrete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/516103019,,,steps,up,,,,,,way/516103019,way/516103019,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2717707;52.6300449,,4,concrete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/516812135,,,steps,down,,,,,,way/516812135,way/516812135,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2771512;52.68814,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/516982916,,,steps,up,,,,,,way/516982916,way/516982916,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2419889;52.5909055,,3,stone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/516982917,,,steps,up,,,,,,way/516982917,way/516982917,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2420107;52.5908974,,2,stone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/519375806,,,steps,up,,,,,,way/519375806,way/519375806,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2953811;52.6258465,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/519377852,,,steps,up,,,,,,way/519377852,way/519377852,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2804952;52.62458,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/519381540,,,steps,up,,,,,,way/519381540,way/519381540,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2955496;52.6302043,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/519381541,,,steps,up,,,,,,way/519381541,way/519381541,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2954475;52.6304674,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/519988806,,,steps,up,,,,,,way/519988806,way/519988806,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3121054;52.652216,,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/520015067,,,steps,up,,,,,,way/520015067,way/520015067,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2912866;52.630502,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/520015069,,,steps,up,,,,,,way/520015069,way/520015069,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.291319;52.6304694,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/520273094,,,steps,up,,,,,,way/520273094,way/520273094,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3001905;52.6216766,,2,concrete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/520273100,,,steps,up,,,,,,way/520273100,way/520273100,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3001993;52.6216817,,2,concrete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/520294225,,,steps,,,,,,,way/520294225,way/520294225,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2885817;52.6314336,,4,concrete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/520294233,,,steps,up,,,,,,way/520294233,way/520294233,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.28855;52.6313943,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/520320991,,,steps,up,,,,,,way/520320991,way/520320991,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3008624;52.6337157,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/520512786,,,footway,up,,,,,,way/520512786,way/520512786,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3031363;52.6392232,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/520512788,,,footway,up,,,,,,way/520512788,way/520512788,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3031077;52.6392248,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/520516255,,,steps,up,,,,,,way/520516255,way/520516255,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3136009;52.6313108,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/520516257,,,steps,up,,,,,,way/520516257,way/520516257,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3136838;52.6312806,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/520743459,,,steps,up,,,,,,way/520743459,Mandells Court,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2972348;52.631338,,,,,,,,,,Mandells Court,,,,,,building_passage,,,,,,,,,,,,,,,,
+Feature,way/520747623,,,steps,up,,,,,,way/520747623,way/520747623,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.299526;52.6271131,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/520747625,,,steps,up,,,,,,way/520747625,way/520747625,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2995409;52.6270815,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/520758599,,,steps,up,,,,,,way/520758599,way/520758599,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2926779;52.6265715,,,stone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/520765579,,,footway,up,,,,,,way/520765579,way/520765579,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2794342;52.6336029,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/520765581,,,footway,up,,,,,,way/520765581,way/520765581,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2794272;52.6335857,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/520765586,,,steps,up,,,,,,way/520765586,way/520765586,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.279577;52.6335927,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/520955200,,,steps,up,,,,,,way/520955200,way/520955200,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2890836;52.624647,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/520955202,,,steps,up,,,,,,way/520955202,way/520955202,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2891042;52.62473,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/520959184,,,steps,up,,,,,,way/520959184,way/520959184,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2940136;52.6439936,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/520990821,,,footway,up,,,,,,way/520990821,way/520990821,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2765595;52.6265684,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/520991998,,,steps,up,,,,,,way/520991998,way/520991998,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3053093;52.6287158,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/520994192,,,steps,up,,,,,,way/520994192,way/520994192,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2932982;52.6524247,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/520994194,,,steps,up,,,,,,way/520994194,way/520994194,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2933637;52.652385,,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/521001603,,,steps,up,,,,,,way/521001603,way/521001603,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2952346;52.6334174,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/521009997,,,steps,up,,,,,,way/521009997,way/521009997,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2967396;52.6308196,,3,concrete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/521575949,,,footway,up,,,,,,way/521575949,way/521575949,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3378226;52.6403934,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/524599490,,,steps,up,,,,,,way/524599490,way/524599490,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.357348;52.6845497,,2,paving_stones,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/526107510,,,steps,up,,,,,,way/526107510,way/526107510,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.4965347;52.6650052,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/528943638,,,steps,up,,,,,,way/528943638,way/528943638,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.1948324;52.6788655,,5,,,,,,,,,,,,,,,,,private,,,,,,,,,,,,,
+Feature,way/531018519,,,steps,,,,,,,way/531018519,way/531018519,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2941081;52.6249634,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/531235189,,,steps,up,,,,,,way/531235189,way/531235189,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2349906;52.6279614,,7,brick,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/531239073,,,steps,up,,,,,,way/531239073,way/531239073,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2593927;52.6259163,,4,concrete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/531948010,,,footway,up,,,,,,way/531948010,way/531948010,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.4493984;52.6845614,,,concrete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/531948011,,,footway,up,,,,,,way/531948011,way/531948011,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.4496178;52.6845582,,,concrete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/539901027,,,steps,up,,,,,,way/539901027,way/539901027,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2951328;52.6259314,,14,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,
+Feature,way/542763671,,,steps,up,,,,,,way/542763671,way/542763671,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2988802;52.6268016,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/542763674,,,steps,down,,,,,,way/542763674,way/542763674,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2979779;52.6267524,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/545471800,,,steps,,,,,,,way/545471800,way/545471800,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2750487;52.6028689,,,ground,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/546923603,,,steps,up,,,,,,way/546923603,way/546923603,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2835494;52.629516,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/547309905,,,steps,up,,,,,,way/547309905,way/547309905,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3083316;52.6203144,,21,,,,,,,,,,,,,,,,,,,,,survey,yes,,,,,,,,
+Feature,way/547309907,,,footway,up,,,,,,way/547309907,way/547309907,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.30788;52.6204824,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/547309909,,,steps,up,,,,,,way/547309909,way/547309909,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3078072;52.6205095,,20,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,
+Feature,way/547309915,,,steps,up,,,,,,way/547309915,way/547309915,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3071927;52.6207434,,22,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,
+Feature,way/550271084,,,steps,up,,,,,,way/550271084,way/550271084,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3030204;52.6354408,,1,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,
+Feature,way/550271089,,,steps,up,,,,,,way/550271089,way/550271089,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3047174;52.6347612,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/560329242,,,steps,down,,,,,,way/560329242,way/560329242,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.300235;52.6369952,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/572863612,,,steps,up,,,,,,way/572863612,way/572863612,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2746826;52.6407578,,,,,,,,,,,,,,,,building_passage,,,,,,,,,,,,,,,,
+Feature,way/577422356,,,steps,up,,,,,,way/577422356,way/577422356,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3440619;52.6268686,,8,brick,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/584149122,,,steps,down,,,,,,way/584149122,way/584149122,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2973881;52.6278836,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/620098816,,,steps,up,,,,,,way/620098816,way/620098816,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2353528;52.632001,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/620098817,,,steps,up,,,,,,way/620098817,way/620098817,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2352859;52.631977,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/620098819,,,steps,up,,,,,,way/620098819,way/620098819,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2354208;52.631842,,8,concrete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/622826985,,,steps,,,,,,,way/622826985,way/622826985,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2949743;52.6074799,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/624746721,,,steps,,,,,,,way/624746721,way/624746721,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2770773;52.596123,,,concrete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/627125570,,,steps,,,,,,,way/627125570,way/627125570,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2930071;52.6657282,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/629905927,,,steps,up,,,,,,way/629905927,way/629905927,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2832238;52.657868,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/629991316,,,steps,up,,,,,,way/629991316,way/629991316,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2446502;52.6058604,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/633902849,,,steps,down,,,,,,way/633902849,way/633902849,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2849141;52.6070714,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/633903630,,,footway,up,,,,,,way/633903630,way/633903630,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2852873;52.6047971,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/633903631,,,footway,up,,,,,,way/633903631,way/633903631,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.285188;52.6046786,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/633903634,,,steps,up,,,,,,way/633903634,way/633903634,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2849712;52.604416,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/637643208,,,steps,,,,,,,way/637643208,way/637643208,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2292091;52.6212485,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/646322871,,,steps,down,,,,,,way/646322871,way/646322871,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3032886;52.6106006,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/675864670,,,steps,,,,,,,way/675864670,way/675864670,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2936954;52.6098334,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/678871668,,,steps,up,,,,,,way/678871668,way/678871668,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2880489;52.6388898,,3,asphalt,dismount,,,,,,,,,,,,,,,,,,,Bing,,,,,,,,,
+Feature,way/679339398,,,steps,up,,,,,,way/679339398,way/679339398,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3005826;52.6121439,,4,asphalt,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,
+Feature,way/682911357,,,footway,up,,yes,,,,way/682911357,way/682911357,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2341544;52.6041495,,,,,,,,,,,,,,,,,,,,,,,,,,,,crossing,,,,
+Feature,way/683688970,,,steps,up,,,,,,way/683688970,way/683688970,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2908443;52.6214437,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/687753461,,,steps,up,,,,,,way/687753461,way/687753461,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.4505978;52.5794915,,4,concrete,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,yes
+Feature,way/691425353,,,steps,up,,,,,,way/691425353,way/691425353,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3026314;52.6124786,,7,compacted,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/693889210,yes,,footway,0%,1,,,,,way/693889210,way/693889210,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2934823;52.6202629,,,asphalt,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/693924217,,,steps,up,,,,,,way/693924217,way/693924217,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3138294;52.6310228,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/693924239,,,steps,up,,,,,,way/693924239,way/693924239,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3141553;52.6309266,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/693924242,,,steps,up,,,,,,way/693924242,way/693924242,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.3143109;52.6307853,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/699924929,,,footway,0%,,,,,,way/699924929,way/699924929,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.4874118;52.6198827,,,paved,no,,,,,,,2,,,no,,,,,,,,,,,,,,,,,,,
+Feature,way/699926328,,,footway,0%,,,,,,way/699926328,way/699926328,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.4886111;52.621665,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/700460643,,,steps,up,,yes,,,,way/700460643,way/700460643,true,,"  
+  <br />
+  Steps form an Amphitheatre, with room to sit<br />
+  
+  ",,,,,,around,Point,1.2917957;52.6277755,,8,paved,,,,,,,,,no,,,,,,,,,,,,yes,,,,,,,,,,"Steps form an Amphitheatre, with room to sit",yes
+Feature,way/700460644,,,steps,up,,yes,,,,way/700460644,way/700460644,true,,"  
+  <br />
+  Steps form barrier between Bethel street and Amphitheatre.<br />
+  
+  ",,,,,,around,Point,1.2919311;52.6279235,,3,paved,,,,,,,,,,,,,,,,,,,,,no,,,,,,,,,,Steps form barrier between Bethel street and Amphitheatre.,
+Feature,way/700840943,,,steps,up,,,,,,way/700840943,way/700840943,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2192947;52.619511,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/700888566,,,steps,up,,,,,,way/700888566,way/700888566,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.298749;52.6114172,,,concrete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/700888567,,,footway,up,,,,,,way/700888567,way/700888567,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2987832;52.6114856,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/703809087,,,steps,,,,,,,way/703809087,way/703809087,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2908257;52.6371934,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/703809090,,,steps,,,,,,,way/703809090,way/703809090,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2904093;52.6370497,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/705935693,,,steps,,,,,,,way/705935693,way/705935693,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2670613;52.6459064,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/705935697,,,steps,,,,,,,way/705935697,way/705935697,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2670513;52.6462309,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/706871660,,,steps,,,,,,,way/706871660,way/706871660,true,,"  
+  <br />
+  
+  
+  ",,,,,,around,Point,1.2833916;52.6428065,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

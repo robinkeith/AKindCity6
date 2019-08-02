@@ -1,6 +1,6 @@
 // import { workbox } from 'workbox-cli'
-import defaultSettings from './src/defaultSettings'
-import xyz from 'xyz-affair'
+// import defaultSettings from './src/defaultSettings'
+// import xyz from 'xyz-affair'
 
 /* precache tiles for area covered by the map in service worker as background task, including all zoom levels
    look at vector vs bitmapped tiles fo space
@@ -8,18 +8,18 @@ bounds = [
   [ minimum longitude (west), minimum latitude (south) ],
   [ maximum longitude (east), maximum latitude (north) ]]
 */
-
+/*
 let bounds = defaultSettings.maxBounds
+let tiles
 
-for (let zoom = defaultSettings.minZoom; zoom <= defaultSettings.maxZoom; zoom ++) {
-  tiles = xyz(bounds,zoom)
+for (let zoom = defaultSettings.minZoom; zoom <= defaultSettings.maxZoom; zoom++) {
+  tiles = xyz(bounds, zoom)
 }
-
 
 // TODO: precache tiles for area covered by the map in service worker as background task, including all zoom levels
 // look at vector vs bitmapped tiles fo space
 // review mapbox T&Cs to check this is ok
-getTileUrls (map, bounds, tileLayer, zoom)
+// getTileUrls(map, bounds, tileLayer, zoom)
 
 // bacground sync will queue any requests made offline and retry them for 24 hours in the hope we get a connection
 const bgSyncPlugin = new workbox.backgroundSync.Plugin('myQueueName', {
@@ -34,7 +34,7 @@ workbox.routing.registerRoute(
     plugins: [bgSyncPlugin]
   })
 )
-
+*/
 /**
 Any of the following may also be useful
 

@@ -1,0 +1,731 @@
+type,id,addr:city,addr:country,addr:housename,addr:postcode,addr:street,amenity,fhrs:id,kitchen_hours,name,not:addr:postcode,opening_hours,outdoor_seating,phone,real_ale,toilets:wheelchair,website,wheelchair,id,F.caption,F.allowPopup,F.icon,F.location,F.facilities,F.availability,F.operator,F.contact,F.meta,F.layers,geometry.type,geometry.coordinates,addr:housenumber,brand,brand:wikidata,brand:wikipedia,cuisine,takeaway,contact:website,diet:gluten_free,diet:vegan,diet:vegetarian,gay,smoking,addr:village,source:addr,addr:place,operator,fixme,indoor,level,old_name,addr:site,url,addr:parentstreet,addr:suburb,addr:unit,shop,facebook,instagram,source:addr:postcode,internet_access,email,wheelchair:description,alt_name,alt_url,addr:locality,building,listed_status,covered,layer,official_name,ref,addr:interpolation,source,leasing_number,source:postcode,description,start_date,internet_access:fee,source:name,twitter,strapline,end_date,note,disused,diet:raw,drink:coffee,drink:tea,drink:wine,opened,website:operator,contact:mobile,real_cider,fixme:addr2,building:levels,material:roof,wikidata,access,fee,information,toilets:position,tourism,changing_table,construction,height,type,payment:credit_cards,payment:debit_cards,disused:amenity
+Feature,node/355536540,Norwich,GB,Forum Building,NR2 1TF,Millennium Plain,cafe,84112,Mo-Sa 08:30-23:00; Su 09:30-22:30,Café Bar Marzano,NR2 1BH,Mo-Th 08:30-22:00; Fr-Sa 08:30-23:00; Su 09:30-22:00,yes,+44 1603 665504,yes,yes,https://www.facebook.com/cafebarmarzano,yes,node/355536540,Café Bar Marzano,true,," Millennium Plain  
+  NR2 1TF <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.2914672;52.6278151
+Feature,node/1188157138,Norwich,GB,Unit 2c,NR1 1WR,Albion Way,cafe,22923,,Costa,,,,+44 1603 613441,,,,,node/1188157138,Costa,true,,"2c  Albion Way  
+  NR1 1WR <br />
+  
+  
+  ",,,,,,food,Point,1.3072015;52.6226441,2c,Costa,Q608845,en:Costa Coffee,coffee_shop,yes
+Feature,node/1248122810,Norwich,GB,c/o House of Fraser,NR2 1SH,Merchants' Hall,cafe,15505,,Caffè Nero,,Mo-We 09:00-18:00; Th 09:00-20:00; Fr-Sa 09:00-19:00; Su 11:00-17:00; PH 10:00-18:00,,+44 1603 764111,,,https://caffenero.com/,,node/1248122810,Caffè Nero,true,," Merchants' Hall  
+  NR2 1SH <br />
+  
+  
+  ",,,,,,food,Point,1.2884701;52.6263446,,Caffè Nero,Q675808,en:Caffè Nero,coffee_shop,yes
+Feature,node/1295110758,Norwich,,,NR2 1NR,Bethel Street,cafe,5045,,The Greenhouse Trust,,,,,,,,,node/1295110758,The Greenhouse Trust,true,,"42-46  Bethel Street  
+  NR2 1NR <br />
+  
+  
+  ",,,,,,food,Point,1.289322;52.6283953,42-46,,,,coffee_shop,,http://greenhousetrust.co.uk/,yes,yes,only,welcome,no
+Feature,node/1365424876,,,Tesco Supermarket,NR4 6DZ,Main Road,cafe,648697,,Costa Coffee,,"Mo-We,Sa 08:00-18:00; Th-Fr 08:00-20:00; Su 10:00-16:00",,,,,,,node/1365424876,Costa Coffee,true,," Main Road  
+  NR4 6DZ <br />
+  
+  
+  ",,,,,,food,Point,1.2770326;52.5952878,,,,,,,,,,,,,Caistor St Edmund,FHRS Open Data
+Feature,node/1631947640,,,,,,cafe,,,Decafe,,,,,,,,,node/1631947640,Decafe,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.2655089;52.6629851,,,,,,,,,,,,,,
+Feature,node/1709852312,,,,,,cafe,,,Inspirations Cafe,,,,,,,,,node/1709852312,Inspirations Cafe,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.2850342;52.6172482,,,,,,,,,,,,,,
+Feature,node/1819470087,,,,,,cafe,,,Café Oasis,,,,,,,,yes,node/1819470087,Café Oasis,true,,"  
+  <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.2771615;52.6699781,,,,,,,,,,,,,,
+Feature,node/1819470088,,,,,,cafe,,,Costa Coffee,,,,,,,,yes,node/1819470088,Costa Coffee,true,,"  
+  <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.277388;52.6697373,,,,,,,,,,,,,,
+Feature,node/1898832591,,,,,,cafe,,,cafe 6,,,,,,,,,node/1898832591,cafe 6,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.2910809;52.6124956,,,,,,,,,,,,,,
+Feature,node/2328161598,Norwich,GB,Sainsbury Centre For Visual Arts,NR4 7TJ,Norfolk Road,cafe,847491,"09:00-11:00,12:00-14:00",Modern Life Café,,Mo-Fr 09:00-18:00; Sa-Su 10:00-17:00,,+44 1603 593202,,,,,node/2328161598,Modern Life Café,true,," Norfolk Road  
+  NR4 7TJ <br />
+  
+  
+  ",,,,,,food,Point,1.2340861;52.6206746,,,,,,,,,,,,,,,University Of East Anglia,BaxterStorey
+Feature,node/2381422615,Norwich,,Bus Station,NR1 3NX,Surrey Street,cafe,15599,,Refresh Express,,,,,,,,,node/2381422615,Refresh Express,true,," Surrey Street  
+  NR1 3NX <br />
+  
+  
+  ",,,,,,food,Point,1.2930942;52.6244259,,,,,,,,,,,,,,FHRS Open Data,,
+Feature,node/2744407130,,,Julian Study Centre,NR4 7TJ,Chancellors Drive,cafe,661391,,Costa @ Cafe 57,,,,,,,https://portal.uea.ac.uk/campus-kitchen/cafes-and-restaurants/cafe-57,,node/2744407130,Costa @ Cafe 57,true,," Chancellors Drive  
+  NR4 7TJ <br />
+  
+  
+  ",,,,,,food,Point,1.2340437;52.6221728,,,,,,,,,,,,,,,University Of East Anglia,UEA
+Feature,node/3141765957,,,,,,cafe,,,Morrisons café,,"Mo-Th,Sa 08:00-19:00; Fr 08:00-20:00; Su 09:30-15:00",,,,,,,node/3141765957,Morrisons café,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.3089266;52.6238151,,,,,,,,,,,,,,,,,Survey to position
+Feature,node/3491809093,Norwich,,Sainsbury Centre For Visual Arts,NR4 7TJ,Norfolk Road,cafe,816417,,Kofra,,Tu-Fr 09:00-17:30; Sa-Su 10:00-16:30,,,,,https://scva.ac.uk/visit/modern-life-cafe,,node/3491809093,Kofra,true,," Norfolk Road  
+  NR4 7TJ <br />
+  
+  
+  ",,,,,,food,Point,1.235307;52.6199765,,,,,,,,,,,,,,,University of East Anglia,,
+Feature,node/3577019001,Norwich,,Central Catering Building,NR4 7TJ,The Square,cafe,14621,,Blend,,Sep 21-Jun 7: Mo-Fr 10:00-16:00; Jun 8-Sep 20: off,,,,,https://portal.uea.ac.uk/campus-kitchen/cafes-and-restaurants/blend,,node/3577019001,Blend,true,," The Square  
+  <strong>Level:</strong>&nbsp;1 NR4 7TJ <br />
+  
+  
+  ",,,,,,food,Point,1.2404417;52.6216374,,,,,,,,,,,,,,FHRS Open Data,University Of East Anglia,,,yes,1
+Feature,node/3577021480,,,Biomedical Research Centre,NR4 7TJ,Norfolk Road,cafe,212562,,Atrium Cafe,,Apr 13-Sep 20: Mo-Fr 09:00-16:00,,,,,,,node/3577021480,Atrium Cafe,true,," Norfolk Road  
+  <strong>Level:</strong>&nbsp;0 NR4 7TJ <br />
+  
+  
+  ",,,,,,food,Point,1.2363488;52.6208152,,,,,,,,,,,,,,FHRS Open Data,University Of East Anglia,,,yes,0,Bio Café
+Feature,node/3577025505,Norwich,,Sportspark,NR4 7TJ,University Drive,cafe,724480,Mo-Th 08:00-21:30; Fr-Su 08:00-21:00,Sportscafe,,Mo-Th 08:00-22:00; Fr-Su 08:00-21:30,,,,,https://portal.uea.ac.uk/campus-kitchen/cafes-and-restaurants/sports-park-cafe,yes,node/3577025505,Sportscafe,true,," University Drive  
+  NR4 7TJ <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.2409994;52.6242167,,,,,,,,,,,,,,FHRS Open Data,University Of East Anglia,,,,,
+Feature,node/3709817672,Norwich,,,NR4 7AU,South Park Avenue,cafe,878419,,Eaton Park Café,,,,,,,,,node/3709817672,Eaton Park Café,true,," South Park Avenue  
+  NR4 7AU <br />
+  
+  
+  ",,,,,,food,Point,1.2573178;52.6202795,,,,,,,,,,,,,,FHRS Open Data,,,,,,,Eaton Park,http://friendsofeatonpark.co.uk/cafe/
+Feature,node/3721471907,Norwich,,Sainsbury's,NR1 3RB,Brazen Gate,cafe,97277,,Sainsbury's Cafe,,Mo-Sa 08:00-19:00; Su 09:30-15:30,,,,,,,node/3721471907,Sainsbury's Cafe,true,,"1  Brazen Gate  
+  NR1 3RB <br />
+  
+  
+  ",,,,,,food,Point,1.2932938;52.6216541,1,,,,,,,,,,,,,FHRS Open Data,,,,,,,,
+Feature,node/3782213550,Norwich,,Centrum,NR4 7UG,,cafe,691751,,The Cafe at Centrum,,,,,,,https://www.norwichresearchpark.com/property-and-park/amenities/cafe,,node/3782213550,The Cafe at Centrum,true,,"  
+  NR4 7UG <br />
+  
+  
+  ",,,,,,food,Point,1.2199393;52.6227134,,,,,,,,,,,,,,FHRS Open Data,Norwich Research Park,Genuine Dining,,,,,,,Colney Lane,Colney
+Feature,node/4207837430,Norwich,,Abc Wharf,NR1 1QH,King Street,cafe,638066,,Smokey Barn,,,,,,,,,node/4207837430,Smokey Barn,true,," King Street  
+  NR1 1QH <br />
+  
+  
+  ",,,,,,food,Point,1.3023634;52.6242551,,,,,coffee_shop,,,,,,,,,FHRS Open Data,,,,,,,,,,,Unit 1
+Feature,node/4623975698,Norwich,,,NR3 4TE,Silver Road,cafe,65735,,Love Lunch!,,,,,,,,,node/4623975698,Love Lunch!,true,,"98  Silver Road  
+  NR3 4TE <br />
+  
+  
+  ",,,,,,food,Point,1.3028719;52.639451,98,,,,,,,,,,,,,FSA Food Hygiene Ratings Database,,,,,,,,,,,
+Feature,node/4853525623,Norwich,,,NR2 1DN,Saint John Maddermarket,cafe,905156,,Figbar,,,,,,,http://www.figbarnorwich.com,,node/4853525623,Figbar,true,,"23  Saint John Maddermarket  
+  NR2 1DN <br />
+  
+  
+  ",,,,,,food,Point,1.2930456;52.6305655,23,,,,cake;coffee_shop,,,,,,,,,,,,,,,,,,,,
+Feature,node/5073370280,Norwich,,St Michael At Plea Church,NR2 4SN,Redwell Street,cafe,62360,,Revelation Café,,Mo-Sa 09:30-15:30; Su off,,,,,,,node/5073370280,Revelation Café,true,," Redwell Street  
+  NR2 4SN <br />
+  
+  
+  ",,,,,,food,Point,1.2971216;52.6304932,,,,,,,,,,,,,,FHRS Open Data,,,,,,,,,,,
+Feature,node/5167531554,Norwich,,,NR1 1PH,King Street,cafe,915711,,The cafe club,,,,,,,,,node/5167531554,The cafe club,true,,"41  King Street  
+  NR1 1PH <br />
+  
+  
+  ",,,,,,food,Point,1.2995929;52.6279832,41,,,,,,,,,,,,,FHRS Open Data,,,,,,,,,,,
+Feature,node/5223683340,Norwich,,,NR1 3LA,Timberhill,cafe,878411,,Timberhill Bakery,,Tu-Fr 08:00-15:00; Sa 08:00-16:00; Su-Mo off,,+44 1603 613 172,,,https://timberhillbakery.com/,,node/5223683340,Timberhill Bakery,true,,"27-29  Timberhill  
+  NR1 3LA <br />
+  
+  
+  ",,,,,,food,Point,1.2954472;52.6262387,27-29,,,,,,,,,,,,,FHRS Open Data,,,,,,,,,,,,bakery
+Feature,node/5308591324,Norwich,,,NR2 1DP,Exchange Street,cafe,18083,,No 33 Cafe Bar,,,,,,,,,node/5308591324,No 33 Cafe Bar,true,,"33  Exchange Street  
+  NR2 1DP <br />
+  
+  
+  ",,,,,,food,Point,1.2938036;52.6300789,33,,,,,,,,,,,,,FHRS Open Data,,,,,,,,,,,,
+Feature,node/5308705221,,,,,,cafe,,,Cafe 67,,,,,,,,,node/5308705221,Cafe 67,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.2922896;52.6340175,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,node/5456045474,,,,NR8 6AF,Drayton High Road,cafe,124819,,The Willows,,,,,,,,,node/5456045474,The Willows,true,,"6  Drayton High Road  
+  NR8 6AF <br />
+  
+  
+  ",,,,,,food,Point,1.2252865;52.6754167,6,,,,regional,,,,,,,,Drayton,FHRS Open Data,,,,,,,,,,,,
+Feature,node/5828954533,,,,NR3 1LE,Magdalene Street,cafe,991861,,Ancestors Coffee,,Mo 09:30-15:00; Tu-Fr 08:00-17:00; Sa 09:00-18:00; Su 10:00-16:00,,,,,,,node/5828954533,Ancestors Coffee,true,,"27  Magdalene Street  
+  NR3 1LE <br />
+  
+  
+  ",,,,,,food,Point,1.2967796;52.6343261,27,,,,coffee_shop,,,,only,,,,,,,,,,,,,,,,,,https://www.facebook.com/Ancestorscoffee/,https://www.instagram.com/ancestorscoffee/,FHRS Open Data
+Feature,node/5829166586,Norwich,,39,NR3 1LQ,Magdalen Street,cafe,720256,,Ruth’s Kitchen,,,,,,,,,node/5829166586,Ruth’s Kitchen,true,," Magdalen Street  
+  NR3 1LQ <br />
+  
+  
+  ",,,,,,food,Point,1.2966624;52.6346604,,,,,moroccan;coffee_shop;deli,,,,,,,,,FHRS Open Data,,,,,,,,,,,,,,,,wlan
+Feature,node/5835963849,Norwich,,Guildhall,NR2 1JS,Gaol Hill,cafe,855618,,Guildhall Britannica,,Mo-Sa 08:00-17:00; Su 08:00-16:00; ,no,+44 1603 629364,,,https://www.cafebritannia.co.uk/guildhall-britannia,limited,node/5835963849,Guildhall Britannica,true,," Gaol Hill  
+  NR2 1JS <br />
+  
+  Limited wheelchair access 
+  ramp access opposite Tesco.",,,,,,food,Point,1.2925215;52.6289884,,,,,,,,,,,,,,FHRS Open Data,,,,yes,,,,,,,,,,,,,hello@cafebritannia.co.uk,ramp access opposite Tesco.
+Feature,node/5926595685,Norwich,,The Enterprise Centre,NR4 7TJ,,cafe,840060;1149938,,Namaste Hut,,Mo-Fr 08:30-15:30,,,,,,,node/5926595685,Namaste Hut,true,,"  
+  NR4 7TJ <br />
+  
+  
+  ",,,,,,food,Point,1.2395215;52.6255858,,,,,coffee_shop,,,,yes,only,,,,,University of East Anglia,,,,,,,http://www.namastehutcafe.com/,,,,,,,,,,,Mustard Cafe,https://www.uea.ac.uk/adapt/the-enterprise-centre/namaste-hut-cafe
+Feature,node/6313256185,Norwich,,,NR2 2PE,Unthank Road,cafe,15164,,Unthank Kitchen,,,,,,,,,node/6313256185,Unthank Kitchen,true,,"117  Unthank Road  
+  NR2 2PE <br />
+  
+  
+  ",,,,,,food,Point,1.2772047;52.6242138,117,,,,,,,,,,,,,FHRS Open Data,,,,,,,,,,,,,,,,,,,,
+Feature,node/6327334540,Norwich,,,NR13 4AZ,Station Road,cafe,844345,,Hug a Mug Cafe,,Mo-Th 08:45-15:00; Fr 07:00-12:00; Sa 08:30-12:00,,,,,,,node/6327334540,Hug a Mug Cafe,true,," Station Road  
+  NR13 4AZ <br />
+  
+  
+  ",,,,,,food,Point,1.4907909;52.6189301,,,,,,,,,,,,,Lingwood,FHRS Open Data,,,,,,,,http://www.lingwoodvh.co.uk/hug-a-mug-cafe,,,,,,,,,,,,
+Feature,node/6458472085,Norwich,,Union House,NR4 7TJ,The Street,cafe,861575,,Unio,,,,,,,,,node/6458472085,Unio,true,," The Street  
+  <strong>Level:</strong>&nbsp;1 NR4 7TJ <br />
+  
+  
+  ",,,,,,food,Point,1.241243;52.6214779,,,,,,,,,,,,,,FSA Food Hygiene Ratings Database,University of East Anglia,,,,1,,,,,,,,,,,,,,,
+Feature,node/6466626786,Norwich,,,NR2 1JH,Guildhall Hill,cafe,48621,,Ground,,,,,,,,,node/6466626786,Ground,true,,"2  Guildhall Hill  
+  NR2 1JH <br />
+  
+  
+  ",,,,,,food,Point,1.2922112;52.629175,2,,,,,,,,,,,,,FHRS Open Data,,,,,,,,,,,,,,,,,,,,
+Feature,node/6469370766,Norwich,,Waterstones,NR2 1PB,Castle Street,cafe,457277,,Cafe W,,,,,,,,,node/6469370766,Cafe W,true,,"11-17  Castle Street  
+  NR2 1PB <br />
+  
+  
+  ",,,,,,food,Point,1.2950402;52.6286459,11-17,,,,,,,,,,,,,FSA Food Hygiene Ratings Database,,,,,,,,,,,,,,,,,,,,
+Feature,node/6545308134,Norwich,,Union House,NR4 7TJ,The Street,cafe,915692,,Scholars,,,,,,,,,node/6545308134,Scholars,true,," The Street  
+  <strong>Level:</strong>&nbsp;2 NR4 7TJ <br />
+  
+  
+  ",,,,,,food,Point,1.241506;52.6213256,,,,,,,,,,,,,,FSA Food Hygiene Ratings Database,,,,,2,,,,,,,,,,,,,,,,University Of East Anglia
+Feature,node/6565981555,Norwich,,John Lewis,NR1 3LX,All Saints Green,cafe,958567,,Benugo,,,,,,,,,node/6565981555,Benugo,true,," All Saints Green  
+  <strong>Level:</strong>&nbsp;1 NR1 3LX <br />
+  
+  
+  ",,,,,,food,Point,1.29629;52.6253993,,,,,,,,,,,,,,FHRS Open Data,,John Lewis & Partners,,,1,,,,,,,,,,,,,,,,
+Feature,node/6567754517,Norwich,,,NR2 1NQ,Royal Arcade,cafe,4910,,Marmalades,,,,,,,https://www.facebook.com/marmaladescafe/,,node/6567754517,Marmalades,true,,"18-19  Royal Arcade  
+  NR2 1NQ <br />
+  
+  
+  ",,,,,,food,Point,1.2940534;52.6280787,18-19,,,,,,,,,,,,,,,,,,,,,,,,,,,,FSA Food Hygiene Ratings Database,,,,,,
+Feature,node/6568273969,Norwich,,,NR2 1LA,London Street,cafe,632122,,Costa,,,,,,,,,node/6568273969,Costa,true,,"48  London Street  
+  NR2 1LA <br />
+  
+  
+  ",,,,,,food,Point,1.2958599;52.6295193,48,Costa,Q608845,en:Costa Coffee,coffee_shop,yes,,,,,,,,FHRS Open Data,,,,,,,,,,,,,,,,,,,,,
+Feature,node/6568299050,Norwich,,,NR1 3DH,Castle Meadow,cafe,1038203,,Kinda Kafe,,,,,,,https://www.missingkind.org/kindakafe-norwich,,node/6568299050,Kinda Kafe,true,,"21-23  Castle Meadow  
+  NR1 3DH <br />
+  
+  
+  ",,,,,,food,Point,1.2961925;52.6294037,21-23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,node/6570241119,Norwich,,Norwich Cathedral,NR1 4DH,The Close,cafe,10454,,The Refectory,,Mo-Sa 10:00-17:00; Su 11:00-17:00,,,,,https://www.cathedral.org.uk/visit/food-drink,,node/6570241119,The Refectory,true,," The Close  
+  NR1 4DH <br />
+  
+  
+  ",,,,,,food,Point,1.3010267;52.6312333,,,,,,,,,,,,,,FSA Food Hygiene Ratings Database,,Norwich Cathedral,,,,,,,,,,,,,,,,,,,
+Feature,node/6573544539,Norwich,,St Elizabeth Church,NR5 8DG,Cadge Road,cafe,740994,,The Beacon Cafe,,,,,,,https://www.facebook.com/The-Beacon-Cafe-360026354201734/,,node/6573544539,The Beacon Cafe,true,," Cadge Road  
+  NR5 8DG <br />
+  
+  
+  ",,,,,,food,Point,1.2475619;52.6337734,,,,,,,,,,,,,,FHRS Open Data,,,,,,,,,,,,,,,,,,,,,
+Feature,node/6573547229,Norwich,,INTO,NR4 7TJ,University Drive,cafe,26530,,,,,,,,,,,node/6573547229,INTO,true,," University Drive  
+  <strong>Level:</strong>&nbsp;0 NR4 7TJ <br />
+  
+  
+  ",,,,,,food,Point,1.2453732;52.6233035,,,,,coffee_shop,,,,,,,,,,University of East Anglia,,,,0,,,,,,,,,,,,,,,,
+Feature,node/6574767225,Norwich,,Cadge Road Community Centre,NR5 8DG,Cadge Road,cafe,1027453,,Silver Diners Lunch Club,,Tu 12:00-14:00,,,,,,,node/6574767225,Silver Diners Lunch Club,true,," Cadge Road  
+  NR5 8DG <br />
+  
+  
+  ",,,,,,food,Point,1.2465463;52.6346144,,,,,,,,,,,,,,FHRS Open Data,,,,,,,,,,,,,,,,,,,,,
+Feature,node/6582537700,Norwich,,Premier Inn,NR1 1DX,Prince Of Wales Road,cafe,924810,,Costa,,,,,,,,,node/6582537700,Costa,true,," Prince Of Wales Road  
+  NR1 1DX <br />
+  
+  
+  ",,,,,,food,Point,1.3053333;52.6278686,,Costa,Q608845,en:Costa Coffee,coffee_shop,yes,,,,,,,,FHRS Open Data,,,,,,,,,,,,,,,,,,,,,
+Feature,node/6585366688,Norwich,,St Stephen's,NR2 1QP,Rampant Horse Street,cafe,764776,,St Stephen's Café,,Mo-Sa 10:00-15:30,,,,,http://www.ststephensnorwich.org/cafe/,,node/6585366688,St Stephen's Café,true,," Rampant Horse Street  
+  NR2 1QP <br />
+  
+  
+  ",,,,,,food,Point,1.2921435;52.6265987,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/40507574,Norwich,,The Pavillion,NR3 3HX,Angel Road,cafe,991860,,Café Britannia,,,,,,,https://www.cafebritannia.co.uk/waterloo-park,,way/40507574,Café Britannia,true,," Angel Road  
+  NR3 3HX <br />
+  
+  
+  ",,,,,,food,Point,1.288344;52.6448424,,,,,,,,,,,,,,FHRS Open Data,,,,,,,Waterloo Park,,,,,,,,,,,,,,,yes,Grade II
+Feature,way/60439094,Norwich,,,NR4 7TQ,Earlham Road,cafe,16969,,Earlham Park Café,,"Tu-We,Fr-Su 09:30-16:30; Mo off",,,,,,,way/60439094,Earlham Park Café,true,," Earlham Road  
+  NR4 7TQ <br />
+  
+  
+  ",,,,,,food,Point,1.2353275;52.6260738,,,,,,,,,,,,,,FHRS Open Data,The Gardens,,,,,,,,,,,,,,,,,,,,,cafe,
+Feature,way/104310135,Norwich,,,NR1 3HP,Hall Road,cafe,719145,,Sunny Side Up,,,,,,,,,way/104310135,Sunny Side Up,true,,"118  Hall Road  
+  NR1 3HP <br />
+  
+  
+  ",,,,,,food,Point,1.2970882;52.6178503,118,,,,,,,,,,,,,,,,,,,,,http://www.sunnysideupnorwich.co.uk/,,,,,,,,,,,,,,yes,
+Feature,way/107045733,Norwich,GB,LU06,NR1 3DD,,cafe,816426,,Muffin Break,,,,,,,,,way/107045733,Muffin Break,true,,"48   
+  <strong>Level:</strong>&nbsp;1 NR1 3DD <br />
+  
+  
+  ",,,,,,food,Point,1.2953215;52.6276508,48,,,,,,,,,,,,,,Castle Mall,,,,1,,,,,,,,,,,,,,,,,unit,,yes,-4
+Feature,way/107045745,Norwich,GB,LU36,NR1 3DD,,cafe,924812,,Starbucks,,"Mo-We,Fr 08:30-17:30; Th 08:30-19:00; Sa 08:30-18:00; Su 10:00-16:30",,+44 1603 617256,,,https://starbucks.co.uk/,,way/107045745,Starbucks,true,,"10-11   
+  <strong>Level:</strong>&nbsp;1 NR1 3DD <br />
+  
+  
+  ",,,,,,food,Point,1.2958558;52.6277015,10-11,Starbucks,Q37158,en:Starbucks,coffee_shop,yes,,,,,,,,,Castle Mall,,,,1,,,,,,,,,,,,,,,,,unit,,yes,-4,Starbucks Coffee,2974
+Feature,way/107046090,Norwich,GB,,NR1 3DD,,cafe,1125681,,Delightful Desserts,,,,,,,https://www.delightfuldesserts.co.uk/locations/norwich/,,way/107046090,Delightful Desserts,true,,"76   
+  <strong>Level:</strong>&nbsp;2 NR1 3DD <br />
+  
+  
+  ",,,,,,food,Point,1.2964385;52.6269483,76,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,unit,,yes,-3,,
+Feature,way/108609308,Norwich,GB,,NR2 4DS,Nelson Street,cafe,889697,,Woolf & Social,,"Tu-Th 18:00-23:00; Fr,Sa 10:00-24:00; Su 10:00-16:00",,,,,,yes,way/108609308,Woolf & Social,true,,"21-23  Nelson Street  
+  NR2 4DS <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.2752682;52.6353801,21-23,,,,international,,,,,,,,,,,,,,,,,,,,,,,,,wlan,,,,,,yes,,,,,,odd,Bing
+Feature,way/108865901,Norwich,GB,LG 01,NR2 1SB,Saint Stephen's Arcade,cafe,915737,,Caffè Nero,NR1 3SH,Tu-We 09:00-18:00; Th 09:00-20:00; Fr-Sa 09:00-19:00; Su 11:00-17:00; PH 10:00-18:00,,+44 1603 753344,,,http://www.caffenero.co.uk/,,way/108865901,Caffè Nero,true,,"101-104  Saint Stephen's Arcade  
+  <strong>Level:</strong>&nbsp;0 NR2 1SB <br />
+  
+  
+  ",,,,,,food,Point,1.2914093;52.625118,101-104,Caffè Nero,Q675808,en:Caffè Nero,coffee_shop,yes,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,unit,,,,,,,,1
+Feature,way/108865994,Norwich,GB,FF C8,NR2 1SY,The Dining Terrace,cafe,15528,,Costa,,Mo-We 09:00-18:00; Th 09:00-20:00; Fr-Sa 09:00-19:00; Su 11:00-17:00; PH 10:00-18:00,,+44 1603 766326,,,https://www.costa.co.uk/,,way/108865994,Costa,true,,"306  The Dining Terrace  
+  <strong>Level:</strong>&nbsp;2 NR2 1SY <br />
+  
+  
+  ",,,,,,food,Point,1.2897651;52.6261016,306,Costa,Q608845,en:Costa Coffee,coffee_shop,yes,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,unit,,,2,,,,,103
+Feature,way/117007233,Norwich,,,NR2 4TG,Heigham Street,cafe,27755,,Harty's Diner,,,,,,,,,way/117007233,Harty's Diner,true,,"61-63  Heigham Street  
+  NR2 4TG <br />
+  
+  
+  ",,,,,,food,Point,1.2845576;52.635329,61-63,,,,,,,,,,,,,FHRS Open Data,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,Bing,
+Feature,way/118848697,,,,,,cafe,,,Kingfisher Tearoom,,,,,,,,,way/118848697,Kingfisher Tearoom,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.501524;52.6658357,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,
+Feature,way/118872859,Norwich,GB,,NR2 3TS,Bond Street,cafe,5499,,Bond Street Cafe,,,,,,,,,way/118872859,Bond Street Cafe,true,,"47  Bond Street  
+  NR2 3TS <br />
+  
+  
+  ",,,,,,food,Point,1.2666168;52.6342394,47,,,,,,,,,,,,,FHRS Open Data,,,,,,,,,,,,,,,,,,,,,,house,,,,,,,,,Codepoint
+Feature,way/119331017,Norwich,GB,,NR1 3SP,Saint Stephens Road,cafe,1070664,,Juniper,,,,+44 1603 629560,,,https://www.facebook.com/JuniperCoffeeShop/,,way/119331017,Juniper,true,,"13  Saint Stephens Road  
+  NR1 3SP <br />
+  
+  
+  ",,,,,,food,Point,1.2897652;52.6237094,13,,,,coffee_shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,
+Feature,way/119596353,Norwich,GB,,NR1 1EE,Riverside,cafe,,,The Vagabond,,,,,,,,,way/119596353,The Vagabond,true,," Riverside  
+  NR1 1EE <br />
+  Coffee and pasta house<br />
+  
+  ",,,,,,food,Point,1.3051252;52.6270036,,,,,italian,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,boat,,,,,,,,,,Coffee and pasta house
+Feature,way/119607348,Norwich,GB,,NR1 3DN,Opie Street,cafe,915756,,Café Gelato,,,,,,,,,way/119607348,Café Gelato,true,,"6  Opie Street  
+  NR1 3DN <br />
+  
+  
+  ",,,,,,food,Point,1.2961255;52.6295494,6,,,,italian,,,,,,,,,,,,,,,,,,,,,confectionery,,,,,,,,,,yes,,,,,,,,,,,2016-10-08
+Feature,way/120820126,Norwich,,,NR7 0HS,Central Avenue,cafe,64752,,The Terrace,,,yes,,,,,,way/120820126,The Terrace,true,," Central Avenue  
+  NR7 0HS <br />
+  
+  
+  ",,,,,,food,Point,1.3659152;52.6296787,,,,,,,,,,,,,,FHRS Open Data,,,,,,,,,,Thorpe St Andrew,,,,,,wlan,,,,,,yes,,,,,,,,,,,,no
+Feature,way/121499370,Norwich,GB,,NR2 4HT,Dereham Road,cafe,451315,,Bakalya,,,,,,,,,way/121499370,Bakalya,true,,"75  Dereham Road  
+  NR2 4HT <br />
+  
+  
+  ",,,,,,food,Point,1.2810833;52.6333163,75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,
+Feature,way/121499386,Norwich,GB,,NR2 4BH,Distillery Square,cafe,816430,,The Muddy Cup,,,,,,,,,way/121499386,The Muddy Cup,true,,"12  Distillery Square  
+  NR2 4BH <br />
+  
+  
+  ",,,,,,food,Point,1.2814143;52.6324969,12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,shop,,,,,,,,,,,,,FSA Food Hygiene Ratings Database,@themuddycup
+Feature,way/121499489,Norwich,GB,,NR2 3AF,Dereham Road,cafe,1046365,,Aroma Lounge,,Mo-Fr 09:00-23:00; Sa-Su off,yes,+44 1603 305143,,,https://www.instagram.com/aromaloungenorwich/,,way/121499489,Aroma Lounge,true,,"128  Dereham Road  
+  NR2 3AF <br />
+  
+  
+  ",,,,,,food,Point,1.2775559;52.6336101,128,,,,mediterranean,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,house,,,,,,,Bing,,,,2018-05-04,,,,Dine · Drink · Shisha
+Feature,way/122819588,Norwich,GB,,,Earlham House Shops,cafe,,,Mundy's Beds & Furnishings,,,,,,,http://mundysbeds.co.uk/,,way/122819588,Mundy's Beds & Furnishings,true,,"6  Earlham House Shops  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.2689797;52.6287223,6,,,,,,,,,,,,,,,,,,,,,,Earlham Road,,,furniture,,,,,,,,,,yes,,,,,,,survey,,,,,,,,
+Feature,way/122819605,Norwich,GB,,NR2 3PD,Earlham House Shops,cafe,1108810,,Dyrrah Coffee,,,,,,,https://www.facebook.com/dyrrahcoffee/,,way/122819605,Dyrrah Coffee,true,,"16a  Earlham House Shops  
+  NR2 3PD <br />
+  
+  
+  ",,,,,,food,Point,1.2687146;52.6291905,16a,,,,,,,,,,,,,,,,,,,,,,Earlham Road,,,,,,,,,,,,,yes,,,,,,,survey,,,,,,,,
+Feature,way/122819611,Norwich,GB,,NR2 3PD,Earlham House Shops,cafe,29646,,The Green Grocers,,,,,,,http://www.thegreengrocers.co.uk/cafe.html,,way/122819611,The Green Grocers,true,,"2  Earlham House Shops  
+  NR2 3PD <br />
+  
+  
+  ",,,,,,food,Point,1.2692826;52.6286998,2,,,,,,,,,,,,,FHRS Open Data,,,,,,,,,Earlham Road,,,,,,,,,,,,,yes,,,,,,,survey,,,,,,,,
+Feature,way/123011783,Norwich,GB,Unit 11,NR5 9HA,Bowthorpe Main Centre,cafe,836840,,Roys Cafe,,,,,,,,,way/123011783,Roys Cafe,true,," Bowthorpe Main Centre  
+  NR5 9HA <br />
+  
+  
+  ",,,,,,food,Point,1.2172544;52.6372061,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,Survey,,,,,,,,
+Feature,way/123011785,Norwich,GB,,NR5 9HA,Bowthorpe Main Centre,cafe,,,Zatu Board Game Café,,Mo 12:00-22:00; Tu-Fr 10:00-22:00; Sa 10:00-18:00; Su 10:00-16:00,,,,,,yes,way/123011785,Zatu Board Game Café,true,,"15  Bowthorpe Main Centre  
+  NR5 9HA <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.2173455;52.6369425,15,,,,,,,,,,,,,,,,,,,,,,,,,toys,,,,,hr@zatu.co.uk,,,,,yes,,,,,,,Bing,,,,,,,,,2017-12-01
+Feature,way/123035168,Norwich,GB,,NR3 1BA,Saint Georges Street,cafe,,,Expresso Café,,Mo-Sa 07:00-17:00; Su 09:00-16:00,yes,+44 1603 768881,,,http://expresso-online.co.uk/,,way/123035168,Expresso Café,true,,"12  Saint Georges Street  
+  NR3 1BA <br />
+  
+  
+  ",,,,,,food,Point,1.2953439;52.6308281,12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,orders@expresso-online.co.uk,,,,,yes,,,,,,,Bing,,,,,,,,,
+Feature,way/123525364,Norwich,,,NR2 4AR,Saint Benedicts Street,cafe,1092846,,House Cafe,,Mo-Sa 08:00-17:00; Su 10:00-15:00,,+44 1603 920037,,yes,https://housestbenedicts.co.uk/,yes,way/123525364,House Cafe,true,,"52  Saint Benedicts Street  
+  NR2 4AR <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.2884393;52.6310359,52,,,,coffee_shop,,,,,,,,,,,,,,,,,,,,,,,,,wlan,,,,,,yes,,,,,,,Bing,,,,,,,,,
+Feature,way/123525378,,,,,,cafe,,,Rumbling Tum,,,,,,,,,way/123525378,Rumbling Tum,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.288653;52.6309861,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,Bing,,,,,,,,,
+Feature,way/123525385,Norwich,,,NR2 4AR,Saint Benedicts Street,cafe,1065900,,Unknown Coffee,,,,,,,,,way/123525385,Unknown Coffee,true,,"60-62  Saint Benedicts Street  
+  NR2 4AR <br />
+  100% plant based coffee shop, small but perfectly formed with a good selection of hot & cold drinks, cakes and more<br />
+  
+  ",,,,,,food,Point,1.2879701;52.6311411,60-62,,,,coffee_shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,"Bing,survey",,,"100% plant based coffee shop, small but perfectly formed with a good selection of hot & cold drinks, cakes and more",,,FSA Food Hygiene Ratings Database,,,,Is actually called 'unknown coffee'
+Feature,way/123525387,Norwich,,,NR2 4AQ,St Benedicts Street,cafe,1072934,,Sahara,,,,,,,,,way/123525387,Sahara,true,,"22-24  St Benedicts Street  
+  NR2 4AQ <br />
+  
+  
+  ",,,,,,food,Point,1.2900207;52.6307704,22-24,,,,,,,,,,,,,FHRS Open Data,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,Bing,,,,,,,,,,
+Feature,way/129538553,Norwich,GB,,NR1 3HL,Hall Road,cafe,937011,,The Cafe NR1,,,,,,,,,way/129538553,The Cafe NR1,true,,"61,65a  Hall Road  
+  NR1 3HL <br />
+  
+  
+  ",,,,,,food,Point,1.2983565;52.6195024,"61,65a",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,Bing,,,,,,,,,,,yes
+Feature,way/131888484,Norwich,,,NR4 7TJ,The Street,cafe,7457,,Ziggy’s,,Apr 13-Jun 5: Mo-Fr 08:00-19:00; Sa-Su 09:30-16:30; Jun 6-Sep 20: Mo-Fr 08:00-18:00; Sa-Su 09:30-16:30,,,,,https://portal.uea.ac.uk/campus-kitchen/cafes-and-restaurants/cafe-direct,,way/131888484,Ziggy’s,true,," The Street  
+  <strong>Level:</strong>&nbsp;0 NR4 7TJ <br />
+  
+  
+  ",,,,,,food,Point,1.2414829;52.6210354,,,,,,,,,,,,,,FHRS Open Data,University of East Anglia,,,,0,,,,,,,,,,,,,,,,,yes,,,,,,,Bing,,,,,,,,,,,
+Feature,way/135806254,Norwich,GB,The Old Fire Station Stables,NR2 1JD,Labour in Vain Yard,cafe,1132555,,Wild Thyme,,Mo-We 10:00-17:00; Th-Sa 10:00-22:00; Su off,,+44 1603 765562,no,,https://wildthymenorwich.co.uk/,,way/135806254,Wild Thyme,true,,"3  Labour in Vain Yard  
+  <strong>Level:</strong>&nbsp;1 NR2 1JD <br />
+  
+  
+  ",,,,,,food,Point,1.2921548;52.6295368,3,,,,coffee_shop,,,yes,yes,only,,,,,,Raffles Restaurants,,,1,,,,,,,,,,,,pulsecafebar@talktalkbusiness.net,,,,,yes,,,,,,,,,,,,,,,,,,,yes,yes,yes,yes,2004,http://rafflesrestaurants.co.uk/
+Feature,way/136090710,Norwich,GB,,NR1 3SH,Saint Stephens Street,cafe,924813,,Starbucks,,Mo-Tu 07:00-18:30; We off; Th 09:00-16:30; Fr 07:00-18:30; Sa 08:00-18:30; Su 09:00-17:30,,,,,,,way/136090710,Starbucks,true,,"36-38  Saint Stephens Street  
+  NR1 3SH <br />
+  
+  
+  ",,,,,,food,Point,1.2916654;52.6252054,36-38,Starbucks,Q37158,en:Starbucks,coffee_shop,yes,,,,,,,,,,,,,,,,,,,,,,,,wlan,,,,,,yes,,,,Starbucks Coffee,,,Bing,,,,,,,,,,,,,,,,,
+Feature,way/136895234,Norwich,GB,,NR1 3PR,Queens Road,cafe,486801,,The House,,,,+44 1603 631559,,,,,way/136895234,The House,true,,"2  Queens Road  
+  NR1 3PR <br />
+  
+  
+  ",,,,,,food,Point,1.2912587;52.6241546,2,,,,thai,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/136895336,Norwich,GB,,NR1 3NX,Surrey Street,cafe,71690,,7 Surrey Street,,,,,,,,,way/136895336,7 Surrey Street,true,,"7  Surrey Street  
+  NR1 3NX <br />
+  
+  
+  ",,,,,,food,Point,1.2933963;52.6252725,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,FHRS Open Data,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/138428496,,,,,,cafe,,,Longwater Cafe,,,,,,,,,way/138428496,Longwater Cafe,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.2065868;52.6512651,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,Bing,,,,,,,,,,,,,,,,,
+Feature,way/139286475,Norwich,,,NR1 3NB,All Saints Green,cafe,853730,,Acorn Café,,,,,,,http://www.theyogatree.co.uk/tytmain/?page=acorn,,way/139286475,Acorn Café,true,,"50  All Saints Green  
+  NR1 3NB <br />
+  
+  
+  ",,,,,,food,Point,1.2940962;52.623796,50,,,,,,,,,,,,,FSA Food Hygiene Ratings Database,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,Bing,,,,,,,,,,,,,,,,,
+Feature,way/144929194,Norwich,GB,,NR2 1EL,Lower Goat Lane,cafe,48477,,moorish falafal bar,,Mo-Sa 11:00-17:30; Su off,,+44 1603 622250,,,,,way/144929194,moorish falafal bar,true,,"17  Lower Goat Lane  
+  NR2 1EL <br />
+  
+  
+  ",,,,,,food,Point,1.2917718;52.6297307,17,,,,falafel,,,,yes,only,,,,,,,,,,,,,,,,,,,,,moorishfalafelbar@gmail.com,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/150613631,Norwich,GB,,NR3 3BY,Saint Augustine's,cafe,1016500,,That Cafe,,,,,,,https://thatcafenorwich.co.uk/,,way/150613631,That Cafe,true,,"27  Saint Augustine's  
+  NR3 3BY <br />
+  
+  
+  ",,,,,,food,Point,1.292572;52.6377052,27,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/157250646,Norwich,GB,,NR1 1QE,King Street,cafe,19319,,ButterflyCafé,,Mo-Fr 08:30-16:00; Sa 10:00-15:00; Su off,,,,,,,way/157250646,ButterflyCafé,true,,"114a  King Street  
+  NR1 1QE <br />
+  
+  
+  ",,,,,,food,Point,1.3011751;52.625398,114a,,,,,,http://www.butterflycafe.co.uk/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,house,,,,,,,,,,,,,,,,,,,,,,,,,+44 7828 937581
+Feature,way/158640590,,,,,,cafe,,,The Old Granary,,,,,,,,,way/158640590,The Old Granary,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.4895208;52.6777259,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/160941196,Norwich,GB,,NR2 1AQ,Bridewell Alley,cafe,,,Mustard Coffee Bar,,Mo-Sa 08:00-17:00,,+44 1603 630077,,,http://www.mustardcoffeebar.co.uk/,,way/160941196,Mustard Coffee Bar,true,,"3  Bridewell Alley  
+  NR2 1AQ <br />
+  
+  
+  ",,,,,,food,Point,1.2952875;52.629857,3,,,,,,,,,,welcome,,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/167039460,Norwich,GB,,NR1 2AD,Saint Johns Close,cafe,69230,,Sweettree,,,,,,,,,way/167039460,Sweettree,true,,"5  Saint Johns Close  
+  NR1 2AD <br />
+  
+  
+  ",,,,,,food,Point,1.2945142;52.6145788,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/167577804,Norwich,GB,,NR2 2PE,Unthank Road,cafe,932632,,Caffè Nero,,Mo-Sa 09:00-23:00; Su 10:00-22:00,,+44 1603 633729,,,https://caffenero.com/uk/stores/norwich-unthank-road-703/,,way/167577804,Caffè Nero,true,,"95  Unthank Road  
+  NR2 2PE <br />
+  
+  
+  ",,,,,,food,Point,1.2777175;52.6250133,95,Caffè Nero,Q675808,en:Caffè Nero,coffee_shop,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/168159795,Norwich,GB,,NR2 2RH,Trory Street,cafe,1035001,,NR2,,,,,no,,,,way/168159795,NR2,true,,"9  Trory Street  
+  NR2 2RH <br />
+  
+  
+  ",,,,,,food,Point,1.2832049;52.6266874,9,,,,,,,,,,,,,,,,,,,Kimberley Arms,,,,,,,,,,,,,,,,house,,,,,,,,,,,2018-03-23,,,,,,,,,,,,,,,no
+Feature,way/168880550,Norwich,,,NR2 2AA,Suffolk Square,cafe,71341;977289,,The People's Palace,,,,,,,,,way/168880550,The People's Palace,true,,"26  Suffolk Square  
+  NR2 2AA <br />
+  
+  
+  ",,,,,,food,Point,1.2828642;52.625091,26,,,,,,,,,,,,,FHRS Open Data,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,Bing,,,,,,,,,,,,,,,,,,,
+Feature,way/171357352,Norwich,GB,,NR2 1AT,Exchange Street,cafe,918745,,Jive Kitchen,,,,,,,,,way/171357352,Jive Kitchen,true,,"2A  Exchange Street  
+  NR2 1AT <br />
+  
+  
+  ",,,,,,food,Point,1.2933457;52.6291196,2A,,,,,,,,,,,,,FHRS Open Data,,,,,,,,,,,,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,Norwich
+Feature,way/171404467,Norwich,GB,,NR2 3AD,Earlham Road,cafe,17866,,Workshop,,Mo 17:00-23:00; Tu-Sa 10:00-23:00; Su 12:00-22:30,,+44 1603 615853,no,,,,way/171404467,Workshop,true,,"53  Earlham Road  
+  NR2 3AD <br />
+  
+  
+  ",,,,,,food,Point,1.2788728;52.6309445,53,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,house,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/188860011,Norwich,,YMCA,NR1 3GX,Winalls Yard,cafe,28488,,Stepping Stone Café,,Mo-Sa 10:00-16:00,,,,,http://www.steppingstonescafe.co.uk/,,way/188860011,Stepping Stone Café,true,,"10  Winalls Yard  
+  NR1 3GX <br />
+  
+  
+  ",,,,,,food,Point,1.293583;52.6241015,10,,,,,,,,,,,,,FHRS Open Data,,YMCA Norfolk,,,,,,,,,,,,,,,,,,,,,,,-1,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/190708486,Norwich,GB,,NR1 1DW,Prince of Wales Road,cafe,878407,,Departure Lounge,,Mo-Fr 07:30-16:00,,,,,,,way/190708486,Departure Lounge,true,,"99  Prince of Wales Road  
+  NR1 1DW <br />
+  
+  
+  ",,,,,,food,Point,1.3039569;52.6282576,99,,,,,,,,,,,,,,,,,,,,,,,,,hairdresser,,,,,,,,,,yes,,,,,,,,,,,,,,,Norwich · Norfolk,,,,,,,,,,,,
+Feature,way/202071136,Norwich,,,NR2 1LD,London Street,cafe,780999,,Harriet's Café Tearooms,,,,,,,,,way/202071136,Harriet's Café Tearooms,true,,"38  London Street  
+  NR2 1LD <br />
+  
+  
+  ",,,,,,food,Point,1.2954847;52.6293045,38,,,,,,,,,,,,,FHRS Open Data,,,,,,,,,,,,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/205594932,Norwich,,,NR2 1QE,Haymarket,cafe,918742,,Starbucks,,,,,,,,,way/205594932,Starbucks,true,,"19-20  Haymarket  
+  NR2 1QE <br />
+  
+  
+  ",,,,,,food,Point,1.2931253;52.6276103,19-20,Starbucks,Q37158,en:Starbucks,coffee_shop,yes,,,,,,,,FHRS Open Data,,,,,,,,,,,,,,,,wlan,,,,,,shop,,,,Starbucks Coffee,,,,,,,,,,,,,,,,,,,,,,,,4
+Feature,way/229497850,Norwich,GB,,NR1 3LR,Westlegate,cafe,,,Warings Lifestore,,Mo-Fr 09:00-18:30; Sa-Su off,,+44 1603 613800,,,https://www.waringsathome.co.uk/,,way/229497850,Warings Lifestore,true,,"20  Westlegate  
+  NR1 3LR <br />
+  
+  
+  ",,,,,,food,Point,1.2952069;52.6259516,20,,,,,,,,,,,,,,,,,,,Casaccio's,,,,,,furniture,,,,,shop@waringsathome.co.uk,,,,,house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,thatch,Q26303635
+Feature,way/231212350,Norwich,GB,,NR2 2RA,Unthank Road,cafe,661399,,Kofra,,,,,,,https://www.kofra.co.uk/,,way/231212350,Kofra,true,,"4  Unthank Road  
+  NR2 2RA <br />
+  
+  
+  ",,,,,,food,Point,1.284675;52.6289469,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/246820289,Norwich,,,NR2 1HZ,Swan Lane,cafe,1016496,,Logans,,Mo-Sa 08:00-17:00,no,,,,,,way/246820289,Logans,true,,"5  Swan Lane  
+  NR2 1HZ <br />
+  
+  
+  ",,,,,,food,Point,1.2950813;52.6295641,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,retail,,,,,,,,,,,,,,,,,,,,,,,,,,,Norwich,,,
+Feature,way/258695109,Norwich,GB,,NR1 3SS,St. Stephens Square,cafe,48581,,Littlehaven,,,,,,,https://www.facebook.com/littlehavencoffee/,,way/258695109,Littlehaven,true,,"45  St. Stephens Square  
+  NR1 3SS <br />
+  
+  
+  ",,,,,,food,Point,1.2887797;52.6233266,45,,,,coffee_shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/281801474,Norwich,,,NR7 0WG,Old Chapel Way,cafe,737518,,Costa Coffee,,,,,,,,,way/281801474,Costa Coffee,true,," Old Chapel Way  
+  NR7 0WG <br />
+  
+  
+  ",,,,,,food,Point,1.3730194;52.6280443,,,,,coffee_shop,,,,,,,,,FHRS Open Data,Broadland Business Park,,now open but building shape needs to be checked,,,,,,,Postwick,,,,,,,,,,,,retail,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/296344311,,,,,,cafe,,,Whitlingham Visitor Centre,,,,,,,,yes,way/296344311,Whitlingham Visitor Centre,true,,"  
+  <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.32944;52.6210926,,,,,,,,,,,,,,,,Broads Authority,,,,,,,,,,,,,,,,,,,,Visitors Center,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,public,no,office,seated,information
+Feature,way/320200620,,,,,,cafe,,,,,,,,,,,,way/320200620,cafe,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.4844794;52.6794499,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/330123908,Norwich,GB,,NR2 1PQ,Davey Place,cafe,457278,,Patisserie Valerie,,Mo-Sa 08:00-18:00; Sa 08:00-18:30; Su 09:00-17:00,yes,+44 1603 615786,,,https://www.patisserie-valerie.co.uk/norwich.aspx,yes,way/330123908,Patisserie Valerie,true,,"12-14  Davey Place  
+  NR2 1PQ <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.2943307;52.6285288,12-14,Patisserie Valerie,Q22101966,en:Patisserie Valerie,coffee_shop,yes,,,,,,,,,,,,,,,,,,,,,,,,wlan,,,,,,shop,,,,,,even,,,,,,no,,,,,,,,,,,,,,,,,,,,,,,,yes
+Feature,way/338002245,Norwich,GB,,NR3 1LA,Wensum Street,cafe,1108807,,Fika,,Mo-Fr 08:00-15:30; Sa 10:00-16:00; Su off,,,,,,,way/338002245,Fika,true,,"25  Wensum Street  
+  NR3 1LA <br />
+  
+  
+  ",,,,,,food,Point,1.2975533;52.6326765,25,,,,coffee_shop,,https://www.fikanorwich.co.uk/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/338963853,Norwich,GB,,NR2 1EL,Lower Goat Lane,cafe,705383,,Copper Kettle Cafe,,,,+44 1603 626870,,,http://www.copperkettlenorwich.co.uk/,,way/338963853,Copper Kettle Cafe,true,,"4  Lower Goat Lane  
+  NR2 1EL <br />
+  
+  
+  ",,,,,,food,Point,1.2917697;52.6293713,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/368518294,Norwich,,,NR2 1QA,White Lion Street,cafe,77787,,Costa,,,,,,,,,way/368518294,Costa,true,,"10  White Lion Street  
+  NR2 1QA <br />
+  
+  
+  ",,,,,,food,Point,1.2940959;52.6278395,10,Costa,Q608845,en:Costa Coffee,coffee_shop,yes,,,,,,,,FSA Food Hygiene Ratings Database,,,,,,,,,,,,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/401790777,Norwich,GB,,NR13 6LX,Hill Road,cafe,52103,,Hill Top Cafe,,Mo-Fr 06:30-14:00; Sa 08:00-14:00; Su 08:00-13:00,,+44 1603 720452,,,https://www.facebook.com/hilltopcafenorwich/,,way/401790777,Hill Top Cafe,true,,"11  Hill Road  
+  NR13 6LX <br />
+  
+  
+  ",,,,,,food,Point,1.3678106;52.6785864,11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,corneliahall@btinternet.com,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/430815314,Norwich,,Norwich Railway Station,NR1 1EF,Station Approach,cafe,1025827,,Starbucks,,Mo-Fr 5:30-18:30; Sa 6:30-18:30; Su 9:30-17:00,,+44 1603 660899,,,https://www.starbucks.co.uk/store-locator/store/1013503/norwich-station-approach-norwich-station-norwich-eng-nr-1-1-ef-gb,,way/430815314,Starbucks,true,," Station Approach  
+  NR1 1EF <br />
+  
+  
+  ",,,,,,food,Point,1.3068921;52.6267787,,Starbucks,Q37158,en:Starbucks,coffee_shop,yes,,,,,,,,FHRS Open Data,,,location/footprint approx,,,,,,,,,,,,,,,,,,,yes,,,,Starbucks Coffee,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/438423618,Norwich,GB,,NR3 1AA,Magdalen Street,cafe,,,Moonlight Cafe,,,,,,,,,way/438423618,Moonlight Cafe,true,,"73  Magdalen Street  
+  NR3 1AA <br />
+  
+  
+  ",,,,,,food,Point,1.2967701;52.636038,73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/438423622,Norwich,,67-69,NR3 1AA,Magdalen Street,cafe,667908,,Sahara,,,,,,,,,way/438423622,Sahara,true,," Magdalen Street  
+  NR3 1AA <br />
+  
+  
+  ",,,,,,food,Point,1.2968053;52.6359149,,,,,,,,,,,,,,FHRS Open Data,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/440968617,Norwich,,8B,NR1 1WR,Albion Way,cafe,941445,,Starbucks,,,,,,,,,way/440968617,Starbucks,true,," Albion Way  
+  NR1 1WR <br />
+  
+  
+  ",,,,,,food,Point,1.3075471;52.6249318,,Starbucks,Q37158,en:Starbucks,coffee_shop,yes,,,,,,,,FHRS Open Data,,,,,,,,,,,,,,,,,,,,,,yes,,,,Starbucks Coffee,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,building
+Feature,way/529717506,Norwich,GB,,NR3 1AB,St George's Street,cafe,991856,,Café Pure @ St. George's,,,,+44 1603 627599,,,https://www.facebook.com/cafepurestgeorges/,,way/529717506,Café Pure @ St. George's,true,,"13-15  St George's Street  
+  NR3 1AB <br />
+  
+  
+  ",,,,,,food,Point,1.2947067;52.6324492,13-15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,Bing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/533969803,,,,NR7 0WG,Old Chapel Way,cafe,147214,,Waterside Café,,,,,,,,,way/533969803,Waterside Café,true,," Old Chapel Way  
+  NR7 0WG <br />
+  
+  
+  ",,,,,,food,Point,1.3718376;52.6293632,,,,,,,,,,,,,,FHRS Open Data,,,,,,,,,,Postwick,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/541599431,Norwich,,,NR4 6EF,The Lastings,cafe,915723,,Costa,,,,,,,,,way/541599431,Costa,true,,"4-5  The Lastings  
+  NR4 6EF <br />
+  
+  
+  ",,,,,,food,Point,1.2880405;52.6068723,4-5,Costa,Q608845,en:Costa Coffee,coffee_shop,yes,,,,,,,,FHRS Open Data,,,,,,,,,Sandy Lane,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/544580860,Norwich,GB,,NR2 1JN,St Giles Street,cafe,1016495,,al dente,,Mo-Su 08:00-19:00,,+44 1603 632580,,,https://www.aldentenorwich.co.uk/,,way/544580860,al dente,true,,"25b  St Giles Street  
+  NR2 1JN <br />
+  
+  
+  ",,,,,,food,Point,1.2903649;52.6292797,25b,,,,pasta,,,,,,,,,,,,,,,,,,,,,,,,,,ciao@aldentenorwich.co.uk,,,,,yes,,,,,,,Bing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/546434515,,,,,,cafe,,,Roots,,,,,,,,,way/546434515,Roots,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.2925064;52.6297546,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/548990631,Norwich,,,NR2 3EL,Park Lane,cafe,1080663,,Seed House Cafe,,,,,,,,,way/548990631,Seed House Cafe,true,,"81  Park Lane  
+  NR2 3EL <br />
+  
+  
+  ",,,,,,food,Point,1.2768741;52.6260955,81,,,,,,https://www.facebook.com/SEED-HOUSE-Caf%C3%A9-470018073408239/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/568558557,Norwich,,,NR2 1SZ,Chapelfield Plain,cafe,998639,,Starbucks,,,,,,,,,way/568558557,Starbucks,true,,"411  Chapelfield Plain  
+  NR2 1SZ <br />
+  
+  
+  ",,,,,,food,Point,1.2918829;52.6263199,411,Starbucks,Q37158,en:Starbucks,coffee_shop,yes,,,,,,,,FHRS Open Data,,,,,,,,,,,,,,,,,,,,,,yes,,,,Starbucks Coffee,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/569746815,Norwich,,,NR1 3AE,Queens Road,cafe,937009,,Bom Sabor,,,,,,,,,way/569746815,Bom Sabor,true,,"215-217  Queens Road  
+  NR1 3AE <br />
+  
+  
+  ",,,,,,food,Point,1.3000349;52.6207976,215-217,,,,,,,,,,,,,FSA Food Hygiene Ratings Database,,,,,,,,,,,,supermarket,,,,,,,,,,yes,,,,,,,Bing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/603266287,Norwich,GB,,NR9 3AS,Norwich Road,cafe,,,Church Farm Shop and Tea Room,,Mo-Sa 09:00-17:00,,+44 1603 814151,,,http://www.churchfarmshopandtearoom.co.uk/,,way/603266287,Church Farm Shop and Tea Room,true,," Norwich Road  
+  NR9 3AS <br />
+  
+  
+  ",,,,,,food,Point,1.192389;52.6006594,,,,,,,,,,,,,,,,,,,,,,,,,,farm,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/674116971,Norwich,,,NR1 3RT,Grove Road,cafe,22216,,The Little Read Roaster,,,,,,,http://thelittleredroaster.co.uk/,,way/674116971,The Little Read Roaster,true,,"81B  Grove Road  
+  NR1 3RT <br />
+  
+  
+  ",,,,,,food,Point,1.2917146;52.6212593,81B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/674120558,Norwich,,,NR2 1NA,Gentlemans Walk,cafe,20912,,Caffè Nero,,,no,01603 762201,,,,,way/674120558,Caffè Nero,true,,"20  Gentlemans Walk  
+  NR2 1NA <br />
+  
+  
+  ",,,,,,food,Point,1.2935828;52.6284129,20,Caffè Nero,Q675808,en:Caffè Nero,coffee_shop,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,retail,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,,9
+Feature,way/674289226,Norwich,,,NR2 1AB,Upper Saint Giles Street,cafe,910273,,Bread Source,,,,,,,,,way/674289226,Bread Source,true,,"93  Upper Saint Giles Street  
+  NR2 1AB <br />
+  
+  
+  ",,,,,,food,Point,1.2857219;52.6294256,93,,,,english,,,,,,,,,,,,,,,,,,,,,,,,FHRS Open Data,,,,,,,retail,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/675889925,Norwich,,,NR2 1ER,St Gregory’s Alley,cafe,987226,,Alchemista,,,,,,,https://www.alchemistacoffee.co.uk/,,way/675889925,Alchemista,true,,"4  St Gregory’s Alley  
+  NR2 1ER <br />
+  
+  
+  ",,,,,,food,Point,1.291211;52.6302495,4,,,,coffee;cocktails,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/676216874,Norwich,,,NR2 1DS,Pottergate,cafe,60343,,Strangers Coffee House,,,,,,,http://www.strangerscafe.co.uk/,,way/676216874,Strangers Coffee House,true,,"21  Pottergate  
+  NR2 1DS <br />
+  
+  
+  ",,,,,,food,Point,1.2917584;52.6300214,21,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/681398587,Norwich,,,NR2 1HL,London Street,cafe,1064618,,Artel,,,,,,,http://www.artelstore.co.uk/,,way/681398587,Artel,true,,"67  London Street  
+  NR2 1HL <br />
+  
+  
+  ",,,,,,food,Point,1.2967566;52.6300084,67,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/681404766,Norwich,,,NR3 1HN,Elm Hill,cafe,17218,,Britons Arms,,,yes,01603 623367,,,,,way/681404766,Britons Arms,true,,"9  Elm Hill  
+  NR3 1HN <br />
+  
+  
+  ",,,,,,food,Point,1.2967182;52.6312565,9,,,,,,,,,,,,,,,,,,,,,,,,,,,,FHRS Open Data,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q17531356,,,,,,,,
+Feature,way/681404768,Norwich,,2,NR3 1HN,Elm Hill,cafe,924799,,Storm in a Teacup,,,,,,,,,way/681404768,Storm in a Teacup,true,," Elm Hill  
+  NR3 1HN <br />
+  
+  
+  ",,,,,,food,Point,1.2966318;52.6308852,,,,,,,,,,,,,,FHRS Open Data,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/684438454,Norwich,,,NR13 5LH,The Street,cafe,896150,,Brundall Coffee Shop,,,,,,,,,way/684438454,Brundall Coffee Shop,true,,"78  The Street  
+  NR13 5LH <br />
+  
+  
+  ",,,,,,food,Point,1.4326286;52.6244489,78,,,,,,,,,,,,Brundall,FHRS Open Data,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/689433097,Norwich,GB,Norwich Railway Station,NR1 1EF,Station Approach,cafe,73525,,AMT Coffee,,Mo-Fr 05:30-21:00; Sa 06:00-21:00; Su 07:00-21:00,,+44 1603 660899,no,,http://www.amtcoffee.co.uk/,,way/689433097,AMT Coffee,true,," Station Approach  
+  NR1 1EF <br />
+  
+  
+  ",,,,,,food,Point,1.3065342;52.6265524,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,unit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/695825106,Norwich,GB,Unit 10,NR5 0JT,Alex Moorhouse Way,cafe,799231,,Costa Coffee,,Mo-Fr 09:00-20:30; Sa 09:00-19:30; Su 10:00-16:00,,,,,https://www.costa.co.uk/locations/store-locator/,,way/695825106,Costa Coffee,true,," Alex Moorhouse Way  
+  NR5 0JT <br />
+  
+  
+  ",,,,,,food,Point,1.1797;52.6534889,,,,,,,,,,,,,,,Longwater Retail Park,,,,,,,,,,,,,,,,,,,,,retail,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/699215603,Norwich,,Norwich Railway Station,NR1 1EF,Station Approach,cafe,949521,,West Conrwall Pasty Co,,,,,,,,,way/699215603,West Conrwall Pasty Co,true,," Station Approach  
+  NR1 1EF <br />
+  
+  
+  ",,,,,,food,Point,1.3069336;52.6268044,,,,,,yes,,,,,,,,FHRS Open Data,,,location/footprint approx,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/699468518,Norwich,GB,,NR2 1AT,Exchange Street,cafe,1030462,,Butcher Bhoy,,,,,,,,,way/699468518,Butcher Bhoy,true,,"10  Exchange Street  
+  NR2 1AT <br />
+  
+  
+  ",,,,,,food,Point,1.2933925;52.6294355,10,,,,irish,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/700132761,Norwich,,,NR5 8AD,Earlham West Centre,cafe,1063145,,Rasa's Cafe,,,,,,,https://www.facebook.com/rasascafe/,,way/700132761,Rasa's Cafe,true,,"31  Earlham West Centre  
+  <strong>Level:</strong>&nbsp;0 NR5 8AD <br />
+  
+  
+  ",,,,,,food,Point,1.2408676;52.6321643,31,,,,,,,,,,,,,,,,,,0,,,,,,,,,,FHRS Open Data,,,,,,,retail,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/701263534,Norwich,,,NR2 1PX,White Lion Street,cafe,1104943,,White Lion Cafe,,,,,,,,,way/701263534,White Lion Cafe,true,,"17  White Lion Street  
+  <strong>Level:</strong>&nbsp;1 NR2 1PX <br />
+  
+  
+  ",,,,,,food,Point,1.2943985;52.6276134,17,,,,,,,,,,,,,FHRS Open Data,,,,,1,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,relation/2181552,Norwich,,,NR2 1ND,Market Place,cafe,344753,,The Little Red Roaster,,Mo-Sa 08:00-15:30; Su closed,,+44 1603 624886,,,https://www.facebook.com/lrrnorwich/,,relation/2181552,The Little Red Roaster,true,,"52-53  Market Place  
+  NR2 1ND <br />
+  A range of beautifully fresh espresso or Aeropressed coffee is served here to drink in or take away. You can also buy coffee beans and coffee-making equipment and a small selection of flapjacks and biscuits are also often available.<br />
+  
+  ",,,,,,food,Point,1.2928519;52.6283595,52-53,,,,,,,,,,,,,FHRS Open Data,,Little red Roaster,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A range of beautifully fresh espresso or Aeropressed coffee is served here to drink in or take away. You can also buy coffee beans and coffee-making equipment and a small selection of flapjacks and biscuits are also often available.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,multipolygon
+Feature,relation/2191644,,,,,,cafe,,,The Dim Sum Place,,Mo-Sa 11:00-16:00; Su closed,,,,,https://www.norwich.gov.uk/directory_record/2167/the_dim_sum_place,,relation/2191644,The Dim Sum Place,true,,"  
+  <br />
+  Bubble tea and dim sum are available on this stall along with barista coffee and Chinese cakes. Seating area provided.<br />
+  
+  ",,,,,,food,Point,1.2930029;52.6284864,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Bubble tea and dim sum are available on this stall along with barista coffee and Chinese cakes. Seating area provided.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,multipolygon
+Feature,relation/3152324,Norwich,GB,,NR2 1ND,Market Place,cafe,1108813,,The Cuppie Hut,,Tu-Sa 11:00-15:30; Su-Mo closed,,+44 7947 620282,,,https://www.facebook.com/thecuppiehut/,,relation/3152324,The Cuppie Hut,true,,"19  Market Place  
+  NR2 1ND <br />
+  We serve delicious homemade cakes and treats along with a variety of hot chocolates, Strangers coffee and of course tea to accompany our bakes.<br />
+  
+  ",,,,,,food,Point,1.2926134;52.6282657,19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,stall,,,,,,,,,,"We serve delicious homemade cakes and treats along with a variety of hot chocolates, Strangers coffee and of course tea to accompany our bakes.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,multipolygon,yes,yes
+Feature,relation/5710976,Norwich,,,NR1 1NJ,Prince of Wales Road,cafe,1070661,,The Feed,,,,,,,https://thefeed.org.uk/,,relation/5710976,The Feed,true,,"78-80  Prince of Wales Road  
+  <strong>Level:</strong>&nbsp;0 NR1 1NJ <br />
+  
+  
+  ",,,,,,food,Point,1.302812;52.6290942,78-80,,,,greek,,,,,,,,,,,,,,0,GRK Greek Kitchen,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,multipolygon,,,fast_food

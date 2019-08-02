@@ -1,0 +1,801 @@
+type,id,addr:postcode,amenity,name,opening_hours,id,F.caption,F.allowPopup,F.icon,F.location,F.facilities,F.availability,F.operator,F.contact,F.meta,F.layers,geometry.type,geometry.coordinates,addr:city,addr:country,addr:street,brand,fhrs:id,food,internet_access,internet_access:fee,outdoor_seating,phone,real_ale,real_cider,website,wheelchair,addr:housename,addr:housenumber,email,source,building,kitchen_hours,wikidata,fax,old_name,start_date,note,operator,alt_name,gay,lgbtq,cuisine,brewery,dog,off_licence,addr:village,source:addr,opening_hours:kitchen,toilets:wheelchair,phone:2,built,addr:interpolation,start_year,phone:mobile,building:levels,disused,disused:amenity,end_date,description,contact:email,contact:mobile,contact:phone,contact:website,building:roof:material,building:roof:orientation,building:roof:shape,source:amenity,source:building,roof:levels,craft,microbrewery,kitchen_hours:carvery,payment:contactless,email:chef,email:hire,phone:hours,wheelchair:description,payment:discover_card,payment:mastercard,payment:visa,strapline,kitchen_hours:breakfast,source:addr:housenumber,tourism,opening_hours:bar,fixme:addr2,addr:suburb,type
+Feature,node/283315934,NR13 3JQ,pub,Cantley Cock,"Mo-Sa 11:30-15:00,18:00-23:30, Su 11:30-23:30",node/283315934,Cantley Cock,true,,"  
+  NR13 3JQ <br />
+  
+  
+  ",,,,,,food,Point,1.512577;52.5979905
+Feature,node/904071475,NR1 1DX,pub,The Nelson,Mo-Fr 06:30-23:00; Sa 07:00-23:30; Su 07:00-22:30,node/904071475,The Nelson,true,," Prince of Wales Road  
+  NR1 1DX <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.3052202;52.6276473,Norwich,GB,Prince of Wales Road,Table Table,26652,yes,wlan,no,yes,+44 1603 214438,2,no,https://www.tabletable.co.uk/pub-restaurants/Norfolk/Nelson-Norwich.html,yes
+Feature,node/1596090319,NR14 7HP,pub,The New Inn,,node/1596090319,The New Inn,true,,"12  New Inn Hill  
+  NR14 7HP <br />
+  
+  
+  ",,,,,,food,Point,1.4352557;52.5892126,Norwich,GB,New Inn Hill,,758706,,,,,+44 1508 538403,,,http://www.newinnrockland.co.uk/,,The New Inn,12,mick@newinnrockland.co.uk
+Feature,node/1824086018,,pub,The Town House,11:00-23:00,node/1824086018,The Town House,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.3334365;52.6265658,,,,,,,,,,,2,yes,,,,,
+Feature,node/3525893754,,pub,Coldham Hall Pub,"Mo-Sa 12:00-23:00, Su 12:00-21:00",node/3525893754,Coldham Hall Pub,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.4321859;52.612324,,,,,,,,,yes,,4,,,,,,,survey
+Feature,way/68709790,NR9 3DD,pub,The Queen's Head,Mo-Th 11:00-00:00; Fr-Sa 11:00-00:30; Su 11:00-23:30; Dec 24 11:00-00:30; Dec 25 11:00-23:30; Dec 31 11:00-02:30; Jan 1 11:00-00:30,way/68709790,The Queen's Head,true,,"12  Norwich Road  
+  NR9 3DD <br />
+  
+  
+  ",,,,,,food,Point,1.1834031;52.5983659,Norwich,GB,Norwich Road,,,,,,yes,+44 1603 810226,,,http://www.queensheadhethersett.co.uk/,,,12,qh@queensheadhethersett.co.uk,,yes,"Mo-Th 11:45-14:00,18:00-20:30; Fr-Sa 11:45-14:15,17:30-21:30; Su 12:00+, 14:00+, 17:00-20:30"
+Feature,way/71297069,NR4 7LD,pub,The Red Lion,Mo-Sa 11:00-00:00; Su 12:00-00:00,way/71297069,The Red Lion,true,,"52  Eaton Street  
+  NR4 7LD <br />
+  
+  
+  ",,,,,,food,Point,1.2505396;52.608161,Norwich,GB,Eaton Street,,24888,,,,,+44 1603 454787,4,no,https://www.redlion-eaton.co.uk/,,,52,admin@redlion-eaton.co.uk,,house,"Mo-Sa 08:00-10:00,12:00-14:15,18:30-21:00; Su 08:00-10:00,12:00-17:00, 18:00-20:30",Q17531341
+Feature,way/71297151,NR4 7AB,pub,The Cellar House,Mo-Th 11:00-23:00; Fr 11:00-00:00; Sa 12:00-21:00; Su 09:30-22:00+,way/71297151,The Cellar House,true,,"2  Eaton Street  
+  NR4 7AB <br />
+  
+  
+  ",,,,,,food,Point,1.2527899;52.6089487,Norwich,GB,Eaton Street,Enterprise Inns,770694,,wlan,,yes,+44 1603 454511,6,no,http://thecellarhouse.co.uk/,,The Cellar House,2,thecellarhouse@gmail.com,,house,"Mo-Fr 12:00-21:00; Sa 09:30-11:00,12:00-14:30,17:30-21:00; Su 09:30-11:00,12:00-20:00",Q26653861,+44 1603 250512,The Two Brewers,2013-04-15
+Feature,way/93447444,NR3 4DY,pub,The Brickmakers,Su-Th 12:00-00:30; Fr-Sa 12:00-01:30,way/93447444,The Brickmakers,true,,"496  Sprowston Road  
+  NR3 4DY <br />
+  
+  
+  ",,,,,,food,Point,1.3098352;52.6515286,Norwich,GB,Sprowston Road,,67958,,wlan,,,+44 1603 441118,2,no,https://www.thebrickmakers.com/,,The Brickmakers Live Music Venue,496,info@thebrickmakers.com,,house,,,,,
+Feature,way/100168528,NR1 3QB,pub,The Bell Hotel,08:00-00:00,way/100168528,The Bell Hotel,true,,"5  Orford Hill  
+  NR1 3QB <br />
+  
+  
+  ",,,,,,food,Point,1.2952033;52.6272467,Norwich,GB,Orford Hill,JD Wetherspoon,54943,,wlan,no,,+44 1603 630017,12,no,https://www.jdwetherspoon.com/pubs/all-pubs/england/norfolk/the-bell-hotel-norwich,,,5,,,yes,21:00-23:00,Q26303746,,,1696,Reopened after refurbishment Tue 25th July 2017,J D Wetherspoon
+Feature,way/101270213,NR3 1SY,pub,The Blueberry,Mo-Th 12:00-23:00; Fr-Sa 12:00-01:00; Su 12:00-22:30,way/101270213,The Blueberry,true,,"20  Cowgate  
+  NR3 1SY <br />
+  
+  
+  ",,,,,,food,Point,1.2972873;52.6365249,Norwich,GB,Cowgate,,470787,,,,,+44 1603 475001,1,no,http://www.blueberrymusichouse.co.uk/,,The Bluberry Music House,20,theblueberrybookings@hotmail.com,,house,,,,St. Paul's Tavern,,,,The Blueberry Music House
+Feature,way/103025547,NR5 8AZ,pub,The Fiveways,Mo-Sa 12:00-23:00; Su 12:00-22:30,way/103025547,The Fiveways,true,," Gipsy Lane  
+  NR5 8AZ <br />
+  
+  
+  ",,,,,,food,Point,1.2485787;52.629271,Norwich,GB,Gipsy Lane,Sizzlers Inns,1070660,,,,,+44 1603 452854,2,no,,,,,,,house,,,,,,,,
+Feature,way/103273686,NR3 3BG,pub,The Catherine Wheel,"Mo off; Su,Tu-Th 17:00-00:00; Fr-Sa 17:00-03:00",way/103273686,The Catherine Wheel,true,,"61  St Augustines Street  
+  NR3 3BG <br />
+  
+  
+  ",,,,,,food,Point,1.2917317;52.638351,Norwich,GB,St Augustines Street,,14498,,,,,+44 1603 627852,no,,http://www.inthewheel.co.uk/,,,61,website@inthewheel.co.uk,,house,,Q26579089,,,,,,,yes,primary
+Feature,way/103522682,NR1 1WX,pub,Las Iguanas,Mo-Th 12:00-23:00; Fr-Sa 12:00-23:30; Su 12:00-22:30,way/103522682,Las Iguanas,true,," Wherry Road  
+  NR1 1WX <br />
+  
+  
+  ",,,,,,food,Point,1.3042115;52.6251782,Norwich,GB,Wherry Road,,915724,,,,,+44 1603 633715,,,https://www.iguanas.co.uk/locations/norwich,,Unit 7a,,norwich@iguanas.co.uk,,retail,,,,,,,,,,,latin
+Feature,way/105334128,NR1 4JZ,pub,The Heartsease,Mo-Th 11:30-23:00; Fr-Sa 11:30-00:00; Su 11:30-22:30,way/105334128,The Heartsease,true,,"180  Plumstead Road  
+  NR1 4JZ <br />
+  
+  
+  ",,,,,,food,Point,1.3281608;52.6368186,Norwich,GB,Plumstead Road,John Barras,530203,,,,,+44 1603 433673,no,,http://www.johnbarras.com/,,,180,heartsease@johnbarras.com,,house,,,,,2012,,,,,,
+Feature,way/105854403,NR4 7EH,pub,The Farmhouse,Mo-Fr 12:00-23:00; Sa-Su 12:00-00:00,way/105854403,The Farmhouse,true,,"50  Colman Road  
+  NR4 7EH <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.2636521;52.6211847,Norwich,GB,Colman Road,Punch Taverns,433862,,wlan,,yes,+44 1603 454364,yes,,,yes,,50,,Bing,amenity,,,,The Farmhouse Tavern,,,,,,,
+Feature,way/108415768,NR1 4AA,pub,The Red Lion,11:00-23:00,way/108415768,The Red Lion,true,,"79  Bishopgate  
+  NR1 4AA <br />
+  
+  
+  ",,,,,,food,Point,1.3083908;52.632593,Norwich,GB,Bishopgate,Enterprise Inns,427515,,,,yes,+44 1603 620154,yes,,,,,79,,,yes,Mo-Tu 12:00-14:30; We-Sa 12:00-14:45; Su 12:00-17:00,,,,,,,,,,
+Feature,way/108609314,NR2 4NA,pub,The Fat Cat,Su-We 12:00-23:00; Th-Fr 12:00-00:00; Sa 11:00-00:00,way/108609314,The Fat Cat,true,,"49  West End Street  
+  NR2 4NA <br />
+  
+  
+  ",,,,,,food,Point,1.2756002;52.6351066,Norwich,GB,West End Street,,77383,,wlan,,,+44 1603 624364,32,6,http://www.fatcatpub.co.uk/,,,49,pints@fatcatpub.co.uk,Bing,house,,Q23305498,,New Inn,,,,,,,,Fat Cat,yes,yes
+Feature,way/110375803,NR13 6DQ,pub,The Ship,,way/110375803,The Ship,true,,"18  The Street  
+  NR13 6DQ <br />
+  
+  
+  ",,,,,,food,Point,1.4957804;52.6646119,,,The Street,,42311,,,,,,,,,,,18,,,house,,,,,,,,,,,,,,,South Walsham,FHRS Open Data
+Feature,way/112467622,NR3 3AQ,pub,The White Lion,Mo-Sa 12:00-23:00; Su 12:00-22:30,way/112467622,The White Lion,true,,"73  Oak Street  
+  NR3 3AQ <br />
+  
+  
+  ",,,,,,food,Point,1.2892034;52.6349435,Norwich,GB,Oak Street,,1157755,,,,,+44 1603 632333,9,yes,https://www.individualpubs.co.uk/whitelion/,,,73,,Bing,house,,,,Old White Lion;Tap & Spile,,Sunday roast served until it runs out,,,,,,Milton Brewery,,,,,Tu-Fr 18:00-22:00; Sa 12:00-22:00; Su 12:00-16:00
+Feature,way/112467632,NR3 1DJ,pub,Woolpack Yard,Mo-Sa 12:00-23:00; Su 12:00-22:30,way/112467632,Woolpack Yard,true,,"2  Muspole Street  
+  NR3 1DJ <br />
+  
+  
+  ",,,,,,food,Point,1.2932832;52.6332046,Norwich,GB,Muspole Street,,977299,,,,yes,+44 1603 219544,2,no,http://www.woolpackyard.co.uk/,,,2,info@woolpackyard.co.uk,Bing,yes,"Mo-Sa 12:00-15:00,18:00-21:00; Su off",Q26513810,,The Woolie;The Woolpack,,,,,,,,,,,,,
+Feature,way/112817872,NR3 1HZ,pub,The Mischief,Mo-Sa 12:00-23:00; Su 12:00-22:30,way/112817872,The Mischief,true,,"8  Fye Bridge Street  
+  NR3 1HZ <br />
+  
+  
+  ",,,,,,food,Point,1.2967929;52.633003,Norwich,GB,Fye Bridge Street,Wessex Taverns,25693,,,,,+44 1603 623810,2,no,,,,8,,Bing,house,,,,,,,,,,,,,,,,,
+Feature,way/114791476,NR2 2HN,pub,The Eagle,Mo-Fr 11:00-23:00; Sa-Su 09:00-23:00,way/114791476,The Eagle,true,,"33  Newmarket Road  
+  NR2 2HN <br />
+  
+  
+  ",,,,,,food,Point,1.2836683;52.6203503,Norwich,GB,Newmarket Road,,769020,,,,,+44 1603 624173,4,no,http://www.theeaglepub.co.uk/,,,33,info@theeaglepub.co.uk,,house,"Mo-Th 12:00-14:00,18:00-21:00; Fr-Sa 12:00-14:30,18:00-21:30; Su 12:30-17:00",Q26513820,+44 1603 624173,,,,,,,,,,leashed,,,,
+Feature,way/115093428,NR4 7PJ,pub,The Beehive,Su-Th 12:00-23:00; Fr-Sa 12:00-00:00,way/115093428,The Beehive,true,,"30  Leopold Road  
+  NR4 7PJ <br />
+  
+  
+  ",,,,,,food,Point,1.2676087;52.6174992,Norwich,GB,Leopold Road,,39565,,wlan,no,yes,+44 1603 451628,6,yes,http://www.beehivepubnorwich.co.uk/,,,30,askerridge@talktalk.net,,house,,,,,,,,,,,,,,,,,
+Feature,way/115852816,NR14 8RN,pub,Crown Point Tavern,"Mo-Sa 11:00-14:30,17:30-20:45+; Su 11:30-20:45+",way/115852816,Crown Point Tavern,true,," Kirby Road  
+  NR14 8RN <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.3220997;52.6110405,Norwich,GB,Kirby Road,Enterprise Inns,647916,,,,,+44 1603 625689,2,no,https://www.crownpointtavern.co.uk/,yes,The Crown Point Tavern,,crownpointtavern@btinternet.com,,house,"Mo-Sa 11:30-13:45,17:30-20:45; Su 11:30-16:00,17:30-20:45",Q26593166,,,,,,,,,,,,,,,
+Feature,way/115852825,NR14 8ST,pub,The White Horse,Mo-Sa 11:30-23:00; Su 12:00-22:30,way/115852825,The White Horse,true,," The Street  
+  NR14 8ST <br />
+  
+  
+  ",,,,,,food,Point,1.3176952;52.6124651,Norwich,GB,The Street,,647679,,wlan,,,+44 1603 622341,4,no,http://www.whitehorsepub.co.uk/,,The White Horse Inn,,info@whitehorsepub.co.uk,,house,"Mo-Fr 12:00-14:00,17:30-20:30; Sa 12:00-20:30; Su 12:00-18:00",,+44 1603 66300,,,,,,,,,,,,,,
+Feature,way/116120896,NR1 1BA,pub,The Coach and Horses,Mo-Th 11:00-00:00; Fr-Sa 11:00-01:00; Su 11:00-00:00,way/116120896,The Coach and Horses,true,,"82  Thorpe Road  
+  NR1 1BA <br />
+  
+  
+  ",,,,,,food,Point,1.3109919;52.6270042,Norwich,GB,Thorpe Road,Chalk Hill,73496,,,,,+44 1603 477077,6,2,http://www.thecoachthorperoad.co.uk/,,,82,info@thecoachthorperoad.co.uk,,house,Mo-Sa 12:00-21:30; Su 11:00-21:00,Q26578583,,,,,,,,,,,,,,,
+Feature,way/116394455,NR5 8QJ,pub,Gatehouse,Su-Fr 12:00-23:00; Sa 12:00-00:00,way/116394455,Gatehouse,true,,"391  Dereham Road  
+  NR5 8QJ <br />
+  
+  Limited wheelchair access 
+  ",,,,,,food,Point,1.2572436;52.6376529,Norwich,GB,Dereham Road,,14335,,,,yes,+44 1603 620340,5,no,,limited,,391,,Bing,house,,Q21008659,,,,,,Gate House,,,,,,,,,,no
+Feature,way/116597787,NR3 1HF,pub,Cavell’s,Mo-Th 11:00-23:30; Fr-Sa 09:00-01:00; Su 12:00-23:00,way/116597787,Cavell’s,true,,"7  Tombland  
+  NR3 1HF <br />
+  
+  
+  ",,,,,,food,Point,1.2987471;52.6311455,Norwich,GB,Tombland,Enterprise Inns,460075,,,,,+44 1603 765813,yes,,http://primeattheedithcavell.co.uk/,,,7,,,house,17:00-22:00,,,Edith Cavell; Coles; Army & Navy Stores,,,,,,,,,,,,,,
+Feature,way/116709459,NR2 3HD,pub,The Garden House,Su-Tu 12:00-23:00; Fr-Sa 12:00-23:30,way/116709459,The Garden House,true,,"1  Pembroke Road  
+  NR2 3HD <br />
+  
+  
+  ",,,,,,food,Point,1.2752737;52.6281559,Norwich,GB,Pembroke Road,Star,853738,,wlan,,yes,+44 1603 628059,5,no,http://www.gardenhousepub.co.uk/,,,1,james@gardenhousepub.co.uk,,house,"Mo-Th 12:00-15:00,18:00-21:00; Fr 12:00-15:00,18:00-22:00; Sa-Su 12:00-21:00",,,Fridays,,,,,,,,,,,,,,
+Feature,way/117789686,NR8 6AD,pub,The Silver Fox,Mo-Sa 12:00-23:00; Su 12:00-22:30,way/117789686,The Silver Fox,true,,"264  Fakenham Road  
+  NR8 6AD <br />
+  
+  
+  ",,,,,,food,Point,1.1976077;52.6866311,Norwich,GB,Fakenham Road,Phoenix Inns,,,,,,+44 1603 868212,yes,,,,,264,,,house,,,,,,,,,,,,,,,,,,
+Feature,way/117819574,NR3 4BA,pub,The Whalebone,Mo-Th 11:00-23:00; Fr-Sa 11:00-00:00; Su 12:00-23:00,way/117819574,The Whalebone,true,,"144  Magdalen Road  
+  NR3 4BA <br />
+  
+  
+  ",,,,,,food,Point,1.2969997;52.6440654,Norwich,GB,Magdalen Road,,42979,,,,,+44 1603 425482,8,no,http://www.whalebonefreehouse.co.uk/,,,144,lorenz@broadlandtaverns.co.uk,,house,,,,,,,,,,,,,,,,,,
+Feature,way/118612230,NR5 8TD,pub,The Cherry Tree,Su-Th 11:00-23:00; Fr-Sa 11:00-00:30,way/118612230,The Cherry Tree,true,," Dereham Road  
+  NR5 8TD <br />
+  
+  
+  ",,,,,,food,Point,1.2361351;52.6411006,Norwich,GB,Dereham Road,Marston's Inns,14333,,wlan,,yes,+44 1603 749469,3,no,https://www.cherrytreepubnorwich.co.uk/,,,,CherryTree.Norwich@marstons.co.uk,,yes,,,,Wagon & Horses; Oval Rock House; The Oval,,,Andrew Bodycote,,,,,,,,,,,
+Feature,way/119331015,NR1 3SP,pub,Trowel & Hammer,Mo-Sa 11:00-23:00; Su 12:00-22:30,way/119331015,Trowel & Hammer,true,,"25  Saint Stephens Road  
+  NR1 3SP <br />
+  
+  
+  ",,,,,,food,Point,1.2892336;52.6235033,Norwich,GB,Saint Stephens Road,,69976,,wlan,,,+44 1603 663994,3,no,http://www.trowelandhammer.co.uk/,,,25,,,house,"Mo-Sa 12:00-14:00,18:00-21:30; Su 12:00-15:00",,,Finnegans; Finnegan's Wake,,,,,,,,,,,,,,
+Feature,way/119331020,NR1 3SP,pub,The Coachmakers Arms,Mo-Sa 11:00-23:00; Su 12:00-22:30,way/119331020,The Coachmakers Arms,true,,"9  Saint Stephens Road  
+  NR1 3SP <br />
+  
+  
+  ",,,,,,food,Point,1.2898025;52.6237859,Norwich,GB,Saint Stephens Road,,69973,,wlan,,,+44 1603 662080,8,no,https://coachmakers-arms-norwich.co.uk/,,,9,,,yes,Mo-Fr 12:00-14:30; Sa-Su off,Q26653626,,,,,,,,,,,,,,,,,+44 1603 611562
+Feature,way/119476456,NR2 2PE,pub,William and Florence,Mo-Fr 09:00-23:00; Sa 09:00-00:00; Su 09:00-22:30,way/119476456,William and Florence,true,,"111  Unthank Road  
+  NR2 2PE <br />
+  
+  
+  ",,,,,,food,Point,1.2774266;52.6245133,Norwich,GB,Unthank Road,,924815,,,,,+44 1603 660706,3,no,https://williamandflorence.co.uk/,,,111,contact@williamandflorence.co.uk,,house,"Mo-Fr 10:00-14:30,18:00-21:00; Sa 10:00-21:00; Su 10:00-20:00",,,Rose Valley,,,,,,,,,,,,,,,
+Feature,way/119476679,NR1 3HQ,pub,King's Arms,Mo-Th 11:00-23:00; Fr-Sa 11:00-23:30; Su 12:00-22:30,way/119476679,King's Arms,true,,"33  Hall Road  
+  NR1 3HQ <br />
+  
+  
+  ",,,,,,food,Point,1.2983645;52.6205513,Norwich,GB,Hall Road,,847489,,,,,+44 1603 766361,12,yes,http://www.kingsarmsnorwich.co.uk/,,,33,info@kingsarmsnorwich.co.uk,,yes,,,,,,,Bateman's Brewery,,,,,,,,,,,,,1824
+Feature,way/119604430,NR3 1LA,pub,The Glasshouse,"Mo-Tu 08:00-00:00; We-Th,Su 08:00-01:00; Fr 08:00-01:30; Sa 08:00-02:00",way/119604430,The Glasshouse,true,,"9-13  Wensum Street  
+  NR3 1LA <br />
+  
+  
+  ",,,,,,food,Point,1.2980194;52.6323783,Norwich,GB,Wensum Street,,77279,,wlan,,,+44 1603 877650,7,no,http://www.jdwetherspoon.co.uk/home/pubs/the-glass-house,,,9-13,,,yes,,,,,,,J D Wetherspoon,,,,,,,,,,,,,,odd
+Feature,way/119604433,NR3 1HY,pub,The Lawyer,Mo-Sa 12:00-00:00,way/119604433,The Lawyer,true,,"12-14  Wensum Street  
+  NR3 1HY <br />
+  
+  
+  ",,,,,,food,Point,1.297476;52.6323548,Norwich,GB,Wensum Street,,,,,,,+44 1603 633122,3,no,http://www.thelawyernorwich.co.uk/,,,12-14,postbox@thelawyernorwich.co.uk,,house,"Mo 18:00-22:30; Tu-Sa 12:00-14:30, 18:00-22:30",,,Fugitive; Fugitive and Firkin,,,,,,,thai,,,,,,,,,,even
+Feature,way/119611031,NR2 1DE,pub,The Vine Thai Cuisine,12:00-00:00,way/119611031,The Vine Thai Cuisine,true,,"7  Dove Street  
+  NR2 1DE <br />
+  
+  
+  ",,,,,,food,Point,1.2930255;52.6293528,Norwich,GB,Dove Street,,18040,,,,,+44 1603 627362,4,no,https://vinethai.co.uk/,,The Vine,7,tinyaey@gmail.com,,shop,,,,,,,,,,,thai,,,,,,,,,,
+Feature,way/119611320,NR1 3EN,pub,Ber Strete Gates,Mo-Th 12:00-22:00; Fr-Sa 12:00-00:00; Su 12:00-22:00,way/119611320,Ber Strete Gates,true,,"174  Ber Street  
+  NR1 3EN <br />
+  
+  
+  ",,,,,,food,Point,1.3011213;52.6212774,Norwich,GB,Ber Street,,470785,,,,,+44 1603 395175,no,,,,,174,lynn.carrigan@hotmail.com,,house,,,,,,,,The Ber St Gates,,,regional;thai;chinese,,,,,,,,,,
+Feature,way/119731887,NR1 3AE,pub,The Rose,Mo-Th 15:00-23:30; Fr-Sa 12:00-23:45; Su 12:00-23:00,way/119731887,The Rose,true,,"233-235  Queens Road  
+  NR1 3AE <br />
+  
+  
+  ",,,,,,food,Point,1.3008806;52.6207327,Norwich,GB,Queens Road,,861576,,wlan,no,,+44 1603 767713,6,no,http://www.norwichbear.com/the-rose-inn/,,,233-235,,,house,"Sa-Su 12:00-14:30,18:00-21:00",,,,,,,,,,,,,,,,,,,,odd
+Feature,way/119768749,NR2 1DS,pub,The Belgian Monk,Mo-Sa 12:00-23:00; Su off,way/119768749,The Belgian Monk,true,,"7  Pottergate  
+  NR2 1DS <br />
+  
+  
+  ",,,,,,food,Point,1.2924925;52.629905,Norwich,GB,Pottergate,Flemins Ltd,60339,,,,yes,+44 1603 767222,no,,http://www.thebelgianmonk.com/,,,7,belgianmonknch@aol.com,,amenity,"Mo-Fr 12:00-15:00,17:30-22:00; Sa 12:00-22:00",Q26653562,+44 1603 616035,,,,Flemins Ltd,,,,,,,,,,,,,,
+Feature,way/120680941,NR1 3DT,pub,The Steam Packet,Mo-Sa 12:00-23:00; Su 12:00-22:30,way/120680941,The Steam Packet,true,,"39  Crown Road  
+  NR1 3DT <br />
+  
+  
+  ",,,,,,food,Point,1.2991985;52.62817,Norwich,GB,Crown Road,,47099,,,,,+44 1603 613117,1,no,http://www.thesteampacket.com/,,,39,thesteampacket@btinternet.com,,house,,Q26303200,,Market Tavern,,,,,,,,,,,,,,,,,,1836
+Feature,way/120694315,NR3 2SA,pub,The Boundary,Mo-Th 12:00-00:00; Fr 12:00-01:00; Sa 10:00-01:00; Su 10:00-24:00,way/120694315,The Boundary,true,,"414  Aylsham Road  
+  NR3 2SA <br />
+  
+  
+  ",,,,,,food,Point,1.277154;52.6560394,Norwich,GB,Aylsham Road,,949515,,,,,+44 1603 418324,1,no,http://www.theboundarypub.com/,,,414,theboundarypub@hotmail.com,,house,,,,,,,,,,,,,,,,,,,,,,,+44 7919 064774
+Feature,way/121499486,NR2 4AY,pub,The Reindeer,Tu-Th 12:00-23:00; Fr-Sa 12:00-00:00; Su 12:00-22:00,way/121499486,The Reindeer,true,,"10  Dereham Road  
+  NR2 4AY <br />
+  
+  
+  ",,,,,,food,Point,1.2839917;52.6320998,Norwich,GB,Dereham Road,,1039540,yes,,,,+44 1603 612995,13,yes,http://www.thereindeerpub.co.uk/,,,10,,survey,house,"Tu-Th 12:00-15:00,17:00-23:00; Fr-Sa 12:00-15:00,17:00-00:00; Su 12:00-22:00",,,,,,,,,,,,,,,,,,,,,,,2
+Feature,way/121635504,NR2 4LZ,pub,Britannia Gardens,Mo-Su 09:00-23:00,way/121635504,Britannia Gardens,true,,"288  Heigham Street  
+  NR2 4LZ <br />
+  
+  
+  ",,,,,,food,Point,1.2771244;52.6410498,Norwich,GB,Heigham Street,,1092849,,,,,+44 1603 614541,1,no,https://www.cafebritannia.co.uk/britannia-gardens,,,288,,Bing,house,,Q26303139,,Gibraltar Gardens,,,,,,,,,,,,,,,,,,,,
+Feature,way/122732861,NR2 2AT,pub,Rose Tavern,Su-Th 12:00-23:30; Fr-Sa 12:00-00:00,way/122732861,Rose Tavern,true,,"88  Rupert Street  
+  NR2 2AT <br />
+  
+  
+  ",,,,,,food,Point,1.2819559;52.6238898,Norwich,GB,Rupert Street,,21704,,,,,+44 1603 612110,6,no,http://www.rosetavern.co.uk/,,,88,,Bing,house,"Mo-Sa 18:00-21:00, Fr-Sa 12:00-14:00; Su 12:00-16:00",,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/122732862,NR2 2DR,pub,The Unthank Arms,Mo-Th 11:00-23:00; Fr 11:00+; Sa 10:00+; Su 10:00-22:30,way/122732862,The Unthank Arms,true,,"149  Newmarket Street  
+  NR2 2DR <br />
+  
+  
+  ",,,,,,food,Point,1.2791065;52.6209547,Norwich,GB,Newmarket Street,,52616,,wlan,,,+44 1603 631557,2,no,http://www.theunthankarms.com/,,,149,postbox@theunthankarms.com,Bing,house,"Mo-Fr 12:00-14:00,18:00-21:00; Sa 10:00-14:00,18:00-21:00; Su 10:00-20:30",,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/122732863,NR2 2AS,pub,The York Tavern,24/7 closed,way/122732863,The York Tavern,true,,"1  Leicester Street  
+  NR2 2AS <br />
+  
+  
+  ",,,,,,food,Point,1.2818978;52.6225576,Norwich,GB,Leicester Street,,,,,,,+44 1603 620918,4,no,http://www.theyorktavern.co.uk/,,,1,theyorktavern@hotmail.com,Bing,yes,,,,,,,Ei Publican Partnerships,,,,,,,,,,,,,,,,,,yes,pub,2018-01-04
+Feature,way/123011787,NR5 9HA,pub,The Norkie,Mo-Sa 12:00-23:00; Su 12:00-22:30,way/123011787,The Norkie,true,," Bowthorpe Main Centre  
+  NR5 9HA <br />
+  
+  
+  ",,,,,,food,Point,1.2166477;52.6370893,Norwich,GB,Bowthorpe Main Centre,Conquest Inns,77212,,wlan,no,yes,+44 1603 748851,yes,,,,,,,Bing,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/123035165,NR2 4TP,pub,St Andrews Brewhouse,Mo-Sa 10:00-00:00; Su 11:00-23:00,way/123035165,St Andrews Brewhouse,true,,"41  Saint Andrews Street  
+  NR2 4TP <br />
+  
+  
+  ",,,,,,food,Point,1.2954239;52.6307254,Norwich,GB,Saint Andrews Street,,796465,,,,,+44 1603 305995,1,no,https://www.standrewsbrewhouse.com/,,,41,info@standrewsbrewhouse.com,Bing,yes,,,,Delaneys Irish Bar; Festival House,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/123035167,NR2 1DZ,pub,Micawbers Tavern,Mo-Sa 12:00-23:00; Su 12:00-22:30,way/123035167,Micawbers Tavern,true,,"92  Pottergate  
+  NR2 1DZ <br />
+  
+  
+  ",,,,,,food,Point,1.2872785;52.6303854,Norwich,GB,Pottergate,,760304,,,,,+44 1603 626627,5,yes,,,,92,micawbers@live.co.uk,Bing,house,,Q26303724,,Seamus O'Rourkes;The Alma;Duke of York,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/123077955,NR6 5JB,pub,The Whiffler,Mo-Su 08:00-00:00,way/123077955,The Whiffler,true,," Boundary Road  
+  NR6 5JB <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.2685764;52.6543675,Norwich,GB,Boundary Road,,,,wlan,,,+44 1603 424042,6,yes,https://www.jdwetherspoon.com/pubs/all-pubs/england/norfolk/the-whiffler-norwich,yes,The Whiffler,,,Bing,yes,,,,,,,J D Wetherspoon,,,,,,,,,,,,,,,,,,,,
+Feature,way/123525386,NR2 4AR,pub,The Plough,Su-Th 12:00-23:00; Fr-Sa 12:00-00:00,way/123525386,The Plough,true,,"58  Saint Benedicts Street  
+  NR2 4AR <br />
+  
+  
+  ",,,,,,food,Point,1.2881399;52.6310911,Norwich,GB,Saint Benedicts Street,Grain Brewery,68603,,,,yes,+44 1603 661384,5,no,http://www.theploughnorwich.co.uk/,,,58,info@theploughnorwich.co.uk,Bing,yes,,Q26303689,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/123525388,NR2 4AR,pub,The X Bells,Mo-Th 12:00-01:00; Fr-Sa 12:00-01:30; Su 12:00-00:30,way/123525388,The X Bells,true,,"74-78  Saint Benedicts Street  
+  NR2 4AR <br />
+  
+  
+  ",,,,,,food,Point,1.2874862;52.6312137,Norwich,GB,Saint Benedicts Street,,47917,,,,,+44 1603 920292,4,no,http://www.facebook.com/pages/The-Ten-Bells-Norwich/220326944657171,,,74-78,,Bing,yes,,,,,,Part whisky bar,,,,,,,,,,,,,,,even,,,,,,
+Feature,way/123657384,NR3 1HY,pub,The Ribs Of Beef,Su-Th 11:00-23:00; Fr-Sa 11:00-00:00,way/123657384,The Ribs Of Beef,true,,"24  Wensum Street  
+  NR3 1HY <br />
+  
+  
+  ",,,,,,food,Point,1.2971761;52.6326802,Norwich,GB,Wensum Street,,39158,,wlan,,,+44 1603 619517,9,no,https://www.ribsofbeef.co.uk/,,Ribs of Beef,24,enquiries@ribsofbeef.co.uk,Bing,yes,Mo-Fr 12:00-15:00; Sa-Su 12:00-17:00,,+44 1603 625446,Fye Bridge Tavern,1985-08-09,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/123870345,NR1 4EY,pub,The Castle Inn,Su-We 14:00-00:00; Th-Fr 14:00-02:00; Sa 14:00-04:00,way/123870345,The Castle Inn,true,,"1  Spitalfields  
+  NR1 4EY <br />
+  Norwich’s Premier Gay Pub & Club<br />
+  
+  ",,,,,,food,Point,1.3100252;52.6347838,Norwich,GB,Spitalfields,,67763,,wlan,,,+44 1603 768886,no,no,http://www.thecastle-pub.com/,,,1,mail@thecastle-pub.com,Bing,yes,,Q26653612,+44 1603 620636,,,,,,yes,primary,,,,,,,,,,,,,,,,,,Norwich’s Premier Gay Pub & Club
+Feature,way/123870346,NR1 4BL,pub,The Jubilee,Mo-Th 12:00-23:00; Fr-Sa 12:00-24:00; Su 12:00-22:30,way/123870346,The Jubilee,true,,"26  Saint Leonards Road  
+  NR1 4BL <br />
+  
+  
+  ",,,,,,food,Point,1.31166;52.6291267,Norwich,GB,Saint Leonards Road,,69372,,,,,+44 1603 618734,8,no,http://jubileefreehouse.co.uk/,,,26,,Bing,house,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/123870347,NR1 4AU,pub,William IV,Mo-Sa 11:00-00:00; Su 12:00-00:00,way/123870347,William IV,true,," Quebec Road  
+  NR1 4AU <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.3148159;52.6303528,Norwich,GB,Quebec Road,,18773,,wlan,no,,+44 1603 441526,2,no,http://www.william-iv.com/,yes,,,ianstolady@hotmail.com,Bing,house,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/124952108,NR7 0EW,pub,The Buck Inn,Mo-Fr 12:00+; Sa-Su 10:00+,way/124952108,The Buck Inn,true,,"55  Yarmouth Road  
+  NR7 0EW <br />
+  
+  
+  ",,,,,,food,Point,1.339132;52.6264348,Norwich,GB,Yarmouth Road,Enterprise Inns,,,,,yes,,4,no,,,,55,,Bing,house,,Q26303364,,,,,,,,,,,,,,,,,,,,,,,,,,,hello@mybuckinn.com,+44 7596 431902,+44 1603 434682,http://www.mybuckinn.com/
+Feature,way/124952109,NR1 1NS,pub,The Compleat Angler,"Mo-Th 11:00-00:00; Fr 11:00-01:00; Sa 11:00-01:30; Su 11:00-22:30; ""Closed for refirb 22 July-2 Aug 2019""",way/124952109,The Compleat Angler,true,,"120  Prince of Wales Road  
+  NR1 1NS <br />
+  
+  
+  ",,,,,,food,Point,1.3054359;52.628119,Norwich,GB,Prince of Wales Road,,1082703,,wlan,,no,+44 1603 622425,6,no,https://www.greeneking-pubs.co.uk/pubs/norfolk/compleat-angler/,,,120,,Bing,retail,12:00-20:00,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,slate,along,pitched
+Feature,way/124952111,NR7 0EQ,pub,The Rivergarden Bar & Restaurant,12:00-23:00,way/124952111,The Rivergarden Bar & Restaurant,true,,"36  Yarmouth Road  
+  NR7 0EQ <br />
+  
+  
+  ",,,,,,food,Point,1.3357165;52.626409,Norwich,GB,Yarmouth Road,Enterprise Inns,40638,,,,yes,+44 1603 703900,2,no,http://www.therivergarden-norwich.co.uk,,,36,info@the-rivergarden.co.uk,Bing,house,,,,Kings Head,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/124952112,NR7 0HE,pub,The Rushcutters,Mo-Sa 11:00-23:00; Su 12:00-22:30,way/124952112,The Rushcutters,true,,"46  Yarmouth Road  
+  NR7 0HE <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.3426213;52.6257596,Norwich,GB,Yarmouth Road,,,,,,yes,+44 1603 435403,3,no,https://www.chefandbrewer.com/pub/rushcutters-arms-thorpe-st-andrew-norwich/c4619/,yes,,46,,Bing,yes,Mo-Sa 11:00-22:00; Su 12:00-21:30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/125406633,NR5 0EU,pub,The Crown,Mo 18:00-23:00; Tu-We 19:00-23:00; Th-Su 12:00-23:00,way/125406633,The Crown,true,,"79  Norwich Road  
+  NR5 0EU <br />
+  
+  
+  ",,,,,,food,Point,1.2341024;52.6474907,Norwich,GB,Norwich Road,Enterprise Inns,780517,,,,yes,+44 1603 742849,yes,,,,,79,,Bing,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/127189089,NR14 6DH,pub,Beauchamp Arms,,way/127189089,Beauchamp Arms,true,," Ferry Road  
+  NR14 6DH <br />
+  
+  
+  ",,,,,,food,Point,1.4680115;52.5866885,Norwich,GB,Ferry Road,,908339,,,,,+44 1508 480247,,,http://www.beauchamponthebroads.co.uk/,,,,,,house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/127573682,NR2 3AD,pub,The Earlham Arms,Mo-We 11:00-23:00; Th 11:00-23:30; Fr-Sa 11:00-00:00; Su 09:00-22:30,way/127573682,The Earlham Arms,true,,"41  Earlham Road  
+  NR2 3AD <br />
+  
+  
+  ",,,,,,food,Point,1.2798926;52.6308798,Norwich,GB,Earlham Road,,690202,,wlan,,yes,+44 1603 622993,12,,https://theearlhamarms.co.uk/,,,41,bar@theearlhamarms.co.uk,Bing,house,"Mo-Th 12:00-14:30,18:30-21:30; Fr 12:00-14:30,18:30-22:00; Sa 12:00-22:00; Su 09:00-20:00",,,The School House; The Fountain Bar & Grill; The Pickwick; Hoofers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/128738264,NR1 3LB,pub,The Murderer's,Mo-Sa 10:00-23:30; Su 12:00-22:30,way/128738264,The Murderer's,true,,"2-4  Timberhill  
+  NR1 3LB <br />
+  
+  
+  ",,,,,,food,Point,1.2952587;52.6268945,Norwich,GB,Timberhill,,74153,,,,,+44 1603 621447,9,no,https://www.themurderers.co.uk/,,,2-4,enquiries@themurderers.co.uk,Bing,house,Mo-Sa 10:00-17:00; Su 12:00-15:45,,,,,,,Gardeners Arms,,,,,,,,,,,,,even,,,,,,,,,,,,,,
+Feature,way/128738265,NR1 3EH,pub,The Woolpack Inn,Mo-Sa 11:00-23:00; Su 12:00-22:30,way/128738265,The Woolpack Inn,true,,"9  Golden Ball Street  
+  NR1 3EH <br />
+  
+  
+  ",,,,,,food,Point,1.2969258;52.626041,Norwich,GB,Golden Ball Street,Star,1080668,,,,,+44 1603 627047,4,no,http://www.johnbarras.com/pub/woolpack-norwich/c6372/,,The Woolpack Inn,9,,Bing,house,12:00-22:00,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/128989763,NR1 3RL,pub,Trafford Arms,Mo-Th 11:00-23:00; Fr-Sa 11:00-23:30; Su 12:00-22:30,way/128989763,Trafford Arms,true,,"61  Grove Road  
+  NR1 3RL <br />
+  
+  
+  ",,,,,,food,Point,1.2909577;52.6205815,Norwich,GB,Grove Road,,809251,,,,,+44 1603 628466,10,yes,https://traffordarms.co.uk/,,,61,mail@traffordarms.co.uk,Bing,house,"Mo-Fr 11:30-14:30; Sa,BH,PH 12:00-15:00; Su 12:00-15:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/129538556,NR1 3HQ,pub,The Freemasons Arms,Mo-Th 11:00-23:00; Fr-Sa 11:00-01:00,way/129538556,The Freemasons Arms,true,,"27  Hall Road  
+  NR1 3HQ <br />
+  
+  
+  ",,,,,,food,Point,1.2988278;52.620487,Norwich,GB,Hall Road,PPN Taverns,,,,,yes,+44 1603 623768,3,no,https://www.facebook.com/freemasonsarmsnorwich/,,,27,freemasonsarmsnorwich@hotmail.com,Bing,house,,,,Billy Bluelight,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/133165676,NR1 4HY,pub,The Quebec,Mo-Sa 12:00-23:00; Su 12:00-22:30,way/133165676,The Quebec,true,,"93-97  Quebec Road  
+  NR1 4HY <br />
+  
+  
+  ",,,,,,food,Point,1.3156599;52.6323123,Norwich,GB,Quebec Road,Phoenix Inns,,,,,,+44 1603 625372,1,no,,,,93-97,,Bing,house,,,,,,,,,,,,,,,,,,,,,odd,,,,,,,,,,,,,,,survey
+Feature,way/133498387,NR8 6XE,pub,The Otter,Mo-Sa 12:00-23:00; Su 12:00-22:30,way/133498387,The Otter,true,,"12  The Square  
+  NR8 6XE <br />
+  
+  
+  ",,,,,,food,Point,1.2119856;52.687301,Norwich,GB,The Square,Greene King,,,,,yes,+44 1603 260455,yes,,http://www.gkmeetandeat.co.uk/locations/otter-drayton,,,12,,survey,yes,"12:00-14:30,18:00-21:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Bing
+Feature,way/134666613,NR6 6BB,pub,The Oaks,Mo-Sa 12:00-23:00; Su 12:00-22:30,way/134666613,The Oaks,true,," Delft Way  
+  NR6 6BB <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.272977;52.6673037,Norwich,GB,Delft Way,,18934,,,,,+44 1603 428640,no,,https://www.brewersfayre.co.uk/brewersfayre/our-pubs/norwich/oaks.html,yes,,,,,yes,Mo-Fr 06:30-10:30; Sa-Sa 07:00-11:00,,,,,,Brewer's Fayre,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/134909094,NR7 8RL,pub,The Blue Boar,Mo-Sa 11:00-23:00; Su 12:00-22:00,way/134909094,The Blue Boar,true,,"259  Wroxham Road  
+  NR7 8RL <br />
+  
+  
+  ",,,,,,food,Point,1.3297782;52.6609961,Norwich,GB,Wroxham Road,Star,,,,,yes,+44 1603 426802,3,no,http://www.blueboarnorwich.co.uk/,,,259,blueboarnorwich@yahoo.com,OS_OpenData_StreetView,yes,Mo-Sa 12:00-21:00; Su 12:00-20:00,,+44 1603 446004,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/135187132,NR13 6HQ,pub,Fur and Feather Inn,,way/135187132,Fur and Feather Inn,true,," Slad Lane  
+  NR13 6HQ <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.4424921;52.6830011,,,Slad Lane,,110826,,,,,,,,,yes,,,,Bing,yes,,,,,,,,,,,,,,,Woodbastwick,FHRS Open Data,,,,,,,,,,,,,,,,,,,,,
+Feature,way/135263795,NR3 1DD,pub,The Golden Star,Mo-Th 11:00-23:00; Fr 11:00-00:00; Sa 09:00-00:00; Su 19:00-23:00,way/135263795,The Golden Star,true,,"57  Colegate  
+  NR3 1DD <br />
+  
+  
+  ",,,,,,food,Point,1.2926561;52.6329563,Norwich,GB,Colegate,Greene King,9319;1108815,,,,,+44 1603 632447,5,no,http://www.goldenstarnorwich.co.uk/,,,57,lily@goldenstarnorwich.co.uk,Bing,house,"Mo 12:00-14:00; Tu 12:00-14:00,18:00-21:00; We-Fr 12:00-14:00,17:00-21:00; Sa 09:00-14:00",Q26653842,,,1799,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/135775323,NR2 3BB,pub,Alexandra Tavern,Su-We 12:00-23:00; Th 12:00-00:00; Fr-Sa 10:30-00:00,way/135775323,Alexandra Tavern,true,,"16  Stafford Street  
+  NR2 3BB <br />
+  
+  
+  ",,,,,,food,Point,1.276361;52.6324643,Norwich,GB,Stafford Street,,70289,,,,,+44 1603 627772,5,no,http://www.alexandratavern.co.uk/,,,16,mail@alexandratavern.com,Bing,house,12:30-19:00,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,0
+Feature,way/135775324,NR2 3BL,pub,The Belle Vue,24/7 closed,way/135775324,The Belle Vue,true,,"46  St. Philips Road  
+  NR2 3BL <br />
+  
+  
+  ",,,,,,food,Point,1.2748709;52.6325446,Norwich,GB,St. Philips Road,Enterprise Inns,,,wlan,no,yes,+44 1603 621784,4,no,https://www.bellevuenorwich.co.uk/,,,46,thebellevuenorwich@hotmail.com,Bing,,"Mo-Sa 11:00-14:30,17:30-20:45; Su 12:30-17:30",,,,,,,,,,,,yes,,,,,,,,,,,,,,2018-02-24,,,,,,,,,,,
+Feature,way/135964026,NR1 3RU,pub,Lamb Inn,Mo-We 11:00-23:00; Th 11:00-00:00; Fr 11:00-00:30; Sa 10:00-00:30; Su 12:00-22:00,way/135964026,Lamb Inn,true,," Orford Place  
+  NR1 3RU <br />
+  
+  
+  ",,,,,,food,Point,1.2939955;52.6271739,Norwich,GB,Orford Place,,915715,,,,,+44 1603 625365,3,no,http://www.lambinn-norwich.co.uk/,,,,thelambinn@tcg-uk.com,,shop,,Q26303748,,Henrys Cafe Bar; Rat and Parrot,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/136090709,NR1 3NA,pub,Pig and Whistle,Su-We 11:30-23:00; Th 11:30-00:00; Fr-Sa 11:00-02:00,way/136090709,Pig and Whistle,true,,"2-8  All Saints Green  
+  NR1 3NA <br />
+  
+  
+  ",,,,,,food,Point,1.2951113;52.6256899,Norwich,GB,All Saints Green,,1021303,,,,,+44 1603 665902,,,http://www.pigandwhistlenorwich.co.uk/,,,2-8,enquiries@pigandwhistlenorwich.co.uk,Bing,house,,,,Westlegate;Imagine;Chandlers;Wig and Pistle;Pig and Whistle;Three Tuns,,,,,,,,,,,,,,,,,even,,,,,,,,,,,,,,,,,
+Feature,way/136363795,NR1 1WX,pub,The Queen of Iceni,Su-Th 08:00-23:00; Fr-Sa 08:00-01:00; ,way/136363795,The Queen of Iceni,true,,"6  Wherry Road  
+  NR1 1WX <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.3038326;52.6250439,Norwich,GB,Wherry Road,,84060,,wlan,,yes,+44 1603 877690,5,no,https://www.jdwetherspoon.com/pubs/all-pubs/england/norfolk/the-queen-of-iceni-norwich,yes,Wetherspoons,6,,Bing,retail,,,,Lloyds No. 1,,,J D Wetherspoon,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/137381657,NR3 4LF,pub,The Fat Cat Brewery Tap,Mo-Th 12:00-23:00; Fr 12:00-00:00; Sa 11:00-00:00; Su 11:00-22:30,way/137381657,The Fat Cat Brewery Tap,true,,"98-100  Lawson Road  
+  NR3 4LF <br />
+  
+  
+  ",,,,,,food,Point,1.3003409;52.6434051,Norwich,GB,Lawson Road,,15817,,wlan,,yes,+44 1603 413153,14,yes,http://www.fatcattap.co.uk/,,,98-100,info@fatcattap.co.uk,Bing,yes,,,,Cider Shed;The Shed;Wherry,2nd Feb 2011,,,,,,,Fat Cat,yes,yes,,,,,,,even,,,,,,,,,,,,,,,,,,brewery,yes
+Feature,way/138504756,NR2 1DS,pub,The Birdcage,Mo-Th 11:00-00:00; Fr-Sa 11:00-01:00; Su off,way/138504756,The Birdcage,true,,"23  Pottergate  
+  NR2 1DS <br />
+  
+  Limited wheelchair access 
+  ",,,,,,food,Point,1.2916733;52.6301181,Norwich,GB,Pottergate,Greene King,18832,,,,,+44 1603 633534,3,no,https://www.thebirdcagenorwich.co.uk/,limited,,23,info@thebirdcagenorwich.co.uk,Bing,yes,,,,Pottergate Tavern;Brown Derby;Morning Star,2007-08-01,,,,welcome,,,,,,,,,no,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/138504789,NR2 4AF,pub,The Rumsey Wells,12:00-00:00,way/138504789,The Rumsey Wells,true,,"4  Saint Andrews Street  
+  NR2 4AF <br />
+  
+  
+  ",,,,,,food,Point,1.2931911;52.6305932,Norwich,GB,Saint Andrews Street,,15618,,,,,+44 1603 614858,5,no,https://www.rumseywells.co.uk/,,,4,,Bing,yes,,,,St. Andrews Tavern; Blueberries,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/138504797,NR2 4AL,pub,The Mash Tun,Mo-We 12:00-00:00; Th-Sa 12:00-01:00; Su 12:00-23:00,way/138504797,The Mash Tun,true,,"16  Charing Cross  
+  NR2 4AL <br />
+  
+  
+  ",,,,,,food,Point,1.2919414;52.630573,Norwich,GB,Charing Cross,,690203,,,,,+44 1603 660355,1,no,https://en-gb.facebook.com/TheMashTunNorwich/,,,16,,servey,house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/139453240,NR2 4DR,pub,The Nelson,12:00-00:00,way/139453240,The Nelson,true,,"122  Nelson Street  
+  NR2 4DR <br />
+  
+  
+  ",,,,,,food,Point,1.2760571;52.6376745,Norwich,GB,Nelson Street,Enterprise Inns,457281,,,,yes,+44 1603 626362,5,no,,,,122,,Bing,house,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,
+Feature,way/140516377,NR4 6LA,pub,The Oak Tree,Mo-Sa 11:00-23:00; Su 12:00-22:30,way/140516377,The Oak Tree,true,,"59  Ipswich Road  
+  NR4 6LA <br />
+  
+  
+  ",,,,,,food,Point,1.2814517;52.6112066,Norwich,GB,Ipswich Road,Enterprise Inns,853736,,wlan,,yes,+44 1603 920280,3,no,https://www.oaktreenorwich.co.uk/,,,59,enquiries@oaktreenorwich.co.uk,Bing,house,Mo-Th 12:00-21:00; Fr-Sa 12:00-21:30; Su 12:00-20:00,,,Maid Marian,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,We 12:00-15:00; Su 12:00-18:00,yes
+Feature,way/152298966,NR1 1TR,pub,Fat Cat & Canary,Su-Th 12:00-23:00; Fr 12:00-00:00; Sa 11:00-00:00,way/152298966,Fat Cat & Canary,true,,"101  Thorpe Road  
+  NR1 1TR <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.3213294;52.6253265,Norwich,GB,Thorpe Road,,470783,,wlan,,yes,+44 1603 432393,12,yes,http://www.fatcatcanary.co.uk/,yes,,101,,,yes,,,,The Mustard Pot,,,,,,,,Fat Cat,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/160919945,NR7 0DR,pub,The Gordon,11:00-23:00,way/160919945,The Gordon,true,," Gordon Avenue  
+  NR7 0DR <br />
+  
+  
+  ",,,,,,food,Point,1.3380553;52.6340823,Norwich,GB,Gordon Avenue,,,,,,,+44 1603 434658,2,no,,,The Gordon Public House,,,,house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/160941197,NR2 1AG,pub,The Wildman,Su-Th 12:00-23:00; Fr-Sa 12:00-00:00,way/160941197,The Wildman,true,,"29  Bedford Street  
+  NR2 1AG <br />
+  
+  
+  ",,,,,,food,Point,1.2956313;52.6298421,Norwich,GB,Bedford Street,,836841,,,,,+44 1603 627686,3,no,http://www.thewildmanpubnorwich.com/,,,29,daz-john@hotmail.co.uk,,yes,"Su-Fr 12:00-15:00,18:00-21:00; Sa 12:00-15:00",,,,,,,The Wild Man,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/163413197,NR2 1RD,pub,Sir Garnet,Mo-We 10:00-00:30; Th-Sa 10:00-02:00; Su 11:00-20:00,way/163413197,Sir Garnet,true,,"36  Market Place  
+  NR2 1RD <br />
+  
+  
+  ",,,,,,food,Point,1.292865;52.6280883,Norwich,GB,Market Place,,661405,,,,,+44 1603 615892,yes,,http://www.thesirgarnet.co.uk/,,,36,info@thesirgarnet.co.uk,,retail,,,,Sir Garnet Wolseley,,,,,,,,,,,,,Mo-Sa 12:00-21:00; Su closed,,,,,,,,,,,,,,,,,,,,,,,,,,baronofbeef@thesirgarnet.co.uk,bookings@thesirgarnet.co.uk
+Feature,way/166345378,NR1 1SR,pub,Lollards Pit,Mo-Th 16:00-23:00; Fr 16:00-00:00; Sa 12:00-01:00; Su 13:00-23:00,way/166345378,Lollards Pit,true,,"69-71  Riverside Road  
+  NR1 1SR <br />
+  
+  
+  ",,,,,,food,Point,1.3093415;52.6321976,Norwich,GB,Riverside Road,,499551,,,,yes,+44 1603 624675,4,no,http://www.lollardspit.com/,,Bridge House,69-71,billy@lollardspit.com,,house,,Q26303706,,The Bridge House;The Kings Arms,,,,,yes,,,,,,,,,,,,odd,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/168155454,NR3 1RB,pub,Stadia,Mo-We 16:00-00:00; Th 16:00-02:00; Fr 16:00-03:00; Sa 12:00-03:00; Su 12:00-01:00,way/168155454,Stadia,true,,"19  Upper King Street  
+  NR3 1RB <br />
+  
+  
+  ",,,,,,food,Point,1.2991508;52.6296545,Norwich,GB,Upper King Street,,690198,,,,,,,,,,,19,,,yes,,,,Pitcher & Piano;Cafe Maximo;Office,,,,,,,,,,,,,,,,,,,,,,,,,info@stadianorwich.co.uk,+44 7885 426861,+44 1603 617554,http://www.stadianorwich.co.uk/,,,,,,,,,,,,,09:00-17:00
+Feature,way/168164208,NR8 6PW,pub,The Red Lion,Mo-Sa 11:00-23:00; Su 12:00-22:30,way/168164208,The Red Lion,true,,"2  Fakenham Road  
+  NR8 6PW <br />
+  
+  
+  ",,,,,,food,Point,1.223635;52.6763644,Norwich,GB,Fakenham Road,,,,wlan,,,+44 1603 867262,3,no,https://www.greeneking-pubs.co.uk/pubs/norfolk/red-lion/,,,2,,,house,Mo-Sa 11:00-21:00; Su 12:00-21:00,Q26303392,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/168293483,NR2 2DQ,pub,The Eaton Cottage,Su-Th 12:00-23:00; Fr-Sa 12:00-00:00,way/168293483,The Eaton Cottage,true,,"75  Mount Pleasant  
+  NR2 2DQ <br />
+  
+  
+  ",,,,,,food,Point,1.2753712;52.6224632,Norwich,GB,Mount Pleasant,,51742,,wlan,,yes,+44 1603 453048,5,yes,,,,75,,,house,,,,,1855,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/169957628,NR3 1RZ,pub,The Adam And Eve,Mo-Sa 11:00-23:00; Su 12:00-22:30,way/169957628,The Adam And Eve,true,,"17  Bishopgate  
+  NR3 1RZ <br />
+  
+  
+  ",,,,,,food,Point,1.3031967;52.6338012,Norwich,GB,Bishopgate,Enterprise Inns,5231,,,,,+44 1603 667423,4,no,http://www.facebook.com/pages/Adam-Eve-Norwich/304797245222,,,17,theadamandeve@hotmail.com,,house,Mo-Sa 12:00-19:00; Su 12:00-17:00,Q26653814,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/169959573,NR3 3HT,pub,The Angel Gardens,Mo-Fr 11:00-00:00; Sa 11:00-01:00; Su 12:00-23:30,way/169959573,The Angel Gardens,true,,"96  Angel Road  
+  NR3 3HT <br />
+  
+  
+  There are steps to the toilet. but you can gain access to the pub by manual wheelchair. Not by electric wheelchair as doorway entrance is limited. The bar staff are really helpful.",,,,,,food,Point,1.2921957;52.6438973,Norwich,GB,Angel Road,,1857,,,,,+44 1603 427490,7,no,http://www.norwichinns.com/2-16,,,96,ikwarren-angel@tiscali.co.uk,,house,,,,,,,,,,,,,,,,,,no,,,,,,,,,,,,,,,,,,,,,,,,,,,,There are steps to the toilet. but you can gain access to the pub by manual wheelchair. Not by electric wheelchair as doorway entrance is limited. The bar staff are really helpful.
+Feature,way/169960093,NR3 4LW,pub,The Artichoke,Mo-Sa 12:00-23:00; Su 12:00-22:30,way/169960093,The Artichoke,true,,"1  Magdalen Road  
+  NR3 4LW <br />
+  
+  
+  ",,,,,,food,Point,1.2968953;52.6389193,Norwich,GB,Magdalen Road,Enterprise Inns,18335,,,,,+44 1603 633080,1,no,,,,1,,,house,Su 14:00-18:00; Mo-Sa off,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/169965356,NR2 1SL,pub,Bedfords,"We-Th 18:00+; Fr-Sa 12:00-15:00,18:00+; Su-Tu off",way/169965356,Bedfords,true,,"1  Old Post Office Yard  
+  NR2 1SL <br />
+  
+  
+  ",,,,,,food,Point,1.2949279;52.6298485,Norwich,GB,Old Post Office Yard,,1042700,,,,,+44 1603 666869,no,no,https://www.bedfordsbar.co.uk/,,,1,simon@bedfordsbar.co.uk,,yes,"We-Th 18:00-21:00, Fr-Sa 12:00-15:00,18:00-21:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/169980891,NR2 3DE,pub,The Black Horse,Mo-Sa 11:00-23:00; Su 12:00-22:30,way/169980891,The Black Horse,true,,"50  Earlham Road  
+  NR2 3DE <br />
+  
+  
+  ",,,,,,food,Point,1.2785217;52.6306032,Norwich,GB,Earlham Road,Punch Taverns,851584,,,,yes,+44 1603 624682,3,no,http://theblackhorsenorwich.com/,,,50,,,house,"Mo-Sa 12:00-15:00,18:00-21:00; Su 12:00-17:00",Q26303207,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/169986598,NR6 5QA,pub,Chestnut Tree,Mo-We 11:30-22:00; Th-Sa 11:30-23:00; Su 12:00-21:00,way/169986598,Chestnut Tree,true,,"197  Reepham Road  
+  NR6 5QA <br />
+  
+  
+  ",,,,,,food,Point,1.2628101;52.6646392,Norwich,GB,Reepham Road,Ei Publican Partnerships,187566,,,,yes,+44 1603 483583,3,no,https://www.chestnuttreenorwich.co.uk/,,,197,info@chestnuttreenorwich.co.uk,,house,Mo-Sa 12:00-21:00; Su 12:00-20:00,,,,2018-11-12,,,The Chestnut Tree,,,regional,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/170315605,NR2 1SE,pub,The Champion,Mo-Fr 11:00-11:00; Sa 11:00-00:00; Su 11:00-18:00,way/170315605,The Champion,true,,"101  Chapelfield Road  
+  NR2 1SE <br />
+  
+  
+  ",,,,,,food,Point,1.2898187;52.6242917,Norwich,GB,Chapelfield Road,Batemans,747637,,wlan,no,yes,+44 1603 628148,4,yes,http://www.championpub.co.uk/,,,101,enquiries@championpub.co.uk,,house,"Mo-Sa 12:00-15:00,18:00-20:00; Su off",,,,2012-05-22,,Laconn Inns,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/170320268,NR2 2SL,pub,Coach & Horses,Mo-Sa 12:00-23:00; Su 12:00-22:30,way/170320268,Coach & Horses,true,,"1  Union Street  
+  NR2 2SL <br />
+  
+  
+  ",,,,,,food,Point,1.2859272;52.6258664,Norwich,GB,Union Street,,878408,,,,,+44 1603 610032,2,no,,,,1,,,house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/170325077,NR3 4TB,pub,The Cottage,12:00-23:00,way/170325077,The Cottage,true,,"9  Silver Road  
+  NR3 4TB <br />
+  
+  
+  ",,,,,,food,Point,1.3027012;52.6374749,Norwich,GB,Silver Road,Grain Brewery,799489,,wlan,no,yes,+44 1603 665535,7,yes,http://www.thecottagenorwich.co.uk/,,,9,info@thecottagenorwich.co.uk,,house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/170331338,NR3 1EG,pub,Duke of Wellington,Mo-Th 12:00-23:30; Fr-Sa 12:00-00:00; Su 12:00-22:30,way/170331338,Duke of Wellington,true,,"91-93  Waterloo Road  
+  NR3 1EG <br />
+  
+  
+  ",,,,,,food,Point,1.2938678;52.6422281,Norwich,GB,Waterloo Road,,76177,,wlan,,,+44 1603 441182,17,yes,http://www.dukeofwellingtonnorwich.co.uk/,,,91-93,dukeofwellington@tiscali.co.uk,,house,,,+44 1953 457776,Iron Duke,,,,,,,,,,,,,,,,,odd,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/170332193,NR3 4LF,pub,Dyers Arms,Mo-Sa 12:00-23:00; Su 12:00-22:30,way/170332193,Dyers Arms,true,,"2-4  Lawson Road  
+  NR3 4LF <br />
+  
+  
+  ",,,,,,food,Point,1.2973968;52.643073,Norwich,GB,Lawson Road,Beards of Sussex,32614,,,,,+44 1603 787237,2,no,,,,2-4,,,house,,,,,,,,,,,,,,,,,,,,,even,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/170335177,NR3 3JJ,pub,The Forge,Mo-Sa 12:00-23:00; Su 12:00-22:30,way/170335177,The Forge,true,,"118  Philadelphia Lane  
+  NR3 3JJ <br />
+  
+  
+  ",,,,,,food,Point,1.2896253;52.6479936,Norwich,GB,Philadelphia Lane,McLennan Inns,57304,,,,yes,+44 1603 415924,yes,,https://the-forge.webs.com/,,,118,,,house,,,,Loaf,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/170338166,NR3 1JD,pub,Cactus,Mo-Th 09:30-18:00; Fr-Sa 09:30-22:00; Su 11:00-18:00,way/170338166,Cactus,true,,"102  Magdalen Street  
+  NR3 1JD <br />
+  
+  
+  ",,,,,,food,Point,1.2964795;52.6369789,Norwich,GB,Magdalen Street,,731305,,,,,+44 1603 627667,yes,,,,,102,,,house,,,,Escape;The Queens Arms,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/170559533,NR8 5BS,pub,The Harte of Costessey,"Tu-Th 12:00-15:00,17:30-23:00; Fr-Su 12:00-00:00; Mo off",way/170559533,The Harte of Costessey,true,," Townhouse Road  
+  NR8 5BS <br />
+  
+  
+  ",,,,,,food,Point,1.2105803;52.6592306,Norwich,GB,Townhouse Road,,648017,,,,,+44 1603 742755,2,no,http://www.thehartenorwich.co.uk/,,,,info@thehartenorwich.co.uk,,house,"Tu-Sa 12:00-14:30,18:00-21:00; Su 12:00-17:00",,,The White Hart,,,,,,,,,,,,,,,,,,1931,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/170560554,NR3 4SG,pub,The Heath House,12:00-23:30,way/170560554,The Heath House,true,,"99  Gertrude Road  
+  NR3 4SG <br />
+  
+  
+  ",,,,,,food,Point,1.3064586;52.6438128,Norwich,GB,Gertrude Road,,21009,,,,,+44 1603 406417,4,no,https://www.facebook.com/theheathhousepub/,,,99,theheathhouse@yahoo.co.uk,,house,We-Sa 18:00-21:00; Su 12:00-15:00; Mo-Tu off,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/170639760,NR1 1PD,pub,Last Pub Standing,Mo off; Tu-Th 12:00-23:00; Fr-Sa 12:00-00:00; Su 12:00-18:00,way/170639760,Last Pub Standing,true,,"27-29  King Street  
+  NR1 1PD <br />
+  
+  
+  ",,,,,,food,Point,1.2993621;52.6287826,Norwich,GB,King Street,,,,,,yes,+44 1603 937013,yes,,https://www.lastpubstanding.co.uk/,,,27-29,hello@lastpubstanding.co.uk,,house,,Q26303149,,Kings Bar; Kings; Bar Rio; Tusk; Nags Head,,"FHRS ID missing, but pub still open 2019-07-02.",,,,,,,,,,,,,,,odd,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/170640367,NR3 1JE,pub,Kings Head,Mo-Sa 12:00+; Su 12:00-00:00,way/170640367,Kings Head,true,,"42  Magdalen Street  
+  NR3 1JE <br />
+  
+  
+  ",,,,,,food,Point,1.29634;52.6348273,Norwich,GB,Magdalen Street,,15470,,,,,+44 1603 620468,11,yes,http://www.kingsheadnorwich.com/,,,42,,Bing,house,,Q26653894,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/170761255,NR2 2PE,pub,Pear Tree Inn,Mo-Fr 11:00-00:30; Sa-Su 10:00-00:00,way/170761255,Pear Tree Inn,true,,"79  Unthank Road  
+  NR2 2PE <br />
+  
+  
+  ",,,,,,food,Point,1.2783929;52.6253628,Norwich,GB,Unthank Road,,1062115,,,,,,yes,no,https://www.peartreeinnnorwich.com/,,,79,,,house,,,,No. 79 Bar & Charcuterie;Pickle & Relish;The Langtry;Lillie Langtry;Park Tavern,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/170763762,NR3 1NQ,pub,The Leopard,Su-Th 12:00-00:00; Fr-Sa 12:00-01:00,way/170763762,The Leopard,true,,"98  Bull Close Road  
+  NR3 1NQ <br />
+  
+  
+  ",,,,,,food,Point,1.2996161;52.6372889,Norwich,GB,Bull Close Road,,734873,,,,,+44 1603 623505,3,no,,,,98,,,house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/170764586,NR3 3AB,pub,The Lord Rosebery,Mo-Sa 11:00-23:00; Su 12:00-22:30,way/170764586,The Lord Rosebery,true,,"94  Rosebery Road  
+  NR3 3AB <br />
+  
+  
+  ",,,,,,food,Point,1.2952549;52.6443603,Norwich,GB,Rosebery Road,,816420,,,,,+44 1603 414284,5,yes,http://www.lordrosebery.co.uk/,,,94,postbox@lordrosebery.co.uk,,house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/170764996,NR2 3LD,pub,Warwick Street Social,Su-Th 12:00-00:00; Fr-Sa 12:00-00:30,way/170764996,Warwick Street Social,true,,"2  Warwick Street  
+  NR2 3LD <br />
+  
+  
+  ",,,,,,food,Point,1.2756939;52.6239735,Norwich,GB,Warwick Street,,918744,,,,,+44 1603 627687,3,no,http://www.themadmoose.co.uk/,,,2,,,house,"12:00-14:00, 19:00-22:00",,,Warwick Arms,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/170766603,NR6 7NH,pub,The Maids Head,Mo-Sa 12:00-23:00; Su 12:00-22:30,way/170766603,The Maids Head,true,,"85  Spixworth Road  
+  NR6 7NH <br />
+  
+  Limited wheelchair access 
+  ",,,,,,food,Point,1.3015568;52.6594238,Norwich,GB,Spixworth Road,,,,,,yes,+44 1603 408028,3,no,,limited,,85,,,house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/170794274,NR3 4PB,pub,Marlborough Arms,Mo-Sa 12:00-23:00; Su 12:00-22:30,way/170794274,Marlborough Arms,true,,"43  Spencer Street  
+  NR3 4PB <br />
+  
+  
+  ",,,,,,food,Point,1.2997379;52.6394263,Norwich,GB,Spencer Street,,67623,,,,,+44 1603 623689,3,no,,,,43,,,house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/170795332,NR4 6DX,pub,The Marsh Harrier,Mo-Sa 12:00-23:00; Su 12:00-22:30,way/170795332,The Marsh Harrier,true,,"158  Ipswich Road  
+  NR4 6DX <br />
+  
+  
+  ",,,,,,food,Point,1.2776464;52.5986947,Norwich,GB,Ipswich Road,,31887,,,,,+44 1603 507513,3,no,https://www.vintageinn.co.uk/themarshharriernorwich/,,,158,,,house,,,,,,,Vintage Inns,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/171202245,NR3 1SZ,pub,Plasterers Arms,"Mo-Th 12:00-00:00; Fr 12:00-01:00, Sa 10:00-01:00, Su 10:00-00:00",way/171202245,Plasterers Arms,true,,"43  Cowgate  
+  NR3 1SZ <br />
+  
+  
+  ",,,,,,food,Point,1.2982586;52.6367137,Norwich,GB,Cowgate,,48701,,,,,+44 1603 440992,15,yes,http://www.theplasterersarms.co.uk/,,,43,theplasterersarms@hotmail.co.uk,,house,,,,,,,,,,,,various,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/171223430,NR1 3NY,pub,The Surrey,Mo-Th 07:00-20:00; Fr 07:30-21:00; Sa 09:30-15:00; Su off,way/171223430,The Surrey,true,,"44-46  Surrey Street  
+  NR1 3NY <br />
+  
+  
+  ",,,,,,food,Point,1.2952723;52.6237131,Norwich,GB,Surrey Street,,1021305,,wlan,,yes,+44 1603 760677,3,no,https://www.facebook.com/pg/thesurreynorwich/,,,44-46,surreypub@outlook.com,,house,Mo-Fr 12:00-20:00; Sa 12:00-15:00,,,Surrey Tavern,2017-12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,yes,yes,Kitchen & Bar
+Feature,way/171223674,NR3 1NX,pub,The Robin Hood,Su-Th 11:00-23:00; Fr-Sa 11:00-00:00,way/171223674,The Robin Hood,true,,"84  Mousehold Street  
+  NR3 1NX <br />
+  
+  
+  ",,,,,,food,Point,1.305651;52.6371364,Norwich,GB,Mousehold Street,,,,,,,+44 1603 667138,no,,,,,84,diane123_@hotmail.co.uk,,house,"11:30-14:30,16:30-19:30",,,,,Bar snacks only,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/171368788,NR3 4LG,pub,The Stanley,Mo-Sa 12:00-00:30; Su 12:00-23:00,way/171368788,The Stanley,true,,"33  Magdalen Road  
+  NR3 4LG <br />
+  
+  
+  ",,,,,,food,Point,1.2967902;52.6406899,Norwich,GB,Magdalen Road,Punch Taverns,,,wlan,,,+44 1603 615988,1,no,,,,33,,,house,Su 14:00-18:00; Mo-Sa off,,,,,,Alandra Bridge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/171371220,NR3 1HF,pub,Louis Marchesi,Mo-Su 11:00-23:00,way/171371220,Louis Marchesi,true,,"17  Tombland  
+  NR3 1HF <br />
+  
+  
+  ",,,,,,food,Point,1.2983564;52.6316958,Norwich,GB,Tombland,,1070663,,wlan,,,+44 1603 763099,,,http://www.norfolkpubs.co.uk/norwich/lnorwich/nclom.htm,,,17,,,yes,,Q17530889,,Take 5,,"Pub has changed names several times, latest change :- http://www.edp24.co.uk/business/louis-marchesi-is-back-norwich-bar-take-5-is-renamed-after-a-city-legend-1-5077181",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/171373184,NR2 2RA,pub,Temple Bar,Mo-Sa 12:00-01:00; Su 12:00-00:00,way/171373184,Temple Bar,true,,"2  Unthank Road  
+  NR2 2RA <br />
+  
+  
+  ",,,,,,food,Point,1.2848542;52.6290614,Norwich,GB,Unthank Road,,25752;932628,,,,,+44 1603 624803,yes,,,,,2,,,house,,Q26303619,,The Tuns,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/171386928,NR2 1NG,pub,Walnut Tree Shades,Mo-We 11:00-00:00; Th-Sa 11:00-01:00; Su 12:00-22:00,way/171386928,Walnut Tree Shades,true,," Old Post Office Court  
+  NR2 1NG <br />
+  
+  
+  ",,,,,,food,Point,1.2941305;52.6286032,Norwich,GB,Old Post Office Court,,35346,,,,,+44 1603 622910,2,no,http://www.thewalnuttreeshades.com/,,,,enquiries@thewalnuttreeshades.com,,yes,Mo-Sa 12:00-22:00; Su 12:00-18:00,Q26398288,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/171387268,NR2 4QY,pub,The West End Retreat,Mo-Sa 12:00-23:00; Su 12:00-22:30,way/171387268,The West End Retreat,true,,"1  Browne Street  
+  NR2 4QY <br />
+  
+  
+  ",,,,,,food,Point,1.2790565;52.6350324,Norwich,GB,Browne Street,Admiral Taverns,6846,,,,,+44 1603 626490,no,,,,West End Retreat,1,,,house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/171391061,NR3 1RN,pub,Wig And Pen,Mo-Th 11:30-23:00; Fr-Sa 11:30-00:00; Su 11:30-18:00,way/171391061,Wig And Pen,true,,"6  Saint Martin at Palace Plain  
+  NR3 1RN <br />
+  
+  
+  ",,,,,,food,Point,1.3000567;52.6333153,Norwich,GB,Saint Martin at Palace Plain,,69543,,,,yes,+44 1603 625891,6,no,http://www.thewigandpen.com/,,,6,info@thewigandpen.com,,retail,"Mo-Fr 12:00-14:30,18:00-21:00; Sa 12:00-14:30,17:00-21:00; Su 12:00-16:00",Q26505500,,White Lion,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/171397557,NR1 4LQ,pub,The Windmill,Su-Th 12:00-23:30; Fr 12:00-00:00; Sa 12:00-23:30,way/171397557,The Windmill,true,," Knox Road  
+  NR1 4LQ <br />
+  
+  
+  ",,,,,,food,Point,1.3195986;52.6353044,Norwich,GB,Knox Road,,915730,,,,yes,+44 1603 304180,5,no,https://www.facebook.com/norwichwindmill,,,,,,house,,,,,August 2012,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/171398600,NR3 2RE,pub,The Windmill,Mo-Sa 11:00-23:00; Su 12:00-22:30,way/171398600,The Windmill,true,,"211  Aylsham Road  
+  NR3 2RE <br />
+  
+  
+  ",,,,,,food,Point,1.2827773;52.6474832,Norwich,GB,Aylsham Road,,2402,,,,,+44 1603 405180,no,,,,,211,,,house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/171401299,NR2 1JG,pub,The Wine Cellar,"Mo,We 11:00-22:00; Tu,Th 11:00-23:00; Fr-Sa 11:00-00:00; Su 11:00-16:00",way/171401299,The Wine Cellar,true,,"8  Guildhall Hill  
+  NR2 1JG <br />
+  
+  NO WHEELCHAIR ACCESS 
+  Stair going down to access the whole build",,,,,,food,Point,1.2931435;52.6292783,Norwich,GB,Guildhall Hill,,34276,,,,,+44 1603 886100,no,,http://www.winecellarnorwich.co.uk/,no,,8,admin@winecellarnorwich.co.uk,,yes,,Q26303164,,Wine Press Bar & Bistro,,,,,,,,,,,,,,no,,,,,,,,,,,,,,,,,,,,,,,,,,,,Stair going down to access the whole build,,,,
+Feature,way/171402515,NR6 7QA,pub,The Woodman,Mo-Tu 15:00-23:00; We-Th 12:00-23:00; Fr-Sa 12:00-23:30; Su 12:00-22:30,way/171402515,The Woodman,true,,"11  North Walsham Road  
+  NR6 7QA <br />
+  
+  
+  ",,,,,,food,Point,1.3048423;52.6564969,Norwich,GB,North Walsham Road,,41262,,,,,+44 1603 426655,3,no,http://www.woodmannorwich.co.uk/,,,11,daz.reilly@hotmail.co.uk,,house,"We-Sa 12:00-15:00,18:00-21:00; Su 12:00-16:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/171607789,NR5 0TP,pub,Table Table,Mo-Sa 12:00-23:00; Su 12:00-22:30,way/171607789,Table Table,true,," Dereham Road  
+  NR5 0TP <br />
+  
+  
+  ",,,,,,food,Point,1.1834141;52.6505485,Norwich,GB,Dereham Road,Table Table,,,,,yes,+44 1603 749140,,,https://www.tabletable.co.uk/tabletable/our-pubs/norwich/the-showground.html,,,,,,yes,Mo-Sa 12:00-23:00; Su 12:00-22:30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Mo-Fr 06:30-10:30; Sa-Su 07:00-11:00
+Feature,way/171788604,NR2 4SG,pub,BrewDog,Mo-Th 12:00-00:00; Fr 12:00-02:00; Sa 11:00-02:00; Su 11:00-23:00,way/171788604,BrewDog,true,,"1  Queen Street  
+  NR2 4SG <br />
+  
+  
+  ",,,,,,food,Point,1.2975335;52.6301372,Norwich,GB,Queen Street,,893998,,,,yes,+44 1603 624317,25,,https://www.brewdog.com/bars/uk/norwich,,,1,norwichbar@brewdog.com,,house,,Q26303735,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/218893314,NR14 7PL,pub,The Gull Inn,,way/218893314,The Gull Inn,true,," Loddon Road  
+  NR14 7PL <br />
+  
+  
+  ",,,,,,food,Point,1.3723789;52.583539,Norwich,GB,Loddon Road,,,,,,yes,+44 1508 492039,yes,,http://www.thegull.co.uk/,,,,,,yes,,Q26302440,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/219985923,NR9 3LS,pub,The Kings Head,11:00-23:00,way/219985923,The Kings Head,true,," Harts Lane  
+  NR9 3LS <br />
+  
+  
+  ",,,,,,food,Point,1.1838936;52.6342463,Norwich,GB,Harts Lane,,647738,,,,,+44 1603 744977,,,http://www.kingshead-bawburgh.co.uk/,,,,kingsheadbawburgh@hotmail.com,,house,"Mo-Sa 12:00-14:00,17:30-21:00; Su 12:00-15:00",Q26463649,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/271019822,NR10 3HJ,pub,The Black Swan Inn,07:00-23:30,way/271019822,The Black Swan Inn,true,,"25  Norwich Road  
+  NR10 3HJ <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.2825534;52.6911749,Norwich,GB,Norwich Road,Punch Taverns,,,,,yes,+44 1603 897787,yes,,http://www.blackswaninn.co.uk/,yes,The Black Swan Inn,25,theblackswaninn@btinternet.com,,yes,"Mo-Th 12:00-14:30,18:00-21:00; Fr-Sa 12:00-14:30,18:00-21:00; Su 12:00-20:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/275166523,NR13 4AZ,pub,Kings Head,12:00-23:00,way/275166523,Kings Head,true,,"24  Station Road  
+  NR13 4AZ <br />
+  
+  
+  ",,,,,,food,Point,1.4911764;52.6227866,Norwich,GB,Station Road,,682628,,,,,+44 1603 717171,,,,,,24,,,house,,,,,,,,,,,,,,,Lingwood,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FHRS Open Data
+Feature,way/277264799,NR14 7AR,pub,The Ferry House,11:00-23:00,way/277264799,The Ferry House,true,,"1  Ferry Road  
+  NR14 7AR <br />
+  
+  
+  ",,,,,,food,Point,1.4086675;52.6166904,Norwich,GB,Ferry Road,,,,,,yes,+44 1508 538659,4,,https://surlinghamferry.co.uk/,,The Ferry House,1,,,house,11:00-21:00,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/297635714,NR10 3HH,pub,Elm Farm Country House,Mo-Sa 12:00-00:00; Su 12:00-22:00,way/297635714,Elm Farm Country House,true,,"55  Norwich Road  
+  NR10 3HH <br />
+  
+  
+  ",,,,,,food,Point,1.2806111;52.6887842,Norwich,GB,Norwich Road,,102022,,wlan,no,yes,+44 1603 898366,6,,https://www.elmfarmcountryhouse.co.uk/,,Elm Farm Country House,55,info@elmfarmcountryhouse.co.uk,,yes,"Mo-Sa 12:00-14:00,16:00-21:00; Su 12:00-16:00,17:00-20:30",,+44 1603 897129,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FHRS Open Data,hotel
+Feature,way/311081759,NR9 3AD,pub,The Village Inn,08:00-23:00,way/311081759,The Village Inn,true,,"33-43  School Lane  
+  NR9 3AD <br />
+  
+  
+  ",,,,,,food,Point,1.1936967;52.6163173,Norwich,GB,School Lane,,647842,,,,,+44 1603 812510,,,https://www.crowncarveries.co.uk/thevillageinnlittlemelton/,,Village Inn,33-43,,,yes,08:00-21:30; Jan 1 09:00-21:30; Dec 25-26 11:30-21:30,,,,,,Crown Carveries,,,,,,,,,,,,,,odd,,,,,,,,,,,,,,,,,,,,11:30-21:30,,,,,,,,,,,,,11:00-23:00
+Feature,way/321740525,NR13 6RW,pub,The Salhouse Bell,"Mo 17:00-23:00; Tu-Fr 12:00-15:00,17:00-23:00; Sa 12:00-23:30; Su 12:00-22:30",way/321740525,The Salhouse Bell,true,,"3  Lower Street  
+  NR13 6RW <br />
+  
+  
+  ",,,,,,food,Point,1.4103274;52.6775945,Norwich,GB,Lower Street,Enterprise Inns,,,,,yes,+44 1603 720220,yes,,http://www.salhousebell.co.uk/,,The Bell Inn,3,sirrobbo7@hotmail.com,survey,house,"Mo off; PH,Tu-Fr 12:00-14:00,18:00-21:00; Sa 12:00-21:00; Su 12:00-15:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/323856602,NR8 6AE,pub,The Cock Inn,Mo-Sa 11:00-23:00; Su 11:30-22:30,way/323856602,The Cock Inn,true,,"1  Drayton High Street  
+  NR8 6AE <br />
+  
+  
+  ",,,,,,food,Point,1.2248619;52.6759339,Norwich,GB,Drayton High Street,,43773,,wlan,,yes,+44 1603 869598,4,,https://www.cockinnpub.co.uk/,,,1,cock.inn.norwich@marstons.co.uk,,house,Mo-Sa 12:00-22:00; Su 12:00-21:00,,,Baileys,,,Marston's,The Cock,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/331722743,NR8 5DD,pub,The Bush,"Mo-Th 12:00-15:00,18:30-23:00; Fr 12:00-16:00,18:30-23:30; Sa 12:00-23:30; Su 12:00-17:00,19:00-23:30",way/331722743,The Bush,true,,"55  The Street  
+  NR8 5DD <br />
+  
+  
+  ",,,,,,food,Point,1.2131929;52.6619235,Norwich,,The Street,,647770,,,,yes,+44 1603 747227,yes,,,,,55,gfwilliamwilson@aol.com,,house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/350057330,NR10 3PE,pub,The Longe Arms,Mo-Th 10:30-23:00; Fr 10:30-01:00; Sa 12:00-01:00; Su 12:00-00:00,way/350057330,The Longe Arms,true,,"1  Crostwick Lane  
+  NR10 3PE <br />
+  
+  
+  ",,,,,,food,Point,1.3171208;52.6881069,Spixworth,GB,Crostwick Lane,Enterprise Inns,,,,,,+44 1603 929244,,,,,,1,,OS Vectormap,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/351522062,NR13 6AB,pub,The Maltsters,Mo-Sa 11:00-23:00; Su 11:00-22:30,way/351522062,The Maltsters,true,,"  
+  NR13 6AB <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.4888248;52.6774822,Norwich,GB,,,,,,,yes,+44 1603 270900,,,http://www.ranworthmaltsters.com/,yes,The Malsters,,info@ranworthmaltsters.com,OS Vectormap,house,"Mo-Su 12:00-15:00,18:00-21:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/360882268,NR13 6QH,pub,Sole & Heel,"Mo 17:00-23:00; Tu-We 12:00-15:00,17:00-23:00; Th-Su 12:00-23:00",way/360882268,Sole & Heel,true,," Salhouse Road  
+  NR13 6QH <br />
+  
+  
+  ",,,,,,food,Point,1.3772756;52.6618016,Norwich,GB,Salhouse Road,,44899,,,,,+44 1603 720146,,,https://www.soleandheel.co.uk/,,,,enquiries@soleandheel.co.uk,,house,"Tu-Sa 12:00-14:30,18:00-21:00; Su 12:00-16:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/361137684,NR13 5JH,pub,Brick Kilns,11:00-23:00,way/361137684,Brick Kilns,true,," Norwich Road  
+  NR13 5JH <br />
+  
+  
+  ",,,,,,food,Point,1.4186735;52.6621497,Norwich,GB,Norwich Road,Honeycomb,41628,,,,yes,+44 1603 720043,yes,,http://thebrickkilns.co.uk/,,The Brick Kilns,,admin@thebrickkilns.co.uk,,yes,"12:00-14:15,18:00-21:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Norwich Road
+Feature,way/384398667,NR14 7ED,pub,Water's Edge,,way/384398667,Water's Edge,true,," Woods End  
+  NR14 7ED <br />
+  
+  
+  ",,,,,,food,Point,1.3818644;52.6053285,Bramerton,,Woods End,,,,,,,+44 1508 538005,,,https://www.watersedgewoodsend.co.uk/,,,,,OS_OpenData_VectorMapLocal,yes,,,,The Woods End,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/384405656,NR13 5PL,pub,The Yare,,way/384405656,The Yare,true,," Riverside Estate  
+  NR13 5PL <br />
+  
+  
+  ",,,,,,food,Point,1.4388097;52.619099,Norwich,,Riverside Estate,,42047,,,,,,,,,,,,,Bing,yes,,,,,,,,,,,,,,,Brundall,FHRS Open Data,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/384408785,NR13 5LP,pub,The Ram,,way/384408785,The Ram,true,,"108  The Street  
+  NR13 5LP <br />
+  
+  
+  ",,,,,,food,Point,1.4281447;52.6253194,Norwich,,The Street,,455753,,,,,,,,,,,108,,OS_OpenData_VectorMapLocal,house,,,,,,,,,,,,,,,Brundall,FHRS Open Data,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/384418607,NR13 4AG,pub,The Huntsman,,way/384418607,The Huntsman,true,,"  
+  NR13 4AG <br />
+  
+  
+  ",,,,,,food,Point,1.4773445;52.6188131,,,,,,,,,,,,,,,,,,OS_OpenData_VectorMapLocal,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/384420161,,pub,The Shoulder Of Mutton,,way/384420161,The Shoulder Of Mutton,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.4692886;52.617349,,,,,44842,,,,,,,,,,,,,OS_OpenData_VectorMapLocal,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/387130600,,pub,Two Friends,,way/387130600,Two Friends,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.440692;52.6507338,,,,,,,,,,,,,,,,,,OS_OpenData_VectorMapLocal,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/401790775,NR13 6NQ,pub,Green Man,10:00+,way/401790775,Green Man,true,," Wroxham Road  
+  NR13 6NQ <br />
+  
+  
+  ",,,,,,food,Point,1.3736731;52.6837921,Norwich,GB,Wroxham Road,,41509,,,,,+44 1603 920990,,,http://www.greenman-rackheath.co.uk/,,,,info@greenman-rackheath.co.uk,,yes,12:00-21:00,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/642710900,NR7 0QY,pub,The Merchants of Spice,,way/642710900,The Merchants of Spice,true,,"127  Yarmouth Road  
+  NR7 0QY <br />
+  
+  
+  ",,,,,,food,Point,1.3495725;52.6272662,Norwich,,Yarmouth Road,,40271,,,,,,,,,,,127,,,yes,,,,,,,,,,,,,,,,FHRS Open Data,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Thorpe St Andrew
+Feature,way/661008150,,pub,The Racecourse,,way/661008150,The Racecourse,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.3513323;52.652338,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/700932051,,pub,The Beer House,,way/700932051,The Beer House,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.3068959;52.6270254,,,,,,,,,,,,,,,,,,,unit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,relation/2266583,NR2 1NR,pub,Coach & Horses,Mo-Th 11:30-23:30; Fr-Sa 11:30-00:00; Su off,relation/2266583,Coach & Horses,true,,"51  Bethel Street  
+  NR2 1NR <br />
+  
+  
+  ",,,,,,food,Point,1.2888629;52.6283686,Norwich,GB,Bethel Street,Greene King,941454,,,,,+44 1603 618522,6,yes,http://www.coachbethelst.co.uk/,,,51,coachbethelst@gmail.com,,house,"Mo-Sa 12:00-14:30,17:00-21:30; Su 12:00-18:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,multipolygon

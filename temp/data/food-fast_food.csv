@@ -1,0 +1,1011 @@
+type,id,addr:city,addr:housenumber,addr:postcode,addr:street,amenity,cuisine,fhrs:id,name,source:addr,id,F.caption,F.allowPopup,F.icon,F.location,F.facilities,F.availability,F.operator,F.contact,F.meta,F.layers,geometry.type,geometry.coordinates,brand,brand:wikidata,brand:wikipedia,drive_through,phone,takeaway,toilets,toilets:wheelchair,wheelchair,wheelchair:description,addr:country,opening_hours,ref,website,colour,description,note,source:addr:postcode,addr:village,email,indoor,building,addr:housename,old_name,internet_access,internet_access:fee,outdoor_seating,operator,delivery,source:building,start_date,minimum_order,addr:full,covered,layer,level,leasing_number,alt_name,not:addr:postcode,source:name,shop,source,addr:interpolation,contact:facebook,delivery:fee,delivery:min_payment,old_name2,strapline,phone:2,fax,FIXME,diet:pescetarian,smoking,building:levels,alt_phone,short_name,gambling,payment:card,payment:cash,addr:parentstreet,access:disabled,official_name,toilets:access,toilets:description,wheelchair:description:en,source:outline,addr:suburb,payment:credit_cards,payment:cryptocurrencies,payment:debit_cards,payment:electronic_purses,fixme,payment:cheque,payment:mastercard,payment:visa,payment:visa_debit,payment:visa_electron,phone_alt,wikidata,payment:maestro,payment:notes,payment:solo,ref:pol_id,type,diet:gluten_free,diet:vegan,facebook,instagram
+Feature,node/510145174,Norwich,35,NR1 3DY,Cattle Market Street,fast_food,kebab;pizza,8676,Top Kapi - Kebab House,FHRS Open Data,node/510145174,Top Kapi - Kebab House,true,,"35  Cattle Market Street  
+  NR1 3DY <br />
+  
+  
+  ",,,,,,food,Point,1.2986449;52.6278928
+Feature,node/1038499891,Norwich,18,NR2 1QJ,Haymarket,fast_food,burger,27479,McDonald's,FHRS Open Data,node/1038499891,McDonald's,true,,"18  Haymarket  
+  NR2 1QJ <br />
+  
+  Wheelchair accessible 
+  Easy access through electronic doors from Hayhill/Haymarket",,,,,,food,Point,1.2927065;52.6271956,McDonald's,Q38076,en:McDonald's,no,+44 1603 623391,yes,customers,Ground floor with easy access rails and low sinks.,yes,Easy access through electronic doors from Hayhill/Haymarket
+Feature,node/1317865563,,,,,fast_food,,,Megabites,,node/1317865563,Megabites,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.2844799;52.6384872,,,,,,,,,,
+Feature,node/1539929456,Norwich,11,NR2 1QD,Haymarket,fast_food,sandwich,15185,Pret A Manger,FHRS Open Data,node/1539929456,Pret A Manger,true,,"11  Haymarket  
+  NR2 1QD <br />
+  
+  
+  ",,,,,,food,Point,1.2934965;52.6271056,Pret A Manger,Q2109109,en:Pret a Manger,,,yes,,,,
+Feature,node/1824494500,Norwich,2,NR5 0SY,Dereham Road,fast_food,sandwich,648785,Subway,,node/1824494500,Subway,true,,"2  Dereham Road  
+  NR5 0SY <br />
+  
+  
+  ",,,,,,food,Point,1.2353726;52.6411779,,,,,+44 1603 271542,,,,,,GB,08:00-23:00,55386,http://www.subway.co.uk/
+Feature,node/1855526590,Norwich,,NR5 9JB,Barnard Road,fast_food,regional,1056196,The Bap Cave,,node/1855526590,The Bap Cave,true,," Barnard Road  
+  NR5 9JB <br />
+  Mobile catering<br />
+  
+  ",,,,,,food,Point,1.2133875;52.6428316,,,,,+44 7907 795444,,,,,,,Mo-Fr 07:00-15:00; Sa-Su closed,,,black;yellow,Mobile catering,Mobile kitchen. Only on site during opening hours.,code-point_open
+Feature,node/3250735961,Norwich,197,NR7 8AG,Wroxham Road,fast_food,fish_and_chips,94370,Golden Plaice,,node/3250735961,Golden Plaice,true,,"197  Wroxham Road  
+  NR7 8AG <br />
+  
+  
+  ",,,,,,food,Point,1.3246006;52.6584933,,,,,+44 1603 425921,,,,,,GB,,,,,,,,Sprowston
+Feature,node/3544832139,,,,,fast_food,sandwich,,Subway,,node/3544832139,Subway,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.2232105;52.6757641,,,,,+44 1603 867226,,,,,,,Mo-We 07:00-20:00; Th-Sa 07:00-21:00; Su 09:00-20:00,63310,http://www.subway.co.uk/,,,,,,pdeary@applegreen.ie,yes
+Feature,node/5478805912,Norwich,216,NR1 3HG,Queens Road,fast_food,chicken,915682,USA Fried Chicken,FSA Food Hygiene Ratings Database,node/5478805912,USA Fried Chicken,true,,"216  Queens Road  
+  NR1 3HG <br />
+  
+  
+  ",,,,,,food,Point,1.3000036;52.6209746,,,,,,,,,,,,,,,,,,,,,
+Feature,node/6195282042,Norwich,13,NR1 3RU,Orford Place,fast_food,fish_and_chips,735927,Orford Plaice,FHRS Open Data,node/6195282042,Orford Plaice,true,,"13  Orford Place  
+  NR1 3RU <br />
+  
+  
+  ",,,,,,food,Point,1.293957;52.6269459,,,,,,,,,,,,,,,,,,,,,
+Feature,node/6566009059,Norwich,,NR2 1QQ,Hay Hill,fast_food,sausages,27467,Top Dog,FHRS Open Data,node/6566009059,Top Dog,true,," Hay Hill  
+  NR2 1QQ <br />
+  
+  
+  ",,,,,,food,Point,1.2930258;52.6272765,,,,,,,,,,,,,,,,,,,,,,kiosk
+Feature,node/6568273970,Norwich,52,NR2 1LA,London Street,fast_food,sandwich,30134,Subway,FHRS Open Data,node/6568273970,Subway,true,,"52  London Street  
+  NR2 1LA <br />
+  
+  
+  ",,,,,,food,Point,1.2959833;52.6296039,Subway,Q244457,en:Subway (restaurant),no,,yes,,,,,,,,,,,,,,,,
+Feature,node/6568273971,Norwich,46,NR2 1LA,London Street,fast_food,,1089532,The Chicken Shop,FHRS Open Data,node/6568273971,The Chicken Shop,true,,"46  London Street  
+  NR2 1LA <br />
+  
+  
+  ",,,,,,food,Point,1.2957902;52.6294672,,,,,,,,,,,,,,,,,,,,,,
+Feature,node/6568299054,Norwich,17-19,NR1 3DH,Castle Meadow,fast_food,,1030465,Take a Break,FHRS Open Data,node/6568299054,Take a Break,true,,"17-19  Castle Meadow  
+  NR1 3DH <br />
+  
+  
+  ",,,,,,food,Point,1.2957178;52.6293288,,,,,,,,,,,,,,,,,,,,,,
+Feature,node/6573544543,Norwich,,NR4 7TE,Earlham Green Lane,fast_food,subs,937371,Subway,FHRS Open Data,node/6573544543,Subway,true,," Earlham Green Lane  
+  NR4 7TE <br />
+  
+  
+  ",,,,,,food,Point,1.2476235;52.6293942,,,,,,,,,,,,,,,,,Inside Coop Store,,,,,,Co-op Foodstore
+Feature,node/6573544551,Norwich,78,NR5 8DG,Cadge Road,fast_food,,7412,Britannia Kebab & Fish Bar,FHRS Open Data,node/6573544551,Britannia Kebab & Fish Bar,true,,"78  Cadge Road  
+  NR5 8DG <br />
+  
+  
+  ",,,,,,food,Point,1.2484283;52.633661,,,,,,,,,,,,,,,,,,,,,,,
+Feature,node/6582594508,Norwich,33,NR1 1BG,Prince of Wales Road,fast_food,,,Rocky Mountain Pizza Project,,node/6582594508,Rocky Mountain Pizza Project,true,,"33  Prince of Wales Road  
+  NR1 1BG <br />
+  
+  
+  ",,,,,,food,Point,1.3009999;52.6293306,,,,,,,,,,,,,,https://www.facebook.com/rockymoutainpizzaproject/,,,,,,,,,,Voodoo Daddy's Pizza
+Feature,way/32561155,,,NR5 0JS,William Frost Way,fast_food,burger,648248,McDonald's,FHRS Open Data,way/32561155,McDonald's,true,," William Frost Way  
+  NR5 0JS <br />
+  
+  
+  ",,,,,,food,Point,1.1855528;52.6515351,,,,,,,,,,,,,,,,,,,Old Costessey,,,yes,,
+Feature,way/32561301,Norwich,,NR5 0JS,William Frost Way,fast_food,chicken,648584,KFC,,way/32561301,KFC,true,," William Frost Way  
+  NR5 0JS <br />
+  
+  
+  ",,,,,,food,Point,1.1847648;52.6538587,,,,,,,,,,,GB,Mo-Su 10:30-23:00,,https://www.kfc.co.uk/,,,,,,,,yes,,,wlan,no,yes
+Feature,way/33617676,Norwich,162,NR1 2RT,Barrett Road,fast_food,burger,4413,McDonald's,,way/33617676,McDonald's,true,,"162  Barrett Road  
+  NR1 2RT <br />
+  
+  
+  ",,,,,,food,Point,1.2918215;52.6102116,McDonald's,Q38076,en:McDonald's,,+44 1603 619159,yes,,,,,GB,24/7,607,https://www.mcdonalds.co.uk/,,,,,,00607@uk.mcd.com,,yes,,,wlan,no,,K Foley Ltd
+Feature,way/71550738,Norwich,24,NR4 7LD,Eaton Street,fast_food,thai;chinese,564465,Planet Wok,,way/71550738,Planet Wok,true,,"24  Eaton Street  
+  NR4 7LD <br />
+  
+  
+  ",,,,,,food,Point,1.2512247;52.6083867,,,,,+44 1603 508000,only,,,,,GB,"Tu-Th,PH 17:00-20:30; Fr-Sa 17:00-21:30; Su-Mo off",,http://planetwok.co.uk/,,,,,,,,shop,,,,,,,yes,OS_OpenData_StreetView,2017-02-16
+Feature,way/84798510,Norwich,2a,NR5 8TX,Larkman Lane,fast_food,fish_and_chips,909808,Larkman Fish Bar,,way/84798510,Larkman Fish Bar,true,,"2a  Larkman Lane  
+  NR5 8TX <br />
+  
+  
+  ",,,,,,food,Point,1.2405271;52.6388828,,,,,+44 1603 458343,,,,,,GB,"Mo-Fr 11:30-13:45,16:30-23:00; Sa 11:30-14:00,16:30-22:30",,,,,,,,,,house,,,,,,,,OS_OpenData_StreetView,
+Feature,way/85704828,Norwich,,NR9 3AU,Thickthorn Service Area,fast_food,burger,,Burger King,,way/85704828,Burger King,true,," Thickthorn Service Area  
+  NR9 3AU <br />
+  
+  
+  ",,,,,,food,Point,1.2214648;52.6018646,,,,,+44 1603 505838,,,,,,GB,,,,,,,,,,,yes,,,,,,,,OS_OpenData_StreetView,
+Feature,way/104310151,Norwich,120,NR1 3HP,Hall Road,fast_food,kebab,1092844,Amigo’s,,way/104310151,Amigo’s,true,,"120  Hall Road  
+  NR1 3HP <br />
+  
+  
+  ",,,,,,food,Point,1.2971272;52.6177988,,,,,+44 1603 626260,,,,,,GB,Su-Th 16:00-00:00; Fr-Sa 16:00-01:00,,https://www.just-eat.co.uk/restaurants-norwich-amigos/,,,,,,,,yes,,,,,,,,,,£3.00 GBP
+Feature,way/106366982,Norwich,,NR6 6BB,Delft Way,fast_food,burger,1774,McDonald's,FHRS Open Data,way/106366982,McDonald's,true,," Delft Way  
+  NR6 6BB <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.2720075;52.6680581,,,,,,,,,yes,,,Su-We 06:00-24:00; Th-Sa 06:00-03:00,,,,,,,,,,yes,,,,,,,,,,
+Feature,way/107045851,Norwich,,NR1 3DD,Castle Mall,fast_food,burger,17607,Burger King,,way/107045851,Burger King,true,," Castle Mall  
+  <strong>Level:</strong>&nbsp;2.5 NR1 3DD <br />
+  
+  
+  ",,,,,,food,Point,1.296113;52.6273128,Burger King,Q177054,en:Burger King,,+44 1603 305835,yes,,,,,GB,,,https://www.burgerking.co.uk/,,,Needs positioning,,,,,unit,Kiosk 2,,,,,,,,,,"Kiosk 2, Food Court, Castle Mall Shopping Centre, NORWICH, NR1 3DD",yes,-2,2.5
+Feature,way/107045860,Norwich,,NR1 3DD,,fast_food,chicken,198466,Southern Fried Chicken,,way/107045860,Southern Fried Chicken,true,,"  
+  <strong>Level:</strong>&nbsp;2.5 NR1 3DD <br />
+  
+  
+  ",,,,,,food,Point,1.2960196;52.6273472,,,,,+44 1603 663816,,,,,,GB,,,http://www.southernfriedchicken.co.uk/,,,,,,,,unit,Unit 3,,,,,,,,,,,yes,-2,2.5
+Feature,way/107045928,Norwich,,NR1 3DD,,fast_food,jacket_potatoes,17645,Spudulike,,way/107045928,Spudulike,true,,"  
+  <strong>Level:</strong>&nbsp;2.5 NR1 3DD <br />
+  
+  
+  ",,,,,,food,Point,1.2959221;52.6273822,,,,,+44 1603 305877,,,,,,GB,,,,,,,,,,,unit,Unit 4,,,,,,,,,,,yes,-2,2.5
+Feature,way/108865891,Norwich,308,NR2 1SY,The Dining Terrace,fast_food,oriental,48593,ChopStix Noodle Bar,,way/108865891,ChopStix Noodle Bar,true,,"308  The Dining Terrace  
+  <strong>Level:</strong>&nbsp;2 NR2 1SY <br />
+  
+  
+  ",,,,,,food,Point,1.290545;52.6257128,,,,,,,,,,,GB,Mo-We 10:00-18:00;Th 10:00-20:00; Fr-Sa 10:00-19:00; Su 11:00-17:00,,http://www.chopstix.me/,,,,,,,,unit,FF C1,,,,,,,,,,,,2,2,95
+Feature,way/108865930,Norwich,309,NR2 1SY,The Dining Terrace,fast_food,chicken,1064619,KFC,,way/108865930,KFC,true,,"309  The Dining Terrace  
+  <strong>Level:</strong>&nbsp;2 NR2 1SY <br />
+  
+  
+  ",,,,,,food,Point,1.2906506;52.6257943,KFC,Q524757,en:KFC,,+44 1603 627904,yes,,,,,GB,Mo-We 09:00-18:00; Th 09:00-20:00; Fr-Sa 09:00-19:00; Su 11:00-17:00; PH 10:00-18:00,5838,https://www.kfc.co.uk/,,,,,,,,unit,FF C2,,,,,,,,,,,,2,2,96,Kentucky Fried Chicken
+Feature,way/108865998,Norwich,210,NR2 1SU,Merchants' Hall,fast_food,sandwich,915713,Pret A Manger,,way/108865998,Pret A Manger,true,,"210  Merchants' Hall  
+  <strong>Level:</strong>&nbsp;1 NR2 1SU <br />
+  
+  
+  ",,,,,,food,Point,1.2901185;52.6254288,Pret A Manger,Q2109109,en:Pret a Manger,,,yes,,,,,GB,,,,,,,,,,,unit,UG 01,,,,,,,,,,,,1,1,43,,NR2 1SH,FHRS Open Data
+Feature,way/108866001,Norwich,310,NR2 1SY,The Dining Terrace,fast_food,burger,15480,McDonald's,,way/108866001,McDonald's,true,,"310  The Dining Terrace  
+  <strong>Level:</strong>&nbsp;2 NR2 1SY <br />
+  
+  
+  ",,,,,,food,Point,1.290881;52.625922,McDonald's,Q38076,en:McDonald's,,+44 1603 626196,yes,,,,,GB,"Mo-We,Fr-Sa 07:30-19:00; Th 07:30-21:00; Su 09:00-18:00",1345,http://www.mcdonalds.com/,,,,,,1345@mcd.co.uk,,unit,FF C3,,,,,,,,,,,,2,2,97,,,
+Feature,way/108866020,Norwich,105,NR2 1SB,Saint Stephen's Arcade,fast_food,donut,915752,Krispy Kreme,,way/108866020,Krispy Kreme,true,,"105  Saint Stephen's Arcade  
+  <strong>Level:</strong>&nbsp;0 NR2 1SB <br />
+  Doughnuts<br />
+  
+  ",,,,,,food,Point,1.2913165;52.6251763,Krispy Kreme,Q1192805,en:Krispy Kreme,,,yes,,,,,GB,Mo-Sa 08:00-19:00; Su 10:00-17:00,,https://www.krispykreme.co.uk/,,Doughnuts,,,,,,shop,LG 05,,,,,,,,2016-09-02 10:00:00 BST,,,,,0,5,,,,confectionery
+Feature,way/108866034,Norwich,156-157,NR2 1SB,Saint Stephen's Arcade,fast_food,milkshake,515705,Shaake,,way/108866034,Shaake,true,,"156-157  Saint Stephen's Arcade  
+  <strong>Level:</strong>&nbsp;0 NR2 1SB <br />
+  
+  
+  ",,,,,,food,Point,1.2915189;52.6252094,,,,,,,,,,,GB,,,,,,,,,,,unit,LG 34-35,,,,,,,,,,,,,0,40,,,FHRS Open Data,
+Feature,way/108866052,Norwich,302,NR2 1SY,The Dining Terrace,fast_food,jacket_potato,15539,spudulike,,way/108866052,spudulike,true,,"302  The Dining Terrace  
+  <strong>Level:</strong>&nbsp;2 NR2 1SY <br />
+  
+  
+  ",,,,,,food,Point,1.2910813;52.6256282,,,,,+44 1603 624294,,,,,,GB,Mo-We 09:00-18:00; Th 09:00-20:00; Fr-Sa 09:00-19:00; Su 11:00-17:00; PH 10:00-18:00,,http://www.spudulike.co.uk/,,,,,,,,unit,FF C5,,,,,,,,,,,,2,2,99,,,,
+Feature,way/114453803,Norwich,179a,NR5 8RF,Earlham Green Lane,fast_food,fish_and_chips,810354,Neptune Fish Bar,,way/114453803,Neptune Fish Bar,true,,"179a  Earlham Green Lane  
+  NR5 8RF <br />
+  
+  
+  ",,,,,,food,Point,1.2341891;52.6369377,,,,,+44 1603 453339,,,,,,GB,Mo-Sa 15:00-00:00; Su 14:00-00:00,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,Bing
+Feature,way/114455226,Norwich,306,NR5 8AB,Bowthorpe Road,fast_food,fish_and_chips,14549,The Little Fish Bar,,way/114455226,The Little Fish Bar,true,,"306  Bowthorpe Road  
+  NR5 8AB <br />
+  
+  
+  ",,,,,,food,Point,1.2541506;52.6317322,,,,,+44 1603 623934,,,,,,GB,,,,,,,,,,,house,,,,,,,,,,,,,,,,,,,,Bing
+Feature,way/114511720,Norwich,94,NR7 0AQ,Harvey Lane,fast_food,fish_and_chips,1096617,Hartlands Fish Shop,,way/114511720,Hartlands Fish Shop,true,,"94  Harvey Lane  
+  NR7 0AQ <br />
+  
+  
+  ",,,,,,food,Point,1.3287151;52.6366507,,,,,+44 1603 433988,,,,,,GB,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,
+Feature,way/115016457,Norwich,556-558,NR5 8TU,Dereham Road,fast_food,chinese,15173,Peking Chinese Takeaway,,way/115016457,Peking Chinese Takeaway,true,,"556-558  Dereham Road  
+  NR5 8TU <br />
+  
+  
+  ",,,,,,food,Point,1.2427342;52.6387928,,,,,+44 1603 451045,,,,,,GB,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,Bing,even
+Feature,way/115753923,Norwich,"11,11a",NR4 7DH,Parmenter Road,fast_food,fish_and_chips;chinese,,Mr Chip Fish Bar and Chinese Takeaway,,way/115753923,Mr Chip Fish Bar and Chinese Takeaway,true,,"11,11a  Parmenter Road  
+  NR4 7DH <br />
+  
+  
+  ",,,,,,food,Point,1.2589919;52.6175837,,,,,+44 1603 451260,,,,,,GB,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,Bing,
+Feature,way/115982166,Norwich,7,NR5 0AB,Upper Stafford Avenue,fast_food,regional,712088,"Avenue Fish, Chicken & Pizza Place",,way/115982166,"Avenue Fish, Chicken & Pizza Place",true,,"7  Upper Stafford Avenue  
+  NR5 0AB <br />
+  We are a lovely food takeaway of different types of food including kebabs we also deliver in the evenings<br />
+  
+  ",,,,,,food,Point,1.2186824;52.6469404,,,,,+44 1603 745555,yes,,,,,GB,"Mo-Sa 12:00-14:00,16:30-21:00; Su closed",,,,We are a lovely food takeaway of different types of food including kebabs we also deliver in the evenings,,,,,,shop,,,,,,,Mo-Sa 17:00-21:00,,,,,,,,,,,,,,,avenuefishchickenandpizzaplace,£1.50 GBP @ order < £14.00,£8.00 GBP
+Feature,way/115982168,Norwich,3,NR5 0AB,Upper Stafford Avenue,fast_food,chinese,647602,China China Peking & Cantonese Take Away,,way/115982168,China China Peking & Cantonese Take Away,true,,"3  Upper Stafford Avenue  
+  NR5 0AB <br />
+  
+  
+  ",,,,,,food,Point,1.2189379;52.6468408,,,,,+44 1603 745622,,,,,,GB,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/116106252,Norwich,,NR6 5AL,Sweet Briar Road,fast_food,burger,72098,Burger King,,way/116106252,Burger King,true,," Sweet Briar Road  
+  NR6 5AL <br />
+  
+  
+  ",,,,,,food,Point,1.2613669;52.6502899,,,,,+44 1603 402424,,,,,,GB,,,http://burgerking.co.uk/,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,Bing,,,,
+Feature,way/116820355,Norwich,"144,144a",NR4 7AA,Colman Road,fast_food,fish_and_chips,564462,The Frying Machine,,way/116820355,The Frying Machine,true,,"144,144a  Colman Road  
+  NR4 7AA <br />
+  
+  
+  ",,,,,,food,Point,1.259735;52.6251463,,,,,+44 1603 506544,,,,,,GB,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,Bing,,,,
+Feature,way/116820500,Norwich,"142,142a",NR4 7AA,Colman Road,fast_food,chinese,801686,China Garden,,way/116820500,China Garden,true,,"142,142a  Colman Road  
+  NR4 7AA <br />
+  
+  
+  ",,,,,,food,Point,1.2597485;52.6250898,,,,,+44 1603 507798,,,,,,GB,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,Bing,,,,
+Feature,way/116820658,Norwich,81,NR4 7AE,Lovelace Road,fast_food,pizza;kebab;burger;chicken,14669,Dellacasa,,way/116820658,Dellacasa,true,,"81  Lovelace Road  
+  NR4 7AE <br />
+  
+  
+  ",,,,,,food,Point,1.2514112;52.6218774,,,,,+44 1603 453444,yes,,,,,GB,16:00+,,http://dellacasa-norwich.co.uk/,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,Bing,,,,
+Feature,way/118612266,Norwich,562,NR5 8TU,Dereham Road,fast_food,fish_and_chips,1110501,Trawlers Fish & Chips,,way/118612266,Trawlers Fish & Chips,true,,"562  Dereham Road  
+  NR5 8TU <br />
+  
+  
+  ",,,,,,food,Point,1.2422883;52.6388347,,,,,+44 1603 507777,yes,,,,,GB,,,https://www.facebook.com/trawlersfishandchips/,,,,,,,,shop,,Mr Cod & Fried Chicken,,,,,yes,,,,,,,,,,,,,Bing,,,,,The Codfather
+Feature,way/118612373,Norwich,560b,NR5 8TU,Dereham Road,fast_food,kebab;pizza,14330,O'Yes,,way/118612373,O'Yes,true,,"560b  Dereham Road  
+  NR5 8TU <br />
+  
+  
+  ",,,,,,food,Point,1.2424066;52.6388213,,,,,+44 1603 455255,,,,,,GB,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,Bing,,,,,,Kebab & Pizza House
+Feature,way/119331011,Norwich,15,NR1 3SP,Saint Stephens Road,fast_food,indian,69974,Good Food Tandoori,,way/119331011,Good Food Tandoori,true,,"15  Saint Stephens Road  
+  NR1 3SP <br />
+  
+  
+  ",,,,,,food,Point,1.2896786;52.6237055,,,,,+44 1603 765119,only,,,,,GB,Mo-Su 17:00-23:00,,http://www.goodfoodnorwich.co.uk/,,,,,,,,shop,,,,,,,yes,,,,,,,,,,,,,,,,,,,,+44 1603 765218
+Feature,way/119361735,Norwich,17,NR4 6DB,Friar Tuck Road,fast_food,fish_and_chips,20704,Ken's Fish Bar,,way/119361735,Ken's Fish Bar,true,,"17  Friar Tuck Road  
+  NR4 6DB <br />
+  
+  
+  ",,,,,,food,Point,1.2831308;52.6084238,,,,,+44 1603 454557,,,,,,GB,,,,,,,,,,,house,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119364441,Norwich,"74,82",NR3 2NU,Lefroy Road,fast_food,fish_and_chips,,Atlantis Fish Shop,,way/119364441,Atlantis Fish Shop,true,,"74,82  Lefroy Road  
+  NR3 2NU <br />
+  
+  
+  ",,,,,,food,Point,1.2702761;52.6521265,,,,,+44 1603 419792,,,,,,GB,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119369024,Norwich,"474,474a",NR3 4DY,Sprowston Road,fast_food,fish_and_chips,67956,Chip Stop,,way/119369024,Chip Stop,true,,"474,474a  Sprowston Road  
+  NR3 4DY <br />
+  
+  
+  ",,,,,,food,Point,1.3091186;52.6508393,,,,,+44 1603 424827,,,,,,GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119369539,Norwich,53,NR3 3HR,Angel Road,fast_food,fish_and_chips,1855,Chish & Fips,,way/119369539,Chish & Fips,true,,"53  Angel Road  
+  NR3 3HR <br />
+  
+  
+  ",,,,,,food,Point,1.2920996;52.6430394,,,,,+44 1603 475475,,,,,,GB,"Su-Mo off; Tu-Fr 12:00-13:30,16:30-21:00; Sa 11:45-13:30,16:30-21:00",,,,,,,,,,house,,,,,,,,,,,,,,,,,,,,,,,,,,,,+44 1536 723926
+Feature,way/119370217,Norwich,"86,86a",NR3 3AA,Catton Grove Road,fast_food,fish_and_chips,515706,Happy Fish and Chips,,way/119370217,Happy Fish and Chips,true,,"86,86a  Catton Grove Road  
+  NR3 3AA <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.2929605;52.6544353,,,,,+44 1603 426501,,,,yes,,GB,"Mo,We 16:00-20:00; Tu,Th 11:45-14:00,16:30-21:30; Fr 11:45-14:00,16:30+; Sa 11:45-14:00",,,,,,,,,,house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Fill the opening_hours gaps
+Feature,way/119371672,Norwich,"6,6a",NR1 3HQ,Hall Road,fast_food,fish_and_chips,24238,Golden Fish Bar,,way/119371672,Golden Fish Bar,true,,"6,6a  Hall Road  
+  NR1 3HQ <br />
+  
+  
+  ",,,,,,food,Point,1.2989124;52.6207572,,,,,+44 1603 621168,,,,,,GB,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119371974,Norwich,2,NR3 4TT,Silver Street,fast_food,fish_and_chips,65905,Inn Plaice,,way/119371974,Inn Plaice,true,,"2  Silver Street  
+  NR3 4TT <br />
+  
+  
+  ",,,,,,food,Point,1.2989539;52.6379249,,,,,+44 1603 622487,,,,,,GB,,,,,,,,,,,house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119372741,Norwich,193,NR3 2PG,Drayton Road,fast_food,fish_and_chips,18819,Lucky Fish Bar,,way/119372741,Lucky Fish Bar,true,,"193  Drayton Road  
+  NR3 2PG <br />
+  
+  
+  ",,,,,,food,Point,1.2759583;52.6456796,,,,,+44 1603 423259,,,,,,GB,,,,,,,,,,,house,,The Codfather,,,,,no,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119373107,Norwich,291,NR3 2RY,Aylsham Road,fast_food,fish_and_chips,661402,The Plaice For Taste,,way/119373107,The Plaice For Taste,true,,"291  Aylsham Road  
+  NR3 2RY <br />
+  
+  
+  ",,,,,,food,Point,1.2811824;52.6497946,,,,,+44 1603 400810,,,,,,GB,,,,,,,,,,,house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119377893,Norwich,123,NR1 3EY,Ber Street,fast_food,australian,586703,Flaming Galah's,,way/119377893,Flaming Galah's,true,,"123  Ber Street  
+  NR1 3EY <br />
+  
+  
+  ",,,,,,food,Point,1.2983494;52.6231014,,,,,+44 7837 915375,,,,,,GB,Mo-Sa 11:00-20:00; Su off,,https://www.facebook.com/FlamingGalahTheAussiePieStop/,,,,,,,,house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119378232,Norwich,"1,1a",NR7 9AA,Clancy Road,fast_food,fish_and_chips,,The Friars Inn,,way/119378232,The Friars Inn,true,,"1,1a  Clancy Road  
+  NR7 9AA <br />
+  
+  
+  ",,,,,,food,Point,1.330652;52.6446794,,,,,+44 1603 435401,,,,,,GB,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119378438,Norwich,84,NR3 4PD,Spencer Street,fast_food,fish_and_chips,67624,G M West,,way/119378438,G M West,true,,"84  Spencer Street  
+  NR3 4PD <br />
+  
+  
+  ",,,,,,food,Point,1.2995546;52.6404702,,,,,+44 1603 621606,,,,,,GB,,,,,,Owner Gerald West died aged 77 from lung cancer on 29th January 2013,,,,,house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119378624,Norwich,224,NR3 4HT,Sprowston Road,fast_food,fish_and_chips,67955,Golden Chicken & Fish Bar,,way/119378624,Golden Chicken & Fish Bar,true,,"224  Sprowston Road  
+  NR3 4HT <br />
+  
+  
+  ",,,,,,food,Point,1.3029887;52.6463111,,,,,+44 1603 427563,,,,,,GB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119379007,Norwich,28,NR2 2AY,Chester Street,fast_food,fish_and_chips,9017,Lee's Fish & Chips,,way/119379007,Lee's Fish & Chips,true,,"28  Chester Street  
+  NR2 2AY <br />
+  
+  
+  ",,,,,,food,Point,1.2793357;52.6225108,,,,,+44 1603 611472,,,,,,GB,,,,,,,,,,,house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119380490,Norwich,61,NR1 2JJ,Long John Hill,fast_food,fish_and_chips,937012,Long John Hill Fish Bar,,way/119380490,Long John Hill Fish Bar,true,,"61  Long John Hill  
+  NR1 2JJ <br />
+  
+  
+  ",,,,,,food,Point,1.301683;52.6104694,,,,,+44 1603 620932,,,,,,GB,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119384838,Norwich,3,NR1 2AD,Saint Johns Close,fast_food,fish_and_chips,22023,Rish and Chips,,way/119384838,Rish and Chips,true,,"3  Saint Johns Close  
+  NR1 2AD <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.294411;52.614423,,,,,+44 1603 624713,,,,yes,,GB,,,,,,,,,,,house,,,,,,Nick McLaren,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119385438,Norwich,141,NR3 2AD,Aylsham Road,fast_food,chicken;kebab;pizza;burger;fish_and_chips,1098603,Happy Fresh Fryer,,way/119385438,Happy Fresh Fryer,true,,"141  Aylsham Road  
+  NR3 2AD <br />
+  
+  
+  ",,,,,,food,Point,1.2841069;52.6457751,,,,,+44 1603 928690,,,,,,GB,Su-We 12:00-23:00; Th closed; Fr 16:00-23:00,,,,,,,,,,shop,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119388908,Norwich,59,NR3 3TH,Woodcock Road,fast_food,fish_and_chips,46936,Woodcock Fish Bar,,way/119388908,Woodcock Fish Bar,true,,"59  Woodcock Road  
+  NR3 3TH <br />
+  
+  
+  ",,,,,,food,Point,1.284653;52.6531289,,,,,+44 1603 427239,,,,,,GB,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119389360,Norwich,26,NR2 3BB,Stafford Street,fast_food,fish_and_chips,70290,The Chip Shop,,way/119389360,The Chip Shop,true,,"26  Stafford Street  
+  NR2 3BB <br />
+  
+  
+  ",,,,,,food,Point,1.275401;52.632479,,,,,+44 1603 627885,,,,,,GB,"Tu,Th 12:00-13:30; Tu-Sa 16:30-23:00; Fr,Sa 12:00-13:45",,,,,Flat above shop,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119389652,Norwich,28,NR2 1EL,Lower Goat Lane,fast_food,fish_and_chips,447484,Grosvenor Fish Bar,,way/119389652,Grosvenor Fish Bar,true,,"28  Lower Goat Lane  
+  NR2 1EL <br />
+  
+  Limited wheelchair access 
+  ",,,,,,food,Point,1.2915919;52.6299362,,,,,+44 1603 625855,,,no,limited,,GB,Mo-Sa 11:00-19:00,,http://www.fshshop.com/,,,,,,fshshop@gmail.com,,shop,,,,,,,,,,,,,,,,F'SH at the grosvenor,,,,,,,,,,,,,,no
+Feature,way/119390126,Norwich,"131,131a,131b",NR2 2PE,Unthank Road,fast_food,fish_and_chips,861574,Unthank Fish & Chips,,way/119390126,Unthank Fish & Chips,true,,"131,131a,131b  Unthank Road  
+  NR2 2PE <br />
+  
+  
+  ",,,,,,food,Point,1.2769194;52.6239812,,,,,+44 1508 520825,,,,,,GB,,,,,,,,,,,yes,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,outside
+Feature,way/119390978,Norwich,53,NR1 4JW,Saint Leonards Road,fast_food,fish_and_chips,69373,Massingham's Fish and Chip Shop,,way/119390978,Massingham's Fish and Chip Shop,true,,"53  Saint Leonards Road  
+  NR1 4JW <br />
+  
+  
+  ",,,,,,food,Point,1.3121873;52.6298266,,,,,+44 1603 620868,,,,,,GB,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119442559,Norwich,142,NR3 4TG,Silver Road,fast_food,fish_and_chips,65736,Silver Road Fish Bar,,way/119442559,Silver Road Fish Bar,true,,"142  Silver Road  
+  NR3 4TG <br />
+  
+  
+  ",,,,,,food,Point,1.3024326;52.6413588,,,,,+44 1603 423340,,,,,,GB,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119443396,Norwich,100,NR7 0AQ,Harvey Lane,fast_food,indian,572252,Quality Indian Takeaway,,way/119443396,Quality Indian Takeaway,true,,"100  Harvey Lane  
+  NR7 0AQ <br />
+  
+  
+  ",,,,,,food,Point,1.3289899;52.6367658,,,,,+44 1603 300002; +44 1603 700766,,,,,,GB,,,http://qualityindian.co.uk/,,,,,,,,shop,,,,,,17:00-23:00,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119443696,Norwich,130,NR2 3AF,Dereham Road,fast_food,thai,732907,Take Thai,,way/119443696,Take Thai,true,,"130  Dereham Road  
+  NR2 3AF <br />
+  
+  
+  ",,,,,,food,Point,1.2774506;52.633601,,,,,+44 1603 464646,,,,,,GB,Tu-Su 17:00-22:30,,http://www.takethai.co.uk/,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119455709,Norwich,144,NR3 4BB,Constitution Hill,fast_food,chinese,511304,Good World Chinese Takeaway,,way/119455709,Good World Chinese Takeaway,true,,"144  Constitution Hill  
+  NR3 4BB <br />
+  
+  
+  ",,,,,,food,Point,1.3007614;52.6495066,,,,,+44 1603 408394,,,,,,GB,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119456019,Norwich,166a,NR2 2AB,Unthank Road,fast_food,chinese;takeaway,661387,Hong Kong Fusion Takeaway,,way/119456019,Hong Kong Fusion Takeaway,true,,"166a  Unthank Road  
+  NR2 2AB <br />
+  
+  
+  ",,,,,,food,Point,1.276019;52.6227846,,,,,+44 1603 622851,yes,,,,,GB,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119456438,Norwich,282,NR3 2RG,Aylsham Road,fast_food,chinese,10471,Jin Gong,,way/119456438,Jin Gong,true,,"282  Aylsham Road  
+  NR3 2RG <br />
+  
+  
+  ",,,,,,food,Point,1.2807791;52.6490606,,,,,+44 1603 427903,,,,,,GB,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119456590,Norwich,189,NR3 2PG,Drayton Road,fast_food,chinese,16736,Kam Lee Chinese Take Away,,way/119456590,Kam Lee Chinese Take Away,true,,"189  Drayton Road  
+  NR3 2PG <br />
+  
+  
+  ",,,,,,food,Point,1.2761075;52.6457432,,,,,+44 1603 484052,,,,,,GB,,,,,,,,,,,house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119457845,Norwich,217a,NR3 2RE,Aylsham Road,fast_food,chinese,941453,Wok China,,way/119457845,Wok China,true,,"217a  Aylsham Road  
+  NR3 2RE <br />
+  
+  
+  ",,,,,,food,Point,1.2826078;52.6477136,,,,,+44 1603 788300,,,,,,GB,"Mo-Su,PH 16:30-23:00",,http://www.wokchina.co.uk/,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119463433,Norwich,8,NR3 3NS,Woodgrove Parade,fast_food,chinese,8711,Golden Place,,way/119463433,Golden Place,true,,"8  Woodgrove Parade  
+  NR3 3NS <br />
+  
+  
+  ",,,,,,food,Point,1.2917238;52.651539,,,,,+44 1603 419945,,,,,,GB,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119469630,Norwich,107,NR3 4DT,Shipfield,fast_food,chinese,65568,Kam Hon Take Away,,way/119469630,Kam Hon Take Away,true,,"107  Shipfield  
+  NR3 4DT <br />
+  
+  
+  ",,,,,,food,Point,1.3083042;52.6506897,,,,,+44 1603 429460,,,,,,GB,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119471060,Norwich,193,NR3 4QQ,Sprowston Road,fast_food,chinese,67951,China Star,,way/119471060,China Star,true,,"193  Sprowston Road  
+  NR3 4QQ <br />
+  
+  
+  ",,,,,,food,Point,1.3019893;52.6444189,,,,,+44 1603 424663,,,,,,GB,We-Mo 17:00-00:00,,https://chinastarnorwich.wixsite.com/2019,,,,,,,,shop,,King Wah,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119472515,Norwich,57,NR3 3TH,Woodcock Road,fast_food,chinese,18793,Royal Dynasty,,way/119472515,Royal Dynasty,true,,"57  Woodcock Road  
+  NR3 3TH <br />
+  
+  
+  ",,,,,,food,Point,1.2845283;52.6531287,,,,,+44 1603 411281,,,,,,GB,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119476455,Norwich,97,NR2 2PE,Unthank Road,fast_food,chinese,74968,Cantonese Kitchen,,way/119476455,Cantonese Kitchen,true,,"97  Unthank Road  
+  NR2 2PE <br />
+  
+  
+  ",,,,,,food,Point,1.2776969;52.6249569,,,,,+44 1603 614605,,,,,,GB,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119476680,Norwich,12,NR1 3HQ,Hall Road,fast_food,chinese,605927,Dragon Chinese Takeaway,,way/119476680,Dragon Chinese Takeaway,true,,"12  Hall Road  
+  NR1 3HQ <br />
+  
+  
+  ",,,,,,food,Point,1.2986777;52.6206392,,,,,+44 1603 501188,,,,,,GB,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119555440,Norwich,315,NR3 2AB,Aylsham Road,fast_food,chinese;thai,851580,Evergreen,,way/119555440,Evergreen,true,,"315  Aylsham Road  
+  NR3 2AB <br />
+  
+  
+  ",,,,,,food,Point,1.2797889;52.6525134,,,,,+44 1603 400780,,,,,,GB,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119556658,Norwich,14,NR2 4BH,Distillery Square,fast_food,chinese,14406,Golden City,,way/119556658,Golden City,true,,"14  Distillery Square  
+  NR2 4BH <br />
+  
+  
+  ",,,,,,food,Point,1.2814403;52.6325936,,,,,+44 1603 620489,,,,,,GB,"Tu-Th,Su,PH 17:00-23:30; Fr,Sa 17:00-24:00",,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119557178,Norwich,69a,NR1 4EX,Ketts Hill,fast_food,chinese,32248,Happy View,,way/119557178,Happy View,true,,"69a  Ketts Hill  
+  NR1 4EX <br />
+  
+  
+  ",,,,,,food,Point,1.3125545;52.6341357,,,,,+44 1603 618025,yes,,,,,GB,"We-Mo,PH 17:00-23:00; Tu off",,http://www.happyviewchinese.co.uk/,,,,,,,,house,Happy View Chinese Takeaway,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119557432,Norwich,67,NR1 4NS,Borrowdale Drive,fast_food,chinese,878405,Ken Tong Take-Away,,way/119557432,Ken Tong Take-Away,true,,"67  Borrowdale Drive  
+  NR1 4NS <br />
+  
+  
+  ",,,,,,food,Point,1.3227255;52.6396416,,,,,+44 1603 439818,,,,,,GB,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119557982,Norwich,361,NR3 2RX,Aylsham Road,fast_food,chinese,852370,New World Chinese,,way/119557982,New World Chinese,true,,"361  Aylsham Road  
+  NR3 2RX <br />
+  
+  
+  ",,,,,,food,Point,1.2778122;52.6561734,,,,,+44 1603 484716,,,,,,GB,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119559471,Norwich,89,NR2 2BD,Cambridge Street,fast_food,chinese,962119,China Express,,way/119559471,China Express,true,,"89  Cambridge Street  
+  NR2 2BD <br />
+  
+  
+  ",,,,,,food,Point,1.2822113;52.6232105,,,,,+44 1603 661177; +44 1603 665913,,,,,,GB,17:00-23:00,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119563267,Norwich,170,NR2 4DS,Nelson Street,fast_food,chinese;thai,846084,Zen,,way/119563267,Zen,true,,"170  Nelson Street  
+  NR2 4DS <br />
+  
+  
+  ",,,,,,food,Point,1.2762667;52.6390252,,,,,,,,,,,GB,,,http://www.zentakeaway.co.uk/,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119564363,Norwich,85,NR3 4PE,Spencer Street,fast_food,chinese,67625,Great Wall,,way/119564363,Great Wall,true,,"85  Spencer Street  
+  NR3 4PE <br />
+  
+  
+  ",,,,,,food,Point,1.3000062;52.6406675,,,,,+44 1603 627907,,,,,,GB,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119566558,Norwich,16,NR1 4ET,Bishop Bridge Road,fast_food,chinese,1100556,Lotus House,,way/119566558,Lotus House,true,,"16  Bishop Bridge Road  
+  NR1 4ET <br />
+  
+  
+  ",,,,,,food,Point,1.3094229;52.6336237,,,,,+44 1603 624888,,,,,,GB,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119566559,Norwich,18,NR1 4ET,Bishop Bridge Road,fast_food,fish_and_chips,1019486,Fish & Chips,,way/119566559,Fish & Chips,true,,"18  Bishop Bridge Road  
+  NR1 4ET <br />
+  
+  
+  ",,,,,,food,Point,1.3094318;52.6336746,,,,,+44 1603 395593,,,,,,GB,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119566561,Norwich,28,NR1 4ET,Bishop Bridge Road,fast_food,indian,911205,Hot Grill,,way/119566561,Hot Grill,true,,"28  Bishop Bridge Road  
+  NR1 4ET <br />
+  
+  
+  ",,,,,,food,Point,1.3094585;52.6338779,,,,,+44 1603 610013,,,,,,GB,"Mo off; Tu-Th,Su 16:00-22:00; Fr-Sa 16:00-23:00",,https://hotgrillnorwich.com/,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119567334,Norwich,105,NR3 1NY,Bull Close Road,fast_food,chinese,6919,Welcome Chinese Takeaway,,way/119567334,Welcome Chinese Takeaway,true,,"105  Bull Close Road  
+  NR3 1NY <br />
+  
+  
+  ",,,,,,food,Point,1.3002302;52.6373795,,,,,+44 1603 630932,,,,,,GB,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119568650,Norwich,"117b,117e",NR4 6LD,Ipswich Road,fast_food,chinese,22775,Yuan Feng,,way/119568650,Yuan Feng,true,,"117b,117e  Ipswich Road  
+  NR4 6LD <br />
+  
+  
+  ",,,,,,food,Point,1.2795656;52.6057691,,,,,+44 1603 502277,,,,,,GB,"Su,Mo,We,Th 17:00-23:00; Fr,Sa 17:00-23:30",,,,,,,,,,house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+Feature,way/119569108,Norwich,299,NR3 2RY,Aylsham Road,fast_food,chinese,48009,Lucky Star Chinese Take Away,,way/119569108,Lucky Star Chinese Take Away,true,,"299  Aylsham Road  
+  NR3 2RY <br />
+  
+  
+  ",,,,,,food,Point,1.2805124;52.6511261,,,,,+44 1603 483889,,,,,,GB,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119569259,Norwich,60,NR1 2NR,Sandy Lane,fast_food,chinese,1108812,New Island,,way/119569259,New Island,true,,"60  Sandy Lane  
+  NR1 2NR <br />
+  
+  
+  ",,,,,,food,Point,1.2968731;52.6052147,,,,,+44 1603 622621,,,,,,GB,,,,,,,,,,,retail,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119725975,Norwich,131,NR3 1NF,Magdalen Street,fast_food,thai,1137546,THAI Street,,way/119725975,THAI Street,true,,"131  Magdalen Street  
+  NR3 1NF <br />
+  
+  
+  ",,,,,,food,Point,1.2969543;52.6376934,,,,,+44 1603 474747,yes,,,,,GB,Tu-Su 17:00-22:30; Mo closed,,https://www.thaistreet.uk/,,,,,,info@thaistreet.uk,,shop,,,,,,,yes,,2019-02-07,,,,,,,,,,,,,,,,,,,,,,,2
+Feature,way/119731889,Norwich,229,NR1 3AE,Queens Road,fast_food,indian,61504,Mumbai Kitchen,,way/119731889,Mumbai Kitchen,true,,"229  Queens Road  
+  NR1 3AE <br />
+  
+  
+  ",,,,,,food,Point,1.3005812;52.6207495,,,,,+44 1603 629898,,,,,,GB,,,http://www.mumbaikitchennorwich.co.uk/,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119741841,Norwich,61,NR3 1JG,Magpie Road,fast_food,indian;bangladeshi,915746,Bengal Palace,,way/119741841,Bengal Palace,true,,"61  Magpie Road  
+  NR3 1JG <br />
+  
+  
+  ",,,,,,food,Point,1.2945201;52.6389981,,,,,+44 1603 496355,,,,,,GB,Su-Th 17:00-22:30; Tu off; Fr-Sa 17:00-23:00,,http://bengalpalacenorwich.co.uk/,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+44 1603 496356
+Feature,way/119743826,Norwich,101,NR2 4HT,Dereham Road,fast_food,chinese,974179,Furama,,way/119743826,Furama,true,,"101  Dereham Road  
+  NR2 4HT <br />
+  
+  
+  ",,,,,,food,Point,1.2801171;52.63348,,,,,+44 1603 662333,,,,,,GB,17:00-23:30,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119743827,Norwich,105,NR2 4HT,Dereham Road,fast_food,indian,14326,Lucky Tandoori,,way/119743827,Lucky Tandoori,true,,"105  Dereham Road  
+  NR2 4HT <br />
+  
+  
+  ",,,,,,food,Point,1.2799759;52.6335112,,,,,+44 1603 762555;+44 1603 762700,only,,,,,GB,Mo-Su 17:00-23:00,,https://www.luckytandoori.co.uk/,,,,,,enquiry@luckytandoori.co.uk,,shop,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119745260,Norwich,84,NR3 1EW,Waterloo Road,fast_food,indian,76176,Shah Zahan,,way/119745260,Shah Zahan,true,,"84  Waterloo Road  
+  NR3 1EW <br />
+  
+  
+  ",,,,,,food,Point,1.2937171;52.6416817,,,,,+44 1603 425 984,,,,,,GB,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119745504,Norwich,319,NR3 2AB,Aylsham Road,fast_food,indian,836839,Taj Mahal Indian Take Away,,way/119745504,Taj Mahal Indian Take Away,true,,"319  Aylsham Road  
+  NR3 2AB <br />
+  
+  
+  ",,,,,,food,Point,1.2797072;52.6527628,,,,,+44 1603 419252,,,,,,GB,17:00-23:00,,http://www.tajmahal-norwich.co.uk/,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/119747839,Norwich,105,NR2 2PE,Unthank Road,fast_food,,1089534,Yummies,,way/119747839,Yummies,true,,"105  Unthank Road  
+  NR2 2PE <br />
+  
+  
+  ",,,,,,food,Point,1.2776056;52.624739,,,,,,,,,,,GB,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/120679322,Norwich,478,NR3 4DY,Sprowston Road,fast_food,kebab,67957,Baba's,,way/120679322,Baba's,true,,"478  Sprowston Road  
+  NR3 4DY <br />
+  
+  
+  ",,,,,,food,Point,1.3092902;52.6509758,,,,,+44 1603 487820,,,,,,GB,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/120680606,Norwich,6,NR1 1BT,Saint Vedast Street,fast_food,pizza,,Munchies,,way/120680606,Munchies,true,,"6  Saint Vedast Street  
+  NR1 1BT <br />
+  
+  
+  ",,,,,,food,Point,1.3019601;52.6289575,,,,,+44 1603 625825,,,,,,GB,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/120680610,Norwich,69-71,NR1 1DG,Prince of Wales Road,fast_food,kebab,60923,The Best Turkish Kebab & Pizza,,way/120680610,The Best Turkish Kebab & Pizza,true,,"69-71  Prince of Wales Road  
+  NR1 1DG <br />
+  
+  
+  ",,,,,,food,Point,1.3025695;52.6288953,,,,,+44 1603 617517,,,,,,GB,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,odd,,,,,,,,,,,,
+Feature,way/120680940,Norwich,44,NR1 1PD,King Street,fast_food,kebab;pizza,915742,Caspian Kebab & Pizza,,way/120680940,Caspian Kebab & Pizza,true,,"44  King Street  
+  NR1 1PD <br />
+  
+  
+  ",,,,,,food,Point,1.2993068;52.6283073,,,,,+44 1603 620015,,,,,,GB,"Mo-Th 16:00-01:00, Fr,Sa 16:00-04:00",,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/120682119,Norwich,88,NR4 7EH,Colman Road,fast_food,pizza,30266,Domino's Pizza,,way/120682119,Domino's Pizza,true,,"88  Colman Road  
+  NR4 7EH <br />
+  
+  
+  ",,,,,,food,Point,1.2622783;52.621896,Domino's Pizza,Q839466,en:Domino's Pizza,,+44 1603 455666,yes,,,,,GB,11:00-23:00,,http://www.dominos.co.uk/,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Domino's
+Feature,way/120682123,Norwich,86,NR4 7EH,Colman Road,fast_food,chinese;asian,47821,East Chinese Takeaway,,way/120682123,East Chinese Takeaway,true,,"86  Colman Road  
+  NR4 7EH <br />
+  Opened by local brothers Ping and Hing Lau in August 2010<br />
+  
+  ",,,,,,food,Point,1.2623306;52.621862,,,,,+44 1603 501188,,,,,,GB,"Tu-Su,PH 17:00-23:00",,http://www.eastchinesetakeaway.com/,,Opened by local brothers Ping and Hing Lau in August 2010,,,,,,shop,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/120682127,Norwich,96,NR4 7EH,Colman Road,fast_food,pizza,747643,Papa John's,,way/120682127,Papa John's,true,,"96  Colman Road  
+  NR4 7EH <br />
+  
+  
+  ",,,,,,food,Point,1.2620628;52.6220361,Papa John's,Q2759586,en:Papa John's Pizza,,+44 1603 504433,yes,,,,,GB,Mo-Fr 16:30-23:00; Sa 11:30-23:00; Su 16:00-23:00,,https://www.papajohns.co.uk/,,,"Pizza sizes S,M,L,XL are 6 slice/9.5-inch up in 2 slice, 2-inch increments",,,,,shop,,,,,,Papa John's (GB) Ltd,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/120696138,Norwich,291a,NR3 2RY,Aylsham Road,fast_food,pizza,1087104,Star Grill,,way/120696138,Star Grill,true,,"291a  Aylsham Road  
+  NR3 2RY <br />
+  
+  
+  ",,,,,,food,Point,1.2810506;52.649831,,,,,+44 1603 400709,,,,,,GB,Su-Th 16:30-23:45; Fr-Sa 16:30-00:45,,,,,,,,,,house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/120698291,Norwich,87,NR1 1DG,Prince of Wales Road,fast_food,kebab;pizza,60924,Master Chef,,way/120698291,Master Chef,true,,"87  Prince of Wales Road  
+  NR1 1DG <br />
+  
+  
+  ",,,,,,food,Point,1.303323;52.628645,,,,,+44 1603 765555,,,,,,GB,Su 17:00-01:00; Mo-Sa 17:00-03:30,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/120699131,Norwich,181,NR1 4AB,Plumstead Road,fast_food,pizza,735928,Domino's,,way/120699131,Domino's,true,,"181  Plumstead Road  
+  NR1 4AB <br />
+  
+  
+  ",,,,,,food,Point,1.3260247;52.6366075,,,,,+44 1603 700400,,,,,,GB,11:00-05:00,,https://www.dominos.co.uk/norwich-east,,,,,,,,shop,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/121286440,Norwich,133;133a,NR4 7HA,Colman Road,fast_food,,878409,Pizza XS,,way/121286440,Pizza XS,true,,"133;133a  Colman Road  
+  NR4 7HA <br />
+  
+  
+  ",,,,,,food,Point,1.2605294;52.6250312,,,,,,,,,,,GB,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,Bing,,,,,,,,,,,,,,,betting
+Feature,way/121499362,Norwich,67,NR2 4HU,Dereham Road,fast_food,vietnamese,1051875,Vietnam Pho,,way/121499362,Vietnam Pho,true,,"67  Dereham Road  
+  NR2 4HU <br />
+  
+  
+  ",,,,,,food,Point,1.281445;52.633195,,,,,+44 1603 667788,,,,,,GB,,,http://vietnampho.co.uk/,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/121499366,Norwich,81,NR2 4HT,Dereham Road,fast_food,pizza;kebab,696530,Caesar's,,way/121499366,Caesar's,true,,"81  Dereham Road  
+  NR2 4HT <br />
+  
+  
+  ",,,,,,food,Point,1.2808447;52.6333887,,,,,,,,,,,GB,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,Bing,,,,,,,,,,,,,,,
+Feature,way/121499373,Norwich,28,NR2 4AZ,Dereham Road,fast_food,chinese,1070667,Wokaholic,,way/121499373,Wokaholic,true,,"28  Dereham Road  
+  NR2 4AZ <br />
+  
+  
+  ",,,,,,food,Point,1.2826021;52.6325054,,,,,+44 1603 886001,,,,,,GB,,,http://www.newwokaholic.co.uk/,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/121499468,Norwich,71,NR2 4HU,Dereham Road,fast_food,pizza; chicken,951801,Crown Pizza & Chicken,,way/121499468,Crown Pizza & Chicken,true,,"71  Dereham Road  
+  NR2 4HU <br />
+  
+  
+  ",,,,,,food,Point,1.2813036;52.6332304,,,,,,yes,,,,,GB,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/122398673,Norwich,,NR6 6SD,Mile Cross Lane,fast_food,chicken,358803,KFC Mile Cross,,way/122398673,KFC Mile Cross,true,," Mile Cross Lane  
+  NR6 6SD <br />
+  
+  
+  ",,,,,,food,Point,1.2838912;52.6578784,,,,,,yes,,,,,GB,Mo-Su 10:30-23:00,,https://www.kfc.co.uk/find-us?postcode=NR6%206SD&lat=52.65760604831675&lng=1.284327507019043&zoom=18,,,Opening hours for drive thru from website,,,,,retail,KFC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,outside,,,,,yes,yes
+Feature,way/122819592,Norwich,11,NR2 3PF,Earlham House Shops,fast_food,,,Mona Kebab & Pizza,,way/122819592,Mona Kebab & Pizza,true,,"11  Earlham House Shops  
+  NR2 3PF <br />
+  
+  
+  ",,,,,,food,Point,1.2686619;52.6289288,,,,,,,,,,,GB,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,survey,,,,,,,,,,,,,,,,,,Earlham Road
+Feature,way/122819601,Norwich,16c,NR2 3PD,Earlham House Shops,fast_food,indian,1070673,Rice & Spice,,way/122819601,Rice & Spice,true,,"16c  Earlham House Shops  
+  NR2 3PD <br />
+  
+  
+  ",,,,,,food,Point,1.2687357;52.6292952,,,,,+44 1603 503080; +44 1603 504020,,,,,,GB,"Mo-Th,PH 17:00-23:30; Fr,Sa 17:00-24:00; Su 17:00-22:30",,https://www.rice-and-spice.co.uk/,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,survey,,,,,,,,,,,,,,,,,,Earlham Road
+Feature,way/122819604,Norwich,9,NR2 3PD,Earlham House Shops,fast_food,chinese,666572,Royal Plaza,,way/122819604,Royal Plaza,true,,"9  Earlham House Shops  
+  NR2 3PD <br />
+  
+  
+  ",,,,,,food,Point,1.2687526;52.6287392,,,,,+44 1603 506888,,,,,,GB,,,https://www.royal-plaza.uk/,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,survey,,,,,,,,,,,,,,,,,,Earlham Road
+Feature,way/123011784,Norwich,10,NR5 9HA,Bowthorpe Main Centre,fast_food,chinese,1087106,Happy House,,way/123011784,Happy House,true,,"10  Bowthorpe Main Centre  
+  NR5 9HA <br />
+  
+  
+  ",,,,,,food,Point,1.2171201;52.637203,,,,,+44 1603 740011,,,,,,GB,,,,,,,,,,,shop,Unit 10,,,,,,,,,,,,,,,,,,,Bing,,,,,,,,,,,,,,,,,,
+Feature,way/123011786,Norwich,9,NR5 9HA,Bowthorpe Main Centre,fast_food,fish_and_chips;kebab;pizza,796473,Simply The Best Fish Kebab and Pizza,,way/123011786,Simply The Best Fish Kebab and Pizza,true,,"9  Bowthorpe Main Centre  
+  NR5 9HA <br />
+  
+  
+  ",,,,,,food,Point,1.2170118;52.6371867,,,,,+44 1603 748855,,,,,,GB,,,,,,,,,,,shop,Unit 9,,,,,,,,,,,,,,,,,,,Bing,,,,,,,,,,,,,,,,,,
+Feature,way/123077954,,,NR6 5JB,,fast_food,burger,,McDonald's,,way/123077954,McDonald's,true,,"  
+  NR6 5JB <br />
+  
+  
+  ",,,,,,food,Point,1.2692304;52.6544802,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,Bing,,,,,,,,,,,,,,,,,,
+Feature,way/128807401,Norwich,198,NR5 0EX,Norwich Road,fast_food,peking;cantonese,,Jade Garden,,way/128807401,Jade Garden,true,,"198  Norwich Road  
+  NR5 0EX <br />
+  
+  
+  ",,,,,,food,Point,1.2349054;52.6476132,,,,,+44 1603 748246,yes,,,,,GB,,,https://ratings.food.gov.uk/business/en-GB/930079/Jade-Garden-Norfolk,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,Bing,,,,,,,,,,,,,,,,,,
+Feature,way/135964029,Norwich,"17,27",NR1 3QA,Orford Place,fast_food,burger,915738,Five Guys,,way/135964029,Five Guys,true,,"17,27  Orford Place  
+  NR1 3QA <br />
+  
+  Wheelchair accessible 
+  ",,,,,,food,Point,1.2943556;52.6270504,Five Guys,Q1131810,en:Five Guys,,+44 1603 620763,yes,,,yes,,GB,Su-Th 11:00-23:00; Fr-Sa 11:00-00:00,,https://www.fiveguys.co.uk/,,,,,,,,retail,,Pizza Hut,,,,,,,2016-10-17T11:00:00+01:00,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,Five Guys Burgers and Fries,customers,1 disabled accessible toilet with easy access rails,Push Manual doors from Red Lion Street;staff door hosts to provide assistance.
+Feature,way/136090716,,,NR1 3QN,,fast_food,sandwich,,Subway,,way/136090716,Subway,true,,"  
+  NR1 3QN <br />
+  
+  
+  ",,,,,,food,Point,1.2928486;52.6252238,Subway,Q244457,en:Subway (restaurant),,,yes,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,Bing,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/137846577,,,,,fast_food,chinese,,Sun Rise,,way/137846577,Sun Rise,true,,"  
+  <br />
+  
+  
+  ",,,,,,food,Point,1.1761728;52.6005497,,,,,+44 1603 811387,,,,,,,,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Bing
+Feature,way/138439034,Norwich,161,NR7 0JG,Thunder Lane,fast_food,chinese,94354,Top Chef,FHRS Open Data,way/138439034,Top Chef,true,,"161  Thunder Lane  
+  NR7 0JG <br />
+  
+  
+  ",,,,,,food,Point,1.3431134;52.6347273,,,,,+44 1603 437772,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,Bing,,,,,,,,,,,,,,,,,,,,,,,,,Thorpe St Andrew
+Feature,way/165811179,Norwich,"26,26a,26b",NR4 7LD,Eaton Street,fast_food,fish_and_chips,564465,Eaton Fish Bar,,way/165811179,Eaton Fish Bar,true,,"26,26a,26b  Eaton Street  
+  NR4 7LD <br />
+  
+  
+  ",,,,,,food,Point,1.2511765;52.6083717,,,,,+44 1603 455222,only,,,,,GB,Su-Mo off; Tu-Th 17:00-20:45; Fr 17:00-21:30; Sa 17:00-21:00,,,,,,,,,,shop,,,,,,,no,OS_OpenData_StreetView,2014 Mar 5 11:30,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,no,no,no,no
+Feature,way/168880548,Norwich,27,NR2 2AA,Suffolk Square,fast_food,fish_and_chips,739692,New Sole Plaice,FHRS Open Data,way/168880548,New Sole Plaice,true,,"27  Suffolk Square  
+  NR2 2AA <br />
+  
+  
+  ",,,,,,food,Point,1.2829014;52.6251375,,,,no,+44 1603 620826,yes,,,,,GB,"Tu-Sa 11:45-14:00,16:30-20:00; Su-Mo off",,https://en-gb.facebook.com/pg/Newsoleplaice/,,,,,,,,yes,,,,,,,no,,,,,,,,,,,,,Bing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/171360586,Norwich,21,NR1 1BG,Prince of Wales Road,fast_food,,18689,Tastebuds,,way/171360586,Tastebuds,true,,"21  Prince of Wales Road  
+  NR1 1BG <br />
+  
+  
+  ",,,,,,food,Point,1.300448;52.6293252,,,,,,,,,,,GB,,,,,,,FHRS Open Data,,,,yes,,,,,,,,,,,,,,,,,,FSA Food Hygiene Ratings Database,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/171366877,Norwich,55,NR1 1BL,Prince of Wales Road,fast_food,turkish,666573,Vine Leaves,,way/171366877,Vine Leaves,true,,"55  Prince of Wales Road  
+  NR1 1BL <br />
+  
+  
+  ",,,,,,food,Point,1.3018245;52.6290911,,,,,,,,,,,GB,,,https://www.facebook.com/Vine-Leaves-707061915981655/,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Check if still open
+Feature,way/181274728,Norwich,173,NR5 8RF,Earlham Green Lane,fast_food,chinese,977295,Happy View,,way/181274728,Happy View,true,,"173  Earlham Green Lane  
+  NR5 8RF <br />
+  
+  
+  ",,,,,,food,Point,1.2344941;52.6368594,,,,,+44 1603 928688,yes,,,,,GB,"We-Mo,PH 17:00-23:00; Tu off",,http://www.happyviewchinese.co.uk/,,,,,,,,yes,Happy View Chinese Takeaway,,,,,,yes,,,,,,,,,,,,,Bing,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,no,yes,yes,yes,yes
+Feature,way/202664402,Norwich,43,NR1 1BL,Prince of Wales Road,fast_food,kebab,19292,Siciliano,,way/202664402,Siciliano,true,,"43  Prince of Wales Road  
+  NR1 1BL <br />
+  
+  
+  ",,,,,,food,Point,1.3014021;52.629252,,,,,+44 1603 763355,,,,,,GB,Su-Th 16:00-03:00; Fr-Sa 16:00-04:00,,https://sicilianoonline.co.uk/,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+44 1603 616045
+Feature,way/205593730,Norwich,21,NR2 1QE,Haymarket,fast_food,regional,27481,West Cornwall Pasty Co,,way/205593730,West Cornwall Pasty Co,true,,"21  Haymarket  
+  <strong>Level:</strong>&nbsp;0 NR2 1QE <br />
+  
+  
+  ",,,,,,food,Point,1.2931175;52.6277185,,,,no,+44 1844 205135,yes,,,,,,,,http://westcornwallpasty.co.uk,,,,,,,,shop,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/240855184,Norwich,1,NR1 3PY,Castle Meadow,fast_food,sandwich,30713,Urban Munch,,way/240855184,Urban Munch,true,,"1  Castle Meadow  
+  NR1 3PY <br />
+  
+  
+  ",,,,,,food,Point,1.2947807;52.6273992,,,,no,,yes,,,,,GB,Mo-Fr 09:30-16:00,,,,,,,,,,yes,,,,,yes,,no,,,,,,,,,,,,,,,,,,,,,,,,no,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/253360635,Norwich,75,NR3 1AA,Magdalen Street,fast_food,sandwich,457280,Subway,,way/253360635,Subway,true,,"75  Magdalen Street  
+  NR3 1AA <br />
+  
+  
+  ",,,,,,food,Point,1.2967243;52.6360972,Subway,Q244457,en:Subway (restaurant),,+44 1603 664477,yes,,,,,GB,Mo-Fr 07:00-20:00; Sa 09:00-20:00; Su 10:00-20:00,57010,http://www.subway.co.uk/,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q26653891
+Feature,way/277622213,,14,NR9 3AB,Great Melton Road,fast_food,fish_and_chips,648592,Tasty Bites,FHRS Open Data,way/277622213,Tasty Bites,true,,"14  Great Melton Road  
+  NR9 3AB <br />
+  
+  
+  ",,,,,,food,Point,1.1763092;52.6008746,,,,,+44 1603 811333,,,,,,,,,,,,,,Hethersett,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/314264580,Norwich,101a,NR1 1DW,Prince of Wales Road,fast_food,sandwich,682955,Subway,,way/314264580,Subway,true,,"101a  Prince of Wales Road  
+  NR1 1DW <br />
+  
+  
+  ",,,,,,food,Point,1.3044051;52.6281507,Subway,Q244457,en:Subway (restaurant),,+44 1603 666116,yes,,,,,GB,Mo-Th 07:00-20:00; Fr 07:00-23:00; Sa 09:00-23:00; Su 10:00-20:00,,http://www.subway.co.uk/store-finder/store-detail.aspx?sid=453055469,,,,,,,,yes,Wensum House,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/322932514,Norwich,297a,NR8 6LE,Fakenham Road,fast_food,chinese,94556,Dragon Palace,,way/322932514,Dragon Palace,true,,"297a  Fakenham Road  
+  NR8 6LE <br />
+  
+  
+  ",,,,,,food,Point,1.1973982;52.686065,,,,,+44 1603 861199,,,,,,GB,"Su-We,PH 17:00-22:30; Th-Sa 17:00-23:00; Tu off",,,,,Cash payment only,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/322932517,Norwich,295,NR8 6LE,Fakenham Road,fast_food,fish_and_chips,94551,Ocean Fish Bar,,way/322932517,Ocean Fish Bar,true,,"295  Fakenham Road  
+  NR8 6LE <br />
+  
+  
+  ",,,,,,food,Point,1.1975386;52.6860379,,,,,+44 1603 867279,,,,,,GB,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/329618461,Norwich,29,NR3 3BE,Saint Augustine's Gate,fast_food,pizza,26370,Domino's Pizza,,way/329618461,Domino's Pizza,true,,"29  Saint Augustine's Gate  
+  NR3 3BE <br />
+  
+  
+  ",,,,,,food,Point,1.2908723;52.6392947,Domino's Pizza,Q839466,en:Domino's Pizza,,+44 1603 622977,yes,,,,,GB,11:00-23:00,,,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Domino's,,,,Waterloo Road,,,,,,,,,,,,,,,,,,,
+Feature,way/329618462,Norwich,30,NR3 3BE,Saint Augustine's Gate,fast_food,fish_and_chips,35705,Star Fish Bar,FHRS Open Data,way/329618462,Star Fish Bar,true,,"30  Saint Augustine's Gate  
+  NR3 3BE <br />
+  
+  
+  ",,,,,,food,Point,1.290804;52.6393495,,,,,+44 1603 663880,,,,,,GB,"Mo-Tu 17:00-22:00; We 11:30-13:30,17:00-22:00; Th 11:30-13:30,16:30-22:00; Fr 11:00-13:00,16:30-22:30; Sa 11:30-14:00,16:30-22:30; Su 17:00-22:00",,https://www.starfishbar.co.uk/,,,,,,,,shop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Waterloo Road,,,,,,,,,,,,,,,,,,,
+Feature,way/329618463,Norwich,1,NR3 3BE,Saint Augustine's Gate,fast_food,chinese;thai,,Wokaholic,,way/329618463,Wokaholic,true,,"1  Saint Augustine's Gate  
+  NR3 3BE <br />
+  
+  
+  ",,,,,,food,Point,1.2907359;52.6394044,,,,,,,,,,,GB,"Su-Th 16:00-23:00; Fr,Sa 16:00-00:00",,http://www.wokaholicnorwich.co.uk/,,,,,,,,shop,Unit 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/330356549,Norwich,68,NR1 1LT,Prince of Wales Road,fast_food,charcoal_grill,48140,Ossi's,,way/330356549,Ossi's,true,,"68  Prince of Wales Road  
+  NR1 1LT <br />
+  
+  
+  ",,,,,,food,Point,1.3023476;52.6292969,,,,,,yes,,,,,GB,"Mo,We-Fr 17:00-02:45; Tu,Su 17:00-00:45; Sa 17:00-01:45",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/330651023,Norwich,98,NR1 1NJ,Prince of Wales Road,fast_food,chicken,,DFChicken,,way/330651023,DFChicken,true,,"98  Prince of Wales Road  
+  NR1 1NJ <br />
+  
+  
+  ",,,,,,food,Point,1.3034769;52.6289028,,,,,,,,,,,GB,,,,,,Southern Fried Chicken,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/330651026,Norwich,74,NR1 1NJ,Prince of Wales Road,fast_food,pizza;kebab;chicken,661383,Piccolos,,way/330651026,Piccolos,true,,"74  Prince of Wales Road  
+  NR1 1NJ <br />
+  
+  
+  ",,,,,,food,Point,1.3026683;52.6291601,,,,,+44 1603 761076,,,,,,GB,Su-Fr 16:30-13:00; Sa 16:30-00:00,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/338043918,Norwich,110,NR6 5JE,Boundary Road,fast_food,sandwich,708899,Subway,,way/338043918,Subway,true,,"110  Boundary Road  
+  NR6 5JE <br />
+  
+  
+  ",,,,,,food,Point,1.268017;52.6541637,,,,,+44 1603 400212,,,,,,GB,Mo-Th 07:00-21:00; Fr-Sa 07:00-22:00; Su 09:00-20:00,58759,http://www.subway.co.uk/,,,,,,rai_ec99@yahoo.co.uk,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/346912107,Norwich,13a,NR8 6NU,Victoria Road,fast_food,chinese;thai,110581,Lucky House Chinese & Thai,,way/346912107,Lucky House Chinese & Thai,true,,"13a  Victoria Road  
+  NR8 6NU <br />
+  
+  
+  ",,,,,,food,Point,1.2015545;52.6807685,,,,,+44 1603 866662,,,,,,GB,17:00-21:00,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/346912110,Norwich,13b,NR8 6NU,Victoria Road,fast_food,fish_and_chips,747059,Taverham Fish Bar,,way/346912110,Taverham Fish Bar,true,,"13b  Victoria Road  
+  NR8 6NU <br />
+  
+  
+  ",,,,,,food,Point,1.2015136;52.6807214,,,,,+44 1603 260271,,,,,,GB,"Mo-Sa 11:30-14:00,16:30-21:00; Su off",,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/348670674,Norwich,19,NR3 1LA,Wensum Street,fast_food,pizza,457282,Pizza GoGo,,way/348670674,Pizza GoGo,true,,"19  Wensum Street  
+  NR3 1LA <br />
+  
+  
+  ",,,,,,food,Point,1.2977464;52.6325656,,,,,+44 1603 760056,,,,,,GB,,,http://www.pizzagogo.co.uk/,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,survey,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/378027110,Norwich,20,NR8 5AG,West End,fast_food,chinese;thai,799234,Happy Valley,,way/378027110,Happy Valley,true,,"20  West End  
+  NR8 5AG <br />
+  
+  
+  ",,,,,,food,Point,1.208088;52.6592444,,,,,+44 1603 731199,,,,,,GB,Su-Th 17:00-22:00; Fr-Sa 17:00-23:00,,https://www.facebook.com/Happyvalley.cotessey/,,,Cash only,,,,,yes,,,,,,,,,2015-08-03,,,,,,,,,,,,,,,,,Chinese & Thai Food,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/384406555,Norwich,,NR13 5AR,Yarmouth Road,fast_food,burger,142396,McDonald's,FHRS Open Data,way/384406555,McDonald's,true,," Yarmouth Road  
+  NR13 5AR <br />
+  
+  
+  ",,,,,,food,Point,1.4281366;52.6319588,,,,,+44 1603 211466,,,,,,GB,24/7,,https://www.mcdonalds.co.uk/,,,,,Blofield,,,yes,,,wlan,no,,,,,,,,,,,,,,,,OS_OpenData_VectorMapLocal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/384408370,Norwich,72,NR13 5LH,The Street,fast_food,,95902,New World,FHRS Open Data,way/384408370,New World,true,,"72  The Street  
+  NR13 5LH <br />
+  
+  
+  ",,,,,,food,Point,1.4332067;52.6244975,,,,,,,,,,,,,,,,,,,Brundall,,,yes,,,,,,,,,,,,,,,,,,,,OS_OpenData_VectorMapLocal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/384419214,Norwich,,NR13 4BH,Norwich Road,fast_food,fish_and_chips,94457,Lingwood Chippie,FHRS Open Data,way/384419214,Lingwood Chippie,true,," Norwich Road  
+  NR13 4BH <br />
+  
+  
+  ",,,,,,food,Point,1.482673;52.6188665,,,,,,,,,,,,,,,,,,,Lingwood,,,yes,,,,,,,,,,,,,,,,,,,,OS_OpenData_VectorMapLocal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/457392362,Norwich,207,NR1 4AB,Plumstead Road,fast_food,pizza,582627,Papa John's,,way/457392362,Papa John's,true,,"207  Plumstead Road  
+  NR1 4AB <br />
+  
+  
+  ",,,,,,food,Point,1.3279593;52.6372107,,,,,+44 1603 709090,,,,,,GB,,,https://www.papajohns.co.uk/,,,,,,,,house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/484357150,Norwich,2,NR4 7FF,Dragonfly Lane,fast_food,pizza;burger;kebab;doner,1110780,Enjoy Eat,,way/484357150,Enjoy Eat,true,,"2  Dragonfly Lane  
+  NR4 7FF <br />
+  
+  
+  ",,,,,,food,Point,1.2303432;52.6100412,,,,,+44 1603 503722,yes,,,,,GB,Mo-Su 12:00-23:00,,http://www.enjoyeatpizza.co.uk/,,,,,,,,retail,Unit 2,,,,,,yes,,,,,,,,,EnjoyEat Pizza,,,,,,,,£10 GBP,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,yes,yes,yes,yes,,,yes,no,yes
+Feature,way/484357157,Norwich,3,NR4 7FF,Dragonfly Lane,fast_food,fish_and_chips,950043,Go Fish,,way/484357157,Go Fish,true,,"3  Dragonfly Lane  
+  NR4 7FF <br />
+  
+  
+  ",,,,,,food,Point,1.2304248;52.6099986,,,,,+44 1603 453858,only,,,,,GB,"Mo-Fr 11:45-14:30,16:30-20:45; Sa 11:45-20:45; Su off",,http://gofish.menu/,,,,,,eat@gofish.menu,,retail,Unit 3,,,,,Jimmy Demetriou,,,2017-03-20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/494282180,Norwich,47,NR2 3JU,Portersfield Road,fast_food,,896814,Mr Pizza,FHRS Open Data,way/494282180,Mr Pizza,true,,"47  Portersfield Road  
+  NR2 3JU <br />
+  
+  
+  ",,,,,,food,Point,1.2753946;52.6251727,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/498396556,Norwich,5,NR6 5DH,Blackberry Court,fast_food,coffee_shop,836846,Costa Coffee,,way/498396556,Costa Coffee,true,,"5  Blackberry Court  
+  NR6 5DH <br />
+  
+  
+  ",,,,,,food,Point,1.2593202;52.650824,,,,,,,,,,,,,,https://www.costa.co.uk/,,,,,,,,commercial,Costa Coffee,,,,,,,,2017,,,,,,,,,,,,,,,,,,,,,,outside,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/543475950,Norwich,,NR9 3AU,Norwich Road,fast_food,burger,,McDonald's,,way/543475950,McDonald's,true,," Norwich Road  
+  NR9 3AU <br />
+  
+  
+  ",,,,,,food,Point,1.2225575;52.6036873,,,,,+44 1603 503594,,,,,,GB,24/7,SO140,https://en-gb.facebook.com/pg/Thickthorn-McDonalds-118419662195679,,,,,,01518@uk.mcd.com,,yes,,,wlan,no,yes,,,,2017-11-29 01:31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/550087932,Norwich,4,NR8 6PW,Fakenham Road,fast_food,pizza,1024033,Domino's Pizza,,way/550087932,Domino's Pizza,true,,"4  Fakenham Road  
+  NR8 6PW <br />
+  
+  
+  ",,,,,,food,Point,1.2232275;52.6762889,,,,,,,,,,,GB,Mo-Su 11:00-23:00,,https://www.dominos.co.uk/norwich-drayton,,,,,Drayton,,,yes,,,,,,Domino's Pizza,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,931
+Feature,way/569561408,,213,NR1 3AE,Queens Road,fast_food,caribbean,1098602,Mystic River,,way/569561408,Mystic River,true,,"213  Queens Road  
+  NR1 3AE <br />
+  
+  
+  ",,,,,,food,Point,1.299892;52.6208057,,,,,,,,,,,,,,,,,,FSA Food Hygiene Ratings Database,,,,yes,,,,,,,,,,,,,,,,,,,,Bing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/661743307,Norwich,2,NR2 1QP,Rampant Horse Street,fast_food,sandwich,22345,Subway,FHRS Open Data,way/661743307,Subway,true,,"2  Rampant Horse Street  
+  <strong>Level:</strong>&nbsp;0 NR2 1QP <br />
+  
+  
+  ",,,,,,food,Point,1.2925585;52.6268985,Subway,Q244457,en:Subway (restaurant),,,yes,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/661752353,Norwich,78,NR3 3AA,Catton Grove Road,fast_food,,1157753,Ali Andos Peri Peri Chicken,,way/661752353,Ali Andos Peri Peri Chicken,true,,"78  Catton Grove Road  
+  NR3 3AA <br />
+  
+  
+  ",,,,,,food,Point,1.2929857;52.6542561,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/689433091,Norwich,,NR1 1EF,Station Approach,fast_food,sandwich,1070666,Subway,FHRS Open Data,way/689433091,Subway,true,," Station Approach  
+  NR1 1EF <br />
+  
+  
+  ",,,,,,food,Point,1.3064068;52.6266279,Subway,Q244457,en:Subway (restaurant),no,+44 1473 862032,yes,,,,,,Mo-Su 07:00-22:00,,,,,,,,,,retail,Norwich Railway Station,,,,,Subway IP Inc,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/693886521,,33,NR1 3QA,Orford Place,fast_food,,878426,Chopstix,FHRS Open Data,way/693886521,Chopstix,true,,"33  Orford Place  
+  NR1 3QA <br />
+  
+  
+  ",,,,,,food,Point,1.2944265;52.6271828,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/700132762,Norwich,32,NR5 8AD,Earlham West Centre,fast_food,pizza,1035003,Earlham Pizza,FHRS Open Data,way/700132762,Earlham Pizza,true,,"32  Earlham West Centre  
+  <strong>Level:</strong>&nbsp;0 NR5 8AD <br />
+  
+  
+  ",,,,,,food,Point,1.2408265;52.6321961,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/700132767,Norwich,28,NR5 8AD,Earlham West Centre,fast_food,chinese,937007,BBQ,FHRS Open Data,way/700132767,BBQ,true,,"28  Earlham West Centre  
+  <strong>Level:</strong>&nbsp;0 NR5 8AD <br />
+  
+  
+  ",,,,,,food,Point,1.2408787;52.6320278,,,,,,,,,,,,,,,,,,,,,,retail,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,way/700938334,Norwich,17,NR1 1BD,Prince Of Wales Road,fast_food,,998635,Krasadis Taverna,FHRS Open Data,way/700938334,Krasadis Taverna,true,,"17  Prince Of Wales Road  
+  NR1 1BD <br />
+  
+  
+  ",,,,,,food,Point,1.3002137;52.629356,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,Bing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Feature,relation/2180494,Norwich,92-93,NR2 1ND,Market Place,fast_food,chinese,915749,The China Wok & Curry Stop,FHRS Open Data,relation/2180494,The China Wok & Curry Stop,true,,"92-93  Market Place  
+  NR2 1ND <br />
+  Delicious Chinese takeaway with all the firm favourites including noodles, chicken balls, salt and pepper dishes, black bean dishes and more.<br />
+  
+  ",,,,,,food,Point,1.2928677;52.6284804,,,,,+44 7577 423035,,,,,,,Mo-Sa 11:00-16:00; Su closed,,https://www.norwich.gov.uk/directory_record/909/china_wok,,"Delicious Chinese takeaway with all the firm favourites including noodles, chicken balls, salt and pepper dishes, black bean dishes and more.",,,,,,,,,,,,,,,,,,,,,,,,FSA Food Hygiene Ratings Database,,,,,,,,,,,,,,,,China Wok,,,,,,,,,,,,,,,,,,,,,,,,,,,,multipolygon
+Feature,relation/2180495,Norwich,94-95,NR2 1ND,Market Place,fast_food,fish_and_chips,17813,Rons Fish & Chips,FHRS Open Data,relation/2180495,Rons Fish & Chips,true,,"94-95  Market Place  
+  NR2 1ND <br />
+  Established in 1953 and widely-renowned for its tasty homemade chips, Ron's serve up cod and sausages in their own homemade batter along with hand-cut chips and cold drinks to wash it all down with.<br />
+  
+  ",,,,,,food,Point,1.2927329;52.6284869,,,,,,,,,,,,Mo-Sa; Su closed,,https://www.norwich.gov.uk/directory_record/924/rons_fish_and_chips,,"Established in 1953 and widely-renowned for its tasty homemade chips, Ron's serve up cod and sausages in their own homemade batter along with hand-cut chips and cold drinks to wash it all down with.",,,,,,,,,,,,,,,1953,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,multipolygon
+Feature,relation/2181554,Norwich,116;119,NR2 1ND,Market Place,fast_food,regional,21457,Debs Teas & Coffee,FHRS Open Data,relation/2181554,Debs Teas & Coffee,true,,"116;119  Market Place  
+  NR2 1ND <br />
+  A hearty breakfast selection featuring everything from bacon, sausages, eggs, and toast can be found at this popular stall along with burgers and cold choices including filled rolls, cakes and scones, with teas, coffees and cold drinks.<br />
+  
+  ",,,,,,food,Point,1.2926428;52.6285625,,,,,,,,,,,,Mo-Fr 07:00-15:00; Sa 07:00-17:00; Su closed,,https://www.norwich.gov.uk/directory_record/907/debs,,"A hearty breakfast selection featuring everything from bacon, sausages, eggs, and toast can be found at this popular stall along with burgers and cold choices including filled rolls, cakes and scones, with teas, coffees and cold drinks.",,,,,,,,,,,,Debs',,,,,,,,,,,,,,,,,,,,,,,,,,,,Deb's,,,,,,,,,,,,,,,,,,,,,,,,,,,,multipolygon
+Feature,relation/2181560,Norwich,25,NR2 1ND,Market Place,fast_food,spanish,1084405,Churros & Chorizo,FHRS Open Data,relation/2181560,Churros & Chorizo,true,,"25  Market Place  
+  NR2 1ND <br />
+  Get your taste of the sun with the best of Spanish street food like paella, slow-cooked stews, padron peppers and chorizo ciabattas and deli items at Norwich Market. Seating area provided.<br />
+  
+  ",,,,,,food,Point,1.2929529;52.6282524,,,,,+44 7751 770032,,,,,,,Mo-Sa 09:30-15:30; Su closed,,,,"Get your taste of the sun with the best of Spanish street food like paella, slow-cooked stews, padron peppers and chorizo ciabattas and deli items at Norwich Market. Seating area provided.",,,,churrosandchorizo@gmail.com,,,,,,,,,,,,,,,,,,Churros for the People,,,clothes,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,yes,,,,,,,,,,,,,,multipolygon
+Feature,relation/2181563,,,,,fast_food,burger;sandwich;sausage,839165,Bia Vegan Diner,,relation/2181563,Bia Vegan Diner,true,,"  
+  <br />
+  Refreshments<br />
+  
+  ",,,,,,food,Point,1.2927172;52.628366,,,,,,,,,,,,Mo-Sa 10:00-16:00; Su closed,,http://biavegandiner.co.uk/,,Refreshments,,,,,,,,,,,,,,,,,,,,,,,,,refreshments,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,multipolygon,yes,only,https://www.facebook.com/biakitchen/,https://www.instagram.com/explore/tags/biakitchen/
+Feature,relation/2181595,Norwich,74-75,NR2 1ND,Market Place,fast_food,turkish,1023662,Delight,FHRS Open Data,relation/2181595,Delight,true,,"74-75  Market Place  
+  NR2 1ND <br />
+  Homemade Turkish food including baklava, breakfast pastries as well as burgers and toasted sandwiches.<br />
+  
+  ",,,,,,food,Point,1.2927207;52.6284251,,,,,,,,,,,,Mo-Sa; Su closed,,https://www.norwich.gov.uk/directory_record/2033/delight,,"Homemade Turkish food including baklava, breakfast pastries as well as burgers and toasted sandwiches.",,,,,,,,,,,,,,,,,,,,,,,,,refreshments,,,,,,,Breakfast & Kebab,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,multipolygon,,,,
+Feature,relation/2889687,Norwich,23,NR2 1ND,Market Place,fast_food,street_food,977311,Bun Box,,relation/2889687,Bun Box,true,,"23  Market Place  
+  NR2 1ND <br />
+  Fresh Japanese-inspired streetfood including beautiful bao/hirata buns with a range of fillings including pork belly, katsu chicken and more, don buri rice bowls, sushi, and freshly-made delicate dumplings plus a whole range of specials.<br />
+  
+  ",,,,,,food,Point,1.2928586;52.6282556,,,,,,,,,,,GB,Tu-Sa 11:00-15:00; Su-Mo closed,,https://www.instagram.com/bun_box_/,,"Fresh Japanese-inspired streetfood including beautiful bao/hirata buns with a range of fillings including pork belly, katsu chicken and more, don buri rice bowls, sushi, and freshly-made delicate dumplings plus a whole range of specials.",,,,,,stall,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,multipolygon,,,,
+Feature,relation/2889766,Norwich,22,NR2 1ND,Market Place,fast_food,juice,972367,Fresh,,relation/2889766,Fresh,true,,"22  Market Place  
+  NR2 1ND <br />
+  A wide choice of freshly squeezed and cold-pressed juices and smoothies - each ingredient chosen with care to ensure a perfect blend.<br />
+  
+  ",,,,,,food,Point,1.2928186;52.6282569,,,,,,,,,,,GB,Tu-Sa 11:00-15:00; Su-Mo closed,,https://www.norwich.gov.uk/directory_record/1882/fresh,,A wide choice of freshly squeezed and cold-pressed juices and smoothies - each ingredient chosen with care to ensure a perfect blend.,,,,,,stall,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,multipolygon,,,,
+Feature,relation/3152333,Norwich,79,NR2 1ND,Market Place,fast_food,street_food,964953,A Taste of Shanghai,,relation/3152333,A Taste of Shanghai,true,,"79  Market Place  
+  NR2 1ND <br />
+  Wonderful Shanghai and Singapore-style street food cooked freshly by Alan including favourites like chicken katsu and crispy chicken and Oden skewered seafood and meatballs<br />
+  
+  ",,,,,,food,Point,1.292632;52.6284488,,,,,,,,,,,GB,Mo-Sa 11:00-17:00; Su closed,,https://www.norwich.gov.uk/directory_record/2180/a_taste_of_shanghai,,Wonderful Shanghai and Singapore-style street food cooked freshly by Alan including favourites like chicken katsu and crispy chicken and Oden skewered seafood and meatballs,,,,,,stall,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,no,,no,,,,,,,,,,,,,,multipolygon,,,,
+Feature,relation/3152334,Norwich,84,NR2 1ND,Market Place,fast_food,caribbean,1084398,Coral Bay,,relation/3152334,Coral Bay,true,,"84  Market Place  
+  NR2 1ND <br />
+  Coral Bay is a Husband and wife team, specialising in homecooked tasty Jamaican Cuisine serving up dishes like Jerk Chicken, Curried Goat, Vegan Sweet potato curry and Jamaican patties daily along with a selection of weekly specials.<br />
+  
+  ",,,,,,food,Point,1.2929515;52.6284362,,,,,+44 7947 702176,,,,,,GB,Mo-Sa 11:00-16:00; Su closed,,https://m.facebook.com/CoralBayNorwich,,"Coral Bay is a Husband and wife team, specialising in homecooked tasty Jamaican Cuisine serving up dishes like Jerk Chicken, Curried Goat, Vegan Sweet potato curry and Jamaican patties daily along with a selection of weekly specials.",,,,,,stall,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,yes,,,,,,,,,,,,,,multipolygon,,,,
+Feature,relation/3152337,Norwich,121,NR2 1ND,Market Place,fast_food,regional,15631,Bs Ts Snack Bar,,relation/3152337,Bs Ts Snack Bar,true,,"121  Market Place  
+  NR2 1ND <br />
+  Breakfasts, burgers, hot dogs, BLTs and filled rolls can all be found on this stall along with hot and cold drinks.<br />
+  
+  ",,,,,,food,Point,1.2927542;52.6285692,,,,,,,,,,,GB,Mo-Sa 07:00-16:00; Su closed,,,,"Breakfasts, burgers, hot dogs, BLTs and filled rolls can all be found on this stall along with hot and cold drinks.",,,,,,stall,,,,,,BJs,,,,,,,,,,B's Ts,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,multipolygon,,,,
+Feature,relation/3152343,Norwich,120,NR2 1ND,Market Place,fast_food,jacket_potato,1063149,George's Jacket Spuds,,relation/3152343,George's Jacket Spuds,true,,"120  Market Place  
+  NR2 1ND <br />
+  Mariana has taken over Norwich's best jacket potatoes with a whole array of fillings at this friendly stall. It is also the home of the 'breakfast in a box' and as if that's not tasty enough, you could even try a breakfast on a jacket potato!<br />
+  
+  ",,,,,,food,Point,1.2927142;52.6285705,,,,,,,,,,,GB,Mo-Sa 08:00-17:00; Su 08:00-14:30,,https://www.facebook.com/pages/Georges-Jacket-spuds/202583806443097,,"Mariana has taken over Norwich's best jacket potatoes with a whole array of fillings at this friendly stall. It is also the home of the 'breakfast in a box' and as if that's not tasty enough, you could even try a breakfast on a jacket potato!",,,,,,stall,,,,,,George's,,,,,,,,,,Georges Jacket Spuds,,,,,,,,,,and Sandwiches,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,multipolygon,,,,
+Feature,relation/3152344,Norwich,81,NR2 1ND,Market Place,fast_food,roast,15646,Henry's Hog Roast,,relation/3152344,Henry's Hog Roast,true,,"81  Market Place  
+  NR2 1ND <br />
+  Succulent freshly-cooked pork sourced from Norfolk and Suffolk with all the trimmings is the fayre from this delicious stall. Crispy crunchy crackling, apple sauce, and fresh bread rolls are all on offer along with beef and turkey options too.<br />
+  
+  ",,,,,,food,Point,1.2927425;52.6284452,,,,,,,,,,,GB,Mo-Sa; Su closed,,https://www.norwich.gov.uk/directory_record/926/henrys_hog_roast,,"Succulent freshly-cooked pork sourced from Norfolk and Suffolk with all the trimmings is the fayre from this delicious stall. Crispy crunchy crackling, apple sauce, and fresh bread rolls are all on offer along with beef and turkey options too.",,,,,,stall,,,,,,Henry's,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,multipolygon,,,,
+Feature,relation/3152347,Norwich,76,NR2 1ND,Market Place,fast_food,indian,991859,A Taste of Punjab,,relation/3152347,A Taste of Punjab,true,,"76  Market Place  
+  NR2 1ND <br />
+  A range of Indian curries fresh from the Punjab including lamb and chicken biryani served with rice, samosas and more<br />
+  
+  ",,,,,,food,Point,1.2926302;52.6284281,,,,,,,,,,,GB,Mo-Sa 11:00-16:00; Su closed,,https://www.norwich.gov.uk/directory_record/2166/a_taste_of_punjab,,"A range of Indian curries fresh from the Punjab including lamb and chicken biryani served with rice, samosas and more",,,,,,stall,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,no,,no,,,,,,,,,,,,,,multipolygon,,,,
+Feature,relation/3152352,Norwich,175,NR2 1NE,Market Place,fast_food,lasagne,928650,Lasagneria,,relation/3152352,Lasagneria,true,,"175  Market Place  
+  NR2 1NE <br />
+  A delicious variety of lasagnes on offer either by the portion or trays cooked to order. Traditional and vegetarian varieties are on offer along with salmon, spicy pork and more.<br />
+  
+  ",,,,,,food,Point,1.2927301;52.6287337,,,,,+44 7935 807519,,,,,,GB,Tu-Fr 11:30-15:30; Sa 11:30-16:30; Su-Mo closed,,https://www.facebook.com/lasagnerianorwich/,,"A delicious variety of lasagnes on offer either by the portion or trays cooked to order. Traditional and vegetarian varieties are on offer along with salmon, spicy pork and more.",,,,paolo.grazzini2@gmail.com,,stall,,,,,,,,,2016-12,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,no,,no,,,,,,,,,,,,,,multipolygon,,,,
+Feature,relation/3152354,Norwich,114,NR2 1ND,Market Place,fast_food,chips,932631,Lucy's Chips,,relation/3152354,Lucy's Chips,true,,"114  Market Place  
+  NR2 1ND <br />
+  Hand-cut chips fried in beef dripping for a uniquely delicious taste are the speciality of this stall. Curry sauce and gravy is available as a tasty accompaniment along with sausages and rolls.<br />
+  
+  ",,,,,,food,Point,1.2927524;52.6285485,,,,,,,,,,,GB,Mo-Sa 10:00-16:00; Su closed,,https://www.norwich.gov.uk/directory_record/911/lucys_chips,,Hand-cut chips fried in beef dripping for a uniquely delicious taste are the speciality of this stall. Curry sauce and gravy is available as a tasty accompaniment along with sausages and rolls.,,,,,,stall,,,,,,Lucy's,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,multipolygon,,,,
+Feature,relation/3152360,Norwich,80,NR2 1ND,Market Place,fast_food,sausage,1080666,The All Electric Banger Stop,,relation/3152360,The All Electric Banger Stop,true,,"80  Market Place  
+  NR2 1ND <br />
+  Fantastically tasty homemade sausages are served here to be enjoyed best in a bun with a choice of accompaniments including homemade ketchup or homemade smoked paprika and red pepper chilli sauce or just classicly with onions and cheese.<br />
+  
+  ",,,,,,food,Point,1.2927025;52.6284464,,,,,,,,,,,GB,Mo-Sa 12:00-15:00; Su closed,,https://www.norwich.gov.uk/directory_record/925/the_all_electric_banger_stop,,Fantastically tasty homemade sausages are served here to be enjoyed best in a bun with a choice of accompaniments including homemade ketchup or homemade smoked paprika and red pepper chilli sauce or just classicly with onions and cheese.,,,,,,stall,,,,,,Banger Stop,,,1979,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,multipolygon,,,,
+Feature,relation/3152364,Norwich,115,NR2 1ND,Market Place,fast_food,mushy_peas,15634,The Mushy Pea Stall,,relation/3152364,The Mushy Pea Stall,true,,"115  Market Place  
+  NR2 1ND <br />
+  It sells its own fresh homemade mushy peas along with tasty mint sauce, assorted pies, bacon rolls, old-fashioned Westler burgers, hot dogs, hot drinks and more.<br />
+  
+  ",,,,,,food,Point,1.2927123;52.6285498,,,,,+44 7776 410250,,,,,,GB,Mo-Fr 10:00-16:00; Sa 10:00-16:30; Su closed,,https://www.facebook.com/stall115norwichmarket/,,"It sells its own fresh homemade mushy peas along with tasty mint sauce, assorted pies, bacon rolls, old-fashioned Westler burgers, hot dogs, hot drinks and more.",,,,anita.1@ntlworld.com,,stall,,,,,,,,,1949,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,multipolygon,,,,
+Feature,relation/3154465,Norwich,34-35;40-41,NR2 1ND,Market Place,fast_food,falafel,924808,Falafel and Friends; Falafel and More,,relation/3154465,Falafel and Friends; Falafel and More,true,,"34-35;40-41  Market Place  
+  NR2 1ND <br />
+  You can find falafels with a huge range of creative accompaniments including halloumi and pickled vegetables, and an innovative vegetarian menu on the other offering its signature kimchi and rice dishes alongside aubergine burgers and more.<br />
+  
+  ",,,,,,food,Point,1.2927105;52.6283142,,,,,,,,,,,GB,Mo-Sa 11:00-16:00; Su closed,,https://www.norwich.gov.uk/directory_record/1851/falafel_and_friends_and_falafel_and_more,,"You can find falafels with a huge range of creative accompaniments including halloumi and pickled vegetables, and an innovative vegetarian menu on the other offering its signature kimchi and rice dishes alongside aubergine burgers and more.",,,,,,stall,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,yes,,,,,,,,,,,,,,multipolygon,,,,
+Feature,relation/9811001,Norwich,152,NR2 1NE,Market Place,fast_food,chilean,977302,Cocina Mia,FHRS Open Data,relation/9811001,Cocina Mia,true,,"152  Market Place  
+  NR2 1NE <br />
+  Authentic Chilean food based on family recipes passed down through generations. Empanadas, ensaladas and much more, also daily lunch time specials<br />
+  
+  ",,,,,,food,Point,1.2928795;52.628664,,,,,,,,,,,,Tu-Sa 11:30-15:00; Su-Mo closed,,https://www.facebook.com/cocinamianorwich,,"Authentic Chilean food based on family recipes passed down through generations. Empanadas, ensaladas and much more, also daily lunch time specials",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,The taste of Chile,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,multipolygon,,,,
+Feature,relation/9812452,Norwich,91;104,NR2 1ND,Market Place,fast_food,italian,1084395,Sicily Market,FHRS Open Data,relation/9812452,Sicily Market,true,,"91;104  Market Place  
+  NR2 1ND <br />
+  Bruno and Rocco cook up delicious fresh pizzas and calzone, arancini and a daily list of beautiful pasta specials.<br />
+  
+  ",,,,,,food,Point,1.2929628;52.6284877,,,,,+44 7742 152690,,,,,,,Mo-Sa; Su closed,,https://www.sicilyvan.co.uk/,,"Bruno and Rocco cook up delicious fresh pizzas and calzone, arancini and a daily list of beautiful pasta specials.",,,,info@sicilyvan.co.uk,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,yes,,,,,,,,,,,,,,multipolygon,,,,
+Feature,relation/9812453,Norwich,32-33,NR2 1ND,Market Place,fast_food,soup,991862,Norwich Fresh,FHRS Open Data,relation/9812453,Norwich Fresh,true,,"32-33  Market Place  
+  NR2 1ND <br />
+  Fresh fusion noodle soups created in meat and vegetarian variations packed with fresh vegetables and more.<br />
+  
+  ",,,,,,food,Point,1.2928443;52.6282973,,,,,,,,,,,,Tu-Sa 11:00-15:00; Su-Mo closed,,https://www.norwich.gov.uk/directory_record/2181/norwich_fresh,,Fresh fusion noodle soups created in meat and vegetarian variations packed with fresh vegetables and more.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,multipolygon,,,,
+Feature,relation/9812455,Norwich,60-61,NR2 1ND,Market Place,fast_food,chips,932630,Lucys Chips,FHRS Open Data,relation/9812455,Lucys Chips,true,,"60-61  Market Place  
+  NR2 1ND <br />
+  Traditional Lucy's Chips Stalls on Norwich Market established Since 1971 frying in Beef Dripping and Vegetable Oil using new fresh cut potatoes, serving the highest quality.<br />
+  
+  ",,,,,,food,Point,1.2927191;52.6283868,,,,,+44 1603 622055,,,,,,,Mo-Sa 10:00-16:00; Su 11:00-15:00,,https://en-gb.facebook.com/lucyschips114norwichmarket/,,"Traditional Lucy's Chips Stalls on Norwich Market established Since 1971 frying in Beef Dripping and Vegetable Oil using new fresh cut potatoes, serving the highest quality.",,,,lucysfishandchips@gmail.com,,stall,,,,,,North's,,,,,,,,,,Lucy's Chip Stall,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,multipolygon,,,,
+Feature,relation/9812456,Norwich,21,NR2 1ND,Market Place,fast_food,indian,927044,Indian Feast,FHRS Open Data,relation/9812456,Indian Feast,true,,"21  Market Place  
+  NR2 1ND <br />
+  All vegetarian Indian curries and snacks lovingly prepared by Jas including chickpea and red kidney bean curry, samosas, bhajis, pakoras and more, all served with tantalisingly fresh sauces. Seating area provided.<br />
+  
+  ",,,,,,food,Point,1.2927039;52.6282627,,,,,,,,,,,,Tu-Sa 11:00-15:00; Su-Mo closed,,https://www.norwich.gov.uk/directory_record/1885/indian_feast,,"All vegetarian Indian curries and snacks lovingly prepared by Jas including chickpea and red kidney bean curry, samosas, bhajis, pakoras and more, all served with tantalisingly fresh sauces. Seating area provided.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All Kinds of Indian snacks,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,multipolygon,,,,
+Feature,relation/9814518,Norwich,172-173,NR2 1NE,Market Place,fast_food,asian,998636,Tasty House,FHRS Open Data,relation/9814518,Tasty House,true,,"172-173  Market Place  
+  NR2 1NE <br />
+  An ever changing menu of authentic deliciousness. Pad Thai, Massaman curries and much much more are cooked freshly taking themes and inspiration from Thailand, Cambodia, Burma and beyond. Seating area provided or take away.<br />
+  
+  ",,,,,,food,Point,1.2928849;52.6287267,,,,,,,,,,,,Mo-Sa; Su closed,,https://www.norwich.gov.uk/directory_record/1911/tasty_house_south_east_asian_streefood_emporium,,"An ever changing menu of authentic deliciousness. Pad Thai, Massaman curries and much much more are cooked freshly taking themes and inspiration from Thailand, Cambodia, Burma and beyond. Seating area provided or take away.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Asian Street Food Emporium,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,multipolygon,,,,

@@ -1,11 +1,10 @@
 import L from 'leaflet'
 import { CSMLayerFactory } from './utils.js'
+import safePlaceLogo from './../resources/logos/safe-place-logo.png'
 
-var safePlacesMarker = L.ExtraMarkers.icon({
-  icon: 'fa-hand-holding-heart',
-  markerColor: 'yellow',
-  shape: 'square',
-  prefix: 'fa'
+var safePlacesMarker = L.icon({
+  iconUrl: safePlaceLogo,
+  iconSize: [45, 45] // size of the icon
 })
 
 var policeMarker = L.ExtraMarkers.icon({
@@ -31,7 +30,7 @@ export default function (userSettings) {
   }
 
   return L.layerGroup([
-    CSMLayerFactory('data/help-safePlaces.geojson', featureTags, safePlacesMarker, filterSafePlaces),
+    CSMLayerFactory('data/nolicence/help-safePlaces.geojson', featureTags, safePlacesMarker, filterSafePlaces),
     CSMLayerFactory('data/help-services.geojson', featureTags, policeMarker)
   ])
 }

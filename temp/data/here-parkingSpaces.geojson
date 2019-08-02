@@ -68,6 +68,7 @@
     "fee:amount:3_hour": "£3.60 GBP",
     "fee:amount:4_hour": "£4.80 GBP",
     "fee:amount:6_hour": "£8.00 GBP",
+    "layer": "-1",
     "maxheight": "2.2",
     "maxspeed": "5 mph",
     "name": "Chapelfield",
@@ -1683,8 +1684,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     1.3823168,
-     52.6381942
+     1.38229,
+     52.6382088
     ]
    }
   },
@@ -1699,8 +1700,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     1.3827911,
-     52.6383358
+     1.382724,
+     52.6383309
     ]
    }
   },
@@ -2059,7 +2060,7 @@
     "addr:postcode": "NR3 3AT",
     "addr:street": "Duke Street",
     "amenity": "parking",
-    "building": "yes",
+    "building": "parking",
     "capacity": "1084",
     "fee": "yes",
     "fee:amount:1_hour": "£1.80 GBP",
@@ -6552,9 +6553,11 @@
    "type": "Feature",
    "id": "way/224952338",
    "properties": {
-    "access": "customers",
+    "access": "private",
     "amenity": "parking",
     "fee": "no",
+    "name": "Edith Cavell Building Car Park",
+    "old_name": "Nursing Sciences Car Park",
     "parking": "surface",
     "id": "way/224952338"
    },
@@ -8246,8 +8249,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     1.2172656,
-     52.6184174
+     1.2172576,
+     52.6184317
     ]
    }
   },
@@ -9241,16 +9244,18 @@
    "properties": {
     "access": "customers",
     "amenity": "parking",
+    "capacity": "21",
+    "capacity:disabled": "2",
     "fee": "no",
     "parking": "surface",
-    "surface": "asphalt",
+    "surface": "brick_weave",
     "id": "way/484357148"
    },
    "geometry": {
     "type": "Point",
     "coordinates": [
-     1.2306084,
-     52.6100674
+     1.2306378,
+     52.6100471
     ]
    }
   },
@@ -9684,8 +9689,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     1.2182374,
-     52.6197756
+     1.2182884,
+     52.6197504
     ]
    }
   },
@@ -11144,14 +11149,15 @@
    "id": "way/700840939",
    "properties": {
     "amenity": "parking",
+    "name": "Visitors and Endoscopy patients",
     "parking": "surface",
     "id": "way/700840939"
    },
    "geometry": {
     "type": "Point",
     "coordinates": [
-     1.2196729,
-     52.6203969
+     1.219717,
+     52.6203382
     ]
    }
   },
@@ -11159,15 +11165,18 @@
    "type": "Feature",
    "id": "way/700840947",
    "properties": {
+    "access": "private",
     "amenity": "parking",
+    "capacity": "137",
+    "name": "QIB Staff",
     "parking": "surface",
     "id": "way/700840947"
    },
    "geometry": {
     "type": "Point",
     "coordinates": [
-     1.2165816,
-     52.6190577
+     1.2164957,
+     52.6190713
     ]
    }
   },
@@ -11202,6 +11211,60 @@
     "coordinates": [
      1.2097235,
      52.6436005
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/705496651",
+   "properties": {
+    "amenity": "parking",
+    "id": "way/705496651"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2917713,
+     52.6424689
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/705786586",
+   "properties": {
+    "amenity": "parking",
+    "capacity": "24",
+    "capacity:disabled": "24",
+    "name": "Disabled Parking",
+    "parking": "surface",
+    "id": "way/705786586"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2178174,
+     52.6206933
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/706337557",
+   "properties": {
+    "access": "customers",
+    "amenity": "parking",
+    "capacity": "3",
+    "fee": "no",
+    "parking": "surface",
+    "surface": "brick_weave",
+    "id": "way/706337557"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2306001,
+     52.6098248
     ]
    }
   },

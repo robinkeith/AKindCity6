@@ -51,13 +51,17 @@
     "addr:postcode": "NR1 1WR",
     "addr:street": "Albion Way",
     "amenity": "cafe",
-    "cuisine": "coffee",
+    "brand": "Costa",
+    "brand:wikidata": "Q608845",
+    "brand:wikipedia": "en:Costa Coffee",
+    "cuisine": "coffee_shop",
     "fhrs:id": "22923",
-    "name": "Costa Coffee",
+    "name": "Costa",
     "phone": "+44 1603 613441",
+    "takeaway": "yes",
     "id": "node/1188157138",
     "mapFeature": {
-     "caption": "Costa Coffee",
+     "caption": "Costa",
      "allowPopup": true,
      "location": "2c  Albion Way  \n  NR1 1WR <br />\n  \n  \n  ",
      "layers": [
@@ -400,8 +404,8 @@
    "type": "Feature",
    "id": "node/3141765957",
    "properties": {
-    "FIXME": "Survey to position",
     "amenity": "cafe",
+    "fixme": "Survey to position",
     "name": "Morrisons café",
     "opening_hours": "Mo-Th,Sa 08:00-19:00; Fr 08:00-20:00; Su 09:30-15:00",
     "id": "node/3141765957",
@@ -689,6 +693,36 @@
   },
   {
    "type": "Feature",
+   "id": "node/4623975698",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "98",
+    "addr:postcode": "NR3 4TE",
+    "addr:street": "Silver Road",
+    "amenity": "cafe",
+    "fhrs:id": "65735",
+    "name": "Love Lunch!",
+    "source:addr": "FSA Food Hygiene Ratings Database",
+    "id": "node/4623975698",
+    "mapFeature": {
+     "caption": "Love Lunch!",
+     "allowPopup": true,
+     "location": "98  Silver Road  \n  NR3 4TE <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3028719,
+     52.639451
+    ]
+   }
+  },
+  {
+   "type": "Feature",
    "id": "node/4853525623",
    "properties": {
     "addr:city": "Norwich",
@@ -970,21 +1004,25 @@
    "properties": {
     "addr:city": "Norwich",
     "addr:housename": "Guildhall",
-    "addr:postcode": "NR2 1JP",
+    "addr:postcode": "NR2 1JS",
     "addr:street": "Gaol Hill",
     "amenity": "cafe",
     "email": "hello@cafebritannia.co.uk",
     "fhrs:id": "855618",
     "indoor": "yes",
     "name": "Guildhall Britannica",
-    "opening_hours": "Mo-Su 08:00-16:00",
+    "opening_hours": "Mo-Sa 08:00-17:00; Su 08:00-16:00; ",
+    "outdoor_seating": "no",
     "phone": "+44 1603 629364",
     "source:addr": "FHRS Open Data",
+    "website": "https://www.cafebritannia.co.uk/guildhall-britannia",
+    "wheelchair": "limited",
+    "wheelchair:description": "ramp access opposite Tesco.",
     "id": "node/5835963849",
     "mapFeature": {
      "caption": "Guildhall Britannica",
      "allowPopup": true,
-     "location": " Gaol Hill  \n  NR2 1JP <br />\n  \n  \n  ",
+     "location": " Gaol Hill  \n  NR2 1JS <br />\n  \n  Limited wheelchair access \n  ramp access opposite Tesco.",
      "layers": [
       "food"
      ]
@@ -1293,10 +1331,14 @@
     "addr:postcode": "NR2 1LA",
     "addr:street": "London Street",
     "amenity": "cafe",
+    "brand": "Costa",
+    "brand:wikidata": "Q608845",
+    "brand:wikipedia": "en:Costa Coffee",
     "cuisine": "coffee_shop",
     "fhrs:id": "632122",
     "name": "Costa",
     "source:addr": "FHRS Open Data",
+    "takeaway": "yes",
     "id": "node/6568273969",
     "mapFeature": {
      "caption": "Costa",
@@ -1312,37 +1354,6 @@
     "coordinates": [
      1.2958599,
      52.6295193
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "node/6568273972",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housenumber": "50",
-    "addr:postcode": "NR2 1LA",
-    "addr:street": "London Street",
-    "amenity": "cafe",
-    "fhrs:id": "41579",
-    "name": "Greggs",
-    "shop": "bakery",
-    "source:addr": "FHRS Open Data",
-    "id": "node/6568273972",
-    "mapFeature": {
-     "caption": "Greggs",
-     "allowPopup": true,
-     "location": "50  London Street  \n  NR2 1LA <br />\n  \n  \n  ",
-     "layers": [
-      "food"
-     ]
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.295935,
-     52.6295664
     ]
    }
   },
@@ -1511,10 +1522,14 @@
     "addr:postcode": "NR1 1DX",
     "addr:street": "Prince Of Wales Road",
     "amenity": "cafe",
+    "brand": "Costa",
+    "brand:wikidata": "Q608845",
+    "brand:wikipedia": "en:Costa Coffee",
     "cuisine": "coffee_shop",
     "fhrs:id": "924810",
     "name": "Costa",
     "source:addr": "FHRS Open Data",
+    "takeaway": "yes",
     "id": "node/6582537700",
     "mapFeature": {
      "caption": "Costa",
@@ -1717,6 +1732,7 @@
     "layer": "-4",
     "level": "1",
     "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
     "opening_hours": "Mo-We,Fr 08:30-17:30; Th 08:30-19:00; Sa 08:30-18:00; Su 10:00-16:30",
     "phone": "+44 1603 617256",
     "ref": "2974",
@@ -2695,6 +2711,7 @@
     "fhrs:id": "924813",
     "internet_access": "wlan",
     "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
     "opening_hours": "Mo-Tu 07:00-18:30; We off; Th 09:00-16:30; Fr 07:00-18:30; Sa 08:00-18:30; Su 09:00-17:30",
     "source": "Bing",
     "takeaway": "yes",
@@ -3035,6 +3052,45 @@
   },
   {
    "type": "Feature",
+   "id": "way/167577804",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "95",
+    "addr:postcode": "NR2 2PE",
+    "addr:street": "Unthank Road",
+    "amenity": "cafe",
+    "brand": "Caffè Nero",
+    "brand:wikidata": "Q675808",
+    "brand:wikipedia": "en:Caffè Nero",
+    "building": "yes",
+    "cuisine": "coffee_shop",
+    "fhrs:id": "932632",
+    "name": "Caffè Nero",
+    "opening_hours": "Mo-Sa 09:00-23:00; Su 10:00-22:00",
+    "phone": "+44 1603 633729",
+    "takeaway": "yes",
+    "website": "https://caffenero.com/uk/stores/norwich-unthank-road-703/",
+    "id": "way/167577804",
+    "mapFeature": {
+     "caption": "Caffè Nero",
+     "allowPopup": true,
+     "location": "95  Unthank Road  \n  NR2 2PE <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2777175,
+     52.6250133
+    ]
+   }
+  },
+  {
+   "type": "Feature",
    "id": "way/168159795",
    "properties": {
     "addr:city": "Norwich",
@@ -3280,10 +3336,12 @@
     "brand:wikidata": "Q37158",
     "brand:wikipedia": "en:Starbucks",
     "building": "shop",
+    "building:levels": "4",
     "cuisine": "coffee_shop",
     "fhrs:id": "918742",
     "internet_access": "wlan",
     "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
     "source:addr": "FHRS Open Data",
     "takeaway": "yes",
     "id": "way/205594932",
@@ -3383,7 +3441,7 @@
     "addr:postcode": "NR2 1HZ",
     "addr:street": "Swan Lane",
     "amenity": "cafe",
-    "building": "yes",
+    "building": "retail",
     "fhrs:id": "1016496",
     "fixme:addr2": "Norwich",
     "name": "Logans",
@@ -3527,6 +3585,51 @@
     "coordinates": [
      1.4844794,
      52.6794499
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/330123908",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "12-14",
+    "addr:interpolation": "even",
+    "addr:postcode": "NR2 1PQ",
+    "addr:street": "Davey Place",
+    "amenity": "cafe",
+    "brand": "Patisserie Valerie",
+    "brand:wikidata": "Q22101966",
+    "brand:wikipedia": "en:Patisserie Valerie",
+    "building": "shop",
+    "changing_table": "yes",
+    "cuisine": "coffee_shop",
+    "fhrs:id": "457278",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Patisserie Valerie",
+    "opening_hours": "Mo-Sa 08:00-18:00; Sa 08:00-18:30; Su 09:00-17:00",
+    "outdoor_seating": "yes",
+    "phone": "+44 1603 615786",
+    "takeaway": "yes",
+    "website": "https://www.patisserie-valerie.co.uk/norwich.aspx",
+    "wheelchair": "yes",
+    "id": "way/330123908",
+    "mapFeature": {
+     "caption": "Patisserie Valerie",
+     "allowPopup": true,
+     "location": "12-14  Davey Place  \n  NR2 1PQ <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2943307,
+     52.6285288
     ]
    }
   },
@@ -3685,8 +3788,12 @@
     "fhrs:id": "1025827",
     "fixme": "location/footprint approx",
     "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "opening_hours": "Mo-Fr 5:30-18:30; Sa 6:30-18:30; Su 9:30-17:00",
+    "phone": "+44 1603 660899",
     "source:addr": "FHRS Open Data",
     "takeaway": "yes",
+    "website": "https://www.starbucks.co.uk/store-locator/store/1013503/norwich-station-approach-norwich-station-norwich-eng-nr-1-1-ef-gb",
     "id": "way/430815314",
     "mapFeature": {
      "caption": "Starbucks",
@@ -3775,12 +3882,17 @@
     "addr:postcode": "NR1 1WR",
     "addr:street": "Albion Way",
     "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
     "building": "yes",
     "construction": "building",
     "cuisine": "coffee_shop",
     "fhrs:id": "941445",
     "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
     "source:addr": "FHRS Open Data",
+    "takeaway": "yes",
     "id": "way/440968617",
     "mapFeature": {
      "caption": "Starbucks",
@@ -3872,10 +3984,15 @@
     "addr:postcode": "NR4 6EF",
     "addr:street": "The Lastings",
     "amenity": "cafe",
+    "brand": "Costa",
+    "brand:wikidata": "Q608845",
+    "brand:wikipedia": "en:Costa Coffee",
     "building": "yes",
+    "cuisine": "coffee_shop",
     "fhrs:id": "915723",
     "name": "Costa",
     "source:addr": "FHRS Open Data",
+    "takeaway": "yes",
     "id": "way/541599431",
     "mapFeature": {
      "caption": "Costa",
@@ -4003,6 +4120,7 @@
     "cuisine": "coffee_shop",
     "fhrs:id": "998639",
     "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
     "source:addr": "FHRS Open Data",
     "takeaway": "yes",
     "id": "way/568558557",
@@ -4131,9 +4249,11 @@
     "brand": "Caffè Nero",
     "brand:wikidata": "Q675808",
     "brand:wikipedia": "en:Caffè Nero",
-    "building": "yes",
+    "building": "retail",
+    "building:levels": "4",
     "cuisine": "coffee_shop",
     "fhrs:id": "20912",
+    "height": "9",
     "name": "Caffè Nero",
     "outdoor_seating": "no",
     "phone": "01603 762201",
@@ -4165,7 +4285,7 @@
     "addr:postcode": "NR2 1AB",
     "addr:street": "Upper Saint Giles Street",
     "amenity": "cafe",
-    "building": "yes",
+    "building": "retail",
     "cuisine": "english",
     "fhrs:id": "910273",
     "name": "Bread Source",
@@ -4548,37 +4668,6 @@
   },
   {
    "type": "Feature",
-   "id": "way/701261004",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housenumber": "18",
-    "addr:postcode": "NR2 1PX",
-    "addr:street": "White Lion Street",
-    "amenity": "cafe",
-    "fhrs:id": "77788",
-    "level": "1",
-    "name": "Greggs",
-    "source:addr": "FHRS Open Data",
-    "id": "way/701261004",
-    "mapFeature": {
-     "caption": "Greggs",
-     "allowPopup": true,
-     "location": "18  White Lion Street  \n  <strong>Level:</strong>&nbsp;1 NR2 1PX <br />\n  \n  \n  ",
-     "layers": [
-      "food"
-     ]
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.2946828,
-     52.6276179
-    ]
-   }
-  },
-  {
-   "type": "Feature",
    "id": "way/701263534",
    "properties": {
     "addr:city": "Norwich",
@@ -4618,17 +4707,20 @@
     "addr:postcode": "NR2 1ND",
     "addr:street": "Market Place",
     "amenity": "cafe",
+    "description": "A range of beautifully fresh espresso or Aeropressed coffee is served here to drink in or take away. You can also buy coffee beans and coffee-making equipment and a small selection of flapjacks and biscuits are also often available.",
     "fhrs:id": "344753",
-    "name": "Burgill Coffee",
-    "note": "Coffee and continental snacks",
-    "operator": "Little red Roaster​",
+    "name": "The Little Red Roaster",
+    "opening_hours": "Mo-Sa 08:00-15:30; Su closed",
+    "operator": "Little red Roaster",
+    "phone": "+44 1603 624886",
     "source:addr": "FHRS Open Data",
     "type": "multipolygon",
+    "website": "https://www.facebook.com/lrrnorwich/",
     "id": "relation/2181552",
     "mapFeature": {
-     "caption": "Burgill Coffee",
+     "caption": "The Little Red Roaster",
      "allowPopup": true,
-     "location": "52-53  Market Place  \n  NR2 1ND <br />\n  \n  \n  ",
+     "location": "52-53  Market Place  \n  NR2 1ND <br />\n  A range of beautifully fresh espresso or Aeropressed coffee is served here to drink in or take away. You can also buy coffee beans and coffee-making equipment and a small selection of flapjacks and biscuits are also often available.<br />\n  \n  ",
      "layers": [
       "food"
      ]
@@ -4644,26 +4736,19 @@
   },
   {
    "type": "Feature",
-   "id": "relation/3152337",
+   "id": "relation/2191644",
    "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "121",
-    "addr:postcode": "NR2 1ND",
-    "addr:street": "Market Place",
     "amenity": "cafe",
-    "building": "stall",
-    "fhrs:id": "15631",
-    "name": "Bs Ts Snack Bar",
-    "operator": "BJs",
-    "ref": "121",
-    "shop": "refreshments",
+    "description": "Bubble tea and dim sum are available on this stall along with barista coffee and Chinese cakes. Seating area provided.",
+    "name": "The Dim Sum Place",
+    "opening_hours": "Mo-Sa 11:00-16:00; Su closed",
     "type": "multipolygon",
-    "id": "relation/3152337",
+    "website": "https://www.norwich.gov.uk/directory_record/2167/the_dim_sum_place",
+    "id": "relation/2191644",
     "mapFeature": {
-     "caption": "Bs Ts Snack Bar",
+     "caption": "The Dim Sum Place",
      "allowPopup": true,
-     "location": "121  Market Place  \n  NR2 1ND <br />\n  \n  \n  ",
+     "location": "  \n  <br />\n  Bubble tea and dim sum are available on this stall along with barista coffee and Chinese cakes. Seating area provided.<br />\n  \n  ",
      "layers": [
       "food"
      ]
@@ -4672,8 +4757,46 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     1.2927542,
-     52.6285692
+     1.2930029,
+     52.6284864
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "relation/3152324",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "19",
+    "addr:postcode": "NR2 1ND",
+    "addr:street": "Market Place",
+    "amenity": "cafe",
+    "building": "stall",
+    "description": "We serve delicious homemade cakes and treats along with a variety of hot chocolates, Strangers coffee and of course tea to accompany our bakes.",
+    "fhrs:id": "1108813",
+    "name": "The Cuppie Hut",
+    "opening_hours": "Tu-Sa 11:00-15:30; Su-Mo closed",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+44 7947 620282",
+    "type": "multipolygon",
+    "website": "https://www.facebook.com/thecuppiehut/",
+    "id": "relation/3152324",
+    "mapFeature": {
+     "caption": "The Cuppie Hut",
+     "allowPopup": true,
+     "location": "19  Market Place  \n  NR2 1ND <br />\n  We serve delicious homemade cakes and treats along with a variety of hot chocolates, Strangers coffee and of course tea to accompany our bakes.<br />\n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2926134,
+     52.6282657
     ]
    }
   },

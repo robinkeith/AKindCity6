@@ -194,43 +194,6 @@
   },
   {
    "type": "Feature",
-   "id": "way/68710203",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "36",
-    "addr:postcode": "NR9 3DD",
-    "addr:street": "Old Norwich Road",
-    "amenity": "pub",
-    "building": "house",
-    "email": "info@kingsheadhethersett.co.uk",
-    "fhrs:id": "858640",
-    "kitchen_hours": "Mo-Sa 12:00-15:00,18:00-21:00; Su 12:00-15:00",
-    "name": "Kings Head",
-    "opening_hours": "Su-Th 12:00-23:00; Fr-Sa 12:00-00:00",
-    "phone": "+44 1603 810206",
-    "website": "http://www.kingsheadhethersett.co.uk/",
-    "wikidata": "Q26302552",
-    "id": "way/68710203",
-    "mapFeature": {
-     "caption": "Kings Head",
-     "allowPopup": true,
-     "location": "36  Old Norwich Road  \n  NR9 3DD <br />\n  \n  \n  ",
-     "layers": [
-      "food"
-     ]
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.1795175,
-     52.5961882
-    ]
-   }
-  },
-  {
-   "type": "Feature",
    "id": "way/71297069",
    "properties": {
     "addr:city": "Norwich",
@@ -549,42 +512,6 @@
   },
   {
    "type": "Feature",
-   "id": "way/103522686",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housename": "Unit 5a",
-    "addr:housenumber": "5a",
-    "addr:postcode": "NR1 1WX",
-    "addr:street": "Wherry Road",
-    "amenity": "pub",
-    "building": "unit",
-    "fhrs:id": "609505",
-    "name": "TGI Fridays",
-    "opening_hours": "Su-Th 12:00-22:30; Fr-Sa 12:00-23:00",
-    "phone": "+44 1603 666101",
-    "source": "Bing",
-    "website": "https://www.tgifridays.co.uk/norwich/",
-    "id": "way/103522686",
-    "mapFeature": {
-     "caption": "TGI Fridays",
-     "allowPopup": true,
-     "location": "5a  Wherry Road  \n  NR1 1WX <br />\n  \n  \n  ",
-     "layers": [
-      "food"
-     ]
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     1.303909,
-     52.6259197
-    ]
-   }
-  },
-  {
-   "type": "Feature",
    "id": "way/105334128",
    "properties": {
     "addr:city": "Norwich",
@@ -785,12 +712,12 @@
     "amenity": "pub",
     "brewery": "Milton Brewery",
     "building": "house",
-    "fhrs:id": "54145",
-    "kitchen_hours": "Tu-Fr 18:00-22:00;Sa 12:00-22:00;Su 12:00-16:00",
+    "fhrs:id": "1157755",
     "name": "The White Lion",
     "note": "Sunday roast served until it runs out",
     "old_name": "Old White Lion;Tap & Spile",
     "opening_hours": "Mo-Sa 12:00-23:00; Su 12:00-22:30",
+    "opening_hours:kitchen": "Tu-Fr 18:00-22:00; Sa 12:00-22:00; Su 12:00-16:00",
     "phone": "+44 1603 632333",
     "real_ale": "9",
     "real_cider": "yes",
@@ -947,6 +874,8 @@
     "building": "house",
     "email": "askerridge@talktalk.net",
     "fhrs:id": "39565",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
     "name": "The Beehive",
     "opening_hours": "Su-Th 12:00-23:00; Fr-Sa 12:00-00:00",
     "outdoor_seating": "yes",
@@ -954,7 +883,6 @@
     "real_ale": "6",
     "real_cider": "yes",
     "website": "http://www.beehivepubnorwich.co.uk/",
-    "wifi": "free",
     "id": "way/115093428",
     "mapFeature": {
      "caption": "The Beehive",
@@ -1652,6 +1580,8 @@
     "amenity": "pub",
     "building": "house",
     "fhrs:id": "861576",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
     "kitchen_hours": "Sa-Su 12:00-14:30,18:00-21:00",
     "name": "The Rose",
     "opening_hours": "Mo-Th 15:00-23:30; Fr-Sa 12:00-23:45; Su 12:00-23:00",
@@ -1659,7 +1589,6 @@
     "real_ale": "6",
     "real_cider": "no",
     "website": "http://www.norwichbear.com/the-rose-inn/",
-    "wifi": "free",
     "id": "way/119731887",
     "mapFeature": {
      "caption": "The Rose",
@@ -1957,6 +1886,47 @@
   },
   {
    "type": "Feature",
+   "id": "way/122732863",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "1",
+    "addr:postcode": "NR2 2AS",
+    "addr:street": "Leicester Street",
+    "amenity": "pub",
+    "building": "yes",
+    "disused": "yes",
+    "disused:amenity": "pub",
+    "email": "theyorktavern@hotmail.com",
+    "end_date": "2018-01-04",
+    "name": "The York Tavern",
+    "opening_hours": "24/7 closed",
+    "operator": "Ei Publican Partnerships",
+    "phone": "+44 1603 620918",
+    "real_ale": "4",
+    "real_cider": "no",
+    "source": "Bing",
+    "website": "http://www.theyorktavern.co.uk/",
+    "id": "way/122732863",
+    "mapFeature": {
+     "caption": "The York Tavern",
+     "allowPopup": true,
+     "location": "1  Leicester Street  \n  NR2 2AS <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2818978,
+     52.6225576
+    ]
+   }
+  },
+  {
+   "type": "Feature",
    "id": "way/123011787",
    "properties": {
     "addr:city": "Norwich",
@@ -2248,6 +2218,7 @@
     "description": "Norwich’s Premier Gay Pub & Club",
     "email": "mail@thecastle-pub.com",
     "fax": "+44 1603 620636",
+    "fhrs:id": "67763",
     "gay": "yes",
     "internet_access": "wlan",
     "lgbtq": "primary",
@@ -2405,17 +2376,22 @@
     "addr:postcode": "NR1 1NS",
     "addr:street": "Prince of Wales Road",
     "amenity": "pub",
-    "building": "yes",
+    "building": "retail",
+    "building:levels": "2",
+    "building:roof:material": "slate",
+    "building:roof:orientation": "along",
+    "building:roof:shape": "pitched",
     "fhrs:id": "1082703",
+    "internet_access": "wlan",
     "kitchen_hours": "12:00-20:00",
     "name": "The Compleat Angler",
-    "opening_hours": "Mo 12:00-22:00; Tu-Su 12:00-23:00",
-    "outdoor_seating": "yes",
+    "opening_hours": "Mo-Th 11:00-00:00; Fr 11:00-01:00; Sa 11:00-01:30; Su 11:00-22:30; \"Closed for refirb 22 July-2 Aug 2019\"",
+    "outdoor_seating": "no",
     "phone": "+44 1603 622425",
     "real_ale": "6",
     "real_cider": "no",
     "source": "Bing",
-    "website": "http://www.taylor-walker.co.uk/pub/compleat-angler-norwich/c0702/",
+    "website": "https://www.greeneking-pubs.co.uk/pubs/norfolk/compleat-angler/",
     "id": "way/124952109",
     "mapFeature": {
      "caption": "The Compleat Angler",
@@ -2984,7 +2960,7 @@
     "brand": "Greene King",
     "building": "house",
     "email": "lily@goldenstarnorwich.co.uk",
-    "fhrs:id": "1108815",
+    "fhrs:id": "9319;1108815",
     "kitchen_hours": "Mo 12:00-14:00; Tu 12:00-14:00,18:00-21:00; We-Fr 12:00-14:00,17:00-21:00; Sa 09:00-14:00",
     "name": "The Golden Star",
     "opening_hours": "Mo-Th 11:00-23:00; Fr 11:00-00:00; Sa 09:00-00:00; Su 19:00-23:00",
@@ -3051,6 +3027,49 @@
     "coordinates": [
      1.276361,
      52.6324643
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/135775324",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "46",
+    "addr:postcode": "NR2 3BL",
+    "addr:street": "St. Philips Road",
+    "amenity": "pub",
+    "brand": "Enterprise Inns",
+    "dog": "yes",
+    "email": "thebellevuenorwich@hotmail.com",
+    "end_date": "2018-02-24",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "kitchen_hours": "Mo-Sa 11:00-14:30,17:30-20:45; Su 12:30-17:30",
+    "name": "The Belle Vue",
+    "opening_hours": "24/7 closed",
+    "outdoor_seating": "yes",
+    "phone": "+44 1603 621784",
+    "real_ale": "4",
+    "real_cider": "no",
+    "source": "Bing",
+    "website": "https://www.bellevuenorwich.co.uk/",
+    "id": "way/135775324",
+    "mapFeature": {
+     "caption": "The Belle Vue",
+     "allowPopup": true,
+     "location": "46  St. Philips Road  \n  NR2 3BL <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2748709,
+     52.6325446
     ]
    }
   },
@@ -3141,24 +3160,25 @@
     "addr:postcode": "NR1 1WX",
     "addr:street": "Wherry Road",
     "amenity": "pub",
-    "building": "yes",
+    "building": "retail",
     "fhrs:id": "84060",
     "internet_access": "wlan",
     "name": "The Queen of Iceni",
     "old_name": "Lloyds No. 1",
-    "opening_hours": "08:00-23:00",
+    "opening_hours": "Su-Th 08:00-23:00; Fr-Sa 08:00-01:00; ",
     "operator": "J D Wetherspoon",
+    "outdoor_seating": "yes",
     "phone": "+44 1603 877690",
     "real_ale": "5",
     "real_cider": "no",
     "source": "Bing",
     "website": "https://www.jdwetherspoon.com/pubs/all-pubs/england/norfolk/the-queen-of-iceni-norwich",
-    "wifi": "free",
+    "wheelchair": "yes",
     "id": "way/136363795",
     "mapFeature": {
      "caption": "The Queen of Iceni",
      "allowPopup": true,
-     "location": "6  Wherry Road  \n  NR1 1WX <br />\n  \n  \n  ",
+     "location": "6  Wherry Road  \n  NR1 1WX <br />\n  \n  Wheelchair accessible \n  ",
      "layers": [
       "food"
      ]
@@ -3547,15 +3567,15 @@
     "addr:postcode": "NR2 1RD",
     "addr:street": "Market Place",
     "amenity": "pub",
-    "building": "house",
+    "building": "retail",
     "email": "info@thesirgarnet.co.uk",
     "email:chef": "baronofbeef@thesirgarnet.co.uk",
     "email:hire": "bookings@thesirgarnet.co.uk",
     "fhrs:id": "661405",
-    "kitchen_hours": "Mo-Sa 12:00-21:00; Su off",
     "name": "Sir Garnet",
     "old_name": "Sir Garnet Wolseley",
     "opening_hours": "Mo-We 10:00-00:30; Th-Sa 10:00-02:00; Su 11:00-20:00",
+    "opening_hours:kitchen": "Mo-Sa 12:00-21:00; Su closed",
     "phone": "+44 1603 615892",
     "real_ale": "yes",
     "website": "http://www.thesirgarnet.co.uk/",
@@ -3715,6 +3735,7 @@
     "phone": "+44 1603 453048",
     "real_ale": "5",
     "real_cider": "yes",
+    "start_date": "1855",
     "id": "way/168293483",
     "mapFeature": {
      "caption": "The Eaton Cottage",
@@ -4966,13 +4987,15 @@
     "addr:postcode": "NR3 1RN",
     "addr:street": "Saint Martin at Palace Plain",
     "amenity": "pub",
-    "building": "house",
+    "building": "retail",
+    "building:levels": "2",
     "email": "info@thewigandpen.com",
     "fhrs:id": "69543",
     "kitchen_hours": "Mo-Fr 12:00-14:30,18:00-21:00; Sa 12:00-14:30,17:00-21:00; Su 12:00-16:00",
     "name": "Wig And Pen",
     "old_name": "White Lion",
     "opening_hours": "Mo-Th 11:30-23:00; Fr-Sa 11:30-00:00; Su 11:30-18:00",
+    "outdoor_seating": "yes",
     "phone": "+44 1603 625891",
     "real_ale": "6",
     "real_cider": "no",
@@ -5082,7 +5105,7 @@
     "fhrs:id": "34276",
     "name": "The Wine Cellar",
     "old_name": "Wine Press Bar & Bistro",
-    "opening_hours": "Mo 11:00-22:00; Tu-Th 11:00-23:00; Fr-Sa 11:00-00:00; Su 11:00-16:00",
+    "opening_hours": "Mo,We 11:00-22:00; Tu,Th 11:00-23:00; Fr-Sa 11:00-00:00; Su 11:00-16:00",
     "phone": "+44 1603 886100",
     "real_ale": "no",
     "toilets:wheelchair": "no",

@@ -108,8 +108,9 @@ export default class FeatureInfo {
   }
 
   get caption () {
-    // if (this.tags.mapFeature)
-    return this.tags.mapFeature.caption || this.tags.mapFeature.hoverCaption || ''
+    if (this.tags.mapFeature) {
+      return this.tags.mapFeature.caption || this.tags.mapFeature.hoverCaption || ''
+    }
     // return this.tags.name || this.tags['addr:housename'] || this.tags.amenity || this.tags.building || this.tags['@id']
   }
 

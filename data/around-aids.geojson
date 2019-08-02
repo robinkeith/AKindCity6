@@ -1,0 +1,1144 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "node/1230743548",
+   "properties": {
+    "highway": "lift",
+    "level": "4",
+    "id": "node/1230743548",
+    "mapFeature": {
+     "caption": "node/1230743548",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;4 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2959842,
+     52.6268344
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1230743852",
+   "properties": {
+    "highway": "lift",
+    "layer": "-4",
+    "level": "1",
+    "id": "node/1230743852",
+    "mapFeature": {
+     "caption": "node/1230743852",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;1 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2962837,
+     52.6272607
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1230744264",
+   "properties": {
+    "highway": "lift",
+    "layer": "1",
+    "level": "5",
+    "id": "node/1230744264",
+    "mapFeature": {
+     "caption": "node/1230744264",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;5 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2960023,
+     52.6268514
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1230744294",
+   "properties": {
+    "highway": "lift",
+    "layer": "-4",
+    "level": "1",
+    "id": "node/1230744294",
+    "mapFeature": {
+     "caption": "node/1230744294",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;1 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2960023,
+     52.6268514
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1230744389",
+   "properties": {
+    "highway": "lift",
+    "layer": "-5",
+    "level": "0",
+    "id": "node/1230744389",
+    "mapFeature": {
+     "caption": "node/1230744389",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;0 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2962837,
+     52.6272607
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1230744390",
+   "properties": {
+    "highway": "lift",
+    "layer": "1",
+    "level": "5",
+    "id": "node/1230744390",
+    "mapFeature": {
+     "caption": "node/1230744390",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;5 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2959842,
+     52.6268344
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1230744405",
+   "properties": {
+    "highway": "lift",
+    "layer": "-3",
+    "level": "2",
+    "id": "node/1230744405",
+    "mapFeature": {
+     "caption": "node/1230744405",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;2 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2962837,
+     52.6272607
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1230744555",
+   "properties": {
+    "highway": "lift",
+    "level": "4",
+    "id": "node/1230744555",
+    "mapFeature": {
+     "caption": "node/1230744555",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;4 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2960023,
+     52.6268514
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1230744754",
+   "properties": {
+    "highway": "lift",
+    "layer": "-1",
+    "level": "3",
+    "id": "node/1230744754",
+    "mapFeature": {
+     "caption": "node/1230744754",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;3 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2959842,
+     52.6268344
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1230745714",
+   "properties": {
+    "highway": "lift",
+    "layer": "-1",
+    "level": "3",
+    "id": "node/1230745714",
+    "mapFeature": {
+     "caption": "node/1230745714",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;3 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2960023,
+     52.6268514
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1230745877",
+   "properties": {
+    "highway": "lift",
+    "layer": "-3",
+    "level": "2",
+    "id": "node/1230745877",
+    "mapFeature": {
+     "caption": "node/1230745877",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;2 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2959842,
+     52.6268344
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1230746092",
+   "properties": {
+    "highway": "lift",
+    "layer": "-3",
+    "level": "2",
+    "id": "node/1230746092",
+    "mapFeature": {
+     "caption": "node/1230746092",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;2 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2960023,
+     52.6268514
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1230746418",
+   "properties": {
+    "highway": "lift",
+    "layer": "-4",
+    "level": "1",
+    "id": "node/1230746418",
+    "mapFeature": {
+     "caption": "node/1230746418",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;1 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2959842,
+     52.6268344
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1248122201",
+   "properties": {
+    "highway": "lift",
+    "layer": "2",
+    "id": "node/1248122201",
+    "mapFeature": {
+     "caption": "node/1248122201",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2898,
+     52.6261128
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1248122456",
+   "properties": {
+    "highway": "lift",
+    "id": "node/1248122456",
+    "mapFeature": {
+     "caption": "node/1248122456",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2898,
+     52.6261128
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1248122875",
+   "properties": {
+    "highway": "lift",
+    "level": "2",
+    "id": "node/1248122875",
+    "mapFeature": {
+     "caption": "node/1248122875",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;2 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2904373,
+     52.6256775
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1248123133",
+   "properties": {
+    "highway": "lift",
+    "level": "0",
+    "id": "node/1248123133",
+    "mapFeature": {
+     "caption": "node/1248123133",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;0 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2904013,
+     52.6257574
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1248123559",
+   "properties": {
+    "highway": "lift",
+    "level": "-1-2",
+    "id": "node/1248123559",
+    "mapFeature": {
+     "caption": "node/1248123559",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;-1-2 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2898,
+     52.6261128
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/107045714",
+   "properties": {
+    "conveying": "yes",
+    "highway": "steps",
+    "incline": "down",
+    "level": "4",
+    "id": "way/107045714",
+    "mapFeature": {
+     "caption": "way/107045714",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;4 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2961724,
+     52.626773
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/107045715",
+   "properties": {
+    "conveying": "yes",
+    "highway": "steps",
+    "incline": "down",
+    "layer": "-4",
+    "level": "1",
+    "id": "way/107045715",
+    "mapFeature": {
+     "caption": "way/107045715",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;1 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2964198,
+     52.6271627
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/107045716",
+   "properties": {
+    "conveying": "yes",
+    "highway": "steps",
+    "incline": "up",
+    "layer": "-5",
+    "level": "0",
+    "id": "way/107045716",
+    "mapFeature": {
+     "caption": "way/107045716",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;0 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2963987,
+     52.6271692
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/107045728",
+   "properties": {
+    "conveying": "yes",
+    "highway": "steps",
+    "incline": "up",
+    "level": "4",
+    "id": "way/107045728",
+    "mapFeature": {
+     "caption": "way/107045728",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;4 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2961925,
+     52.6267651
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/107045737",
+   "properties": {
+    "conveying": "yes",
+    "highway": "steps",
+    "incline": "up",
+    "layer": "-3",
+    "level": "2",
+    "id": "way/107045737",
+    "mapFeature": {
+     "caption": "way/107045737",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;2 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2961925,
+     52.6267651
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/107045742",
+   "properties": {
+    "conveying": "yes",
+    "highway": "steps",
+    "incline": "up",
+    "layer": "-1",
+    "level": "3",
+    "id": "way/107045742",
+    "mapFeature": {
+     "caption": "way/107045742",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;3 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2961925,
+     52.6267651
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/107045746",
+   "properties": {
+    "conveying": "yes",
+    "highway": "steps",
+    "incline": "down",
+    "layer": "-3",
+    "level": "2",
+    "id": "way/107045746",
+    "mapFeature": {
+     "caption": "way/107045746",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;2 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2961724,
+     52.626773
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/107045757",
+   "properties": {
+    "conveying": "yes",
+    "highway": "steps",
+    "incline": "up",
+    "layer": "-4",
+    "level": "1",
+    "id": "way/107045757",
+    "mapFeature": {
+     "caption": "way/107045757",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;1 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2961925,
+     52.6267651
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/107045817",
+   "properties": {
+    "conveying": "yes",
+    "highway": "steps",
+    "incline": "down",
+    "layer": "-1",
+    "level": "3",
+    "id": "way/107045817",
+    "mapFeature": {
+     "caption": "way/107045817",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;3 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2961724,
+     52.626773
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/107045958",
+   "properties": {
+    "conveying": "yes",
+    "highway": "steps",
+    "incline": "down",
+    "layer": "-2",
+    "level": "2.5",
+    "id": "way/107045958",
+    "mapFeature": {
+     "caption": "way/107045958",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;2.5 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2961239,
+     52.6275191
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/107045998",
+   "properties": {
+    "conveying": "yes",
+    "highway": "steps",
+    "incline": "up",
+    "layer": "-4",
+    "level": "1",
+    "id": "way/107045998",
+    "mapFeature": {
+     "caption": "way/107045998",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;1 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2958195,
+     52.6276201
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/107046034",
+   "properties": {
+    "conveying": "yes",
+    "highway": "steps",
+    "incline": "up",
+    "layer": "-3",
+    "level": "2",
+    "id": "way/107046034",
+    "mapFeature": {
+     "caption": "way/107046034",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;2 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2962605,
+     52.6274681
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/107046044",
+   "properties": {
+    "conveying": "yes",
+    "highway": "steps",
+    "incline": "down",
+    "layer": "1",
+    "level": "5",
+    "id": "way/107046044",
+    "mapFeature": {
+     "caption": "way/107046044",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;5 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2961724,
+     52.626773
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/107046102",
+   "properties": {
+    "conveying": "yes",
+    "highway": "steps",
+    "incline": "up",
+    "level": "4",
+    "id": "way/107046102",
+    "mapFeature": {
+     "caption": "way/107046102",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;4 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2959408,
+     52.6268635
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/107046114",
+   "properties": {
+    "conveying": "yes",
+    "highway": "steps",
+    "incline": "down",
+    "layer": "-3",
+    "level": "2",
+    "id": "way/107046114",
+    "mapFeature": {
+     "caption": "way/107046114",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;2 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2958251,
+     52.6276251
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/108865875",
+   "properties": {
+    "conveying": "yes",
+    "highway": "steps",
+    "incline": "down",
+    "layer": "2",
+    "id": "way/108865875",
+    "mapFeature": {
+     "caption": "way/108865875",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2888458,
+     52.6263411
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/108865896",
+   "properties": {
+    "conveying": "yes",
+    "highway": "steps",
+    "incline": "down",
+    "level": "1-2",
+    "id": "way/108865896",
+    "mapFeature": {
+     "caption": "way/108865896",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;1-2 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2902948,
+     52.6256084
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/108865897",
+   "properties": {
+    "conveying": "yes",
+    "highway": "steps",
+    "incline": "up",
+    "level": "-1-0",
+    "id": "way/108865897",
+    "mapFeature": {
+     "caption": "way/108865897",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;-1-0 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2900289,
+     52.6260972
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/108865898",
+   "properties": {
+    "conveying": "yes",
+    "highway": "steps",
+    "incline": "up",
+    "level": "1-2",
+    "id": "way/108865898",
+    "mapFeature": {
+     "caption": "way/108865898",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;1-2 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2903085,
+     52.6256197
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/108865916",
+   "properties": {
+    "conveying": "yes",
+    "highway": "steps",
+    "incline": "up",
+    "level": "0-1",
+    "id": "way/108865916",
+    "mapFeature": {
+     "caption": "way/108865916",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;0-1 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2906555,
+     52.6255913
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/108865995",
+   "properties": {
+    "conveying": "yes",
+    "highway": "steps",
+    "incline": "down",
+    "layer": "1",
+    "id": "way/108865995",
+    "mapFeature": {
+     "caption": "way/108865995",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2888458,
+     52.6263411
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/108866008",
+   "properties": {
+    "conveying": "yes",
+    "highway": "steps",
+    "incline": "down",
+    "layer": "1",
+    "level": "0-1",
+    "id": "way/108866008",
+    "mapFeature": {
+     "caption": "way/108866008",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;0-1 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2906721,
+     52.625578
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/108866022",
+   "properties": {
+    "conveying": "yes",
+    "highway": "steps",
+    "incline": "down",
+    "level": "-1-0",
+    "id": "way/108866022",
+    "mapFeature": {
+     "caption": "way/108866022",
+     "allowPopup": true,
+     "location": "  \n  <strong>Level:</strong>&nbsp;-1-0 <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2900015,
+     52.6261107
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/108866029",
+   "properties": {
+    "conveying": "yes",
+    "highway": "steps",
+    "incline": "up",
+    "layer": "1",
+    "id": "way/108866029",
+    "mapFeature": {
+     "caption": "way/108866029",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2888018,
+     52.6263632
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/208000624",
+   "properties": {
+    "highway": "steps",
+    "ramp": "no",
+    "id": "way/208000624",
+    "mapFeature": {
+     "caption": "way/208000624",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2905841,
+     52.6136539
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/290137169",
+   "properties": {
+    "access": "permissive",
+    "bicycle": "dismount",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "no",
+    "incline": "10%",
+    "motor_vehicle": "no",
+    "ramp": "yes",
+    "ramp:stroller": "yes",
+    "ramp:wheelchair": "yes",
+    "smoothness": "intermediate",
+    "surface": "paved",
+    "wheelchair": "yes",
+    "width": "3",
+    "id": "way/290137169",
+    "mapFeature": {
+     "caption": "way/290137169",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "around"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2915319,
+     52.6279616
+    ]
+   }
+  }
+ ]
+}

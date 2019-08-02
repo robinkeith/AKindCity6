@@ -1,0 +1,96 @@
+type,id,addr:city,addr:country,addr:housename,addr:postcode,addr:street,alt_name,amenity,internet_access,internet_access:fee,name,opening_hours,operator,parking,parking:disabled,phone,toilets,toilets:disabled,website,wheelchair,wheelchair:note,wikidata,id,F.caption,F.allowPopup,F.icon,F.location,F.facilities,F.availability,F.operator,F.contact,F.meta,F.layers,geometry.type,geometry.coordinates,url,building,library:type,listed_status,source,wheelchair:description:en,source:amenity,toilets_disabled,addr:housenumber,email,facebook,parking_disabled,level
+Feature,node/299412199,Norwich,GB,The Forum,NR2 1AW,Millennium Plain,The Forum,library,yes,no,Norfolk and Norwich Millennium Library,Mo-Fr 09:00-20:00; Sa 09:00-17:00,Norfolk County Council,yes,yes,+44 1603 774774,yes,yes,https://www.norfolk.gov.uk/libraries-local-history-and-archives/libraries/your-local-library/locations-and-opening-times/norfolk-and-norwich-millennium-library,yes,slope:lift,Q7734913,node/299412199,Norfolk and Norwich Millennium Library,true,," Millennium Plain  
+  NR2 1AW <br />
+  
+  Wheelchair accessible 
+  ",,,,,,learn,Point,1.2909467;52.6277308
+Feature,node/2640098482,,,,,,,library,,,Childrens Library,Mo-Fr 9:00-19:00;Sa 9:00-17:00;Su 10:30-16:30,Norfolk County Council,,,,,,https://www.norfolk.gov.uk/libraries-local-history-and-archives/libraries/your-local-library/locations-and-opening-times/norfolk-and-norwich-millennium-library,,,,node/2640098482,Childrens Library,true,,"  
+  <br />
+  
+  
+  ",,,,,,learn,Point,1.2905996;52.6277146
+Feature,node/2640098483,,,,,,,library,,,Express Library,Mo-Sa 9:00-20:00;Su 10:30-16:30,Norfolk County Council,,,,,,https://www.norfolk.gov.uk/libraries-local-history-and-archives/libraries/your-local-library/locations-and-opening-times/norfolk-and-norwich-millennium-library,,,,node/2640098483,Express Library,true,,"  
+  <br />
+  
+  
+  ",,,,,,learn,Point,1.2909492;52.6279172
+Feature,node/2640098484,,,,,,,library,,,2nd Air Division Memorial Library,Mo-Sa 9:00-17:00,,,,,,,https://www.2ndair.org.uk/,,,,node/2640098484,2nd Air Division Memorial Library,true,,"  
+  <br />
+  
+  
+  ",,,,,,learn,Point,1.2906362;52.6276021,https://www.norfolk.gov.uk/libraries-local-history-and-archives/libraries/your-local-library/locations-and-opening-times/norfolk-and-norwich-millennium-library
+Feature,node/6219558624,,,,,,,library,no,,The Woodbastwick Honesty Library,24/7,,,,,,,,,,,node/6219558624,The Woodbastwick Honesty Library,true,,"  
+  <br />
+  
+  
+  ",,,,,,learn,Point,1.4446404;52.6835002,
+Feature,way/32697058,,,,,,,library,,,UEA Library,,Univresity of East Anglia,,,,,,,yes,,,way/32697058,UEA Library,true,,"  
+  <br />
+  
+  Wheelchair accessible 
+  ",,,,,,learn,Point,1.2407922;52.6207953,,yes,academic,Grade II
+Feature,way/114943356,Norwich,GB,,NR4 7HG,Colman Road,,library,,,Earlham Library,Mo 13:00-17:00;Tu-We 10:00-17:00;Th 10:00-19:00;Fr-Sa 10:00-17:00,Norfolk County Council,surface,,+44 1603 454338,yes,,https://www.norfolk.gov.uk/libraries-local-history-and-archives/libraries/your-local-library/locations-and-opening-times/earlham-library,yes,,Q55111095,way/114943356,Earlham Library,true,," Colman Road  
+  NR4 7HG <br />
+  
+  Wheelchair accessible 
+  ",,,,,,learn,Point,1.2605161;52.6257733,,yes,,,Bing,slope
+Feature,way/124759252,Norwich,GB,Costessey Library,NR5 0RW,Breckland Road,,library,,,Costessey Library,"Mo 9:00-13:00,14:00-17:00;Tu 14:00-19:30;We 9:00-13:00,14:00-17:00;Fr 9:00-13:00,14:00-17:00;Sa 9:00-13:00",Norfolk County Council,,,+44 1603 742669,,,https://www.norfolk.gov.uk/libraries-local-history-and-archives/libraries/your-local-library/locations-and-opening-times/costessey-library,yes,,Q55111089,way/124759252,Costessey Library,true,," Breckland Road  
+  NR5 0RW <br />
+  
+  Wheelchair accessible 
+  ",,,,,,learn,Point,1.2224961;52.6465307,,yes,,,OS_OpenData_StreetView,
+Feature,way/131332797,Norwich,GB,Tuckswood Library,NR4 6BX,Robin Hood Road,,library,,,Tuckswood Library,"Tu,Fr 10:00-13:00,14:00-17:00;Sa 10:00-16:00",Norfolk County Council,yes,,+44 1603 452038,yes,yes,https://www.norfolk.gov.uk/libraries-local-history-and-archives/libraries/your-local-library/locations-and-opening-times/tuckswood-library,yes,,Q55111148,way/131332797,Tuckswood Library,true,," Robin Hood Road  
+  NR4 6BX <br />
+  
+  Wheelchair accessible 
+  ",,,,,,learn,Point,1.2809761;52.6078128,,yes,,,Bing,
+Feature,way/132696852,,,,,,,library,,,Mile Cross Library,"Tu 14:00-19:30; We,Th,Fr 10:00-17:30; Sa 10:00-13:00",Norfolk County Council,,,+44 1603 42590,yes,yes,https://www.norfolk.gov.uk/libraries-local-history-and-archives/libraries/your-local-library/locations-and-opening-times/mile-cross-library,yes,slope,Q55111121,way/132696852,Mile Cross Library,true,,"  
+  <br />
+  
+  Wheelchair accessible 
+  ",,,,,,learn,Point,1.2802988;52.6499084,,yes,,,Bing,,OS_OpenData_StreetView
+Feature,way/134204707,,,,,,,library,,,Hellesdon Library,"Mo 10:00-13:00; Tu-We 10:00-13:00,14:00-17:00; Th 10:00-13:00,14:00-20:00; Fr 10:00-13:00,14:00-17:00; Sa 10:00-13:00",Norfolk County Council,yes,yes,+44 1603 427790,,,https://www.norfolk.gov.uk/libraries-local-history-and-archives/libraries/your-local-library/locations-and-opening-times/hellesdon-library,yes,slope,Q55111105,way/134204707,Hellesdon Library,true,,"  
+  <br />
+  
+  Wheelchair accessible 
+  ",,,,,,learn,Point,1.2615372;52.6647533,,yes,,,survey,,
+Feature,way/134236906,Norwich,GB,Sprowston Library,NR7 8EW,Recreation Ground Road,,library,,,Sprowston Library,"Tu 09:00-13:00,14:00-20:00; We-Fr 09:00-13:00,14:00-17:00; Sa 10:00-16:00",Norfolk County Council,yes,yes,+44 1603 408426,,,https://www.norfolk.gov.uk/libraries-local-history-and-archives/libraries/your-local-library/locations-and-opening-times/sprowston-library,yes,,Q55111141,way/134236906,Sprowston Library,true,," Recreation Ground Road  
+  NR7 8EW <br />
+  
+  Wheelchair accessible 
+  ",,,,,,learn,Point,1.3146891;52.6568271,,yes,,,Bing,,
+Feature,way/134236909,Norwich,GB,St Williams Way Library,NR7 0AJ,Williams Loke,,library,,,St Williams Way Library,"Mo,Th,Fr 10:00-13:00,14:00-17:00;Tu 14:00-20:00;Sa 10:00-13:00",Norfolk County Council,,,+44 1603 434123,,,https://www.norfolk.gov.uk/libraries-local-history-and-archives/libraries/your-local-library/locations-and-opening-times/st-williams-way-library,yes,,Q55111135,way/134236909,St Williams Way Library,true,," Williams Loke  
+  NR7 0AJ <br />
+  
+  Wheelchair accessible 
+  ",,,,,,learn,Point,1.3370694;52.6372081,,yes,,,Bing,,
+Feature,way/255575174,Norwich,GB,The Reading Room,NR13 4RQ,North Street,,library,,,Blofield Library,"Mo 14:00-17:00;We 9:00-13:00,14:00-17:00;Fr-Sa 9:00-13:00",Norfolk County Council,,,+44 1603 712902,,,https://www.norfolk.gov.uk/libraries-local-history-and-archives/libraries/your-local-library/locations-and-opening-times/blofield-library,yes,slope,Q55111081,way/255575174,Blofield Library,true,," North Street  
+  NR13 4RQ <br />
+  
+  Wheelchair accessible 
+  ",,,,,,learn,Point,1.4482778;52.635781,,yes,,,,,,yes
+Feature,way/255576883,Norwich,GB,Brundall Library,NR13 5LH,The Street,,library,,,Brundall Library,Mo 10:00-13:00;Tu 14:00-19:00;Th 10:00-13:00;Fr 14:00-17:00;Sa 10:00-13:00,Norfolk County Council,,,+44 1603 714576,yes,,https://www.norfolk.gov.uk/libraries-local-history-and-archives/libraries/your-local-library/locations-and-opening-times/brundall-library,yes,slope,Q55111087,way/255576883,Brundall Library,true,,"90  The Street  
+  NR13 5LH <br />
+  
+  Wheelchair accessible 
+  ",,,,,,learn,Point,1.4317739;52.6250407,,yes,,,bing,,,yes,90
+Feature,way/257924157,Norwich,GB,,NR9 3DB,Queens Road,,library,,,Hethersett Library,"Mo,We,Fr 10:00-13:00,14:00-17:00; Th 14:00-19:00; Sa 10:00-14:00; Su off",Norfolk County Council,yes,,,,,https://www.norfolk.gov.uk/libraries-local-history-and-archives/libraries/your-local-library/locations-and-opening-times/hethersett-library,yes,,Q55111106,way/257924157,Hethersett Library,true,,"40  Queens Road  
+  NR9 3DB <br />
+  
+  Wheelchair accessible 
+  ",,,,,,learn,Point,1.1814679;52.5994594,,yes,,,,,,,40,libraries@norfolk.gov.uk,https://www.facebook.com/HethersettLibrary,yes
+Feature,way/258688296,Norwich,GB,Plumstead Road Library,NR1 4JS,Plumstead Road,,library,,,Plumstead Road Library,"Tu,Th 13:00-19:00;We,Fr 10:00-13:00,14:00-17:00;Sa 10:00-15:30",Norfolk County Council,,,+44 1603 433455,yes,yes,https://www.norfolk.gov.uk/libraries-local-history-and-archives/libraries/your-local-library/locations-and-opening-times/plumstead-road-library,yes,,Q55111131,way/258688296,Plumstead Road Library,true,," Plumstead Road  
+  NR1 4JS <br />
+  
+  Wheelchair accessible 
+  ",,,,,,learn,Point,1.3217551;52.6353962,,yes,,,,,,,,,,
+Feature,way/259022459,Norwich,GB,Taverham Library,NR8 6JR,Sandy Lane,,library,,,Taverham Library,"Mo,Fr 9:00-13:00,14:00-17:00;Tu,Sa 9:00-13:00;We 14:00-17:00;Th 14:00-20:00",Norfolk County Council,yes,yes,+44 1603 260545,,,https://www.norfolk.gov.uk/libraries-local-history-and-archives/libraries/your-local-library/locations-and-opening-times/taverham-library,yes,,Q55111146,way/259022459,Taverham Library,true,," Sandy Lane  
+  NR8 6JR <br />
+  
+  Wheelchair accessible 
+  ",,,,,,learn,Point,1.1953333;52.6815072,,,,,,,,,,,,
+Feature,way/700132754,Norwich,GB,West Earlham Library,NR5 8AD,Earlham West Centre,,library,,,West Earlham Library,"Tu,Th 9:00-13:00,13:00-18:00;Sa 9:00-13:00",Norfolk County Council,yes,yes,+44 1603 451881,,yes,https://www.norfolk.gov.uk/libraries-local-history-and-archives/libraries/your-local-library/locations-and-opening-times/earlham-library,yes,,Q55111152,way/700132754,West Earlham Library,true,,"17,18  Earlham West Centre  
+  <strong>Level:</strong>&nbsp;0 NR5 8AD <br />
+  
+  Wheelchair accessible 
+  ",,,,,,learn,Point,1.2407774;52.6316703,,yes,,,,,,,"17,18",,,,0

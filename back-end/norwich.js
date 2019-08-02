@@ -2,26 +2,24 @@
 module.exports = [
   // [bbox:1.171761,52.578228,1.525726,52.693864]
 
-  // Get Here layer
+  // Get Here layer -------------------------------------------------------------------
+  // TODO: Preprocess blue badge and on-street parking
+  // TODO: Add railway station  nwr[railway=station]
+  // TODO: add bus stops
   { name: 'here-parkingSpaces', layers: ['here'], query: 'nwr[amenity=parking];' },
   { name: 'here-parkingMeters', layers: ['here'], query: 'nwr[amenity=vending_machine][vending=parking_tickets];' },
   { name: 'here-taxi', layers: ['here'], query: 'nwr[amenity=taxi];' },
-  /* Add
-        nwr[railway=station];
-        >>bus stations
-    */
 
-  // Get around layer - shop mobility, bus routes?
+  // Get around layer - bus routes? -----------------------------------------------
   { name: 'around-aids', layers: ['around'], query: `
     nwr[highway=lift];
     nwr[building][elevator=yes];
     nwr[ramp];
-    nwr[conveying];
-    ` },
+    nwr[conveying];` },
+
   { name: 'around-barrier', layers: ['around'], query: `
     nwr[highway=steps];
-    nwr[highway=footway][incline];
-    ` },
+    nwr[highway=footway][incline];` },
 
   { name: 'around-crossings', layers: ['around'], query: `
     node["highway"="crossing"]["crossing"!="uncontrolled"];
@@ -52,12 +50,12 @@ module.exports = [
 
   { name: 'around-amenities', layers: ['around'], query: `nwr[shop=mobility];` },
 
-  /* The followinf might also be useful, but not currently used in area
+  /* The following might also be useful, but not currently used in area
     amenity=charging station    amenity=dog bin
     amenity=dog waste bin       amenity=luggage_locker
     */
 
-  // toilets
+  // toilets -----------------------------------------------------------------------------
   // Toilets can be recorded as seperate amenities:
   { name: 'toilets-amenity', layers: ['toilets'], query: 'nwr[amenity=toilets];' },
   { name: 'toilets-nonAmenity', layers: ['toilets'], query: 'nwr[~"^toilet(s):.*$"~"."];' },
@@ -72,13 +70,13 @@ module.exports = [
         amenity=food court      amenity=ice cream
     */
 
-  // shop
+  // shop ----------------------------------------------------------------------------------
   { name: 'shop', layers: ['shop'], query: 'nwr[shop];nwr[amenity=marketplace];' },
 
-  // learn
+  // learn ----------------------------------------------------------------------------------
   { name: 'learn', layers: ['learn'], query: 'nwr[amenity=library];' },
 
-  // enjoy
+  // enjoy -----------------------------------------------------------------------------------
   { name: 'enjoy', layers: ['enjoy'], query: `
         nwr[amenity="arts centre"];
         nwr[amenity="cinema"];
@@ -94,8 +92,8 @@ module.exports = [
         nwr[sport];`
   },
 
-  // help
-  // {name: 'helpSafePlaces', query:'nwr[amenity=]'},
+  // help --------------------------------------------------------------------------------------------
+  // TODO: preprocess safe places { name: 'help-SafePlaces' },
   { name: 'help-services', layers: ['help'], query: 'nwr[amenity=police];nwr[name~"Walk-in"];' }
   // {name: 'help-info', query:'nwr[amenity=]'},
   /* possible additiona:
