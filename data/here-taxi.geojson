@@ -1,0 +1,677 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "node/328762",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:street": "Riverside",
+    "amenity": "taxi",
+    "capacity": "3",
+    "name": "Riverside Taxi Rank (Part Time)",
+    "opening_hours": "\"Part time\"",
+    "operator": "Norwich City Council",
+    "wheelchair": "yes",
+    "id": "node/328762",
+    "mapFeature": {
+     "caption": "Riverside Taxi Rank (Part Time)",
+     "allowPopup": true,
+     "location": " Riverside  \n  <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "here"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3051079,
+     52.6266197
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/306668786",
+   "properties": {
+    "amenity": "taxi",
+    "id": "node/306668786",
+    "mapFeature": {
+     "caption": "taxi",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "here"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2774005,
+     52.6692665
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/772786068",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:street": "Queens Road",
+    "amenity": "taxi",
+    "capacity": "3",
+    "description": "Through walkway to bus station",
+    "name": "Bus Station Taxi rank",
+    "opening_hours": "24/7",
+    "operator": "Norwich City Council",
+    "wheelchair": "yes",
+    "id": "node/772786068",
+    "mapFeature": {
+     "caption": "Bus Station Taxi rank",
+     "allowPopup": true,
+     "location": " Queens Road  \n  <br />\n  Through walkway to bus station<br />\n  Wheelchair accessible \n  ",
+     "layers": [
+      "here"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2919604,
+     52.6237677
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/967674107",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "25",
+    "addr:postcode": "NR3 4LQ",
+    "addr:street": "Magdalen Road",
+    "amenity": "taxi",
+    "email": "bestwaytaxis@googlemail.com",
+    "fax": "+44 1603 666222",
+    "name": "Bestway Taxis",
+    "phone": "+44 1603 666666",
+    "website": "http://www.bestwaytaxisnorwich.co.uk/",
+    "id": "node/967674107",
+    "mapFeature": {
+     "caption": "Bestway Taxis",
+     "allowPopup": true,
+     "location": "25  Magdalen Road  \n  NR3 4LQ <br />\n  \n  \n  ",
+     "layers": [
+      "here"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2966424,
+     52.640331
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1236341553",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:street": "Tombland",
+    "amenity": "taxi",
+    "capacity": "3",
+    "name": "Tombland Taxi Rank (Full time)",
+    "opening_hours": "24/7",
+    "operator": "Norwich City Council",
+    "id": "node/1236341553",
+    "mapFeature": {
+     "caption": "Tombland Taxi Rank (Full time)",
+     "allowPopup": true,
+     "location": " Tombland  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "here"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2988874,
+     52.6305032
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1736108940",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "Unit 1",
+    "addr:housenumber": "397",
+    "addr:postcode": "NR5 0SE",
+    "addr:street": "Dereham Road",
+    "amenity": "taxi",
+    "name": "Millennium Taxis",
+    "note": "Located upstairs",
+    "phone": "+44 1603 747474",
+    "phone_alt": "+44 1603 749749",
+    "id": "node/1736108940",
+    "mapFeature": {
+     "caption": "Millennium Taxis",
+     "allowPopup": true,
+     "location": "397  Dereham Road  \n  NR5 0SE <br />\n  \n  \n  ",
+     "layers": [
+      "here"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2112776,
+     52.6451805
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/2126290197",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "43a",
+    "addr:postcode": "NR1 1BL",
+    "addr:street": "Prince of Wales Road",
+    "amenity": "taxi",
+    "email": "info@5startaxis.com",
+    "name": "Five Star Taxis",
+    "phone": "+44 1603 455555",
+    "phone_alt": "+44 800 575575",
+    "taxi": "office",
+    "website": "https://www.5startaxis.com/",
+    "id": "node/2126290197",
+    "mapFeature": {
+     "caption": "Five Star Taxis",
+     "allowPopup": true,
+     "location": "43a  Prince of Wales Road  \n  NR1 1BL <br />\n  \n  \n  ",
+     "layers": [
+      "here"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3014037,
+     52.629262
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/2772911954",
+   "properties": {
+    "amenity": "taxi",
+    "id": "node/2772911954",
+    "mapFeature": {
+     "caption": "taxi",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "here"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2928472,
+     52.6255242
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/6568899501",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:street": "Tombland",
+    "amenity": "taxi",
+    "capacity": "5",
+    "name": "Tombland (Part time)",
+    "opening_hours": "\"Part time\"",
+    "operator": "Norwich City Council",
+    "id": "node/6568899501",
+    "mapFeature": {
+     "caption": "Tombland (Part time)",
+     "allowPopup": true,
+     "location": " Tombland  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "here"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2991859,
+     52.6307911
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/6568899502",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:street": "Bank Plain",
+    "amenity": "taxi",
+    "capacity": "5",
+    "name": "Bank Plain Taxi Rank (Part time)",
+    "opening_hours": "\"part time\"",
+    "operator": "Norwich City Council",
+    "id": "node/6568899502",
+    "mapFeature": {
+     "caption": "Bank Plain Taxi Rank (Part time)",
+     "allowPopup": true,
+     "location": " Bank Plain  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "here"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2971502,
+     52.6301383
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/6568899503",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:street": "Prince of Wales Road",
+    "amenity": "taxi",
+    "capacity": "5",
+    "name": "Prince of Wales Road Taxi Rank (Part Time)",
+    "opening_hours": "\"Part time\"",
+    "operator": "Norwich City Council",
+    "id": "node/6568899503",
+    "mapFeature": {
+     "caption": "Prince of Wales Road Taxi Rank (Part Time)",
+     "allowPopup": true,
+     "location": " Prince of Wales Road  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "here"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3036832,
+     52.628666
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/6568899504",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:street": "Castle Meadow",
+    "amenity": "taxi",
+    "capacity": "3",
+    "name": "Castle Meadow Taxi Rank",
+    "opening_hours": "24/7",
+    "operator": "Norwich City Council",
+    "wheelchair": "yes",
+    "id": "node/6568899504",
+    "mapFeature": {
+     "caption": "Castle Meadow Taxi Rank",
+     "allowPopup": true,
+     "location": " Castle Meadow  \n  <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "here"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2951511,
+     52.6285178
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/6568899505",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:street": "Saint Stephens Street",
+    "amenity": "taxi",
+    "capacity": "3",
+    "name": "St Stephens Street Taxi Rank",
+    "opening_hours": "24/7",
+    "operator": "Norwich City Council",
+    "wheelchair": "yes",
+    "id": "node/6568899505",
+    "mapFeature": {
+     "caption": "St Stephens Street Taxi Rank",
+     "allowPopup": true,
+     "location": " Saint Stephens Street  \n  <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "here"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2922061,
+     52.6251379
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/27303611",
+   "properties": {
+    "access": "yes",
+    "addr:city": "Norwich",
+    "addr:postcode": "NR2 1SN",
+    "addr:street": "Guildhall Hill",
+    "amenity": "taxi",
+    "capacity": "10",
+    "name": "Marketplace Taxi Rank (Gaol Hill)",
+    "opening_hours": "24/7",
+    "operator": "Norwich City Council",
+    "wheelchair": "yes",
+    "wheelchair:description": "Taxi rank situated on a slope",
+    "id": "way/27303611",
+    "mapFeature": {
+     "caption": "Marketplace Taxi Rank (Gaol Hill)",
+     "allowPopup": true,
+     "location": " Guildhall Hill  \n  NR2 1SN <br />\n  \n  Wheelchair accessible \n  Taxi rank situated on a slope",
+     "layers": [
+      "here"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2930352,
+     52.6289599
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/108467051",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:street": "Station Approach",
+    "amenity": "taxi",
+    "capacity": "5",
+    "description": "Taxi rank at front of station",
+    "name": "Norwich Railway Station Taxi Rank",
+    "opening_hours": "24/7",
+    "operator": "Norwich City Council",
+    "source": "survey",
+    "wheelchair": "yes",
+    "id": "way/108467051",
+    "mapFeature": {
+     "caption": "Norwich Railway Station Taxi Rank",
+     "allowPopup": true,
+     "location": " Station Approach  \n  <br />\n  Taxi rank at front of station<br />\n  Wheelchair accessible \n  ",
+     "layers": [
+      "here"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3065905,
+     52.6271501
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/117007251",
+   "properties": {
+    "amenity": "taxi",
+    "building": "yes",
+    "name": "ABC Taxis",
+    "source": "Bing",
+    "id": "way/117007251",
+    "mapFeature": {
+     "caption": "ABC Taxis",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "here"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2801087,
+     52.6391975
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/166701242",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "16",
+    "addr:postcode": "NR13 4LR",
+    "addr:street": "Danesbower Close",
+    "amenity": "taxi",
+    "email": "a.tolver@btinternet.com",
+    "fax": "+44 1603 717356",
+    "name": "A Tolver Taxis & Travel",
+    "phone": "+44 1603 717271",
+    "phone_alt": "+44 1603 717356",
+    "id": "way/166701242",
+    "mapFeature": {
+     "caption": "A Tolver Taxis & Travel",
+     "allowPopup": true,
+     "location": "16  Danesbower Close  \n  NR13 4LR <br />\n  \n  \n  ",
+     "layers": [
+      "here"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.4514591,
+     52.6329578
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/200262922",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "98",
+    "addr:postcode": "NR10 3NQ",
+    "addr:street": "Crostwick Lane",
+    "amenity": "taxi",
+    "building": "office",
+    "email": "enquiries@amctravel.co.uk",
+    "name": "AMC Taxis",
+    "phone": "+44 1603 890222",
+    "website": "https://www.taxis-norwichlondonairports.co.uk/",
+    "id": "way/200262922",
+    "mapFeature": {
+     "caption": "AMC Taxis",
+     "allowPopup": true,
+     "location": "98  Crostwick Lane  \n  NR10 3NQ <br />\n  \n  \n  ",
+     "layers": [
+      "here"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3281034,
+     52.6874304
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/252766256",
+   "properties": {
+    "amenity": "taxi",
+    "building": "office",
+    "name": "Allstar Taxis",
+    "phone": "+44 1603 744444",
+    "taxi": "office",
+    "id": "way/252766256",
+    "mapFeature": {
+     "caption": "Allstar Taxis",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "here"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.1869926,
+     52.6528712
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/312316171",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "50",
+    "addr:postcode": "NR9 3EY",
+    "addr:street": "Priory Road",
+    "amenity": "taxi",
+    "building": "house",
+    "contact:email": "andy@abbeytaxi.com",
+    "contact:mobile": "+44 7917 638766",
+    "contact:phone": "+44 1603 810555",
+    "contact:website": "http://www.abbeytaxi.com/",
+    "name": "Abbey Taxis",
+    "strapline": "Hethersett Wymondham & Beyond",
+    "taxi": "office",
+    "id": "way/312316171",
+    "mapFeature": {
+     "caption": "Abbey Taxis",
+     "allowPopup": true,
+     "location": "50  Priory Road  \n  NR9 3EY <br />\n  \n  \n  ",
+     "layers": [
+      "here"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.1773329,
+     52.5964328
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/330356527",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "70",
+    "addr:street": "Prince of Wales Road",
+    "amenity": "taxi",
+    "building": "yes",
+    "name": "Beeline Taxis",
+    "office": "taxi",
+    "phone": "+44 1603 767676",
+    "website": "http://www.beelinetaxisnorwich.co.uk/",
+    "id": "way/330356527",
+    "mapFeature": {
+     "caption": "Beeline Taxis",
+     "allowPopup": true,
+     "location": "70  Prince of Wales Road  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "here"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3023718,
+     52.6292645
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "relation/5710974",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "77a",
+    "addr:postcode": "NR1 1DG",
+    "addr:street": "Prince of Wales Road",
+    "amenity": "taxi",
+    "email": "citycars.ltd@btconnect.com",
+    "fax": "+44 1603 633383",
+    "level": "1",
+    "name": "Courtesy Taxis",
+    "phone": "+44 1603 446644",
+    "phone:admin": "+44 1603 633336",
+    "taxi": "office",
+    "type": "multipolygon",
+    "website": "https://www.courtesytaxis.com/",
+    "id": "relation/5710974",
+    "mapFeature": {
+     "caption": "Courtesy Taxis",
+     "allowPopup": true,
+     "location": "77a  Prince of Wales Road  \n  <strong>Level:</strong>&nbsp;1 NR1 1DG <br />\n  \n  \n  ",
+     "layers": [
+      "here"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3028498,
+     52.6286805
+    ]
+   }
+  }
+ ]
+}

@@ -3,96 +3,6 @@
  "features": [
   {
    "type": "Feature",
-   "id": "way/107045759",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "70",
-    "addr:postcode": "NR1 3DD",
-    "building": "unit",
-    "covered": "yes",
-    "layer": "-3",
-    "level": "2",
-    "name": "Shop Mobility",
-    "note": "Parking on Level J",
-    "opening_hours": "Mo-Fr 10:00-16:30; Sa 10:00-16:15",
-    "operator": "Norwich Access Group",
-    "phone": "+44 1603 283148",
-    "shop": "mobility",
-    "website": "http://www.norwichaccessgroup.org.uk/shopmobility.shtml",
-    "wheelchair": "yes",
-    "id": "way/107045759"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2974929,
-       52.6275347
-      ],
-      [
-       1.297477,
-       52.6275024
-      ],
-      [
-       1.2974419,
-       52.6275085
-      ],
-      [
-       1.2974106,
-       52.6275139
-      ],
-      [
-       1.297389,
-       52.6274652
-      ],
-      [
-       1.2973841,
-       52.6274009
-      ],
-      [
-       1.297414,
-       52.6273994
-      ],
-      [
-       1.2974151,
-       52.6274077
-      ],
-      [
-       1.2974645,
-       52.6274048
-      ],
-      [
-       1.2974721,
-       52.6273932
-      ],
-      [
-       1.2975485,
-       52.6273912
-      ],
-      [
-       1.2975346,
-       52.6274078
-      ],
-      [
-       1.2975733,
-       52.6274176
-      ],
-      [
-       1.2976226,
-       52.6275093
-      ],
-      [
-       1.2974929,
-       52.6275347
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
    "id": "node/6590934172",
    "properties": {
     "access": "customer",
@@ -103,7 +13,15 @@
     "shop": "mobility",
     "website": "https://intu.co.uk/chapelfield/services/shopmobility",
     "wheelchair": "yes",
-    "id": "node/6590934172"
+    "id": "node/6590934172",
+    "mapFeature": {
+     "caption": "intu Chapelfield Shopmobility Centre",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  Access on Level -1 of the car park, adjacent to the disabled parking area. Standard and powered wheelchairs, as well as powered scooters.<br />\n  Wheelchair accessible \n  ",
+     "layers": [
+      "around"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",

@@ -3,1648 +3,6 @@
  "features": [
   {
    "type": "Feature",
-   "id": "way/103337946",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "18",
-    "addr:postcode": "NR3 1BA",
-    "addr:street": "Saint Georges Street",
-    "amenity": "bar",
-    "building": "yes",
-    "email": "info@thedoghousenorwich.co.uk",
-    "fhrs:id": "26183",
-    "name": "The Dog House",
-    "old_name": "The Doghouse; Red Lion",
-    "opening_hours": "Mo off; Tu-Th 12:00-23:30; Fr-Sa 12:00-01:30; Su 16:00-00:00",
-    "outdoor_seating": "yes",
-    "phone": "+44 1603 765378",
-    "real_ale": "no",
-    "source": "Bing",
-    "start_date": "2008-07",
-    "website": "http://thedoghousenorwich.co.uk/",
-    "wikidata": "Q26515440",
-    "id": "way/103337946"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2953292,
-       52.6309951
-      ],
-      [
-       1.2952651,
-       52.6311124
-      ],
-      [
-       1.2951238,
-       52.631084
-      ],
-      [
-       1.2951878,
-       52.6309667
-      ],
-      [
-       1.2953292,
-       52.6309951
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/106901911",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housename": "Jerninghams Suite",
-    "addr:postcode": "NR8 5AL",
-    "addr:street": "Parklands",
-    "alt_name": "Jerninghams",
-    "amenity": "bar",
-    "building": "club_house",
-    "email": "tginn@costesseypark.com",
-    "fhrs:id": "648139",
-    "name": "Costessey Park Golf Course Club House",
-    "phone": "+44 1603 746333",
-    "website": "http://jerninghams.com/",
-    "id": "way/106901911"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.1973765,
-       52.6582016
-      ],
-      [
-       1.1972358,
-       52.6582156
-      ],
-      [
-       1.1972328,
-       52.6582045
-      ],
-      [
-       1.1971798,
-       52.6582097
-      ],
-      [
-       1.1971603,
-       52.6582117
-      ],
-      [
-       1.1971632,
-       52.6582226
-      ],
-      [
-       1.1969895,
-       52.6582398
-      ],
-      [
-       1.1969916,
-       52.6582476
-      ],
-      [
-       1.1969656,
-       52.6582502
-      ],
-      [
-       1.1969728,
-       52.6582771
-      ],
-      [
-       1.1968326,
-       52.658291
-      ],
-      [
-       1.1968239,
-       52.6582588
-      ],
-      [
-       1.1967755,
-       52.6582636
-      ],
-      [
-       1.1967651,
-       52.658225
-      ],
-      [
-       1.1967467,
-       52.6581568
-      ],
-      [
-       1.1971523,
-       52.6581166
-      ],
-      [
-       1.1973484,
-       52.6580972
-      ],
-      [
-       1.1973765,
-       52.6582016
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/107045907",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "107",
-    "addr:postcode": "NR1 3DD",
-    "amenity": "bar",
-    "building": "unit",
-    "covered": "yes",
-    "level": "4",
-    "name": "Veeno",
-    "url": "http://www.theveenocompany.com/veeno-norwich/",
-    "id": "way/107045907"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2962699,
-       52.6268851
-      ],
-      [
-       1.2962876,
-       52.6268235
-      ],
-      [
-       1.2963198,
-       52.6268219
-      ],
-      [
-       1.2963743,
-       52.6268746
-      ],
-      [
-       1.2963872,
-       52.6268871
-      ],
-      [
-       1.2963034,
-       52.6269196
-      ],
-      [
-       1.2962699,
-       52.6268851
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/112817887",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "7-9",
-    "addr:interpolation": "odd",
-    "addr:postcode": "NR3 1LJ",
-    "addr:street": "Fye Bridge Street",
-    "amenity": "bar",
-    "building": "yes",
-    "fhrs:id": "903864",
-    "name": "NORTH",
-    "website": "https://www.norwichnorth.co.uk/",
-    "id": "way/112817887"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2970065,
-       52.6332096
-      ],
-      [
-       1.2970651,
-       52.6331343
-      ],
-      [
-       1.2970968,
-       52.6331274
-      ],
-      [
-       1.2971759,
-       52.6331678
-      ],
-      [
-       1.2973682,
-       52.6332997
-      ],
-      [
-       1.2974189,
-       52.6333465
-      ],
-      [
-       1.2973241,
-       52.633389
-      ],
-      [
-       1.2973003,
-       52.6333745
-      ],
-      [
-       1.2972792,
-       52.6333929
-      ],
-      [
-       1.2972299,
-       52.6333713
-      ],
-      [
-       1.2971684,
-       52.6333507
-      ],
-      [
-       1.2972391,
-       52.6332837
-      ],
-      [
-       1.2972011,
-       52.6332636
-      ],
-      [
-       1.2970065,
-       52.6332096
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/114946051",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "42-58",
-    "addr:interpolation": "even",
-    "addr:postcode": "NR3 1AB",
-    "addr:street": "Saint George's Street",
-    "amenity": "bar",
-    "building": "yes",
-    "fhrs:id": "739696",
-    "name": "Norwich Playhouse Bar",
-    "phone": "+44 1603 612580",
-    "real_ale": "2",
-    "real_cider": "no",
-    "source": "Bing",
-    "wheelchair": "yes",
-    "id": "way/114946051"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2946185,
-       52.6320676
-      ],
-      [
-       1.2945167,
-       52.6320569
-      ],
-      [
-       1.2945712,
-       52.6319388
-      ],
-      [
-       1.2946708,
-       52.6319591
-      ],
-      [
-       1.2946185,
-       52.6320676
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/119604428",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "40",
-    "addr:postcode": "NR3 1HG",
-    "addr:street": "Elm Hill",
-    "amenity": "bar",
-    "building": "yes",
-    "email": "mick@olivesnorwich.co.uk",
-    "fhrs:id": "774194",
-    "name": "Olive's",
-    "phone": "+44 1603 230500",
-    "phone:mobile": "+44 7817 932304",
-    "real_ale": "no",
-    "website": "http://www.olivesnorwich.co.uk/",
-    "wikidata": "Q26482889",
-    "id": "way/119604428"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2976302,
-       52.6323426
-      ],
-      [
-       1.2974762,
-       52.6322772
-      ],
-      [
-       1.2974508,
-       52.6322664
-      ],
-      [
-       1.2975123,
-       52.632213
-      ],
-      [
-       1.2976917,
-       52.6322892
-      ],
-      [
-       1.2976302,
-       52.6323426
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/131888490",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housename": "Union House",
-    "addr:place": "University of East Anglia",
-    "addr:postcode": "NR4 7TJ",
-    "addr:street": "The Street",
-    "amenity": "bar",
-    "building": "yes",
-    "fhrs:id": "26420",
-    "level": "0",
-    "name": "bar(su)",
-    "opening_hours": "Mo-Th 11:00-23:00; Fr 11:00-00:00; Sa 11:00-23:30; Su 12:00-23:00",
-    "operator": "Union of UEA Students",
-    "outdoor_seating": "yes",
-    "phone": "+44 1603 456161",
-    "real_ale": "1",
-    "real_cider": "no",
-    "source": "Bing",
-    "source:addr": "FHRS Open Data",
-    "wheelchair": "yes",
-    "id": "way/131888490"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2416194,
-       52.6211771
-      ],
-      [
-       1.2417467,
-       52.6212685
-      ],
-      [
-       1.2418139,
-       52.6213167
-      ],
-      [
-       1.2412124,
-       52.6216257
-      ],
-      [
-       1.2411186,
-       52.6215584
-      ],
-      [
-       1.2410179,
-       52.6214862
-      ],
-      [
-       1.2411638,
-       52.6214112
-      ],
-      [
-       1.2412971,
-       52.6213419
-      ],
-      [
-       1.2413212,
-       52.6213303
-      ],
-      [
-       1.2416194,
-       52.6211771
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/160322241",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "36",
-    "addr:postcode": "NR2 1AX",
-    "addr:street": "Exchange Street",
-    "amenity": "bar",
-    "building": "shop",
-    "fhrs:id": "1129422",
-    "name": "The Wallow",
-    "real_ale": "1",
-    "real_cider": "no",
-    "source": "Bing",
-    "website": "https://www.wallowwine.co.uk/",
-    "wikidata": "Q26303187",
-    "id": "way/160322241"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2936485,
-       52.6303098
-      ],
-      [
-       1.2937562,
-       52.6302979
-      ],
-      [
-       1.2937863,
-       52.6303981
-      ],
-      [
-       1.2936787,
-       52.63041
-      ],
-      [
-       1.2936485,
-       52.6303098
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/169958257",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:full": "29 Tombland / 1 Upper King Street, Norwich, NR3 1RB",
-    "addr:housenumber": "1",
-    "addr:postcode": "NR3 1RB",
-    "addr:street": "Upper King Street",
-    "amenity": "bar",
-    "building": "yes",
-    "fhrs:id": "47085",
-    "kitchen_hours": "09:00-22:00",
-    "name": "All Bar One",
-    "old_name": "Ha!Ha! Bar & Grill; Ha!Ha! Bar & Canteen",
-    "opening_hours": "Mo-We 09:00-23:00; Th 09:00-00:00; Fr-Sa 09:00-01:00; Su 09:00-22:30",
-    "phone": "+44 1603 621223",
-    "real_ale": "no",
-    "real_cider": "no",
-    "website": "https://www.allbarone.co.uk/all-bar-one-norwich/",
-    "id": "way/169958257"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2988111,
-       52.630347
-      ],
-      [
-       1.2988824,
-       52.6303531
-      ],
-      [
-       1.2988844,
-       52.6303409
-      ],
-      [
-       1.2989569,
-       52.6303478
-      ],
-      [
-       1.2989748,
-       52.6302839
-      ],
-      [
-       1.2990507,
-       52.6302944
-      ],
-      [
-       1.2990639,
-       52.6302634
-      ],
-      [
-       1.2991488,
-       52.6302754
-      ],
-      [
-       1.299091,
-       52.6303684
-      ],
-      [
-       1.2990713,
-       52.6304259
-      ],
-      [
-       1.2990302,
-       52.6304209
-      ],
-      [
-       1.2990176,
-       52.6304592
-      ],
-      [
-       1.2989636,
-       52.6304527
-      ],
-      [
-       1.2989532,
-       52.6304843
-      ],
-      [
-       1.2988598,
-       52.6304723
-      ],
-      [
-       1.298868,
-       52.6304433
-      ],
-      [
-       1.2988406,
-       52.6304228
-      ],
-      [
-       1.2988243,
-       52.6303899
-      ],
-      [
-       1.2988325,
-       52.6303574
-      ],
-      [
-       1.2988086,
-       52.6303548
-      ],
-      [
-       1.2988111,
-       52.630347
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/169964350",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "35,35a",
-    "addr:postcode": "NR1 1BG",
-    "addr:street": "Prince of Wales Road",
-    "amenity": "bar",
-    "building": "yes",
-    "fhrs:id": "924803",
-    "name": "Reload Gaming Lounge And Bar",
-    "old_name": "Bar X;Xcape;Joe Alans",
-    "real_ale": "no",
-    "website": "https://www.facebook.com/reloadgamingloungeandbar/",
-    "id": "way/169964350"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.3011565,
-       52.6293392
-      ],
-      [
-       1.301059,
-       52.6293513
-      ],
-      [
-       1.3010284,
-       52.6292498
-      ],
-      [
-       1.3010078,
-       52.6291843
-      ],
-      [
-       1.3011049,
-       52.629173
-      ],
-      [
-       1.3011212,
-       52.629225
-      ],
-      [
-       1.3011565,
-       52.6293392
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/169979540",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "2",
-    "addr:postcode": "NR3 1HA",
-    "addr:street": "Upper King Street",
-    "amenity": "bar",
-    "brand": "Taste Inc Group",
-    "building": "yes",
-    "email": "BelugaNorwich@hotmail.com",
-    "fhrs:id": "1080656",
-    "kitchen_hours": "Th-Sa 17:30-21:00; Su-We of",
-    "name": "Mr Postles Apothecary",
-    "old_name": "Slug & Lettuce",
-    "opening_hours": "We 17:00-00:00; Th 12:00-01:00; Fr-Sa 12:00-02:00",
-    "phone": "+44 1603 624042",
-    "real_ale": "no",
-    "start_date": "2009-08",
-    "website": "http://www.mybeluga.co.uk/",
-    "id": "way/169979540"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2984123,
-       52.6302907
-      ],
-      [
-       1.2985843,
-       52.6303103
-      ],
-      [
-       1.2985663,
-       52.6303973
-      ],
-      [
-       1.2985544,
-       52.6304088
-      ],
-      [
-       1.298521,
-       52.6304096
-      ],
-      [
-       1.2983777,
-       52.6303893
-      ],
-      [
-       1.2984123,
-       52.6302907
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/169980388",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "17",
-    "addr:postcode": "NR2 4PE",
-    "addr:street": "Saint Benedicts Street",
-    "amenity": "bar",
-    "building": "yes",
-    "fhrs:id": "30686",
-    "internet_access": "wlan",
-    "name": "The Bicycle Shop",
-    "old_name": "Scullery Bar",
-    "opening_hours": "Mo-Sa 17:00-01:00; Su off",
-    "phone": "+44 1603 625777",
-    "real_ale": "yes",
-    "source": "Bing",
-    "toilets:wheelchair": "yes",
-    "wheelchair": "yes",
-    "id": "way/169980388"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.290641,
-       52.6308415
-      ],
-      [
-       1.2906765,
-       52.6309519
-      ],
-      [
-       1.2906513,
-       52.630955
-      ],
-      [
-       1.2906455,
-       52.6309324
-      ],
-      [
-       1.290611,
-       52.6309366
-      ],
-      [
-       1.2906133,
-       52.6309478
-      ],
-      [
-       1.2905776,
-       52.6309506
-      ],
-      [
-       1.2905456,
-       52.6308514
-      ],
-      [
-       1.290641,
-       52.6308415
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/170336038",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "19",
-    "addr:postcode": "NR2 1AR",
-    "addr:street": "Bedford Street",
-    "amenity": "bar",
-    "building": "yes",
-    "fhrs:id": "26175",
-    "kitchen_hours": "Mo 12:00-15:00; Tu-Fr 12:00-15:00,18:00-22:00; Sa 12:00-22:00; Su 12:00-18:00",
-    "name": "Frank's Bar",
-    "opening_hours": "Mo off; Tu-Th 10:00-00:00; Fr-Sa 10:00-02:30; Su 10:00-22:30",
-    "phone": "+44 1603 618902",
-    "real_ale": "2",
-    "real_cider": "no",
-    "website": "https://www.franksbar.co.uk/",
-    "id": "way/170336038"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2947305,
-       52.6298665
-      ],
-      [
-       1.2947492,
-       52.6297349
-      ],
-      [
-       1.2948074,
-       52.6297391
-      ],
-      [
-       1.2948017,
-       52.6298016
-      ],
-      [
-       1.2947949,
-       52.6298683
-      ],
-      [
-       1.2947305,
-       52.6298665
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/170559834",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "68",
-    "addr:postcode": "NR2 1JT",
-    "addr:street": "London Street",
-    "amenity": "bar",
-    "building": "yes",
-    "fhrs:id": "621646",
-    "name": "Gonzo's Tea Room",
-    "real_ale": "no",
-    "id": "way/170559834"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2968409,
-       52.6298881
-      ],
-      [
-       1.2968328,
-       52.6297587
-      ],
-      [
-       1.2969764,
-       52.6297362
-      ],
-      [
-       1.2969895,
-       52.6297833
-      ],
-      [
-       1.2969947,
-       52.6298339
-      ],
-      [
-       1.2968688,
-       52.6298342
-      ],
-      [
-       1.2968699,
-       52.6298886
-      ],
-      [
-       1.2968409,
-       52.6298881
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/170636121",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "18",
-    "addr:postcode": "NR2 1AG",
-    "addr:street": "Bedford Street",
-    "amenity": "bar",
-    "building": "yes",
-    "email": "nfo@mykarmakafe.com",
-    "fhrs:id": "830832",
-    "name": "Karma Kafe",
-    "old_name": "Red; Alley Katz; Kafe Da; Hector's House; Skippers Wine Bar",
-    "phone": "+44 1603 622836",
-    "phone:mobile": "+44 7540 934188",
-    "real_ale": "no",
-    "website": "https://www.mykarmakafe.com/",
-    "id": "way/170636121"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2951277,
-       52.6297239
-      ],
-      [
-       1.2951277,
-       52.6296818
-      ],
-      [
-       1.295066,
-       52.629681
-      ],
-      [
-       1.295066,
-       52.629648
-      ],
-      [
-       1.2952714,
-       52.6296473
-      ],
-      [
-       1.2952739,
-       52.6296303
-      ],
-      [
-       1.2952943,
-       52.6296304
-      ],
-      [
-       1.2953282,
-       52.6296314
-      ],
-      [
-       1.2953222,
-       52.6297305
-      ],
-      [
-       1.2951277,
-       52.6297239
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/171216382",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "25",
-    "addr:postcode": "NR1 1BG",
-    "addr:street": "Prince of Wales Road",
-    "amenity": "bar",
-    "building": "yes",
-    "fhrs:id": "717310",
-    "name": "Gringos",
-    "website": "https://www.gringosnorwich.co.uk/",
-    "id": "way/171216382"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.3005802,
-       52.6292909
-      ],
-      [
-       1.3006187,
-       52.6292891
-      ],
-      [
-       1.300685,
-       52.6292859
-      ],
-      [
-       1.3006988,
-       52.6293913
-      ],
-      [
-       1.3005939,
-       52.6293981
-      ],
-      [
-       1.3005802,
-       52.6292909
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/171216877",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "7-9",
-    "addr:interpolation": "odd",
-    "addr:postcode": "NR2 4SG",
-    "addr:street": "Queen Street",
-    "amenity": "bar",
-    "building": "yes",
-    "fhrs:id": "48354",
-    "name": "Revolución de Cuba",
-    "old_name": "Slug & Lettuce, Yates's",
-    "phone": "+44 1603 857565",
-    "real_ale": "no",
-    "source:addr:postcode": "FHRS Open Data",
-    "website": "https://www.revoluciondecuba.com/norwich/",
-    "id": "way/171216877"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2983585,
-       52.6301242
-      ],
-      [
-       1.2982633,
-       52.6303655
-      ],
-      [
-       1.2979816,
-       52.6303124
-      ],
-      [
-       1.298024,
-       52.6302319
-      ],
-      [
-       1.2980691,
-       52.6302413
-      ],
-      [
-       1.2981064,
-       52.6301679
-      ],
-      [
-       1.2980703,
-       52.6301601
-      ],
-      [
-       1.298127,
-       52.6300812
-      ],
-      [
-       1.2983585,
-       52.6301242
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/171366884",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "57",
-    "addr:postcode": "NR1 1BL",
-    "addr:street": "Prince of Wales Road",
-    "amenity": "bar",
-    "building": "yes",
-    "fhrs:id": "612610",
-    "name": "Fluke",
-    "phone": "+44 1603 762491",
-    "real_ale": "no",
-    "website": "https://www.flukebar.com/",
-    "id": "way/171366884"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.3019746,
-       52.6291336
-      ],
-      [
-       1.3019086,
-       52.6291552
-      ],
-      [
-       1.3017724,
-       52.6290003
-      ],
-      [
-       1.301834,
-       52.6289819
-      ],
-      [
-       1.3019086,
-       52.6290625
-      ],
-      [
-       1.3019746,
-       52.6291336
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/183465327",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "8",
-    "addr:postcode": "NR2 4SN",
-    "addr:street": "Redwell Street",
-    "amenity": "bar",
-    "building": "house",
-    "fhrs:id": "1076778",
-    "name": "Panda",
-    "note": "Opening soon according to signs",
-    "old_name": "Norwich Tap House",
-    "opening_hours": "24/7 closed",
-    "real_ale": "yes",
-    "smoking": "no",
-    "start_date": "2012",
-    "wikidata": "Q26653605",
-    "id": "way/183465327"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2964732,
-       52.630585
-      ],
-      [
-       1.2964633,
-       52.6305444
-      ],
-      [
-       1.2966086,
-       52.6305297
-      ],
-      [
-       1.2967767,
-       52.6305228
-      ],
-      [
-       1.2967638,
-       52.6305738
-      ],
-      [
-       1.2966655,
-       52.6305776
-      ],
-      [
-       1.2964732,
-       52.630585
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/202664405",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "37",
-    "addr:postcode": "NR1 1BG",
-    "addr:street": "Prince of Wales Road",
-    "amenity": "bar",
-    "building": "yes",
-    "fhrs:id": "915695",
-    "name": "9 BAR",
-    "tagline": "Asian Style Karaoke Bar",
-    "id": "way/202664405"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.3011212,
-       52.629225
-      ],
-      [
-       1.3012118,
-       52.629213
-      ],
-      [
-       1.3012481,
-       52.6293272
-      ],
-      [
-       1.3011565,
-       52.6293392
-      ],
-      [
-       1.3011212,
-       52.629225
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/310058406",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housenumber": "6",
-    "addr:postcode": "NR2 4SQ",
-    "addr:street": "Queen Street",
-    "amenity": "bar",
-    "building": "yes",
-    "fhrs:id": "717311",
-    "name": "Vodka Revolution",
-    "opening_hours": "Mo 12:00-01:00; Tu 12:00-00:00; We-Th 12:00-01:00; Fr 12:00-02:00; Sa 12:00-03:00; Su 12:00-01:00",
-    "smoking": "outside",
-    "source:addr:postcode": "FHRS Open Data",
-    "id": "way/310058406"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2976955,
-       52.6303256
-      ],
-      [
-       1.2978625,
-       52.630354
-      ],
-      [
-       1.2977894,
-       52.630512
-      ],
-      [
-       1.2978163,
-       52.6305165
-      ],
-      [
-       1.2977974,
-       52.6305574
-      ],
-      [
-       1.297665,
-       52.6305348
-      ],
-      [
-       1.2977004,
-       52.6304582
-      ],
-      [
-       1.297639,
-       52.6304477
-      ],
-      [
-       1.2976535,
-       52.6304164
-      ],
-      [
-       1.2976955,
-       52.6303256
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/330651021",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "90",
-    "addr:postcode": "NR1 1NJ",
-    "addr:street": "Prince of Wales Road",
-    "amenity": "bar",
-    "building": "yes",
-    "name": "Bar XS",
-    "phone": "+44 1603 627666",
-    "website": "http://www.mercynightclub.com/bar-xs",
-    "id": "way/330651021"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.3033246,
-       52.6289976
-      ],
-      [
-       1.3032299,
-       52.6288861
-      ],
-      [
-       1.3032779,
-       52.6288706
-      ],
-      [
-       1.3033726,
-       52.6289821
-      ],
-      [
-       1.3033246,
-       52.6289976
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/361131262",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "9-11",
-    "addr:interpolation": "odd",
-    "addr:postcode": "NR3 1RB",
-    "addr:street": "Upper King Street",
-    "amenity": "bar",
-    "building": "yes",
-    "email": "info@bar11.co.uk",
-    "fhrs:id": "47903",
-    "name": "Bar 11",
-    "opening_hours": "Su-We 19:00-02:00; Th 19:00-03:00; Fr-Sa 17:00-04:00",
-    "phone": "+44 1603 762250",
-    "real_ale": "yes",
-    "source:addr:postcode": "FHRS Open Data",
-    "start_date": "2011-09",
-    "website": "https://www.bar11.co.uk/",
-    "id": "way/361131262"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2989477,
-       52.6299723
-      ],
-      [
-       1.2991446,
-       52.6299999
-      ],
-      [
-       1.2992416,
-       52.6300135
-      ],
-      [
-       1.2992165,
-       52.6300692
-      ],
-      [
-       1.2990834,
-       52.63005
-      ],
-      [
-       1.2990709,
-       52.6300845
-      ],
-      [
-       1.2989976,
-       52.6300751
-      ],
-      [
-       1.2989851,
-       52.6301075
-      ],
-      [
-       1.2989078,
-       52.6300968
-      ],
-      [
-       1.2989314,
-       52.63004
-      ],
-      [
-       1.2989477,
-       52.6299723
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/374838498",
-   "properties": {
-    "amenity": "bar",
-    "building": "yes",
-    "opening_hours": "Fr 17:30-19:00",
-    "id": "way/374838498"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2207175,
-       52.622579
-      ],
-      [
-       1.2207712,
-       52.6226376
-      ],
-      [
-       1.2207041,
-       52.6226636
-      ],
-      [
-       1.220665,
-       52.6226161
-      ],
-      [
-       1.2206505,
-       52.6225985
-      ],
-      [
-       1.2207175,
-       52.622579
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/444612773",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:floor": "0",
-    "addr:housename": "Platform 12",
-    "addr:housenumber": "12",
-    "addr:postcode": "NR2 4AG",
-    "addr:street": "Saint Benedicts Street",
-    "amenity": "bar",
-    "building": "yes",
-    "building:levels": "3",
-    "fhrs:id": "711789",
-    "internet_access": "wlan",
-    "name": "Platform 12",
-    "phone": "+44 1603 666112",
-    "website": "http://www.platformtwelve.co.uk/",
-    "id": "way/444612773"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2904395,
-       52.6306357
-      ],
-      [
-       1.2906958,
-       52.6306082
-      ],
-      [
-       1.2907223,
-       52.6306995
-      ],
-      [
-       1.2907343,
-       52.630749
-      ],
-      [
-       1.2907014,
-       52.6307519
-      ],
-      [
-       1.2904807,
-       52.6307656
-      ],
-      [
-       1.2904548,
-       52.6306869
-      ],
-      [
-       1.2904395,
-       52.6306357
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/484921477",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housename": "The Allye cafe",
-    "addr:housenumber": "20-22",
-    "addr:interpolation": "even",
-    "addr:postcode": "NR2 1AQ",
-    "addr:street": "Bridewell Alley",
-    "amenity": "bar",
-    "building": "yes",
-    "cuisine": "tapas",
-    "email": "alleyole@gmail.com",
-    "name": "Alley Olé",
-    "opening_hours": "Mo off; Tu-Th 11:00-23:00; Fr-Sa 11:00-23:30",
-    "phone": "+44 1603 928282",
-    "website": "http://thealleycafe.co.uk/",
-    "id": "way/484921477"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2951531,
-       52.6302319
-      ],
-      [
-       1.2951356,
-       52.6303794
-      ],
-      [
-       1.2950481,
-       52.6303761
-      ],
-      [
-       1.2950514,
-       52.6303183
-      ],
-      [
-       1.294984,
-       52.630317
-      ],
-      [
-       1.2949853,
-       52.6302918
-      ],
-      [
-       1.294986,
-       52.6302295
-      ],
-      [
-       1.2950561,
-       52.6302311
-      ],
-      [
-       1.2951531,
-       52.6302319
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/619453989",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "20",
-    "addr:postcode": "NR1 1LB",
-    "addr:street": "Prince of Wales Road",
-    "amenity": "bar",
-    "building": "yes",
-    "fhrs:id": "1100554",
-    "name": "Envy",
-    "old_name": "Red Rock Cafe",
-    "website": "https://www.envynorwich.com/",
-    "id": "way/619453989"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.299828,
-       52.6295563
-      ],
-      [
-       1.2999365,
-       52.6295662
-      ],
-      [
-       1.2998748,
-       52.629716
-      ],
-      [
-       1.2997717,
-       52.6297061
-      ],
-      [
-       1.299828,
-       52.6295563
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
    "id": "node/1373249712",
    "properties": {
     "addr:city": "Norwich",
@@ -1659,7 +17,15 @@
     "real_ale": "yes",
     "source:addr": "FHRS Open Data",
     "website": "http://maddermarket.co.uk/your-visit/bar",
-    "id": "node/1373249712"
+    "id": "node/1373249712",
+    "mapFeature": {
+     "caption": "Maddermarket Theatre bar",
+     "allowPopup": true,
+     "location": " St Johns Alley  \n  NR2 1DR <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -1677,7 +43,15 @@
     "name": "Maids Head Hotel bar",
     "real_ale": "2",
     "real_cider": "no",
-    "id": "node/1378091033"
+    "id": "node/1378091033",
+    "mapFeature": {
+     "caption": "Maids Head Hotel bar",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -1698,7 +72,15 @@
     "fhrs:id": "853737",
     "name": "Bond",
     "website": "http://www.bondnorwich.co.uk/",
-    "id": "node/1394739087"
+    "id": "node/1394739087",
+    "mapFeature": {
+     "caption": "Bond",
+     "allowPopup": true,
+     "location": "27-28  Tombland  \n  NR3 1RE <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -1718,7 +100,15 @@
     "phone": "+44 1603 230414",
     "real_ale": "no",
     "wheelchair": "yes",
-    "id": "node/1811060374"
+    "id": "node/1811060374",
+    "mapFeature": {
+     "caption": "Ambar",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -1733,11 +123,20 @@
    "id": "node/1811089126",
    "properties": {
     "amenity": "bar",
+    "fhrs:id": "68606",
     "note": "Position is inexact",
     "phone": "+44 1603 630479",
     "real_ale": "1",
     "real_cider": "no",
-    "id": "node/1811089126"
+    "id": "node/1811089126",
+    "mapFeature": {
+     "caption": "bar",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -1761,7 +160,15 @@
     "operator": "Cinema City",
     "real_ale": "1",
     "real_cider": "no",
-    "id": "node/1814764893"
+    "id": "node/1814764893",
+    "mapFeature": {
+     "caption": "The Bar",
+     "allowPopup": true,
+     "location": " Saint Andrews Street  \n  NR2 4AD <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -1778,7 +185,15 @@
     "amenity": "bar",
     "name": "The Yard of Ale",
     "real_ale": "no",
-    "id": "node/1819470089"
+    "id": "node/1819470089",
+    "mapFeature": {
+     "caption": "The Yard of Ale",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -1799,12 +214,21 @@
     "addr:street": "Bank Plain",
     "amenity": "bar",
     "fhrs:id": "853732",
+    "indoor": "yes",
     "name": "Be At One",
-    "old_name": "Lola Lo, Po Na Na, Bar Celona, Chicago Rock Cafe, Royal Hotel",
+    "old_name": "Lola Lo;Po Na Na;Bar Celona;Chicago Rock Cafe;Royal Hotel",
     "phone": "+44 1603 959986",
     "real_ale": "no",
     "website": "https://www.beatone.co.uk/cocktail-bar/norwich",
-    "id": "node/1822735069"
+    "id": "node/1822735069",
+    "mapFeature": {
+     "caption": "Be At One",
+     "allowPopup": true,
+     "location": "23  Bank Plain  \n  NR2 4SF <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -1823,7 +247,15 @@
     "note": "Position unknown",
     "opening_hours": "24/7",
     "real_ale": "no",
-    "id": "node/1822837181"
+    "id": "node/1822837181",
+    "mapFeature": {
+     "caption": "The Club Bar",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -1841,7 +273,15 @@
     "name": "SGH Bistro and bar",
     "opening_hours": "12:00+",
     "real_ale": "no",
-    "id": "node/1824031610"
+    "id": "node/1824031610",
+    "mapFeature": {
+     "caption": "SGH Bistro and bar",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -1860,7 +300,15 @@
     "note": "Circle level",
     "opening_hours": "Mo-Sa 09:30+",
     "real_ale": "no",
-    "id": "node/1824076352"
+    "id": "node/1824076352",
+    "mapFeature": {
+     "caption": "Adnams Bar",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -1878,7 +326,15 @@
     "name": "Rockalls Bar",
     "note": "Stalls level",
     "real_ale": "no",
-    "id": "node/1824076353"
+    "id": "node/1824076353",
+    "mapFeature": {
+     "caption": "Rockalls Bar",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -1893,7 +349,15 @@
    "id": "node/1987730663",
    "properties": {
     "amenity": "bar",
-    "id": "node/1987730663"
+    "id": "node/1987730663",
+    "mapFeature": {
+     "caption": "bar",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -1910,7 +374,15 @@
     "amenity": "bar",
     "name": "Oak Bar & Terrace",
     "website": "https://www.theoakbarterrace.co.uk/",
-    "id": "node/5535521476"
+    "id": "node/5535521476",
+    "mapFeature": {
+     "caption": "Oak Bar & Terrace",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -1939,13 +411,990 @@
     "phone": "+44 1603 626626",
     "real_ale": "no",
     "website": "https://www.lastwinebar.co.uk/",
-    "id": "node/6505466785"
+    "id": "node/6505466785",
+    "mapFeature": {
+     "caption": "Last Wine Bar & Restaurant",
+     "allowPopup": true,
+     "location": "76  Saint Georges Street  \n  NR3 1AB <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
     "coordinates": [
      1.2943456,
      52.6328411
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/103337946",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "18",
+    "addr:postcode": "NR3 1BA",
+    "addr:street": "Saint Georges Street",
+    "amenity": "bar",
+    "building": "yes",
+    "email": "info@thedoghousenorwich.co.uk",
+    "fhrs:id": "26183",
+    "name": "The Dog House",
+    "old_name": "The Doghouse; Red Lion",
+    "opening_hours": "Mo off; Tu-Th 12:00-23:30; Fr-Sa 12:00-01:30; Su 16:00-00:00",
+    "outdoor_seating": "yes",
+    "phone": "+44 1603 765378",
+    "real_ale": "no",
+    "source": "Bing",
+    "start_date": "2008-07",
+    "website": "http://thedoghousenorwich.co.uk/",
+    "wikidata": "Q26515440",
+    "id": "way/103337946",
+    "mapFeature": {
+     "caption": "The Dog House",
+     "allowPopup": true,
+     "location": "18  Saint Georges Street  \n  NR3 1BA <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2952265,
+     52.6310395
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/106901911",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "Jerninghams Suite",
+    "addr:postcode": "NR8 5AL",
+    "addr:street": "Parklands",
+    "alt_name": "Jerninghams",
+    "amenity": "bar",
+    "building": "club_house",
+    "email": "tginn@costesseypark.com",
+    "fhrs:id": "648139",
+    "name": "Costessey Park Golf Course Club House",
+    "phone": "+44 1603 746333",
+    "website": "http://jerninghams.com/",
+    "id": "way/106901911",
+    "mapFeature": {
+     "caption": "Costessey Park Golf Course Club House",
+     "allowPopup": true,
+     "location": " Parklands  \n  NR8 5AL <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.1970616,
+     52.6581941
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/107045907",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "107",
+    "addr:postcode": "NR1 3DD",
+    "amenity": "bar",
+    "building": "unit",
+    "covered": "yes",
+    "level": "4",
+    "name": "Veeno",
+    "url": "http://www.theveenocompany.com/veeno-norwich/",
+    "id": "way/107045907",
+    "mapFeature": {
+     "caption": "Veeno",
+     "allowPopup": true,
+     "location": "107   \n  <strong>Level:</strong>&nbsp;4 NR1 3DD <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2963286,
+     52.6268708
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/112817887",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "7-9",
+    "addr:interpolation": "odd",
+    "addr:postcode": "NR3 1LJ",
+    "addr:street": "Fye Bridge Street",
+    "amenity": "bar",
+    "building": "yes",
+    "fhrs:id": "903864",
+    "name": "NORTH",
+    "website": "https://www.norwichnorth.co.uk/",
+    "id": "way/112817887",
+    "mapFeature": {
+     "caption": "NORTH",
+     "allowPopup": true,
+     "location": "7-9  Fye Bridge Street  \n  NR3 1LJ <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2972127,
+     52.6332601
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/114946051",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "42-58",
+    "addr:interpolation": "even",
+    "addr:postcode": "NR3 1AB",
+    "addr:street": "Saint George's Street",
+    "amenity": "bar",
+    "building": "yes",
+    "fhrs:id": "739696",
+    "name": "Norwich Playhouse Bar",
+    "phone": "+44 1603 612580",
+    "real_ale": "2",
+    "real_cider": "no",
+    "source": "Bing",
+    "wheelchair": "yes",
+    "id": "way/114946051",
+    "mapFeature": {
+     "caption": "Norwich Playhouse Bar",
+     "allowPopup": true,
+     "location": "42-58  Saint George's Street  \n  NR3 1AB <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2945937,
+     52.6320032
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/119604428",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "40",
+    "addr:postcode": "NR3 1HG",
+    "addr:street": "Elm Hill",
+    "amenity": "bar",
+    "building": "yes",
+    "email": "mick@olivesnorwich.co.uk",
+    "fhrs:id": "774194",
+    "name": "Olive's",
+    "phone": "+44 1603 230500",
+    "phone:mobile": "+44 7817 932304",
+    "real_ale": "no",
+    "website": "http://www.olivesnorwich.co.uk/",
+    "wikidata": "Q26482889",
+    "id": "way/119604428",
+    "mapFeature": {
+     "caption": "Olive's",
+     "allowPopup": true,
+     "location": "40  Elm Hill  \n  NR3 1HG <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2975712,
+     52.6322778
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/131888490",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housename": "Union House",
+    "addr:place": "University of East Anglia",
+    "addr:postcode": "NR4 7TJ",
+    "addr:street": "The Street",
+    "amenity": "bar",
+    "building": "yes",
+    "fhrs:id": "26420",
+    "level": "0",
+    "name": "bar(su)",
+    "opening_hours": "Mo-Th 11:00-23:00; Fr 11:00-00:00; Sa 11:00-23:30; Su 12:00-23:00",
+    "operator": "Union of UEA Students",
+    "outdoor_seating": "yes",
+    "phone": "+44 1603 456161",
+    "real_ale": "1",
+    "real_cider": "no",
+    "source": "Bing",
+    "source:addr": "FHRS Open Data",
+    "wheelchair": "yes",
+    "id": "way/131888490",
+    "mapFeature": {
+     "caption": "bar(su)",
+     "allowPopup": true,
+     "location": " The Street  \n  <strong>Level:</strong>&nbsp;0 NR4 7TJ <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2414159,
+     52.6214014
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/160322241",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "36",
+    "addr:postcode": "NR2 1AX",
+    "addr:street": "Exchange Street",
+    "amenity": "bar",
+    "building": "shop",
+    "fhrs:id": "1129422",
+    "name": "The Wallow",
+    "real_ale": "1",
+    "real_cider": "no",
+    "source": "Bing",
+    "website": "https://www.wallowwine.co.uk/",
+    "wikidata": "Q26303187",
+    "id": "way/160322241",
+    "mapFeature": {
+     "caption": "The Wallow",
+     "allowPopup": true,
+     "location": "36  Exchange Street  \n  NR2 1AX <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2937174,
+     52.6303539
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/169958257",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:full": "29 Tombland / 1 Upper King Street, Norwich, NR3 1RB",
+    "addr:housenumber": "1",
+    "addr:postcode": "NR3 1RB",
+    "addr:street": "Upper King Street",
+    "amenity": "bar",
+    "brand": "All Bar One",
+    "brand:wikidata": "Q4728624",
+    "brand:wikipedia": "en:All Bar One",
+    "building": "yes",
+    "fhrs:id": "47085",
+    "kitchen_hours": "09:00-22:00",
+    "name": "All Bar One",
+    "old_name": "Ha!Ha! Bar & Grill;Ha!Ha! Bar & Canteen",
+    "opening_hours": "Mo-Th 11:00-23:00; Fr-Sa 11:00-01:00; Su 11:00-22:30",
+    "phone": "+44 1603 621223",
+    "real_ale": "no",
+    "real_cider": "no",
+    "website": "https://www.allbarone.co.uk/all-bar-one-norwich/",
+    "id": "way/169958257",
+    "mapFeature": {
+     "caption": "All Bar One",
+     "allowPopup": true,
+     "location": "1  Upper King Street  \n  NR3 1RB <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2989787,
+     52.6303738
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/169964350",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "35,35a",
+    "addr:postcode": "NR1 1BG",
+    "addr:street": "Prince of Wales Road",
+    "amenity": "bar",
+    "building": "yes",
+    "fhrs:id": "924803",
+    "name": "Reload Gaming Lounge And Bar",
+    "old_name": "Bar X;Xcape;Joe Alans",
+    "real_ale": "no",
+    "website": "https://www.facebook.com/reloadgamingloungeandbar/",
+    "id": "way/169964350",
+    "mapFeature": {
+     "caption": "Reload Gaming Lounge And Bar",
+     "allowPopup": true,
+     "location": "35,35a  Prince of Wales Road  \n  NR1 1BG <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3010822,
+     52.6292622
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/169979540",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "2",
+    "addr:postcode": "NR3 1HA",
+    "addr:street": "Upper King Street",
+    "amenity": "bar",
+    "brand": "Taste Inc Group",
+    "building": "yes",
+    "email": "BelugaNorwich@hotmail.com",
+    "fhrs:id": "1080656",
+    "kitchen_hours": "Th-Sa 17:30-21:00; Su-We of",
+    "name": "Mr Postles Apothecary",
+    "old_name": "Slug & Lettuce",
+    "opening_hours": "We 17:00-00:00; Th 12:00-01:00; Fr-Sa 12:00-02:00",
+    "phone": "+44 1603 624042",
+    "real_ale": "no",
+    "start_date": "2009-08",
+    "website": "http://www.mybeluga.co.uk/",
+    "id": "way/169979540",
+    "mapFeature": {
+     "caption": "Mr Postles Apothecary",
+     "allowPopup": true,
+     "location": "2  Upper King Street  \n  NR3 1HA <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.298481,
+     52.6303501
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/169980388",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "17",
+    "addr:postcode": "NR2 4PE",
+    "addr:street": "Saint Benedicts Street",
+    "amenity": "bar",
+    "building": "yes",
+    "fhrs:id": "30686",
+    "internet_access": "wlan",
+    "name": "The Bicycle Shop",
+    "old_name": "Scullery Bar",
+    "opening_hours": "Mo-Sa 17:00-01:00; Su off",
+    "phone": "+44 1603 625777",
+    "real_ale": "yes",
+    "source": "Bing",
+    "toilets:wheelchair": "yes",
+    "wheelchair": "yes",
+    "id": "way/169980388",
+    "mapFeature": {
+     "caption": "The Bicycle Shop",
+     "allowPopup": true,
+     "location": "17  Saint Benedicts Street  \n  NR2 4PE <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.290611,
+     52.6308983
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/170336038",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "19",
+    "addr:postcode": "NR2 1AR",
+    "addr:street": "Bedford Street",
+    "amenity": "bar",
+    "building": "yes",
+    "fhrs:id": "26175",
+    "kitchen_hours": "Mo 12:00-15:00; Tu-Fr 12:00-15:00,18:00-22:00; Sa 12:00-22:00; Su 12:00-18:00",
+    "name": "Frank's Bar",
+    "opening_hours": "Mo off; Tu-Th 10:00-00:00; Fr-Sa 10:00-02:30; Su 10:00-22:30",
+    "phone": "+44 1603 618902",
+    "real_ale": "2",
+    "real_cider": "no",
+    "website": "https://www.franksbar.co.uk/",
+    "id": "way/170336038",
+    "mapFeature": {
+     "caption": "Frank's Bar",
+     "allowPopup": true,
+     "location": "19  Bedford Street  \n  NR2 1AR <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2947689,
+     52.6298016
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/170559834",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "68",
+    "addr:postcode": "NR2 1JT",
+    "addr:street": "London Street",
+    "amenity": "bar",
+    "building": "yes",
+    "fhrs:id": "621646",
+    "name": "Gonzo's Tea Room",
+    "opening_hours": "Su–We 12:00–03:00 Th–Sa 12:00–3:30",
+    "real_ale": "no",
+    "website": "https://www.gonzostearoom.com/",
+    "id": "way/170559834",
+    "mapFeature": {
+     "caption": "Gonzo's Tea Room",
+     "allowPopup": true,
+     "location": "68  London Street  \n  NR2 1JT <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2969137,
+     52.6298124
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/170636121",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "18",
+    "addr:postcode": "NR2 1AG",
+    "addr:street": "Bedford Street",
+    "amenity": "bar",
+    "building": "retail",
+    "email": "nfo@mykarmakafe.com",
+    "fhrs:id": "830832",
+    "name": "Karma Kafe",
+    "old_name": "Red;Alley Katz;Kafe Da;Hector's House;Skippers Wine Bar",
+    "phone": "+44 1603 622836",
+    "phone:mobile": "+44 7540 934188",
+    "real_ale": "no",
+    "website": "https://www.mykarmakafe.com/",
+    "id": "way/170636121",
+    "mapFeature": {
+     "caption": "Karma Kafe",
+     "allowPopup": true,
+     "location": "18  Bedford Street  \n  NR2 1AG <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2951971,
+     52.6296804
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/171216382",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "25",
+    "addr:postcode": "NR1 1BG",
+    "addr:street": "Prince of Wales Road",
+    "amenity": "bar",
+    "building": "yes",
+    "fhrs:id": "717310",
+    "name": "Gringos",
+    "website": "https://www.gringosnorwich.co.uk/",
+    "id": "way/171216382",
+    "mapFeature": {
+     "caption": "Gringos",
+     "allowPopup": true,
+     "location": "25  Prince of Wales Road  \n  NR1 1BG <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3006395,
+     52.629342
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/171216877",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "7-9",
+    "addr:interpolation": "odd",
+    "addr:postcode": "NR2 4TL",
+    "addr:street": "Queen Street",
+    "amenity": "bar",
+    "brand": "Revolución de Cuba",
+    "brand:wikidata": "Q64024691",
+    "building": "retail",
+    "fhrs:id": "48354",
+    "internet_access": "wlan",
+    "name": "Revolución de Cuba",
+    "old_name": "Slug & Lettuce, Yates's",
+    "phone": "+44 1603 857565",
+    "real_ale": "no",
+    "source:addr:postcode": "FHRS Open Data",
+    "toilets:wheelchair": "customer",
+    "website": "https://www.revoluciondecuba.com/norwich/",
+    "wheelchair": "limited",
+    "wheelchair:description": "Full access within building, limited in garden",
+    "id": "way/171216877",
+    "mapFeature": {
+     "caption": "Revolución de Cuba",
+     "allowPopup": true,
+     "location": "7-9  Queen Street  \n  NR2 4TL <br />\n  \n  Limited wheelchair access \n  Full access within building, limited in garden",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.29817,
+     52.6302234
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/171366884",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "57",
+    "addr:postcode": "NR1 1BL",
+    "addr:street": "Prince of Wales Road",
+    "amenity": "bar",
+    "building": "yes",
+    "fhrs:id": "612610",
+    "name": "Fluke",
+    "phone": "+44 1603 762491",
+    "real_ale": "no",
+    "website": "https://www.flukebar.com/",
+    "id": "way/171366884",
+    "mapFeature": {
+     "caption": "Fluke",
+     "allowPopup": true,
+     "location": "57  Prince of Wales Road  \n  NR1 1BL <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3018735,
+     52.6290686
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/183465327",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "8",
+    "addr:postcode": "NR2 4SN",
+    "addr:street": "Redwell Street",
+    "amenity": "bar",
+    "building": "house",
+    "fhrs:id": "1076778",
+    "name": "Panda",
+    "note": "Opening soon according to signs",
+    "old_name": "Norwich Tap House",
+    "opening_hours": "24/7 closed",
+    "real_ale": "yes",
+    "smoking": "no",
+    "start_date": "2012",
+    "wikidata": "Q26653605",
+    "id": "way/183465327",
+    "mapFeature": {
+     "caption": "Panda",
+     "allowPopup": true,
+     "location": "8  Redwell Street  \n  NR2 4SN <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.29662,
+     52.6305539
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/202664405",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "37",
+    "addr:postcode": "NR1 1BG",
+    "addr:street": "Prince of Wales Road",
+    "amenity": "bar",
+    "building": "yes",
+    "fhrs:id": "915695",
+    "name": "9 BAR",
+    "tagline": "Asian Style Karaoke Bar",
+    "id": "way/202664405",
+    "mapFeature": {
+     "caption": "9 BAR",
+     "allowPopup": true,
+     "location": "37  Prince of Wales Road  \n  NR1 1BG <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3011847,
+     52.6292761
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/310058406",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "6",
+    "addr:postcode": "NR2 4SQ",
+    "addr:street": "Queen Street",
+    "amenity": "bar",
+    "building": "yes",
+    "fhrs:id": "717311",
+    "name": "Vodka Revolution",
+    "opening_hours": "Mo 12:00-01:00; Tu 12:00-00:00; We-Th 12:00-01:00; Fr 12:00-02:00; Sa 12:00-03:00; Su 12:00-01:00",
+    "smoking": "outside",
+    "source:addr:postcode": "FHRS Open Data",
+    "id": "way/310058406",
+    "mapFeature": {
+     "caption": "Vodka Revolution",
+     "allowPopup": true,
+     "location": "6  Queen Street  \n  NR2 4SQ <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2977508,
+     52.6304415
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/330651021",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "90",
+    "addr:postcode": "NR1 1NJ",
+    "addr:street": "Prince of Wales Road",
+    "amenity": "bar",
+    "building": "yes",
+    "name": "Bar XS",
+    "phone": "+44 1603 627666",
+    "website": "http://www.mercynightclub.com/bar-xs",
+    "id": "way/330651021",
+    "mapFeature": {
+     "caption": "Bar XS",
+     "allowPopup": true,
+     "location": "90  Prince of Wales Road  \n  NR1 1NJ <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3033013,
+     52.6289341
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/361131262",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "9-11",
+    "addr:interpolation": "odd",
+    "addr:postcode": "NR3 1RB",
+    "addr:street": "Upper King Street",
+    "amenity": "bar",
+    "building": "yes",
+    "email": "info@bar11.co.uk",
+    "fhrs:id": "47903",
+    "name": "Bar 11",
+    "opening_hours": "Su-We 19:00-02:00; Th 19:00-03:00; Fr-Sa 17:00-04:00",
+    "phone": "+44 1603 762250",
+    "real_ale": "yes",
+    "source:addr:postcode": "FHRS Open Data",
+    "start_date": "2011-09",
+    "website": "https://www.bar11.co.uk/",
+    "id": "way/361131262",
+    "mapFeature": {
+     "caption": "Bar 11",
+     "allowPopup": true,
+     "location": "9-11  Upper King Street  \n  NR3 1RB <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2990747,
+     52.6300399
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/374838498",
+   "properties": {
+    "amenity": "bar",
+    "building": "yes",
+    "opening_hours": "Fr 17:30-19:00",
+    "id": "way/374838498",
+    "mapFeature": {
+     "caption": "bar",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2207109,
+     52.6226213
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/444612773",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:floor": "0",
+    "addr:housename": "Platform 12",
+    "addr:housenumber": "12",
+    "addr:postcode": "NR2 4AG",
+    "addr:street": "Saint Benedicts Street",
+    "amenity": "bar",
+    "building": "yes",
+    "building:levels": "3",
+    "fhrs:id": "711789",
+    "internet_access": "wlan",
+    "name": "Platform 12",
+    "phone": "+44 1603 666112",
+    "website": "http://www.platformtwelve.co.uk/",
+    "id": "way/444612773",
+    "mapFeature": {
+     "caption": "Platform 12",
+     "allowPopup": true,
+     "location": "12  Saint Benedicts Street  \n  NR2 4AG <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2905869,
+     52.6306869
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/484921477",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "The Allye cafe",
+    "addr:housenumber": "20-22",
+    "addr:interpolation": "even",
+    "addr:postcode": "NR2 1AQ",
+    "addr:street": "Bridewell Alley",
+    "amenity": "bar",
+    "building": "yes",
+    "cuisine": "tapas",
+    "email": "alleyole@gmail.com",
+    "name": "Alley Olé",
+    "opening_hours": "Mo off; Tu-Th 11:00-23:00; Fr-Sa 11:00-23:30",
+    "phone": "+44 1603 928282",
+    "website": "http://thealleycafe.co.uk/",
+    "id": "way/484921477",
+    "mapFeature": {
+     "caption": "Alley Olé",
+     "allowPopup": true,
+     "location": "20-22  Bridewell Alley  \n  NR2 1AQ <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2950685,
+     52.6303045
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/619453989",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "20",
+    "addr:postcode": "NR1 1LB",
+    "addr:street": "Prince of Wales Road",
+    "amenity": "bar",
+    "building": "yes",
+    "fhrs:id": "1100554",
+    "name": "Envy",
+    "old_name": "Red Rock Cafe",
+    "website": "https://www.envynorwich.com/",
+    "id": "way/619453989",
+    "mapFeature": {
+     "caption": "Envy",
+     "allowPopup": true,
+     "location": "20  Prince of Wales Road  \n  NR1 1LB <br />\n  \n  \n  ",
+     "layers": [
+      "food"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2998541,
+     52.6296361
     ]
    }
   }

@@ -3,305 +3,6 @@
  "features": [
   {
    "type": "Feature",
-   "id": "way/75739196",
-   "properties": {
-    "alt_name": "Tuckswood Police Station",
-    "amenity": "police",
-    "building": "amenity",
-    "name": "West Centre SNT",
-    "operator": "Norfolk Constabulary",
-    "source": "Bing",
-    "source:name": "survey",
-    "id": "way/75739196"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.291999,
-       52.6114604
-      ],
-      [
-       1.2918954,
-       52.6114187
-      ],
-      [
-       1.2919638,
-       52.6113559
-      ],
-      [
-       1.2920674,
-       52.6113977
-      ],
-      [
-       1.291999,
-       52.6114604
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/113746954",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:country": "GB",
-    "addr:housenumber": "422",
-    "addr:postcode": "NR4 7HQ",
-    "addr:street": "Earlham Road",
-    "alt_name": "West Norwich Operational Deployment Base",
-    "amenity": "police",
-    "building": "yes",
-    "name": "Earlham Police Station",
-    "operator": "Norfolk Constabulary",
-    "source": "survey",
-    "id": "way/113746954"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.260229,
-       52.6293395
-      ],
-      [
-       1.2601402,
-       52.6293345
-      ],
-      [
-       1.2601373,
-       52.6293467
-      ],
-      [
-       1.2600285,
-       52.6293348
-      ],
-      [
-       1.2600319,
-       52.6293227
-      ],
-      [
-       1.2599894,
-       52.6293197
-      ],
-      [
-       1.2599603,
-       52.6293176
-      ],
-      [
-       1.2599587,
-       52.6293015
-      ],
-      [
-       1.2599314,
-       52.6293026
-      ],
-      [
-       1.2598892,
-       52.6290636
-      ],
-      [
-       1.2599548,
-       52.6290592
-      ],
-      [
-       1.2599575,
-       52.6290748
-      ],
-      [
-       1.2599602,
-       52.6290903
-      ],
-      [
-       1.2600222,
-       52.6290858
-      ],
-      [
-       1.2600416,
-       52.6292119
-      ],
-      [
-       1.2600566,
-       52.6292111
-      ],
-      [
-       1.2600634,
-       52.6292546
-      ],
-      [
-       1.2602375,
-       52.6292579
-      ],
-      [
-       1.260229,
-       52.6293395
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/119744293",
-   "properties": {
-    "addr:postcode": "NR2 1NN",
-    "amenity": "police",
-    "building": "yes",
-    "name": "Norwich Police Station",
-    "source": "Bing",
-    "id": "way/119744293"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2907154,
-       52.6283364
-      ],
-      [
-       1.2907036,
-       52.6281984
-      ],
-      [
-       1.2913241,
-       52.6281791
-      ],
-      [
-       1.2913346,
-       52.6282974
-      ],
-      [
-       1.2909257,
-       52.6283103
-      ],
-      [
-       1.2909274,
-       52.6283297
-      ],
-      [
-       1.2907154,
-       52.6283364
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/283175744",
-   "properties": {
-    "amenity": "police",
-    "name": "Taverham Police Station",
-    "note": "If station closed please use telephone provided.",
-    "wheelchair": "yes",
-    "id": "way/283175744"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2073595,
-       52.6824103
-      ],
-      [
-       1.2073054,
-       52.6823727
-      ],
-      [
-       1.2072576,
-       52.6823394
-      ],
-      [
-       1.2072876,
-       52.6823236
-      ],
-      [
-       1.2072475,
-       52.6822957
-      ],
-      [
-       1.2072903,
-       52.6822731
-      ],
-      [
-       1.2073579,
-       52.6822373
-      ],
-      [
-       1.2073927,
-       52.6822615
-      ],
-      [
-       1.207407,
-       52.682254
-      ],
-      [
-       1.2074483,
-       52.6822828
-      ],
-      [
-       1.2074349,
-       52.6822899
-      ],
-      [
-       1.2075007,
-       52.6823357
-      ],
-      [
-       1.2073595,
-       52.6824103
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "way/320385938",
-   "properties": {
-    "addr:city": "Norwich",
-    "addr:housenumber": "2",
-    "addr:postcode": "NR1 2RZ",
-    "addr:street": "Abbot Road",
-    "amenity": "police",
-    "building": "amenity",
-    "id": "way/320385938"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       1.2922669,
-       52.6114733
-      ],
-      [
-       1.2922121,
-       52.6114106
-      ],
-      [
-       1.2923653,
-       52.6113612
-      ],
-      [
-       1.2924201,
-       52.6114239
-      ],
-      [
-       1.2922669,
-       52.6114733
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
    "id": "node/2969607869",
    "properties": {
     "addr:city": "Norwich",
@@ -310,11 +11,19 @@
     "addr:street": "Thorpe Road",
     "amenity": "police",
     "name": "British Transport Police Norwich",
-    "opening_hours": "7am-2am depending on officer availability",
+    "opening_hours": "\"7am-2am depending on officer availability\"",
     "operator": "British Transport Police",
     "phone": "01223 536 125",
     "website": "https://www.btp.police.uk/contact_us/btp_stations/east.aspx",
-    "id": "node/2969607869"
+    "id": "node/2969607869",
+    "mapFeature": {
+     "caption": "British Transport Police Norwich",
+     "allowPopup": true,
+     "location": " Thorpe Road  \n  NR1 1EG <br />\n  \n  \n  ",
+     "layers": [
+      "help"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
@@ -335,8 +44,10 @@
     "addr:street": "Rouen Road",
     "amenity": "doctors",
     "covered": "yes",
-    "email": "timberhill.reception@nhs.net",
+    "deaf:description:en": "Induction Loop system on reception",
+    "email": "admin.nphc@nhs.net",
     "fax": "+44 1603 753499",
+    "healthcare": "doctor",
     "name": "Norwich Practices Health and Walk-in Centre",
     "note": "Walk-in Centre and Doctors' Surgery",
     "opening_hours": "07:00-21:00",
@@ -344,13 +55,172 @@
     "operator": "NHS",
     "phone": "+44 1603 677500",
     "website": "http://www.norwichwalkincentre.co.uk/",
-    "id": "node/3563394693"
+    "wheelchair": "yes",
+    "wheelchair:description": "Our services are available on a level floor with good access for disabled patients.",
+    "id": "node/3563394693",
+    "mapFeature": {
+     "caption": "Norwich Practices Health and Walk-in Centre",
+     "allowPopup": true,
+     "location": " Rouen Road  \n  NR1 1RB <br />\n  \n  Wheelchair accessible \n  Our services are available on a level floor with good access for disabled patients.",
+     "layers": [
+      "help"
+     ]
+    }
    },
    "geometry": {
     "type": "Point",
     "coordinates": [
      1.2989071,
      52.6263175
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/75739196",
+   "properties": {
+    "alt_name": "Tuckswood Police Station",
+    "amenity": "police",
+    "building": "amenity",
+    "name": "West Centre SNT",
+    "operator": "Norfolk Constabulary",
+    "source": "Bing",
+    "source:name": "survey",
+    "id": "way/75739196",
+    "mapFeature": {
+     "caption": "West Centre SNT",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "help"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2919814,
+     52.6114082
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/113746954",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "422",
+    "addr:postcode": "NR4 7HQ",
+    "addr:street": "Earlham Road",
+    "alt_name": "West Norwich Operational Deployment Base",
+    "amenity": "police",
+    "building": "yes",
+    "name": "Earlham Police Station",
+    "operator": "Norfolk Constabulary",
+    "source": "survey",
+    "id": "way/113746954",
+    "mapFeature": {
+     "caption": "Earlham Police Station",
+     "allowPopup": true,
+     "location": "422  Earlham Road  \n  NR4 7HQ <br />\n  \n  \n  ",
+     "layers": [
+      "help"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2600633,
+     52.629203
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/119744293",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:postcode": "NR2 1NN",
+    "addr:street": "Bethel Street",
+    "amenity": "police",
+    "building": "yes",
+    "building:levels": "4",
+    "building:material": "brick",
+    "name": "Norwich Police Station",
+    "opening_hours": "Mo-We 09:00-17:00; Th-Sa 09:00–18:00",
+    "operator": "Norfolk Constabulary",
+    "source": "Bing",
+    "id": "way/119744293",
+    "mapFeature": {
+     "caption": "Norwich Police Station",
+     "allowPopup": true,
+     "location": " Bethel Street  \n  NR2 1NN <br />\n  \n  \n  ",
+     "layers": [
+      "help"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2910191,
+     52.6282578
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/283175744",
+   "properties": {
+    "amenity": "police",
+    "name": "Taverham Police Station",
+    "note": "If station closed please use telephone provided.",
+    "wheelchair": "yes",
+    "id": "way/283175744",
+    "mapFeature": {
+     "caption": "Taverham Police Station",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "help"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2073741,
+     52.6823238
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/320385938",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "2",
+    "addr:postcode": "NR1 2RZ",
+    "addr:street": "Abbot Road",
+    "amenity": "police",
+    "building": "amenity",
+    "id": "way/320385938",
+    "mapFeature": {
+     "caption": "police",
+     "allowPopup": true,
+     "location": "2  Abbot Road  \n  NR1 2RZ <br />\n  \n  \n  ",
+     "layers": [
+      "help"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2923161,
+     52.6114173
     ]
    }
   }

@@ -1,0 +1,1308 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "node/253006650",
+   "properties": {
+    "name": "Buckenham",
+    "naptan:AtcoCode": "9100BUCKNHM",
+    "network": "National Rail",
+    "railway": "station",
+    "source": "NPE",
+    "toilets:wheelchair": "no",
+    "wikidata": "Q2064742",
+    "wikipedia": "en:Buckenham railway station",
+    "id": "node/253006650",
+    "mapFeature": {
+     "caption": "Buckenham",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.4700589,
+     52.5977308
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/299412199",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "The Forum",
+    "addr:postcode": "NR2 1AW",
+    "addr:street": "Millennium Plain",
+    "alt_name": "The Forum",
+    "amenity": "library",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "Norfolk and Norwich Millennium Library",
+    "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-17:00",
+    "operator": "Norfolk County Council",
+    "parking": "yes",
+    "parking:disabled": "yes",
+    "phone": "+44 1603 774774",
+    "toilets": "yes",
+    "toilets:disabled": "yes",
+    "website": "https://www.norfolk.gov.uk/libraries-local-history-and-archives/libraries/your-local-library/locations-and-opening-times/norfolk-and-norwich-millennium-library",
+    "wheelchair": "yes",
+    "wheelchair:note": "slope:lift",
+    "wikidata": "Q7734913",
+    "id": "node/299412199",
+    "mapFeature": {
+     "caption": "Norfolk and Norwich Millennium Library",
+     "allowPopup": true,
+     "location": " Millennium Plain  \n  NR2 1AW <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2909467,
+     52.6277308
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/301260664",
+   "properties": {
+    "access": "yes",
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:postcode": "NR2 1RU",
+    "amenity": "parking",
+    "capacity": "1000",
+    "capacity:disabled": "yes",
+    "fee": "yes",
+    "fee:amount:15:00-08:00": "£2.00 GBP",
+    "fee:amount:1_hour": "£1.20 GBP",
+    "fee:amount:24_hour": "£20.00 GBP",
+    "fee:amount:2_hour": "£2.40 GBP",
+    "fee:amount:3_hour": "£3.60 GBP",
+    "fee:amount:4_hour": "£4.80 GBP",
+    "fee:amount:6_hour": "£8.00 GBP",
+    "layer": "-1",
+    "maxheight": "2.2",
+    "maxspeed": "5 mph",
+    "name": "Chapelfield",
+    "note": "Car park can be exited 24/7",
+    "opening_hours": "Mo-Sa 08:00-22:00; Su 08:00-20:00",
+    "operator": "intu Chapelfield",
+    "park_ride": "no",
+    "parking": "underground",
+    "toilets:wheelchair": "yes",
+    "wheelchair": "yes",
+    "id": "node/301260664",
+    "mapFeature": {
+     "caption": "Chapelfield",
+     "allowPopup": true,
+     "location": "  \n  NR2 1RU <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2883517,
+     52.6260018
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/355536540",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "Forum Building",
+    "addr:postcode": "NR2 1TF",
+    "addr:street": "Millennium Plain",
+    "amenity": "cafe",
+    "fhrs:id": "84112",
+    "kitchen_hours": "Mo-Sa 08:30-23:00; Su 09:30-22:30",
+    "name": "Café Bar Marzano",
+    "not:addr:postcode": "NR2 1BH",
+    "opening_hours": "Mo-Th 08:30-22:00; Fr-Sa 08:30-23:00; Su 09:30-22:00",
+    "outdoor_seating": "yes",
+    "phone": "+44 1603 665504",
+    "real_ale": "yes",
+    "toilets:wheelchair": "yes",
+    "website": "https://www.facebook.com/cafebarmarzano",
+    "wheelchair": "yes",
+    "id": "node/355536540",
+    "mapFeature": {
+     "caption": "Café Bar Marzano",
+     "allowPopup": true,
+     "location": " Millennium Plain  \n  NR2 1TF <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2914672,
+     52.6278151
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1038499891",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "18",
+    "addr:postcode": "NR2 1QJ",
+    "addr:street": "Haymarket",
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "cuisine": "burger",
+    "drive_through": "no",
+    "fhrs:id": "27479",
+    "name": "McDonald's",
+    "phone": "+44 1603 623391",
+    "source:addr": "FHRS Open Data",
+    "takeaway": "yes",
+    "toilets": "customers",
+    "toilets:wheelchair": "Ground floor with easy access rails and low sinks.",
+    "wheelchair": "yes",
+    "wheelchair:description": "Easy access through electronic doors from Hayhill/Haymarket",
+    "id": "node/1038499891",
+    "mapFeature": {
+     "caption": "McDonald's",
+     "allowPopup": true,
+     "location": "18  Haymarket  \n  NR2 1QJ <br />\n  \n  Wheelchair accessible \n  Easy access through electronic doors from Hayhill/Haymarket",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2927065,
+     52.6271956
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/1541173567",
+   "properties": {
+    "access": "customers",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "description": "The toilets are located on the Concourse, to the left of waiting room (platform 5b). Male toilets left, unisex disabled toilet middle, female toilets right. Doors open inwards",
+    "fee": "no",
+    "female": "yes",
+    "male": "yes",
+    "name": "Toilets at Norwich Station",
+    "opening_hours": "\"Station opening times\"",
+    "operator": "Abellio Greater Anglia",
+    "toilets:handwashing": "yes",
+    "wheelchair": "limited",
+    "wheelchair:description": "Unisex disabled toilet requires RADAR key. Manual doors, open inwards. Baby changing is not wheelchair accessible",
+    "id": "node/1541173567",
+    "mapFeature": {
+     "caption": "Toilets at Norwich Station",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  The toilets are located on the Concourse, to the left of waiting room (platform 5b). Male toilets left, unisex disabled toilet middle, female toilets right. Doors open inwards<br />\n  Limited wheelchair access \n  Unisex disabled toilet requires RADAR key. Manual doors, open inwards. Baby changing is not wheelchair accessible",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3071658,
+     52.626855
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/2527310545",
+   "properties": {
+    "access": "customers",
+    "amenity": "toilets",
+    "fee": "no",
+    "operator": "RSPB Strumpshaw Fen",
+    "toilets:disposal": "flush",
+    "id": "node/2527310545",
+    "mapFeature": {
+     "caption": "toilets",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.4565215,
+     52.6064975
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/3250724561",
+   "properties": {
+    "access": "public",
+    "amenity": "toilets",
+    "name": "Sparhawk park toilets",
+    "note": "open during daylight hours",
+    "opening_hours": "sunrise-sunset",
+    "toilets:disposal": "flush",
+    "id": "node/3250724561",
+    "mapFeature": {
+     "caption": "Sparhawk park toilets",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3277886,
+     52.6568856
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/4207863595",
+   "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "description": "located on Rose Lane, external to the multi storey car park.",
+    "fee": "no",
+    "opening_hours": "Th-Sa 18:00-08:00",
+    "operator": "Norwich City Council",
+    "toilets:disposal": "flush",
+    "unisex": "yes",
+    "id": "node/4207863595",
+    "mapFeature": {
+     "caption": "toilets",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  located on Rose Lane, external to the multi storey car park.<br />\n  \n  ",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3031876,
+     52.6283783
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "node/5458528254",
+   "properties": {
+    "access": "customers",
+    "amenity": "toilets",
+    "diaper": "room",
+    "fee": "no",
+    "female": "yes",
+    "male": "yes",
+    "toilets:disposal": "flush",
+    "wheelchair": "yes",
+    "id": "node/5458528254",
+    "mapFeature": {
+     "caption": "toilets",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2940813,
+     52.6222482
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/30663031",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "St Andrews multi-storey",
+    "addr:postcode": "NR3 3AT",
+    "addr:street": "Duke Street",
+    "amenity": "parking",
+    "building": "parking",
+    "capacity": "1084",
+    "fee": "yes",
+    "fee:amount:1_hour": "£1.80 GBP",
+    "fee:amount:2_hour": "£3.60 GBP",
+    "fee:amount:3_hour": "£5.40 GBP",
+    "fee:amount:conditional": "£2.20 GBP @ Mo-Sa,PH 18:30-05:00",
+    "fee:amount:maximum": "£6.00 GBP",
+    "maintenance": "salting",
+    "maxheight": "2.3",
+    "name": "Saint Andrews",
+    "opening_hours": "24/7",
+    "operator": "Norwich City Council",
+    "park_ride": "no",
+    "parking": "multi-storey",
+    "salting:ref": "NKE044",
+    "source": "Bing",
+    "toilets": "yes",
+    "toilets:centralkey": "nks",
+    "toilets:changing_table": "limited",
+    "toilets:female": "yes",
+    "toilets:male": "yes",
+    "toilets:opening_hours": "365 days a year, up until 9pm",
+    "toilets:position": "located on level 1 next to the bridge entrance and stairs and lifts.",
+    "toilets:wheelchair": "yes",
+    "id": "way/30663031",
+    "mapFeature": {
+     "caption": "Saint Andrews",
+     "allowPopup": true,
+     "location": " Duke Street  \n  NR3 3AT <br />\n  \n  \n  ",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2938558,
+     52.6312916
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/40691584",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "Unit 5",
+    "addr:housenumber": "5",
+    "addr:postcode": "NR1 1WR",
+    "addr:street": "Albion Way",
+    "amenity": "pharmacy",
+    "brand": "boots",
+    "brand:wikidata": "Q6123139",
+    "brand:wikipedia": "en:Boots UK",
+    "building": "shop",
+    "deaf:description:en": "induction loop",
+    "dispensing": "yes",
+    "fhrs:id": "84115",
+    "healthcare": "pharmacy",
+    "name": "Boots (Midnight Pharmacy)",
+    "opening_hours": "Mo-Fr 08:30-20:30; Sa 08:30-18:00; Su 10:15-16:30",
+    "operator": "Boots",
+    "phone": "+44 1603 662894",
+    "shop": "health_and_beauty",
+    "toilets:wheelchair": "yes",
+    "website": "https://www.boots.com/stores/6477-norwich-riverside-retail-park-nr1-1wr",
+    "wheelchair": "yes",
+    "id": "way/40691584",
+    "mapFeature": {
+     "caption": "Boots (Midnight Pharmacy)",
+     "allowPopup": true,
+     "location": "5  Albion Way  \n  NR1 1WR <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3060832,
+     52.622951
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/89653804",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "Jarrolds",
+    "addr:housenumber": "1-7",
+    "addr:postcode": "NR2 1JF",
+    "addr:street": "London Street",
+    "building": "shop",
+    "fax": "+44 1603 611295",
+    "fhrs:id": "816415",
+    "name": "Jarrolds Department Store",
+    "opening_hours": "Mo-We,Fr-Sa 09:00-19:00; Th 09:00-21:00; Su 10:30-16:30",
+    "phone": "+44 1603 660661",
+    "shop": "department_store",
+    "source:building": "Bing",
+    "toilets:wheelchair": "yes",
+    "wheelchair": "yes",
+    "wheelchair:description": "Accessible entrance to the side of the main entrance. Push button to open door. Two lifts and accessible toilets in two location of the store",
+    "wikidata": "Q6161111",
+    "id": "way/89653804",
+    "mapFeature": {
+     "caption": "Jarrolds Department Store",
+     "allowPopup": true,
+     "location": "1-7  London Street  \n  NR2 1JF <br />\n  \n  Wheelchair accessible \n  Accessible entrance to the side of the main entrance. Push button to open door. Two lifts and accessible toilets in two location of the store",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2938176,
+     52.6293706
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/116079139",
+   "properties": {
+    "access": "yes",
+    "addr:housenumber": "2",
+    "addr:street": "Pudding Ln",
+    "amenity": "toilets",
+    "building": "service",
+    "centralkey": "nks",
+    "changing": "limited",
+    "changing_table": "limited",
+    "contact:phone": "Office hours: Monday to Friday, 9am to 5pm, 01603 894140 Outside office hours: 08458 500319",
+    "description": "Male and female toilets plus Accessible toilet (RADAR key)\nBaby changing facilities are inside the accessible toilet",
+    "fee": "no",
+    "female": "yes",
+    "male": "yes",
+    "name": "Norwich Market (Memorial Gardens) Toilets",
+    "opening_hours": "Mo-Sa 07:30-16:30",
+    "operator": "Norwich City Council",
+    "toilets:disposal": "flush",
+    "unisex": "no",
+    "wheelchair": "yes",
+    "id": "way/116079139",
+    "mapFeature": {
+     "caption": "Norwich Market (Memorial Gardens) Toilets",
+     "allowPopup": true,
+     "location": "2  Pudding Ln  \n  <br />\n  Male and female toilets plus Accessible toilet (RADAR key)\nBaby changing facilities are inside the accessible toilet<br />\n  Wheelchair accessible \n  ",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2925045,
+     52.6281562
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/116079142",
+   "properties": {
+    "access": "public",
+    "building": "yes",
+    "description": "Button operated door open/close metallic single occupant toilet facility",
+    "disused:amenity": "toilets",
+    "drinking_water": "no",
+    "fee": "no",
+    "operator": "Norwich City Council",
+    "toilets:disposal": "flush",
+    "toilets:position": "seated",
+    "wheelchair": "yes",
+    "id": "way/116079142",
+    "mapFeature": {
+     "caption": "yes",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  Button operated door open/close metallic single occupant toilet facility<br />\n  Wheelchair accessible \n  ",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3037342,
+     52.6285041
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/116394455",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "391",
+    "addr:postcode": "NR5 8QJ",
+    "addr:street": "Dereham Road",
+    "alt_name": "Gate House",
+    "amenity": "pub",
+    "building": "house",
+    "fhrs:id": "14335",
+    "name": "Gatehouse",
+    "opening_hours": "Su-Fr 12:00-23:00; Sa 12:00-00:00",
+    "outdoor_seating": "yes",
+    "phone": "+44 1603 620340",
+    "real_ale": "5",
+    "real_cider": "no",
+    "source": "Bing",
+    "toilets:wheelchair": "no",
+    "wheelchair": "limited",
+    "wikidata": "Q21008659",
+    "id": "way/116394455",
+    "mapFeature": {
+     "caption": "Gatehouse",
+     "allowPopup": true,
+     "location": "391  Dereham Road  \n  NR5 8QJ <br />\n  \n  Limited wheelchair access \n  ",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2572436,
+     52.6376529
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/119389652",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "28",
+    "addr:postcode": "NR2 1EL",
+    "addr:street": "Lower Goat Lane",
+    "alt_name": "F'SH at the grosvenor",
+    "amenity": "fast_food",
+    "building": "shop",
+    "cuisine": "fish_and_chips",
+    "diet:pescetarian": "no",
+    "email": "fshshop@gmail.com",
+    "fhrs:id": "447484",
+    "name": "Grosvenor Fish Bar",
+    "opening_hours": "Mo-Sa 11:00-19:00",
+    "phone": "+44 1603 625855",
+    "toilets:wheelchair": "no",
+    "website": "http://www.fshshop.com/",
+    "wheelchair": "limited",
+    "id": "way/119389652",
+    "mapFeature": {
+     "caption": "Grosvenor Fish Bar",
+     "allowPopup": true,
+     "location": "28  Lower Goat Lane  \n  NR2 1EL <br />\n  \n  Limited wheelchair access \n  ",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2915919,
+     52.6299362
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/119607917",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "23-25",
+    "addr:interpolation": "odd",
+    "addr:postcode": "NR1 3QF",
+    "addr:street": "Red Lion Street",
+    "amenity": "restaurant",
+    "brand": "Nando's",
+    "brand:wikidata": "Q3472954",
+    "brand:wikipedia": "en:Nando's",
+    "building": "retail",
+    "cuisine": "chicken;portuguese",
+    "fhrs:id": "62225",
+    "name": "Nando's",
+    "opening_hours": "Su-Th 11:00-22:30; Fr-Sa 11:00-23:30",
+    "phone": "+44 1603 633683",
+    "source": "survey",
+    "toilets:wheelchair": "yes",
+    "website": "http://www.nandos.co.uk/restaurant/norwich-red-lion",
+    "wheelchair": "yes",
+    "wheelchair:description": "Merit Award, Norwich Access Group. 1 accessible toilet with easy access rails. Friendly and knowledgeable staff",
+    "id": "way/119607917",
+    "mapFeature": {
+     "caption": "Nando's",
+     "allowPopup": true,
+     "location": "23-25  Red Lion Street  \n  NR1 3QF <br />\n  \n  Wheelchair accessible \n  Merit Award, Norwich Access Group. 1 accessible toilet with easy access rails. Friendly and knowledgeable staff",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.294616,
+     52.6267567
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/123525364",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:housenumber": "52",
+    "addr:postcode": "NR2 4AR",
+    "addr:street": "Saint Benedicts Street",
+    "amenity": "cafe",
+    "building": "yes",
+    "cuisine": "coffee_shop",
+    "fhrs:id": "1092846",
+    "internet_access": "wlan",
+    "name": "House Cafe",
+    "opening_hours": "Mo-Sa 08:00-17:00; Su 10:00-15:00",
+    "phone": "+44 1603 920037",
+    "source": "Bing",
+    "toilets:wheelchair": "yes",
+    "website": "https://housestbenedicts.co.uk/",
+    "wheelchair": "yes",
+    "id": "way/123525364",
+    "mapFeature": {
+     "caption": "House Cafe",
+     "allowPopup": true,
+     "location": "52  Saint Benedicts Street  \n  NR2 4AR <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2884393,
+     52.6310359
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/131332797",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "Tuckswood Library",
+    "addr:postcode": "NR4 6BX",
+    "addr:street": "Robin Hood Road",
+    "amenity": "library",
+    "building": "yes",
+    "name": "Tuckswood Library",
+    "opening_hours": "Tu,Fr 10:00-13:00,14:00-17:00;Sa 10:00-16:00",
+    "operator": "Norfolk County Council",
+    "parking": "yes",
+    "phone": "+44 1603 452038",
+    "source": "Bing",
+    "toilets": "yes",
+    "toilets:disabled": "yes",
+    "website": "https://www.norfolk.gov.uk/libraries-local-history-and-archives/libraries/your-local-library/locations-and-opening-times/tuckswood-library",
+    "wheelchair": "yes",
+    "wikidata": "Q55111148",
+    "id": "way/131332797",
+    "mapFeature": {
+     "caption": "Tuckswood Library",
+     "allowPopup": true,
+     "location": " Robin Hood Road  \n  NR4 6BX <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2809761,
+     52.6078128
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/132696852",
+   "properties": {
+    "amenity": "library",
+    "building": "yes",
+    "name": "Mile Cross Library",
+    "opening_hours": "Tu 14:00-19:30; We,Th,Fr 10:00-17:30; Sa 10:00-13:00",
+    "operator": "Norfolk County Council",
+    "phone": "+44 1603 42590",
+    "source": "Bing",
+    "source:amenity": "OS_OpenData_StreetView",
+    "toilets": "yes",
+    "toilets:disabled": "yes",
+    "website": "https://www.norfolk.gov.uk/libraries-local-history-and-archives/libraries/your-local-library/locations-and-opening-times/mile-cross-library",
+    "wheelchair": "yes",
+    "wheelchair:note": "slope",
+    "wikidata": "Q55111121",
+    "id": "way/132696852",
+    "mapFeature": {
+     "caption": "Mile Cross Library",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2802988,
+     52.6499084
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/135964029",
+   "properties": {
+    "access:disabled": "yes",
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "17,27",
+    "addr:postcode": "NR1 3QA",
+    "addr:street": "Orford Place",
+    "amenity": "fast_food",
+    "brand": "Five Guys",
+    "brand:wikidata": "Q1131810",
+    "brand:wikipedia": "en:Five Guys",
+    "building": "retail",
+    "cuisine": "burger",
+    "fhrs:id": "915738",
+    "name": "Five Guys",
+    "official_name": "Five Guys Burgers and Fries",
+    "old_name": "Pizza Hut",
+    "opening_hours": "Su-Th 11:00-23:00; Fr-Sa 11:00-00:00",
+    "phone": "+44 1603 620763",
+    "start_date": "2016-10-17T11:00:00+01:00",
+    "takeaway": "yes",
+    "toilets:access": "customers",
+    "toilets:description": "1 disabled accessible toilet with easy access rails",
+    "website": "https://www.fiveguys.co.uk/",
+    "wheelchair": "yes",
+    "wheelchair:description:en": "Push Manual doors from Red Lion Street;staff door hosts to provide assistance.",
+    "id": "way/135964029",
+    "mapFeature": {
+     "caption": "Five Guys",
+     "allowPopup": true,
+     "location": "17,27  Orford Place  \n  NR1 3QA <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2943556,
+     52.6270504
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/138504756",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "23",
+    "addr:postcode": "NR2 1DS",
+    "addr:street": "Pottergate",
+    "amenity": "pub",
+    "brand": "Greene King",
+    "building": "yes",
+    "email": "info@thebirdcagenorwich.co.uk",
+    "fhrs:id": "18832",
+    "gay": "welcome",
+    "name": "The Birdcage",
+    "old_name": "Pottergate Tavern;Brown Derby;Morning Star",
+    "opening_hours": "Mo-Th 11:00-00:00; Fr-Sa 11:00-01:00; Su off",
+    "phone": "+44 1603 633534",
+    "real_ale": "3",
+    "real_cider": "no",
+    "source": "Bing",
+    "start_date": "2007-08-01",
+    "toilets:wheelchair": "no",
+    "website": "https://www.thebirdcagenorwich.co.uk/",
+    "wheelchair": "limited",
+    "id": "way/138504756",
+    "mapFeature": {
+     "caption": "The Birdcage",
+     "allowPopup": true,
+     "location": "23  Pottergate  \n  NR2 1DS <br />\n  \n  Limited wheelchair access \n  ",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2916733,
+     52.6301181
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/169959573",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "96",
+    "addr:postcode": "NR3 3HT",
+    "addr:street": "Angel Road",
+    "amenity": "pub",
+    "building": "house",
+    "email": "ikwarren-angel@tiscali.co.uk",
+    "fhrs:id": "1857",
+    "name": "The Angel Gardens",
+    "opening_hours": "Mo-Fr 11:00-00:00; Sa 11:00-01:00; Su 12:00-23:30",
+    "phone": "+44 1603 427490",
+    "real_ale": "7",
+    "real_cider": "no",
+    "toilets:wheelchair": "no",
+    "website": "http://www.norwichinns.com/2-16",
+    "wheelchair:description": "There are steps to the toilet. but you can gain access to the pub by manual wheelchair. Not by electric wheelchair as doorway entrance is limited. The bar staff are really helpful.",
+    "id": "way/169959573",
+    "mapFeature": {
+     "caption": "The Angel Gardens",
+     "allowPopup": true,
+     "location": "96  Angel Road  \n  NR3 3HT <br />\n  \n  \n  There are steps to the toilet. but you can gain access to the pub by manual wheelchair. Not by electric wheelchair as doorway entrance is limited. The bar staff are really helpful.",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2921957,
+     52.6438973
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/169980388",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "17",
+    "addr:postcode": "NR2 4PE",
+    "addr:street": "Saint Benedicts Street",
+    "amenity": "bar",
+    "building": "yes",
+    "fhrs:id": "30686",
+    "internet_access": "wlan",
+    "name": "The Bicycle Shop",
+    "old_name": "Scullery Bar",
+    "opening_hours": "Mo-Sa 17:00-01:00; Su off",
+    "phone": "+44 1603 625777",
+    "real_ale": "yes",
+    "source": "Bing",
+    "toilets:wheelchair": "yes",
+    "wheelchair": "yes",
+    "id": "way/169980388",
+    "mapFeature": {
+     "caption": "The Bicycle Shop",
+     "allowPopup": true,
+     "location": "17  Saint Benedicts Street  \n  NR2 4PE <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.290611,
+     52.6308983
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/170318604",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:postcode": "NR2 4AD",
+    "addr:street": "Saint Andrews Street",
+    "amenity": "cinema",
+    "brand": "Cinema City",
+    "brand:wikidata": "Q543651",
+    "brand:wikipedia": "en:Cinema City International",
+    "building": "commercial",
+    "email": "cinemacity@picturehouses.co.uk",
+    "name": "Cinema City",
+    "operator": "Picturehouse",
+    "owner": "Cineworld",
+    "phone": "0871 902 5747",
+    "screen": "3",
+    "source": "local knowledge",
+    "toilets": "customers",
+    "toilets:position": "Male and Female toilets on basement level. Fully accessible separate toilet on the top floor. Both accessible by lift.",
+    "toilets:wheelchair": "yes",
+    "website": "http://www.picturehouses.co.uk/cinema/cinema_city/",
+    "wheelchair": "yes",
+    "wheelchair:description": "Entrance from St Andrews Hill courtyard. Take lift to box office (low level counter), screens (removeable seats if booked) and toilets. Guide dogs welcome. Infrared receiving equipment in all screens. Autism-Friendly Screenings",
+    "wikidata": "Q7061476",
+    "wikipedia": "en:Norwich Cinema City",
+    "id": "way/170318604",
+    "mapFeature": {
+     "caption": "Cinema City",
+     "allowPopup": true,
+     "location": " Saint Andrews Street  \n  NR2 4AD <br />\n  \n  Wheelchair accessible \n  Entrance from St Andrews Hill courtyard. Take lift to box office (low level counter), screens (removeable seats if booked) and toilets. Guide dogs welcome. Infrared receiving equipment in all screens. Autism-Friendly Screenings",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2961782,
+     52.6302137
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/171216877",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "7-9",
+    "addr:interpolation": "odd",
+    "addr:postcode": "NR2 4TL",
+    "addr:street": "Queen Street",
+    "amenity": "bar",
+    "brand": "Revolución de Cuba",
+    "brand:wikidata": "Q64024691",
+    "building": "retail",
+    "fhrs:id": "48354",
+    "internet_access": "wlan",
+    "name": "Revolución de Cuba",
+    "old_name": "Slug & Lettuce, Yates's",
+    "phone": "+44 1603 857565",
+    "real_ale": "no",
+    "source:addr:postcode": "FHRS Open Data",
+    "toilets:wheelchair": "customer",
+    "website": "https://www.revoluciondecuba.com/norwich/",
+    "wheelchair": "limited",
+    "wheelchair:description": "Full access within building, limited in garden",
+    "id": "way/171216877",
+    "mapFeature": {
+     "caption": "Revolución de Cuba",
+     "allowPopup": true,
+     "location": "7-9  Queen Street  \n  NR2 4TL <br />\n  \n  Limited wheelchair access \n  Full access within building, limited in garden",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.29817,
+     52.6302234
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/171357348",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "4",
+    "addr:postcode": "NR2 1AT",
+    "addr:street": "Exchange Street",
+    "amenity": "restaurant",
+    "building": "shop",
+    "cuisine": "burger",
+    "fhrs:id": "17352",
+    "level": "1",
+    "name": "Captain America's",
+    "opening_hours": "Mo 11:30-16:00; Tu-Sa 11:30+; Su 12:00-16:00",
+    "phone": "+44 1603 622551",
+    "toilets:wheelchair": "no",
+    "website": "http://www.captain-americas.co.uk/",
+    "wheelchair": "no",
+    "wheelchair:description": "Upstairs Restaurant",
+    "id": "way/171357348",
+    "mapFeature": {
+     "caption": "Captain America's",
+     "allowPopup": true,
+     "location": "4  Exchange Street  \n  <strong>Level:</strong>&nbsp;1 NR2 1AT <br />\n  \n  NO WHEELCHAIR ACCESS \n  Upstairs Restaurant",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2933603,
+     52.6292158
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/171401299",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housenumber": "8",
+    "addr:postcode": "NR2 1JG",
+    "addr:street": "Guildhall Hill",
+    "amenity": "pub",
+    "building": "yes",
+    "email": "admin@winecellarnorwich.co.uk",
+    "fhrs:id": "34276",
+    "name": "The Wine Cellar",
+    "old_name": "Wine Press Bar & Bistro",
+    "opening_hours": "Mo,We 11:00-22:00; Tu,Th 11:00-23:00; Fr-Sa 11:00-00:00; Su 11:00-16:00",
+    "phone": "+44 1603 886100",
+    "real_ale": "no",
+    "toilets:wheelchair": "no",
+    "website": "http://www.winecellarnorwich.co.uk/",
+    "wheelchair": "no",
+    "wheelchair:description": "Stair going down to access the whole build",
+    "wikidata": "Q26303164",
+    "id": "way/171401299",
+    "mapFeature": {
+     "caption": "The Wine Cellar",
+     "allowPopup": true,
+     "location": "8  Guildhall Hill  \n  NR2 1JG <br />\n  \n  NO WHEELCHAIR ACCESS \n  Stair going down to access the whole build",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2931435,
+     52.6292783
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/258688296",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "Plumstead Road Library",
+    "addr:postcode": "NR1 4JS",
+    "addr:street": "Plumstead Road",
+    "amenity": "library",
+    "building": "yes",
+    "name": "Plumstead Road Library",
+    "opening_hours": "Tu,Th 13:00-19:00;We,Fr 10:00-13:00,14:00-17:00;Sa 10:00-15:30",
+    "operator": "Norfolk County Council",
+    "phone": "+44 1603 433455",
+    "toilets": "yes",
+    "toilets:disabled": "yes",
+    "website": "https://www.norfolk.gov.uk/libraries-local-history-and-archives/libraries/your-local-library/locations-and-opening-times/plumstead-road-library",
+    "wheelchair": "yes",
+    "wikidata": "Q55111131",
+    "id": "way/258688296",
+    "mapFeature": {
+     "caption": "Plumstead Road Library",
+     "allowPopup": true,
+     "location": " Plumstead Road  \n  NR1 4JS <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.3217551,
+     52.6353962
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/296344311",
+   "properties": {
+    "access": "public",
+    "amenity": "cafe",
+    "building": "Visitors Center",
+    "fee": "no",
+    "information": "office",
+    "name": "Whitlingham Visitor Centre",
+    "operator": "Broads Authority",
+    "toilets:position": "seated",
+    "tourism": "information",
+    "wheelchair": "yes",
+    "id": "way/296344311",
+    "mapFeature": {
+     "caption": "Whitlingham Visitor Centre",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.32944,
+     52.6210926
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/387138871",
+   "properties": {
+    "amenity": "toilets",
+    "building": "yes",
+    "fee": "no",
+    "source": "OS_OpenData_VectorMapLocal",
+    "toilets:disposal": "flush",
+    "id": "way/387138871",
+    "mapFeature": {
+     "caption": "toilets",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.4302056,
+     52.6830241
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/612990138",
+   "properties": {
+    "amenity": "toilets",
+    "building": "yes",
+    "diaper": "no",
+    "fee": "no",
+    "toilets:disposal": "flush",
+    "id": "way/612990138",
+    "mapFeature": {
+     "caption": "toilets",
+     "allowPopup": true,
+     "location": "  \n  <br />\n  \n  \n  ",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2354562,
+     52.6261632
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "way/700132754",
+   "properties": {
+    "addr:city": "Norwich",
+    "addr:country": "GB",
+    "addr:housename": "West Earlham Library",
+    "addr:housenumber": "17,18",
+    "addr:postcode": "NR5 8AD",
+    "addr:street": "Earlham West Centre",
+    "amenity": "library",
+    "building": "yes",
+    "level": "0",
+    "name": "West Earlham Library",
+    "opening_hours": "Tu,Th 9:00-13:00,13:00-18:00;Sa 9:00-13:00",
+    "operator": "Norfolk County Council",
+    "parking": "yes",
+    "parking:disabled": "yes",
+    "phone": "+44 1603 451881",
+    "toilets:disabled": "yes",
+    "website": "https://www.norfolk.gov.uk/libraries-local-history-and-archives/libraries/your-local-library/locations-and-opening-times/earlham-library",
+    "wheelchair": "yes",
+    "wikidata": "Q55111152",
+    "id": "way/700132754",
+    "mapFeature": {
+     "caption": "West Earlham Library",
+     "allowPopup": true,
+     "location": "17,18  Earlham West Centre  \n  <strong>Level:</strong>&nbsp;0 NR5 8AD <br />\n  \n  Wheelchair accessible \n  ",
+     "layers": [
+      "toilets"
+     ]
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.2407774,
+     52.6316703
+    ]
+   }
+  }
+ ]
+}
