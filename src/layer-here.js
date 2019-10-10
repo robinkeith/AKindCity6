@@ -1,4 +1,5 @@
 import L from 'leaflet'
+import 'leaflet-extra-markers'
 import { CSMLayerFactory } from './utils.js'
 import blueBadgeSign from './../resources/blue_badge_paking.svg'
 import parkingMeterIcon from './../resources/icons/parkingMeter.svg'

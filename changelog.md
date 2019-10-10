@@ -1,5 +1,24 @@
 # Change Log
 
+# Version 2
+## Version 2.0
+Goals: Improve presentation of map features
+* Improved opening hours, easier to read, expands abbreviations. Accomodates new OSM tags for kitchen hours etc
+* Moved 'currently open/closed' to right hand side and made more prominent
+* Improved display of location/address
+
+TODO:
+1. Generate description in postprocessing. Replace current list of tags with readable descriptions, customised for the type of attribute
+2. Include safe places and blue badge in postprocessin
+3. Add hover captions, improve when to display popup vs hover
+4. Hide website, phone + email links with icoms
+5. Introduce specific icons for shop, help and enjoy types
+6. Allow filtering of layer by type
+7. Highlight the 'nearest' when tracking is on.
+8. Dim currently closed features, part dim closing soon features
+9. Time travel - move map back and forward in time to show when things open.
+
+
 ## 1.9
 * Improvements to 'get around' layer - colour coding added - red for obsticles (stairs), green for aids (lifts, ramps, tactile surfaces etc), amber for impediments (e.g. steep inclines)
 * Added feedback form - press the 'speech bubble icon' links to the online surveys

@@ -1,9 +1,13 @@
-import L from 'leaflet'
-// defines global defaults for the map
-export const defaultSettings = {
-  mapCentre: [52.628533, 1.291904], // centre on Norwich
-  // limit to the city centre.
-  maxBounds: L.latLngBounds([[52.619751159, 1.2836123272], [52.6368392363, 1.3110438066]]),
+/** defines global defaults for the map
+Ideally I'd like to use leaflet defined long/lat classes, but they aren't exported, which means using them imports the whole of leaflet,
+which breaks on the node.js because leaflet needs window defined and that's only present in the browser
+import { latLngBounds, latLng } from 'leaflet'
+*/
+
+export default {
+  // limit to Norwich city centre, centered on City Hall. This can be used to generate a L.latLngBounds
+  mapCentre: [52.628533, 1.291904], // use with leaflet like this: latLng(defaultSettings.mapCentre[0], defaultSettings.mapCentre[1])
+  maxBounds: [[52.619751159, 1.2836123272], [52.6368392363, 1.3110438066]], // latLngBounds(defaultSettings.maxBounds)
   maxZoom: 20,
   minZoom: 15,
 

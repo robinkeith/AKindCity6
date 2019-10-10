@@ -11,15 +11,28 @@ npm install -g parcel-bundler
 `````
 
 For a local sever:
-`````nmp start`````
+`````npm start`````
 
 To Deploy to Github.io:
 `````npm run deploy`````
 
 The demo page is: https://robinkeith.github.io/AKindCity6
 
+### Build Process
+The project does not have a sever-side component - at runtime everything is contained within a single client-side page (and a service worker). Maptiles are provided by Mapbox and points of interest data is provided by static files of data. 
+
+There is an offline process to generate the data files from extracts of OSM data, which is processed to improve readability. The offline data import is contained in the /backend directory, and run using Debug > Import. The import process runs in a local nodejs, long term this will be run automatically each day/week on a server.  Data files are generated in the /data directory. The process also generates some statistics files in /data/csv and uses /data/temp to store files during processing.
+
+The build process uses ParcelJS, which is a bundler similar to Webpack.  It is largely auto configuring, although there are couple of plug-ins required (and configured by package.json). ParcelJS uses Bable unde the hood to transpile for the browser.
+The code uses ES module notation for imports (eg. import * from XXXX) rather than commonJS (ie. var xxx=require(XXXX)) which will transpiled as needed. In theory this should minimise the volume of code in the final bundle....
+Resolving incompatabilities between libraries using the two import methods has been one of the biggest challenges in the project - especially when sharing between the from and backends, the openinghours module and Leaflet. Leaflet still appears to be including everything, and needs further work to determine why.
+Although npm libraries have been used for the most part, there are some modules which are pulled directly from github forks. Opening hours was particually tricky as npm does yet contain a version which includes uk PH dates.
+Leaflet.vectoricons - the npm version is pinned to leaflet 0.7
+
+Leaflet's plug-in mechanism is a bit tricky to use with ES modules. Plug-ins need to have been tweaked to use the universal module loader code mentioned on the leaflet site. Some projects have, but not all. Also note subtle changes in the project names (e.g. caps changes and . changed to -) are significant. The project uses jsdoc as a step towards full typescript, and the plug-ins tend not to play well with that.
 
 The build and deploy processes include copying all files in the **data** folder to the **dist** folder
+The build process also clears the build cache and dist folder. This is to avoid occasional problems with the build failing due to cache issues. Although this slows the build, it's not too noticeable as most changes are hot reloadable.
 
 The following can be ignored:
  WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@

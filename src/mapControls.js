@@ -19,8 +19,9 @@ import moment from 'moment'
 import 'leaflet-geometryutil'
 import html from 'html-escaper'
 import { takeTour } from './tourMap.js'
+import './mapLayersControl.js'
 
-export function setup (map, layerControl, userSettings) {
+export function setupControls (map, userSettings) {
 /*
   const osmSearchControl = new L.Control.Search({
     url: 'https://nominatim.openstreetmap.org/search?format=json&q={s}&dedupe=1&bounded=1&limit=5&viewbox=' +
@@ -48,11 +49,11 @@ export function setup (map, layerControl, userSettings) {
   var circle
   var marker
 */
-
+  /*
   // Feature search
   const featureSearchControl = new L.Control.Search({
     id: 'featureSearch',
-    layer: new L.LayerGroup(layerControl._layers.map(x => x.layer)),
+    layer: new L.LayerGroup(mapLayersControl._layers.map(x => x.layer)),
     initial: false,
     propertyName: 'name',
     circleLocation: false,
@@ -88,6 +89,7 @@ export function setup (map, layerControl, userSettings) {
   }) */
 
   /* ------- GPS Locater ------------------------------------------------------------------ */
+
   const gpsLocateButton = L.control.locate({
     follow: true,
     locateOptions: { enableHighAccuracy: true },
@@ -99,20 +101,21 @@ export function setup (map, layerControl, userSettings) {
   })
 
   /* --------------Full screen control */
+
   const fullscreenButton = L.control.fullscreen()
 
   /* -----------------about us -------------------------- */
-  const infoButton = L.easyButton('fa-info fa-2x', function () {
+  const infoButton = new L.Control.EasyButton('fa-info fa-2x', function () {
     $('#about').modal()
   }, 'About the Map', { position: 'topleft' })
 
   /* ----------------- feedback -------------------------- */
-  const feedbackButton = L.easyButton('fas fa-comment fa-2x', function () {
+  const feedbackButton = new L.Control.EasyButton('fas fa-comment fa-2x', function () {
     $('#feedback').modal()
   }, 'Feedback on the Map', { position: 'topleft' })
 
   /* ------------ Remember button ----------------------------------------- */
-  const rememberButton = L.easyButton(`<img src="${eliIcon}">`, function () {
+  const rememberButton = new L.Control.EasyButton(`<img src="${eliIcon}">`, function () {
     $('#remembered').html(
       (userSettings.whereDidIPark)
         ? `<stromg>You asked me to remember:</stromg><br/>
@@ -145,7 +148,7 @@ export function setup (map, layerControl, userSettings) {
   })
 
   /* -----Quick wheelchair view buttom - demo only ------------------------------------------- */
-  const quickAccessButton = L.easyButton('fab fa-accessible-icon fa-2x', function () {
+  const quickAccessButton = new L.Control.EasyButton('fab fa-accessible-icon fa-2x', function () {
     userSettings.wheelchair = !userSettings.wheelchair
     layerControl.refreshLayers(userSettings)
   }, 'Only show wheelchair accessible features', { id: 'quickAccessButton', position: 'topleft' })
@@ -154,7 +157,7 @@ export function setup (map, layerControl, userSettings) {
   // const printButton = L.easyPrint()
 
   /* -----Personalisation---Form--------------------- */
-  const personaliseButton = L.easyButton('fa-user-cog fa-lg', function () {
+  const personaliseButton = new L.Control.EasyButton('fa-user-cog fa-lg', function () {
     userSettings.initUserSettingsForm()
     $('#takeTour').on('click', function (event) {
       takeTour(userSettings, true)
@@ -201,10 +204,8 @@ export function setup (map, layerControl, userSettings) {
 
   map.addControl(sidebarControl)
   // .addControl(osmSearchControl)
-
-    .addControl(featureSearchControl)
+  //  .addControl(featureSearchControl)
   // .addControl(toolBar);
-
     .addControl(personaliseButton)
     .addControl(gpsLocateButton)
     .addControl(fullscreenButton)

@@ -1,10 +1,13 @@
 import html from 'html-escaper'
 import $ from 'jquery'
 import store from 'store2'
-window.$ = window.jQuery = $
+window.$ = window.jQuery = $ // TODO: pull jquery references out of userSettings
 
 const SETTINGS_KEY = 'userSettings'
 
+/**
+ * @namespace UserSettings
+ */
 export class UserSettings {
   constructor () {
     // object asign used to copy properties fom a default object, then overwrite with an object from local settings (if there is one)

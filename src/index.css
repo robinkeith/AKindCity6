@@ -1,12 +1,9 @@
-
-
 html, body, .map-container {
     height: 100%;
     width: 100vw;
     margin: 0;
     padding: 0; 
 }
-
 
 .container {
     display: grid;
@@ -15,9 +12,10 @@ html, body, .map-container {
     padding:1px 1px;
     grid-template-areas:
       "pop-location pop-location"
+      "pop-description pop-description"
       "pop-facilities pop-facilities"
-      "pop-availability pop-availability"
-      "pop-operator pop-report"
+      "pop-availability pop-current"
+      "pop-contact pop-contact"
       "pop-meta pop-meta";
     grid-template-columns: 1fr 1fr;
     /*grid-template-rows: 2em 2em 2em 2em 3em;*/
@@ -40,17 +38,25 @@ html, body, .map-container {
   .pop-location {
     grid-area: pop-location;
   }
+  .pop-description {
+    grid-area: pop-description;
+  }
   .pop-facilities {
     grid-area: pop-facilities;
   }
   .pop-availability {
     grid-area: pop-availability;
   }
-  .pop-operator {
-    grid-area: pop-operator;
+  .pop-current {
+    grid-area: pop-current;
+    /*text-align: center;*/
+    /*display: flex;*/
+    justify-content: center;
+    /* align-self: center;    <---- REMOVE */
+    align-items: center;   
   }
-  .pop-report {
-    grid-area: pop-report;
+  .pop-contact {
+    grid-area: pop-contact;
     text-overflow:clip;
 
   }
@@ -58,6 +64,7 @@ html, body, .map-container {
     grid-area: pop-meta;
     text-align: center;
     font-size: smaller;
+    overflow-wrap: break-word;
   }/*
 .leaflet-popup-content-wrapper {
     border-radius: 0;
@@ -74,6 +81,25 @@ html, body, .map-container {
     width:400px;
 }*/
 
+.open-sign{
+  display: block;
+ 
+  margin:.5em 5em;
+  /* Give it a white border */
+  border: 5px solid #fff;
+  /* pad content text away from the edges of the sign */
+  padding: 0.25em 1em .75em;
+  /* give it  a drop shadow and inset shadow at the top */
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.4), 0 5px 10px rgba(0, 0, 0, 0.4);
+  /* setup a default background red and a red gradient where supported */
+  background-color: #0049d1;
+  color:white;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 15px;
+}
+
 .leaflet-control-layers-base{
   display: none;
 }
@@ -85,7 +111,7 @@ html, body, .map-container {
   margin-left: 0.1em;
   margin-right: 0.1em;
   margin-bottom: 0rem;
-  color:white;
+  /*color:white;*/
   height:2em;
 }
 .leaflet-control-layers-overlays label div{
@@ -160,20 +186,3 @@ html, body, .map-container {
 #Tour #Tour-box{
   width:450px;
 }
-
-
-/*
-
-    /*
-  .custom-popup .leaflet-popup-content-wrapper a {
-    color:rgba(255,255,255,0.5);
-    }
-  .custom-popup .leaflet-popup-tip-container {
-    width:30px;
-    height:15px;
-    }*
-      .custom-popup .leaflet-popup-tip {
-    border-left:15px solid transparent;
-    border-right:15px solid transparent;
-    border-top:15px solid #2c3e50;
-    }*/

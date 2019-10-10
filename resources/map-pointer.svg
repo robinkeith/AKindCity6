@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="map-pointer.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   id="svg4655"
+   version="1.1"
+   viewBox="0 0 13.925458 17.587596"
+   height="49.854603pt"
+   width="39.47374pt">
+  <defs
+     id="defs4649" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.9195959"
+     inkscape:cx="-22.831529"
+     inkscape:cy="41.046303"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="1"
+     fit-margin-left="1"
+     fit-margin-right="1"
+     fit-margin-bottom="1"
+     units="pt"
+     inkscape:window-width="1920"
+     inkscape:window-height="1000"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4652">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-7.3058702,-125.86545)">
+    <g
+       id="g13094">
+      <g
+         transform="translate(60.854167,-7.843006)"
+         id="g5261">
+        <path
+           d="m -46.585962,135.05977 c 3.094566,0 5.61287,2.51698 5.61287,5.61207 0,2.06243 -1.539875,3.72057 -2.459566,4.71197 -0.223044,0.23971 -0.416983,0.44794 -0.55589,0.62627 -0.722841,0.92815 -1.893623,2.5691 -2.59715,3.5679 -0.189706,-0.27067 -0.434446,-0.61436 -0.702998,-0.99113 -0.459845,-0.64373 -1.31736,-1.83541 -1.894681,-2.5781 -0.141023,-0.17806 -0.33655,-0.38814 -0.568589,-0.63553 -0.915459,-0.97102 -2.446603,-2.60006 -2.446603,-4.70138 -2.64e-4,-3.09509 2.517246,-5.61207 5.612607,-5.61207 m 0,-0.99854 c -3.645429,0 -6.609557,2.96518 -6.609557,6.61088 0,2.4937 1.69889,4.30212 2.715684,5.38506 l 0.03545,0.0376 c 0.197908,0.21061 0.368035,0.39264 0.474133,0.52811 0.952765,1.22502 2.763838,3.80524 2.970213,4.09945 0.03916,0.0587 0.09366,0.11007 0.154252,0.14844 0.07858,0.0481 0.168804,0.0725 0.259291,0.0725 0.163513,0 0.316971,-0.0791 0.40984,-0.21273 0.01826,-0.0254 1.956858,-2.79744 2.976033,-4.10766 0.11086,-0.14075 0.288396,-0.3339 0.499269,-0.55985 1.019704,-1.09829 2.725737,-2.93767 2.725737,-5.39062 -5.29e-4,-3.64597 -2.965185,-6.61115 -6.610349,-6.61115"
+           id="path861-0"
+           inkscape:connector-curvature="0"
+           style="fill:#0a74ba;stroke-width:0.26458332" />
+        <path
+           d="m -42.14183,140.58345 c 0,-2.49268 -1.99025,-4.51278 -4.444379,-4.51278 -2.45327,0 -4.443092,2.0201 -4.443092,4.51278 0,2.48918 1.99025,4.50886 4.443092,4.50886 2.454129,0 4.444379,-2.01968 4.444379,-4.50886"
+           id="path863"
+           inkscape:connector-curvature="0"
+           style="fill:#0a74ba;stroke-width:0.26458332"
+           sodipodi:nodetypes="csssc" />
+      </g>
+      <text
+         transform="scale(1.0121117,0.98803321)"
+         id="text13002"
+         y="136.40762"
+         x="10.381926"
+         style="font-style:normal;font-weight:normal;font-size:5.67953062px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.14198826"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.14198826"
+           y="136.40762"
+           x="10.381926"
+           id="tspan13000"
+           sodipodi:role="line">Ab</tspan></text>
+    </g>
+  </g>
+</svg>
