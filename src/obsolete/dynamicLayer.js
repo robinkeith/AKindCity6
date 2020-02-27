@@ -22,7 +22,7 @@ L.Control.DynamicLayer = L.Layer.extend({
 //when the data is added to the map, return the current subset
   onAdd: function(map) {
     var pane = map.getPane(this.options.pane);
-    this._container = L.DomUtil.create(…);
+    this._container = L.DomUtil.create();
 
     pane.appendChild(this._container);
 

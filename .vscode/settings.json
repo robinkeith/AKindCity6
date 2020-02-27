@@ -11,5 +11,8 @@
     { "language": "vue", "autoFix": true },
     { "language": "javascript", "autoFix": true },
     { "language": "javascriptreact", "autoFix": true }
-  ]
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }

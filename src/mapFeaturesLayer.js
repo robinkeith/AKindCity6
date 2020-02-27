@@ -6,6 +6,7 @@ import $ from 'jquery'
 import L from 'leaflet'
 import 'leaflet-svgicon'
 import 'leaflet-ajax'
+// eslint-disable-next-line no-unused-vars
 import { UserSettings } from './UserSettings.js'
 import MapFeature from './MapFeature.js'
 
@@ -16,7 +17,8 @@ export function refreshFeatures () {}
 
 /**
  *  Wrapper function that allows loading of multiple data files
- *
+ * @param {Object} map
+ * @param {UserSettings} userSettings
  */
 export function setupFeatures (map, userSettings) {
   load(map, 'data/all.geojson')

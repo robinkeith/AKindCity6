@@ -44,10 +44,15 @@ The following can be ignored:
 
   The process generates a zip file of icons. Unip them to the root of the project folders.
   
-  ## Data Import 
-  Contained in the /back-end/ folder. 
-  Run Debug task 'download' to refresh data from OSM.
+ ## Data Import 
+ Data for the map is exported from OSM in an offline process. 
+ The process is in the /downloader folder. The process has a main entry point of index.js which is a wrapper for main.js which allows a compatability layer for ESM modules.
 
+ To run the process, open a terminal and from the root folder:
+ `````
+ npm run down
+`````
+ This generates some summary and stats files, and a data file in /data/all.geojson
   
  ## PWA Functionality
  Plan:

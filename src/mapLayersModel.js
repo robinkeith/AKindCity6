@@ -21,33 +21,39 @@ export const layer = {
     id: 'food' },
   service: {
     toolbar: { tooltip: 'Shops and Services', hint: '', icon: 'fas fa-parking' },
+
     agricultural: 'service_agricultural',
     beauty: 'service_beauty',
     business: 'service_business',
     children: 'service_children',
-    community: 'service_community',
     communications: 'service_communications',
+    community: 'service_community',
+    electricals: 'service_electricals',
     ethical: 'service_ethical',
+    event:'service_event',
     fashion: 'service_fashion', // fashion + beauty
+    finance: 'service_finance',
     food: 'service_food', // food and supermarkets?
     hardware: 'service_hardware',
-    home: 'service_home', // home and garden
-    hobbies: 'service_hobbies',
     health: 'service_health',
+    hobbies: 'service_hobbies',
+    home: 'service_home', // home and garden
     learn: 'service_learn',
     life: 'service_life',
     other: 'service_other',
     pet: 'service_pet',
     post: 'service_post',
     spiritual: 'service_spiritual',
-    finance: 'service_finance',
     transport: 'service_transport',
-    variety: 'service_variety'  },
+    travel: 'service_travel',
+    variety: 'service_variety' },
   enjoy: {
     toolbar: { tooltip: 'Get here', hint: 'Getting to and from the city', icon: 'fas fa-parking' },
     arts: 'enjoy_arts',
     adult: 'enjoy_adult',
-    children: 'enjoy_children' },
+    children: 'enjoy_children',
+    events: 'enjoy_events',
+   sport:'enjoy_sport' },
   help: {
     toolbar: { tooltip: 'Get here', hint: 'Getting to and from the city', icon: 'fas fa-parking' },
     id: 'help' }

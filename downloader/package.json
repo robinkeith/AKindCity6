@@ -1,0 +1,35 @@
+{
+  "name": "backend2",
+  "version": "1.0.0",
+  "description": "download and preprocess map features from OSM",
+  "main": "main.js",
+  
+  "//module": "main.js",
+  "scripts": {
+    "start": "node ./main.js"
+  },
+  "esm": {
+    "mode": "auto"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mapbox/geojson-area": "^0.2.2",
+    "@turf/turf": "^5.1.6",
+    "better-title-case": "^1.0.1",
+    "country-language": "^0.1.7",
+    "esm": "^3.2.25",
+    "i18next-client": "^1.11.4",
+    "js-yaml": "^3.13.1",
+    "jsonexport": "^2.4.1",
+    "moment": "^2.24.0",
+    "opening_hours": "^3.5.0",
+    "query-overpass": "^1.5.5"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.4"
+  }
+}

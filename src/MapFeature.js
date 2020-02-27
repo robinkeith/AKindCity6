@@ -4,6 +4,7 @@ import $ from 'jquery'
 import html from 'html-escaper'
 import { getIcon } from './iconPool.js'
 import copyToClipboard from 'copy-to-clipboard'
+import { UserSettings } from './userSettings'
 
 /**
  * Provides a wrapper around a feature that is used to control the dynamic elements of a marker
@@ -35,7 +36,7 @@ export default class MapFeature {
     $('.pop-current').html(this.current)
     // $('.pop-operator').html(featureInfo.operator)
     $('.pop-contact').html(this.contact)
-    $('.pop-meta').html(this.meta)
+    if (UserSettings.demoMode) $('.pop-meta').html(this.meta)
 
     let nodeRef = this.tags.id
 
