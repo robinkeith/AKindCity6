@@ -62,7 +62,7 @@
     "csv-stringify": "^5.3.0",
     "html-escaper": "^1.0.1",
     "i18next-client": "^1.11.4",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "jsonexport": "^2.4.1",
     "leaflet": "^1.5.1",
     "leaflet-ajax": "^2.1.0",
