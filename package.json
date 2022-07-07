@@ -81,7 +81,7 @@
     "leaflet-sidebar-v2": "^3.1.1",
     "leaflet-toolbar": "^0.4.0-alpha.2",
     "leaflet.locatecontrol": "^0.67.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "opening_hours": "github:opening-hours/opening_hours.js#master",
     "osm_opening_hours": "^1.0.2",
     "popper.js": "^1.15.0",
